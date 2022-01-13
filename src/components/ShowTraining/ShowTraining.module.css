@@ -1,0 +1,11 @@
+.showtraining {
+  position: relative;
+  left: 328px;
+  top: 64px;
+  background-color: #ebebeb;
+  height: 100%;
+  margin-left: 1px;
+  /* left: 1030px; */
+  width: 75px;
+  height: 50px;
+}

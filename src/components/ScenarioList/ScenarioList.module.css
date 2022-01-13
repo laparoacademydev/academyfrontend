@@ -1,0 +1,92 @@
+.scenariolist {
+  position: relative;
+  left: 328px;
+  top: 64px;
+  background-color: #f8f8f8;
+  height: 100%;
+  margin-left: 1px;
+}
+
+.scenariolistitem {
+  position: relative;
+  width: 850px;
+  left: 0%;
+  right: 5%;
+  height: 105px;
+  justify-content: space-between;
+  padding: 17px;
+  margin-bottom: 1px;
+  background-color: #ffffff;
+}
+
+.scenariolistitem:hover {
+  background: #e6f0f6;
+}
+
+.scenariolistthumbimg {
+  float: left;
+  border-radius: 4px;
+}
+
+/* SCENARIO ITEM */
+
+.slscenariotitle {
+  display: flex;
+  left: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  color: #444444;
+  font-style: normal;
+}
+
+.slscenarioskill {
+  display: flex;
+  left: 15px;
+  position: relative;
+  top: 0px;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+}
+
+/* EDUCATION ITEM */
+
+.sleducationitem {
+  position: relative;
+  width: 850px;
+  left: 0%;
+  right: 5%;
+  height: 105px;
+  justify-content: start;
+  margin-bottom: 1px;
+  padding: 17px;
+  background-color: #ffffff;
+}
+
+.sleducationitem:hover {
+  background: #e6f0f6;
+}
+
+.sleducationtitle {
+  display: flex;
+  left: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  color: rgba(0, 151, 81, 0.555);
+}
+
+.sleducationitemskills {
+  display: flex;
+  width: 400px;
+  word-wrap: inherit;
+  left: 15px;
+  position: relative;
+  top: 0px;
+  font-weight: normal;
+  font-size: 12px;
+  word-wrap: normal;
+  color: black;
+}

@@ -1,0 +1,16 @@
+.topbar {
+  position: fixed;
+  z-index: 9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+  right: 301px;
+  left: 329px;
+  padding: 0.5rem;
+  padding-top: 15px;
+  background-color: #ffffff;
+  /* margin: 0rem auto; */
+  height: 64px;
+}
+
+.topbaritem {
+  top: 50px;
+}

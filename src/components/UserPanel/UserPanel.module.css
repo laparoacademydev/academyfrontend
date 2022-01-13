@@ -1,0 +1,120 @@
+/* INACTIVE USER PANEL */
+
+.inactiveuserpanel {
+  position: fixed;
+  z-index: 12;
+  right: 0px;
+  width: 300px;
+  height: 64px;
+  color: #6d6d6d;
+  background-color: #ffffff;
+}
+
+.inactiveuserpanel:hover {
+  background-color: #f5f5f5;
+}
+
+.inactiveuserpaneltext {
+  position: flex;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.inactiveuserpanel_burger {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+}
+
+/* ACTIVE USER PANEL */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 484px;
+  height: 100%;
+  background-color: #6d6d6d60;
+  z-index: 10;
+}
+
+.userpanel {
+  position: fixed;
+  display: flex;
+  z-index: 12;
+  right: 0px;
+  width: 484px;
+  height: 100%;
+  color: #ffffff;
+  background-color: #00619d;
+}
+
+.userpaneltext {
+  position: fixed;
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+/* ACTIVE USER PANEL ITEMS */
+
+.activeuserpanelitem {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.activeuserpanelitem:hover {
+  background-color: #005990;
+}
+
+.userpanelselection {
+  top: 64px;
+  position: fixed;
+  flex-direction: column;
+  display: flex;
+  height: 64px;
+  z-index: 14;
+}
+.activeuserpanelitemtext {
+  position: relative;
+  margin-left: 18px;
+  top: 19px;
+  display: flex;
+  z-index: 12;
+  right: 0px;
+  width: 484px;
+  height: 64px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ICONS */
+
+.usericon {
+  position: absolute;
+  width: 24px;
+  top: 22px;
+  left: 34px;
+}
+
+.optionicons {
+  position: relative;
+  margin-left: 37px;
+  width: 20px;
+  z-index: 13;
+}
+
+.userpanel_xico {
+  position: absolute;
+  top: 21px;
+  right: 28px;
+}
