@@ -1,0 +1,120 @@
+{
+    "id": "FLS5",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "needle_h",
+        "needle_h"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 112
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 6
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Suture with Intracorporeal Knot Task",
+        "pl": "Zadanie z Szyciem Wewnątrzustrojowym"
+    },
+    "skills": {
+        "en": "FLS, Suturing, Intracorporeal Knot",
+        "pl": "FLS, Szycie, Węzeł Wewnątrzustrojowy"
+    },
+    "description": {
+        "en": "In this exercise the trainee must demonstrate the ability to accurately perform an intracorporeal knot entirely inside the operating area. A needle and suture material are placed inside the operating area and a single surgical knot must be applied to the target structure without accidentally pulling the penrose drain off of the velcro attachment.",
+        "pl": "W tym ćwiczeniu trenujący musi wykazać się umiejętnością dokładnego wykonania węzła wewnątrzustrojowego wewnątrz pola operacyjnego. Wewnątrz pola operacyjnego umieszcza się igłę i szew, a pojedynczy węzeł chirurgiczny musi być założony na strukturę docelową bez zerwania rzepu na którym dren jest przymocowany."
+    },
+    "instructions": {
+        "en": "The exercise begins after the instruments are inserted with the needle loosely held in the right instrument by the suture material. The needle should be held so that a single draw through is performed on the target area. The suture material should then be wrapped twice around the left instrument to make the first throw. Then a second wrap should be peformed once around the right instrument. The resulting square knot (2x1) should be tied precisely and snugly.",
+        "pl": "Ćwiczenie rozpoczyna się po wprowadzeniu narzędzi z igłą luźno przytrzymaną w prawym instrumencie przy nici. Igłę należy trzymać w taki sposób, aby wykonać jedno przekłucie przez obszar docelowy. Następnie nić należy dwukrotnie owinąć wokół lewego narzędzia, aby wykonać pierwszy rzut. Następnie należy wykonać drugie owinięcie wokół właściwego instrumentu. Powstały węzeł kwadratowy (2x1) powinien być dokładnie i ciasno zaciągnięty. "
+    },
+    "preparation": {
+        "en": "The FLS module should be attached inside the operating area along with the penrose drain element. Ideally the exercise should be performed with two needle holders.",
+        "pl": "Moduł FLS należy zamontować wewnątrz obszaru operacyjnego wraz z elementem odpływowym penrose'a. Ćwiczenie powinno być wykonane z dwoma imadłami jeżeli jest to możliwe. "
+    }
+}

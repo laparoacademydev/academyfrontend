@@ -1,0 +1,121 @@
+{
+    "id": "THM4_TDM3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "scissors",
+        "grasper"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 420
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 24
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 130
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Incision and Blunt Dissection",
+        "pl": "Cięcie i Preparowanie na Tępo"
+    },
+    "skills": {
+        "en": "Dissection, Dissector\n",
+        "pl": "Preparowanie, Disektor"
+    },
+    "description": {
+        "en": "When finding and extracting tissues it can often be dangerous to use scissors and sharp instruments due to proximity of sensitive tissues. In those cases the dissector can be used to dissect delicate tissues to expose target structures or to separate them.",
+        "pl": "Podczas szukania i preparowania tkanek, używanie nożyczek i ostrych narzędzi może być niebezpieczne ze względu na bliskość innych wrażliwych tkanek. W takich przypadkach disektor może posłużyć do preparowania w celu odsłonięcia docelowych struktur lub ich rozdzielenia bez zbędnego ryzyka. "
+    },
+    "instructions": {
+        "en": "In this exercise first use scissors to perforate and cut the surface of the module. Then use the dissector to accurately dissect the target element from the rest of the module without cutting through the bottom of the module.",
+        "pl": "W tym ćwiczeniu użyte powinny być nożyczki, aby przebić i przeciąć powierzchnię. Następnie disektorem tkanki powinny być wypreparowane od reszty modułu bez przecinania dolnej części. "
+    },
+    "preparation": {
+        "en": "Insert the Tissue Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
+        "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. "
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "id": "TM2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 210
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Soft Object Manipulation Forward-Back",
+        "pl": "Manipulacja Miękkimi Obiektami Przód-Tył"
+    },
+    "skills": {
+        "en": "Instrument Collaboration, Ambidexterity",
+        "pl": "Współpraca Instrumentami, Współpraca Oburęczna"
+    },
+    "description": {
+        "en": "An important habit which can be developed early in training is to learn to move both instruments together as a unit, throughout any procedure and as often as possible. In this exercise you will learn to do this by moving elastic rubber triangles between pegs forward and back. By moving both instruments as a unit you will avoid focusing too much attention on one instrument while forgetting about the other instrument.",
+        "pl": "Ważnym nawykiem, który można rozwinąć na wczesnym etapie szkolenia, jest nauczenie się poruszania obydwoma instrumentami razem blisko siebie w parze kiedy jest to możliwe. W tym ćwiczeniu trenujący musi przesuwać elastyczne gumowe trójkąty między kołkami Wkładu Napięcia do przodu i do tyłu. Przesuwając oba instrumenty w parze, uczący uniknie skupiania zbyt dużej uwagi na jednym instrumencie i zapominaniu o drugim instrumencie. "
+    },
+    "instructions": {
+        "en": "Begin this exercise by lifting the middle triangle with both instruments. Place it on the peg at the top. Then move the bottom 4 triangles one by one to the top pegs and finally move the last middle triangle to the top peg. Then do this in the reverse order, moving up and down back to the starting positions. At all times try to hold the triangles with both instruments simultaneously. ",
+        "pl": "Rozpocznij to ćwiczenie od podniesienia środkowego trójkąta obydwoma instrumentami. Umieść go na kołku u góry. Następnie przenoś kolejno 4 dolne trójkąty na górę i na koniec przenieś ostatni środkowy trójkąt na górny kołek. Następnie wykonaj to odwrotnej kolejności przenosząc góra-dół spowrotem na pozycje startowe. Przez cały czas staraj się trzymać trójkąty obydwoma instrumentami symultanicznie. "
+    },
+    "preparation": {
+        "en": "Place 4 triangles on the four outermost pegs on the bottom of the module. Then place 2 triangles on the remaining center peg.",
+        "pl": "Umieść 4 trójkąty na czterech skrajnych kołkach na dole modułu. Następnie umieść 2 trójkąty na pozostałym kołku środkowym. "
+    }
+}

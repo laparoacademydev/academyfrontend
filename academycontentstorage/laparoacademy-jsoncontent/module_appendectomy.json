@@ -1,0 +1,130 @@
+{
+    "id": "module_appendectomy",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "appendectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "clipper"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 720
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 22
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 110
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Appendectomy",
+        "pl": "Apendektomia"
+    },
+    "skills": {
+        "en": "Procedure, Appendectomy",
+        "pl": "Procedura, Apendektomia"
+    },
+    "description": {
+        "en": "In this exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction. ",
+        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. "
+    },
+    "instructions": {
+        "en": "The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a pair of scissors should be used at the base to separate the entire appendicular artery before removing the appendix.",
+        "pl": "Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć nozyczek aby przyciąć całą tętnicę wyrostka przed usunięciem. "
+    },
+    "preparation": {
+        "en": "Place the appendectomy module along with the appendix insert into the operating area.",
+        "pl": "Umieścić moduł do appendektomii wraz z wyrostkiem insertem do pola operacyjnego."
+    }
+}

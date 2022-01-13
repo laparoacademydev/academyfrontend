@@ -1,0 +1,132 @@
+{
+    "id": "TM6",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 150
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Twine Manipulation with Dexterity",
+        "pl": "Zręczność w Manipulacji Sznurkiem"
+    },
+    "skills": {
+        "en": "Suturing, Elastics",
+        "pl": "Szycie, Elastyczne"
+    },
+    "description": {
+        "en": "Nearly all target structures and tissues in laparoscopic procedures are elastic to varying degrees. This elasticity is also heightened by the ports which are also located in elastic positions. By executing exercises like this one, in which you must simply pull the twine onto the rubber bands you can see how forces inside the operating area can be difficult to estimate.",
+        "pl": "Prawie wszystkie docelowe struktury i tkanki w procedurach laparoskopowych są elastyczne. Ta elastyczność jest również wzmocniona przez porty, które również znajdują się w elastycznych pozycjach. Wykonując takie ćwiczenia jak to, w którym wystarczy naciągnąć sznurek na gumki, można zobaczyć, jak działają siły wewnątrz pola operacyjnego. "
+    },
+    "instructions": {
+        "en": "Begin with twine at the start position in the bottom peg. Again, do not cross your instruments while removing the entire twine. Place the twine under the rubber bands in the middle. Grab opposite ends and make them touch - creating an X. After success, move the twine to end top position.",
+        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie wyciągnij nie krzyżując instrumentów podczas wyciągania. Umieść sznurek pod 2 gumkami na środku. Chwyć przeciwległe końce i spraw, by się zetknęły - tworząc X. Na koniec włóż sznurek w położenie końcowe w górnym środkowym kołku."
+    },
+    "preparation": {
+        "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
+        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+    }
+}

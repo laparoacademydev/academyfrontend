@@ -1,0 +1,97 @@
+{
+    "id": "edu4_object_directional",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After acquiring basic skill in moving instruments inside the operating area and after developing skill in visualization of 3D space, the laparoscopic surgery trainee is ready to perform exercises leading to the most important practical skill - laparoscopic suturing. For this purpose the surgeon must understand two basic concepts - holding and rotating instruments with long objects like needles and manipulating the suture material.",
+                "pl": "Po zdobyciu podstawowej umiejętności w poruszaniu się instrumentami wewnątrz pola operacyjnego, i po rozwinięciu umiejętności w wizualizacji trójwymiarowej przestrzeni, trenujący jest gotowy na wykonywanie podstawowych ćwiczeń, które później pomogą w najważniejszej umiejętności, czyli w szyciu. Z tej przyczyny chirurg musi zrozumieć dwa podstawowe pojęcia: trzymanie i obracanie instrumentów wraz z dłuższymi elementami(takimi jak igły), oraz manipulacja  nici chirurgicznej."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Long Objects - Needles",
+                "pl": "Długie elementy - igły"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Because the surgeon only has a 2D view and limited monocular cues to go on it is important to develop methods for understanding how a needle is pronated when held by the needle holder. The most useful way of doing this is to hand the object between the instruments to grasp the object at an angle at which it is best visible by the camera, and then to rotate to the desired directional angle. The exercises with cones included in these tutorials are specifically designed to focus the practice on directional guidance.",
+                "pl": "Ponieważ podczas procedury małoinwazyjnej chirurg ma jedynie ograniczony dwuwymiarowy obraz na którym może bazować informacje potrzebne przy obracaniu i kontrolowaniu igły podczas szycia. Podając i obracając obiekt pomiędzy instrumentami możliwe jest przygotowanie odpowiedniego kąta natarcia. Ćwiczenia przy użyciu stożków zostały zaprojektowane w taki sposób aby skupić uwagę ćwiczącego na tych właściwościach.\n"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu4_object_directional_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "An exercise in which the trainee must push through and grasp cones at different angles resembles the way in which the surgeon will later handle needles in suturing.",
+                        "pl": "Ćwiczenie w którym przeprowadzisz i złapiesz stożki pod różniącymi się kątami przypomina sposób w który później będziesz chwytać i przekłuwać igłę podczas szycia."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Threads - Suture Handling",
+                "pl": "Sznurki - zarządzanie nicią"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The included Draw-Through exercises feature an a stiff twine. Exercises performed on real sutures can be very difficult for inexperienced laparoscopic surgeons because the thin material is difficult to control without tangling. By learning to guide, rotate, and direct the twine, the trainee can learn how to later manipulate the suture material.",
+                "pl": "Innym aspektem utrudniającym naukę szycia jest plątanie się samej nici. Ćwiczenia z przeciąganiem sznurków ćwiczą umiejętność przewidywania tego plątania i zarządzania nicią w taki sposób aby nie utrudniała szycia laparoskopowego."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "A noteworthy aspect of manipulating such twine is the fact that because it is thick and made out of plastic, it retains its shape and twist when bent out of shape. This is called 'memory' and real suture material can behave similarly too a lesser extent. Although depending on the specific material type sutures will have slightly different properties. Learning on twine is helpful in developing an understanding of the difficulties involved.",
+                "pl": "Warte podkreślenia jest  to, że sznurek użyty w tych ćwiczeniach jest gruby i plastikowy przez co utrzymuje swój kształt po zgięciu. Ta właściwość nazywana jest  pamięcią. Niektóre prawdziwe nici mają podobne właściwości i są one zależne od materiału, czyli plecionki lub  monofilamentu. Ucząc się na takim sztywnym sznurku trenujący rozwinie podstawowe zrozumienie trudności, które napotyka później."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu4_object_directional_02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Exercises with plastic twine are a good primer on manipulating suture material. Although larger and more stiff, twine retains memory much like suture material does at a smaller scale.",
+                        "pl": "Wykonując ćwiczenia z plastikowym sznurkiem szybko zrozumiesz na czym polega ‘pamięć’ nici."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Basic Skills - Conclusion",
+                "pl": "Umiejętności podstawowe - podsumowanie"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After performing all the exercises of the Basic Skills chapter, you will be ready to move on to learning Basic Suturing Skills. The final exercises in the Basic Skills chapter have been designed to be challenging. We recommend thoroughly repeating all of these exercises at different instrument angles, in different ergonomic positions, and configurations.\n",
+                "pl": "Po wykonaniu wszystkich ćwiczeń w kursie podstawowych umiejętności, trenujący będzie gotowy na kurs szycia podstawowego. Ostatnie ćwiczenia w tym rozdziale zostały zaprojektowane tak, aby były większym wyzwaniem dla trenującego. Rekomendowane jest też powracanie i powtarzanie wszystkich ćwiczeń, stosując przy tym różne lokalizacje portów. Różnorodność pozycji ergonomicznych i konfiguracji omówionych powyżej da trenującemu doświadczenie i pewność w poruszaniu się instrumentami wewnątrz pola operacyjnego."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Object Directional Control and String Guidance",
+        "pl": "Kierunkowa kontrola obiektu i prowadzenie nici"
+    },
+    "subTitle": {
+        "en": "A primer on the basic skills useful later when suturing inside the operating area.",
+        "pl": "Wstęp do podstawowych umiejętności przydatnych w szyciu wewnątrz pola operacyjnego."
+    }
+}

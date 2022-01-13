@@ -1,0 +1,120 @@
+{
+    "id": "BSS3_BKT2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Sliding Knot Intro",
+        "pl": "Węzeł Przesuwny - Wprowadzenie"
+    },
+    "skills": {
+        "en": "Sliding Knot, Suturing",
+        "pl": "Węzeł Przesuwny, Szycie"
+    },
+    "description": {
+        "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. "
+    },
+    "instructions": {
+        "en": "The rope should be threaded through the farthest hole in the platform first. Then wrap the left instrument forwards with the rope on the left side and grab the right side of the rope. When the left instrument is pulled this wrapped rope should slip off the instrument forming the first throw. Next, this maneuver should be repeated on the right side. Wrap the right instrument forwards and grab the left rope and pull to form the second throw. This will result in a simple 1x1 knot when pulled. Then progress down, threading the rope through the remaining holes as shown. Complete the continous pattern with a single surgical knot as shown.",
+        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. Następnie kolejno sznurek powinien być przewleczony przez kolejne otwory na module i ćwiczenie zakończone jest na węźle chirurgicznym pokazanym na filmie."
+    },
+    "preparation": {
+        "en": "Place the basic knot tying platform onto the basic suturing module along with the piece of rope in the operating area.",
+        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. "
+    }
+}

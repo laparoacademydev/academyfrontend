@@ -1,0 +1,70 @@
+{
+    "id": "edu17_eblus",
+    "content": [
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu17_eblus_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "EAU Logo",
+                        "pl": "Logo EAU"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Basic Laparoscopic Urological Skills (E-BLUS) is a standardised examination carried out in the training programme of the European Association of Urology. The purpose is to verify the cognitive, technical and eye-hand coordination skills and laparoscopic knowledge.",
+                "pl": "Podstawowe Laparoskopowe Umiejętności Urologiczne (E-BLUS) to standaryzowane badanie przeprowadzane w ramach programu szkoleniowego Europejskiego Towarzystwa Urologicznego. Celem jest weryfikacja umiejętności koordynacji poznawczej, technicznej i wzrokowo-ruchowej oraz wiedzy laparoskopowej."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The E-BLUS is the result of a joint effort of the European Association of Uro-Technology (ESUT) and the Catharina Hospital in Eindhoven. It is often mandatory in many EU countries and ensures competence allowing subsequent participation in laparoscopic procedures.",
+                "pl": "E-BLUS jest wynikiem wspólnych wysiłków Europejskiego Stowarzyszenia Uro-Technologii (ESUT) i Szpitala Catharina w Eindhoven. Często, w niektórych krajach UE jest obowiązkowy i zapewnia kompetencje umożliwiające późniejszy udział w zabiegach laparoskopowych."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "All materials for studying for the exam are available online at uroweb.org. The learner prepares with a theoretical course covering all the necessary knowledge and information, this is then followed with practical testing. The practical curriculum begins at basic skills and simple maneuvers and is followed by complex tasks involving challenging steps full of procedures and ends with complete simulated surgeries.",
+                "pl": "Wszystkie materiały do nauki do egzaminu są dostępne online na uroweb.org. Uczeń przygotowuje się do kursu teoretycznego obejmującego całą niezbędną wiedzę i informacje, po którym następuje test praktyczny. Praktyczny program nauczania zaczyna się od podstawowych umiejętności i prostych manewrów, po czym następują złożone zadania obejmujące trudne kroki pełne procedur, a kończy się kompletnymi symulowanymi operacjami."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The E-BLUS exam is made up of five tasks which evaluate bi-manual dexterity, eye-hand coordination, spatial perception and skills in intraoperative suturing, clipping and cutting.",
+                "pl": "Egzamin E-BLUS składa się z pięciu zadań, które oceniają dwuręczną zręczność, koordynację wzrokowo-ruchową, percepcję przestrzenną oraz umiejętności śródoperacyjnego szycia, obcinania i cięcia."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "We here at Laparo Medical Simulators highly recommend that trainees follow the included Basic Skills and Basic Suturing Skill training paths to hone their skill. Those exercises will walk the trainee through smaller difficulty increments step-by-step, breaking down skills into simpler components. This practice is beneficial for performance with E-BLUS exercises.",
+                "pl": "Laparo Medical Simulators zaleca, aby ćwiczący podążali za dołączonymi ścieżkami treningowymi: Umiejętności podstawowe i Podstawowe umiejętności szycia. Ćwiczenia te prowadzą krok po kroku, rozkładając umiejętności na czynniki pierwsze. Ta praktyka jest korzystna dla wydajności z ćwiczeniami E-BLUS."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Disclaimer:\nThe E-BLUS-Compatible components and courses made by Laparo Medical Simulators are not endorsed or verified by the European Association of Urology. Because of this they may not be completely identical to the actual devices used for certification and differences may exist.\n",
+                "pl": "Zastrzeżenie:\nKomponenty i kursy kompatybilne z E-BLUS wykonane przez Laparo Medical Simulators nie są zatwierdzone ani weryfikowane przez Europejskie Stowarzyszenie Urologiczne. Z tego powodu mogą nie być identyczne z rzeczywistymi urządzeniami używanymi do certyfikacji i mogą istnieć różnice.\n"
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "European Basic Laparoscopic Urology Skills - E-BLUS",
+        "pl": "European Basic Laparoscopic Urology Skills - E-BLUS"
+    },
+    "subTitle": {
+        "en": "A description of the standard for verifying Laparoscopic skill developed by the European Association of Urology",
+        "pl": "Opis standardu weryfikacji umiejętności rozwijanego przez Europejskie Stowarzyszenie Urologiczne"
+    }
+}

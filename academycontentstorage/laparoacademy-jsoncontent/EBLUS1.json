@@ -1,0 +1,121 @@
+{
+    "id": "EBLUS1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "needle_h",
+        "needle_h",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 268
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Needle Guidance",
+        "pl": "Prowadzenie Igły"
+    },
+    "skills": {
+        "en": "E-BLUS, Suturing, Ambidexterity",
+        "pl": "E-BLUS, Szycie, Oburęczna zręczność"
+    },
+    "description": {
+        "en": "In the first E-BLUS standard exercise, the ability to smoothly manipulate the needle with suture is tested. The trainee must navigate the needle through the holes through a series of holes. The purpose of the exercise is to verify the ability to maintain control over the needle with both instruments and at a variety of different angles. ",
+        "pl": "W pierwszym ćwiczeniu standardu E-BLUS sprawdzana jest umiejętność płynnego manipulowania igłą przy pomocy imadeł. Trenujący musi przeprowadzić igłę przez szereg otworów. Celem ćwiczenia jest weryfikacja umiejętności kontrolowania igły obydwoma instrumentami pod różnymi kątami."
+    },
+    "instructions": {
+        "en": "The needle should be driven through the holes in the order indicated on the module. According to the E-BLUS standard two needle drivers should be used with one braided suture and a 3-0 with curved needle. The entire exercise should be completed within 268 seconds. Alternatively the exercise may be executed with one needle driver and dissector if two needle drivers are not available to the trainee.",
+        "pl": "Igłę należy przeprowadzić przez otwory w kolejności wskazanej na module. Zgodnie ze standardem E-BLUS powinny być użyte dwa imadła z jednym szwem plecionymi igłą 3-0. Całe ćwiczenie powinno być wykonane w maksimum 268 sekund. Ćwiczenie może być również wykonane przy pomocy jednego imadła i disektora jeśli dwa imadła nie są dostępne."
+    },
+    "preparation": {
+        "en": "Place the module in the operating area and prepare a needle with approximately 20-30cm of suture material available.",
+        "pl": "Moduł powinien być umieszczony wewnątrz pola operacyjnego i powinna zostać wprowadzona igła wraz z 20-30cm nici."
+    }
+}

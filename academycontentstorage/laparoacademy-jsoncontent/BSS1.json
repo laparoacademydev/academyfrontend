@@ -1,0 +1,120 @@
+{
+    "id": "BSS1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Suture Manipulation Intro",
+        "pl": "Wprowadzenie do Manipulacji Nicią"
+    },
+    "skills": {
+        "en": "Suturing",
+        "pl": "Suturing"
+    },
+    "description": {
+        "en": "The purpose of this exercise is to introduce the trainee to the difficulty of suture manipulation without the presence of a needle.",
+        "pl": "Celem tego ćwiczenia jest wystawienie uczestnika szkolenia na trudności w manipulowaniu szwami bez użycia igły. "
+    },
+    "instructions": {
+        "en": "In this exercise the trainee must manipulate a single 10cm piece of suture material through holes in the module. Begin with the largest hole closest to the start position and progress to the smaller holes.",
+        "pl": "W tym ćwiczeniu uczący musi manipulować pojedynczym 10 cm kawałkiem materiału do szycia przez otwory w module. "
+    },
+    "preparation": {
+        "en": "Place the Basic Suturing Platform with the Fin module in the center. Place 10cm of suture material into the needle start position as pictured.",
+        "pl": "Umieść Platformę do Szycia Podstawowego wraz z elementem początkowym na środku. Umieść 10cm nici w pozycji początkowej."
+    }
+}

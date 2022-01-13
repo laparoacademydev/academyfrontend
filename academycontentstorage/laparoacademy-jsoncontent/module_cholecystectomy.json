@@ -1,0 +1,130 @@
+{
+    "id": "module_cholecystectomy",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "angle": 0,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "cholecystectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 130,
+        "main2mm": 130,
+        "plat1deg": 40,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 130,
+            "angle_deg": 30,
+            "height_mm": 15
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 130,
+        "angle_deg": 30,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "clipper"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 900
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Cholecystectomy",
+        "pl": "Cholecystektomia"
+    },
+    "skills": {
+        "en": "Procedure, Cholecystectomy, CVS",
+        "pl": "Procedura, Cholecystektomia, CVS"
+    },
+    "description": {
+        "en": "In this virtual reality exercise the objective is to perform an entire cholecystectomy. The first step is to sufficiently dissect the tissue and properly visualize the structures. Next, the trainee must find the relevant ducts, assess the Critical View of Safety and accurately place clips on the vessels and ducts before cutting them. The final step simulated in this virtual reality procedure is the actual use of monopolar energy to dissect the gallbladder away from the surface of the bladder without causing damage to the surrounding tissues and to 'remove' the gallbladder from the operating area.",
+        "pl": "Celem tego ćwiczenia jest wykonanie całej cholecystektomii w wirtualnej rzeczywistości. Pierwszym krokiem jest dostateczne rozcięcie i rozpreparowanie tkanki i odpowiednia wizualizacja struktur ukrytych pod powierzchnią. Następnie ćwiczący musi znaleźć odpowiednie przewody, ocenić tzw. krytyczny widok bezpieczeństwa (CVS) i dokładnie umieścić klipsy na naczyniach i przewodach przed przecięciem. Finalnym etapem symulowanym w tej procedurze jest faktyczne użycie energii monopolarnej do oddzielania pęcherzyka żółciowego od powierzchni pęcherza bez powodowania uszkodzenia otaczających tkanek i „usunięcia” pęcherzyka żółciowego z pola operacyjnego. "
+    },
+    "instructions": {
+        "en": "The trainee must first use the grasper and dissector to properly grasp the base of the gallbladder and then use the dissector to dissect the tissue in the Calot's triangle. The objective is to properly expose the cystic duct and the artery which both lead into the gallbladder and are concealed beneath the surface of the tissues surrounding them. Upon properly identifying and assessing these structures the trainee must bring in the clip applicator and apply clips to the duct and artery. Theoretically 3 clipps should be used per vessel, 2 clips on the patient side of the vessel and 1 on the side of the gallbladder. In this way when these vessels are cut, there is a limited danger of the vessels rupturing or of the gallbladder itself leaking bile into the operating area.",
+        "pl": "Ćwiczący musi najpierw użyć graspera i disektora, aby prawidłowo chwycić podstawę pęcherzyka żółciowego, a następnie użyć disektora, aby rozpreparować tkankę w trójkącie Calota. Celem jest prawidłowe odsłonięcie przewodu torbielowatego i tętnicy, które prowadzą do pęcherzyka żółciowego i są ukryte pod powierzchnią otaczających je tkanek. Po prawidłowym zidentyfikowaniu i ocenie tych struktur, szkolony musi wprowadzić klipsownicę i założyć klipsy na przewód i tętnicę. Teoretycznie należy zastosować 3 klipsy na naczynie, 2 klipsy po stronie pacjenta i 1 po stronie pęcherzyka żółciowego. W ten sposób, gdy te naczynia zostaną przecięte, istnieje ograniczone niebezpieczeństwo pęknięcia naczyń lub wycieku żółci z samego pęcherzyka żółciowego do obszaru operacyjnego."
+    },
+    "preparation": {
+        "en": "Place the cholecystectomy module along with the gallbladder insert into the operating area.",
+        "pl": "Umieścić moduł do cholecystektomii wraz z woreczkiem insertem do pola operacyjnego."
+    }
+}

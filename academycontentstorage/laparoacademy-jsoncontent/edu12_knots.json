@@ -1,0 +1,187 @@
+{
+    "id": "edu12_knots",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Keeping the Work Area Clean",
+                "pl": "Utrzymywanie porządku w polu operacyjnym"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu12_knots_04.png",
+                    "type": "image",
+                    "label": {
+                        "en": "It can be helpful to always hold instruments inside of an imaginary circle. The image on the left demonstrates how the suture material can tangle. To avoid this simply keep all of the extra suture outside of the circle - don't worry, it won't get tangled! ",
+                        "pl": "Pomocne może być trzymanie instrumentów wewnątrz wyobrażonego koła. Obraz po lewej pokazuje jak nić się może zaplątać na polu operacyjnym. Aby tego uniknąć możesz odepchnąć nić poza koło - nie martw się, nić się tam nie zaplącze!"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "One of the biggest mistakes beginners and practitioners alike make when performing intracorporeal suturing is in simply not keeping the target area clear. When several pieces of suture material tangle in and around the target tissues it can become difficult to properly visualize the available suture and it can become tangled or even knotted. It is helpful to visualize a circle and to keep only the necessary suture material inside of it. Interestingly, when pushed out of field of view, there is no danger of the suture material becoming tangled so there is no need to keep all of the suture visible at all times. When only the necessary sutures are visible it is much easier to wrap and knot sutures with confidence.\n",
+                "pl": "Jednym z błędów, które podczas nauki szycia trapią mniej doświadczonych trenujących jest nie utrzymywanie uporządkowanego i czystego pola operacyjnego. Kiedy kilka centymetrów nici plącze się wokół docelowych tkanek, trudną może się stać odpowiednia wizualizacja dostępnej nici. Pomocne jest wizualizowanie sobie kółka i utrzymywanie wyłącznie potrzebnej nici wewnątrz niego. Co ciekawe, kiedy reszta nici odepchnięta jest poza to kółko to nie ma tak naprawdę niebezpieczeństwa plątania się tej nici poza widokiem. Kiedy widoczna jest jedynie potrzebna nić,owijanie i kreowanie potrzebnych pętli i węzłów jest o wiele łatwiejsze."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "The lack of wrist control on the instrument tips themselves is one of the most tricky aspects of laparoscopic suturing. To make and tie loops it is necessary to wrap the suture onto the instruments.",
+                "pl": "Brak kontroli nad ruchem nadgarstków przy końcówkach samych instrumentów jest jednym z największych utrudnień przy szyciu wewnątrz pola operacyjnego w laparoskopii."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Loose Needle Handling",
+                "pl": "Zarządzanie luźną igłą"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The single most dangerous component present in the laparoscopic operating area is the needle. Mishandling the needle can lead to serious complications and it can cause serious damage to the surrounding tissues. However, what is often surprising to laparoscopic surgery trainees is that the needle is only really dangerous when it is held by the needle holder. When held by this instrument the needle should be considered 'armed' as even the smallest movements give the sharp tip enough force to cause damage. To avoid this, the needle can simply be left loose and suturing can be performed on the suture material itself. Without the needle holder the needle is mostly harmless as it does not have enough weight or force on it's own to cause damage. It can simply be left lying on the surrounding tissues.",
+                "pl": "Jednym z najniebezpieczniejszych elementów obecnych wewnątrz pola operacyjnego jest igła. Niepoprawne zarządzanie igłą może może wyrządzić poważne szkody otaczającym tkankom. Co często może być zaskakujące dla trenujących, igła jest niebezpieczna jedynie wtedy, kiedy jest sztywno trzymana przez imadło. Nawet najmniejsze ruchy imadła dają wtedy igle wystarczającą siłę, aby przebijać się przez tkanki. Aby tego uniknąć wystarczy położyć igłę luzem i manipulować jedynie za pomocą nici. Bez sztywnej siły imadła igła jest bezpieczna, ponieważ sama w sobie nie ma wystarczającego ciężaru i siły, aby poważnie uszkodzić tkanki. Igłę można po prostu położyć na otaczających tkankach."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "C Method",
+                "pl": "Metoda 'C'"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The lack of wrist control on the instrument tips themselves is one of the most tricky aspects of laparoscopic suturing. To make and tie loops it is necessary to wrap the suture onto the instruments. This can be difficult to do effectively because without the ability to bend the tips of the instruments, as in robotic surgery loops made on the instrument tips can easily fall off.",
+                "pl": "Brak kontroli nad ruchem nadgarstków przy końcówkach samych instrumentów jest jednym z największych utrudnień przy szyciu laparoskopowym. Aby poprawnie wiązać pętelki, konieczne jest owijanie nici wokół narzędzi. Jest to trudne, ponieważ pętelki łatwo spadają z końcówek."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "This is where the C-Method can be helpful for beginners. In this method you should pay attention to the loops which are formed from the exit point on the edge. Keep as much of the suture outside of the field of vision as possible and form a C-shape at the exit point.\n",
+                "pl": "Metoda „C” jest tutaj bardzo pomocna dla początkujących. W tej metodzie uczący powinien zwrócić uwagę na pętle, które powstają na nici przy krawędzi. Jeśli utrzyma się zbędną nić poza polem widzenia, a tą, która wychodzi z krawędzi tkanki to będzie łatwe uzyskanie kształtu C przy wyjściu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When you grab the long end of the suture and keep this C-shape and insert the left instrument into the C and up against the surface. Next hold this left instrument still and move the right instrument with the suture over the top and press up against the surface on the other side. This will pin the suture and when you lift the left instrument a loop will lift around it and you will be able to further wrap subsequent loops with the right instrument before grabbing the other side suture.\n",
+                "pl": "Kiedy złapiemy za długi kawałek nici i utrzymamy kształt C, to będziemy mogli włożyć w literę C instrument i przyłożyć go do powierzchni. Następnie jeśli utrzymamy ten przyłożony instrument nieruchomo to drugim możemy przełożyć nić ponad nim i przycisnąć ją też do powierzchni. Podnosząc pierwszy instrument samoistnie wytworzy się wokół niego pętelka i możliwe będzie owinięcie kolejnej pętli wokół niego przed złapaniem drugiej nici drugą stroną."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "If you keep the instrument tips close during this maneuver, the suture will remain loose, allowing instrument rotation and memory of the suture material itself to fit around the tips of the instruments.",
+                "pl": "Manewr ten będzie łatwy jeśli dodatkowo utrzymasz końcówki instrumentów blisko siebie. Dzięki temu nić pozostanie luźna, pozwalając na rotację instrumentów. Pamięć samej nici dodatkowo pomoże w owijaniu się jej wokół instrumentów."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu12_knots_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "C-Method visualization - The benefit of this technique is that pinning the suture and the instrument up against a surface will prevent the suture from falling off the instruments in mid-air.",
+                        "pl": "Metoda „C” - dzięki tej technice możesz szybko i automatycznie owiać nić wokół instrumentów i uniknąć ześlizgiwanie się nici z instrumentów."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Using needle end to extend the wrap motion.",
+                "pl": "Używanie igły aby przedłużyć zasięg owijania"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Another method which can make wrapping suture material around the instruments easier is using the needle. By holding the sharp end of the needle at certain angles it is actually possible to extend reach with the suture around the other instrument in such a way that would normally not be available otherwise.",
+                "pl": "Inną metodą ułatwiającą owijanie nici wokół instrumentów jest używanie igły. Łapiąc za ostrą końcówkę igły pod odpowiednim kątem możliwe jest sięgnięcie nicią wokół drugiego instrumentu w sposób, który byłby niemożliwy przy pomocy samego instrumentu."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu12_knots_ 02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "An example of the needle being used to wrap the suture around the instrument.",
+                        "pl": "Trzymając za końcówkę igły możesz użyć jej aby owinąć nić wokół instrumentu kiedy kąt na to nie pozwala."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Prepare the desired needle position ahead of time.",
+                "pl": "Wcześniejsze przygotowanie pożądanej pozycji igły"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When suturing continuously or when making multiple entries and exits with a needle, it can become time-consuming to reposition the needle in the needle holder each and every single time.",
+                "pl": "Podczas szycia ciągłego wykonując kolejne przekłucia igłą, przekładanie jej i przygotowywanie pozycji pomiędzy każdym przekłuciem może stać się żmudne i czasochłonne."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "This can be avoided when pulling the needle through the tissue, by simply not pulling it all the way immediately, but instead grabbing it at the desired point while it is still lodged in the tissue. In this way the needle will be immediately ready for the next movement and at or near the desired angle.",
+                "pl": "Dobrym sposobem na oszczędzenie czasu i energii może być nie wyciąganie igły całkowicie, wykorzystywanie istniejącej pozycji tak, aby przedwcześnie złapać ją imadłem pod odpowiednim kątem. Tym sposobem wyciągając igłę z tkanki, pozycja w imadle daje możliwość natychmiastowego wykonania kolejnego przekłucia pod pożądanym kątem."
+            }
+        },
+        {
+            "type": "image",
+            "text": {
+                "en": "Visualisation of grabbing the needle before it leaves the punctured tissue.",
+                "pl": "Przykład techniki łapania igły przed wykłuciem jej z tkanki."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Planning ahead and predicting needle angles ahead of time is a great way to save the surgeon much time and unnecessary effort. Because laparoscopic technique deteriorates within hours, saving energy and prolonging effectiveness has an impact on overall performance.",
+                "pl": "Wcześniejsze planowanie i przewidywanie kątów igieł jest dobrym sposobem na oszczędzenie czasu i wysiłku. Z upływem czasu operowania bądź ćwiczenia technika pogarsza się, ręce męczą się, ruchy stają się mniej precyzyjne. Tak więc umiejętne posługiwanie się igłą wydłuża możliwy czas pracy i poprawia wydajność."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Failures",
+                "pl": "Defekty"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Failure of the knotted suture loop may result from slippage or breakage as well as the suture cutting through tissues, crushing of the suture by surgical instruments and other unforeseen circumstances. Initially, the knotted suture will fail by slippage which results in untying of the knot. This can be seen as somewhat normal as all knots slip to some degree regardless of the type of suture material. When this slippage occurs the cut ends of the knot must provide additional material to compensate for the enlarged suture loop. In general, surgeons recommend these ends be more than 3mm to accommodate for this loosening.",
+                "pl": "Węzły mogą się psuć z wielu różnych przyczyn. Czasami nić się urywa, czasami nić przecina tkankę, a czasami instrumenty zgniatają samą nić. Początkowo zawsze węzeł poluzowuje się i puszcza kilka mm. W gorszych przypadkach węzeł może się poluzować tak bardzo, że rozwiąże się całkowicie. Jest to normalne, więc ważne jest pozostawienie do 3 mm końcówek dla luzów i zakładanie możliwie największej liczby węzłów."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Suture Patterns and Techniques",
+        "pl": "Rodzaje szwów i techniki"
+    },
+    "subTitle": {
+        "en": "Techniques helpful in making complex laparoscopic suturing patterns easier.",
+        "pl": "Techniki pomocne w ułatwieniu skomplikowanych manewrów w szyciu laparoskopowym."
+    }
+}

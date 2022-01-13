@@ -1,0 +1,132 @@
+{
+    "id": "DM3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "dexterity_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 150
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 6
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 35
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Object Rotation and Direction",
+        "pl": "Obrót i Kierunek Obiektu"
+    },
+    "skills": {
+        "en": "Manipulation of Long Objects, Instrument Collaboration, Rotation, Suturing",
+        "pl": "Manipulacja Podłużnych Obiektów, Współpraca Instrumentami, Obracanie, Szycie"
+    },
+    "description": {
+        "en": "When suturing in laparoscopy we must use the instruments to rotate and position the needle into various positions. In this exercise you will manipulate long cones into target locations. By doing so you will develop an understanding of rotation and positioning of such long objects accurately without depth perception and with limited tactile feedback.",
+        "pl": "Podczas szycia w laparoskopii musimy używać narzędzi do precyzyjnego obracania i ustawiania igły w różnych pozycjach. W tym ćwiczeniu długie stożki muszą być umieszczane w lokalizacjach docelowych. W ten sposób ćwiczący rozwinie zrozumienie rotacji i pozycjonowania tak długich obiektów dokładnie, bez dostępnej percepcji głębi."
+    },
+    "instructions": {
+        "en": "Grab cones from the center basket one by one. Rotate them inside the grasper/dissector until they can be fit into the 8 holes in top corner holes. Repeat until all 8 cones are in holes.",
+        "pl": "Chwytaj stożki kolejno ze środkowego kosza. Obracaj je wewnątrz chwytaka/dysektora, aż zmieszczą się w 8 otworach w górnych otworach narożnych. Powtarzaj, aż wszystkie 8 stożków znajdzie się w otworach. "
+    },
+    "preparation": {
+        "en": "Place 10 cones in the center basket of the Dexterity Module.",
+        "pl": "Umieść 10 stożków w środkowym koszu Modułu Zręczności. "
+    }
+}

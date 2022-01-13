@@ -1,0 +1,121 @@
+{
+    "id": "ASS3_ASP4",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1200
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 150
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Anastomosis End-to-End",
+        "pl": "Zespolenie End-to-End"
+    },
+    "skills": {
+        "en": "Anastomosis, Suturing, Sliding Knot",
+        "pl": "Zespolenie, Szycie, Węzeł Przesuwny"
+    },
+    "description": {
+        "en": "Anastomosis in all of it’s combinations is the best way to develop advanced laparoscopic suturing skill. In this combination, end-to-end, two loose ends of penrose drain must be brought together with sliding knots.",
+        "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, dwa luźne końce drenu penrose muszą być połączone ze sobą na zaawansowanej platformie do szycia. "
+    },
+    "instructions": {
+        "en": "Begin with the areas of the penrose drain lowest on the module. Use a single sliding knot to properly bring these two edges together. Continue with approximately 6 knots until all sides of the penrose drain are properly fixed together. A proper anastomosis should allow for an opening, be sure to inspect the results of your work to verify quality.",
+        "pl": "Ćwiczenie powinno być zaczęte od części drenów najniżej na module. Pojedynczy węzeł przesuwny powinien być użyty aby zbliżyć i połączyć ze sobą dwie krawędzie. Trenujący powinien kontynuować, zakładając kolejne węzły przesuwne, aż cała długość krawędzi drenu zostanie poprawnie zespolona. Prawidłowe zespolenie powinno umożliwić drożność, należy sprawdzić zespolenie, aby zweryfikować jakość."
+    },
+    "preparation": {
+        "en": "Two short ends of penrose drain should be stretched inside the suturing platform facing each other and at a distance of 1 cm. The start position for the needle should be located on the top of the Advanced Suturing Platform.",
+        "pl": "Dwa krótkie elementy drenu penrose'a należy rozciągnąć wewnątrz platformy szyjącej, zwrócone do siebie w odległości 1 cm. Pozycja początkowa igły powinna znajdować się na górze zaawansowanej platformy do szycia. "
+    }
+}

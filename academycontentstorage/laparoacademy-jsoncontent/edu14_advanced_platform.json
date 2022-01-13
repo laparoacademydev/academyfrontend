@@ -1,0 +1,29 @@
+{
+    "id": "edu14_advanced_platform",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The limited amount of space available inside the operating area can increase difficulty. Although this should always be planned for by the surgeon, when selecting port location, complications may nevertheless occur. In such situations it is especially useful to have sufficient skills available to respond and apply an unforeseen and unplanned knot in a difficult location.",
+                "pl": "Ograniczając ilość dostępnej przestrzeni wokół miejsca w polu operacyjnym możliwe jest podniesienie trudności ćwiczenia. Chociaż wszelkie utrudnienia powinny być zawsze z góry przewidziane przez chirurga podczas wyboru portów, to wciąż zawsze mogą wystąpić komplikacje w trakcie operacji. W takich sytuacjach szczególnie przydatne są umiejętności pozwalające na reakcję, na nieprzewidziany czy niezaplanowany szew w trudnej lokalizacji."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Advanced Suturing Platform exercises in this course allow the practice with an additional limitation of space. When suturing with this add-on, instruments have a limited amount of lateral space available. The surgeon must take this into account when planning each movement. We recommend trainees practice suturing with this platform as much as possible, as suturing like this develops a habit of never deviating with the instruments away from the target tissues.",
+                "pl": "Ćwiczenia wykonywane w tym kursie, na zaawansowanej platformie do szycia pozwalają na praktykę w takich trudno dostępnych miejscach. Chirurg musi wziąć to ograniczenie pod uwagę i dostosować każdy ruch. Rekomendowane jest też trenowanie z tym ograniczeniem ponieważ pozwala na rozwinięcie innego dobrego nawyku - nie wychodzenia poza pole widzenia instrumentami, oraz ogólnie nie odchodzenie nimi dalej od operowanego miejsca."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Advanced Suturing Platform",
+        "pl": "Platforma do szycia zaawansowanego"
+    },
+    "subTitle": {
+        "en": "Constraint and Limitation as the key to developing advanced laparoscopic suturing skill.",
+        "pl": "Ograniczenie przestrzenne jako klucz do rozwijania zaawansowanej techniki szycia laparoskopowego."
+    }
+}

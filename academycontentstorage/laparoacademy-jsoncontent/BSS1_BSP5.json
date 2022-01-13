@@ -1,0 +1,121 @@
+{
+    "id": "BSS1_BSP5",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 210
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Single Sliding Knot Vertical",
+        "pl": "Węzeł Przesuwny Orientacja Pionowa"
+    },
+    "skills": {
+        "en": "Sliding Knot, Suturing",
+        "pl": "Węzeł Przesuwny, Szycie"
+    },
+    "description": {
+        "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. "
+    },
+    "instructions": {
+        "en": "First use the needle holder to take the needle from the start position and apply a normal throw. Then apply two single loose loops in the 1x1 pattern as shown. When pulled on the left side, this knot will convert into a sliding knot. By pulling on this end further the loop can tighten onto the target tissue. To ‘lock’ the sliding knot simply pull on the opposite end and apply one more single throw to complete. ",
+        "pl": "Najpierw użyj imadła, aby wyjąć igłę z pozycji początkowej i zastosować normalny rzut. Następnie zastosuj dwie pojedyncze luźne pętle w układzie 1x1, tak jak pokazano. Po pociągnięciu z lewej strony węzeł ten zamieni się w węzeł przesuwny. Pociągając za ten koniec dalej, pętla może zaciskać się na tkance docelowej. Aby „zablokować” węzeł, po prostu pociągnij za przeciwny koniec i wykonaj jeszcze jeden pojedynczy rzut, aby zakończyć. "
+    },
+    "preparation": {
+        "en": "Place the needle in the start position at the top of the module and the small suturing component vertically as shown.",
+        "pl": "Umieść igłę w pozycji początkowej na górze modułu, a mały element zszywający pionowo, jak pokazano. "
+    }
+}

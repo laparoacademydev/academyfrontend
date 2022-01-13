@@ -1,0 +1,132 @@
+{
+    "id": "TM7",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 11
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Draw-Through with Obscurity",
+        "pl": "Przewlekanie przez Elementy Zasłonięte"
+    },
+    "skills": {
+        "en": "Suturing",
+        "pl": "Szycie"
+    },
+    "description": {
+        "en": "This final Basic Skills exercise is an expansion of the ideas presented earlier. By guiding the twine through these complex shapes you will demonstrate that you have developed sufficient skill in moving and manipulating laparoscopic instruments. ",
+        "pl": "To ostatnie ćwiczenie w kursie Podstawowych Umiejętności jest rozwinięciem pomysłów przedstawionych wcześniej. Prowadząc sznurek przez te skomplikowane kształty, trenujący pokaże, że posiada wystarczająco dużo umiejętności w poruszaniu i manipulowaniu instrumentami laparoskopowymi. "
+    },
+    "instructions": {
+        "en": "Create an M shape going between holes of posts at the top. Begin with the twine in starting position and remove in the beginning. Then place the twine in the bottom hole of the far left post. Pull through twine and draw through the tip of the next far left post. Then pull the twine down, between the green rubber band and into the bottom hole of the center post. Avoid jolts and sudden movements and push through portions of the twine. Pull the twine between the next rubber bands and insert into the hole on the top of the near-right post. Complete the exercise by pushing the tip of the twine into the bottom hole of the remaining far right post.",
+        "pl": "Utwórz docelowo kształt M przechodzący pomiędzy otworami słupków u góry. Rozpocznij od sznurka w pozycji wyjściowej i usuń. Następnie umieść sznurek w dolnym otworze skrajnego lewego słupka. Przeciągnij sznurek i przeciągnij przez wierzchołek następnego lewego słupka. Następnie pociągnij sznurek w dół, między zieloną gumką i do dolnego otworu słupka środkowego. Unikaj szarpnięć i gwałtownych ruchów oraz przepychaj fragmenty sznurka. Przeciągnij sznurek pomiędzy kolejnymi gumkami i włóż do otworu na górze prawego słupka, tym razem od tyłu. Zakończ ćwiczenie, wpychając końcówkę sznurka w dolny otwór pozostałego skrajnego prawego słupka. "
+    },
+    "preparation": {
+        "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
+        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+    }
+}

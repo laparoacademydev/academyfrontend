@@ -1,0 +1,121 @@
+{
+    "id": "FLS3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 53
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Ligating Loop Task",
+        "pl": "Zakładanie Pętli"
+    },
+    "skills": {
+        "en": "FLS, Endo-Loop, Extracorporeal Knot",
+        "pl": "FLS, Endo-Loop, Węzeł Pozaustrojowy"
+    },
+    "description": {
+        "en": "The ligating loop task of the FLS verifies the trainee’s skill with pulling and attaching ligating loops with precision and speed. In the exercise below you will perform 4 repeated ligating loops, but on the FLS test only one must be applied. The task should be practiced until it can be performed in 53 seconds with up to 1mm accuracy errors on the markings on the tips of the red foam. This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions.\n",
+        "pl": "Zadanie z podwiązywaniem pętli w systemie FLS weryfikuje umiejętności osoby szkolonej w zakresie ciągnięcia i mocowania pętli z podwiązywaniem szybko i precyzyjnie. W poniższym ćwiczeniu powinny być wykonane 4 pętle do podwiązywania, aczkolwiek w oficjalnym teście FLS należy zastosować tylko jedną. Zadanie powinno być ćwiczone, aż będzie można je wykonać w ciągu 53 sekund z błędem dokładności do 1 mm od oznaczeń na końcach czerwonej pianki.Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach."
+    },
+    "instructions": {
+        "en": "Begin the exercise and apply the first loop onto the left element, targeting as close to the marked line as possible. Complete the exercise by applying four loops around each target element.",
+        "pl": "Pojedyncza pętla powinna być zawiązana poza trenażerem i powinna być wprowadzona przy pomocy disektora. Cztery kolejne pętle powinny być przymocowane wokół każdego elementu docelowego. "
+    },
+    "preparation": {
+        "en": "Clip the red foam insert into the Tissue Holder Module and place it in the operating area. Prepare four pieces of 30cm suture material and tie standard sliding knots around each one.\n",
+        "pl": "Czerwona wkładka piankowa powinna być przymocowana do modułu trzymania tkanek. Cztery 30 cm nici powinny być przygotowane z zawiązanymi pętlami z węzłów przesuwnych."
+    }
+}

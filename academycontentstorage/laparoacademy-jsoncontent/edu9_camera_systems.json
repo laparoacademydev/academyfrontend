@@ -1,0 +1,146 @@
+{
+    "id": "edu9_camera_systems",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Laparoscope",
+                "pl": "Laparoskop\n"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The laparoscope usually houses a Hopkins Rod-Lens system in which two channels run within a single tube. An eyepiece and a light post is located on one end and a small angled tip is on the other. Light fibers transmit light to the tip and a core channel consists of multiple lenses which capture and transmit the optical image to the camera head. Compressed into a thin rod, the laparoscope can be inserted through the trocar and doesn’t occupy too much space inside the operating area.",
+                "pl": "Laparoskop zawiera w pręcie system soczewek Hopkins'a, które prowadzą dwa kanały w jednej osi. Po jednej stronie znajduje się wejście na światłowód i okular, a po drugiej stronie jest mała, najczęściej kątowa końcówka. Światłowód wewnątrz pręta przenosi światło do końcówki a rdzeń zawiera soczewki, które przenoszą obraz z końcówki do okulara i głowicy kamery. Wszystko to zawarte w jednolitym pręcie pozwala na włożenie laparoskopu przez odpowiedni trokar i zajmuje stosunkowo niewiele miejsca wewnątrz pola operacyjnego."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu9_camera_systems_02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Hopkins laparoscope systems (1) use solid rod-lenses which have the geometrical form of a cylinder and a polished mantle. This advancement has greatly improved the image quality in MIS as the spherical lenses used before (2) allowed much less light through the eye-piece.",
+                        "pl": "Systemy laparoskopowe Hopkins używają szklanych prętów które mają formę geometryczną cylindra z wypolerowaną powierzchnią. Ten innowacyjny system znacznie poprawił jakość obrazu w zabiegach minimalnie inwazyjnych ponieważ sferyczne soczewki używane wcześniej (2) przepuszczały znacznie mniejsze ilości światła przez okular."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Laparoscopes vary in diameters, angles and length. The smallest laparoscopes are merely 2mm in diameter and go up to 10mm. The tip is angled from 0 to 45 degrees, giving a specific image which can be useful for different purposes. Because the light has to be transmitted along this lens system, the length and scope diameter of a laparoscope will influence how much light has to be emitted by the tip to be captured at the eye-piece on the way back. The longer and thinner a laparoscope will be, the more light it will require, and the more fragile it will become with use. ",
+                "pl": "Laparoskopy różnią się od siebie pod względem  średnicy, kąta końcówki i długością. Najmniejsze laparoskopy mają średnicę zaledwie 2 mm i sięgają aż do 10 mm. Końcówki różnią się w kącie od 0 do 45 stopni co daje obraz o odpowiednich właściwościach w zależności od potrzeby. Ponieważ światło musi zostać przeniesione przez ten system, długość i średnica laparoskopu ma wpływ na ilość światła, która musi być emitowana wewnątrz, aby powrócić do głowicy kamery. Im dłuższy i im cieńszy laparoskop, tym mocniejsze musi być światło i tym staje się delikatniejszy."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "The 10mm laparoscope with a 30 degree tip is most commonly used around the world.",
+                "pl": "Najczęściej używany jest laparoskop o średnicy 10 mm i kącie 30°."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The 10mm laparoscope with a 30 degree tip is most commonly used around the world. 0 degree laparoscopes are particularly useful in extremely tight and inaccessible areas, but the lack of angular rotation reduces their versatility. Other types of laparoscopes exist which eliminate the Hopkins Rod-Lens system for other solutions but they are still not widespread.",
+                "pl": "Najczęściej używany jest laparoskop o średnicy 10 mm i kącie 30°. Laparoskopy o kącie 0° są w szczególności użyteczne w ciasnych i trudno dostępnych miejscach, aczkolwiek brak kątowej rotacji ogranicza ich zastosowania. Istnieją także inne rodzaje laparoskopów, które nie posiadają systemu soczewek Hopkinsa, ale nie przyjęły się jeszcze w szerokim zastosowaniu."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Light Cable or Light Lead",
+                "pl": "Światłowód"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "This flexible cable is attached to the side of the laparoscope and it brings light into the light post via fiber-optic bundles. The bulky attachment for the light lead is also one of the handles by which the assisting surgeon twists and rotates the entire camera system. It is noteworthy that this camera operator should always remember to hold onto the attachment firmly as the entire system will rotate and drop if it is let go.",
+                "pl": "Ten giętki przewód jest z jednej strony podpięty do laparoskopu a z drugiej do silnego źródła światła, które przenoszone jest zwojem światłowodów. Miejsce podpięcia przewodu także znajduje się w  rękojeści, którą asystujący może obracać i kierować obrazem. Warto podkreślić, że operator kamery zawsze musi trzymać miejsce podpięcia światłowodu, gdyż puszczony pociągnie za sobą cały system i obróci laparoskop."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Camera Head",
+                "pl": "Głowica Kamery"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "High quality imaging chips inside the camera head capture the transmitted optical image and turn it into the digital video signal which is then displayed on the external monitor.",
+                "pl": "Obraz optyczny wychodzący z okulara przyjmowany jest przez wysokiej rozdzielczości przetwornik fotoelektryczny znajdujący się w głowicy. Stąd przesyłany jest już cyfrowy sygnał wideo który trafia na monitor zewnętrzny."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The camera head attaches to the back of the laparoscope. It is worth noting that the camera head should stay fixed throughout the procedure, but if the laparoscope is 30 or 45 degrees it can be rotated to pivot the field of view 360. This can provide much flexibility but must be understood well by the surgeon.",
+                "pl": "Głowica kamery przymocowana jest do okulara w laparoskopie. Warto podkreślić, że głowica kamery powinna pozostawać nieruchomo podczas całej procedury, a kiedy laparoskop (przykładowo 30° bądź 45°) jest obracany, obraz pozostanie wtedy poziomy. Dobre zrozumienie tego układu daje chirurgowi dodatkową elastyczność w interpretacji obrazu."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu9_camera_systems_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "The laparoscope (2) carries image from the tip to the camera head (1) where a digital sensor captures the image and sends it electronically to the screen. The light lead cable (3) connects to the side of the laparoscope (2) to deliver the light which then is emitted at the tip of the laparoscope. The light lead cable is connected (4) on the other side to the tower where the source is usually LED lighting. ",
+                        "pl": "Laparoskop (2) przenosi obraz z końcówki do głowicy kamery (1) wewnątrz której cyfrowa matryca zbiera i przetwarza obaz w sygnał elektroniczny który wyświetlany jest na dużym ekranie. Światłowód (3) podłączony jest do bocznej części laparoskopu (2) i dostarcza światło które jest emitowane w polu operacyjnym. Ten światłowód jest podłączony (4) z drugiej strony do wieży w której źródłem światła jest przeważnie dioda LED."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Because the RGB CCD sensor inside the camera can alter the displayed image, it must always be properly calibrated. This is called ‘white balancing’ and is done automatically by aiming the entire camera system at a white piece of gauze before every procedure. This ensures that the available image displays all of the colors inside the operating area correctly.",
+                "pl": "Przetworniki fotoelektryczne (znane w kamerach konsumenckich jako matryce CCD) mogą różnie interpretować kolory i jasność obrazu, co oznacza, że muszą zawsze być odpowiednio kalibrowane. Aby wykonać tę kalibrację, nazywaną balansem bieli, należy skierować przed zabiegiem laparoskop na biały kawałek gazy i aktywować funkcję. Poprawnie wykonana kalibracja balansu bieli zapewni poprawnie odzwierciedlone  kolory wewnątrz pola operacyjnego."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Inspection",
+                "pl": "Inspekcja"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "It is important to always thoroughly inspect equipment being used.",
+                "pl": "Bardzo ważne jest, aby za każdym razem przed użyciem laparoskopu, została wykonana inspekcja."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The laparoscope can be a delicate device. When held up vertically to a light source with the light lead cable removed, we can inspect the quality of the fiber-optic lead. Dark spots and dark areas might indicate damaged fibers. By looking through the eyepiece we can inspect whether the image is clean, moisture that gathers on the lens or eye-piece can frequently make the image blurry. \n",
+                "pl": "Aby sprawdzić poprawne funkcjonowanie światłowodu, przed podłączeniem go do głowicy należy przytrzymać go pionowo wzdłuż osi kierując w stronę źródła światła. Ciemne punkty mogą być znakiem uszkodzonych światłowodów. Przykładając oko do okulara możemy z kolei sprawdzić jakość obrazu. Wilgoć i kondensacja czasami kumulują się na soczewce co powoduje rozmywanie się obrazu. Laparoskop jest delikatnym urządzeniem."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "A common issue during a procedure is the fogging of the image. The temperature inside the peritoneal cavity can actually be very low due to the C02 gas used by the insufflator. The difference in temperature and humidity between this space and the operating room often leads to a problem with fogging on the laparoscopic lens. This can be alleviated by rubbing the laparoscope on tissues but it is not recommended because the tip of the laparoscope heats up and can damage the tissues.\n",
+                "pl": "Częstym problemem podczas zabiegu może być mglenie się obrazu. Temperatura wewnątrz odmy otrzewnowej często jest tak naprawdę dosyć niska ze względu na wykorzystywany przez insuflator dwutlenek węgla. Różnica w temperaturze i wilgotności pomiędzy salą operacyjną a warunkami wewnątrz pola operacyjnego może doprowadzać do kondensacji na powierzchni laparoskopu. Problem ten jest często rozwiązywany przetarciem laparoskopu o tkanki. Aczkolwiek takie rozwiązywanie tego problemu nie jest wskazane ponieważ końcówka laparoskopu jest gorąca i może parzyć wyziębione i wysuszone tkanki."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Camera Systems",
+        "pl": "Kamery"
+    },
+    "subTitle": {
+        "en": "Everything the trainee needs to know about the imaging systems used in laparoscopic procedures.",
+        "pl": "Wszystko co trenujący powinien wiedzieć o torach wizyjnych używanych w zabiegach laparoskopowych."
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": "edu7_vessel_manipulation",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Vessels and ducts are some of the most important tissue structures we will encounter in laparoscopic surgery. When performing some procedures we will have to cut them, and when performing others we have to clip them temporarily or move them out of the way without damaging them.",
+                "pl": "Naczynia i przewody są jednymi z najważniejszych i najdelikatniejszych struktur spotykanych w zabiegach małoinwazyjnych. Nieodpowiednie zwizualizowanie, przecięcie bądź klipsowanie może być niezauważone, co może doprowadzić do poważnych komplikacji."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu7_vessel_manipulation_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Clip Application",
+                        "pl": "Aplikacja klipsów"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Most importantly, the laparoscopic surgeon must learn how to identify these structures accurately so as to not cause any damage. When performing cholecystectomy for instance three clips should be applied and the vessel should then be cut with two remaining on the patient side for security. In other cases when a clip or hemo-lock is applied to a large vessel it can be important to capture the entire vessel with a clip applicator. Even seemingly large ducts can often be captured with a small clip if they can be properly tied off and moved to fold in on themselves. No anatomy is alike and procedures vary but learning how to find and manipulate vessels, how to properly identify them, and even cut them with scissors can be very important. Exercises with vessels and ducts on the Tissue Holder Module will help in developing this skill.",
+                "pl": "Przede wszystkim, najważniejsze jest precyzyjne rozpoznanie i zidentyfikowanie przewodów w taki sposób, aby mieć pewność, że klips jest umieszczony tam gdzie powinien. Przykładowo, podczas cholecystektomii trzy klipsy powinny być założone przewód żółciowy i krwionośny w taki sposób, aby dwa klipsy zostały po stronie pacjenta, a jeden po stronie woreczka. W innych zabiegach wymagających klipsowania, wyzwaniem z kolei może być uchwycenie całego przewodu wewnątrz branży klipsownicy. Aczkolwiek, nawet największe przewody mogą często zostać złapane małym klipsem, jeśli tylko zostaną wcześniej zawiązane i zgięte pod odpowiednim kątem. Ćwiczenia zawarte w module do chwytania tkanek pomagają w rozwinięciu kompetencji w posługiwaniu się klipsownicą."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Vessels and Ducts",
+        "pl": "Naczynia i przewody"
+    },
+    "subTitle": {
+        "en": "An intro on the properties of vessels and ducts inside the operating area in laparoscopic procedures.",
+        "pl": "Wstęp opisujący właściwości przewodów i naczyń wewnątrz pola operacyjnego podczas zabiegów laparoskopowych."
+    }
+}

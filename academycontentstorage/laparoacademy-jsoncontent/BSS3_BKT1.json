@@ -1,0 +1,120 @@
+{
+    "id": "BSS3_BKT1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Surgical Knot Intro",
+        "pl": "Wprowadzenie do Pojedynczego Węzła Chirurgicznego"
+    },
+    "skills": {
+        "en": "Surgical Knot, Suturing",
+        "pl": "Węzeł Chirurgiczny, Szycie"
+    },
+    "description": {
+        "en": "The single surgical knot is the most basic knot used in surgery. Follow the instructions to learn how to apply this knot with the thick rope available.",
+        "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł przy pomocy sznurka."
+    },
+    "instructions": {
+        "en": "The rope should be threaded through the farthest hole in the platform first. Then wrap the left instrument forwards with the rope on the left side and grab the right side of the rope. When the left instrument is pulled this wrapped rope should slip off the instrument forming the first throw. Next, this maneuver should be repeated on the right side. Wrap the right instrument forwards and grab the left rope and pull to form the second throw. This will result in a simple 1x1 knot when pulled.",
+        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. "
+    },
+    "preparation": {
+        "en": "Place the basic knot tying platform with a rubber band onto the basic suturing module along with the piece of rope in the operating area.",
+        "pl": "Umieścić prostą platformę do węzłów podstawowych wraz z gumką na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. "
+    }
+}

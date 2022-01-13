@@ -1,0 +1,120 @@
+{
+    "id": "THM2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 240
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 8
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Endo-Loop Practice",
+        "pl": "Ćwiczenie Endo-Loop"
+    },
+    "skills": {
+        "en": "Endo-Loop, Extracorporeal, Suturing",
+        "pl": "Endo-Loop, Szycie"
+    },
+    "description": {
+        "en": "When the clip applicator is not available or clips are not optimal we can also implement knots tied extracorporeally and introduce them through the trocars. This can be done with a specialized laparoscopic knot pusher or with the dissector. Knot-Pushers are also produced as Endo-Loop, disposable single-use instruments with the knots already tied. Learning how to apply loops around target structure is a vital skill for many routine procedures.",
+        "pl": "Gdy klipsownica nie jest dostępna lub założenie klipsów nie jest właściwym rozwiązaniem, możemy również wprowadzić węzły wiązane na zewnątrz pola operacyjnego i wprowadzić je przez trokary. Można to zrobić za pomocą specjalistycznego laparoskopowego popychacza węzłów (tzw. knot-pusher) bądź przy pomocy disektora. Knot-Pushery są tez oferowane oddzielnie jako Endo-Loop gdzie węzeł jest już zaciśnięty. Nauka stosowania pętli wokół struktury docelowej jest kluczową umiejętnością w wielu rutynowych procedurach. "
+    },
+    "instructions": {
+        "en": "Begin the exercise and apply the first loop onto the far left foam flap, targeting as close to the marked line as possible. Complete the exercise by applying four loops around each target element.",
+        "pl": "Rozpocznij ćwiczenie nakładając pierwszą pętlę na skrajnie lewą piankę, celując jak najbliżej zaznaczonej linii. Wykonaj ćwiczenie, wykonując cztery pętle wokół każdego elementu docelowego wprowadzając za każdym razem nowe pętle przy pomocy disektora."
+    },
+    "preparation": {
+        "en": "Clip the red foam insert into the Tissue Holder Module and place it in the operating area. Prepare four pieces of 30cm suture material and tie standard sliding knots around each one. ",
+        "pl": "Przypnij Czerwony Insert Silikonowy do modułu trzymania tkanek i umieść moduł w obszarze operacyjnym. Przygotuj cztery kawałki nici o długości 30 cm i zawiąż wokół każdego z nich standardowe węzły ślizgowe. "
+    }
+}

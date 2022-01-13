@@ -1,0 +1,132 @@
+{
+    "id": "TM9",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Hanging Beads",
+        "pl": "Koraliki"
+    },
+    "skills": {
+        "en": "Instrument Collaboration, Precision, Finesse",
+        "pl": "Współpraca Instrumentami, Precyzja"
+    },
+    "description": {
+        "en": "It is generally advised to either move both instruments as a unit to avoid confusion or as in this case, to keep one instrument completely stationary while executing a movement or action with the other. In this exercise you must build a complicated twine and bead structure while using the assisting instrument to bring pieces forward.",
+        "pl": "Ogólnie zaleca się, aby albo poruszać obydwoma instrumentami jako całość, aby uniknąć pomyłek, albo jak w tym przypadku, aby jeden instrument był całkowicie nieruchomy podczas wykonywania ruchu lub działania drugim. W tym ćwiczeniu musisz zbudować skomplikowaną strukturę sznurka i koralików, używając instrumentu wspomagającego, aby przesuwać kawałki do przodu. "
+    },
+    "instructions": {
+        "en": "Begin with twine in the starting position peg at the bottom. Pull out the piece of twine from the starting position and never let it fall. Grab triangles starting with the red one and put them on the twine. Alternate colors until all triangles are placed on twine. Never put down the twine or the triangles throughout the scenario.",
+        "pl": "Rozpocznij od sznurka w pozycji wyjściowej kołkiem na dole. Wyciągnij kawałek sznurka z pozycji wyjściowej i nigdy nie pozwól mu spaść. Chwytaj kolejno trójkąty zaczynając od czerwonego i nakładaj na sznurek. Zmieniaj kolory naprzemiennie, aż wszystkie trójkąty zostaną umieszczone na sznurku. Nigdy nie odkładaj sznurka ani trójkątów w całym scenariuszu. "
+    },
+    "preparation": {
+        "en": "Place yellow triangles in the right side slots, and red triangles on the left side. Place the twine in the starting position peg at the bottom.",
+        "pl": "Umieść żółte trójkąty w szczelinach po prawej stronie, a czerwone trójkąty po lewej stronie. Umieść sznurek w pozycji wyjściowej kołkiem na dole. "
+    }
+}

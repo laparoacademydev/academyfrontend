@@ -1,0 +1,70 @@
+{
+    "id": "edu6_dissection_resection",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Scissors",
+                "pl": "Nożyczki"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Scissors are some of the oldest surgical devices for surgery. The cutting force of scissors is proportional to the amount of force applied to the lever and to the distance from the fulcrum point. This means that they can grip, squeeze and tear the target structure in rapid succession with precision and speed. Tissue captured by the scissors should not exceed the space between the jaws so that it does not slip. After the scissors are squeezed sufficiently the tissues between the blades deform irreversibly and with continued action the tissue fractures along the intercellular plane. The fracture forms along the blade of the scissors and continues away from the fulcrum point of the scissors.",
+                "pl": "Nożyczki są jednym z najstarszych urządzeń wykorzystywanych w chirurgii. Siła cięcia nożyczek jest proporcjonalna do ilości siły przełożonej przez dźwignię z rękojeści. Jest ona też proporcjonalna do odległości od punktu podparcia. Oznacza to, że nożyczki najpierw chwytają, a potem ściskają i ostatecznie precyzyjnie rozdzierają strukturę podczas pojedynczego cięcia. Tkanka chwytana przez nożyczki nie powinna być szersza niż przestrzeń pomiędzy ostrzami, w przeciwnym razie tkanka może się ześlizgiwać z ostrza. Zaraz po początkowym zaciśnięciu nożyczek, tkanka pomiędzy ostrzami w pierwszej kolejności odkształca się. Przy dalszym zaciskaniu tkanka rozrywa się na osi międzykomórkowej. Rozdarcie, widoczne gołym okiem jako przecięcie, formuje się wzdłuż ostrzy zaczynając od punktu najbliższemu do punktu podparcia."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "To develop a deeper understanding of laparoscopic scissor action perform exercises with gauze pads and silicone tissues.",
+                "pl": "Aby rozwinąć umiejętność posługiwania się nożyczkami w laparoskopii, trenujący powinien wykonać ćwiczenia z wycinaniem kółek na gazie oraz przy pomocy silikonowych tkanek."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Laparoscopic scissors should be handled with extreme care. If they are not handled properly inside the operating area they can cause severe damage with their sharp tips. Intracorporeal bleeding can go unnoticed outside of the field of vision and it can cause severe post-operative complications. Laparoscopic scissors can be used for cutting any tissue, artery or duct, but also they can be used for ‘sharp dissection’ where the tips are introduced into the target tissue closed and are then opened to spread the tissue with precision. The back side of the scissors can also be used to spatulate and press tissues aside.",
+                "pl": "Nożyczki używane w chirurgii małoinwazyjnej powinny być używane bardzo ostrożnie. Ze względu na swoją ostrość, przy błędnym użyciu, mogą spowodować poważne komplikacje. Krwawienie poza polem widzenia wewnątrz pola operacyjnego może zostać niezauważone. \nNożyczki laparoskopowe mogą być użyte do cięcia każdego rodzaju tkanki, naczynia czy przewodu. Mogą też być użyte do preparowania na ostro. Preparując na ostro, chirurg wkłuwa się zamkniętymi nożyczkami w tkankę i otwiera je, aby precyzyjnie rozpreparowywać tkankę. Płaski tył nożyczek może być też używany do przepychania i szpatuowania tkanek.\n"
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Many types of scissors are used in laparoscopy:",
+                "pl": "Wiele rodzajów nożyczek jest używane w laparoskopii:"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu6_dissection_resection_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Straight Scissors (1) - these scissors are simply straight and used less often in laparoscopy. Curved Scissors (2) - the most common shape used in laparoscopy because the curvature of the blade is better visualized inside the peritoneal cavity. Serrated Scissors (3) - the serrated edge on the blades of these scissors prevents the tissue from slipping; useful with ligatures and slippery tissue. Hook Scissors (4) - these scissors surround the target structure before cutting and prevent the tissue from slipping. Especially useful for cutting ducts, arteries and nerve bundles. Micro-Tip Scissors (5) - small scissors which are useful in exploration and cutting of small ducts.",
+                        "pl": "Proste nożyczki (1) - te nożyczki są proste i rzadziej używane w laparoskopii. Zakrzywione nożyczki (2) - najczęściej używany kształt w laparoskopii ponieważ zagięte ostrze jest łatwiejsze w wizualizacji w polu operacyjnym. Nożyczki ząbkowane (3) - ząbkowana krawędź nożyczek nie pozwala na ześlizgiwanie się tkanek z krawędzi, co może być przydatne przy ligaturach czy śliskich tkankach. Nożyki hakowe (4) - zagięte są w taki sposób, że ostrze otacza docelową strukturę przed właściwym przecięciem co ogranicza możliwość przecięcia. Szczególnie przydatne do przecinania przewodów, naczyń czy wiązek nerwów. Micro-Tip (5) - rzadko używane nożyczki o małych końcówkach, przydatne do eksploracji i nacinania małych przewodów."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "disclaimer",
+            "text": {
+                "en": "Although scissors can be used with monopolar electrosurgery, they will quickly become blunt with use.",
+                "pl": "Nożyczki mogą być używane z energią monopolarną, ale nie jest to rekomendowane ponieważ stają się tępe."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Tissue Dissection and Resection Exercises",
+        "pl": "Preparowanie Tkanek na Ostro i na Tępo"
+    },
+    "subTitle": {
+        "en": "The properties of all the different types of scissors used in laparoscopy.",
+        "pl": "Właściwości różnych rodzajów nożyczek używanych w laparoskopii."
+    }
+}

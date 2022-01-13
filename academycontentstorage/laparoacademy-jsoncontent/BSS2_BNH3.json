@@ -1,0 +1,120 @@
+{
+    "id": "BSS2_BNH3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Needle Threading at Different Angles",
+        "pl": "Przewlekanie pod Różnymi Kątami"
+    },
+    "skills": {
+        "en": "Needle Holder, Needle Threading, Needle Manipulation, Suturing",
+        "pl": "Imadło, Przewlekanie, Manipulacja Igłą, Szycie"
+    },
+    "description": {
+        "en": "Often the surgeon won’t have the best angle at their disposal, and the needle holder won’t be able to drive the needle smoothly along the curvature of the needle. In these cases it is important for the trainee to plan ahead and learn how foresee these circumstances. By practicing with this exercise the trainee develops an understanding of how easily or how hard the needle can be driven through target tissue at various angles.",
+        "pl": "Często chirurg nie ma do dyspozycji najlepszego kąta, a imadło nie poprowadzi płynnie igły wraz z krzywizną i obrotem instrumentu. W takich przypadkach ważne jest, aby trenujący nauczył się planować i przewidywać takie okoliczności. Wykonując przekłucia w tym ćwiczeniu trenujący rozwinie wyobraźnię i doświadczy to jak łatwo lub jak trudno igła może być przebijana przez tkankę docelową pod różnymi kątami. Warto zwrócić uwagę w szczególności na najtrudniejsze kąty natarcia."
+    },
+    "instructions": {
+        "en": "Drive the needle 6 times through the silicone module. For the first three throws go from the center dot to the left three dots with the needle holder on the right side. Next place the needle in the start position and switch sides. Now drive the needle from the center to the right three dots with the needle holder held on the left side. Return the needle to the start position to finish.",
+        "pl": "Przekłuj silikonowy moduł igłą 6 razy. Przy pierwszych trzech przekłuciach zaczynaj od punktu środkowego do punktów po lewej stronie z imadłem w prawej ręce. Następnie umieść igłę w pozycji startowej i zamień instrumenty. Teraz przekłuwaj igłą od środka do prawych trzech kropkek imadłem trzymanym po lewej stronie. Aby zakończyć, umieść igłę w pozycji początkowej. "
+    },
+    "preparation": {
+        "en": "Place the needle start position and the dome shaped hexagonal silicone module in the center of the Basic Suturing Platform.",
+        "pl": "Umieść pozycję początkową dla igły moduł silikonowy w kształcie kopuły na środku podstawowej platformy do szycia. "
+    }
+}

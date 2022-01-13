@@ -1,0 +1,120 @@
+{
+    "id": "BSS3_BKT3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 40
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Continuous Vertical Intro",
+        "pl": "Szew Ciągły Pionowy - Wprowadzenie"
+    },
+    "skills": {
+        "en": "Suturing",
+        "pl": "Szycie"
+    },
+    "description": {
+        "en": "This exercise introduces the continuous suturing pattern, which is time saving in comparison to multiple single knots. ",
+        "pl": "To ćwiczenie wprowadza pojęcie szwu ciągłego, pozwalakącego zaoszczędzić czas w porównaniu z zakładaniem wielu pojedynczych szwów. "
+    },
+    "instructions": {
+        "en": "Draw the rope through the hole farthest to the left and apply a simple 1x1 knot with majority of the rope on the bottom. Thread the rope, one by one, through the holes available from left to right. Apply the knot as shown in the video at the final hole of the platform.",
+        "pl": "Przeciągnij sznurek przez otwór najbardziej wysunięty w lewo i zawiąż prosty węzeł 1x1 tak, aby większość liny znajdowała się na dole. Przeciągnij linę przez otwory , jeden po drugim, przez otwory dostępne od lewej do prawej. Załóż węzeł, jak pokazano na filmie, na ostatnim otworze platformy. "
+    },
+    "preparation": {
+        "en": "Place the basic knot tying platform horizontally onto the basic suturing module along with the piece of rope in the operating area.",
+        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona w orientacji poziomej na podstawowym module do szycia wraz z kawałkiem sznurka w obszarze operacyjnym. "
+    }
+}

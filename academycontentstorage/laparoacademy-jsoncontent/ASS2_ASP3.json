@@ -1,0 +1,121 @@
+{
+    "id": "ASS2_ASP3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 420
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Continuous Horizontal Limited",
+        "pl": "Szew Ciągły w Ograniczonym Polu i Orientacji Poziomej"
+    },
+    "skills": {
+        "en": "Suturing, Continuous, Limited Access",
+        "pl": "Szycie, Szew Ciągły, Pole Ograniczone"
+    },
+    "description": {
+        "en": "The Advanced Suturing Platform limits the amount of space available. This limitation has a positive impact on laparoscopic technique because it helps develop habits for operating in evenly more constrained space than usual.",
+        "pl": "Zaawansowana platforma do szycia ogranicza ilość dostępnej przestrzeni. To ograniczenie ma pozytywny wpływ na technikę laparoskopową, ponieważ pomaga wykształcić nawyki operowania w bardziej ograniczonej przestrzeni niż zwykle. "
+    },
+    "instructions": {
+        "en": "In this exercise you must perform a continuous suturing pattern inside of a limited amount of space available. Apply 4 throws approx 1-2mm apart and complete with the knot shown in the video.",
+        "pl": "W tym ćwiczeniu musi być wykonany ciągły szew w ograniczonej dostępnej przestrzeni. Powinny zostać zastosowane 4 rzuty w odległości około 1-2 mm i zakończone węzłem pokazanym na filmie. "
+    },
+    "preparation": {
+        "en": "Apply the long suturing insert vertically and the start position to the Basic Suturing Platform below as pictured. Then apply the Advanced Suturing Platform on the top. Both the start position and the target structure should be visible.",
+        "pl": "Długi insert do szycia powinien być umieszczony w orientacji poziomej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne."
+    }
+}

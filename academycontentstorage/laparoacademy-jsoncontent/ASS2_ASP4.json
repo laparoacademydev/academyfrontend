@@ -1,0 +1,121 @@
+{
+    "id": "ASS2_ASP4",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 210
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Single Sliding Knot Under Tension",
+        "pl": "Pojedynczy Węzeł Przesuwny Pod Napięciem"
+    },
+    "skills": {
+        "en": "Knot, Suturing, Sliding Knot",
+        "pl": "Węzeł, Szycie, Węzeł Przesuwny"
+    },
+    "description": {
+        "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. In this exercise it is the former, with two tissues x cm apart.",
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. W tym ćwiczeniu jest to pierwsze, z dwiema tkankami w odległości x cm. "
+    },
+    "instructions": {
+        "en": "Take the needle with 10-20 cm of suture material and drive it through both of the silicone inserts separately. Create a loose sliding knot and use it to tighten gradually. When you pull on the suture to tighten you may shift the instrument left to right to pull the silicone inserts so that they touch each other. Pull on the inactive end of the sliding knot to lock the position and apply one more final loop to lock it permanently. Return the needle to the start position.",
+        "pl": "Igła wraz 10-20 cm materiału do szycia powinna być przeprowadzona przez obie silikonowe wkładki oddzielnie. Po wytworzeniu luźnego supła 1=1 powinien być stopniowo zaciskany. Naciągając szew w celu zaciśnięcia, można przesuwać instrument z nicią lewo-prawo aby przybliżyć do siebie inserty silikonowe tak, aby się ze sobą zetknęły. Ciągnąc za nieaktywny koniec węzła przesuwnego można zablokować pozycję i założyć jeszcze jedną końcową pętlę, która zablokuje węzeł na stałe. Po zakończeniu igła powinna wrócić na pozycję startu."
+    },
+    "preparation": {
+        "en": "Use the Advanced Suturing Platform for this exercise and two silicone inserts. Use the screws to insert them and maintain a distance of 1 cm between the ends. Place the needle in the starting position on the top of this platform.",
+        "pl": "Zaawansowana Platforma Szycia powinna być zamontowana na Module Szycia Podstawowego. Dwa silikonowe inserty powinny być umieszczone w odległości ok 1cm wewnątrz platformy. Przy pomocy śrub możliwe jest dokręcenie odpowiednio mocno aby mocowanie się nie poluzowało. Igła powinna być umieszczona w pozycji startowej na górnej części platformy."
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "edu13_vertical_horizontal",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Laparo Advanced Suturing Skills course is intended for those who already have completed the Laparo Basic Skills, Basic Suturing Skills and Intermediate Instrument Handling Skills courses. The exercises below focus on the execution of complex suturing patterns with the use of the basic suturing skills developed earlier. These exercises are also recommended to laparoscopic surgeons who are already practicing and are familiar with the nature of laparoscopic suturing but wish to push the boundaries of their capabilities.",
+                "pl": "Kurs szycia zaawansowanego skierowany jest do tych, którzy ukończyli poprzedzające rozdziały szkolące podstawowe umiejętności, podstawowe umiejętności szycia i średnio-zaawansowane umiejętności. Ćwiczenia zawarte poniżej skupiają uwagę na wykonywaniu kompleksowych wzorów i szwów przy pomocy podstawowych umiejętności wyćwiczonych wcześniej. Poniższe ćwiczenia są też skierowane do tych, którzy są już już praktykami techniki laparoskopowej i chcą poszerzać granice swoich możliwości."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "Developing skill with limited space helps develop good habits for all laparoscopic suturing approaches.",
+                "pl": "Umiejętność poruszania się w ograniczonym polu pomaga w rozwijaniu dobrych nawyków."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "First, the trainee will become acquainted with continuous suturing patterns which depend in difficulty on the orientation of the target structures. These exercises are then followed by more difficult exercises perfrormed on the Advanced Suturing Platform. A set of exercises forces the trainee to apply sutures within spatial constraints imposed by the Advanced Suturing Platform. Developing skill with this limited space helps develop good habits for all laparoscopic suturing approaches as they prevent the trainee from moving the instruments outside of the limited amount of space available. Basic Suturing Exercises give an extra amount of freedom of movement, even outside the field of view which is not acceptable in a real laparoscopic procedure. The Advanced Suturing Skills course concludes with exercises performed on the top of the Advanced Suturing Platform. These exercises deal with simualted tissue under tension and direct the trainee to perform complex anastomosis maneuvers with the use of sliding knots. Upon successful completion of all of these exercises the trainee will have the skills necessary to perform laparoscopic procedures. Further skill development can occur through repetitive practice.",
+                "pl": "W pierwszej kolejności trenujący zmierzy się ze szwami ciągłymi. Po tych pierwszych ćwiczeniach następują trudniejsze, wykonywane przy pomocy platformy do szycia zaawansowanego. Uczący zmierzy się z zestawem ćwiczeń, w których  będzie zakładać podstawowe szwy i węzły wewnątrz ograniczonego pola dostępu spowodowanego platformą. Umiejętność poruszania się w ograniczonym polu pomaga w rozwijaniu dobrych nawyków. Wykonywane wcześniej ćwiczenia z szycia podstawowego umożliwiają szeroki zakres ruchu, co jest nieadekwatne do warunków podczas prawdziwego zabiegu laparoskopowego. Finalny zestaw ćwiczeń w Kursie zaawansowanym wykonywany jest na górnej części platformy do szycia zaawansowanego. Ćwiczenia te symulują tkanki pod napięciem i prowadzą trenującego przez skomplikowane manewry zespoleń przy pomocy węzłów przesuwnych. Po wykonaniu tych ćwiczeń wewnątrz zadanych parametrów i czasu można powiedzieć, że trenujący zademonstrował wystarczające umiejętności w posługiwaniu się instrumentami do wykonywania zabiegów laparoskopowych. "
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Vertical and Horizontal Suturing Patterns",
+                "pl": "Szycie w pionie i poziomie"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When the angle of the target tissue is parallel to the needle holder, driving the needle is easy because the needle, which is held horizontally, can be driven by the rotation of the needle holder. This rotation is only available along the axis of the needle holder. Whenever the target tissue is placed at other angles, driving the needle can become significantly more difficult as demonstrated in the Basic Suturing Skills chapter.",
+                "pl": "Kiedy kąt docelowych tkanek jest równoległy do imadła to przekłuwanie igłą jest łatwe, ponieważ trzymana prostopadle igła naturalnie przekłuwa tkankę wraz z obrotem imadła. Ten kąt dostępny jest jedynie wzdłuż osi imadła. Kiedy tkanka jest umieszczona pod innymi kątami, przekłuwanie igłą staje się znacznie trudniejsze, co było widoczne w rozdziale o Podstawowych umiejętności szycia."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "To acquire an understanding of this dynamic you may perform exercises with both vertical and horizontal continuous suturing patterns. In the horizontal approach the needle is driven horizontally and in the vertical approach it is driven vertically down but never up or away from the operator.",
+                "pl": "Aby zdobyć odpowiednie zrozumienie tego aspektu, uczący powinien porównać ćwiczenia z szyciem ciągłym w orientacji pionowej i poziomej. W orientacji poziomej igła przekłuwa tkanki w kierunku poziomym od instrumentu, a w orientacji pionowej w dół, ale nigdy w górę."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu13_vertical_horizontal_ 01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Completion of Continuous Suturing Pattern",
+                        "pl": "Przykład szycia ciągłego"
+                    }
+                }
+            ]
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Advanced Suturing Skills",
+        "pl": "Zaawansowane umiejętności szycia"
+    },
+    "subTitle": {
+        "en": "An overview of the difficulties encountered in challenging situations when suturing laparoscopicially.",
+        "pl": "Wstęp do utrudnień spotykanych podczas wyzwań podczas szycia laparoskopowego."
+    }
+}

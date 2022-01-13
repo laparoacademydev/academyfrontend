@@ -1,0 +1,70 @@
+{
+    "id": "edu5_instruments",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Clip Applicator",
+                "pl": "Klipsownica"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In open surgery ligation techniques are usually used to close off ducts and arteries. In laparoscopic procedures however, this is usually done with clips applied using clip applicators. Many types of laparoscopic clip applicators exist- some are disposable while others are reusable and reloadable. Form factors and sizes vary as well - it is important for the laparoscopic surgeon to be familiarized with the clip applicator being used. Even though the surgical assistant often loads clips into the applicator the surgeon should have a good understanding of the device so as not to damage tissue. It is important to never apply clips without a clip loaded as this could cut tissue unpredictably.",
+                "pl": "W otwartej chirurgii, techniki ligacji przeważnie są używane do zamykania przewodów. W laparoskopowych zabiegach jest to przeważnie robione za pomocą klipsów zakładanych przy pomocy klipsownicy. W użytku jest wiele różnych rodzajów klipsownic. Niektóre są jednorazowe a niektóre wielorazowe z magazynkami samoładującymi. Formy i rozmiary też się różnią - ważne jest więc, aby chirurg laparoskopowy wiedział jakiej klipsownicy używa. Pomimo obecnych w trakcie operacji instrumentariuszek, które przygotowują klipsownicę, chirurg zawsze powinien rozumieć dany model urządzenia, aby przypadkowo nie wyrządzić krzywdy. Na przykład, ważne jest żeby nigdy przypadkowo nie używać klipsownicy bez załadowanego klipsu ponieważ branże instrumentu mogą przeciąć przewód."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu5_instruments_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Remember - when applying a clip to any vessel or duct always rotate the instrument to visually confirm the other side of the instrument. Only then you will have the confidence that the clip will have captured the entire tissue securely.",
+                        "pl": "Pamiętaj - zakładając klips na jakikolwiek przewód obróć branżę w taki sposób, żeby zobaczyć drugą jej stronę. Będziesz wtedy mieć pewność, że klips chwyci całość i nie ześlizgnie się później."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "When applying a clip it is important for the face of the clip applicator to be directed towards the field of vision so that the surgeon can visualize both jaws of the instrument.",
+                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When applying a clip it is important for the face of the clip applicator to be directed towards the field of vision so that the surgeon can visualize both jaws of the instrument. This gives the surgeon confidence that the clip will fit around the entire structure of the target tissue and that it won’t accidentally catch any of the other tissues. It is worth noting that we should not use metal clips along with electro-surgery. The tissue may be damaged and the clips may loosen when the clips conduct electricity.",
+                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem. Tylko wtedy ma się pewność że cały przewód został poprawnie chwycony przez instrument. Ogranicza to też prawdopodobieństwo uchwycenia klipsownicą innych tkanek.. Nie jest też rekomendowane używanie elektrochirurgii w pobliżu założonych klipsów, gdyż klipsy mogą przypadkowo przewodzić prąd i poluzować się na tkance."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Endo-Loop",
+                "pl": "Endo-Loop"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Tying knots inside the laparoscopic operating area is usually difficult due to the limited space available. Only experienced and skilled surgeons are capable of working with complex intracorporeal sutures. This is why knots are often tied extracorporeally and are then brought in through the trocar. In this way the loop is ready and only needs to be pulled and tightened onto the target tissue.",
+                "pl": "Wiązanie węzłów wewnątrz pola operacyjnego jest uznawane za najtrudniejsze i jedynie doświadczeni chirurdzy potrafią to robić. Dlatego możliwe jest wiązanie węzłów poza polem operacyjnym i wprowadzanie ich przez trokar przy pomocy disektora bądź endo-loop'a. Tym sposobem możliwe jest obejście tej umiejętności. Pętla musi być jedynie wprowadzona do pola operacyjnego i zaciągnięta na docelową tkankę."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Other Commonly used Laparoscopic Instruments",
+        "pl": "Inne często używane instrumenty laparoskopowe"
+    },
+    "subTitle": {
+        "en": "An overview of the properties of the clip applicator and the endo-loop.",
+        "pl": "Przegląd właściwości klipsownicy i endo-loop"
+    }
+}

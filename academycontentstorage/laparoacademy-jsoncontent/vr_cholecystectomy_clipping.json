@@ -1,0 +1,113 @@
+{
+    "id": "vr_cholecystectomy_clipping",
+    "cameraConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {},
+        "angle": 0
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "cholecystectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "Clipping"
+    },
+    "isFreeTraining": false,
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "hook",
+        "irrigator",
+        "clipper"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 4.5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Cholecystectomy VR - Clipping",
+        "pl": "Cholecystektomia VR - Klipsowanie"
+    },
+    "skills": {
+        "en": "Procedure, Cholecystectomy, VR",
+        "pl": "Procedura, Cholecystektomia, VR"
+    },
+    "description": {
+        "en": "In this version of the exercise only the skill in precise clipping is tested. The Calot's triangle is already exposed and the surrounding tissues dissected and the trainee must only properly identify the target structures and apply clips. ",
+        "pl": "W tej wersji ćwiczenia testowana jest jedynie umiejętność precyzyjnego clipsowania i cięcia przewodów. Trójkąt Calota jest już odsłonięty, a otaczające tkanki rozpreparowane. Ćwiczący musi jedynie prawidłowo zidentyfikować docelowe struktury i założyć klipsy. "
+    },
+    "instructions": {
+        "en": "3 clips should be used per vessel, 2 clips on the patient side of the vessel and 1 on the side of the gallbladder. In this way when these vessels are cut, there is a limited danger of the vessels rupturing or of the gallbladder itself leaking bile into the operating area. The trainee may also continue and separate the gallbladder with the monopolar hook away from the surface of the liver before removal.",
+        "pl": "Należy zastosować 3 klipsy na każdy cięty przewód. 2 klipsy po stronie naczynia pacjenta i 1 klips po stronie pęcherzyka żółciowego. Tym sposobem, gdy te naczynia zostaną przecięte będzie ograniczone niebezpieczeństwo krwawienia lub wycieku żółci z samego pęcherzyka żółciowego do obszaru operacyjnego. Ćwiczący może też kontynuować standardowy przebieg procedury, precyzyjnie oddzielając sam pęcherzyk żółciowy za pomocą monopolarnego haka wzdłuż powierzchni wątroby przed usunięciem. "
+    },
+    "preparation": {
+        "en": "Remove any physical modules from the base of the positioning platform of the Apex. Place the ports with trocars in the indicated locations and remove instruments from the device.",
+        "pl": "Wszelkie fizyczne moduły z podstawy platformy pozycjonującej Apex powinny zostać usunięte. Porty wraz z trokarami powinny być ustawione we wskazanych miejscach i instrumenty powinny być wyjęte z urządzenia. "
+    }
+}

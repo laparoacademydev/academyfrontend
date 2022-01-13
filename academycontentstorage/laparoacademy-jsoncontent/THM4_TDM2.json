@@ -1,0 +1,120 @@
+{
+    "id": "THM4_TDM2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 420
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 18
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 90
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Sharp Dissection",
+        "pl": "Preparowanie na Ostro"
+    },
+    "skills": {
+        "en": "Scissors, Dissection",
+        "pl": "Nożyczki, Preparowanie"
+    },
+    "description": {
+        "en": "Laparoscopic scissors are not only used to cut. Because their sharp ends are much more precise and thin they can also be used to dissect tissues with precision.",
+        "pl": "Nożyczki laparoskopowe służą nie tylko do cięcia. Ponieważ ich ostre końcówki są znacznie dokładniejsze i cieńsze, mogą być również używane do precyzyjnego preparowania tkanek. "
+    },
+    "instructions": {
+        "en": "In this exercise you must use scissors to dissect the tissue as much as possible. First, cut the surface tissue, but then insert the scissors closed and open to dissect. Repeat this motion until the entire red X shape is separated from the rest of the tissue and no red tissue remains.",
+        "pl": "Nożyczki powinny być użyte aby rozciąć tkankę precyzyjnie na tyle na ile to możliwe bez cięcia. Najpierw odetnij tkankę powierzchniową, a następnie włóż nożyczki zamknięte i otwieraj aby preparować na ostro. Powtarzaj ten ruch, aż cały czerwony kształt X zostanie oddzielony od reszty tkanki i żadna czerwona tkanka nie pozostanie."
+    },
+    "preparation": {
+        "en": "Insert the Tissue Dissection component into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
+        "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. "
+    }
+}

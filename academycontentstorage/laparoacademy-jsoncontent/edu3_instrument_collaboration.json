@@ -1,0 +1,77 @@
+{
+    "id": "edu3_instrument_collaboration",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After spending some time performing exercises you will notice that it can be unintuitive to rotate and to manage smooth collaboration between the instruments. When focusing on the tip of one instrument, the operator intuitively ‘forgets’ to monitor the tip of the other which can move outside of the field of vision. This, and other errors are important to avoid as instruments can cause damage and lead severe complications during laparoscopic procedures.",
+                "pl": "Po spędzeniu miarodajnej ilości czasu wykonując ćwiczenia, trenujący powinien  zauważyć trudność w swobodzie rotacji i w kolaboracji pomiędzy dwoma instrumentami. Przykładowo, koncentrując uwagę na jednym instrumencie, operator intuicyjnie „zapomina” monitorować drugi instrument. Logiczne jest to, że inne tego rodzaju błędy muszą być unikane, gdyż instrumenty mogą wyrządzić szkodę i doprowadzić do komplikacji podczas procedur laparoskopowych."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Constant Movement and Field of Vision",
+                "pl": "Ciągły ruch i pole widzenia"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Both instruments should be both in constant movement and stay inside the field of vision as much as possible. An instrument which leaves the field of vision and is still inside the operating area is an instrument that can be causing damage. An instrument which becomes motionless runs the risk of being ‘forgotten’ which can also lead to complications. When training laparoscopy skills it is valuable to develop good habits to mitigate such circumstances.",
+                "pl": "Instrument, który opuszcza pole widzenia, jednocześnie będący wewnątrz pola operacyjnego, jest instrumentem, który może wyrządzać szkodę. Instrument, który pozostaje w bezruchu, wytwarza ryzyko bycia 'zapomnianym' co może doprowadzić do nagłych komplikacji. Podczas trenowania umiejętności laparoskopowych wartościowe jest rozwijanie dobrych nawyków, aby unikać tych okoliczności. Oba instrumenty zawsze powinny być w ciągłym  ruchu i powinny pozostawać wewnątrz pola widzenia.\n"
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Monocular Cues for Depth Perception",
+                "pl": "Dedukcja kolejności w percepcji głębi"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "As mentioned in the previous chapter, in laparoscopy we deal with a two-dimensional image which results from the endoscopic camera and lens. This is why with sufficient understanding we can use monocular cues to better visualize this operating area. Monocular cues include placing objects or instruments in front of each other to build a more accurate picture of the space in the third dimension. This is called occlusion - when one object blocks another we can conceptualize and estimate the distances involved.",
+                "pl": "Jak wspomniano w poprzednim rozdziale, w laparoskopii mamy do czynienia z dwuwymiarowym obrazem, który trafia do głowicy kamery przez tor wizyjny. Przy pomocy dobrego zrozumienia właściwości takiego obrazu, możemy interpretować kolejność aby lepiej wizualizować pole operacyjne. Najprostszym przykładem takiej wskazówki jest okluzja - umieszczenie jednego obiektu przed drugi, aby wydedukować, który obiekt jest bliżej, a który dalej poprzez proste zasłonięcie.\n"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Occlusion is not the only available monocular cue. Kinetic Depth Perception can be determined by dynamically changing the position of an instrument to help determine depth. When an object is moved closer, it becomes proportionally larger, and vice versa. Making such movements can help calculate velocity based on the rate of size change which can allow the surgeon to estimate depth.",
+                "pl": "Innym sposobem jest tzw. percepcja głębokości kinetycznej. Poprzez dynamiczne zmienianie pozycji instrumentu (przykładowo do przodu i do tyłu) możliwe jest ocenienie głębokości pozycji i estymacja rozmiarów. Kiedy obiekt zbliża się do kamery, staje się on proporcjonalnie większy i wice wersa. Takie ruchy dostrzegane na bieżąco, pomagają kalkulować prędkość na bazie zmiany w rozmiarze co może pozwolić chirurgowi ocenić głębokość.\n"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Motion Parallax occurs when the observer changes the position of the camera to alter the perspective in relation to stationary objects. In laparoscopy this can be done by the camera holder assisting in the procedure. The angled scope can be used to alter the line of sight and get a sense of the visual angle. This is only available with 30 or 45 degree laparoscopes. Motion Parallax can both help and hinder when suturing laparoscopically.",
+                "pl": "Paralaksa ruchu odbywa się, kiedy obserwator zmienia pozycję kamery w taki sposób, aby zmienić perspektywę w relacji do stacjonarnego obiektu. Do tego właśnie najbardziej w laparoskopii przydaje się 30° albo 45° tor wizyjny. Operator kamery może nim sięgnąć na bok i wypracować zmysłu kąta  wizualnego. Paralaksa ruchu może być bardzo pomocna, ale może też nieznacznie czasami przeszkadzać podczas szycia w laparoskopii\n."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu3_instrument_collaboration_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Monocular Cue Visual Examples - Occlusion, Kinetic Depth Perception - using these properties you may develop an instinct for visualizing the space inside the peritoneal cavity. ",
+                        "pl": "Okluzja, paralaksa ruchu, percepcja głębokości kinetycznej - wykorzystując te właściwości możesz instynktownie pojmować przestrzeń wewnątrz pola operacyjnego."
+                    }
+                }
+            ]
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Instrument Collaboration and Visualization",
+        "pl": "Współpraca między instrumentami i wizualizacja pola operacyjnego "
+    },
+    "subTitle": {
+        "en": "A description of techniques useful to visualize and conceptualize the three-dimensional space inside the operating area.",
+        "pl": "Opis kilku technik przydatnych w wizualizacji i orientacji w trójwymiarowej przestrzeni pola operacyjnego.\n"
+    }
+}

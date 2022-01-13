@@ -1,0 +1,33 @@
+{
+    "id": "BSS4_BSP4",
+    "cameraConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {}
+    },
+    "trocarsConfig": {
+        "configurations": [],
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {},
+    "tableConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {}
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "name": {
+        "en": "Single Square Knot Vertical",
+        "pl": "Węzeł Płaski - Orientacja Pionowa"
+    },
+    "skills": {
+        "en": "1=1",
+        "pl": "1=1"
+    },
+    "description": {},
+    "instructions": {},
+    "preparation": {}
+}

@@ -1,0 +1,84 @@
+{
+    "id": "edu18_chole",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Cholecystectomy was recently ranked the eighth most common operating room procedure, with the laparoscopic method mostly replacing the open approach. Although straightforward in principle a laparoscopic cholecystectomy presents a challenge for the surgeon in training. The gallbladder is attached to a bundle of critical structures which are concealed inside the hepatocystic triangle. The structures in this area include the cystic artery, the cystic duct, the common hepatic duct and cystic lymph nodes and can be difficult to identify. The surgeon must successfully clip and sever only the cystic duct and cystic artery without causing any damage to any of the surrounding structures.",
+                "pl": "Cholecystektomia zajęła ostatnio ósme miejsce na liście najczęściej wykonywanych zabiegów na salach operacyjnych. Metoda laparoskopowa w większości zastąpiła metodę otwartą przy tym zabiegu. Cholecystektomia laparoskopowa, choć w zasadzie prosta, stanowi wyzwanie dla szkolącego. Woreczek żółciowy jest przymocowany do wiązki naczyń ukrytych w trójkącie wątrobowo-torbielowatym. Struktury w tym obszarze obejmują tętnicę torbielowatą, przewód torbielowaty, przewód wątrobowy wspólny i torbielowate węzły chłonne. Wszystkie te przewody mogą być trudne do zidentyfikowania. Chirurg musi skutecznie przyciąć i odciąć jedynie przewód torbielowaty i tętnicę torbielowatą, nie powodując żadnych uszkodzeń otaczających struktur, w szczególności tętnicy."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Laparo Apex VR Cholecystectomy Exercises",
+                "pl": "Ćwiczenia cholecystektomii VR"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The VR exercises developed by Laparo provide the trainee with the ability to complete an entire Cholecystectomy inside of a virtual operating area using real instruments. The purpose of these exercises is to take the trainee through the stages of the procedures and the order in which they should be performed and to depict the complications that may arise from mistakes. It is noteworthy however that since there is no physical module inside the operating area there won’t be any physical haptic feedback typically experienced in laparoscopy. With this in mind, the trainee should nevertheless concentrate attention on the actual events taking place in the operating area and some of the aspects not possible in simulating it on physical modules such as electro-surgery.",
+                "pl": "Ćwiczenia VR opracowane przez Laparo dają uczącemu możliwość wykonania całej cholecystektomii w wirtualnym polu operacyjnym przy użyciu prawdziwych instrumentów. Celem ćwiczeń jest przeprowadzenie przez etapy procedur i pokazanie kolejności ich wykonywania oraz przedstawienie komplikacji, które mogą wyniknąć z wykonywanych błędów. Warto zauważyć, że ponieważ w obszarze operacyjnym nie ma modułu fizycznego, nie powstaje fizyczne sprzężenie zwrotne odczuwane w prawdziwym zabiegu. Mając to na uwadze, praktykant powinien jednak koncentrować uwagę na rzeczywistych zdarzeniach zachodzących w obszarze operacyjnym i niektórych aspektach niemożliwych do symulacji na modułach fizycznych, takich jak elektrochirurgia."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "An important noteworthy aspect of the VR Cholecystectomy exercises is the way in which the gallbladder is positioned in the beginning. In a real procedure, the gallbladder must be visualized and pulled out from under the liver. In many cases this is done with a third port and an instrument holds the gallbladder up throughout the procedure. In our VR module, to limit the amount of help a trainee needs this doesn't need to happen, the gallbladder already is positioned where it should be for the entire procedure to be practiced.",
+                "pl": "Ważnym aspektem ćwiczeń VR Cholecystektomii jest sposób w który woreczek żółciowy jest usytuowany na początku. W prawdziwej procedurze woreczek musi być uwidoczniony i pociągnięty przy wątrobie w zależności od anatomii pacjenta. Jest to często wykonywane przy użyciu trzeciego portu przez który asystent może trzymać woreczek naciągnięty w trakcie całej procedury. Aby ograniczyć ilość potrzebnych rąk, w VR woreczek żółciowy jest już zlokalizowany tam gdzie być powinien aby cała reszta procedury mogła być ćwiczona."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu18_chole_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Although approaches may differ, it is recommended that before cutting, two clips be applied on the hepatocystic duct and three clips be applied on the cystic artery. In this way two clips should secure the artery and one clip should secure the duct. ",
+                        "pl": "Chociaż wykorzystywane metodologie różnią się, jest powszechnie przyjęte że dwa klipsy powinny zostać umocowane na przewodzie woreczka żółciowego, oraz że trzy klipsy powinny zostać umieszczone na tętniczce prowadzącej do woreczka. W ten sposób po przecięciu dwa klipsy powinny zabezpieczać tętnicę oraz jeden pozostałość po przewodzie żółciowym."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Laparo Cholecystectomy Module",
+                "pl": "Moduł fizyczny cholecystektomii"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Laparo Cholecystectomy module is made up of several components and has been designed to maximize reusability. The base of the module is a silicone surface attachment which simulates the surface of the liver. The reusable silicone gallbladder component attaches by velcro into the slits on this liver. The hepatocystic triangle is a separate component which has to be attached as shown onto the module, the base and the gallbladder itself. This triangle is the only single-use consumable component of the module.",
+                "pl": "Moduł cholecystektomii Laparo składa się z kilku elementów i został zaprojektowany w taki sposób, aby zmaksymalizować możliwość ponownego użycia. Podstawą modułu jest silikonowa nakładka powierzchniowa imitująca powierzchnię wątroby. Wielokrotnego użytku silikonowy składnik woreczka żółciowego mocuje się za pomocą rzepu do szczeliny w tej wątrobie. Trójkąt wątrobowo-torbielowaty jest oddzielnym elementem, który musi zostać przymocowany, jak pokazano, do modułu, do podstawy i do samego pęcherzyka żółciowego. Ten trójkąt jest jedynym jednorazowym elementem eksploatacyjnym modułu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The exercise focuses only on the most sensitive stage of the procedure: the dissection of the hepatocystic triangle which is followed by the identification, clipping and resection of cystic duct and artery. The trainee should perform an attempt at attaining a Critical View of Safety (CVS) which is an established standard used by surgeons to systematically avoid bile duct injury during these procedures. Three criteria must be assessed for CVS - the visibility of the duct and artery, the visibility of the cystic plate and the clearance of the hepatocystic triangle. The simulated procedure concludes with the application of clips and cutting the duct and artery.",
+                "pl": "Ćwiczenie skupia się tylko na najważniejszym etapie zabiegu: czyli na rozcięciu trójkąta wątrobowo-torbielowatego, po którym następuje identyfikacja, wycięcie i resekcja przewodu torbielowatego oraz tętnicy. Trenujący powinien podjąć próbę uzyskania krytycznego poglądu na bezpieczeństwo (CVS), który jest ustalonym standardem stosowanym przez chirurgów w celu systematycznego unikania urazów dróg żółciowych podczas cholecystektomii. W przypadku CVS należy ocenić trzy kryteria - widoczność przewodu i tętnicy, widoczność płytki torbielowatej i przejrzyste rozpreparowanie trójkąta wątrobowo-torbielowatego. Symulowany zabieg kończy się założeniem zacisków oraz przecięciem przewodu i tętnicy."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "For educational value it is worth noting that this exercise does not focus on several other aspects of a typical cholecystectomy. In a real procedure a monopolar hook is often used to help in dissecting the triangle. After severing the ducts and the arteries this hook is also used to separate the gallbladder from the liver bed. A specimen pouch is used to enclose and remove the gallbladder through one of the ports after separation. These stages are not simulated in the Laparo Cholecystectomy module due to the physical spatial limitations as well as due to a limited educational and economic value.",
+                "pl": "Dla waloru edukacyjnego warto zauważyć, że ćwiczenie nie skupia się na kilku innych ważnych aspektach typowej cholecystektomii. W prawdziwej procedurze często używa się haka monopolarnego, aby pomóc w rozcięciu trójkąta. Po przecięciu przewodów i tętnic haczyk ten służy również do oddzielenia pęcherzyka żółciowego od łożyska wątroby. Endo-bag służy też do zamykania i wyjmowania pęcherzyka żółciowego przez jeden z portów po oddzieleniu. Etapy te nie są symulowane w module Cholecystektomii Laparo ze względu na fizyczne ograniczenia przestrzenne oraz ograniczoną wartość edukacyjną i ekonomiczną."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Cholecystectomy",
+        "pl": "Cholecystektomia"
+    },
+    "subTitle": {
+        "en": "About the cholecystectomy training modules and exercises.",
+        "pl": "O modułach i ćwiczeniach służących do ćwiczenia zabiegu usunięcia woreczka żółciowego."
+    }
+}

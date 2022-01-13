@@ -1,0 +1,121 @@
+{
+    "id": "BSS1_BSP3",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 420
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Continuous Basic Vertical",
+        "pl": "Szew Podstawowy Pionowy Ciągły"
+    },
+    "skills": {
+        "en": "Suturing, Continuous",
+        "pl": "Szycie, Ciągły"
+    },
+    "description": {
+        "en": "In this exercise you will execute a continuous basic horizontal suturing pattern. Although difficult and rare in laparoscopic suturing, this pattern is a time saving technique which can be used instead of multiple single knots.",
+        "pl": "W tym ćwiczeniu wykonywany jest ciągły podstawowy poziomy szew. Chociaż jest to trudne i rzadkie w szyciu laparoskopowym, taki szew może pomóc w oszczędzeniu czasu. Wiele pojedynczych węzłów jest bardziej czasochłonne. "
+    },
+    "instructions": {
+        "en": "Use the needle holder on the left side and the dissector on the right. To begin the exercise remove the needle from the start position and puncture the silicone from the top with the needle-holder. Apply a single square knot with as little suture material remaining on the top. Then apply 4 continuous throws from the top, each 1-2mm apart. Complete the exercise with the knot shown in the video.",
+        "pl": "W tym ćwiczeniu imadło powinno się znajdować po prawej stronie a disektor po lewej stronie. Aby rozpocząć, należy zdjąć igłę z pozycji startowej i nakłuć długi insert do szycie od góry. Po wykonaniu przekłucia powinien być założony pojedynczy węzeł chirurgiczny (1x1) z jak najmniejszą ilością nici pozostałej na górze. Następnie powinny być wykonane 4 kolejne rzuty od góry, każdy w odstępie 1-2 mm. Ćwiczenie powinno być zakończone w sposób pokazany w video. "
+    },
+    "preparation": {
+        "en": "Place the long suturing insert horizontally into the suturing module and the needle with 15-20cm of suture material in the start position.",
+        "pl": "Umieścić długi insert poziomo na module do szycia oraz pozycję startu na górnej części. Igła wraz z 15-20cm nici umieścić w pozycji startu."
+    }
+}

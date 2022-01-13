@@ -1,0 +1,121 @@
+{
+    "id": "ASS3_ASP2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1200
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 150
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Anastomosis Side-to-Side",
+        "pl": "Zespolenie Side-to-Side"
+    },
+    "skills": {
+        "en": "Anastomosis, Suturing, Sliding Knot",
+        "pl": "Zespolenie, Szycie, Węzeł Przesuwny"
+    },
+    "description": {
+        "en": "Anastomosis in all of it’s combinations is the best way to develop advanced laparoscopic suturing skill. In this combination, side-to-side, two pieces of penrose drain are suspended in parallel on the Advanced Suturing Platform. An opening must be cut between them and they must be properly sutured to each other.",
+        "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, równolegle i obok siebie, dwa kawałki drenu penrose'a są zawiesone na zaawansowanej platformie do szycia. Pomiędzy nimi musi być wycięty otwór i muszą być odpowiednio ze sobą zszyte. W zespoleniach ważna jest drożność łączonych ze sobą elementów."
+    },
+    "instructions": {
+        "en": "First, use scissors to precisely cut 2-3cm openings in the center of both penrose drains so that they are facing each other. Next, apply and tighten two single sliding knots between the edges at the bottom. Apply two more sliding knots between the corners of the cuts and finish with two final sliding knots between the top edges of the penrose drains. The total prescribed for this exercise is 6 knots. A proper anastomosis should allow for an opening, be sure to inspect the results of your work to verify quality.",
+        "pl": "Najpierw nożyczki powinny być użyte, aby precyzyjnie wyciąć 2-3 cm otwory pośrodku obu odpływów penrose'a tak, aby były skierowane do siebie. Następnie powinny być nałożone dwa pojedyncze węzły przesuwne pomiędzy najdalszymi krawędziami na dole. Zastosuj dwa kolejne węzły przesuwne pomiędzy narożnikami nacięć i zakończ dwoma końcowymi węzłami przesuwnymi pomiędzy górnymi krawędziami drenów. Całkowita rekomendowana liczba węzłów to 6 w równych odstępach. Prawidłowe zespolenie powinno umożliwiać przepływ. Należy sprawdzić wyniki pracy, aby zweryfikować jakość wykonanego ćwiczenia. "
+    },
+    "preparation": {
+        "en": "Affix two pieces of penrose drain into the Advanced Suturing Platform, with 5mm of space in between. Rotate them so their creases are on the top. The material should be snug but not stretched. ",
+        "pl": "Dwa kawałki drenu penrose powinny być wmontowane do zaawansowanej platformy do szycia, zachowując 5 mm odstępu pomiędzy nimi. Powinny zostać obrócone tak, aby ich zagniecenia znalazły się na górze. Materiał powinien być dopasowany, ale nie naciągnięty. "
+    }
+}

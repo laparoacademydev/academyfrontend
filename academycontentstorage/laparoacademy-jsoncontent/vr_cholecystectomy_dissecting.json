@@ -1,0 +1,111 @@
+{
+    "id": "vr_cholecystectomy_dissecting",
+    "cameraConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {},
+        "angle": 0
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "cholecystectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "Dissecting"
+    },
+    "isFreeTraining": false,
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "hook"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 80
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Cholecystectomy VR - Critical View of Safety",
+        "pl": "Cholecystektomia VR - Preparowanie"
+    },
+    "skills": {
+        "en": "Procedure, Cholecystectomy, VR, CVS",
+        "pl": "Procedura, Cholecystektomia, VR, CVS"
+    },
+    "description": {
+        "en": "In this version of the exercise only the skill in dissection and assessment of the critical view of safety (CVS) is determined. CVS is a set of criteria which should be fulfilled to avoid biliary injuries in cholecystectomies which are performed on a routine and repetetive basis. The most common cause of bile duct injury stems from misidentification of the common bile duct. To fulfill the CVS the Calot's triangle must be cleared of fat and fibrous tissueand the lowest part of the gallbladder must be dissected from the cystic plate so that it can be verified that there are only two structures entering the gallbladder.",
+        "pl": "W tej wersji ćwiczenia symulowana jest jedynie umiejętność preparowania i tzw. oceny krytycznego spojrzenia na bezpieczeństwo (CVS). CVS jest zestawem kryteriów, które należy spełnić, aby obniżać częstotliwość urazów dróg żółciowych podczas cholecystektomii, które są zabiegami wykonywanymi rutynowo i powtarzalnie. Najczęstszą przyczyną uszkodzenia przewodu żółciowego jest błędna identyfikacja przewodu żółciowego. Aby spełnić kryteria CVS, trójkąt Calota musi być oczyszczony z tkanki tłuszczowej i włóknistej, a najniższa część pęcherzyka żółciowego musi zostać odpreparowana od płytki pęcherzykowej. Tym sposobem możliwe jest zweryfikowanie, że do pęcherzyka żółciowego wchodzą tylko dwie struktury. "
+    },
+    "instructions": {
+        "en": "The trainee must first use the grasper to properly grasp the base of the gallbladder and then use the dissector to dissect the tissue in the Calot's triangle. The objective is to properly expose the cystic duct and the artery which both lead into the gallbladder and are concealed beneath the surface of the tissues surrounding them. The monopolar hook can be used here to use energy to additionally open the ducts and arteries up to be able to be visualized. ",
+        "pl": "Trenujący musi najpierw użyć graspera, aby prawidłowo chwycić podstawę pęcherzyka żółciowego, a następnie użyć disektora, aby przeciąć tkankę w trójkącie Calota. Celem jest prawidłowe odsłonięcie przewodu torbielowatego i tętnicy, które prowadzą do pęcherzyka żółciowego i są ukryte pod powierzchnią otaczających je tkanek. Można tutaj użyć monopolarnego haka, aby wykorzystać energię do dodatkowej ekspozycji kanałów i tętnic, aby można było je zwizualizować."
+    },
+    "preparation": {
+        "en": "Remove any physical modules from the base of the positioning platform of the Apex. Place the ports with trocars in the indicated locations and remove instruments from the device.",
+        "pl": "Wszelkie fizyczne moduły z podstawy platformy pozycjonującej Apex powinny zostać usunięte. Porty wraz z trokarami powinny być ustawione we wskazanych miejscach i instrumenty powinny być wyjęte z urządzenia. "
+    }
+}

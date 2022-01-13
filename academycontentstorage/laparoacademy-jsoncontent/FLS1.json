@@ -1,0 +1,120 @@
+{
+    "id": "FLS1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 48
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Peg Transfer Task",
+        "pl": "Przenoszenie Kołków"
+    },
+    "skills": {
+        "en": "FLS, Dexterity, Manipulation",
+        "pl": "FLS, Zręczność, Manipulacja"
+    },
+    "description": {
+        "en": "This is the first and simplest exercise part of the FLS standard. Six triangles must be moved back and forth, to and from the pegs available. Refer to the video for a tutorial on the best approach. A level of consistent performance should be achieved on two consecutive repetitions and then again on 10 more nonconsecutive repetitions for reinforcement.",
+        "pl": "Pierwsza i najprostsza część ćwiczeniowa standardu FLS. Sześć trójkątów musi być przesuniętych tam i z powrotem, do i od dostępnych kołków. Dołączony film pozwoli zapoznać się z najlepszym podejściem. Poziom wyników powinien zostać osiągnięty w dwóch kolejnych natarciach, a następnie ponownie w 10 kolejnych powtórzeniach w celu wzmocnienia."
+    },
+    "instructions": {
+        "en": "This task is performed with 2 dissectors. Pick up 6 triangles on the left and hand them over to the right instrument and then drop them onto the pegs on the right. This must then be followed in the opposite direction and all 6 triangles should be returned to the pegs on the left. The task should be practiced until it can be performed in 48 seconds with no objects dropped outside of the field of view. ",
+        "pl": "Zadanie wykonywane jest za pomocą 2 disektorów. 6 trójkątów musi być podnoszone kolejno lewym instrumentem i przekazywane prawemu instrumentowi, a następnie powinny być umieszczone na kołkach po prawej stronie. Następnie należy postępować w przeciwnym kierunku i wszystkie 6 trójkątów należy z powrotem umieścić na kołkach po lewej stronie. Zadanie należy ćwiczyć do momentu, w którym będzie można je wykonać w ciągu 48 sekund bez upuszczenia żadnych obiektów poza pole widzenia. "
+    },
+    "preparation": {
+        "en": "Place six triangles onto the pegs on the left side of the FLS Peg Transfer platform.",
+        "pl": "Sześć trójkątów powinno być umieszczone na kołkach po lewej stronie modułu z kołkami FLS."
+    }
+}

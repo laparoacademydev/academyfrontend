@@ -1,0 +1,120 @@
+{
+    "id": "THM1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "clipper"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Clip Application",
+        "pl": "Klipsowanie"
+    },
+    "skills": {
+        "en": "Clip Applicator, Vessels",
+        "pl": "Klipsownica, Naczynia"
+    },
+    "description": {
+        "en": "Applying clips is one of the easiest and fastest ways to close off vessels. Learn how to properly load and fire the clip applicator in this simple exercise.",
+        "pl": "Zakładanie klipsów to jeden z najłatwiejszych i najszybszych sposobów zamykania naczyń przed przecięciem. W poniższym ćwiczeniu trenujący dowie się jak prawidłowo ładować i uruchamiać klipsownicę. "
+    },
+    "instructions": {
+        "en": "Insert a dissector and clip applicator and fix onto the center of the vessel. Rotate the clip applicator to visually confirm that the entire jaw of the instrument is firmly in place. Fire the clip applicator with as much force as possible, reload and place a second clip. Use laparoscopic scissors to first cut the vessel partially and confirm that the clips have sealed the remaining dye in the tubes. Then cut the remainder of the vessel and inspect the clips.",
+        "pl": "Trenujący powinien użyć disektora i klipsownicy aby przymocować klipsy na środku przewodu. Klipsownica powinna być obrócona w taki sposób, aby móc wizualnie potwierdzić, że cała bransza instrumentu jest mocno osadzona na przewodzie. Klipsownica powinna być zaciśnięta z jak największą siłą. Po zaciśnięciu powinna być załadowana przez drugi klips. Po założeniu dwóch klipsów, nożyczki laparoskopowe powinny być użyte aby najpierw częściowo przeciąć naczynie potwierdzając, że klipsy zostały zacisnięte w taki sposób że nie wycieka pozostały barwnik. Następnie pozostała część przewodu może zostać przecięta. "
+    },
+    "preparation": {
+        "en": "Place a single dye-filled tube into the Tissue Holder Module as shown and position the module in the operating area. Before the beginning of the exercise prepare and load the clip applicator and prepare a hard surface on which you will be able to reload. ",
+        "pl": "Insert naczynia z barwnikiem powinien być umieszczony w module uchwytu tkanek a moduł w polu operacyjnym trenażera. Przed rozpoczęciem ćwiczenia powinna być przygotowana i załadowana klipsownica oraz twarda powierzchnia na której będzie możliwe swobodne załadowanie drugiego klipsa."
+    }
+}

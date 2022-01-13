@@ -1,0 +1,172 @@
+{
+    "id": "edu2_instrument_movement",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Surgical procedures performed laparoscopically differ from the open approach at several fundamental levels. These include, but are not limited to: Visualization, Fulcrum Effect and the Lack of Tactile Feedback. Because of this, developing laparoscopic skill requires time and regular practice for the surgeon to become confident.",
+                "pl": "Zabiegi wykonywane metodą laparoskopową różnią się od zabiegów wykonywanych metodą laparotomową w kilku kluczowych aspektach. Należą  do nich: utrudniona wizualizacja, efekt podparcia oraz brak wyczuwalnej informacji zwrotnej. Przez to, rozwijanie umiejętności laparoskopowej i budowanie pewności siebie wymaga czasu i regularnych ćwiczeń.\n"
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Visualization",
+                "pl": "Wizualizacja"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In a laparoscopic surgical procedure the surgeon only has a two-dimensional view of the surgical field. The image available is projected on a screen and comes from a camera. The endoscopic lens is not stereoscopic (3D) and the lens shape affects how three-dimensional space is translated into a two-dimensional image. To maintain precision of instrument movement, the surgeon must learn to visualize how this image distorts physical space and must construct an accurate mental picture of the space in and around the operating area based on this information. An improved mental picture allows the surgeon to plan the desired tasks ahead of time and to perform them efficiently and without unnecessary complication.",
+                "pl": "W zabiegach laparoskopowych chirurg ma dostęp jedynie do dwuwymiarowego  widoku pola operacyjnego. Dostępny obraz wyświetlany jest na ekranie i pochodzi z kamery. Soczewka laparoskopowa nie jest stereoskopowa (3D), a kształt samej soczewki wpływa na to, jak trójwymiarowa przestrzeń jest przetwarzana na dwuwymiarowy obraz. Aby utrzymać precyzję ruchu instrumentów, chirurg musi nauczyć się wizualizować, czyli rozumieć jak przestrzeń jest tłumaczona na obraz. Na bazie tej informacji musi konstruować precyzyjny obraz mentalny przestrzeni operacyjnej. Taki obraz mentalny pozwala chirurgowi na planowanie pożądanych  czynności odpowiednio wcześnie, i na wykonywanie ich wydajnie bez niepotrzebnych komplikacji.\n"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu2_instrument_movement_06.png",
+                    "type": "image",
+                    "label": {
+                        "en": "The image on the left is produced when a laparoscope tip is inserted right up to the target area. The image on the right is produced when the laparoscope tip is kept further away but a digital zoom is applied.",
+                        "pl": "Obraz po lewej powstaje kiedy końcówka laparoskopu znajduje się głęboko zaraz przy docelowym miejscu operacyjnym. Obraz po prawej powstaje kiedy końcówka laparoskopu znajduje się dalej ale zastosowane jest cyfrowe przybliżenie."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "To maintain precision of instrument movement, the surgeon must learn to visualize how this image distorts physical space and must construct an accurate mental picture of this space. ",
+                "pl": "Aby utrzymać precyzję ruchu instrumentów, chirurg musi nauczyć się wizualizować, czyli rozumieć jak przestrzeń jest tłumaczona na obraz i na bieżąco musi konstruować precyzyjny obraz mentalny pola operacyjnego. "
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Visualization of a three-dimensional space with a two-dimensional image is referred to as perspective in art. Visual distance and visual angle are two factors which affect the ability to visualize space. As the distance between the tip of the camera and of the object being observed changes, visualization will change because of a shift in visual angle. When the distance between the tip of the camera and object increases, we will see a good panoramic view but we will lose depth sensation with an increase in distance. Conversely, when the distance between the tip of the camera and object decreases, we will lose the wide-lens panoramic view but the depth sensation will be improved. The surgeon must take this distortion into account at all times and understand how the lens of a camera system works.",
+                "pl": "Wizualizacja trójwymiarowej przestrzeni za pomocą dwuwymiarowego obrazu nazywana jest perspektywą w sztukach wizualnych. Odległość i wizualizowany kąt są dwoma czynnikami, które mają wpływ na zdolność wizualizowania przestrzeni. Przykładowo, kiedy odległość między soczewką a obiektem zmienia się, wizualizacja zmieni się przez zmianę w wizualizowanym kącie. Kiedy odległość między soczewką a obiektem zwiększa się zobaczymy szeroki panoramiczny obraz, jednocześnie tracąc poczucie głębi proporcjonalnie do tej odległości. I odwrotnie, kiedy odległość między soczewką kamery a obiektem zmniejszy się, stracimy panoramiczny widok szerokokątny, jednocześnie zwiększając percepcję głębokości obiektu. Chcąc poprawnie wizualizować przestrzeń, chirurg musi rozumieć jak działa system soczewek w kamerze i jak przekształca on  trójwymiarową przestrzeń na dwuwymiarowy obraz.\n"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "There are 3 common types of rod-lens laparoscopic viewing angles - 0, 30 and 45 degrees. Such angles allow surgeons to position the rod in such a way as to optimize the visual distance and visual angle to best conceptualize the three-dimensional space. In a laparoscopic procedure, the camera operator who is usually an assisting surgeon resident must collaborate closely with the surgeon to give the best possible image.",
+                "pl": "W laparoskopii powszechnie używane są trzy rodzaje torów wizyjnych:0°, 30° i 45°. \nKąty te zniekształcają obraz w taki sposób że możliwe jest usprawnione wizualizowanie odległości i kątów pomagające w wizualizacji trójwymiarowej przestrzeni. Operator kamery (najczęściej  asystujący chirurg) musi blisko współpracować i komunikować się z chirurgiem aby powstawał najbardziej pomocny obraz na ekranie.\n"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu2_instrument_movement_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "When a 0° laparoscope rotates with the camera head fixed, nothing will change. However, when a 30° laparoscope is rotated with the camera head fixed, the image will change angle, allowing the operator to view the peritoneal cavity at an angle. This is why angled laparoscopes are usually preferred - they provide an additional flexibility.",
+                        "pl": "Kiedy głowica kamery pozostanie umocowana, a 0° laparoskop zostanie obrócony to nic nie zmieni się w obrazie. Aczkolwiek, kiedy laparoskop 30° zostanie obrócony, obraz zmieni kąt co pozwala operatorowi na zobaczenie odmy otrzewnowej pod różnymi kątami. Dlatego laparoskopy z taką optyką są przeważnie preferowane - dają one dodatkowy poziom elastyczności."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Fulcrum Effect",
+                "pl": "Efekt podparcia"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In most procedures performed laparoscopically instruments are inserted through trocars in the abdominal wall. This limits the ease with which they can be manipulated and counter-intuitively inverts their movements inside the operating area. This is called the fulcrum effect. The incision in which the trocar sits is a fulcrum point and is called a port. When the handle of the instrument goes up, the tip of the instrument inside goes down. The amount of force applied to the handle of the instrument also translates to a different amount of force affected at the tip of the instrument depending on the depth of insertion. The surgeon must get a feeling for how this works with practice.",
+                "pl": "W trakcie większości zabiegów, instrumenty wprowadzane są do jamy brzusznej za pomocą trokarów. Nazywane też portami, trokary w nieoczywisty sposób odwracają ruchy wewnątrz pola operacyjnego. Nazywamy to efektem podparcia. Kiedy rękojeść instrumentu przesuwana jest w górę, wierzchołek instrumentu po drugiej stronie przesuwa się w dół. Ilość siły przykładana do rękojeści instrumentu przenosi ilość siły do wierzchołka która jest zależna od głębokości na którą wprowadzony jest instrument w danym momencie. Poprzez trening uczący musi zrozumieć i wyczuć tę właściwość w praktyce."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu2_instrument_movement_02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Fulcrum Visual Angle - the image above demonstrates the way the insertion depth changes the scale of forces on the other side of a fulcrum point.",
+                        "pl": "Wizualizacja Efektu Podparcia - obraz powyżej demonstruje sposób w który głębokość insercji wpływa na skalę sił udczuwalnych po drugiej stronie punktu podparcia."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Lack of Tactile Feedback",
+                "pl": "Brak wyczuwalnej informacji zwrotnej"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Because instruments are used to grasp, dissect and manipulate tissue, there is an obvious absence of tactile feedback which is normally available in open surgery. The instrument provides little feedback on the softness, hardness and texture of tissues. Because of this the surgeon has a limited scope of information on the properties of the tissues and the amount of force needed to apply to the tips of the instruments.",
+                "pl": "Ponieważ instrumenty są używane do chwytania, preparowania i manipulowania tkanką, istnieje też oczywisty brak wyczuwalnej informacji zwrotnej, która normalnie jest obecna podczas zabiegów otwartych. Instrument nie daje poczucia twardości, miękkości czy struktury tkanek. Z tego powodu chirurg ma ograniczony  zakres informacji o właściwościach tkanek i sile potrzebnej do przyłożenia na końcówkach instrumentów."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In the first exercises you will learn how the operative area works. In these exercises, pay close attention to how the lack of haptic and tactile feedback, the counter-intuitive fulcrum effect and the lack of two-dimensional view will affect your ability to perform these seemingly simple tasks.",
+                "pl": "W pierwszych ćwiczeniach trenujący pozna sposób działania pola operacyjnego. Warto zwrócić uwagę na zredukowaną ilość wyczuwalnej informacji zwrotnej, sprzeczny z intuicją  efekt podparcia oraz brak trójwymiarowego widoku podczas tych prostych ćwiczeń."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Procedure Planning",
+                "pl": "Planowanie zabiegów"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "One of the most important aspects of correctly performing a Laparoscopic procedure lies in planning and defining the exact port position in relationship to the operating area. It isn’t possible to change the positions of the trocars once the procedure has begun and so the surgeon must carefully assess which angles will give the most ease of movement throughout the procedure.",
+                "pl": "Jednym z najważniejszych aspektów poprawnego wykonania zabiegu metodą laparoskopową  jest planowanie i definiowanie dokładnej pozycji portu w relacji do pola operacyjnego. Zmienienie lokalizacji trokarów nie jest możliwe po rozpoczęciu zabiegu. Tak więc chirurg musi ostrożnie wymierzyć kąty, które zapewnią mu największą swobodę ruchu podczas zabiegu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Before inserting the trocars and insufflating the surgeon must decide where the ports will be placed and make an accurate prediction of the range of movement possible. When two ports are placed and instruments are inserted, a plane will be created. When a third port is placed, planes are created by each pair of trocars. These planes create a three dimensional operating area inside of which the surgeon has the best access to and mobility inside of. ",
+                "pl": "Przed insercją trokarów i rozpoczęciem insuflacji, musi zostać podjęta najważniejsza strategiczna decyzja o lokalizacji portów, i musi zostać poprawnie przewidziany zakres ruchu, który to rozmieszczenie zapewni. Definicja portów i włożenie instrumentów wytwarza wyobrażoną płaszczyznę pomiędzy nimi. Umieszczając trzeci port, dodatkowe płaszczyzny są tworzone przez każdą parę trokarów. Wyobrażając sobie te płaszczyzny możemy wyobrazić sobie trójwymiarową strukturę pola operacyjnego, wewnątrz którego chirurg będzie miał najlepszy dostęp i największą mobilność zakresu ruchów."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "Before inserting the trocars and insufflating the surgeon must decide where the ports will be placed and make an accurate prediction of the range of movement possible. ",
+                "pl": "Przed insercją trokarów i rozpoczęciem insuflacji, musi zostać podjęta najważniejsza strategiczna decyzja o lokalizacji portów, i musi zostać poprawnie przewidziany zakres ruchu, który to rozmieszczenie zapewni."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu2_instrument_movement_03.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Port placements vary between procedures. The angle between the instruments, and the positioning of the surgeon and the OR set-up have a big impact on the situation inside the target operating area.",
+                        "pl": "Lokalizacje portów są zależne od wykonywanej procedury. Kąt pomiędzy instrumentami, pozycja chirurga oraz rozstawienie sali operacyjnej mogą mieć duży wpływ na warunki panujące wewnątrz pola operacyjnego."
+                    }
+                }
+            ]
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Instrument Movement: Fulcrum Inversion and Precision",
+        "pl": "Ruch instrumentów: efekt podparcia i precyzja"
+    },
+    "subTitle": {
+        "en": "An overview of what makes instrument movement and manipulation so difficult in laparoscopy.",
+        "pl": "Właściwości pola operacyjnego utrudniające ruch i manipulację instrumentami w laparoskopii."
+    }
+}

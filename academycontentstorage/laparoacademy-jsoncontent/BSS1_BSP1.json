@@ -1,0 +1,121 @@
+{
+    "id": "BSS1_BSP1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 210
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Single Surgical Knot Vertical",
+        "pl": "Pojedynczy Węzeł Chirurgiczny - Orientacja Pionowa"
+    },
+    "skills": {
+        "en": "Surgical Knot, Suturing",
+        "pl": "Węzeł Chirurgiczny, Szycie"
+    },
+    "description": {
+        "en": "The single surgical knot is the most basic knot used in surgery. It can be noted as 2x1x1. Follow the instructions to learn how to apply this knot vertically.",
+        "pl": "Pojedynczy węzeł chirurgiczny jest podstawowym węzłem stosowanym w medycynie. Jest to węzeł który następuje w konfiguracji 2x1x1. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł w pionie. "
+    },
+    "instructions": {
+        "en": "First use the needle holder to take the needle from the start position and rotate it so that it is positioned on ⅔ of the needle. Perform two vertical throws, each followed by wrapping the suture around the instrument and tighten this simple knot onto the target tissue. Cut off the remaining suture and return the needle to the start position.",
+        "pl": "Najpierw użyj imadła, aby wyjąć igłę z pozycji początkowej i obrócić ją tak, aby znalazła się na ⅔ igły poziomo. Wykonaj dwa rzuty pionowe góra-dół, po każdym owijając nić wokół instrumentu i zaciskając ten węzeł na tkance docelowej. Odetnij pozostałą nić i przywróć igłę do pozycji wyjściowej. "
+    },
+    "preparation": {
+        "en": "Place the needle in the start position at the top of the module and the small suturing component vertically as shown.",
+        "pl": "Igła powinna zostać umieszczona w pozycji początkowej na górze modułu, a mały element do zszywania w orientacji poziomej."
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "id": "DM5",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "dexterity_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "dexterity_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 240
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Endurance and Precision",
+        "pl": "Wytrzymałość i Precyzja"
+    },
+    "skills": {
+        "en": "Endurance, Precision",
+        "pl": "Wytrzymałość, Precyzja, Szycie"
+    },
+    "description": {
+        "en": "Laparoscopic procedures are often very simple in principle but can become very difficult when performed for prolonged periods of time. In this exercise you must execute a difficult maneuver methodically and with precision.",
+        "pl": "Procedury laparoskopowe są często bardzo proste w zasadzie, ale mogą stać się bardzo trudne, gdy wykonywane są przez dłuższy czas. W tym ćwiczeniu musisz metodycznie i precyzyjnie wykonać przedstawiony manewr."
+    },
+    "instructions": {
+        "en": "Push the cone into the hole on the ball and then place the ball with the cone vertically on the post.",
+        "pl": "Wciśnij stożek do otworu w kulce, a następnie umieść kulkę ze stożkiem pionowo na słupku. "
+    },
+    "preparation": {
+        "en": "Place one cone and one ball in the center basket of the Dexterity Module.",
+        "pl": "Umieść jeden stożek i jedną piłkę w środkowym koszu Modułu Zręczności. "
+    }
+}

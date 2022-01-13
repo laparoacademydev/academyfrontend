@@ -1,0 +1,121 @@
+{
+    "id": "THM3_VDM2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1200
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 200
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Vessel Intersection, Dissection and Ligature",
+        "pl": "Preparowanie, Klipsowanie i Podwiązanie Krzyżujących się Przewodów"
+    },
+    "skills": {
+        "en": "Dissection, Vessel, Clipping, Ligature",
+        "pl": "Preparowanie, Przewód, Klipsowanie, Podwiązanie"
+    },
+    "description": {
+        "en": "Vessels don’t always follow a logical path, they intersect and intertwine. Varying anatomy further complicates surgery. In this exercise you must dissect the entire area to properly identify the vessels at the intersection. You must avoid doing any unnecessary damage and you must maintain the bottom intersection intact while accurately ligating and cutting target vessels.",
+        "pl": "Przewody nie zawsze podążają logiczną ścieżką. Przecinają się i splatają nieprzewidywalnie. Zmienna anatomia dodatkowo komplikuje operacje i powoduje że każdy pacjent jest inny. W tym ćwiczeniu uczący musi wypreparować cały obszar, aby prawidłowo zidentyfikować splot naczyń na skrzyżowaniu. Należy uniknąć uszkodzeń i utrzymywać dolne przewody w stanie nienaruszonym, jednocześnie dokładnie podwiązując i przecinając naczynia docelowe. "
+    },
+    "instructions": {
+        "en": "First, use the dissector to precisely remove the top layer of the skin near the bottom of the Vessel Dissection Module. Then dissect to find and identify all three intersections of vessels submerged under the surface. Apply two ligatures on each left side of the two top-most vessels while avoiding the third bottom vessel intersection. Use scissors to precisely cut these two vessels.",
+        "pl": "Najpierw disektor powinien być użyty aby dokładnie usunąć górną warstwę skóry w pobliżu dolnej części insertu. Następnie powinno być przeprowadzone preparowanie, aby znaleźć i zidentyfikować wszystkie trzy przecięcia naczyń zanurzonych pod powierzchnią. Założone powinny być dwa wiązania po każdej stronie dwóch naczyń położonych najbliżej powierchni, unikając przecięcia trzeciego naczynia dolnego. Nożyczki powinny być użyte, aby precyzyjnie przeciąć te dwa naczynia. "
+    },
+    "preparation": {
+        "en": "Insert the Vessel Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured and clip the component into the three clips at the top. Make sure the underlying vessels are oriented with three vessels aimed towards the clips at the top.",
+        "pl": "Insert do preparowania naczyń powinien być umieszczony w modułe uchwytu tkanek. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. Przypnij element do trzech klipsów na górze modułu. Upewnij się, że znajdujące się pod spodem naczynia są zorientowane w taki sposób aby trzy naczynia były skierowane w górę."
+    }
+}

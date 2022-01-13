@@ -1,0 +1,121 @@
+{
+    "id": "EBLUS2",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "needle_h",
+        "needle_h",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 360
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Laparoscopic Suturing",
+        "pl": "Szycie Laparoskopowe"
+    },
+    "skills": {
+        "en": "E-BLUS, Suturing",
+        "pl": "E-BLUS, Szycie"
+    },
+    "description": {
+        "en": "In this exercise suturing skill is tested on a single penrose drain attached to the velcro module. The trainee must demonstrate the ability to accurately perform an intracorporeal knot entirely inside the operating area. A needle and suture material are placed inside the operating area and a single surgical knot must be applied to the target structure without accidentally pulling the penrose drain off of the velcro attachment.",
+        "pl": "W tym W tym ćwiczeniu testowana jest umiejętnośc szycia na drenie penrose przymocowanym do modułu z rzepem. Trenujący musi wykazać się umiejętnością dokładnego wykonania węzła wewnątrzustrojowego wewnątrz pola operacyjnego. Wewnątrz pola operacyjnego umieszcza się igłę i szew, a pojedynczy węzeł chirurgiczny musi być założony na strukturę docelową bez zerwania rzepu na którym dren jest przymocowany."
+    },
+    "instructions": {
+        "en": "The goal of the exercise is to drive the needle within 1mm through both of the black dots on the penrose drain. On the first draw through a double throw should be applied and then followed by two single opposite throws (2x1x1). The exercise should be completed within 360 seconds, the penrose drain cannot come loose from the module and it cannot be torn. According to the E-BLUS standard two needle drivers should be used with one braided suture and a 3-0 with curved needle. Alternatively if two needle holders are not available the exercise may be practiced with one needle holder and one dissector.\n ",
+        "pl": "Celem ćwiczenia jest przeprowadzenie igły w maksymalnej odległości 1mm od obu czarne kropki na drenie penrose'a. Przy pierwszym owinięciu powinien być wykonany podwójny rzut, a następnie dwa pojedyncze rzuty przeciwne (2x1x1). Cwiczenie powinno być wykonane w ciągu 360 sekund, dren penrose nie może się odczepić od modułu i nie może sie rozerwać w trakcie ćwiczenia. Zgodnie ze standardem E-BLUS powinny być użyte dwa imadła z jednym szwem plecionymi igłą 3-0. Alternatywnie jeśli dwa imadła nie są dostępne, ćwiczenie może być wykonwyane przy pomocy jednego imadła i jednego disektora."
+    },
+    "preparation": {
+        "en": "The standard FLS and E-BLUS compatible module for suturing should be used in this exercise with two needle drivers (or one needle driver and one dissector) along with a braided suture and 3-0 curved needle. The module should be placed in the operating area and the needle placed around the module as shown.",
+        "pl": "Standardowy moduł do szycia zgodny z FLS i E-BLUS powinien być użyty w tym ćwiczeniu z dwoma imadłami (lub jednym imadłem i jednym disektorem) wraz z szwem plecionym i zakrzywioną igłą 3-0. Moduł należy umieścić w obszarze operacyjnym, a igłę wokół modułu, tak jak pokazano. "
+    }
+}

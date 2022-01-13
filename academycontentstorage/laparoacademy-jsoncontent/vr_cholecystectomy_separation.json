@@ -1,0 +1,108 @@
+{
+    "id": "vr_cholecystectomy_separation",
+    "cameraConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {},
+        "angle": 0
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "cholecystectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "cholecystectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "Separation"
+    },
+    "isFreeTraining": false,
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "hook"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 270
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 8
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Cholecystectomy VR - Gallbladder separation",
+        "pl": "Cholecystektomia VR - Separacja pęcherzyka"
+    },
+    "skills": {
+        "en": "Procedure, Cholecystectomy, VR",
+        "pl": "Procedura, Cholecystektomia, VR"
+    },
+    "description": {
+        "en": "In this version of the exercise, the cystic duct and artery have already been clipped and cut. What remains at this stage of the procedure is the separation of the gallbladder along the areoal tissue plane which binds it to the liver bed. This separation is done with the use of the monopolar hook and some energy. The surgeon must avoid accidentally damaging the liver while also making sure that the gallbladder itself remains intact. After this separation is complete, the gallbladder can be safely removed from the peritoneal cavity.",
+        "pl": "W tej wersji ćwiczenia przewód torbielowaty i tętniczka zostały już zaklipsowane i przecięte. Na tym etapie procedury pozostaje separacja woreczka żółciowego wzdłuż płaszczyzny tkanki otoczkowej która trzyma woreczek przymocowany do łożyska wątroby. To oddzielenie jest wykonywane przy pomocy haka monopolarnego oraz energii. Chirurg musi unikać przypadkowego uszkodzenia powierzchni wątroby jednocześnie upewniając się że woreczek pozostaje w całości. Po pomyślnym zakończeniu tej separacji woreczek jest już całkowicie oddzielony i może być bezpiecznie usunięty z jamy otrzewnej."
+    },
+    "instructions": {
+        "en": "Use the grasper to get a hold of the base of the gallbladder where the clip was placed. Pull on this part up to create tension on the tissue which binds the gallbladder to the liver. Introduce the monopolar hook and use it pull on pieces of this tissue away from both the gallbladder and the liver. Use the pedal to activate energy and this will cauterize the tissue surrounding the hook. The energy can also be activated when pushing the hook against the tissue, but this is not recommended. The purpose of the hook is to pull the tissue away and avoid applying energy where it shouldn't be applied. A thin and even layer of tissue should remain on the surface of the liver and the gallbladder. The surface of the liver will begin to bleed slightly when the separation gets too close to the liver. Although sometimes this cannot be avoided and it not technically a mistake, the surface of the liver should be kept intact and any bleeding should be cauterized before completing the procedure. To confirm that the remaining tissues are intact after cauterizing it may be useful to wash them off with the irrigation and suction tool.",
+        "pl": "Podstawa woreczka żółciowego w okolicy klipsa powinna zostać chwycona grasperem. Grasper w trakcie tego ćwiczenia powinien ciągnąć za woreczek w taki sposób aby wytwarzać napięcie na tkance mocującej woreczek do wątroby. Hak monopolarny powinien zostać wprowadzony i powinien pociągać za tkanki w połowie pomiędzy woreczkiem a wątrobą. Używając pedału aktywującego energię tkanka zostanie wypalona wokół samego haka. Energia jest też aktywowana popychając hakiem tę tkankę ale ten sposób nie jest rekomendowany. Celem użycia haka jest pociąganie za tkankę w taki spoób aby unikać stosowania energii zbyt blisko otaczających narządów. Cieńka i równomierna warstwa tkanek powinna pozostawać na powierzchni wątroby oraz woreczka żółciowego. Powierzchnia wątroby zacznie krwawić kiedy separacja hakiem odbędzie się zbyt blisko wątroby. Chociaż czasami nie może to być uniknięte to nie jest to technicznie błędem, powierzchnia wątroby nie powinna ulegać szkodzie i jakiekolwiek krwawienie powinno też być dla pewności przypalone energią monopolarną przed zakończeniem procedury. Aby upewnić się że takie krwawienie nie trwa rekomendowane jest użycie irygatora i ssaka."
+    },
+    "preparation": {}
+}

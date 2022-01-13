@@ -1,0 +1,107 @@
+{
+    "id": "vr_appendectomy_singlestapling",
+    "cameraConfig": {
+        "Apex": {},
+        "Analytic": {},
+        "Advance": {},
+        "angle": 0
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "appendectomy_background.png",
+                "places": [
+                    7,
+                    6,
+                    1
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                7,
+                6,
+                1
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Appendectomy",
+        "scenario": "DissectAndStapler"
+    },
+    "isFreeTraining": false,
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors",
+        "hook",
+        "irrigator",
+        "stapler"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Appendectomy VR - Single stapling approach",
+        "pl": "Apendektomia VR - pojedyncze staplowanie"
+    },
+    "skills": {
+        "en": "Procedure, Appendectomy, VR",
+        "pl": "Procedura, Apendektomia, VR"
+    },
+    "description": {
+        "en": "In this virtual reality exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction. The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a stapler should be used at the base to clip the entire appendicular artery before removing the appendix.",
+        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć staplera u podstawy, aby przyciąć całą tętnicę wyrostka przed usunięciem. "
+    },
+    "instructions": {},
+    "preparation": {}
+}

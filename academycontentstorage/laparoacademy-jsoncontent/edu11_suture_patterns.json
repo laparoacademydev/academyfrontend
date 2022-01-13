@@ -1,0 +1,118 @@
+{
+    "id": "edu11_suture_patterns",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Knots played an important role through the ages. Before the advent of other technologies, knots and ropes achieved many complex mechanical tasks. Buildings, bridges as well as ship rigging were all highly dependent on familiarity with complex knot structures.",
+                "pl": "Historycznie, węzły odegrały ważną rolę w rozwoju technologicznym ludzkości. Budowa budynków, mostów czy statków opierała się w dużej mierze na znajomości skomplikowanych węzłów. Przed powstaniem innych technologii, węzły i sznurki służyły do wielu skomplikowanych zadań opartych na mechanice. "
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Although not used in those fields anymore, knots remain an important tool in surgery, where tissues must be precisely mechanically reapproximated for healing. Because knots are so old and almost mythological, they have been ascribed in the eyes of surgeons more as an art form than a science. To many, methods and materials in suturing are a matter of habit, guesswork or even of tradition. ",
+                "pl": "Wyparte później na bok przez inne technologie, węzły pozostały bardzo ważnym narzędziem w chirurgii. Tkanki muszą być precyzyjnie, mechanicznie przesuwane, tak aby mogły poprawnie się goić. Ponieważ węzły są tak stare i prawie że mityczne, w oczach chirurgów umiejętność ich wiązania jest postrzegana jako sztukę. Dla wielu, metody szycia i wiązania są kwestią nawyków, wyczucia i tradycji."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Because of this it may be useful to not unly see knot-tying as an artform requiring talent but as a technique requiring experience and practice. A knot in suturing is of enormous importance, and yet faulty knot tying technique still occurs on a regular basis. Improperly applied knots loosen or even break sooner than is needed. To make matters worse, this can often go unnoticed when hidden out of sight for the patient and the medical practitioners.",
+                "pl": "Przy nauce węzłów może być pomocne postrzeganie ich jednak nie jako sztuki wymagającej talentu, lecz techniki wymagającej doświadczenia i praktyki. Źle założone węzły poluzowują się i mogą się zrywać wcześniej niż powinny. W laparoskopii jest to niedopuszczalne, gdyż zauważenie zerwanego węzła jest praktycznie niemożliwe."
+            }
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "To many surgical apprentices, methods and materials in suturing are a matter of habit, guesswork or even of tradition. ",
+                "pl": "Dla wielu adeptów chirurgii, metody szycia i wiązania są kwestią nawyków, wyczucia i tradycji."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The knot becomes all the more important and all the more challenging with the laparoscopic approach due to the size limitations and instrument movement range. Developing the perfect technique with knots in this field is of the highest importance and gives the surgeon a much wider intraoperative field of play.",
+                "pl": "Węzeł staje się o tyle ważniejszy i wymagający przy chirurgii małoinwazyjnej ze względu na ograniczenia przestrzenne. Rozwinięcie perfekcyjnej techniki szycia węzłów w laparoskopii daje chirurgowi o wiele szersze pole manewru."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Basic Throw in Suturing",
+                "pl": "Podstawowy węzeł"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "A simple notation method exists for describing sutures - the number of wraps or throws followed by = if the next throw is the same and x if the next throw is in the opposite direction. And so: 1=1 is a simple square knot in which two single identical throws are made and a 1x1 is a simple granny knot with opposite throws. This notation can be expanded with additional wraps and throws. A typical sliding knot for instance can be notated as 1=1x1 with the final throw being used to lock it permanently. Another commonly used knot is the Surgeon's Granny Knot which can be noted as 2x1.",
+                "pl": "Pomocny jest następujący system opisywania węzłów: liczba owinięć oraz następujący za nimi znak „=” kiedy następne owinięcia będą w tym samym kierunku, albo znak „x” jeśli następne owinięcia będą w przeciwnym do poprzedniego. Tak więc: „1=1” to płaski węzeł w którym dwa identyczne owinięcia następują po sobie a „1x1” to tzw. granny knot, w którym dwa przeciwne owinięcia następują po sobie. Możemy tym sposobem klarownie opisywać i zapamiętywać bardziej skomplikowane konfiguracje takie jak dla sliding knot: „1=1x1”, bądź węzeł chirurgiczny „2x1”."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu11_suture_patterns_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "Various types of knots.",
+                        "pl": "Różne rodzaje węzłów."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When forming the first throw the surgeon wraps one suture and around the other. In Laparoscopy this means that the guiding piece of suture is wrapped around the tip of one instrument while the other instrument holds the other loose end. When pulled down and off the instrument, this throw is complete and ready to be tightened.",
+                "pl": "W laparoskopii formując pierwszy rzut, chirurg musi owinąć nici wokół siebie co jest utrudnione ze względu na ograniczony zakres ruchów. Najlepszym sposobem jest owinięcie docelową liczbę razy instrumentu nicią z jednej strony i złapanie tym instrumentem nici drugiej strony. Pociągnięty instrument pozwoli pętelce zsunąć się, co generuje jeden pojedynczy rzut."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "When applying the next throw, the opposite must be done on the opposite instrument. The guiding end will now be on the other side and it will be wrapped around the other instrument. It is noteworthy that the notation above can be confusing here. Because we switch sides between the throws, so does the side. So a 1=1 square knot will have two similar forward wrapping throws.",
+                "pl": "Aplikując kolejny kolejny rzut możemy użyć przeciwnego instrumentu. Tym razem nić będzie owijana wokół niego i manewr może zostać powtórzony. Warto jednak zwrócić uwagę na fakt, że przy zmianie stron odwracamy kierunek co może być mylące, tak więc węzeł „1=1” będzie się składał z dwóch rzutów do przodu na przeciwnych instrumentach. Jeżeli potrzebny jest węzeł “1x1”, to będziemy wykonywać owinięcia na tylko jednym z instrumentów. Trenujący podczas ćwiczeń musi zrozumieć tę dynamikę."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Types of Knots",
+                "pl": "Rodzaje węzłów"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "One of the single most worthwhile knots to remember and learn to use is the sliding knot. A simple 1=1 square knot, the knot can easily converted into a slip knot after making two 1=1 throws but before tightening the ends. This slip-knot can be pulled and tightened onto the target structure even in constrained and limited space and at unforseen angles.",
+                "pl": "Jednym z najbardziej przydatnych węzłów jest węzeł płaski przesuwny. Prosty węzeł „1=1”, kiedy nie jest zaciśnięty całkowicie a zostanie pociągnięty z wiodącej strony, zmieni się na przesuwany węzeł czyli tzw. sliding knot. Taki węzeł może posłużyć do dodatkowego dociśnięcia oraz może być tymczasowo zmieniany na powrót na prosty, dając operującemu wiele możliwości, nawet przy dziwnych nieprzewidzianych kątach i w ograniczonym polu operacyjnym."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu11_suture_patterns_02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "The Sliding Knot",
+                        "pl": "Węzeł Przesuwny"
+                    }
+                }
+            ]
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Basic Knots",
+        "pl": "Podstawowe węzły"
+    },
+    "subTitle": {
+        "en": "A description of the basic properties of knots used in surgery.",
+        "pl": "Opis podstawowych właściwości węzłów używanych w chirurgii."
+    }
+}

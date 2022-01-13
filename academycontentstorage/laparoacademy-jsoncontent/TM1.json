@@ -1,0 +1,132 @@
+{
+    "id": "TM1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 180
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Intro to Tension",
+        "pl": "Wprowadzenie do Napięcia"
+    },
+    "skills": {
+        "en": "Elasticity, Instrument Collaboration, Ambidexterity",
+        "pl": "Elastyczność, Współpraca Instrumentami, Współpraca Oburęczna"
+    },
+    "description": {
+        "en": "In this exercise you will learn how to manipulate elastic objects. The length of the instrument shaft on both sides of the fulcrum point at the trocar will influence how much force you have to apply to the instrument for the rubber band to stretch. The deeper you insert the instrument, the more force you must apply and vice versa.",
+        "pl": "W tym ćwiczeniu nauczysz się manipulować obiektami elastycznymi. Długość instrumentu po obu stronach punktu podparcia na trokarze wpływa na to, jaką siłę należy przykładać do instrumentu, aby gumka się rozciągnęła. Im głębiej wkładasz instrument, tym większą siłę musisz przyłożyć i na odwrót. "
+    },
+    "instructions": {
+        "en": "Move three rubber bands from posts at the bottom to the top starting with the middle one, and then all three back, finishing with middle one. Hold the rubber band with both instruments from beginning until end. This exercise teaches the basic manipulation of elastic objects as well as moving instruments together as a unit.",
+        "pl": "Przenieś trzy gumki ze słupków na dole na górę, zaczynając od środkowego, a następnie wszystkie trzy z powrotem, kończąc na środkowym. Trzymaj gumkę obydwoma instrumentami od początku do końca. To ćwiczenie uczy podstawowych manipulacji obiektami elastycznymi, jak i poruszania się wewnątrz pola operacyjnego instrumentami razem."
+    },
+    "preparation": {
+        "en": "Place three rubber bands onto the Tension Module between the posts at the bottom. Place two rubber bands first between the posts in the corners and then one rubber band on the triangle at the bottom.",
+        "pl": "Umieść trzy gumki na Module Napięcia. Najpierw umieść dwie gumki pomiędzy słupkami w rogach, a następnie jedną gumkę na trójkącie na środku. "
+    }
+}

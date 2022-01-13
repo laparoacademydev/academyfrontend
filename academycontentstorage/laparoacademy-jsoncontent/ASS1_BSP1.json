@@ -1,0 +1,121 @@
+{
+    "id": "ASS1_BSP1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 210
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Mattress Knot Vertical",
+        "pl": "Węzeł Pionowy Materacowy"
+    },
+    "skills": {
+        "en": "Knot, Suturing",
+        "pl": "Węzeł, Szycie"
+    },
+    "description": {
+        "en": "The mattress suture technique is one of the most commonly used patterns for skin closure. The technique allows for skin edges to be closed under tension when the edges must be brought together over a distance. Although used less frequently in laparoscopy, the knot is useful in some situations.",
+        "pl": "Technika szycia materacowego jest jedną z najczęściej stosowanych szwów do zamykania skóry. Technika pozwala na zamknięcie krawędzi skóry pod naprężeniem, gdy krawędzie muszą być zbliżone do siebie na odległość a szwy powinny być ukryte na ile to możliwe. Chociaż rzadziej używany w laparoskopii, węzeł jest przydatny w niektórych sytuacjach. "
+    },
+    "instructions": {
+        "en": "In this exercise take the needle and perform two throws, the second directly above the first. Apply a single sliding knot between both ends of the suture protruding from the top of the module. To complete the exercise, cut off the remaining suture material and return the needle to the start position.",
+        "pl": "W tym ćwiczeniu weź igłę i wykonaj dwa przekłucia, drugie ponad pierwszym. Załóż pojedynczy węzeł przesuwny pomiędzy obydwoma końcami szwu wystającymi z górnej części modułu. Aby zakończyć ćwiczenie, odetnij pozostałą nić i przywróć igłę do pozycji wyjściowej. "
+    },
+    "preparation": {
+        "en": "Place a single vertical suturing component onto the Basic Suturing Platform and place the needle in the start position at the top of the module with 10-20cm of suture material.",
+        "pl": "Umieścić pojedynczy pionowy element do szycia na podstawowej platformie do szycia i umieścić igłę w pozycji początkowej na górze modułu z 10-20 cm materiału do szycia. "
+    }
+}

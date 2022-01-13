@@ -1,0 +1,50 @@
+{
+    "id": "edu16_fls",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Commonly known as the FLS, The Fundamentals of Laparoscopic Surgery is a technical skills proficiency-based training programme, endorsed and approved by the Society of American Gastrointestinal and Endoscopic Surgeons. Based on scientific research and decades of use, the FLS has been proven to be a resilient standard for certifying laparoscopic surgical skill. Surgeons in North America must pass this exam before being allowed to practice and the standard has also been used in many other places around the world.",
+                "pl": "Powszechnie znany jako FLS, The Fundamentals of Laparoscopic Surgery to program szkoleniowy oparty na umiejętnościach technicznych, zatwierdzony przez Towarzystwo Amerykańskich Chirurgów Żołądkowo-Jelitowych i Endoskopowych. W oparciu o badania naukowe i dziesięciolecia użytkowania udowodniono, że FLS jest miarodajnym standardem certyfikacji umiejętności chirurgii laparoskopowej. Chirurdzy w Ameryce Północnej muszą zdać ten egzamin, zanim będą mogli wykonywać zabiegi małoinwazyjne. Przez to standard jest często również wdrażany i uznawany w wielu innych miejscach na całym świecie.\n"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Laparoscopic instrument skill is verified with 5 separate exercises. Tests are performed  at a certified FLS Regional Test Center, an annual SAGES Meeting or the ACS Clinical Congress. Each one of these exercises is measured with time and is based on specific parameters which have been proven to verify trainee laparoscopic skill. The tasks are simple and designed to be cost and time effective.",
+                "pl": "Umiejętność posługiwania się instrumentem laparoskopowym weryfikowana jest 5 oddzielnymi ćwiczeniami. Badania przeprowadzane są w certyfikowanym Regionalnym Centrum Testowym FLS, na corocznym Spotkaniu SAGES lub na Kongresie Klinicznym ACS. Każde z ćwiczeń jest mierzone czasem i opiera się na określonych parametrach, które sprawdzają umiejętności laparoskopowe szkolonego. Zadania są proste i zaprojektowane w taki sposób, aby były efektywne kosztowo i czasowo."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "We here at Laparo Medical Simulators highly recommend that trainees follow the included Basic Skills and Basic Suturing Skill training paths to hone their skill. Those exercises will walk the trainee through smaller difficulty increments step-by-step, breaking down skills into simpler components. Especially the FLS suturing exercises become much easier with practice.",
+                "pl": "Laparo Medical Simulators zaleca, aby praktykanci podążali za dołączonymi ścieżkami treningowymi: Umiejętności podstawowe i Podstawowe umiejętności szycia, aby doskonalić swoje umiejętności. Ćwiczenia te poprowadzą uczestnika przez mniejsze przyrosty trudności krok po kroku, rozkładając umiejętności na prostsze elementy. Szczególnie ćwiczenia FLS z szyciem staną się znacznie łatwiejsze wraz z praktyką i czasem spędzonym na treningu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "For optimal trainee benefit it is recommended that training for the FLS is performed over a longer period of time in multiple sessions. It is recommended that these sessions don’t last over an hour. You may consult materials available from the FLS or SAGES for information on the tasks. ",
+                "pl": "W celu uzyskania optymalnych korzyści dla szkolonego zaleca się, aby szkolenie w zakresie FLS odbywało się przez dłuższy czas w wielu sesjach. Zaleca się, aby te sesje nie trwały dłużej niż godzinę. Możesz zapoznać się z materiałami dostępnymi w FLS lub SAGES w celu uzyskania bardziej szczegółowych informacji na temat zadań."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Disclaimer: \nThe FLS-Compatible components and courses made by Laparo Medical Simulators are not endorsed or verified by SAGES or the FLS. Because of this they may not be completely identical to the actual devices used for certification and differences may exist.\n",
+                "pl": "Zastrzeżenie:\nKomponenty i kursy kompatybilne z FLS dostarczane przez Laparo Medical Simulators nie są wspierane ani weryfikowane przez SAGES lub FLS. Z tego powodu mogą nie być całkowicie identyczne z rzeczywistymi urządzeniami używanymi do certyfikacji i mogą istnieć różnice.\n"
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Fundamentals of Laparoscopic Surgery - FLS",
+        "pl": "Fundamentals of Laparoscopic Surgery - FLS"
+    },
+    "subTitle": {
+        "en": "An overview of what the FLS standard is.",
+        "pl": "Przegląd standardu FLS"
+    }
+}

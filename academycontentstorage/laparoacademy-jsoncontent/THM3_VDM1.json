@@ -1,0 +1,121 @@
+{
+    "id": "THM3_VDM1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 900
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 170
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Vessel Dissection, Clipping and Ligature",
+        "pl": "Preparowanie, Klipsowanie i Podwiązanie Przewodów"
+    },
+    "skills": {
+        "en": "Dissection, Vessel, Clipping, Ligature",
+        "pl": "Preparowanie, Przewód, Klipsowanie, Podwiązanie"
+    },
+    "description": {
+        "en": "Identifying structures and tissues inside the operating area is one of the most important skills in laparoscopy. Vessels and Ducts are often difficult to find as they are often submerged inside of other tissues and structures.",
+        "pl": "Rozpoznawanie struktur i tkanek w obszarze operacyjnym jest jedną z najważniejszych umiejętności w laparoskopii. Naczynia i przewody są często trudne do znalezienia, ponieważ często są zanurzone w innych tkankach i strukturach. "
+    },
+    "instructions": {
+        "en": "First, use scissors to precisely remove the top layer of skin near the top of the Vessel Dissection Module. Then dissect the module to find the three target vessels submerged under the surface. Use the clip applicator to apply 2 clips to each vessel on the left and right while leaving the center vessel intact. Cut these two vessels between the clips and then apply two ligatures to the center vessel and then cut in between.",
+        "pl": "Najpierw nożyczki powinne być użyte, aby precyzyjnie usunąć górną warstwę skóry w pobliżu górnej części insertu do preparowania naczyń. Następnie struktura powinna być przeanalizowana i wypreparowana w taki sposób, aby znaleźć trzy naczynia docelowe znajdujące się pod powierzchnią. Za pomocą klipsownicy 2 klipsy powinny być zacisnięte na naczyniach po lewej i po prawej stronie, pozostawiając naczynie środkowe nienaruszone. Po przecięciu dwóch naczyń pomiędzy klipsami, powinny być założone dwie podwiązki na naczynie środkowe, a następnie przetnij między nimi."
+    },
+    "preparation": {
+        "en": "Insert the Vessel Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured and clip the component into the three clips at the top. Make sure the underlying vessels are oriented with three vessels aimed towards the clips at the top.",
+        "pl": "Insert do preparowania naczyń powinien być umieszczony w modułe uchwytu tkanek. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. Przypnij element do trzech klipsów na górze modułu. Upewnij się, że znajdujące się pod spodem naczynia są zorientowane w taki sposób aby trzy naczynia były skierowane w górę."
+    }
+}

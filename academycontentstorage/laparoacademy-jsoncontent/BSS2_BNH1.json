@@ -1,0 +1,120 @@
+{
+    "id": "BSS2_BNH1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 300
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Needle Positioning and Rotation",
+        "pl": "Pozycjonowanie i Obracanie Igły"
+    },
+    "skills": {
+        "en": "Needle Handling, Precision, Suturing",
+        "pl": "Poruszanie się Igłą, Precyzja, Szycie"
+    },
+    "description": {
+        "en": "By learning how to properly handle the needle the young surgeon will be able to swiftly rotate and position it at the best angle in relationship to the target tissue and the most optimal angle in the needle driver. In this exercise the trainee must become familiar with needle rotation and handling by applying the needle to various positions which indicate the angle and position on the needle. The actual exercise however occurs in the space above the module because to be positioned properly the needle must first be rotated and positioned between the instruments.",
+        "pl": "Dzięki nauce prawidłowego posługiwania się igłą, młody chirurg będzie mógł szybko obracać i ustawiać ją pod najlepszym kątem w stosunku do tkanki docelowej i najbardziej optymalnym kątem w prowadnicy igły. W tym ćwiczeniu uczący musi zapoznać się z obrotem i obsługą igły, umieszczając igłę w różnych pozycjach, które wskazują kąt i pozycję na igle. Właściwe ćwiczenie odbywa się jednak w przestrzeni nad modułem, ponieważ w celu prawidłowego ustawienia igły należy najpierw obrócić i ustawić ją między instrumentami. "
+    },
+    "instructions": {
+        "en": "The trainee must lift the needle and position it to be able to hold it up against R1 so that the tip of the needle holder is in the hole and the needle sits at the indicated angle inside the ridge. Next, the trainee must lift the needle, rotate it and reposition it to be able to hold it up against R2. After holding it up to R3, the trainee must return the needle to the start position and switch instruments. Now the same must be done but for L1, L2, and L3 positions. Upon completion the needle should be returned to the start position.",
+        "pl": "Uczący musi podnieść igłę i ustawić ją tak, aby móc przytrzymać ją przy pozycji R1, tak aby końcówka imadła znalazła się w otworze, a igła była osadzona pod wskazanym kątem. Następnie konieczne jest podniesienie igły, obrót i zmiana położenia, aby móc utrzymać ją przy pozycji R2. Po przytrzymaniu igły do R3 uczący musi przywrócić igłę do pozycji wyjściowej i zamienić instrumenty. Teraz to samo należy zrobić, ale z imadłem po lewej stronie i dla kolejnych pozycji L1, L2 i L3. Po zakończeniu igła powinna zostać przywrócona do pozycji wyjściowej. "
+    },
+    "preparation": {
+        "en": "Apply the Needle Positioning and Rotation Module onto the top of the Basic Suturing Platform. Place a single needle with only 2cm of suture material into the start position at the top.",
+        "pl": "Nałóż Moduł Pozycjonowania i Rotacji Igły na wskazane miejsce na Podstawowej Platformie do Szycia. Umieść pojedynczą igłę z zaledwie 2 cm materiału do szycia w pozycji początkowej u góry. "
+    }
+}

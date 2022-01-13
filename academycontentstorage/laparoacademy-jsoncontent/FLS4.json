@@ -1,0 +1,120 @@
+{
+    "id": "FLS4",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "needle_h"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 136
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Suture with Extracorporeal Knot Task",
+        "pl": "Zadanie z Szyciem Pozaustrojowym"
+    },
+    "skills": {
+        "en": "FLS, Suturing, Extracorporeal Knot",
+        "pl": "FLS, Szycie, Węzeł Pozaustrojowy"
+    },
+    "description": {
+        "en": "The point of this exercise is to demonstrate the ability to draw the needle through the target structure and then pull out the suture material so that it is possible to create the knot outside of the operating area on the trocar. A properly made roeder's knot can then be brought inside through the trocar and pulled onto the target structure. This does not require any intracorporeal laparoscopic suturing skill.",
+        "pl": "Celem ćwiczenia jest zademonstrowanie umiejętności przeciągania igły przez strukturę docelową, a następnie wyciągania nici tak, aby możliwe było utworzenie węzła poza obszarem operacyjnym na trokarze. Prawidłowo wykonany węzeł może być następnie wprowadzony do środka przez trokar i naciągnięty przy pomocy disektora na docelową strukturę. Nie wymaga to żadnej umiejętności szycia laparoskopowego. "
+    },
+    "instructions": {
+        "en": "First, insert the needle with the needle holder into the operating area through the trocar while leaving the rest of the suture material outside. Use the needle holder to perform a single throw and then pull this end along with the needle out through the trocar. As a result two loose ends of suture material should be outside of the trocar. Now the needle can be cut off and a roeder loop can be tied on the trocar itself. A dissector or knot-pusher may be used to now push this knot back through the trocar and onto the target tissue. The task should be practiced until it can be performed in 136 seconds with up to 1mm accuracy errors. This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions.",
+        "pl": "Najpierw należy wprowadzić igłę przy pomocy imadła do obszaru operacyjnego przez trokar, pozostawiając resztę nici na zewnątrz. Imadło powinno być użyte aby wykonać pojedyncze przekłucie, a następnie nić wraz z igłą powinna zostać wyciągnięta przez trokar. W rezultacie dwie luźne końcówki nici powinny znajdować się poza trokarem. Teraz możliwe będzie odcięcie igły i zawiązanie pętelkę na trokar. Do przepchnięcia tego węzła z powrotem przez trokar i na tkankę docelową można teraz użyć disektora lub popychacza węzła. Zadanie należy ćwiczyć, aż będzie można je wykonać w 136 sekund z błędami dokładności do 1 mm. Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. "
+    },
+    "preparation": {
+        "en": "Before performing this exercise ensure that the selected needle is capable of being drawn through the trocar. If not, either select a different needle, or use the needle holder to straighten the needle available. The FLS suturing module should be placed inside the trainer with the penrose drain attached by velcro.",
+        "pl": "Przed wykonaniem tego ćwiczenia upewnić się, że wybrana igła może zostać przeciągnięta przez trokar. Jeśli nie, wybierz inną igłę lub użyj uchwytu igły, aby wyprostować dostępną igłę. Moduł do szycia FLS poiwnien być umieszczony centralnie z drenem penrosa przymocowanym za pomocą rzepu."
+    }
+}

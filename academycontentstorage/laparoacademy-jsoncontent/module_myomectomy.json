@@ -1,0 +1,121 @@
+{
+    "id": "module_myomectomy",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 0,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": ".png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": ".png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 900
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Myomectomy",
+        "pl": "Wytłuszczenie Mięśniaka Macicy"
+    },
+    "skills": {
+        "en": "Procedure, Gynecology, Dissection",
+        "pl": "Procedura, Ginekologia, Dissection"
+    },
+    "description": {
+        "en": "In this exercise the objective is to perform the removal of uterine fibroids, also called leiomyomas, which are common noncancerous growths that form in the uterus.",
+        "pl": "W tym ćwiczeniu celem jest usunięcie mięśniaka gładkiego, znanego również jako włókniaka, często powstającego guza łagodnego powstającego w macicy"
+    },
+    "instructions": {
+        "en": "The fibroid is covered with a surface layer which must be cut and opened for the fibroid to be exposed. This structure must then be dissected and separated from the surrounding tissues with as little damage as possible.",
+        "pl": "Mięśniak jest pokryty warstwą tkanek jajnika i te tkanki muszą zostać przecięte i otwarte aby uwidocznić mięśniaka. Structura ta musi być wypreparowana i odseparowana od otaczających ją tkanek wyrządzając najmniejszą możliwą szkodę tym tkankom."
+    },
+    "preparation": {
+        "en": "Clip the fibroid into the two clips on the sides of the gynaecology module. Note: The fibroid should be made out of a single piece of silicone and not be mistaken for the ovarian cyst which appears identical but is filled with fluid.",
+        "pl": "Mięśniak powinien zostać umocowany do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: mięśniak powinien być jednym kawałkiem silikonu, i nie powinien zostać pomylony z torbielą jajnika która wygląda identycznie ale jest wypełniona płynem."
+    }
+}

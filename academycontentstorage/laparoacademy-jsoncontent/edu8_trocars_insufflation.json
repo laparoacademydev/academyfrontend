@@ -1,0 +1,194 @@
+{
+    "id": "edu8_trocars_insufflation",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Sufficient insufflation must be created to make laparoscopy possible. This is done with a gas supply system which is part of the laparoscopy tower. The gas delivery system is composed of the gas supply, the insufflator, a filter, gas tubing and the laparoscopic port through which the gas is delivered into the patient.",
+                "pl": "Aby zabiegi mało inwazyjne były możliwe, konieczna jest insuflacja, czyli odpowiednia odma dająca chirurgowi pole operacyjne. Wieża laparoskopowa wyposażona jest w system składający się ze źródła CO2, insuflatora, filtra oraz przewodów przez które CO2 jest wprowadzany."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The insufflator is used to regulate the flow of gas. This device is programmed to regulate pressure in the operating area and the surgeon must understand how it works. Controlled with a simple interface, the device is adjusted to the target pressure and displays the actual pressure and flow as well. Some insufflators also feature humidity control and temperature settings of the gas.",
+                "pl": "Insuflator reguluje przepływ gazu. Urządzenie zaprogramowane jest w taki sposób, żeby automatycznie monitorować ciśnienie wewnątrz pola operacyjnego. Aby jednak uniknąć komplikacji, ważne jest, żeby chirurg dobrze rozumiał jak działa. Insuflator, kontrolowany przez prosty interfejs, ustawiany jest na docelowy poziom ciśnienia i dodatkowo pokazuje aktualne ciśnienie oraz jego przepływ. Niektóre insuflatory kontrolują też wilgotność i temperaturę doprowadzanego gazu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The trocars used in surgery, also known as ports, enable the laparoscope and instruments to be inserted into the operating area. The trocar is made up of two components - the cannula which acts as the port, and the removable inner obturator. Both of these are inserted as a unit when puncturing the tissue, and the obturator is then removed to allow instrument insertion. The cannula has a tight seal which prevents gas from leaking and a valve for insufflation tubing. Many different types of trocars of varying sizes and additional features exist to address more specific needs.",
+                "pl": "Trokary wykorzystywane w chirurgi małoinwazyjnej, nazywane też potocznie portami, pozwalają torowi wizyjnemu i instrumentom na dostęp do pola operacyjnego jednocześnie podtrzymując potrzebny dla odmy otrzewnowej poziom ciśnienia CO2. Trokar składa się z dwóch komponentów - cewki, która działa jako port, oraz z usuwalnego obturatora. Trokar umieszczony jest w wybranej lokalizacji i po wytworzeniu odmy obturator jest usuwany, aby w to miejsce mógł zostać włożony instrument. Cewka wewnątrz trokara przylega do instrumentu, co ogranicza wyciek gazu. Na boku trokara znajduje się zaworek, do którego możliwe jest podłączenie przewodu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Insufflation tubing plugs on one end into the valve on the trocar and on the other end into the insufflator. Although the insufflator provides positive gas pressure, sudden changes can create a higher pressure on the patient side than inside the insufflator. This is why a small filter is placed close to the insufflator end of the tubing. This filter prevents the flow of gas in the opposite direction and contamination of the insufflator. The filter should occasionally be replaced.",
+                "pl": "Przewód podpięty jest z jednej strony do zaworka w trokarze, a po drugiej stronie do insuflatora. Pomimo ciśnienia generowanego od strony insuflatora, nagłe zmiany w polu operacyjnym mogą chwilowo generować wyższe ciśnienie od strony pacjenta. Filtr umieszczony na przewodzie nie pozwala gazowi na przemieszczanie się w przeciwnym kierunku, co mogłoby zanieczyścić insuflator. Filtr powinien być od czasu do czasu wymieniany."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "First Port Placement and Insufflation",
+                "pl": "Umieszczenie portu i insuflacja"
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu8_trocars_insufflation_03.png",
+                    "type": "image",
+                    "label": {
+                        "en": "The image on the left shows the danger present when introducing the first trocar. The image on the right shows the peritoneal cavity which grows after the insufflator is activated.",
+                        "pl": "Obraz po lewej pokazuje niebezpieczeństwo które jest obecne podczas insercji pierwszego trokara. Obraz po prawej pokazuje odmę otrzewnową która powstaje po aktywacji insuflatora."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "quote",
+            "text": {
+                "en": "The first puncture can be one of the most dangerous moments in the entire procedure because the needle must go through the fascia and linea alba but it must stop at the peritoneum.",
+                "pl": "Pierwsze początkowe wkłucie może być niebezpieczne ponieważ igła musi przebić się przez powięź i zatrzymać się przy otrzewnej."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After planning the procedure and defining port placement and scrubbing in, the first step in a laparoscopic procedure is to puncture through to the peritoneum and to insufflate. This can be done in several different ways. The first port is used to introduce the laparoscope and often it is located at the umbillicus due to the central location and to camouflage scarring. The other ports are then made after inducing pneumoperitoneum and with visual access from the laparoscope.",
+                "pl": "Po zaplanowaniu procedury i zdefiniowaniu lokalizacji portów, pierwszym etapem zabiegu laparoskopowego jest przekłucie się przez otrzewną, aby móc rozpocząć insuflację. Może to być wykonane na kilka sposobów. Pierwszy port służy do wprowadzenia laparoskopu. Jest często umieszczony w okolicy pępka (ze względu na centralną pozycję i na możliwość późniejszego ukrycia blizny). Inne porty umieszczane są dopiero po uzyskaniu widoku przez laparoskop i po wytworzeniu odmy otrzewnowej. Wprowadzenie ich jest już dużo bezpieczniejsze niż ten pierwszy, ponieważ możliwe jest też obserwowanie miejsca wkłucia od wewnątrz z pola operacyjnego."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Classical Closed Technique - Veress Needle",
+                "pl": "Klasyczna technika zamknięta - Igła Veress'a"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The first puncture can be one of the most dangerous moments in the entire procedure because the needle must go through the fascia and linea alba but it must stop at the peritoneum. The Veress Needle is a spring-loaded device which limits the possibility of damaging the viscera upon puncturing. Before puncturing with the Veress needle, a scalpel is used to cut the surface tissue. The needle is then used to puncture the fascia and must stop at the peritoneal structure. A small amount of saline can be placed in the needle to confirm that it is where it is supposed to be - the lower pressure within the peritoneum will absorb it instantly.\n",
+                "pl": "Pierwsze początkowe wkłucie może być niebezpieczne ponieważ igła musi przebić się przez powięź i zatrzymać się przy otrzewnej. Głębsze przebicie ostrą końcówką może wyrządzić szkodę organom znajdującym się poniżej. Dlatego Igła Veressa zawiera sprężynowy mechanizm, który cofa igłę. Przed wkłuciem igły, powierzchnia skóry przecinana jest skalpelem. Igła Veressa wprowadzana jest przez powięź. W tej technice możliwe jest użycie kropli solanki w nasadce igły, aby możliwa była weryfikacja odpowiednio głębokiego wkłucia. Jeśli igła przebije się przez otrzewną, solanka zostanie od razu wchłonięta przez niższe ciśnienie wewnątrz."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu8_trocars_insufflation_01.png",
+                    "type": "image",
+                    "label": {
+                        "en": "(A) Skin (B) Linea Alba (C) Fascia",
+                        "pl": "(A) Skóra (B) Linea Alba) (C) Powięź"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Insufflation through the Veress needle begins at low flow. When the surgeon is confident that the peritoneum is being insufflated properly and no damage has been done, the flow may be increased and continued until sufficient pressure can be established. The needle is then removed and a laparoscopic trocar is inserted into the remaining incision. Gas tubing is attached to this trocar and pneumoperitoneum is further sustained with the insufflator maintaining pressure automatically.",
+                "pl": "Insuflacja przy pomocy igły Veress'a powinna się zawsze rozpocząć na niskim ustawieniu przepływu gazu. Przy całkowitej pewności, że otrzewna poprawnie ulega insuflacji i że nie wyrządzona została jakakolwiek szkoda, przepływ może być podwyższony aż do pożądanego poziomu. Igła może w takim momencie być usunięta i trokar może zostać włożony przez nacięcie. Przewód na gaz jest wtedy podłączony do trokara i odma otrzewnowa może być już automatycznie utrzymywana przez insuflator, który automatycznie odczytuje i dostosowuje poziom ciśnienia."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Although the Veress needle is used in many laparoscopic procedures around the world, there is still a danger of the needle causing damage to the viscera because both the needle and the trocar are introduced blindly.",
+                "pl": "Pomimo powszechnego użytku igły Veressa, nadal istnieje ryzyko zbyt dalekiego przekłucia i wyrządzenia szkód organom wewnętrznym. Wadą techniki jest to, że igła wprowadzana jest na ślepo, więc istnieją też alternatywne metody."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Open Classic Technique - Hasson Trocar",
+                "pl": "Klasyczna technika otwarta - trokar Hassona"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In this method, a horizontal surface skin incision is first made with the scalpel below the umbilicus. This incision must then be widened and dissected down the umbilical cicatrix and through to the linea alba. The white tissue of the linea alba is grasped with a pair of kocher forceps vertically and the alba is then pulled up. And on two sides of this pulled up structure two sutures can be applied. These will later be used to mark the exact location of the fascia. The kocher forceps can then be removed. The assistant and surgeon hold the two sutures up, so the surgeon can excise the fascia and insert a dissector into the peritoneal cavity. By rotating this dissector we can confirm that we have punctured through the fascia and we can now insert the trocar.",
+                "pl": "W tej metodzie najpierw wykonywane jest horyzontalne nacięcie skalpelem wzdłuż pępowiny. Nacięcie to powinno być poszerzone i rozpreparowane w dół, wzdłuż blizny pępowinowej, aż do linea alba. Białe tkanki linea alba mogą być złapane pionowo przy pomocy pary forcepsów Kochera i alba może zostać podciągnięta. Po dwóch stronach tych podciągniętych tkanek powinny zostać założone dwa węzły. Będą one później przydatne w precyzyjnym oznaczeniu lokalizacji powięzi. W tym momencie forcepsy mogą zostać odłożone na bok. Asystent i chirurg mogą podtrzymywać nici do góry w taki sposób, aby możliwe było przecięcie powięzi i disektor mógł zostać wpreparowany do odmy otrzewnowej. Obracając disektor możemy potwierdzić poprawne przekłucie przez powięź i możliwa jest wtedy insercja trokara."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The trocar can be placed and/or twisted into this opening giving direct access to the peritoneal cavity. Introducing the trocar in this way can be safer than with the Veress Needle, albeit it can be more difficult.",
+                "pl": "Trokar Hassona może być wciśnięty w otwór dając dostęp do odmy otrzewnowej. Włożenie trokara w ten sposób jest bardziej bezpieczne  niż igłą Veressa, chociaż może być też trudniejsze."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The technique can also be modified with a special trocar and a 0 degree laparoscope. The laparoscope is then introduced into the port along with the trocar and provides instant visual access. The surgeon can see all the layers of the abdominal wall while puncturing through to the viscera, which gives more control.",
+                "pl": "Alternatywnie technika ta może być też zmodyfikowana przy użyciu specjalnego trokara i laparoskopu z optyką 0°. Tym sposobem laparoskop wkładany przez port wzdłuż trokara daje na bieżąco obraz w kamerze. Chirurg może zobaczyć kolejne warstwy ściany brzusznej podczas przekłuwania się do otrzewnej. Zajmuje więcej czasu, ale daje najwięcej kontroli i ogranicza ryzyko."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In pediatric procedures, where patient anatomy is especially fragile, alternative techniques can be used to safely introduce the first trocar and laparoscope. With no visual access and small anatomy, the sharp end of the trocar can be risky. In this case after puncturing through the fascia it is possible to thread a single dissector onto a trocar and insert just the dissector into the opening, and then push the trocar down carefully. In this way the trocar delicately spreads the fascia while the blunt end of the dissector doesn’t pose danger to the viscera. If the surgeon is still not sure that the peritoneal cavity has been successfully entered a laparoscope can be inserted into the trocar before insufflation to verify the desired location.",
+                "pl": "Przykładowo, w zabiegach pediatrycznych, kiedy anatomia pacjenta jest szczególnia delikatna, jeszcze inne alternatywne techniki mogą być wykorzystane aby początkowe przekłucie było bezpieczniejsze. Bez dostępu wizualnego i przy małej anatomii pacjenta ostra końcówka trokara może być szczególnie niebezpieczna. Po przekłuciu się przez powięź możliwe jest nałożenie trokara na disektor, oraz następnie początkowe przekłucie się samym disektorem i ostrożne zsunięcie trokara w dół. Tym sposobem trokar delikatnie może rozeprzeć powięź, a tępa końcówka instrumentu nie naraża wnętrzności małego pacjenta na uszkodzenie. Co więcej, jeśli wciąż nie ma pewności czy został uzyskany dostęp do odmy otrzewnowej, laparoskop może być wsunięty w trokar przed insuflacją."
+            }
+        },
+        {
+            "type": "media",
+            "media": [
+                {
+                    "url": "edu8_trocars_insufflation_02.png",
+                    "type": "image",
+                    "label": {
+                        "en": "After safe introduction of the trocar into the peritoneal cavity, pneumoperitoneum can be induced by attaching the gas delivery system to the valve on the trocar.",
+                        "pl": "Po bezpiecznym wsunięciu trokara przez otrzewną możliwe jest wytworzenie odmy otrzewnowej poprzez podłączenie przewodu do zaworka na trokarze."
+                    }
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "First Port Placement: Conclusion",
+                "pl": "Umieszczenie pierwszego portu: wnioski"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Surgeons around the world have developed many slightly differing techniques for introducing the first trocar safely before inducing pneumoperitoneum. Views differ on which techniques are superior and different hospitals also have varying types of equipment available to the surgical team. Furthermore, trocar placement is dependent on the type of procedure being performed and on specific patient anatomy. Nevertheless, the introduction of the first port is one of the most important steps made to perform a laparoscopic procedure correctly.",
+                "pl": "Ośrodki na całym świecie wykorzystują różne techniki włożenia pierwszego trokara przed rozpoczęciem odmy. Opinie różnią się co do tego, które techniki są najlepsze i szpitale też mają do dyspozycji dla swoich zespołów różne rodzaje sprzętu. Co więcej, umieszczenie pierwszego trokara jest zależne od wykonywanego zabiegu oraz od anatomii pacjenta. W każdym razie, umieszczenie pierwszego portu jest jednym z najważniejszych kroków w wykonaniu poprawnego zabiegu laparoskopowego."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Subsequent Port Placement",
+                "pl": "Umieszczenie kolejnych portów"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Once the pneumoperitoneum is established, the remaining trocars are placed with laparoscopic vision now available. When directed at the abdominal wall the camera can be used to identify inferior epigastric vessels. Only a small incision must be made on the surface of the skin and the trocars can be carefully and slowly inserted perpendicularly to the abdominal wall while being aimed at the target structure. Even and sustained pressure should be applied and the surgeon must care not to make damage to the tissues inside the operating area. Smaller trocars will provide easier mobility for the instruments than large ones.",
+                "pl": "Po ustawieniu odmy otrzewnowej, kolejne trokary umieszczane są już z widokiem laparoskopowym. Skierowany na ściany otrzewnej laparoskop pomaga w dostrzeganiu naczyń nadbrzusza. Jedyne  co musi być wykonane na powierzchni skóry to małe nakłucie i trokary mogą być ostrożnie i powoli włożone pod kątem prostopadłym do ściany i powinny być wycelowane w docelowe struktury. Przy równomiernym i spokojnym nacisku, chirurg powinien być w stanie przekłuć się jednocześnie unikając uszkodzenia struktur wewnętrznych. Mniejsze trokary dają tutaj większą mobilność niż duże."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Trocars and Insufflation",
+        "pl": "Trokary i insuflacja"
+    },
+    "subTitle": {
+        "en": "A description of the techniques used to induce pneumoperitoneum and on safe insertion of the first trocar.",
+        "pl": "Opis technik używanych do wytworzenia odmy otrzewnowej i o bezpiecznej insercji pierwszego trokara."
+    }
+}

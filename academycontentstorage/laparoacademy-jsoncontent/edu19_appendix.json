@@ -1,0 +1,57 @@
+{
+    "id": "edu19_appendix",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "A Laparoscopic Appendectomy is a common procedure used to treat appendicitis, the inflammation of the appendix. When the condition is left untreated the appendix can eventually rupture, which can lead to a life-threatening infection of the viscera. The procedure involves finding and identifying the appendix and then successfully clipping off the appendicular artery before removing the appendix itself. There is no single established approach to performing an appendectomy. The anatomy varies, the appendix itself can vary with the degree of inflammation and also different instruments and cost-effective techniques may be available to the surgeon depending on the hospital or O.R. This is why it is worthwhile for surgical trainees to practice the procedure in a simulation based environment to understand the core principles.",
+                "pl": "Wycięcie wyrostka robaczkowego metodą laparoskopową jest powszechnie stosowaną procedurą w leczeniu zapaleń wyrostka robaczkowego. Gdy stan ten nie jest leczony, wyrostek robaczkowy może ostatecznie pęknąć, co może prowadzić do zagrażających życiu infekcji. Procedura obejmuje znalezienie i identyfikację wyrostka robaczkowego, a następnie skuteczne odcięcie tętnicy wyrostka robaczkowego przed usunięciem samego wyrostka robaczkowego. Nie ma jednego ustalonego podejścia do wykonywania usunięcia wyrostka robaczkowego. Anatomia jest różna, sam wyrostek robaczkowy może się różnić w kształcie i rozmiarze w zależności od stopnia zapalenia. Także różne narzędzia i techniki mogą być dostępne dla chirurga w zależności od szpitala lub sali operacyjnej. Dlatego warto, aby uczący przećwiczyli tę procedurę w środowisku opartym na symulacji, aby mogli zrozumieć podstawowe zasady."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Laparo APEX VR Appendectomy Exercises",
+                "pl": "Ćwiczenia appendektomi VR"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The VR exercises developed by Laparo provide the trainee with the ability to complete an entire Appendectomy inside of a virtual operating area using real instruments. Since there is no physical component inside, there is no physical or haptic feedback normally experienced in laparoscopy. The purpose of these VR exercises is to take the trainee through all the relevant stages of this procedure and the order in which it should be performed and to depict any complications that may arise from mistakes. What is more, the VR exercise simulates some aspects of an Appendectomy which cannot be simulated on the physical module such as the specialized stapler.",
+                "pl": "Ćwiczenia VR opracowane przez Laparo dają uczącemu możliwość ćwiczenia usunięcia wyrostka robaczkowego w wirtualnym polu operacyjnym przy użyciu prawdziwych instrumentów. Ponieważ w środku nie ma żadnego fizycznego komponentu, nie ma też fizycznego ani dotykowego sprzężenia zwrotnego, które normalnie występuje w laparoskopii. Celem tych ćwiczeń VR jest przeprowadzenie szkolonego przez wszystkie istotne etapy tej procedury i kolejności, w jakiej należy ją wykonywać oraz przedstawienie wszelkich komplikacji, które mogą wyniknąć z błędów. Co więcej, ćwiczenie VR symuluje niektóre aspekty wyrostka robaczkowego, których nie można zasymulować w module fizycznym, takim jak specjalistyczny zszywacz często używany do tego celu."
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Laparo Appendectomy Module",
+                "pl": "Moduł fizyczny appendektomii"
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Laparo Appendectomy module is made up of several components and it has been designed to maximize reusability. The base of the module includes a silicone surface attachment and a base module. The single-use Appendix component attaches into this module with velcro. The entire module with the Appendix is inserted into the operating area and must be strategically positioned for optimal instrument reach and angle.",
+                "pl": "Silikonowy moduł wyrostka robaczkowego Laparo składa się z kilku elementów i został zaprojektowany tak, aby zmaksymalizować możliwość ponownego użycia. Podstawa modułu zawiera silikonowe mocowanie powierzchniowe i moduł podstawowy. Jednorazowy element samego wyrostka jest mocowany do tego modułu za pomocą rzepa. Cały moduł wraz z dodatkiem umieszczony jest w obszarze operacyjnym w taki sposób aby zapewnić optymalny zasięg i kąt instrumentu."
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "This simulation exercise does not include the first step, which involves finding and identifying the target structure. The appendix is simply laid out in the center and the trainee must first dissect at the base of the appendix to find the appendicular artery. After finding and clipping this artery the trainee must also introduce three loops of suture material and tighten them directly onto the appendix. The exercise concludes with severing the appendix completely with the clips and loops of suture attached firmly at the base, especially on the patient's side. ",
+                "pl": "Ćwiczenie symulacyjne nie obejmuje pierwszego kroku, który polega na znalezieniu i zidentyfikowaniu docelowej struktury. Wyrostek robaczkowy jest ułożony pośrodku, a praktykant musi najpierw przeciąć podstawę wyrostka robaczkowego, aby znaleźć tętnicę wyrostka robaczkowego. Po znalezieniu i zaciśnięciu tej tętnicy kursant musi również wprowadzić trzy pętle nici i zacisnąć je bezpośrednio na samym wyrostku robaczkowym. Ćwiczenie kończy się całkowitym odcięciem wyrostka robaczkowego z klipsami i pętlami szwów mocno przymocowanymi do podstawy, szczególnie po stronie pacjenta."
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "en": "Appendectomy",
+        "pl": "Apendektomia"
+    },
+    "subTitle": {
+        "en": "An overview of the exercises available for Appendectomy training",
+        "pl": "O modułach i ćwiczeniach służących do ćwiczenia zabiegu usunięcia wyrostka robaczkowatego."
+    }
+}

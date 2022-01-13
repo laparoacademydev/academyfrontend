@@ -1,0 +1,120 @@
+{
+    "id": "THM4_TDM1",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 30,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "tension_module.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 10
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 120,
+            "angle_deg": 0,
+            "height_mm": 15
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 10
+    },
+    "vrConfig": {},
+    "isFreeTraining": false,
+    "isVR": false,
+    "allowedInstruments": [
+        "dissector",
+        "scissors"
+    ],
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "name": "time",
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 360
+                        }
+                    ]
+                },
+                {
+                    "name": "economy",
+                    "params": [
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        },
+                        {
+                            "name": "clamps",
+                            "limit": 75
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "name": {
+        "en": "Sharp Resection",
+        "pl": "Ostra Resekcja"
+    },
+    "skills": {
+        "en": "Scissors",
+        "pl": "Nożyczki, Cięcie"
+    },
+    "description": {
+        "en": "The first exercise on the Tissue Dissection Module allows the trainee to practice precise laparoscopic scissor use with artificial tissues. ",
+        "pl": "Pierwsze ćwiczenie na module preparowania tkanek pozwala kandydatowi na ćwiczenie precyzyjnego użycia nożyczek laparoskopowych na sztucznych tkankach. "
+    },
+    "instructions": {
+        "en": "The goal of the exercise is to separate the dark red circle from the rest of the tissue with as much precision as possible. After cutting the surface tissue you must cut into the module while avoiding puncturing the bottom skin layer. Use the tips of the scissors to precisely cut all of the red ‘tissue’ off of the module.",
+        "pl": "Celem ćwiczenia jest jak najdokładniejsze oddzielenie ciemnoczerwonego okręgu od reszty insertu do preparowania tkanki. Po przecięciu tkanki powierzchniowej należy naciąć moduł, jednocześnie unikając przebicia dolnej warstwy skóry. Użyj końcówek nożyczek, aby precyzyjnie odciąć całą czerwoną „tkankę” z modułu. "
+    },
+    "preparation": {
+        "en": "Insert the Tissue Dissection insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
+        "pl": "Włóż insert do preparowania tkanki do modułu uchwytu tkanki. Użyj śrub, aby upewnić się, że tkanka jest dobrze naciągnięta, jak na zdjęciu. "
+    }
+}
