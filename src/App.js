@@ -77,7 +77,7 @@ function App() {
       // console.log(x.id);
       scenarioFileNames.push(x.id);
     });
-
+    // console.log(selectedCourse.content[0].id);
     var responseJsonData = [];
 
     scenarioFileNames.forEach((filenamejson) => {
@@ -99,15 +99,20 @@ function App() {
         .then(function (myJson) {
           responseJsonData.push(myJson);
           if (responseJsonData.length === scenarioFileNames.length) {
-            // console.log("done loading!");
             let responseSelectedData = [];
             for (let i = 0; i < responseJsonData.length; i++) {
-              responseSelectedData.push({
-                type: scenarioTypes[i],
-                scenario: responseJsonData[i],
-              });
+              for (let z = 0; z < responseJsonData.length; z++) {
+                if (selectedCourse.content[i].id === responseJsonData[z].id) {
+                  responseSelectedData.push({
+                    type: scenarioTypes[i],
+                    scenario: responseJsonData[z],
+                  });
+                  z = 100;
+                  console.log(responseJsonData[z]);
+                  responseJsonData.splice(z, 1);
+                }
+              }
             }
-            // console.log(responseSelectedData);
             setSelectedScenarioList(responseSelectedData);
           }
         })
