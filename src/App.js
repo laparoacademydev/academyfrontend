@@ -1,4 +1,3 @@
-import axios from "axios";
 import React from "react";
 import { useState, Fragment } from "react";
 
@@ -28,7 +27,7 @@ function App() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [playingScenario, setPlayingScenario] = useState(false);
   const [selectedCourseID, setSelectedCourseID] = useState(null);
-  const [selectedScenarioList, setSelectedScenarioList] = useState(null);
+  const [selectedScenarioList, setSelectedScenarioList] = useState([]);
   const [userPanelActive, setUserPanelActive] = useState(0);
 
   React.useEffect(() => {
@@ -75,13 +74,17 @@ function App() {
     let scenarioTypes = [];
     selectedCourse.content.forEach((x) => {
       scenarioTypes.push(x.type);
-      scenarioFileNames.push(x.id + ".json");
+      // console.log(x.id);
+      scenarioFileNames.push(x.id);
     });
 
     var responseJsonData = [];
+
     scenarioFileNames.forEach((filenamejson) => {
       fetch(
-        "./academycontentstorage/laparoacademy-jsoncontent/" + filenamejson,
+        "./academycontentstorage/laparoacademy-jsoncontent/" +
+          filenamejson +
+          ".json",
         {
           headers: {
             "Content-Type": "application/json",
@@ -96,7 +99,7 @@ function App() {
         .then(function (myJson) {
           responseJsonData.push(myJson);
           if (responseJsonData.length === scenarioFileNames.length) {
-            console.log("done loading!");
+            // console.log("done loading!");
             let responseSelectedData = [];
             for (let i = 0; i < responseJsonData.length; i++) {
               responseSelectedData.push({
@@ -104,9 +107,12 @@ function App() {
                 scenario: responseJsonData[i],
               });
             }
-            console.log(responseSelectedData);
+            // console.log(responseSelectedData);
             setSelectedScenarioList(responseSelectedData);
           }
+        })
+        .catch((err) => {
+          console.log("wtf error" + err);
         });
     });
   }

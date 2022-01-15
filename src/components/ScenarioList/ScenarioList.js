@@ -4,7 +4,10 @@ import React from "react";
 import EducationItem from "./EducationItem";
 
 function ScenarioList(props) {
-  if (props.selectedScenarioList === null) {
+  if (
+    props.selectedScenarioList === null ||
+    props.selectedScenarioList === "undefined"
+  ) {
     return <div className={classes.scenariolist}>Loading!</div>;
   } else {
     return (
@@ -20,6 +23,7 @@ function ScenarioList(props) {
                 />
               );
             } else {
+              // console.log(object.scenario.id);
               return (
                 <EducationItem
                   key={object.scenario.id}

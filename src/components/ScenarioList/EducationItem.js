@@ -1,5 +1,5 @@
 import classes from "./ScenarioList.module.css";
-
+import React from "react";
 // the Scenario Item is each Item on the Scenario list - we need to feed into this formatting information and feed it out to the ScenarioList
 
 function EducationItem(props) {
