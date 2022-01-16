@@ -13,6 +13,12 @@ function WebcamTraining(props) {
   const [uploading, setUploading] = React.useState(false);
   const [uploaded, setUploaded] = React.useState(false);
 
+  const videoConstraints = {
+    width: 1280,
+    height: 720,
+    facingMode: "user",
+  };
+
   const handleDataAvailable = React.useCallback(
     ({ data }) => {
       if (data.size > 0) {
@@ -41,6 +47,7 @@ function WebcamTraining(props) {
 
   const handleDownload = React.useCallback(() => {
     if (recordedChunks.length) {
+      let fileName = props.name + " " + Date().toString();
       const blob = new Blob(recordedChunks, {
         type: "video/webm",
       });
@@ -49,7 +56,7 @@ function WebcamTraining(props) {
       document.body.appendChild(a);
       a.style = "display: none";
       a.href = url;
-      a.download = "react-webcam-stream-capture.webm";
+      a.download = fileName;
       a.click();
       window.URL.revokeObjectURL(url);
     }
@@ -84,7 +91,14 @@ function WebcamTraining(props) {
   return (
     <div className={classes.webcamscreen}>
       <div className={classes.webcamview}>
-        <Webcam audio={false} ref={webcamRef} />
+        <Webcam
+          audio={false}
+          // height={100 + "%"}
+          // width={100 + "%"}
+          ref={webcamRef}
+          forceScreenshotSourceSize={false}
+          videoConstraints={videoConstraints}
+        />
       </div>
       <WebcamControlPanelBox
         capturing={capturing}
