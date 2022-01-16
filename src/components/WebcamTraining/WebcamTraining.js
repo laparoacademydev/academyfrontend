@@ -131,11 +131,10 @@ function WebcamTraining(props) {
         <div className={classes.webcamview}>
           <Webcam
             audio={false}
-            // height={100 + "%"}
-            // width={100 + "%"}
             ref={webcamRef}
             forceScreenshotSourceSize={false}
             videoConstraints={videoConstraints}
+            controls
           />
         </div>
         <WebcamControlPanelBox

@@ -12,6 +12,7 @@
   margin-right: auto;
   /* width: 100%; */
   margin-top: 20px;
+  object-fit: fill;
 }
 
 .webcamcontrolpanelbox {
