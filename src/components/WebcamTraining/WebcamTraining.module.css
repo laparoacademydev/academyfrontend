@@ -1,7 +1,7 @@
 .webcamscreen {
   position: fixed;
-  margin-left: auto;
-  margin-top: auto;
+  margin-left: 10%;
+  margin-top: 2%;
   width: 100%;
 }
 
@@ -69,4 +69,21 @@
 .webcamcontrolinactivebtn {
   background-color: #afafaf;
   bottom: 20px;
+}
+
+.webcamexit {
+  position: fixed;
+  width: 30px;
+  z-index: 13;
+  top: 17px;
+  left: 15px;
+}
+
+.webcamexitbtn {
+  position: fixed;
+  width: 120px;
+  z-index: 15;
+  background-color: #00619d;
+  left: 10px;
+  top: 10px;
 }

@@ -171,27 +171,28 @@ function App() {
         <ShowTraining training={selectedTraining}></ShowTraining>
       </Fragment>
     );
-  } else if (trainingList !== null) {
-    return (
-      <Fragment>
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          setTrainingList={requestSetTrainingList}
-          userIsActive={userIsActive}
-          // url={AppHelper.ApiUrl}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-        />
-        <TrainingsList
-          trainingList={trainingList}
-          // setSelectedTraining={requestSelectedTraining}
-          deleteTraining={deleteTraining}
-        ></TrainingsList>
-      </Fragment>
-    );
+    // }
+    // else if (trainingList !== null) {
+    //   return (
+    //     <Fragment>
+    //       <Layout
+    //         items={courses}
+    //         setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+    //         selectedCourseID={selectedCourseID}
+    //         userEmail={getUserEmail()}
+    //         setTrainingList={requestSetTrainingList}
+    //         userIsActive={userIsActive}
+    //         // url={AppHelper.ApiUrl}
+    //         userPanelActive={userPanelActive}
+    //         setUserPanelActive={setUserPanelActive}
+    //       />
+    //       <TrainingsList
+    //         trainingList={trainingList}
+    //         // setSelectedTraining={requestSelectedTraining}
+    //         deleteTraining={deleteTraining}
+    //       ></TrainingsList>
+    //     </Fragment>
+    //   );
   } else if (selectedItem === null) {
     return (
       <Fragment>
@@ -232,7 +233,7 @@ function App() {
         ></DisplayedItemContent>
       </Fragment>
     );
-  } else {
+  } else if (playingScenario === true) {
     return (
       <Fragment>
         {/* <Layout
@@ -249,6 +250,7 @@ function App() {
         <WebcamTraining
           // url={AppHelper.ApiUrl}
           name={selectedItem.name.en}
+          setPlayingScenario={setPlayingScenario}
         />
       </Fragment>
     );

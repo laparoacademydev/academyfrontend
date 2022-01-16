@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
 import WebcamControlPanelBox from "./WebcamControlPanelBox";
+import WebcamExit from "./WebcamExit";
 
 function WebcamTraining(props) {
   const webcamRef = React.useRef(null);
@@ -146,6 +147,11 @@ function WebcamTraining(props) {
           uploaded={uploaded}
           capturing={capturing}
           recordedChunks={recordedChunks}
+          switchFullScreen={switchFullScreen}
+          fullScreen={fullScreen}
+        />
+        <WebcamExit
+          setPlayingScenario={props.setPlayingScenario}
           switchFullScreen={switchFullScreen}
           fullScreen={fullScreen}
         />
