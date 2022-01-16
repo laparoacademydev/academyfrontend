@@ -22,7 +22,7 @@ function ScenarioDescription(props) {
         <div className={classes.scenarioinstructiongrid}>
           <video className={classes.scenarioimg} controls>
             <source
-              src={`${AppHelper.storageUrl}laparoacademy-videos/${props.selectedItemContent.id}_training.mp4`}
+              src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_training.mp4`}
               // src={`${AppHelper.storageUrl}laparoacademy-videos/TM1_training.mp4`}
               type="video/mp4"
             />
@@ -38,7 +38,7 @@ function ScenarioDescription(props) {
           {props.selectedItemContent.preparation.en}
         </div>
         <img
-          src={`${AppHelper.storageUrl}laparoacademy-images/${props.selectedItemContent.id}_preparation.jpg`}
+          src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_preparation.jpg`}
           alt={"error"}
           className={classes.scenarioprepimg}
         ></img>

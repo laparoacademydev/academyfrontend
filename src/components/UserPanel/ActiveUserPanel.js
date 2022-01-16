@@ -63,7 +63,7 @@ function ActiveUserPanel(props) {
     icon: exitusericon,
   };
 
-  userpanelitems.push(logoutuserpanelitem);
+  // userpanelitems.push(logoutuserpanelitem);
 
   const [code, setCode] = useState("Generate Access code");
 

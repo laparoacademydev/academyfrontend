@@ -1,4 +1,5 @@
 import classes from "./DisplayedItemContent.module.css";
+import { AppHelper } from "./../../App.js";
 
 function EducationSection(props) {
   let key = 0;
@@ -21,12 +22,18 @@ function EducationSection(props) {
                 {object.text.en}
               </div>
             );
-          }
-          //    else if (object.type === "media") {
-          //   return;
-          //   //  <div key={key++}>media!</div>;
-          // }
-          else {
+          } else if (object.type === "media") {
+            console.log(object.media[0].url);
+            return (
+              <div key={key++}>
+                <img
+                  src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${object.media[0].url}`}
+                  alt={"error"}
+                  className={classes.scenarioprepimg}
+                ></img>
+              </div>
+            );
+          } else {
             return <div key={key++}></div>;
           }
         })}

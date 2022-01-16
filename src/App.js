@@ -108,7 +108,6 @@ function App() {
                     scenario: responseJsonData[z],
                   });
                   z = 100;
-                  console.log(responseJsonData[z]);
                   responseJsonData.splice(z, 1);
                 }
               }
