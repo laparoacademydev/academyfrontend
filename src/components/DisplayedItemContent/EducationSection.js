@@ -23,7 +23,6 @@ function EducationSection(props) {
               </div>
             );
           } else if (object.type === "media") {
-            console.log(object.media[0].url);
             return (
               <div key={key++}>
                 <img

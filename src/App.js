@@ -116,7 +116,7 @@ function App() {
           }
         })
         .catch((err) => {
-          console.log("wtf error" + err);
+          console.log("error recorded " + err);
         });
     });
   }
@@ -235,7 +235,7 @@ function App() {
   } else {
     return (
       <Fragment>
-        <Layout
+        {/* <Layout
           items={courses}
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
           selectedCourseID={selectedCourseID}
@@ -245,7 +245,7 @@ function App() {
           // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
-        />
+        /> */}
         <WebcamTraining
           // url={AppHelper.ApiUrl}
           name={selectedItem.name.en}

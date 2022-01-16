@@ -12,14 +12,14 @@ import shopicon from "../../graphicassets/icons/shopico_white.svg";
 
 function ActiveUserPanel(props) {
   var userpanelitems = [
-    {
-      text: "Saved Training List",
-      onclick: function () {
-        props.setTrainingList();
-        props.setUserPanelActive(0);
-      },
-      icon: listicon,
-    },
+    // {
+    //   text: "Saved Training List",
+    //   onclick: function () {
+    //     props.setTrainingList();
+    //     props.setUserPanelActive(0);
+    //   },
+    //   icon: listicon,
+    // },
   ];
 
   const adduseruserpanelitem = {
@@ -64,6 +64,16 @@ function ActiveUserPanel(props) {
   };
 
   // userpanelitems.push(logoutuserpanelitem);
+
+  const languageselection = {
+    text: "Language",
+    onclick: function () {
+      console.log("clicked!");
+    },
+    icon: shopicon,
+  };
+
+  // userpanelitems.push(languageselection);
 
   const [code, setCode] = useState("Generate Access code");
 

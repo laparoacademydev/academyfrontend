@@ -1,8 +1,6 @@
 import React from "react";
 import classes from "./WebcamTraining.module.css";
-import axios from "axios";
 import Webcam from "react-webcam";
-import { AppHelper } from "./../../App.js";
 import WebcamControlPanelBox from "./WebcamControlPanelBox";
 
 function WebcamTraining(props) {
@@ -12,12 +10,49 @@ function WebcamTraining(props) {
   const [recordedChunks, setRecordedChunks] = React.useState([]);
   const [uploading, setUploading] = React.useState(false);
   const [uploaded, setUploaded] = React.useState(false);
+  const [fullScreen, setFullScreen] = React.useState(false);
+
+  function switchFullScreen() {
+    if (fullScreen === false) {
+      openFullscreen();
+      setFullScreen(true);
+    } else if (fullScreen === true) {
+      closeFullscreen();
+      setFullScreen(false);
+    }
+  }
 
   const videoConstraints = {
     width: 1280,
     height: 720,
     facingMode: "user",
   };
+
+  var elem = document.documentElement;
+
+  function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+      /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      /* IE11 */
+      elem.msRequestFullscreen();
+    }
+  }
+
+  function closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      /* Safari */
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      /* IE11 */
+      document.msExitFullscreen();
+    }
+  }
 
   const handleDataAvailable = React.useCallback(
     ({ data }) => {
@@ -62,54 +97,59 @@ function WebcamTraining(props) {
     }
   }, [recordedChunks]);
 
-  const handleUpload = React.useCallback(() => {
-    if (recordedChunks.length) {
-      const blob = new Blob(recordedChunks, {
-        type: "video/webm",
-      });
-      setUploading(true);
+  // old code which handled uploading and downloading existing trainings before:
+  // const handleUpload = React.useCallback(() => {
+  //   if (recordedChunks.length) {
+  //     const blob = new Blob(recordedChunks, {
+  //       type: "video/webm",
+  //     });
+  //     setUploading(true);
 
-      axios
-        .post(`${props.url}SendFile`, blob, {
-          params: {
-            name: props.name,
-          },
-          headers: {
-            "Content-Type": "video/webm",
-            Authorization: window.localStorage.getItem("jwt"),
-          },
-          timeout: 30000,
-        })
-        .catch(AppHelper.onRequestError)
-        .then((response) => {
-          setUploaded(true);
-          setUploading(false);
-        });
-    }
-  }, [recordedChunks, props.url, props.name]);
+  //     axios
+  //       .post(`${props.url}SendFile`, blob, {
+  //         params: {
+  //           name: props.name,
+  //         },
+  //         headers: {
+  //           "Content-Type": "video/webm",
+  //           Authorization: window.localStorage.getItem("jwt"),
+  //         },
+  //         timeout: 30000,
+  //       })
+  //       .catch(AppHelper.onRequestError)
+  //       .then((response) => {
+  //         setUploaded(true);
+  //         setUploading(false);
+  //       });
+  //   }
+  // }, [recordedChunks, props.url, props.name]);
 
   return (
-    <div className={classes.webcamscreen}>
-      <div className={classes.webcamview}>
-        <Webcam
-          audio={false}
-          // height={100 + "%"}
-          // width={100 + "%"}
-          ref={webcamRef}
-          forceScreenshotSourceSize={false}
-          videoConstraints={videoConstraints}
+    <div>
+      <div className={classes.webcamscreen}>
+        <div className={classes.webcamview}>
+          <Webcam
+            audio={false}
+            // height={100 + "%"}
+            // width={100 + "%"}
+            ref={webcamRef}
+            forceScreenshotSourceSize={false}
+            videoConstraints={videoConstraints}
+          />
+        </div>
+        <WebcamControlPanelBox
+          capturing={capturing}
+          handleStopCaptureClick={handleStopCaptureClick}
+          handleStartCaptureClick={handleStartCaptureClick}
+          handleDownload={handleDownload}
+          uploading={uploading}
+          uploaded={uploaded}
+          capturing={capturing}
+          recordedChunks={recordedChunks}
+          switchFullScreen={switchFullScreen}
+          fullScreen={fullScreen}
         />
       </div>
-      <WebcamControlPanelBox
-        capturing={capturing}
-        handleStopCaptureClick={handleStopCaptureClick}
-        handleStartCaptureClick={handleStartCaptureClick}
-        handleDownload={handleDownload}
-        uploading={uploading}
-        uploaded={uploaded}
-        capturing={capturing}
-        recordedChunks={recordedChunks}
-      />
     </div>
   );
 }

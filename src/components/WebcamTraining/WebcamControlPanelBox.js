@@ -18,9 +18,14 @@ function WebcamControlPanelBox(props) {
             <div className={buttonclasses.buttontext}>Download</div>
           </div>
           <div
-            className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
+            className={`${buttonclasses.button} ${classes.webcamcontrolfullscreenbtn}`}
           >
-            <div className={buttonclasses.buttontext}>Upload</div>
+            <div
+              className={buttonclasses.buttontext}
+              onClick={props.switchFullScreen}
+            >
+              {props.fullScreen ? "Exit" : "Enter"} Fullscreen
+            </div>
           </div>
         </div>
       </div>
@@ -49,26 +54,16 @@ function WebcamControlPanelBox(props) {
           >
             <div className={buttonclasses.buttontext}>Download</div>
           </div>
-          {props.uploading ? (
+          <div
+            className={`${buttonclasses.button} ${classes.webcamcontrolfullscreenbtn}`}
+          >
             <div
-              className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
+              className={buttonclasses.buttontext}
+              onClick={props.switchFullScreen}
             >
-              <div className={buttonclasses.buttontext}>Uploading</div>
+              {props.fullScreen ? "Exit" : "Enter"} Fullscreen
             </div>
-          ) : props.uploaded ? (
-            <div
-              className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
-            >
-              <div className={buttonclasses.buttontext}>Uploaded</div>
-            </div>
-          ) : (
-            <div
-              className={`${buttonclasses.button} ${classes.webcamcontroluploadbtn}`}
-              onClick={props.handleUpload}
-            >
-              <div className={buttonclasses.buttontext}>Upload</div>
-            </div>
-          )}
+          </div>
         </div>
       </div>
     );
@@ -88,9 +83,14 @@ function WebcamControlPanelBox(props) {
             <div className={buttonclasses.buttontext}>Download</div>
           </div>
           <div
-            className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
+            className={`${buttonclasses.button} ${classes.webcamcontrolfullscreenbtn}`}
           >
-            <div className={buttonclasses.buttontext}>Upload</div>
+            <div
+              className={buttonclasses.buttontext}
+              onClick={props.switchFullScreen}
+            >
+              {props.fullScreen ? "Exit" : "Enter"} Fullscreen
+            </div>
           </div>
         </div>
       </div>
