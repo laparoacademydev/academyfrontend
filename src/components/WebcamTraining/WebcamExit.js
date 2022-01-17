@@ -13,7 +13,6 @@ function WebcamExit(props) {
           props.switchFullScreen();
         }
       }}
-      //   onClick={props.setPlayingScenario(true)}
     >
       <img src={exiticon} className={classes.webcamexit} alt="."></img>
       <div className={buttonclasses.buttontext}>Exit</div>

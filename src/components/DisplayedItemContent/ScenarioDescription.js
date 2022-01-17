@@ -3,8 +3,6 @@ import ScenarioButton from "./ScenarioButton";
 import { AppHelper } from "./../../App.js";
 
 function ScenarioDescription(props) {
-  eval("props.selectedItemContent.preparation." + props.selectedLanguage);
-
   return (
     <div className={classes.itemcontentcomponent}>
       <div className={classes.itemcontenttophalf}>

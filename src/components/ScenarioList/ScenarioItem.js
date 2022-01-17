@@ -1,6 +1,6 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
-// the Scenario Item is each Item on the Scenario list - we need to feed into this formatting information and feed it out to the ScenarioList
+import { AppHelper } from "./../../App.js";
 
 function ScenarioItem(props) {
   return (
@@ -9,7 +9,7 @@ function ScenarioItem(props) {
       onClick={() => props.setSelectedCourseItem(props.selectedScenario)}
     >
       <img
-        src={`https://storageaccountacadea4e1.blob.core.windows.net/laparoacademy-images/thumbnail/${props.selectedScenario.id}_thumbnail.jpg`}
+        src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}
         alt={"thumb error"}
         className={classes.scenariolistthumbimg}
       ></img>

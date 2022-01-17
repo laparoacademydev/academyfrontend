@@ -4,13 +4,10 @@ import { useState, Fragment } from "react";
 import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
-import TrainingsList from "./components/TrainingsList/TrainingsList";
-import ShowTraining from "./components/ShowTraining/ShowTraining";
-import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
-// import decodeJWT from "jwt-decode";
 import Layout from "./components/UI/Layout";
-
-// import GetCourses from "./academycontentstorage/laparoacademy-jsoncontent/courses.json";
+// import TrainingsList from "./components/TrainingsList/TrainingsList";
+// import ShowTraining from "./components/ShowTraining/ShowTraining";
+// import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
 
 export class AppHelper {
   static ApiUrl =
@@ -29,7 +26,7 @@ function App() {
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
   const [userPanelActive, setUserPanelActive] = useState(0);
-  const [selectedLanguage, setSelectedLanguage] = useState("pl");
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
 
   React.useEffect(() => {
     if (loaded === false) {
@@ -155,26 +152,8 @@ function App() {
     // <AccessCodeScreen sendAccessCode={sendAccessCode} />;
   } else if (courses === null) {
     return <h1>Waiting</h1>;
-  } else if (selectedTraining !== null) {
-    return (
-      <Fragment>
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          setTrainingList={requestSetTrainingList}
-          userIsActive={userIsActive}
-          // url={AppHelper.ApiUrl}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
-        />
-        <ShowTraining training={selectedTraining}></ShowTraining>
-      </Fragment>
-    );
     // }
-    // else if (trainingList !== null) {
+    // else if (selectedTraining !== null) {
     //   return (
     //     <Fragment>
     //       <Layout
@@ -187,14 +166,34 @@ function App() {
     //         // url={AppHelper.ApiUrl}
     //         userPanelActive={userPanelActive}
     //         setUserPanelActive={setUserPanelActive}
+    //         selectedLanguage={selectedLanguage}
     //       />
-    //       <TrainingsList
-    //         trainingList={trainingList}
-    //         // setSelectedTraining={requestSelectedTraining}
-    //         deleteTraining={deleteTraining}
-    //       ></TrainingsList>
+    //       <ShowTraining training={selectedTraining}></ShowTraining>
     //     </Fragment>
     //   );
+    //   // }
+    //   // else if (trainingList !== null) {
+    //   //   return (
+    //   //     <Fragment>
+    //   //       <Layout
+    //   //         items={courses}
+    //   //         setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+    //   //         selectedCourseID={selectedCourseID}
+    //   //         userEmail={getUserEmail()}
+    //   //         setTrainingList={requestSetTrainingList}
+    //   //         userIsActive={userIsActive}
+    //   //         // url={AppHelper.ApiUrl}
+    //   //         userPanelActive={userPanelActive}
+    //   //         setUserPanelActive={setUserPanelActive}
+    //   //       />
+    //   //       <TrainingsList
+    //   //         trainingList={trainingList}
+    //   //         // setSelectedTraining={requestSelectedTraining}
+    //   //         deleteTraining={deleteTraining}
+    //   //       ></TrainingsList>
+    //   //     </Fragment>
+    //   //   );
+    // }
   } else if (selectedItem === null) {
     return (
       <Fragment>
@@ -205,7 +204,6 @@ function App() {
           userEmail={getUserEmail()}
           setTrainingList={requestSetTrainingList}
           userIsActive={userIsActive}
-          // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
@@ -227,7 +225,6 @@ function App() {
           userEmail={getUserEmail()}
           setTrainingList={requestSetTrainingList}
           userIsActive={userIsActive}
-          // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
@@ -242,19 +239,7 @@ function App() {
   } else if (playingScenario === true) {
     return (
       <Fragment>
-        {/* <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          setTrainingList={requestSetTrainingList}
-          userIsActive={userIsActive}
-          // url={AppHelper.ApiUrl}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-        /> */}
         <WebcamTraining
-          // url={AppHelper.ApiUrl}
           name={selectedItem.name.en}
           setPlayingScenario={setPlayingScenario}
         />
@@ -262,5 +247,4 @@ function App() {
     );
   }
 }
-
 export default App;

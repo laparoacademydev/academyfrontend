@@ -1,6 +1,6 @@
 import classes from "./LogoHome.module.css";
 
-function LogoHome(props) {
+function LogoHome() {
   return (
     <div className={classes.logohome}>
       <img

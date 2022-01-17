@@ -1,17 +1,15 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
-// the Scenario Item is each Item on the Scenario list - we need to feed into this formatting information and feed it out to the ScenarioList
+import { AppHelper } from "./../../App.js";
 
 function EducationItem(props) {
-  // console.log(props.selectedScenario[0]);
-
   return (
     <div
       className={classes.sleducationitem}
       onClick={() => props.setSelectedCourseItem(props.selectedScenario)}
     >
       <img
-        src={`https://storageaccountacadea4e1.blob.core.windows.net/laparoacademy-images/edu_placeholder.png`}
+        src={`${AppHelper.storageUrl}laparoacademy-mediacontent/edu_placeholder.png`}
         alt={"thumb error"}
         className={classes.scenariolistthumbimg}
       ></img>
@@ -21,11 +19,6 @@ function EducationItem(props) {
       <div className={classes.sleducationitemskills}>
         {eval("props.selectedScenario.subTitle." + props.selectedLanguage)}
       </div>
-      {/* <div
-      // className="scenario-item__description"
-      //onClick={() => props.setCourseId(props.id)}
-      >
-        {/* <h2>{props.title}</h2> */}
     </div>
   );
 }
