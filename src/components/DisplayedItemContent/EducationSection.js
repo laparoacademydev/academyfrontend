@@ -3,9 +3,10 @@ import { AppHelper } from "./../../App.js";
 
 function EducationSection(props) {
   let key = 0;
+
   return (
     <div className={classes.itemcontentcomponent}>
-      <div className={classes.eduheader}>
+      <div className={classes.edutitle}>
         {props.selectedItemContent.title.en}
       </div>
       <div>
@@ -30,6 +31,9 @@ function EducationSection(props) {
                   alt={"error"}
                   className={classes.scenarioprepimg}
                 ></img>
+                <div className={classes.mediadescription}>
+                  {object.media[0].label.en}
+                </div>
               </div>
             );
           } else {
