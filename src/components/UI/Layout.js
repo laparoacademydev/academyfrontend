@@ -12,6 +12,7 @@ function Layout(props) {
         items={props.items}
         setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
         selectedCourseID={props.selectedCourseID}
+        selectedLanguage={props.selectedLanguage}
       />
       <UserPanel
         userEmail={props.userEmail}

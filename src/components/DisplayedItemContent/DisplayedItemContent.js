@@ -12,7 +12,12 @@ function DisplayedItemContent(props) {
     props.selectedItemContent.content &&
     !props.selectedItemContent.instructions
   ) {
-    return <EducationSection selectedItemContent={props.selectedItemContent} />;
+    return (
+      <EducationSection
+        selectedItemContent={props.selectedItemContent}
+        selectedLanguage={props.selectedLanguage}
+      />
+    );
   } else if (
     !props.selectedItemContent.content &&
     props.selectedItemContent.instructions
@@ -21,6 +26,7 @@ function DisplayedItemContent(props) {
       <ScenarioDescription
         selectedItemContent={props.selectedItemContent}
         setPlayingScenario={props.setPlayingScenario}
+        selectedLanguage={props.selectedLanguage}
       />
     );
   } else {

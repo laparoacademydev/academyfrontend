@@ -29,6 +29,7 @@ function App() {
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
   const [userPanelActive, setUserPanelActive] = useState(0);
+  const [selectedLanguage, setSelectedLanguage] = useState("pl");
 
   React.useEffect(() => {
     if (loaded === false) {
@@ -167,6 +168,7 @@ function App() {
           // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
         />
         <ShowTraining training={selectedTraining}></ShowTraining>
       </Fragment>
@@ -206,10 +208,12 @@ function App() {
           // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
           setSelectedCourseItem={setSelectedCourseItem}
+          selectedLanguage={selectedLanguage}
         ></ScenarioList>
       </Fragment>
     );
@@ -226,10 +230,12 @@ function App() {
           // url={AppHelper.ApiUrl}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
         />
         <DisplayedItemContent
           selectedItemContent={selectedItem}
           setPlayingScenario={setPlayingScenario}
+          selectedLanguage={selectedLanguage}
         ></DisplayedItemContent>
       </Fragment>
     );

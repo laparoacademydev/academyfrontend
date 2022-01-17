@@ -7,20 +7,20 @@ function EducationSection(props) {
   return (
     <div className={classes.itemcontentcomponent}>
       <div className={classes.edutitle}>
-        {props.selectedItemContent.title.en}
+        {eval("props.selectedItemContent.title." + props.selectedLanguage)}
       </div>
       <div>
         {props.selectedItemContent.content.map((object) => {
           if (object.type === "paragraph") {
             return (
               <div key={key++} className={classes.eduparagraph}>
-                {object.text.en}
+                {eval("object.text." + props.selectedLanguage)}
               </div>
             );
           } else if (object.type === "header") {
             return (
               <div key={key++} className={classes.eduheader}>
-                {object.text.en}
+                {eval("object.text." + props.selectedLanguage)}
               </div>
             );
           } else if (object.type === "media") {
@@ -32,7 +32,7 @@ function EducationSection(props) {
                   className={classes.scenarioprepimg}
                 ></img>
                 <div className={classes.mediadescription}>
-                  {object.media[0].label.en}
+                  {eval("object.media[0].label." + props.selectedLanguage)}
                 </div>
               </div>
             );

@@ -12,6 +12,7 @@ function Courses(props) {
               course={course}
               setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
               selectedCourseID={props.selectedCourseID}
+              selectedLanguage={props.selectedLanguage}
             />
           );
         })}

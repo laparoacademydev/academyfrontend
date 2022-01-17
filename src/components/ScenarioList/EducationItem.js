@@ -16,10 +16,10 @@ function EducationItem(props) {
         className={classes.scenariolistthumbimg}
       ></img>
       <div className={classes.sleducationtitle}>
-        {props.selectedScenario.title.en}
+        {eval("props.selectedScenario.title." + props.selectedLanguage)}
       </div>
       <div className={classes.sleducationitemskills}>
-        {props.selectedScenario.subTitle.en}
+        {eval("props.selectedScenario.subTitle." + props.selectedLanguage)}
       </div>
       {/* <div
       // className="scenario-item__description"

@@ -20,6 +20,7 @@ function ScenarioList(props) {
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
                   setSelectedCourseItem={props.setSelectedCourseItem}
+                  selectedLanguage={props.selectedLanguage}
                 />
               );
             } else {
@@ -29,6 +30,7 @@ function ScenarioList(props) {
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
                   setSelectedCourseItem={props.setSelectedCourseItem}
+                  selectedLanguage={props.selectedLanguage}
                 />
               );
             }
