@@ -110,6 +110,15 @@ function App() {
                 }
               }
             }
+
+            // console.log(responseSelectedData);
+            for (let i = 0; i < responseSelectedData.length; i++) {
+              console.log(responseSelectedData[i]);
+              if (responseSelectedData[i].scenario.isVR === true) {
+                responseSelectedData.splice(i, 1);
+                i--;
+              }
+            }
             setSelectedScenarioList(responseSelectedData);
           }
         })
