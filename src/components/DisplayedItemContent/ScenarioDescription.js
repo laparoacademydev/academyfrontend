@@ -22,11 +22,17 @@ function ScenarioDescription(props) {
         <hr className={classes.horizontalline}></hr>
         <div className={classes.scenarioinstructionheader}>Instructions</div>
         <div className={classes.scenarioinstructiongrid}>
-          <video className={classes.scenarioimg} controls>
+          <video className={classes.scenarioimg} controls preload="metadata">
             <source
               src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_training.mp4`}
               // src={`${AppHelper.storageUrl}laparoacademy-videos/TM1_training.mp4`}
               type="video/mp4"
+            />
+            <track
+              label={`${props.selectedLanguage}`}
+              kind="subtitles"
+              srclang={`${props.selectedLanguage}`}
+              src={`${AppHelper.storageUrl}laparoacademy-mediacontent/vvt/${props.selectedItemContent.id}_training_${props.selectedLanguage}.vtt`}
             />
           </video>
           <div className={classes.scenarioinstructions}>
