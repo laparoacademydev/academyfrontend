@@ -21,6 +21,8 @@ function Layout(props) {
         url={props.url}
         userPanelActive={props.userPanelActive}
         setUserPanelActive={props.setUserPanelActive}
+        selectedLanguage={props.selectedLanguage}
+        setSelectedLanguage={props.setSelectedLanguage}
       />
       <Topbar />
     </Fragment>

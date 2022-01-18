@@ -9,18 +9,22 @@ import addusericon from "../../graphicassets/icons/addusercode_ico.svg";
 import listicon from "../../graphicassets/icons/listico_white.svg";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
+import langicon from "../../graphicassets/icons/langico_white.svg";
 
 function ActiveUserPanel(props) {
-  var userpanelitems = [
-    // {
-    //   text: "Saved Training List",
-    //   onclick: function () {
-    //     props.setTrainingList();
-    //     props.setUserPanelActive(0);
-    //   },
-    //   icon: listicon,
-    // },
-  ];
+  const [code, setCode] = useState("Generate Access code");
+  const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
+
+  var userpanelitems = [];
+
+  const addsavedtraininglist = {
+    text: "Saved Training List",
+    onclick: function () {
+      props.setTrainingList();
+      props.setUserPanelActive(0);
+    },
+    icon: listicon,
+  };
 
   const adduseruserpanelitem = {
     text: "Add User",
@@ -40,10 +44,6 @@ function ActiveUserPanel(props) {
     icon: addusericon,
   };
 
-  if (props.userIsActive === 2) {
-    userpanelitems.push(adduseruserpanelitem);
-  }
-
   const laparoshoplink = {
     text: "Laparo Shop",
     onclick: function () {
@@ -51,8 +51,6 @@ function ActiveUserPanel(props) {
     },
     icon: shopicon,
   };
-
-  userpanelitems.push(laparoshoplink);
 
   const logoutuserpanelitem = {
     text: "Log Out",
@@ -63,19 +61,23 @@ function ActiveUserPanel(props) {
     icon: exitusericon,
   };
 
-  // userpanelitems.push(logoutuserpanelitem);
-
   const languageselection = {
     text: "Language",
     onclick: function () {
-      console.log("clicked!");
+      activeLanguageMenu
+        ? setActiveLanguageMenu(false)
+        : setActiveLanguageMenu(true);
     },
-    icon: shopicon,
+    icon: langicon,
   };
 
-  // userpanelitems.push(languageselection);
-
-  const [code, setCode] = useState("Generate Access code");
+  // userpanelitems.push(addsavedtraininglist);
+  if (props.userIsActive === 2) {
+    userpanelitems.push(adduseruserpanelitem);
+  }
+  userpanelitems.push(languageselection);
+  userpanelitems.push(laparoshoplink);
+  // userpanelitems.push(logoutuserpanelitem);
 
   return (
     <Fragment>
@@ -113,6 +115,10 @@ function ActiveUserPanel(props) {
                 userPanelActive={props.userPanelActive}
                 setUserPanelActive={props.setUserPanelActive}
                 code={code}
+                activeLanguageMenu={activeLanguageMenu}
+                setActiveLanguageMenu={setActiveLanguageMenu}
+                selectedLanguage={props.selectedLanguage}
+                setSelectedLanguage={props.setSelectedLanguage}
               />
             );
           })}

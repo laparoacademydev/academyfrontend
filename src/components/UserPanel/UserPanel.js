@@ -20,6 +20,8 @@ function UserPanel(props) {
         setTrainingList={props.setTrainingList}
         userIsActive={props.userIsActive}
         url={props.url}
+        selectedLanguage={props.selectedLanguage}
+        setSelectedLanguage={props.setSelectedLanguage}
       />
     );
   }

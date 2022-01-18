@@ -13,6 +13,7 @@ export class AppHelper {
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
+  static languages = ["en", "pl"];
 }
 
 function App() {
@@ -50,11 +51,9 @@ function App() {
         },
       })
         .then(function (response) {
-          // console.log(response);
           return response.json();
         })
         .then(function (myJson) {
-          // console.log(myJson);
           setCourses(myJson);
           setCourseIdAndScenarioList(myJson.courses[0]);
         });
@@ -72,10 +71,9 @@ function App() {
     let scenarioTypes = [];
     selectedCourse.content.forEach((x) => {
       scenarioTypes.push(x.type);
-      // console.log(x.id);
+
       scenarioFileNames.push(x.id);
     });
-    // console.log(selectedCourse.content[0].id);
     var responseJsonData = [];
 
     scenarioFileNames.forEach((filenamejson) => {
@@ -111,9 +109,7 @@ function App() {
               }
             }
 
-            // console.log(responseSelectedData);
             for (let i = 0; i < responseSelectedData.length; i++) {
-              console.log(responseSelectedData[i]);
               if (responseSelectedData[i].scenario.isVR === true) {
                 responseSelectedData.splice(i, 1);
                 i--;
@@ -150,9 +146,6 @@ function App() {
   function deleteTraining(training) {
     // nothing happens
   }
-
-  // console.log(scenarioFileNames);
-  // console.log(scenarioTypes.length);
 
   if (loaded === false) {
     return <h1>Waiting Loaded False</h1>;
@@ -216,6 +209,7 @@ function App() {
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
@@ -237,6 +231,7 @@ function App() {
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
         />
         <DisplayedItemContent
           selectedItemContent={selectedItem}
