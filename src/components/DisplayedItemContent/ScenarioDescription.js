@@ -33,6 +33,7 @@ function ScenarioDescription(props) {
               kind="subtitles"
               srclang={`${props.selectedLanguage}`}
               src={`${AppHelper.storageUrl}laparoacademy-mediacontent/vvt/${props.selectedItemContent.id}_training_${props.selectedLanguage}.vtt`}
+              default
             />
           </video>
           <div className={classes.scenarioinstructions}>

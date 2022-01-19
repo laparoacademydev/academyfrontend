@@ -2,7 +2,6 @@ import classes from "./LanguageSelection.module.css";
 import { AppHelper } from "../../../App";
 
 function LanguageSelectionItem(props) {
-  console.log(props.lang);
   return (
     <div
       className={classes.languageselectionmenuitem}
