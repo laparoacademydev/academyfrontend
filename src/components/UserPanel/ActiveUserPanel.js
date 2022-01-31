@@ -77,7 +77,7 @@ function ActiveUserPanel(props) {
   }
   userpanelitems.push(languageselection);
   userpanelitems.push(laparoshoplink);
-  // userpanelitems.push(logoutuserpanelitem);
+  userpanelitems.push(logoutuserpanelitem);
 
   return (
     <Fragment>

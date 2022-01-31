@@ -14,6 +14,7 @@ export class AppHelper {
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
   static languages = ["en", "pl"];
+  static LoginUrl = "b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F&scope=openid&response_type=id_token&prompt=login";
 }
 
 function App() {
@@ -30,6 +31,23 @@ function App() {
   const [selectedLanguage, setSelectedLanguage] = useState("en");
 
   React.useEffect(() => {
+    var fullIp = window.location.href.split("#id_token=");
+    var webToken = fullIp[1];
+    console.log(fullIp[0]);
+    console.log(webToken);
+    if (webToken === null || webToken === undefined) {
+      console.log('webtoken undefined');
+      var localToken = window.localStorage.getItem("jwt");
+      if (localToken === null || localToken === undefined) {
+        console.log('localtoken undefined');
+        console.log(AppHelper.LoginUrl);
+        window.location.href = `//${AppHelper.LoginUrl}`;
+        return false;
+      }
+    } else {
+      window.localStorage.setItem("jwt", webToken);
+      window.location.href = fullIp[0];
+    }
     if (loaded === false) {
       checkUserActive();
     }
