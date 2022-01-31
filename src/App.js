@@ -8,6 +8,7 @@ import Layout from "./components/UI/Layout";
 // import TrainingsList from "./components/TrainingsList/TrainingsList";
 // import ShowTraining from "./components/ShowTraining/ShowTraining";
 // import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+import decodeJWT from "jwt-decode";
 
 export class AppHelper {
   static ApiUrl =
@@ -33,14 +34,9 @@ function App() {
   React.useEffect(() => {
     var fullIp = window.location.href.split("#id_token=");
     var webToken = fullIp[1];
-    console.log(fullIp[0]);
-    console.log(webToken);
     if (webToken === null || webToken === undefined) {
-      console.log('webtoken undefined');
       var localToken = window.localStorage.getItem("jwt");
       if (localToken === null || localToken === undefined) {
-        console.log('localtoken undefined');
-        console.log(AppHelper.LoginUrl);
         window.location.href = `//${AppHelper.LoginUrl}`;
         return false;
       }
@@ -143,7 +139,8 @@ function App() {
   }
 
   function getUserEmail() {
-    return "test@test.com";
+    
+    return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
   }
 
   // function requestSelectedTraining(training) {
