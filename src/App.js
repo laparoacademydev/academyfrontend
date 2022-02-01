@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, Fragment } from "react";
+import axios from "axios";
 
 import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
@@ -15,7 +16,17 @@ export class AppHelper {
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
   static languages = ["en", "pl"];
-  static LoginUrl = "b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademycontentstorage.z1.web.core.windows.net%2F&scope=openid&response_type=id_token&prompt=login";
+  static LoginUrl =
+    "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A3000&scope=openid&response_type=id_token&prompt=login";
+  static getHeaders() {
+    return {
+      headers: {
+        Authorization: window.localStorage.getItem("jwt"),
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+      },
+    };
+  }
 }
 
 function App() {
@@ -37,7 +48,7 @@ function App() {
     if (webToken === null || webToken === undefined) {
       var localToken = window.localStorage.getItem("jwt");
       if (localToken === null || localToken === undefined) {
-        window.location.href = `//${AppHelper.LoginUrl}`;
+        window.location.href = `${AppHelper.LoginUrl}`;
         return false;
       }
     } else {
@@ -50,9 +61,22 @@ function App() {
   });
 
   function checkUserActive() {
-    getCourses();
-    setLoaded(true);
-    setUserIsActive("user is active?");
+    var thisUserEmail = getUserEmail();
+    axios
+      .get(`${AppHelper.ApiUrl}CheckUserActive`, {
+        headers: {
+          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { email: thisUserEmail },
+      })
+      .then((response) => {
+        if (response.data === "True") {
+          setLoaded(true);
+          setUserIsActive(1);
+          getCourses();
+        }
+      });
   }
 
   function getCourses() {
@@ -139,7 +163,6 @@ function App() {
   }
 
   function getUserEmail() {
-    
     return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
   }
 
