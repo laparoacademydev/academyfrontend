@@ -56,7 +56,7 @@ function ActiveUserPanel(props) {
     text: "Log Out",
     onclick: function () {
       window.localStorage.removeItem("jwt");
-      // window.location.href = `//${AppHelper.LoginUrl}`;
+      window.location.href = `${AppHelper.LoginUrl}`;
     },
     icon: exitusericon,
   };

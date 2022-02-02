@@ -73,7 +73,7 @@ function App() {
         params: { email: thisUserEmail },
       })
       .then((response) => {
-        if (response.data === "True") {
+        if (response.data === true) {
           setLoaded(true);
           setUserIsActive(1);
           getCourses();
@@ -109,7 +109,6 @@ function App() {
 
   //Access Code Related Functions:
   function sendAccessCode(thisaccesscode) {
-    console.log(thisaccesscode);
     axios
       .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
         headers: {
@@ -120,10 +119,43 @@ function App() {
       })
       .then((response) => {
         if (response.data === "True") {
-          console.log("works!");
+          activateUser();
+          removeAccessCode(thisaccesscode);
         } else {
-          console.log("nope");
+          console.log("access code not worked");
         }
+      });
+  }
+
+  function removeAccessCode(thisaccesscode) {
+    axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
+      headers: {
+        "Access-Control-Allow-Origin": "https://localhost:3000",
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: { accesscode: thisaccesscode },
+    });
+  }
+
+  function activateUser() {
+    var thisUserEmail = getUserEmail();
+    console.log(thisUserEmail);
+    axios
+      .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
+        headers: {
+          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: {
+          email: thisUserEmail,
+          active: true,
+        },
+      })
+      .then(() => {
+        setLoaded(true);
+        setAccessCodeCheck(false);
+        checkUserActive();
+        getCourses();
       });
   }
 
