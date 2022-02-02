@@ -8,7 +8,7 @@ import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 // import TrainingsList from "./components/TrainingsList/TrainingsList";
 // import ShowTraining from "./components/ShowTraining/ShowTraining";
-// import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
 import decodeJWT from "jwt-decode";
 
 export class AppHelper {
@@ -41,6 +41,7 @@ function App() {
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
   const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const [accessCodeCheck, setAccessCodeCheck] = useState(false);
 
   React.useEffect(() => {
     var fullIp = window.location.href.split("#id_token=");
@@ -76,6 +77,9 @@ function App() {
           setLoaded(true);
           setUserIsActive(1);
           getCourses();
+        } else {
+          setAccessCodeCheck(true);
+          setLoaded(true);
         }
       });
   }
@@ -101,6 +105,26 @@ function App() {
 
   function getUserEmail() {
     return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+  }
+
+  //Access Code Related Functions:
+  function sendAccessCode(thisaccesscode) {
+    console.log(thisaccesscode);
+    axios
+      .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
+        headers: {
+          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { accesscode: thisaccesscode },
+      })
+      .then((response) => {
+        if (response.data === "True") {
+          console.log("works!");
+        } else {
+          console.log("nope");
+        }
+      });
   }
 
   // Scenario and Content Related Functions:
@@ -175,9 +199,8 @@ function App() {
 
   if (loaded === false) {
     return <h1>Waiting Loaded False</h1>;
-  } else if (userIsActive === 0) {
-    return <h1>Waiting Access Code Screen</h1>;
-    // <AccessCodeScreen sendAccessCode={sendAccessCode} />;
+  } else if (accessCodeCheck === true) {
+    return <AccessCodeScreen sendAccessCode={sendAccessCode} />;
   } else if (courses === null) {
     return <h1>Waiting</h1>;
   } else if (selectedItem === null) {
