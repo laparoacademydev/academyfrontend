@@ -166,10 +166,6 @@ function App() {
     return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
   }
 
-  // function requestSelectedTraining(training) {
-  //   // this is for managing existing trainings
-  // }
-
   function setSelectedCourseItem(selected) {
     setSelectedScenarioList(null);
     setSelectedItem(selected);
@@ -192,48 +188,6 @@ function App() {
     // <AccessCodeScreen sendAccessCode={sendAccessCode} />;
   } else if (courses === null) {
     return <h1>Waiting</h1>;
-    // }
-    // else if (selectedTraining !== null) {
-    //   return (
-    //     <Fragment>
-    //       <Layout
-    //         items={courses}
-    //         setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-    //         selectedCourseID={selectedCourseID}
-    //         userEmail={getUserEmail()}
-    //         setTrainingList={requestSetTrainingList}
-    //         userIsActive={userIsActive}
-    //         // url={AppHelper.ApiUrl}
-    //         userPanelActive={userPanelActive}
-    //         setUserPanelActive={setUserPanelActive}
-    //         selectedLanguage={selectedLanguage}
-    //       />
-    //       <ShowTraining training={selectedTraining}></ShowTraining>
-    //     </Fragment>
-    //   );
-    //   // }
-    //   // else if (trainingList !== null) {
-    //   //   return (
-    //   //     <Fragment>
-    //   //       <Layout
-    //   //         items={courses}
-    //   //         setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-    //   //         selectedCourseID={selectedCourseID}
-    //   //         userEmail={getUserEmail()}
-    //   //         setTrainingList={requestSetTrainingList}
-    //   //         userIsActive={userIsActive}
-    //   //         // url={AppHelper.ApiUrl}
-    //   //         userPanelActive={userPanelActive}
-    //   //         setUserPanelActive={setUserPanelActive}
-    //   //       />
-    //   //       <TrainingsList
-    //   //         trainingList={trainingList}
-    //   //         // setSelectedTraining={requestSelectedTraining}
-    //   //         deleteTraining={deleteTraining}
-    //   //       ></TrainingsList>
-    //   //     </Fragment>
-    //   //   );
-    // }
   } else if (selectedItem === null) {
     return (
       <Fragment>
