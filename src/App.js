@@ -60,6 +60,7 @@ function App() {
     }
   });
 
+  // User Related Functions:
   function checkUserActive() {
     var thisUserEmail = getUserEmail();
     axios
@@ -98,6 +99,11 @@ function App() {
     }
   }
 
+  function getUserEmail() {
+    return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+  }
+
+  // Scenario and Content Related Functions:
   function setCourseIdAndScenarioList(selectedCourse) {
     setSelectedTraining(null);
     setTrainingList(null);
@@ -162,23 +168,9 @@ function App() {
     });
   }
 
-  function getUserEmail() {
-    return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
-  }
-
   function setSelectedCourseItem(selected) {
     setSelectedScenarioList(null);
     setSelectedItem(selected);
-  }
-
-  function requestSetTrainingList() {
-    setSelectedTraining(null);
-    setSelectedCourseID(null);
-    setTrainingList("?");
-  }
-
-  function deleteTraining(training) {
-    // nothing happens
   }
 
   if (loaded === false) {
@@ -196,7 +188,6 @@ function App() {
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
           selectedCourseID={selectedCourseID}
           userEmail={getUserEmail()}
-          setTrainingList={requestSetTrainingList}
           userIsActive={userIsActive}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
@@ -218,7 +209,6 @@ function App() {
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
           selectedCourseID={selectedCourseID}
           userEmail={getUserEmail()}
-          setTrainingList={requestSetTrainingList}
           userIsActive={userIsActive}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
