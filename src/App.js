@@ -17,7 +17,16 @@ export class AppHelper {
   static languages = ["en", "pl"];
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A3000&scope=openid&response_type=id_token&prompt=login";
-  static AllowAccessCodeOrigin = "https://localhost:3000";
+  static AllowAccessCodeOrigin = "http://localhost:3000";
+  static onRequestError(error) {
+    if (error.response === undefined || error.response.status === 401) {
+      console.log(
+        "Request, redirecting to login page, find better solution for this error asap"
+      );
+      window.localStorage.removeItem("jwt");
+      window.location.href = AppHelper.LoginUrl;
+    }
+  }
 }
 
 function App() {
@@ -72,6 +81,9 @@ function App() {
           setAccessCodeCheck(true);
           setLoaded(true);
         }
+      })
+      .catch((error) => {
+        AppHelper.onRequestError(error);
       });
   }
 
