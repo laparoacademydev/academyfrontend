@@ -6,8 +6,7 @@ import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
-// import TrainingsList from "./components/TrainingsList/TrainingsList";
-// import ShowTraining from "./components/ShowTraining/ShowTraining";
+
 import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
 import decodeJWT from "jwt-decode";
 
@@ -18,15 +17,7 @@ export class AppHelper {
   static languages = ["en", "pl"];
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A3000&scope=openid&response_type=id_token&prompt=login";
-  static getHeaders() {
-    return {
-      headers: {
-        Authorization: window.localStorage.getItem("jwt"),
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
-      },
-    };
-  }
+  static AllowAccessCodeOrigin = "https://localhost:3000";
 }
 
 function App() {
@@ -67,7 +58,7 @@ function App() {
     axios
       .get(`${AppHelper.ApiUrl}CheckUserActive`, {
         headers: {
-          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
           "Access-Control-Allow-Headers": "*",
         },
         params: { email: thisUserEmail },
@@ -112,7 +103,7 @@ function App() {
     axios
       .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
         headers: {
-          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
           "Access-Control-Allow-Headers": "*",
         },
         params: { accesscode: thisaccesscode },
@@ -130,7 +121,7 @@ function App() {
   function removeAccessCode(thisaccesscode) {
     axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
       headers: {
-        "Access-Control-Allow-Origin": "https://localhost:3000",
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
         "Access-Control-Allow-Headers": "*",
       },
       params: { accesscode: thisaccesscode },
@@ -143,7 +134,7 @@ function App() {
     axios
       .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
         headers: {
-          "Access-Control-Allow-Origin": "https://localhost:3000",
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
           "Access-Control-Allow-Headers": "*",
         },
         params: {
