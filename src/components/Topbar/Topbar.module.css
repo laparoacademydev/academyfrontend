@@ -1,7 +1,7 @@
 .topbar {
   position: fixed;
   z-index: 9;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
   right: 401px;
   left: 329px;
   padding: 0.5rem;

@@ -1,7 +1,7 @@
 .logohome {
   position: fixed;
   z-index: 10;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   width: 328px;
   height: 64px;

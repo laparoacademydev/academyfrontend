@@ -16,6 +16,7 @@ function Courses(props) {
             />
           );
         })}
+        <div className={classes.sidebarfiller}></div>
       </div>
     </div>
   );
