@@ -10,12 +10,21 @@ import listicon from "../../graphicassets/icons/listico_white.svg";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
 import langicon from "../../graphicassets/icons/langico_white.svg";
+import survicon from "../../graphicassets/icons/surveyico_white.svg";
 
 function ActiveUserPanel(props) {
   const [code, setCode] = useState("Generate Access code");
   const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
 
   var userpanelitems = [];
+
+  const surveyuserpanelitem = {
+    text: "Fill out Survey",
+    onclick: function () {
+      window.open("https://forms.gle/kVVPMKuYSm23ZLDm6");
+    },
+    icon: survicon,
+  };
 
   const addsavedtraininglist = {
     text: "Saved Training List",
@@ -45,7 +54,7 @@ function ActiveUserPanel(props) {
   };
 
   const laparoshoplink = {
-    text: "Laparo Shop",
+    text: "Visit Laparo Shop",
     onclick: function () {
       window.open("https://laparosimulators.com/");
     },
@@ -75,6 +84,7 @@ function ActiveUserPanel(props) {
   if (props.userIsActive === 2) {
     userpanelitems.push(adduseruserpanelitem);
   }
+  userpanelitems.push(surveyuserpanelitem);
   userpanelitems.push(languageselection);
   userpanelitems.push(laparoshoplink);
   userpanelitems.push(logoutuserpanelitem);
