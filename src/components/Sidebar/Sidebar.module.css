@@ -1,3 +1,17 @@
+/* COURSES */
+
+.courses {
+  position: fixed;
+  z-index: 8;
+  background-color: #f8f8f8;
+  margin: 0rem auto;
+  top: 64px;
+  width: 328px;
+  height: 100%;
+}
+
+/* COURSE ITEMS */
+
 .courseitem {
   display: flex;
   height: 60px;
@@ -5,8 +19,8 @@
   background-color: #ffffff;
 }
 
-.courseitem:hover{
-  background-color: #F5F5F5;
+.courseitem:hover {
+  background-color: #f5f5f5;
 }
 
 .courseitemselected {
@@ -29,7 +43,6 @@
   color: #444444;
   margin-left: 30px;
 }
-
 
 @media (min-width: 580px) {
   .courseitemdescription {

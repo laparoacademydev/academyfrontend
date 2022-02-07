@@ -1,4 +1,4 @@
-import classes from "./CourseItem.module.css";
+import classes from "./Sidebar.module.css";
 
 function CourseItem(props) {
   return (
