@@ -16,7 +16,7 @@ export class AppHelper {
   static storageUrl = "./academycontentstorage/";
   static languages = ["en", "pl"];
   static LoginUrl =
-    "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A3000&scope=openid&response_type=id_token&prompt=login";
+    "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademycontentstorage.z1.web.core.windows.net%2F&scope=openid&response_type=id_token&prompt=login";
   static AllowAccessCodeOrigin =
     "https://academycontentstorage.z1.web.core.windows.net/";
   static onRequestError(error) {
