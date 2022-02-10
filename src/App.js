@@ -16,9 +16,8 @@ export class AppHelper {
   static storageUrl = "./academycontentstorage/";
   static languages = ["en", "pl"];
   static LoginUrl =
-    "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademycontentstorage.z1.web.core.windows.net%2F&scope=openid&response_type=id_token&prompt=login";
-  static AllowAccessCodeOrigin =
-    "https://academycontentstorage.z1.web.core.windows.net/";
+    "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademy.laparosimulators.com&scope=openid&response_type=id_token&prompt=login";
+  static AllowAccessCodeOrigin = "https://academy.laparosimulators.com";
   static onRequestError(error) {
     if (error.response === undefined || error.response.status === 401) {
       console.log(
@@ -234,11 +233,11 @@ function App() {
   }
 
   if (loaded === false) {
-    return <h1>Waiting Loaded False</h1>;
+    return <h1>Please Wait</h1>;
   } else if (accessCodeCheck === true) {
     return <AccessCodeScreen sendAccessCode={sendAccessCode} />;
   } else if (courses === null) {
-    return <h1>Waiting</h1>;
+    return <h1>Please Wait</h1>;
   } else if (selectedItem === null) {
     return (
       <Fragment>
