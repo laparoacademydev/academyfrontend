@@ -1,0 +1,58 @@
+[
+  {
+    "id": "logout",
+    "codename": "Log out button",
+    "date": "userpanel",
+    "imgnumber": "Log Out",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "visitlaparo",
+    "codename": "Link to the Laparo Shop",
+    "date": "userpanel",
+    "imgnumber": "Visit Laparo Shop",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "lang",
+    "codename": "Change the language",
+    "date": "userpanel",
+    "imgnumber": "Language",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "survey",
+    "codename": "Link to Google Form for User Feedback",
+    "date": "userpanel",
+    "imgnumber": "Fill Out Survey",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "instructions",
+    "codename": "Instructions on how to do exercise",
+    "date": "scenariodescription",
+    "imgnumber": "Instructions",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "startbtn",
+    "codename": "Begin Exercise",
+    "date": "scenariodescription",
+    "imgnumber": "Start",
+    "typetag": [],
+    "text": []
+  },
+  {
+    "id": "preparation",
+    "codename": "Instructions on how to prepare the training area",
+    "date": "scenariodescription",
+    "imgnumber": "Preparation",
+    "typetag": [],
+    "text": []
+  }
+]
