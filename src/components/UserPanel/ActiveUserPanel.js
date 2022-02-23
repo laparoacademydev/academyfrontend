@@ -98,7 +98,16 @@ function ActiveUserPanel(props) {
 
   return (
     <Fragment>
-      <div className={classes.overlay}></div>
+      <div
+        className={classes.overlay}
+        onClick={() => {
+          if (props.userPanelActive === 0) {
+            props.setUserPanelActive(1);
+          } else if (props.userPanelActive === 1) {
+            props.setUserPanelActive(0);
+          }
+        }}
+      ></div>
       <div className={classes.userpanel}>
         <div>
           <img src={usericon} className={classes.usericon} alt="." />
