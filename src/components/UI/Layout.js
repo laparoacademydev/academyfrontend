@@ -23,6 +23,7 @@ function Layout(props) {
         setUserPanelActive={props.setUserPanelActive}
         selectedLanguage={props.selectedLanguage}
         setSelectedLanguage={props.setSelectedLanguage}
+        localizationData={props.localizationData}
       />
       <Topbar />
     </Fragment>

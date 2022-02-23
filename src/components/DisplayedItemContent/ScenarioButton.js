@@ -4,16 +4,19 @@ import classes from "./DisplayedItemContent.module.css";
 
 function ScenarioButton(props) {
   return (
-
-      <div
+    <div
       className={`${buttonclasses.button} ${classes.buttonstarttraining}`}
       onClick={() => {
         props.setPlayingScenario(true);
       }}
     >
-      <div className={buttonclasses.buttontext}>Start</div>
+      <div className={buttonclasses.buttontext}>
+        {eval(
+          "props.localizationData.scenariodescription.startbtn.text." +
+            props.selectedLanguage
+        )}
+      </div>
     </div>
-
   );
 }
 

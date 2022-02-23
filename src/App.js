@@ -31,6 +31,7 @@ export class AppHelper {
 
 function App() {
   const [courses, setCourses] = useState(null);
+  const [localizationData, setLocalizationData] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [userIsActive, setUserIsActive] = useState(0);
   const [selectedTraining, setSelectedTraining] = useState(null);
@@ -61,32 +62,7 @@ function App() {
     }
   });
 
-  // User Related Functions:
-  function checkUserActive() {
-    var thisUserEmail = getUserEmail();
-    axios
-      .get(`${AppHelper.ApiUrl}CheckUserActive`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { email: thisUserEmail },
-      })
-      .then((response) => {
-        if (response.data === true) {
-          setLoaded(true);
-          setUserIsActive(1);
-          getCourses();
-        } else {
-          setAccessCodeCheck(true);
-          setLoaded(true);
-        }
-      })
-      .catch((error) => {
-        AppHelper.onRequestError(error);
-      });
-  }
-
+  // Content Related Functions:
   function getCourses() {
     if (courses === null) {
       fetch(`${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json`, {
@@ -104,6 +80,54 @@ function App() {
           setCourseIdAndScenarioList(myJson.courses[0]);
         });
     }
+  }
+
+  function getLocalization() {
+    if (localizationData === null) {
+      fetch(
+        `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+
+            Accept: "application/json",
+          },
+        }
+      )
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (myJson) {
+          setLocalizationData(myJson);
+        });
+    }
+  }
+
+  // User Related Functions:
+  function checkUserActive() {
+    var thisUserEmail = getUserEmail();
+    axios
+      .get(`${AppHelper.ApiUrl}CheckUserActive`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { email: thisUserEmail },
+      })
+      .then((response) => {
+        if (response.data === true) {
+          setLoaded(true);
+          setUserIsActive(1);
+          getLocalization();
+          getCourses();
+        } else {
+          setAccessCodeCheck(true);
+          setLoaded(true);
+        }
+      })
+      .catch((error) => {
+        AppHelper.onRequestError(error);
+      });
   }
 
   function getUserEmail() {
@@ -251,6 +275,7 @@ function App() {
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
           setSelectedLanguage={setSelectedLanguage}
+          localizationData={localizationData}
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
@@ -272,11 +297,13 @@ function App() {
           setUserPanelActive={setUserPanelActive}
           selectedLanguage={selectedLanguage}
           setSelectedLanguage={setSelectedLanguage}
+          localizationData={localizationData}
         />
         <DisplayedItemContent
           selectedItemContent={selectedItem}
           setPlayingScenario={setPlayingScenario}
           selectedLanguage={selectedLanguage}
+          localizationData={localizationData}
         ></DisplayedItemContent>
       </Fragment>
     );

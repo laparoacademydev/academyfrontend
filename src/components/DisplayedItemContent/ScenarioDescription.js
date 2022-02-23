@@ -20,7 +20,12 @@ function ScenarioDescription(props) {
           </div>
         </div>
         <hr className={classes.horizontalline}></hr>
-        <div className={classes.scenarioinstructionheader}>Instructions</div>
+        <div className={classes.scenarioinstructionheader}>
+          {eval(
+            "props.localizationData.scenariodescription.instructions.text." +
+              props.selectedLanguage
+          )}
+        </div>
         <div className={classes.scenarioinstructiongrid}>
           <video className={classes.scenarioimg} controls preload="metadata">
             <source
@@ -44,7 +49,12 @@ function ScenarioDescription(props) {
         </div>
       </div>
       <div className={classes.scenariopreparationbox}>
-        <div className={classes.scenariopreparationheader}>Preparation</div>
+        <div className={classes.scenariopreparationheader}>
+          {eval(
+            "props.localizationData.scenariodescription.preparation.text." +
+              props.selectedLanguage
+          )}
+        </div>
         <div className={classes.scenariopreptext}>
           {eval(
             "props.selectedItemContent.preparation." + props.selectedLanguage
@@ -58,6 +68,8 @@ function ScenarioDescription(props) {
 
         <ScenarioButton
           setPlayingScenario={props.setPlayingScenario}
+          localizationData={props.localizationData}
+          selectedLanguage={props.selectedLanguage}
         ></ScenarioButton>
       </div>
     </div>

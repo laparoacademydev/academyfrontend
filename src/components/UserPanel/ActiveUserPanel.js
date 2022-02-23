@@ -19,7 +19,9 @@ function ActiveUserPanel(props) {
   var userpanelitems = [];
 
   const surveyuserpanelitem = {
-    text: "Fill out Survey",
+    text: eval(
+      "props.localizationData.userpanel.survey.text." + props.selectedLanguage
+    ),
     onclick: function () {
       window.open("https://forms.gle/kVVPMKuYSm23ZLDm6");
     },
@@ -54,7 +56,10 @@ function ActiveUserPanel(props) {
   };
 
   const laparoshoplink = {
-    text: "Visit Laparo Shop",
+    text: eval(
+      "props.localizationData.userpanel.visitlaparo.text." +
+        props.selectedLanguage
+    ),
     onclick: function () {
       window.open("https://laparosimulators.com/");
     },
@@ -62,7 +67,9 @@ function ActiveUserPanel(props) {
   };
 
   const logoutuserpanelitem = {
-    text: "Log Out",
+    text: eval(
+      "props.localizationData.userpanel.logout.text." + props.selectedLanguage
+    ),
     onclick: function () {
       window.localStorage.removeItem("jwt");
       window.location.href = `${AppHelper.LoginUrl}`;

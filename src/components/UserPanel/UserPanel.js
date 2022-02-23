@@ -22,6 +22,7 @@ function UserPanel(props) {
         url={props.url}
         selectedLanguage={props.selectedLanguage}
         setSelectedLanguage={props.setSelectedLanguage}
+        localizationData={props.localizationData}
       />
     );
   }

@@ -1,58 +1,55 @@
-[
-  {
-    "id": "logout",
-    "codename": "Log out button",
-    "date": "userpanel",
-    "imgnumber": "Log Out",
-    "typetag": [],
-    "text": []
+{
+  "userpanel": {
+    "logout": {
+      "description": "Log out button",
+      "text": {
+        "en": "Log Out",
+        "pl": "Wyloguj"
+      }
+    },
+    "visitlaparo": {
+      "description": "Link to the Laparo Shop",
+      "text": {
+        "en": "Visit Laparo Shop",
+        "pl": "Odwiedź Sklep Laparo"
+      }
+    },
+    "languageselect": {
+      "description": "Change the language",
+      "text": {
+        "en": "Language",
+        "pl": "Język"
+      }
+    },
+    "survey": {
+      "description": "Link to Google Form for User Feedback",
+      "text": {
+        "en": "Fill Out Survey",
+        "pl": "Wypełnij Ankietę"
+      }
+    }
   },
-  {
-    "id": "visitlaparo",
-    "codename": "Link to the Laparo Shop",
-    "date": "userpanel",
-    "imgnumber": "Visit Laparo Shop",
-    "typetag": [],
-    "text": []
-  },
-  {
-    "id": "lang",
-    "codename": "Change the language",
-    "date": "userpanel",
-    "imgnumber": "Language",
-    "typetag": [],
-    "text": []
-  },
-  {
-    "id": "survey",
-    "codename": "Link to Google Form for User Feedback",
-    "date": "userpanel",
-    "imgnumber": "Fill Out Survey",
-    "typetag": [],
-    "text": []
-  },
-  {
-    "id": "instructions",
-    "codename": "Instructions on how to do exercise",
-    "date": "scenariodescription",
-    "imgnumber": "Instructions",
-    "typetag": [],
-    "text": []
-  },
-  {
-    "id": "startbtn",
-    "codename": "Begin Exercise",
-    "date": "scenariodescription",
-    "imgnumber": "Start",
-    "typetag": [],
-    "text": []
-  },
-  {
-    "id": "preparation",
-    "codename": "Instructions on how to prepare the training area",
-    "date": "scenariodescription",
-    "imgnumber": "Preparation",
-    "typetag": [],
-    "text": []
+  "scenariodescription": {
+    "instructions": {
+      "description": "Instructions on how to do exercise",
+      "text": {
+        "en": "Instructions",
+        "pl": "Instrukcja"
+      }
+    },
+    "startbtn": {
+      "description": "Begin Exercise",
+      "text": {
+        "en": "Start",
+        "pl": "Zacznij"
+      }
+    },
+    "preparation": {
+      "description": "Instructions on how to prepare the training area",
+      "text": {
+        "en": "Preparation",
+        "pl": "Przygotowanie"
+      }
+    }
   }
-]
+}

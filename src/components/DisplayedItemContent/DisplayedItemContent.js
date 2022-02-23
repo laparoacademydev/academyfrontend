@@ -27,6 +27,7 @@ function DisplayedItemContent(props) {
         selectedItemContent={props.selectedItemContent}
         setPlayingScenario={props.setPlayingScenario}
         selectedLanguage={props.selectedLanguage}
+        localizationData={props.localizationData}
       />
     );
   } else {
