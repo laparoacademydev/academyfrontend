@@ -146,7 +146,7 @@ function App() {
       })
       .then((response) => {
         if (response.data === "True") {
-          activateUser();
+          activateUser(thisaccesscode);
           removeAccessCode(thisaccesscode);
         } else {
           console.log("access code not worked");
@@ -164,7 +164,7 @@ function App() {
     });
   }
 
-  function activateUser() {
+  function activateUser(thisaccesscode) {
     var thisUserEmail = getUserEmail();
     axios
       .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
@@ -175,6 +175,7 @@ function App() {
         params: {
           email: thisUserEmail,
           active: true,
+          serialnumber: thisaccesscode,
         },
       })
       .then(() => {
