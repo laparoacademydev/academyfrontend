@@ -15,7 +15,7 @@ function AccessCodeScreen(props) {
       <div className={classes.accesscodewindow}>
         <div className={classes.accesscodetext}>
           {error === undefined
-            ? "Please submit the serial number of your Laparo device. You will find it on the device or in the documentation of your order. If you can't find it, please contact us at academy@laparosimulators.com"
+            ? "Please submit the serial number of your Laparo device. You will find it on the device. If you can't find it, please contact us at academy@laparosimulators.com"
             : error}
         </div>
         <div

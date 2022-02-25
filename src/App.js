@@ -57,6 +57,7 @@ function App() {
       window.localStorage.setItem("jwt", webToken);
       window.location.href = fullIp[0];
     }
+
     if (loaded === false) {
       checkUserActive();
     }
