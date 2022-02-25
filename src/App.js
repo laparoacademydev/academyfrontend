@@ -166,7 +166,6 @@ function App() {
 
   function activateUser() {
     var thisUserEmail = getUserEmail();
-    console.log(thisUserEmail);
     axios
       .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
         headers: {
