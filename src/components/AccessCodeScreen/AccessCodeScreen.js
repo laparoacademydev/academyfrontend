@@ -1,6 +1,7 @@
 import classes from "./AccessCodeScreen.module.css";
 import React, { useState } from "react";
 import buttonclasses from "../UI/Button.module.css";
+import { AppHelper } from "../../App";
 
 function AccessCodeScreen(props) {
   const [code, setCode] = useState(false);
@@ -37,6 +38,19 @@ function AccessCodeScreen(props) {
                 className={`${buttonclasses.buttontext} ${classes.accesscodesubmitbtntext}`}
               >
                 submit
+              </div>
+            </div>
+            <div
+              className={`${buttonclasses.button}  ${classes.accesscodelogoutbtn}`}
+              onClick={function () {
+                window.localStorage.removeItem("jwt");
+                window.location.href = `${AppHelper.LoginUrl}`;
+              }}
+            >
+              <div
+                className={`${buttonclasses.buttontext} ${classes.accesscodesubmitbtntext}`}
+              >
+                Log Out
               </div>
             </div>
           </form>
