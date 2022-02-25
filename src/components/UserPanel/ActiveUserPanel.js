@@ -78,7 +78,10 @@ function ActiveUserPanel(props) {
   };
 
   const languageselection = {
-    text: "Language",
+    text: eval(
+      "props.localizationData.userpanel.languageselect.text." +
+        props.selectedLanguage
+    ),
     onclick: function () {
       activeLanguageMenu
         ? setActiveLanguageMenu(false)
@@ -145,6 +148,7 @@ function ActiveUserPanel(props) {
                 setActiveLanguageMenu={setActiveLanguageMenu}
                 selectedLanguage={props.selectedLanguage}
                 setSelectedLanguage={props.setSelectedLanguage}
+                localizationData={props.localizationData}
               />
             );
           })}
