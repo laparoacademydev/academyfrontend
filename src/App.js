@@ -149,7 +149,7 @@ function App() {
           activateUser(thisaccesscode);
           removeAccessCode(thisaccesscode);
         } else {
-          console.log("access code not worked");
+          console.log("access code did not work");
         }
       });
   }
