@@ -149,12 +149,14 @@ function WebcamTraining(props) {
           switchFullScreen={switchFullScreen}
           fullScreen={fullScreen}
           localizationData={props.localizationData}
+          selectedLanguage={props.selectedLanguage}
         />
         <WebcamExit
           setPlayingScenario={props.setPlayingScenario}
           switchFullScreen={switchFullScreen}
           fullScreen={fullScreen}
           localizationData={props.localizationData}
+          selectedLanguage={props.selectedLanguage}
         />
       </div>
     </div>

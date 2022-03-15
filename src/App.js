@@ -315,6 +315,7 @@ function App() {
           name={selectedItem.name.en}
           setPlayingScenario={setPlayingScenario}
           localizationData={localizationData}
+          selectedLanguage={selectedLanguage}
         />
       </Fragment>
     );
