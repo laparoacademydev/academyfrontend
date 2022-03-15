@@ -51,5 +51,35 @@
         "pl": "Przygotowanie"
       }
     }
+  },
+  "webcamtraining": {
+    "startcapture": {
+      "description": "Button for starting capture",
+      "text": {
+        "en": "Start Capture",
+        "pl": "Zacznij Nagrywanie"
+      }
+    },
+    "stopcapture": {
+      "description": "Button for stopping capture",
+      "text": {
+        "en": "Stop Capture",
+        "pl": "Zakończ Nagrywanie"
+      }
+    },
+    "download": {
+      "description": "Button for downloading",
+      "text": {
+        "en": "Download",
+        "pl": "Pobierz"
+      }
+    },
+    "exit": {
+      "description": "Button for return",
+      "text": {
+        "en": "Exit",
+        "pl": "Wróć"
+      }
+    }
   }
 }

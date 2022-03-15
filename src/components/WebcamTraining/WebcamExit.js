@@ -15,7 +15,12 @@ function WebcamExit(props) {
       }}
     >
       <img src={exiticon} className={classes.webcamexit} alt="."></img>
-      <div className={buttonclasses.buttontext}>Exit</div>
+      <div className={buttonclasses.buttontext}>
+        {eval(
+          "props.localizationData.webcamtraining.exit.text." +
+            props.selectedLanguage
+        )}
+      </div>
     </div>
   );
 }

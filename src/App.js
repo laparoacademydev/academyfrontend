@@ -314,6 +314,7 @@ function App() {
         <WebcamTraining
           name={selectedItem.name.en}
           setPlayingScenario={setPlayingScenario}
+          localizationData={localizationData}
         />
       </Fragment>
     );
