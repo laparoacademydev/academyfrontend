@@ -41,6 +41,7 @@ function EducationSection(props) {
           }
         })}
       </div>
+      <div className={classes.edufinaldiv}></div>
     </div>
   );
 }

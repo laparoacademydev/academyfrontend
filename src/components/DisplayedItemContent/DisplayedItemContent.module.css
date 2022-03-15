@@ -214,3 +214,9 @@
   left: 55px;
   font-weight: 500;
 }
+
+.edufinaldiv {
+  position: relative;
+  width: 90%;
+  height: 500px;
+}
