@@ -44,22 +44,20 @@ function App() {
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
 
+  // this is for development mode - when set to true, bypasses the checking of user and login options
+  const [developerMode, setDeveloperMode] = useState(true);
+
   React.useEffect(() => {
-    var fullIp = window.location.href.split("#id_token=");
-    var webToken = fullIp[1];
-    if (webToken === null || webToken === undefined) {
-      var localToken = window.localStorage.getItem("jwt");
-      if (localToken === null || localToken === undefined) {
-        window.location.href = `${AppHelper.LoginUrl}`;
-        return false;
+    if (developerMode === false) {
+      checkToken();
+      if (loaded === false) {
+        checkUserActive();
       }
     } else {
-      window.localStorage.setItem("jwt", webToken);
-      window.location.href = fullIp[0];
-    }
-
-    if (loaded === false) {
-      checkUserActive();
+      setLoaded(true);
+      setUserIsActive(1);
+      getLocalization();
+      getCourses();
     }
   });
 
@@ -105,6 +103,22 @@ function App() {
   }
 
   // User Related Functions:
+
+  function checkToken() {
+    var fullIp = window.location.href.split("#id_token=");
+    var webToken = fullIp[1];
+    if (webToken === null || webToken === undefined) {
+      var localToken = window.localStorage.getItem("jwt");
+      if (localToken === null || localToken === undefined) {
+        window.location.href = `${AppHelper.LoginUrl}`;
+        return false;
+      }
+    } else {
+      window.localStorage.setItem("jwt", webToken);
+      window.location.href = fullIp[0];
+    }
+  }
+
   function checkUserActive() {
     var thisUserEmail = getUserEmail();
     axios
@@ -132,7 +146,11 @@ function App() {
   }
 
   function getUserEmail() {
-    return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+    if (developerMode === false) {
+      return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+    } else {
+      return "devmode@laparosimulators.com";
+    }
   }
 
   //Access Code Related Functions:
