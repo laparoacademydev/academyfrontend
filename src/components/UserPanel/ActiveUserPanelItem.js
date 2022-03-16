@@ -6,7 +6,6 @@ function ActiveUserPanelItem(props) {
     "props.localizationData.userpanel.languageselect.text." +
       props.selectedLanguage
   );
-  console.log(languagePrompt);
   return (
     <div className={classes.activeuserpanelitem} onClick={props.onclick}>
       <img src={props.icon} className={classes.optionicons} alt="." />

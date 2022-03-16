@@ -103,7 +103,6 @@ function App() {
   }
 
   // User Related Functions:
-
   function checkToken() {
     var fullIp = window.location.href.split("#id_token=");
     var webToken = fullIp[1];

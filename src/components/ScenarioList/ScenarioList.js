@@ -24,7 +24,6 @@ function ScenarioList(props) {
                 />
               );
             } else {
-              // console.log(object.scenario.id);
               return (
                 <EducationItem
                   key={object.scenario.id}
