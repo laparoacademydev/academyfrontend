@@ -46,7 +46,7 @@ function App() {
   const [accessCodeError, setAccessCodeError] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [developerMode, setDeveloperMode] = useState(true);
 
   React.useEffect(() => {
     if (developerMode === false) {
@@ -58,6 +58,8 @@ function App() {
       setLoaded(true);
       setUserIsActive(1);
       if (localizationData === null) {
+        getLocalization();
+      } else if (localizationData.language !== selectedLanguage) {
         getLocalization();
       }
 
@@ -125,6 +127,7 @@ function App() {
       }
       extractedLocalization[localizationPageName] = extractedLocalizationPage;
     }
+    extractedLocalization["language"] = selectedLanguage;
     setLocalizationData(extractedLocalization);
   }
 
