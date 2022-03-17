@@ -55,6 +55,11 @@ function AccessCodeScreen(props) {
             </div>
           </form>
         </div>
+        {props.accessCodeError ? (
+          <div className={classes.erroraccesscodetext}>
+            Sorry, your access code is not valid.
+          </div>
+        ) : null}
       </div>
     </div>
   );

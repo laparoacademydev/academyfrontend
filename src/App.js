@@ -43,6 +43,7 @@ function App() {
   const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
+  const [accessCodeError, setAccessCodeError] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
   const [developerMode, setDeveloperMode] = useState(false);
@@ -191,8 +192,12 @@ function App() {
         if (response.data === "True") {
           activateUser(thisaccesscode);
           removeAccessCode(thisaccesscode);
-        } else {
+        } else if (response.data === "False") {
+          setAccessCodeError(true);
           console.log("access code did not work");
+        } else {
+          setAccessCodeError(true);
+          console.log("access code request did not work at all");
         }
       });
   }
@@ -225,7 +230,6 @@ function App() {
         setLoaded(true);
         setAccessCodeCheck(false);
         checkUserActive();
-        getCourses();
       });
   }
 
@@ -302,7 +306,12 @@ function App() {
   if (loaded === false) {
     return <h1>Please Wait</h1>;
   } else if (accessCodeCheck === true) {
-    return <AccessCodeScreen sendAccessCode={sendAccessCode} />;
+    return (
+      <AccessCodeScreen
+        sendAccessCode={sendAccessCode}
+        accessCodeError={accessCodeError}
+      />
+    );
   } else if (courses === null) {
     return <h1>Please Wait</h1>;
   } else if (selectedItem === null) {
