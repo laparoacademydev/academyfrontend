@@ -45,7 +45,7 @@ function App() {
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(true);
+  const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
     if (developerMode === false) {
@@ -56,7 +56,10 @@ function App() {
     } else {
       setLoaded(true);
       setUserIsActive(1);
-      getLocalization();
+      if (localizationData === null) {
+        getLocalization();
+      }
+
       getCourses();
     }
   });
@@ -82,24 +85,46 @@ function App() {
   }
 
   function getLocalization() {
-    if (localizationData === null) {
-      fetch(
-        `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json`,
-        {
-          headers: {
-            "Content-Type": "application/json",
+    fetch(
+      `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json`,
+      {
+        headers: {
+          "Content-Type": "application/json",
 
-            Accept: "application/json",
-          },
-        }
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (myJson) {
-          setLocalizationData(myJson);
-        });
+          Accept: "application/json",
+        },
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        extractLocalizationData(myJson, selectedLanguage);
+      });
+  }
+
+  function extractLocalizationData(myJson, selectedLanguage) {
+    var extractedLocalization = {};
+    var localizationPages = Object.entries(myJson);
+
+    for (let i = 0; i < localizationPages.length; i++) {
+      var localizationPageName = localizationPages[i][0];
+      var localizationPageObject = Object.entries(localizationPages[i][1]);
+
+      var extractedLocalizationPage = {};
+      for (let a = 0; a < localizationPageObject.length; a++) {
+        var localizationPageObjectName = localizationPageObject[a][0];
+        var localizationPageObjectText = localizationPageObject[a][1].text;
+        var localizationPageObjectTextLanguage = eval(
+          "localizationPageObjectText." + selectedLanguage
+        );
+
+        extractedLocalizationPage[localizationPageObjectName] =
+          localizationPageObjectTextLanguage;
+      }
+      extractedLocalization[localizationPageName] = extractedLocalizationPage;
     }
+    setLocalizationData(extractedLocalization);
   }
 
   // User Related Functions:
@@ -294,6 +319,7 @@ function App() {
           selectedLanguage={selectedLanguage}
           setSelectedLanguage={setSelectedLanguage}
           localizationData={localizationData}
+          getLocalization={getLocalization}
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
@@ -316,6 +342,7 @@ function App() {
           selectedLanguage={selectedLanguage}
           setSelectedLanguage={setSelectedLanguage}
           localizationData={localizationData}
+          getLocalization={getLocalization}
         />
         <DisplayedItemContent
           selectedItemContent={selectedItem}

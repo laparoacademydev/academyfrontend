@@ -19,9 +19,7 @@ function ActiveUserPanel(props) {
   var userpanelitems = [];
 
   const surveyuserpanelitem = {
-    text: eval(
-      "props.localizationData.userpanel.survey.text." + props.selectedLanguage
-    ),
+    text: props.localizationData.userpanel.survey,
     onclick: function () {
       window.open("https://forms.gle/kVVPMKuYSm23ZLDm6");
     },
@@ -56,10 +54,7 @@ function ActiveUserPanel(props) {
   };
 
   const laparoshoplink = {
-    text: eval(
-      "props.localizationData.userpanel.visitlaparo.text." +
-        props.selectedLanguage
-    ),
+    text: props.localizationData.userpanel.visitlaparo,
     onclick: function () {
       window.open("https://laparosimulators.com/");
     },
@@ -67,9 +62,7 @@ function ActiveUserPanel(props) {
   };
 
   const logoutuserpanelitem = {
-    text: eval(
-      "props.localizationData.userpanel.logout.text." + props.selectedLanguage
-    ),
+    text: props.localizationData.userpanel.logout,
     onclick: function () {
       window.localStorage.removeItem("jwt");
       window.location.href = `${AppHelper.LoginUrl}`;
@@ -78,10 +71,7 @@ function ActiveUserPanel(props) {
   };
 
   const languageselection = {
-    text: eval(
-      "props.localizationData.userpanel.languageselect.text." +
-        props.selectedLanguage
-    ),
+    text: props.localizationData.userpanel.languageselect,
     onclick: function () {
       activeLanguageMenu
         ? setActiveLanguageMenu(false)
@@ -149,6 +139,7 @@ function ActiveUserPanel(props) {
                 selectedLanguage={props.selectedLanguage}
                 setSelectedLanguage={props.setSelectedLanguage}
                 localizationData={props.localizationData}
+                getLocalization={props.getLocalization}
               />
             );
           })}

@@ -8,9 +8,11 @@ function LanguageSelection(props) {
       {AppHelper.languages.map((lang) => {
         return (
           <LanguageSelectionItem
+            key={lang}
             lang={lang}
             setSelectedLanguage={props.setSelectedLanguage}
             setUserPanelActive={props.setUserPanelActive}
+            getLocalization={props.getLocalization}
           />
         );
       })}

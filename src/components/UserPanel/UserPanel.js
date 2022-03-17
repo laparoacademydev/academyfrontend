@@ -23,6 +23,7 @@ function UserPanel(props) {
         selectedLanguage={props.selectedLanguage}
         setSelectedLanguage={props.setSelectedLanguage}
         localizationData={props.localizationData}
+        getLocalization={props.getLocalization}
       />
     );
   }

@@ -2,18 +2,16 @@ import classes from "./UserPanel.module.css";
 import LanguageSelection from "./LanguageSelectionMenu/LanguageSelection";
 
 function ActiveUserPanelItem(props) {
-  var languagePrompt = eval(
-    "props.localizationData.userpanel.languageselect.text." +
-      props.selectedLanguage
-  );
   return (
     <div className={classes.activeuserpanelitem} onClick={props.onclick}>
       <img src={props.icon} className={classes.optionicons} alt="." />
       <div className={classes.activeuserpanelitemtext}>{props.text}</div>
-      {props.activeLanguageMenu && props.text === languagePrompt ? (
+      {props.activeLanguageMenu &&
+      props.text === props.localizationData.userpanel.languageselect ? (
         <LanguageSelection
           setSelectedLanguage={props.setSelectedLanguage}
           setUserPanelActive={props.setUserPanelActive}
+          getLocalization={props.getLocalization}
         />
       ) : (
         <div />

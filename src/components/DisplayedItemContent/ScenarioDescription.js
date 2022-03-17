@@ -21,10 +21,7 @@ function ScenarioDescription(props) {
         </div>
         <hr className={classes.horizontalline}></hr>
         <div className={classes.scenarioinstructionheader}>
-          {eval(
-            "props.localizationData.scenariodescription.instructions.text." +
-              props.selectedLanguage
-          )}
+          {props.localizationData.scenariodescription.instructions}
         </div>
         <div className={classes.scenarioinstructiongrid}>
           <video className={classes.scenarioimg} controls preload="metadata">
@@ -36,7 +33,7 @@ function ScenarioDescription(props) {
             <track
               label={`${props.selectedLanguage}`}
               kind="subtitles"
-              srclang={`${props.selectedLanguage}`}
+              srcLang={`${props.selectedLanguage}`}
               src={`${AppHelper.storageUrl}laparoacademy-mediacontent/vvt/${props.selectedItemContent.id}_training_${props.selectedLanguage}.vtt`}
               default
             />
@@ -50,10 +47,7 @@ function ScenarioDescription(props) {
       </div>
       <div className={classes.scenariopreparationbox}>
         <div className={classes.scenariopreparationheader}>
-          {eval(
-            "props.localizationData.scenariodescription.preparation.text." +
-              props.selectedLanguage
-          )}
+          {props.localizationData.scenariodescription.preparation}
         </div>
         <div className={classes.scenariopreptext}>
           {eval(

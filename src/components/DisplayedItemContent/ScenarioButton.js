@@ -11,10 +11,7 @@ function ScenarioButton(props) {
       }}
     >
       <div className={buttonclasses.buttontext}>
-        {eval(
-          "props.localizationData.scenariodescription.startbtn.text." +
-            props.selectedLanguage
-        )}
+        {props.localizationData.scenariodescription.startbtn}
       </div>
     </div>
   );

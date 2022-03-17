@@ -11,20 +11,14 @@ function WebcamControlPanelBox(props) {
             onClick={props.handleStopCaptureClick}
           >
             <div className={buttonclasses.buttontext}>
-              {eval(
-                "props.localizationData.webcamtraining.stopcapture.text." +
-                  props.selectedLanguage
-              )}
+              {props.localizationData.webcamtraining.stopcapture}
             </div>
           </div>
           <div
             className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
           >
             <div className={buttonclasses.buttontext}>
-              {eval(
-                "props.localizationData.webcamtraining.download.text." +
-                  props.selectedLanguage
-              )}
+              {props.localizationData.webcamtraining.download}
             </div>
           </div>
           <div
@@ -49,10 +43,7 @@ function WebcamControlPanelBox(props) {
               className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
             >
               <div className={buttonclasses.buttontext}>
-                {eval(
-                  "props.localizationData.webcamtraining.startcapture.text." +
-                    props.selectedLanguage
-                )}
+                {props.localizationData.webcamtraining.startcapture}
               </div>
             </div>
           ) : (
@@ -61,10 +52,7 @@ function WebcamControlPanelBox(props) {
               onClick={props.handleStartCaptureClick}
             >
               <div className={buttonclasses.buttontext}>
-                {eval(
-                  "props.localizationData.webcamtraining.startcapture.text." +
-                    props.selectedLanguage
-                )}
+                {props.localizationData.webcamtraining.startcapture}
               </div>
             </div>
           )}
@@ -73,10 +61,7 @@ function WebcamControlPanelBox(props) {
             onClick={props.handleDownload}
           >
             <div className={buttonclasses.buttontext}>
-              {eval(
-                "props.localizationData.webcamtraining.download.text." +
-                  props.selectedLanguage
-              )}
+              {props.localizationData.webcamtraining.download}
             </div>
           </div>
           <div
@@ -101,20 +86,14 @@ function WebcamControlPanelBox(props) {
             onClick={props.handleStartCaptureClick}
           >
             <div className={buttonclasses.buttontext}>
-              {eval(
-                "props.localizationData.webcamtraining.startcapture.text." +
-                  props.selectedLanguage
-              )}
+              {props.localizationData.webcamtraining.startcapture}
             </div>
           </div>
           <div
             className={`${buttonclasses.button} ${classes.webcamcontrolinactivebtn}`}
           >
             <div className={buttonclasses.buttontext}>
-              {eval(
-                "props.localizationData.webcamtraining.download.text." +
-                  props.selectedLanguage
-              )}
+              {props.localizationData.webcamtraining.download}
             </div>
           </div>
           <div
