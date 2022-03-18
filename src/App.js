@@ -317,7 +317,7 @@ function App() {
       />
     );
   } else if (courses === null) {
-    return <h1>Please Wait</h1>;
+    return <LoadingScreen />;
   } else if (selectedItem === null) {
     return (
       <Fragment>
