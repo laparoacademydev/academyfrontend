@@ -50,6 +50,8 @@ function App() {
   const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
+    getLocalization();
+    getCourses();
     if (developerMode === false) {
       checkToken();
       if (loaded === false) {
@@ -64,7 +66,7 @@ function App() {
         getLocalization();
       }
 
-      getCourses();
+      // getCourses();
     }
   });
 
@@ -162,8 +164,8 @@ function App() {
         if (response.data === true) {
           setLoaded(true);
           setUserIsActive(1);
-          getLocalization();
-          getCourses();
+          // getLocalization();
+          // getCourses();
         } else {
           setAccessCodeCheck(true);
           setLoaded(true);
