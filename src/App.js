@@ -6,8 +6,9 @@ import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
-
+import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+
 import decodeJWT from "jwt-decode";
 
 export class AppHelper {
@@ -46,7 +47,7 @@ function App() {
   const [accessCodeError, setAccessCodeError] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(true);
+  const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
     if (developerMode === false) {
@@ -307,7 +308,7 @@ function App() {
   }
 
   if (loaded === false) {
-    return <h1>Please Wait</h1>;
+    return <LoadingScreen />;
   } else if (accessCodeCheck === true) {
     return (
       <AccessCodeScreen
