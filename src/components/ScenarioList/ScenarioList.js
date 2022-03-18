@@ -8,7 +8,7 @@ function ScenarioList(props) {
     props.selectedScenarioList === null ||
     props.selectedScenarioList === "undefined"
   ) {
-    return <div className={classes.scenariolist}>Loading!</div>;
+    return <div className={classes.spinner}></div>;
   } else {
     return (
       <div className={classes.scenariolist}>
