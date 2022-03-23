@@ -50,8 +50,10 @@ function App() {
   const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
-    getLocalization();
-    getCourses();
+    if (courses === null) {
+      getCourses();
+    }
+
     if (developerMode === false) {
       checkToken();
       if (loaded === false) {
