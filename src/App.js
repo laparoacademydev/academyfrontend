@@ -8,8 +8,11 @@ import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+import MobileView from "./components/MobileView/MobileView";
 
 import decodeJWT from "jwt-decode";
+
+import { isMobile } from "react-device-detect";
 
 export class AppHelper {
   static ApiUrl =
@@ -312,7 +315,9 @@ function App() {
     setSelectedItem(selected);
   }
 
-  if (loaded === false) {
+  if (isMobile === true) {
+    return <MobileView />;
+  } else if (loaded === false) {
     return <LoadingScreen />;
   } else if (accessCodeCheck === true) {
     return (
