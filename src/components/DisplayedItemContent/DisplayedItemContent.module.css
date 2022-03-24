@@ -13,7 +13,7 @@
 
 .itemcontenttophalf {
   position: fixed;
-  top: 60px;
+  top: 105px;
   width: 850px;
   margin-bottom: 310px;
   overflow-y: auto;
@@ -157,6 +157,14 @@
 
 /* EDUCATION SECTION */
 
+.edutopfade {
+  position: fixed;
+  width: 825px;
+  height: 80px;
+  background-image: linear-gradient(white, white, rgba(255, 255, 255, 0));
+  z-index: 11;
+}
+
 .eduparagraph {
   position: relative;
   left: 20px;
@@ -187,7 +195,7 @@
 
 .edutitle {
   position: relative;
-  margin-top: 30px;
+  margin-top: 50px;
   left: 20px;
   top: 10px;
   font-style: normal;
@@ -219,4 +227,35 @@
   position: relative;
   width: 90%;
   height: 500px;
+}
+
+/* return button */
+
+.returnbutton {
+  position: fixed;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  z-index: 12;
+}
+
+.returnbuttontext {
+  position: relative;
+  user-select: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  top: 4px;
+  right: 2px;
+  text-align: right;
+  margin-right: 5px;
+  color: #00619d;
+}
+
+.returnbuttonarrow {
+  position: fixed;
+  margin-top: 3px;
+  margin-left: 3px;
 }

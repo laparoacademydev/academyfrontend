@@ -19,7 +19,7 @@ function ScenarioList(props) {
                 <ScenarioItem
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
-                  setSelectedCourseItem={props.setSelectedCourseItem}
+                  setSelectedItem={props.setSelectedItem}
                   selectedLanguage={props.selectedLanguage}
                 />
               );
@@ -28,7 +28,7 @@ function ScenarioList(props) {
                 <EducationItem
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
-                  setSelectedCourseItem={props.setSelectedCourseItem}
+                  setSelectedItem={props.setSelectedItem}
                   selectedLanguage={props.selectedLanguage}
                 />
               );

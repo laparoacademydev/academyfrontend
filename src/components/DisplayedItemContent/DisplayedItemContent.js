@@ -16,6 +16,8 @@ function DisplayedItemContent(props) {
       <EducationSection
         selectedItemContent={props.selectedItemContent}
         selectedLanguage={props.selectedLanguage}
+        setSelectedItem={props.setSelectedItem}
+        localizationData={props.localizationData}
       />
     );
   } else if (
@@ -28,6 +30,7 @@ function DisplayedItemContent(props) {
         setPlayingScenario={props.setPlayingScenario}
         selectedLanguage={props.selectedLanguage}
         localizationData={props.localizationData}
+        setSelectedItem={props.setSelectedItem}
       />
     );
   } else {

@@ -6,7 +6,7 @@ function EducationItem(props) {
   return (
     <div
       className={classes.sleducationitem}
-      onClick={() => props.setSelectedCourseItem(props.selectedScenario)}
+      onClick={() => props.setSelectedItem(props.selectedScenario)}
     >
       <img
         src={`${AppHelper.storageUrl}laparoacademy-mediacontent/edu_placeholder.png`}

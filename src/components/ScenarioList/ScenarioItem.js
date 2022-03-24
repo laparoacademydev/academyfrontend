@@ -6,7 +6,7 @@ function ScenarioItem(props) {
   return (
     <div
       className={classes.scenariolistitem}
-      onClick={() => props.setSelectedCourseItem(props.selectedScenario)}
+      onClick={() => props.setSelectedItem(props.selectedScenario)}
     >
       <img
         src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}

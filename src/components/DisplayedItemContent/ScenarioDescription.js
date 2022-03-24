@@ -1,10 +1,15 @@
 import classes from "./DisplayedItemContent.module.css";
 import ScenarioButton from "./ScenarioButton";
+import ReturnButton from "./ReturnButton";
 import { AppHelper } from "./../../App.js";
 
 function ScenarioDescription(props) {
   return (
     <div className={classes.itemcontentcomponent}>
+      <ReturnButton
+        setSelectedItem={props.setSelectedItem}
+        localizationData={props.localizationData}
+      />
       <div className={classes.itemcontenttophalf}>
         <div>
           <div className={classes.scenarioheader}>

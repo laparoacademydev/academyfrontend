@@ -50,6 +50,13 @@
         "en": "Preparation",
         "pl": "Przygotowanie"
       }
+    },
+    "returnbtn": {
+      "description": "Exit Button for returning to main list",
+      "text": {
+        "en": "Return",
+        "pl": "Powrót"
+      }
     }
   },
   "webcamtraining": {

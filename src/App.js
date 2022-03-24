@@ -310,11 +310,6 @@ function App() {
     });
   }
 
-  function setSelectedCourseItem(selected) {
-    setSelectedScenarioList(null);
-    setSelectedItem(selected);
-  }
-
   if (isMobile === true) {
     return <MobileView />;
   } else if (loaded === false) {
@@ -346,7 +341,7 @@ function App() {
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
-          setSelectedCourseItem={setSelectedCourseItem}
+          setSelectedItem={setSelectedItem}
           selectedLanguage={selectedLanguage}
         ></ScenarioList>
       </Fragment>
@@ -372,6 +367,7 @@ function App() {
           setPlayingScenario={setPlayingScenario}
           selectedLanguage={selectedLanguage}
           localizationData={localizationData}
+          setSelectedItem={setSelectedItem}
         ></DisplayedItemContent>
       </Fragment>
     );

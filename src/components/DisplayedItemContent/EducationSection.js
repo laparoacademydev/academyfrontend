@@ -1,11 +1,17 @@
 import classes from "./DisplayedItemContent.module.css";
 import { AppHelper } from "./../../App.js";
+import ReturnButton from "./ReturnButton";
 
 function EducationSection(props) {
   let key = 0;
 
   return (
     <div className={classes.itemcontentcomponent}>
+      <ReturnButton
+        setSelectedItem={props.setSelectedItem}
+        localizationData={props.localizationData}
+      />
+      <div className={classes.edutopfade}></div>
       <div className={classes.edutitle}>
         {eval("props.selectedItemContent.title." + props.selectedLanguage)}
       </div>
