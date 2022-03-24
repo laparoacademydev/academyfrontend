@@ -58,6 +58,7 @@ function App() {
       checkToken();
       if (loaded === false) {
         checkUserActive();
+        getLocalization();
       }
     } else {
       setLoaded(true);
