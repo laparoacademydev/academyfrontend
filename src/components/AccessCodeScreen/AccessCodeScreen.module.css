@@ -40,12 +40,19 @@
 .accesscodelogoutbtn {
   width: 150px;
   margin-top: 15px;
-  background-color: #00619d;
+  background-color: #7e7e7e;
 }
 
 .accesscodesubmitbtntext {
-  /* vertical-align: middle; */
-  bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 7px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 .accesscodetext {

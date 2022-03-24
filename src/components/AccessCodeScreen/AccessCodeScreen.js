@@ -34,11 +34,7 @@ function AccessCodeScreen(props) {
                 props.sendAccessCode(code.value, (err) => setError(err));
               }}
             >
-              <div
-                className={`${buttonclasses.buttontext} ${classes.accesscodesubmitbtntext}`}
-              >
-                submit
-              </div>
+              <div className={`${classes.accesscodesubmitbtntext}`}>submit</div>
             </div>
             <div
               className={`${buttonclasses.button}  ${classes.accesscodelogoutbtn}`}
@@ -47,9 +43,7 @@ function AccessCodeScreen(props) {
                 window.location.href = `${AppHelper.LoginUrl}`;
               }}
             >
-              <div
-                className={`${buttonclasses.buttontext} ${classes.accesscodesubmitbtntext}`}
-              >
+              <div className={`${classes.accesscodesubmitbtntext}`}>
                 Log Out
               </div>
             </div>
