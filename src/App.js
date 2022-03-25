@@ -50,7 +50,7 @@ function App() {
   const [accessCodeError, setAccessCodeError] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(true);
+  const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
     if (courses === null) {
@@ -127,9 +127,8 @@ function App() {
       for (let a = 0; a < localizationPageObject.length; a++) {
         var localizationPageObjectName = localizationPageObject[a][0];
         var localizationPageObjectText = localizationPageObject[a][1].text;
-        var localizationPageObjectTextLanguage = eval(
-          "localizationPageObjectText." + selectedLanguage
-        );
+        var localizationPageObjectTextLanguage =
+          localizationPageObjectText[selectedLanguage];
 
         extractedLocalizationPage[localizationPageObjectName] =
           localizationPageObjectTextLanguage;

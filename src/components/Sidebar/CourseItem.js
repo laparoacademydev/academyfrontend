@@ -13,7 +13,7 @@ function CourseItem(props) {
         className={classes.courseitemdescription}
         onClick={() => props.setCourseIdAndScenarioList(props.course)}
       >
-        <div>{eval("props.course.name." + props.selectedLanguage)}</div>
+        <div>{props.course.name[props.selectedLanguage]}</div>
       </div>
     </div>
   );

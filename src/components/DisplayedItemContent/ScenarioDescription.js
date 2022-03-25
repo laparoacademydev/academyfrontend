@@ -13,15 +13,13 @@ function ScenarioDescription(props) {
       <div className={classes.itemcontenttophalf}>
         <div>
           <div className={classes.scenarioheader}>
-            {eval("props.selectedItemContent.name." + props.selectedLanguage)}
+            {props.selectedItemContent.name[props.selectedLanguage]}
           </div>
           <div className={classes.scenarioskills}>
-            {eval("props.selectedItemContent.skills." + props.selectedLanguage)}
+            {props.selectedItemContent.skills[props.selectedLanguage]}
           </div>
           <div className={classes.scenariodescription}>
-            {eval(
-              "props.selectedItemContent.description." + props.selectedLanguage
-            )}
+            {props.selectedItemContent.description[props.selectedLanguage]}
           </div>
         </div>
         <hr className={classes.horizontalline}></hr>
@@ -44,9 +42,7 @@ function ScenarioDescription(props) {
             />
           </video>
           <div className={classes.scenarioinstructions}>
-            {eval(
-              "props.selectedItemContent.instructions." + props.selectedLanguage
-            )}
+            {props.selectedItemContent.instructions[props.selectedLanguage]}
           </div>
         </div>
       </div>
@@ -55,9 +51,7 @@ function ScenarioDescription(props) {
           {props.localizationData.scenariodescription.preparation}
         </div>
         <div className={classes.scenariopreptext}>
-          {eval(
-            "props.selectedItemContent.preparation." + props.selectedLanguage
-          )}
+          {props.selectedItemContent.preparation[props.selectedLanguage]}
         </div>
         <img
           src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_preparation.jpg`}

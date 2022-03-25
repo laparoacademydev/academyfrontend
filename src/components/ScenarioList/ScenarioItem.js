@@ -14,10 +14,10 @@ function ScenarioItem(props) {
         className={classes.scenariolistthumbimg}
       ></img>
       <div className={classes.slscenariotitle}>
-        {eval("props.selectedScenario.name." + props.selectedLanguage)}
+        {props.selectedScenario.name[props.selectedLanguage]}
       </div>
       <div className={classes.slscenarioskill}>
-        {eval("props.selectedScenario.skills." + props.selectedLanguage)}
+        {props.selectedScenario.skills[props.selectedLanguage]}
       </div>
     </div>
   );

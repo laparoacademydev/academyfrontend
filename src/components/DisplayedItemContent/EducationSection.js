@@ -13,20 +13,20 @@ function EducationSection(props) {
       />
       <div className={classes.edutopfade}></div>
       <div className={classes.edutitle}>
-        {eval("props.selectedItemContent.title." + props.selectedLanguage)}
+        {props.selectedItemContent.title[props.selectedLanguage]}
       </div>
       <div>
         {props.selectedItemContent.content.map((object) => {
           if (object.type === "paragraph") {
             return (
               <div key={key++} className={classes.eduparagraph}>
-                {eval("object.text." + props.selectedLanguage)}
+                {object.text[props.selectedLanguage]}
               </div>
             );
           } else if (object.type === "header") {
             return (
               <div key={key++} className={classes.eduheader}>
-                {eval("object.text." + props.selectedLanguage)}
+                {object.text[props.selectedLanguage]}
               </div>
             );
           } else if (object.type === "media") {
@@ -38,7 +38,7 @@ function EducationSection(props) {
                   className={classes.scenarioprepimg}
                 ></img>
                 <div className={classes.mediadescription}>
-                  {eval("object.media[0].label." + props.selectedLanguage)}
+                  {object.media[0].label[props.selectedLanguage]}
                 </div>
               </div>
             );
