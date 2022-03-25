@@ -138,7 +138,6 @@ function WebcamTraining(props) {
           />
         </div>
         <WebcamControlPanelBox
-          capturing={capturing}
           handleStopCaptureClick={handleStopCaptureClick}
           handleStartCaptureClick={handleStartCaptureClick}
           handleDownload={handleDownload}
