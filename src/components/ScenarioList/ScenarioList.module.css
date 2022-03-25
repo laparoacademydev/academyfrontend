@@ -21,6 +21,7 @@
 
 .scenariolistitem:hover {
   background: #e6f0f6;
+  cursor: pointer;
 }
 
 .scenariolistthumbimg {
@@ -66,6 +67,7 @@
 
 .sleducationitem:hover {
   background: #e6f0f6;
+  cursor: pointer;
 }
 
 .sleducationtitle {

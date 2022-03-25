@@ -50,7 +50,7 @@ function App() {
   const [accessCodeError, setAccessCodeError] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [developerMode, setDeveloperMode] = useState(true);
 
   React.useEffect(() => {
     if (courses === null) {

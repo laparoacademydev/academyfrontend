@@ -233,6 +233,7 @@
 
 .returnbutton {
   position: fixed;
+  cursor: pointer;
   margin-top: 15px;
   margin-left: 10px;
   border-radius: 3px;
