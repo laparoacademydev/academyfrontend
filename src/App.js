@@ -155,31 +155,57 @@ function App() {
     }
   }
 
-  function checkUserActive() {
+  const checkUserActive = async () => {
     var thisUserEmail = getUserEmail();
-    axios
-      .get(`${AppHelper.ApiUrl}CheckUserActive`, {
+    try {
+      let response = await axios.get(`${AppHelper.ApiUrl}CheckUserActive`, {
         headers: {
           "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
           "Access-Control-Allow-Headers": "*",
         },
         params: { email: thisUserEmail },
-      })
-      .then((response) => {
-        if (response.data === true) {
-          setLoaded(true);
-          setUserIsActive(1);
-          // getLocalization();
-          // getCourses();
-        } else {
-          setAccessCodeCheck(true);
-          setLoaded(true);
-        }
-      })
-      .catch((error) => {
-        AppHelper.onRequestError(error);
       });
-  }
+
+      if (response.data === true) {
+        setLoaded(true);
+        setUserIsActive(1);
+        // getLocalization();
+        // getCourses();
+      } else {
+        setAccessCodeCheck(true);
+        setLoaded(true);
+      }
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
+
+  // function checkUserActive() {
+  //   var thisUserEmail = getUserEmail();
+
+  //   axios
+  //     .get(`${AppHelper.ApiUrl}CheckUserActive`, {
+  //       headers: {
+  //         "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+  //         "Access-Control-Allow-Headers": "*",
+  //       },
+  //       params: { email: thisUserEmail },
+  //     })
+  //     .then((response) => {
+  //       if (response.data === true) {
+  //         setLoaded(true);
+  //         setUserIsActive(1);
+  //         // getLocalization();
+  //         // getCourses();
+  //       } else {
+  //         setAccessCodeCheck(true);
+  //         setLoaded(true);
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       AppHelper.onRequestError(error);
+  //     });
+  // }
 
   function getUserEmail() {
     if (developerMode === false) {
