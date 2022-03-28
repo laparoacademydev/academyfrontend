@@ -48,33 +48,54 @@ function App() {
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
   const [accessCodeError, setAccessCodeError] = useState(false);
+  const [tokenConfirmed, setTokenConfirmed] = useState(false);
 
   // this is for development mode - when set to true, bypasses the checking of user and login options
   const [developerMode, setDeveloperMode] = useState(false);
 
   React.useEffect(() => {
-    if (courses === null) {
+    if (developerMode === true) {
+      setTokenConfirmed(true);
+      setUserIsActive(1);
+    }
+
+    if (loaded === false) {
+      loadAcademy();
+    }
+
+    if (loaded === true) {
+      if (localizationData.language !== selectedLanguage) {
+        getLocalization();
+      }
+    }
+  });
+
+  function loadAcademy() {
+    if (tokenConfirmed === false && developerMode === false) {
+      checkToken();
+    }
+    if (userIsActive === 0 && tokenConfirmed === true) {
+      checkUserActive();
+    }
+    if (localizationData === null && userIsActive === 1) {
+      getLocalization();
+    }
+    if (courses === null && localizationData !== null) {
       getCourses();
     }
 
-    if (developerMode === false) {
-      checkToken();
-      if (loaded === false) {
-        checkUserActive();
-        getLocalization();
+    if (tokenConfirmed === true) {
+      if (userIsActive === 1) {
+        if (localizationData !== null) {
+          if (courses !== null) {
+            if (loaded === false) {
+              setLoaded(true);
+            }
+          }
+        }
       }
-    } else {
-      setLoaded(true);
-      setUserIsActive(1);
-      if (localizationData === null) {
-        getLocalization();
-      } else if (localizationData.language !== selectedLanguage) {
-        getLocalization();
-      }
-
-      // getCourses();
     }
-  });
+  }
 
   // Content Related Functions:
   function getCourses() {
@@ -148,10 +169,13 @@ function App() {
       if (localToken === null || localToken === undefined) {
         window.location.href = `${AppHelper.LoginUrl}`;
         return false;
+      } else {
+        setTokenConfirmed(true);
       }
     } else {
       window.localStorage.setItem("jwt", webToken);
       window.location.href = fullIp[0];
+      setTokenConfirmed(true);
     }
   }
 
@@ -167,45 +191,14 @@ function App() {
       });
 
       if (response.data === true) {
-        setLoaded(true);
         setUserIsActive(1);
-        // getLocalization();
-        // getCourses();
       } else {
         setAccessCodeCheck(true);
-        setLoaded(true);
       }
     } catch (error) {
       AppHelper.onRequestError(error);
     }
   };
-
-  // function checkUserActive() {
-  //   var thisUserEmail = getUserEmail();
-
-  //   axios
-  //     .get(`${AppHelper.ApiUrl}CheckUserActive`, {
-  //       headers: {
-  //         "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-  //         "Access-Control-Allow-Headers": "*",
-  //       },
-  //       params: { email: thisUserEmail },
-  //     })
-  //     .then((response) => {
-  //       if (response.data === true) {
-  //         setLoaded(true);
-  //         setUserIsActive(1);
-  //         // getLocalization();
-  //         // getCourses();
-  //       } else {
-  //         setAccessCodeCheck(true);
-  //         setLoaded(true);
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       AppHelper.onRequestError(error);
-  //     });
-  // }
 
   function getUserEmail() {
     if (developerMode === false) {
@@ -337,8 +330,6 @@ function App() {
 
   if (isMobile === true) {
     return <MobileView />;
-  } else if (loaded === false) {
-    return <LoadingScreen />;
   } else if (accessCodeCheck === true) {
     return (
       <AccessCodeScreen
@@ -346,7 +337,7 @@ function App() {
         accessCodeError={accessCodeError}
       />
     );
-  } else if (courses === null) {
+  } else if (loaded === false) {
     return <LoadingScreen />;
   } else if (selectedItem === null) {
     return (
