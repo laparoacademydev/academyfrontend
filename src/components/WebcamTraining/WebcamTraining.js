@@ -4,6 +4,8 @@ import Webcam from "react-webcam";
 import WebcamControlPanelBox from "./WebcamControlPanelBox";
 import WebcamExit from "./WebcamExit";
 
+import { useRef } from "react";
+
 function WebcamTraining(props) {
   const webcamRef = React.useRef(null);
   const mediaRecorderRef = React.useRef(null);
@@ -14,11 +16,12 @@ function WebcamTraining(props) {
   const [fullScreen, setFullScreen] = React.useState(false);
 
   function switchFullScreen() {
+    var elem = webcamRef.current.video;
     if (fullScreen === false) {
-      openFullscreen();
+      openFullscreen(elem);
       setFullScreen(true);
     } else if (fullScreen === true) {
-      closeFullscreen();
+      closeFullscreen(elem);
       setFullScreen(false);
     }
   }
@@ -29,9 +32,9 @@ function WebcamTraining(props) {
     facingMode: "user",
   };
 
-  var elem = document.documentElement;
+  // var elem;
 
-  function openFullscreen() {
+  function openFullscreen(elem) {
     if (elem.requestFullscreen) {
       elem.requestFullscreen();
     } else if (elem.webkitRequestFullscreen) {
@@ -43,8 +46,8 @@ function WebcamTraining(props) {
     }
   }
 
-  function closeFullscreen() {
-    if (document.exitFullscreen) {
+  function closeFullscreen(elem) {
+    if (elem.exitFullscreen) {
       document.exitFullscreen();
     } else if (document.webkitExitFullscreen) {
       /* Safari */
@@ -134,7 +137,6 @@ function WebcamTraining(props) {
             ref={webcamRef}
             forceScreenshotSourceSize={false}
             videoConstraints={videoConstraints}
-            controls
           />
         </div>
         <WebcamControlPanelBox
