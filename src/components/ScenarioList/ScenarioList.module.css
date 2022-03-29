@@ -1,8 +1,10 @@
 .scenariolist {
   position: relative;
+  width: 900px;
+
   left: 328px;
   top: 64px;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   height: 100%;
   margin-left: 1px;
 }
@@ -27,6 +29,14 @@
 .scenariolistthumbimg {
   float: left;
   border-radius: 4px;
+}
+
+.scenariolistfiller {
+  position: absolute;
+  z-index: 7;
+  background-color: rgb(255, 255, 255);
+  width: 850px;
+  height: 700px;
 }
 
 /* SCENARIO ITEM */

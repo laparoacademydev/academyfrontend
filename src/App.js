@@ -36,24 +36,28 @@ export class AppHelper {
 }
 
 function App() {
-  const [courses, setCourses] = useState(null);
-  const [localizationData, setLocalizationData] = useState(null);
+  //DEV Mode - for using localhost:3000 previews:
+  const [developerMode, setDeveloperMode] = useState(false);
+
   const [loaded, setLoaded] = useState(false);
+  const [tokenConfirmed, setTokenConfirmed] = useState(false);
   const [userIsActive, setUserIsActive] = useState(0);
-  const [selectedTraining, setSelectedTraining] = useState(null);
-  const [trainingList, setTrainingList] = useState(null);
-  const [selectedItem, setSelectedItem] = useState(null);
-  const [playingScenario, setPlayingScenario] = useState(false);
-  const [selectedCourseID, setSelectedCourseID] = useState(null);
-  const [selectedScenarioList, setSelectedScenarioList] = useState([]);
-  const [userPanelActive, setUserPanelActive] = useState(0);
-  const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
   const [accessCodeError, setAccessCodeError] = useState(false);
-  const [tokenConfirmed, setTokenConfirmed] = useState(false);
+  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
 
-  // this is for development mode - when set to true, bypasses the checking of user and login options
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [courses, setCourses] = useState(null);
+  const [localizationData, setLocalizationData] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedCourseID, setSelectedCourseID] = useState(null);
+  const [selectedScenarioList, setSelectedScenarioList] = useState([]);
+
+  const [playingScenario, setPlayingScenario] = useState(false);
+  const [userPanelActive, setUserPanelActive] = useState(0);
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
+
+  const [selectedTraining, setSelectedTraining] = useState(null);
+  const [trainingList, setTrainingList] = useState(null);
 
   React.useEffect(() => {
     if (developerMode === true) {
@@ -70,8 +74,11 @@ function App() {
         getLocalization();
       }
     }
+
+    initializeAcademy();
   });
 
+  // Loading Initializing Functions:
   function loadAcademy() {
     if (tokenConfirmed === false && developerMode === false) {
       checkToken();
@@ -85,12 +92,19 @@ function App() {
     if (courses === null && localizationData !== null) {
       getCourses();
     }
+  }
 
+  function initializeAcademy() {
     if (tokenConfirmed === true) {
+      setLoadingScreenMsg("user token confirmed...");
       if (userIsActive === 1) {
+        setLoadingScreenMsg("user verified...");
         if (localizationData !== null) {
+          setLoadingScreenMsg("localization data downloaded...");
           if (courses !== null) {
+            setLoadingScreenMsg("courses loaded...");
             if (loaded === false) {
+              setLoadingScreenMsg("");
               setLoaded(true);
             }
           }
@@ -160,6 +174,70 @@ function App() {
     }
     extractedLocalization["language"] = selectedLanguage;
     setLocalizationData(extractedLocalization);
+  }
+
+  function setCourseIdAndScenarioList(selectedCourse) {
+    setSelectedTraining(null);
+    setTrainingList(null);
+    setSelectedItem(null);
+    setPlayingScenario(false);
+    setSelectedCourseID(selectedCourse.id);
+
+    let scenarioFileNames = [];
+    let scenarioTypes = [];
+    selectedCourse.content.forEach((x) => {
+      scenarioTypes.push(x.type);
+
+      scenarioFileNames.push(x.id);
+    });
+    var responseJsonData = [];
+
+    scenarioFileNames.forEach((filenamejson) => {
+      fetch(
+        "./academycontentstorage/laparoacademy-jsoncontent/" +
+          filenamejson +
+          ".json",
+        {
+          headers: {
+            "Content-Type": "application/json",
+
+            Accept: "application/json",
+          },
+        }
+      )
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (myJson) {
+          responseJsonData.push(myJson);
+          if (responseJsonData.length === scenarioFileNames.length) {
+            let responseSelectedData = [];
+            for (let i = 0; i < responseJsonData.length; i++) {
+              for (let z = 0; z < responseJsonData.length; z++) {
+                if (selectedCourse.content[i].id === responseJsonData[z].id) {
+                  responseSelectedData.push({
+                    type: scenarioTypes[i],
+                    scenario: responseJsonData[z],
+                  });
+                  z = 100;
+                  responseJsonData.splice(z, 1);
+                }
+              }
+            }
+
+            for (let i = 0; i < responseSelectedData.length; i++) {
+              if (responseSelectedData[i].scenario.isVR === true) {
+                responseSelectedData.splice(i, 1);
+                i--;
+              }
+            }
+            setSelectedScenarioList(responseSelectedData);
+          }
+        })
+        .catch((err) => {
+          console.log("error recorded " + err);
+        });
+    });
   }
 
   // User Related Functions:
@@ -265,71 +343,6 @@ function App() {
       });
   }
 
-  // Scenario and Content Related Functions:
-  function setCourseIdAndScenarioList(selectedCourse) {
-    setSelectedTraining(null);
-    setTrainingList(null);
-    setSelectedItem(null);
-    setPlayingScenario(false);
-    setSelectedCourseID(selectedCourse.id);
-
-    let scenarioFileNames = [];
-    let scenarioTypes = [];
-    selectedCourse.content.forEach((x) => {
-      scenarioTypes.push(x.type);
-
-      scenarioFileNames.push(x.id);
-    });
-    var responseJsonData = [];
-
-    scenarioFileNames.forEach((filenamejson) => {
-      fetch(
-        "./academycontentstorage/laparoacademy-jsoncontent/" +
-          filenamejson +
-          ".json",
-        {
-          headers: {
-            "Content-Type": "application/json",
-
-            Accept: "application/json",
-          },
-        }
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (myJson) {
-          responseJsonData.push(myJson);
-          if (responseJsonData.length === scenarioFileNames.length) {
-            let responseSelectedData = [];
-            for (let i = 0; i < responseJsonData.length; i++) {
-              for (let z = 0; z < responseJsonData.length; z++) {
-                if (selectedCourse.content[i].id === responseJsonData[z].id) {
-                  responseSelectedData.push({
-                    type: scenarioTypes[i],
-                    scenario: responseJsonData[z],
-                  });
-                  z = 100;
-                  responseJsonData.splice(z, 1);
-                }
-              }
-            }
-
-            for (let i = 0; i < responseSelectedData.length; i++) {
-              if (responseSelectedData[i].scenario.isVR === true) {
-                responseSelectedData.splice(i, 1);
-                i--;
-              }
-            }
-            setSelectedScenarioList(responseSelectedData);
-          }
-        })
-        .catch((err) => {
-          console.log("error recorded " + err);
-        });
-    });
-  }
-
   if (isMobile === true) {
     return <MobileView />;
   } else if (accessCodeCheck === true) {
@@ -340,7 +353,7 @@ function App() {
       />
     );
   } else if (loaded === false) {
-    return <LoadingScreen />;
+    return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
   } else if (selectedItem === null) {
     return (
       <Fragment>
