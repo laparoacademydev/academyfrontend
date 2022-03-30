@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, Fragment } from "react";
 import axios from "axios";
+import ReactGa from "react-ga";
 
 import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
@@ -37,7 +38,7 @@ export class AppHelper {
 
 function App() {
   //DEV Mode - for using localhost:3000 previews:
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [developerMode, setDeveloperMode] = useState(true);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
@@ -82,6 +83,9 @@ function App() {
     if (selectedItem !== null) {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
+
+    ReactGa.initialize("G-WBREGFZ6J3");
+    ReactGa.pageview("/");
   });
 
   // Loading Initializing Functions:
