@@ -18,6 +18,8 @@ function DisplayedItemContent(props) {
         selectedLanguage={props.selectedLanguage}
         setSelectedItem={props.setSelectedItem}
         localizationData={props.localizationData}
+        selectedNextItem={props.selectedNextItem}
+        selectedPrevItem={props.selectedPrevItem}
       />
     );
   } else if (
@@ -31,6 +33,8 @@ function DisplayedItemContent(props) {
         selectedLanguage={props.selectedLanguage}
         localizationData={props.localizationData}
         setSelectedItem={props.setSelectedItem}
+        selectedNextItem={props.selectedNextItem}
+        selectedPrevItem={props.selectedPrevItem}
       />
     );
   } else {

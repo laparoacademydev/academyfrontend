@@ -1,14 +1,16 @@
 import classes from "./DisplayedItemContent.module.css";
 import ScenarioButton from "./ScenarioButton";
-import ReturnButton from "./ReturnButton";
+import ReturnNextPrevNav from "./ReturnNextPrevNav";
 import { AppHelper } from "./../../App.js";
 
 function ScenarioDescription(props) {
   return (
     <div className={classes.itemcontentcomponent}>
-      <ReturnButton
+      <ReturnNextPrevNav
         setSelectedItem={props.setSelectedItem}
         localizationData={props.localizationData}
+        selectedNextItem={props.selectedNextItem}
+        selectedPrevItem={props.selectedPrevItem}
       />
       <div className={classes.itemcontenttophalf}>
         <div>
@@ -27,12 +29,13 @@ function ScenarioDescription(props) {
           {props.localizationData.scenariodescription.instructions}
         </div>
         <div className={classes.scenarioinstructiongrid}>
-          <video className={classes.scenarioimg} controls preload="metadata">
-            <source
-              src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_training.mp4`}
-              // src={`${AppHelper.storageUrl}laparoacademy-videos/TM1_training.mp4`}
-              type="video/mp4"
-            />
+          <video
+            className={classes.scenarioimg}
+            controls
+            preload="metadata"
+            src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedItemContent.id}_training.mp4`}
+            type="video/mp4"
+          >
             <track
               label={`${props.selectedLanguage}`}
               kind="subtitles"

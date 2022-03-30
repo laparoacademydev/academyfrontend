@@ -51,6 +51,8 @@ function App() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
+  const [selectedNextItem, setSelectedNextItem] = useState(null);
+  const [selectedPrevItem, setSelectedPrevItem] = useState(null);
 
   const [playingScenario, setPlayingScenario] = useState(false);
   const [userPanelActive, setUserPanelActive] = useState(0);
@@ -76,6 +78,10 @@ function App() {
     }
 
     initializeAcademy();
+
+    if (selectedItem !== null) {
+      selectedNextPrev(selectedItem.id, selectedScenarioList);
+    }
   });
 
   // Loading Initializing Functions:
@@ -240,6 +246,36 @@ function App() {
     });
   }
 
+  function selectedNextPrev(id, selectedScenarioList) {
+    var scenarioListArrayNextPosition;
+    var scenarioListArrayPrevPosition;
+
+    for (let i = 0; i < selectedScenarioList.length; i++) {
+      if (id === selectedScenarioList[i].scenario.id) {
+        scenarioListArrayNextPosition = i + 1;
+        scenarioListArrayPrevPosition = i - 1;
+
+        if (i - 1 >= 0) {
+          setSelectedPrevItem(
+            selectedScenarioList[scenarioListArrayPrevPosition].scenario
+          );
+        } else {
+          setSelectedPrevItem(null);
+        }
+
+        if (i + 1 <= selectedScenarioList.length - 1) {
+          setSelectedNextItem(
+            selectedScenarioList[scenarioListArrayNextPosition].scenario
+          );
+        } else {
+          setSelectedNextItem(null);
+        }
+      }
+    }
+    console.log(selectedPrevItem);
+    console.log(selectedNextItem);
+  }
+
   // User Related Functions:
   function checkToken() {
     var fullIp = window.location.href.split("#id_token=");
@@ -399,6 +435,8 @@ function App() {
           selectedLanguage={selectedLanguage}
           localizationData={localizationData}
           setSelectedItem={setSelectedItem}
+          selectedNextItem={selectedNextItem}
+          selectedPrevItem={selectedPrevItem}
         ></DisplayedItemContent>
       </Fragment>
     );

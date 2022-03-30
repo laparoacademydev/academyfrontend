@@ -57,6 +57,20 @@
         "en": "Return",
         "pl": "Powrót"
       }
+    },
+    "nextbtn": {
+      "description": "Next Button for switching to next scenario/edu",
+      "text": {
+        "en": "Next",
+        "pl": "Następny"
+      }
+    },
+    "prevbtn": {
+      "description": "Previous Button for switching to previous scenario/edu",
+      "text": {
+        "en": "Previous",
+        "pl": "Poprzedni"
+      }
     }
   },
   "webcamtraining": {
