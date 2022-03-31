@@ -12,30 +12,28 @@ function ScenarioList(props) {
   } else {
     return (
       <div className={classes.scenariolist}>
-        <div>
-          {props.selectedScenarioList.map((object) => {
-            if (object.type === "scenario") {
-              return (
-                <ScenarioItem
-                  key={object.scenario.id}
-                  selectedScenario={object.scenario}
-                  setSelectedItem={props.setSelectedItem}
-                  selectedLanguage={props.selectedLanguage}
-                />
-              );
-            } else {
-              return (
-                <EducationItem
-                  key={object.scenario.id}
-                  selectedScenario={object.scenario}
-                  setSelectedItem={props.setSelectedItem}
-                  selectedLanguage={props.selectedLanguage}
-                />
-              );
-            }
-          })}
-          <div className={classes.scenariolistfiller}></div>
-        </div>
+        {props.selectedScenarioList.map((object) => {
+          if (object.type === "scenario") {
+            return (
+              <ScenarioItem
+                key={object.scenario.id}
+                selectedScenario={object.scenario}
+                setSelectedItem={props.setSelectedItem}
+                selectedLanguage={props.selectedLanguage}
+              />
+            );
+          } else {
+            return (
+              <EducationItem
+                key={object.scenario.id}
+                selectedScenario={object.scenario}
+                setSelectedItem={props.setSelectedItem}
+                selectedLanguage={props.selectedLanguage}
+              />
+            );
+          }
+        })}
+        <div className={classes.scenariolistfiller}></div>
       </div>
     );
   }

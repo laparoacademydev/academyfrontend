@@ -1,12 +1,12 @@
 .scenariolist {
   position: relative;
-  width: 900px;
-
+  width: 867px;
   left: 328px;
   top: 64px;
-  /* background-color: #f8f8f8; */
   height: 100%;
   margin-left: 1px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .scenariolistitem {
@@ -19,6 +19,7 @@
   padding: 17px;
   margin-bottom: 1px;
   background-color: #ffffff;
+  scroll-snap-align: start;
 }
 
 .scenariolistitem:hover {
@@ -73,6 +74,7 @@
   margin-bottom: 1px;
   padding: 17px;
   background-color: #ffffff;
+  scroll-snap-align: start;
 }
 
 .sleducationitem:hover {

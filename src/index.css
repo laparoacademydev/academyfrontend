@@ -11,4 +11,5 @@ html {
 body {
   margin: 0;
   background-color: #ececec;
+  overflow-y: hidden;
 }
