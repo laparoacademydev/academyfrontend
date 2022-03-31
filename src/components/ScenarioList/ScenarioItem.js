@@ -1,6 +1,7 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
 import { AppHelper } from "./../../App.js";
+import eduicon from "../../graphicassets/icons/edu_blue.svg";
 
 function ScenarioItem(props) {
   return (

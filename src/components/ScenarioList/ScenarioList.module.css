@@ -1,12 +1,12 @@
 .scenariolist {
-  position: relative;
+  position: fixed;
   width: 867px;
   left: 328px;
   top: 64px;
   height: 100%;
   margin-left: 1px;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .scenariolistitem {
@@ -89,7 +89,7 @@
   font-weight: 600;
   font-size: 16px;
   position: relative;
-  color: rgba(0, 151, 81, 0.555);
+  color: #444444;
 }
 
 .sleducationitemskills {

@@ -1,6 +1,7 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
 import { AppHelper } from "./../../App.js";
+import eduicon from "../../graphicassets/icons/edu_blue.svg";
 
 function EducationItem(props) {
   return (
@@ -14,6 +15,7 @@ function EducationItem(props) {
         className={classes.scenariolistthumbimg}
       ></img>
       <div className={classes.sleducationtitle}>
+        <img src={eduicon} />
         {props.selectedScenario.title[props.selectedLanguage]}
       </div>
       <div className={classes.sleducationitemskills}>
