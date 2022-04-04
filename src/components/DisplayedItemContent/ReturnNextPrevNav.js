@@ -1,5 +1,7 @@
 import exiticon from "../../graphicassets/icons/backarrow_blue.svg";
-import classes from "./DisplayedItemContent.module.css";
+import leftarrico from "../../graphicassets/icons/leftarrico.svg";
+import rightarrico from "../../graphicassets/icons/rightarrico.svg";
+import classes from "./ReturnNextPrev.module.css";
 
 function ReturnNextPrevNav(props) {
   return (
@@ -23,6 +25,7 @@ function ReturnNextPrevNav(props) {
           }
         }}
       >
+        <img src={rightarrico} className={classes.rightarrico} alt="."></img>
         <div className={classes.nextbuttontext}>
           {props.localizationData.scenariodescription.nextbtn}
         </div>
@@ -35,6 +38,7 @@ function ReturnNextPrevNav(props) {
           }
         }}
       >
+        <img src={leftarrico} className={classes.leftarrico} alt="."></img>
         <div className={classes.prevbuttontext}>
           {props.localizationData.scenariodescription.prevbtn}
         </div>
