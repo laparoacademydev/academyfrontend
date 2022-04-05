@@ -3,11 +3,11 @@
   z-index: 10;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  width: 328px;
+  width: 300px;
   height: 64px;
 }
 
 .logohomeimage {
-  position: relative;
-  margin: 11px 95px;
+  position: fixed;
+  margin: 11px 85px;
 }

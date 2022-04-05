@@ -84,8 +84,8 @@ function App() {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
 
-    ReactGa.initialize(`G-WBREGFZ6J3`);
-    ReactGa.pageview(`/`);
+    ReactGa.initialize("G-WBREGFZ6J3");
+    ReactGa.pageview("/");
   }, [
     loaded,
     tokenConfirmed,
