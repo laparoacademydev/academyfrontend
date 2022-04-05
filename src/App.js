@@ -86,7 +86,16 @@ function App() {
 
     ReactGa.initialize(`G-WBREGFZ6J3`);
     ReactGa.pageview(`/`);
-  });
+  }, [
+    loaded,
+    tokenConfirmed,
+    userIsActive,
+    accessCodeCheck,
+    courses,
+    localizationData,
+    selectedItem,
+    selectedLanguage,
+  ]);
 
   // Loading Initializing Functions:
   function loadAcademy() {
@@ -276,8 +285,6 @@ function App() {
         }
       }
     }
-    console.log(selectedPrevItem);
-    console.log(selectedNextItem);
   }
 
   // User Related Functions:
