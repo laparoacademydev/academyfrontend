@@ -359,6 +359,27 @@ function App() {
     }
   }
 
+  function activateUser(thisaccesscode) {
+    var thisUserEmail = getUserEmail();
+    axios
+      .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: {
+          email: thisUserEmail,
+          active: true,
+          serialnumber: thisaccesscode,
+        },
+      })
+      .then(() => {
+        setLoaded(true);
+        setAccessCodeCheck(false);
+        checkUserActive();
+      });
+  }
+
   //Access Code Related Functions:
   function sendAccessCode(thisaccesscode) {
     axios
@@ -391,27 +412,6 @@ function App() {
       },
       params: { accesscode: thisaccesscode },
     });
-  }
-
-  function activateUser(thisaccesscode) {
-    var thisUserEmail = getUserEmail();
-    axios
-      .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: {
-          email: thisUserEmail,
-          active: true,
-          serialnumber: thisaccesscode,
-        },
-      })
-      .then(() => {
-        setLoaded(true);
-        setAccessCodeCheck(false);
-        checkUserActive();
-      });
   }
 
   if (isMobile === true) {
