@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 315
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 210
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 210
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 10
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 20
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Mattress Knot Vertical",
-        "pl": "Węzeł Pionowy Materacowy"
+        "pl": "Węzeł Pionowy Materacowy",
+        "es": "Colchón nudo vertical",
+        "zh-cn": "床垫结垂直",
+        "ja": "マットレスノット垂直"
     },
     "skills": {
         "en": "Knot, Suturing",
-        "pl": "Węzeł, Szycie"
+        "pl": "Węzeł, Szycie",
+        "es": "Nudo, sutura",
+        "zh-cn": "结，缝合",
+        "ja": "結び目、縫合"
     },
     "description": {
         "en": "The mattress suture technique is one of the most commonly used patterns for skin closure. The technique allows for skin edges to be closed under tension when the edges must be brought together over a distance. Although used less frequently in laparoscopy, the knot is useful in some situations.",
-        "pl": "Technika szycia materacowego jest jedną z najczęściej stosowanych szwów do zamykania skóry. Technika pozwala na zamknięcie krawędzi skóry pod naprężeniem, gdy krawędzie muszą być zbliżone do siebie na odległość a szwy powinny być ukryte na ile to możliwe. Chociaż rzadziej używany w laparoskopii, węzeł jest przydatny w niektórych sytuacjach. "
+        "pl": "Technika szycia materacowego jest jedną z najczęściej stosowanych szwów do zamykania skóry. Technika pozwala na zamknięcie krawędzi skóry pod naprężeniem, gdy krawędzie muszą być zbliżone do siebie na odległość a szwy powinny być ukryte na ile to możliwe. Chociaż rzadziej używany w laparoskopii, węzeł jest przydatny w niektórych sytuacjach. ",
+        "es": "La técnica de sutura del colchón es uno de los patrones más utilizados para el cierre de la piel. La técnica permite que los bordes de la piel se cierren bajo tensión cuando los bordes deben reunirse a una distancia. Aunque se usa con menos frecuencia en la laparoscopia, el nudo es útil en algunas situaciones.",
+        "zh-cn": "床垫缝合技术是皮肤封闭的最常用模式之一。当边缘必须在远处延伸时，该技术允许在张力下关闭皮肤边缘。虽然在腹腔镜检查中使用较少，但结在某些情况下有用。",
+        "ja": "マットレス縫合糸技術は、皮膚閉鎖のための最も一般的に使用されているパターンの1つです。この技術は、エッジが距離にわたって一緒に持たなければならないときに張力の下で閉鎖されることを可能にする。腹腔鏡検査で頻繁に使用されないが、結び目はある状況において有用である。"
     },
     "instructions": {
         "en": "In this exercise take the needle and perform two throws, the second directly above the first. Apply a single sliding knot between both ends of the suture protruding from the top of the module. To complete the exercise, cut off the remaining suture material and return the needle to the start position.",
-        "pl": "W tym ćwiczeniu weź igłę i wykonaj dwa przekłucia, drugie ponad pierwszym. Załóż pojedynczy węzeł przesuwny pomiędzy obydwoma końcami szwu wystającymi z górnej części modułu. Aby zakończyć ćwiczenie, odetnij pozostałą nić i przywróć igłę do pozycji wyjściowej. "
+        "pl": "W tym ćwiczeniu weź igłę i wykonaj dwa przekłucia, drugie ponad pierwszym. Załóż pojedynczy węzeł przesuwny pomiędzy obydwoma końcami szwu wystającymi z górnej części modułu. Aby zakończyć ćwiczenie, odetnij pozostałą nić i przywróć igłę do pozycji wyjściowej. ",
+        "es": "En este ejercicio, tome la aguja y realice dos tiros, la segunda directamente sobre la primera. Aplique un solo nudo deslizante entre ambos extremos de la sutura que sobresale de la parte superior del módulo. Para completar el ejercicio, corte el material de sutura restante y devuelva la aguja a la posición de inicio.",
+        "zh-cn": "在这个练习中取针并执行两次抛出，第二次直接在第一次上方。在从模块顶部突出的缝合线的两端之间涂抹单个滑动结。要完成锻炼，请切断剩余的缝合材料并将针返回起始位置。",
+        "ja": "この演習では針を取り、2つ目のスローを行い、最初の直下の2つのスローを実行します。モジュールの上から突き出ている縫合糸の両端の間に単一のスライド結び目を塗ります。運動を完了するには、残りの縫合糸材料を切り取り、針を始動位置に戻します。"
     },
     "preparation": {
         "en": "Place a single vertical suturing component onto the Basic Suturing Platform and place the needle in the start position at the top of the module with 10-20cm of suture material.",
-        "pl": "Umieścić pojedynczy pionowy element do szycia na podstawowej platformie do szycia i umieścić igłę w pozycji początkowej na górze modułu z 10-20 cm materiału do szycia. "
+        "pl": "Umieścić pojedynczy pionowy element do szycia na podstawowej platformie do szycia i umieścić igłę w pozycji początkowej na górze modułu z 10-20 cm materiału do szycia. ",
+        "es": "Coloque un único componente de sutura vertical en la plataforma de sutura básica y coloque la aguja en la posición de inicio en la parte superior del módulo con 10-20 cm de material de sutura.",
+        "zh-cn": "将单个垂直缝合部件放在基本缝合平台上，并将针放在模块顶部的起始位置，缝合材料10-20cm。",
+        "ja": "単一の垂直縫合部品を基本的な縫合プラットフォームに置き、モジュールの上部の開始位置に針を10~20cmの縫合材料で配置します。"
     }
 }

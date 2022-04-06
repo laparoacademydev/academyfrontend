@@ -19,13 +19,97 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time"
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps"
+                        },
+                        {
+                            "name": "distance"
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ]
+        }
+    },
     "name": {
         "en": "Single Square Knot Vertical",
-        "pl": "Węzeł Płaski - Orientacja Pionowa"
+        "pl": "Węzeł Płaski - Orientacja Pionowa",
+        "es": "Un solo nudo cuadrado vertical",
+        "zh-cn": "单方面结垂直",
+        "ja": "単一の正方形結び目の縦"
     },
     "skills": {
         "en": "1=1",
-        "pl": "1=1"
+        "pl": "1=1",
+        "es": "1 = 1",
+        "zh-cn": "1 = 1",
+        "ja": "1 = 1"
     },
     "description": {},
     "instructions": {},

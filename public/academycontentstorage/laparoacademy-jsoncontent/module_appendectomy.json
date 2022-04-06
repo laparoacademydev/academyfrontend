@@ -72,6 +72,92 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1080
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 110
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 22
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 720
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
@@ -79,52 +165,39 @@
         "scissors",
         "clipper"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 720
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 22
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 110
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
-        "en": "Appendectomy",
-        "pl": "Apendektomia"
+        "en": "Appendectomy - Module",
+        "pl": "Apendektomia - Moduł",
+        "es": "Apendectectomía - Módulo",
+        "zh-cn": "阑尾切除术 - 模块",
+        "ja": "appentictory  - モジュール"
     },
     "skills": {
         "en": "Procedure, Appendectomy",
-        "pl": "Procedura, Apendektomia"
+        "pl": "Procedura, Apendektomia",
+        "es": "Procedimiento, Apendectectomía",
+        "zh-cn": "程序，阑尾切除术",
+        "ja": "手順、虫垂切除術"
     },
     "description": {
         "en": "In this exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction. ",
-        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. "
+        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. ",
+        "es": "En este ejercicio, el objetivo es realizar una apendicectomía completa. Además de encontrar e identificar el apéndice inflamado, este procedimiento consiste en diseccionar con precisión e identificar dónde sobresale de la unión ileocecal.",
+        "zh-cn": "在这项运动中，目的是进行整个阑尾切除术。除了寻找和识别发炎的附录之外，该程序涉及准确地解剖并识别其从回肠连接点突出的位置。",
+        "ja": "この演習では、目的は添足切除術全体を実行することです。炎症を起こした付録を見つけて識別することとは別に、この手順はそれを正確に解剖し、それが回盲集合から突出する場所を識別することを含む。"
     },
     "instructions": {
         "en": "The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a pair of scissors should be used at the base to separate the entire appendicular artery before removing the appendix.",
-        "pl": "Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć nozyczek aby przyciąć całą tętnicę wyrostka przed usunięciem. "
+        "pl": "Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć nozyczek aby przyciąć całą tętnicę wyrostka przed usunięciem. ",
+        "es": "El aprendiz debe encontrar el mesoappendix triangular que realiza el apéndice en la base. Para completar el procedimiento, se debe usar un par de tijeras en la base para separar toda la arteria apendicular antes de retirar el apéndice.",
+        "zh-cn": "受训者必须找到三角形的中间人，在基础上采用阑尾。为了完成手术，应在底座上使用一对剪刀以在删除附录之前分离整个附奇动脉。",
+        "ja": "研修生は、基地の付録を撮影した三角形のメソアペンデクを見つけなければなりません。手順を完了するには、付録を削除する前に柔軟性全体を分離するために、一対のハサミをベースで使用する必要があります。"
     },
     "preparation": {
         "en": "Place the appendectomy module along with the appendix insert into the operating area.",
-        "pl": "Umieścić moduł do appendektomii wraz z wyrostkiem insertem do pola operacyjnego."
+        "pl": "Umieścić moduł do appendektomii wraz z wyrostkiem insertem do pola operacyjnego.",
+        "es": "Coloque el módulo de apendicectomía junto con el inserto del apéndice en el área de operación.",
+        "zh-cn": "将阑尾模块与附录插入件插入到操作区域。",
+        "ja": "付録INSERTをOPECTION AREARに挿入するとともに、添足除外モジュールを配置します。"
     }
 }

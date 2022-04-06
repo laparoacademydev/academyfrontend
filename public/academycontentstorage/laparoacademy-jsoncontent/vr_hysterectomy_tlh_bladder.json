@@ -1,0 +1,190 @@
+{
+    "id": "vr_hysterectomy_tlh_bladder",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "angle": 0,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "appendectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "BladerMobilization"
+    },
+    "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "ligasure",
+        "hook",
+        "bipolargrasper",
+        "harmonicscalpel",
+        "scissors"
+    ],
+    "name": {
+        "en": "Bladder Mobilization Stage - Total Hysterectomy",
+        "pl": "Etap Mobilizacji Pęcherze - Histerektomia Całkowita VR",
+        "es": "Etapa de movilización de la vejiga - Histerectomía total",
+        "zh-cn": "膀胱动员阶段 - 总子宫切除术",
+        "ja": "膀胱動員段階 - 総子宮切除術"
+    },
+    "skills": {
+        "en": "Procedure, Hysterectomy, VR, Gynecology, Bladder",
+        "pl": "Procedura, Histerektomia, VR, Ginekologia, Pęcherz",
+        "es": "Procedimiento, Histerectomía, VR, Ginecología, Vejiga",
+        "zh-cn": "程序，子宫切除术，VR，妇科，膀胱",
+        "ja": "手順、子宮切除術、VR、婦人科、膀胱"
+    },
+    "description": {
+        "en": "In this version of the exercise the goal is to use monopolar energy to transect and separate the tissues of round ligament and to dissect the those which are connected to the bladder. It is important in this stage of a hysterectomy to avoid damaging the bladder above and the uterine vessels below.",
+        "pl": "W tej wersji ćwiczenia celem jest przecięcie i oddzielenie energią monopolarną przednich i tylnych ścianek więzadła oraz odpreparowanie tkanek połączonych z pęcherzem. Ten etap procedury jest ważny ponieważ należy uniknąć wyrządzenia szkody zarówno pęcherzowi znajdującemu się ponad macicą oraz moczowodom które znajdują się pod nią.",
+        "es": "En esta versión del ejercicio, el objetivo es usar la energía monopolar para transectar y separar los tejidos del ligamento redondo y diseccionar los que están conectados a la vejiga. Es importante en esta etapa de una histerectomía para evitar dañar la vejiga de arriba y los vasos uterinos a continuación.",
+        "zh-cn": "在这一版本的行使中，目标是使用单极能量来横断并分离圆形韧带的组织，并将其剖析连接到膀胱的那些。在这种子宫切除术的这种阶段非常重要，以避免在上面损坏膀胱和下面的子宫血管。",
+        "ja": "このバージョンの運動の中で、目標は、丸靭帯の組織を転送して分離し、膀胱に接続されているものを解剖するためのものです。このヒステリック除去術のこの段階では、上の膀胱を下回る膀胱の損傷を避けるために重要です。"
+    },
+    "instructions": {
+        "en": "Use the uterine manipulator to pull the uterus down, creating tension on the anterior and posterior leaves of the round ligament. Use the Multi-Tool1 with X to puncture and apply monopolar energy to the surface peritoneal tissues. After sufficiently separating the target areas, use the grasper to pull and visualize the target posterior tissues inside the round ligament and separate those with coagulation. This will sufficiently separate the tissues from the bladder above and end this exercise.",
+        "pl": "Użyj manipulatora macicy, aby pociągnąć macicę w dół, tworząc napięcie na przednich i tylnych tkankach więzadła okrągłego. Użyj Multi-Tool1 z X aby wypeparować energią monopolarną powierzchniowe tkanki otrzewnej. Po wystarczającym oddzieleniu obszarów docelowych, użyj graspera, aby pociągnąć i zwizualizować tkanki tylne wewnątrz więzadła okrągłego i oddziel je rówież przy pomocy koagulacji. To wystarczająco oddzieli tkanki od pęcherza powyżej i zakończy ćwiczenie.",
+        "es": "Use el manipulador uterino para derribar el útero, creando tensión en las hojas anteriores y posteriores del ligamento redondo. Use la Multi-Tool1 con X a Punchure y aplique energía monopolar a los tejidos peritoneales de la superficie. Después de separar suficientemente las áreas objetivo, use el agarre para tirar y visualizar los tejidos posteriores del objetivo dentro del ligamento redondo y separe aquellos con coagulación. Esto se separará suficientemente los tejidos de la vejiga de arriba y terminará este ejercicio.",
+        "zh-cn": "使用子宫操纵器拉动子宫，在圆形韧带的前叶和后叶上产生张力。使用多工具1与X刺穿并将单极能量施加到表面腹膜组织。在充分分离目标区域后，使用抓取物拉动并在圆形韧带内部拉动并可视化靶后部组织并分离有凝固的那些。这将使组织从上面的膀胱中充分分离并结束这项运动。",
+        "ja": "子宮のマニピュレーターを使用して子宮を引き下げ、丸靭帯の前方葉に張力を伸ばします。 Xでマルチツール1を使用して、表面腹膜組織に単極エネルギーを塗布します。標的領域を十分に分離した後、丸靭帯の内側の標的後方組織を引っ張り、凝固と共に分離するために把持器を使用してください。これにより、組織を上記の膀胱から十分に分離し、この運動を終了する。"
+    },
+    "preparation": {}
+}

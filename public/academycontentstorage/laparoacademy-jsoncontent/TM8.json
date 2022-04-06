@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 135
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 12
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 3
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 90
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 90
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 3
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 12
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Tower Building",
-        "pl": "Wieża"
+        "pl": "Wieża",
+        "es": "Edificio torre",
+        "zh-cn": "塔楼",
+        "ja": "タワービルチ"
     },
     "skills": {
         "en": "Instrument Collaboration, Precision",
-        "pl": "Współpraca Instrumentami, Precyzja"
+        "pl": "Współpraca Instrumentami, Precyzja",
+        "es": "Colaboración del instrumento, precisión.",
+        "zh-cn": "仪器协作，精度",
+        "ja": "機器のコラボレーション、精度"
     },
     "description": {
         "en": "You can further develop your laparoscopic skills in this exercise in which you must collaborate with both instruments while planning and executing movements with stability and precision.",
-        "pl": "W tym ćwiczeniu uczący może dalej rozwinąć swoje umiejętności. Współpracując obydwoma instrumentami podczas planowania i wykonywania ruchów ze stabilnością i precyzją uczący może zweryfikować zręczność, precyzję i współpracę pomiędzy instrumentami."
+        "pl": "W tym ćwiczeniu uczący może dalej rozwinąć swoje umiejętności. Współpracując obydwoma instrumentami podczas planowania i wykonywania ruchów ze stabilnością i precyzją uczący może zweryfikować zręczność, precyzję i współpracę pomiędzy instrumentami.",
+        "es": "Puede desarrollar aún más sus habilidades laparoscópicas en este ejercicio en las que debe colaborar con ambos instrumentos mientras planifique y ejecute movimientos con estabilidad y precisión.",
+        "zh-cn": "您可以在本练习中进一步发展您的腹腔镜技能，其中您必须在规划和执行具有稳定性和精度的运动时与两个仪器进行合作。",
+        "ja": "安定性と精度の動きを計画し実行する間に、両方の機器と協力しなければならないこの演習であなたの腹腔鏡スキルをさらに発展させることができます。"
     },
     "instructions": {
         "en": "Build an alternating color tower from the triangles inside the center triangle slot. Start with yellow triangle, finish with red.",
-        "pl": "Zbuduj wieżę o naprzemiennym kolorze z trójkątów pochodzących z pozycji początkowej. Zacznij od żółtego trójkąta, zakończ na czerwonym. "
+        "pl": "Zbuduj wieżę o naprzemiennym kolorze z trójkątów pochodzących z pozycji początkowej. Zacznij od żółtego trójkąta, zakończ na czerwonym. ",
+        "es": "Construye una torre de color alterna de los triángulos dentro de la ranura del triángulo central. Comience con el triángulo amarillo, termine con rojo.",
+        "zh-cn": "从中心三角形插槽内的三角形构建交替的颜色塔。从黄色三角开始，用红色完成。",
+        "ja": "中央の三角形のスロットの内側の三角形から交互のカラータワーを作ります。黄色の三角形から始めて、赤で終わります。"
     },
     "preparation": {
         "en": "Place three yellow triangles in the hexagonal slots on the left and three red triangles in the hexagonal slots on the right.",
-        "pl": "Umieść trzy żółte trójkąty w sześciokątnych otworach po lewej i trzy czerwone trójkąty w sześciokątnych otworach po prawej stronie. "
+        "pl": "Umieść trzy żółte trójkąty w sześciokątnych otworach po lewej i trzy czerwone trójkąty w sześciokątnych otworach po prawej stronie. ",
+        "es": "Coloque tres triángulos amarillos en las ranuras hexagonales a la izquierda y tres triángulos rojos en las ranuras hexagonales a la derecha.",
+        "zh-cn": "将三个黄色三角形放在左侧的六角形插槽中，右侧六角形插槽中的三个红色三角形。",
+        "ja": "左側の六角形のスロットに3つの黄色の三角形を置き、右側の六角形のスロットに3つの赤い三角形を置きます。"
     }
 }

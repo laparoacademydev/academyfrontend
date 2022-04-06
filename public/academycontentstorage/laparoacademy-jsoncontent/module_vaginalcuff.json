@@ -35,8 +35,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
+        "Analytic": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "drawerConfig": {
         "main1mm": 120,
@@ -64,57 +76,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "needle_h"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 900
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 27
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 180
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
-        "en": "Vaginal Cuff Repair",
-        "pl": "Zaszycie Kołnierza Pochwy"
+        "en": "Vaginal Cuff Repair - Module",
+        "pl": "Zaszycie Kołnierza Pochwy - Moduł",
+        "es": "Reparación de manguitos vaginales - Módulo",
+        "zh-cn": "阴道袖口修复 - 模块",
+        "ja": "膣カフ修理 - モジュール"
     },
     "skills": {
         "en": "Procedure, Gynecology, suturing",
-        "pl": "Procedura, Ginekologia, Suturing"
+        "pl": "Procedura, Ginekologia, Suturing",
+        "es": "Procedimiento, ginecología, sutura.",
+        "zh-cn": "程序，妇科，缝合",
+        "ja": "手順、婦人科、縫合"
     },
     "description": {
         "en": "Usually following a hysterectomy, this exercise focuses on the suturing of the opening of the vaginal cuff that remains after the uterus is removed.",
-        "pl": "W tym ćwiczeniu celem jest poprawne zaszycie otwarcia powstałego w pochwie, przeważnie po usunięciu macicy."
+        "pl": "W tym ćwiczeniu celem jest poprawne zaszycie otwarcia powstałego w pochwie, przeważnie po usunięciu macicy.",
+        "es": "Por lo general, siguiendo una histerectomía, este ejercicio se enfoca en la sutura de la apertura del manguito vaginal que permanece después de que se elimine el útero.",
+        "zh-cn": "通常在子宫切除术后，该练习侧重于阴道袖口的开口留下，这些侧面被移除后仍然存在。",
+        "ja": "通常、子宮摘出術後に、このエクササイズは、子宮が取り除かれた後に残る膣カフの開口部の縫合に焦点を当てています。"
     },
     "instructions": {
         "en": "Begin by driving the needle through one of the edges of the cuff. The suture should go through both layers of the vaginal mucosa and the fascia, and a single knot should be used to reapproximate the tissues. Follow this with a continuous suturing pattern along the cuff from one side to the other. At the other end of the cuff use the aberdeen knot to securely close off the entire cuff.",
-        "pl": "Ćwiczenie należy zacząć od przeprowadzenia igły przez krawędzie kołnierza po jednej stronie. Nić powinna przechodzić zarówno przez błonę śluzową pochwy jak i warstwę powięzi, i jeden pojedynczy węzeł powinien je ze sobą zespolić. Następnie, szew ciągły powinien zostać poprowadzony od jednej strony kołnierza do drugiej. Na koniec, kołnierz powinien zostać zamknięty węzłem aberdeen."
+        "pl": "Ćwiczenie należy zacząć od przeprowadzenia igły przez krawędzie kołnierza po jednej stronie. Nić powinna przechodzić zarówno przez błonę śluzową pochwy jak i warstwę powięzi, i jeden pojedynczy węzeł powinien je ze sobą zespolić. Następnie, szew ciągły powinien zostać poprowadzony od jednej strony kołnierza do drugiej. Na koniec, kołnierz powinien zostać zamknięty węzłem aberdeen.",
+        "es": "Comience conduciendo la aguja a través de uno de los bordes del brazalete. La sutura debe pasar a través de ambas capas de la mucosa vaginal y la fascia, y se debe usar un solo nudo para volver a compartir los tejidos. Siga esto con un patrón de sutura continua a lo largo del brazalete de un lado a otro. En el otro extremo del manguito, use el nudo de Aberdeen para cerrar de forma segura de todo el brazalete.",
+        "zh-cn": "通过将针穿过袖带的一个边缘开始。缝合线应通过阴道粘膜和筋膜的两层，并且应该使用单个结来重新储备组织。跟随沿着袖口的连续缝合图案，从一侧到另一侧。在袖口的另一端，使用Aberdeen结牢固地关闭整个袖口。",
+        "ja": "カフの縁の1つを通して針を運転することから始めます。縫合糸は膣粘膜と筋膜の両方の層を通過し、そして単一の結び目を使用して組織を改造する必要があります。片側からもう一方の側へのカフに沿って連続した縫合パターンでこれに従ってください。カフのもう一方の端には、アバディーンノットを使用してカフ全体を安全に閉じます。"
     },
     "preparation": {
         "en": "Apply the vaginal cuff component onto the blue element in the center of the gynaecology module. Position the opening so that the two layers of silicone are visible and oriented towards the camera inside the operating area.",
-        "pl": "Kołnierz pochwy powinien zostać nałożony na niebieski element na środku modułu ginekologicznego. Moduł powinien zostać umieszczony w polu operacyjnym w taki sposób aby dwie warstwy silikonu były skierowane do kamery."
+        "pl": "Kołnierz pochwy powinien zostać nałożony na niebieski element na środku modułu ginekologicznego. Moduł powinien zostać umieszczony w polu operacyjnym w taki sposób aby dwie warstwy silikonu były skierowane do kamery.",
+        "es": "Aplique el componente del manguito vaginal en el elemento azul en el centro del módulo de ginecología. Coloque la abertura de modo que las dos capas de silicona sean visibles y orientadas hacia la cámara dentro del área de operación.",
+        "zh-cn": "将阴道袖带组件应用到妇科模块中心的蓝色元件上。将开口定位，使得两层硅胶可见并向操作区域内向相机定向。",
+        "ja": "gynecologyモジュールの中央の青い要素に膣カフ部品を塗ります。 2層のシリコーンが目に見えるように開口部を位置決めし、操作領域内のカメラに向かって配向しています。"
     }
 }

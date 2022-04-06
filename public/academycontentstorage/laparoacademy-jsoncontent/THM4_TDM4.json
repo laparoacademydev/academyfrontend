@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 720
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 130
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 21
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 480
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 480
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 21
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 130
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Blunt Dissection",
-        "pl": "Preparowanie na Tępo"
+        "pl": "Preparowanie na Tępo",
+        "es": "Disección roma",
+        "zh-cn": "钝解剖",
+        "ja": "鈍い解剖"
     },
     "skills": {
         "en": "Dissection, Dissector",
-        "pl": "Preparowanie, Disektor"
+        "pl": "Preparowanie, Disektor",
+        "es": "Disección, disector",
+        "zh-cn": "解剖分歧",
+        "ja": "解剖"
     },
     "description": {
         "en": "Sometimes target tissues are so close to critical vessels or ducts that scissors should not be used at all. In this final Tissue Dissection Module exercise you will rely only on the dissector and it’s properties to separate the target structure apart.",
-        "pl": "Czasami tkanki docelowe znajdują się tak blisko krytycznych naczyń lub przewodów, że nożyczki w ogóle nie powinny być używane. W tym ostatnim ćwiczeniu na module do preparowania tkanki, ćwiczący powinien polegać jedynie na disektorze aby oddzielić strukturę docelową. "
+        "pl": "Czasami tkanki docelowe znajdują się tak blisko krytycznych naczyń lub przewodów, że nożyczki w ogóle nie powinny być używane. W tym ostatnim ćwiczeniu na module do preparowania tkanki, ćwiczący powinien polegać jedynie na disektorze aby oddzielić strukturę docelową. ",
+        "es": "A veces, los tejidos diana están tan cerca de los vasos críticos o los conductos que las tijeras no deben usarse en absoluto. En este ejercicio de módulo de disección de tejido final, se basará solo en el disector y sus propiedades separar la estructura objetivo.",
+        "zh-cn": "有时靶组织如此接近关键血管或导管，即剪刀不应使用。在此最终组织解剖模块锻炼中，您将仅依赖于监控器，并且它是将目标结构分开的性质。",
+        "ja": "ターゲット組織は、ハサミがまったく使用されるべきではない重要な血管やダクトに非常に近い場合があります。この最終的な組織解剖モジュールの運動では、ターゲット構造を別々に分離するためのプロパティのみに依存します。"
     },
     "instructions": {
         "en": "Use the dissector to punch through the surface tissue on the insert. You may also use the grasper and the dissector to tear this silicone surface if dissection is not enough and then extract the entire red X using only the dissector.",
-        "pl": "Disektor powinien być użyty od samego początku aby przebić się przez warstwę powierzchniową insertu. Disektor może być też użyty aby rozrywać powierzchnię. Cały czerwony kształt X powinien być wydobyty przy pomocy disektora."
+        "pl": "Disektor powinien być użyty od samego początku aby przebić się przez warstwę powierzchniową insertu. Disektor może być też użyty aby rozrywać powierzchnię. Cały czerwony kształt X powinien być wydobyty przy pomocy disektora.",
+        "es": "Use el disector para perforar a través del tejido superficial en el inserto. También puede usar el agarre y el disector para desgarrar esta superficie de silicona si la disección no es suficiente y luego extrae el rojo X usando solo el disector.",
+        "zh-cn": "使用解剖器穿过插入件上的表面组织。如果解剖还不够，您也可以使用抓握和解剖器撕裂这种硅胶表面，然后仅使用解剖器提取整个红色x。",
+        "ja": "挿入物の表面組織を通って解剖器具を使用してください。また、解剖が十分でない場合はこのシリコーン表面を引き裂くために、grasperと解剖器具を使用して、解剖器具のみを使って赤X全体を抽出することもできます。"
     },
     "preparation": {
         "en": "Insert the Tissue Dissection component into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
-        "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. "
+        "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. ",
+        "es": "Inserte el componente de disección del tejido en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen.",
+        "zh-cn": "将组织解剖组件插入组织保持器模块中。使用螺钉确保组织如图所示。",
+        "ja": "組織の解剖成分を組織ホルダーモジュールに挿入します。診断されているように、組織がぴったりされていることを確認するためにネジを使用してください。"
     }
 }

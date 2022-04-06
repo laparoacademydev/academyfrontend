@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 225
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 30
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 150
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 150
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 7
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 30
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Twine Manipulation with Dexterity",
-        "pl": "Zręczność w Manipulacji Sznurkiem"
+        "pl": "Zręczność w Manipulacji Sznurkiem",
+        "es": "Manipulación de cordeles con destreza.",
+        "zh-cn": "用灵巧的操纵",
+        "ja": "器用さによる二羽の操作"
     },
     "skills": {
         "en": "Suturing, Elastics",
-        "pl": "Szycie, Elastyczne"
+        "pl": "Szycie, Elastyczne",
+        "es": "Sutura, elásticos",
+        "zh-cn": "缝合，弹性",
+        "ja": "縫合、エリスチック"
     },
     "description": {
         "en": "Nearly all target structures and tissues in laparoscopic procedures are elastic to varying degrees. This elasticity is also heightened by the ports which are also located in elastic positions. By executing exercises like this one, in which you must simply pull the twine onto the rubber bands you can see how forces inside the operating area can be difficult to estimate.",
-        "pl": "Prawie wszystkie docelowe struktury i tkanki w procedurach laparoskopowych są elastyczne. Ta elastyczność jest również wzmocniona przez porty, które również znajdują się w elastycznych pozycjach. Wykonując takie ćwiczenia jak to, w którym wystarczy naciągnąć sznurek na gumki, można zobaczyć, jak działają siły wewnątrz pola operacyjnego. "
+        "pl": "Prawie wszystkie docelowe struktury i tkanki w procedurach laparoskopowych są elastyczne. Ta elastyczność jest również wzmocniona przez porty, które również znajdują się w elastycznych pozycjach. Wykonując takie ćwiczenia jak to, w którym wystarczy naciągnąć sznurek na gumki, można zobaczyć, jak działają siły wewnątrz pola operacyjnego. ",
+        "es": "Casi todas las estructuras y tejidos diana en los procedimientos laparoscópicos son elásticos para diversos grados. Esta elasticidad también está aumentada por los puertos que también se encuentran en posiciones elásticas. Al ejecutar ejercicios como este, en el que debe simplemente tirar de la cordera sobre las bandas de goma, puede ver cómo las fuerzas dentro del área de operación pueden ser difíciles de estimar.",
+        "zh-cn": "几乎所有腹腔镜手术中的靶标结构和组织都是弹性到不同程度的。该弹性也通过端口加强，该端口也位于弹性位置。通过执行这样的练习，您必须简单地将麻线拉到橡皮筋上，您可以看到操作区域内的力量难以估计。",
+        "ja": "腹腔鏡手術におけるすべての標的構造および組織は様々な程度に弾力的である。この弾性も弾性位置にあるポートによっても高まります。このような演習を実行することによって、あなたは単にゴムバンドに手押しさを引っ張る必要があります。"
     },
     "instructions": {
         "en": "Begin with twine at the start position in the bottom peg. Again, do not cross your instruments while removing the entire twine. Place the twine under the rubber bands in the middle. Grab opposite ends and make them touch - creating an X. After success, move the twine to end top position.",
-        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie wyciągnij nie krzyżując instrumentów podczas wyciągania. Umieść sznurek pod 2 gumkami na środku. Chwyć przeciwległe końce i spraw, by się zetknęły - tworząc X. Na koniec włóż sznurek w położenie końcowe w górnym środkowym kołku."
+        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie wyciągnij nie krzyżując instrumentów podczas wyciągania. Umieść sznurek pod 2 gumkami na środku. Chwyć przeciwległe końce i spraw, by się zetknęły - tworząc X. Na koniec włóż sznurek w położenie końcowe w górnym środkowym kołku.",
+        "es": "Comience con guita en la posición de inicio en la clavija inferior. Nuevamente, no cruce sus instrumentos mientras retire toda la cordita. Coloque la cordaleta debajo de las bandas de goma en el medio. Agarre los extremos opuestos y haz que se toquen: creando un X. Después del éxito, mueva la cordel para terminar la posición superior.",
+        "zh-cn": "从底部挂钩的起始位置开始缠绕。再次，不要在删除整个缠绕时越过乐器。将麻线放在中间的橡皮筋下。抓住相反的目的并使它们触摸 - 创建X.成功后，将麻线移动到最终顶部位置。",
+        "ja": "下部ペグの開始位置でひもで始めます。繰り返しますが、手間全体を取り外しながら機器を渡りません。真ん中のゴムバンドの下にひねりを置きます。反対側の端をつかみ、それらを触れるようにします -  Xを作成します。"
     },
     "preparation": {
         "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
-        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
+        "es": "Aplique 4 bandas de goma entre las clavijas superior e inferior. Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
+        "zh-cn": "在顶部和底部钉之间涂抹4个橡皮筋。将单块缠绕放入张力模块的底部中心栓的孔中。",
+        "ja": "上部と下のペグの間に4つのゴムバンドを塗ります。緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
     }
 }

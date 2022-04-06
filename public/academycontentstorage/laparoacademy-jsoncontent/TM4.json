@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 405
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 12
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 270
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 270
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 12
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 50
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Draw-Through with Elastics",
-        "pl": "Przewlekanie przez Obiekty Elastyczne"
+        "pl": "Przewlekanie przez Obiekty Elastyczne",
+        "es": "Extraer con elastics",
+        "zh-cn": "用弹性学绘制",
+        "ja": "エリスチックで引き抜く"
     },
     "skills": {
         "en": "Suturing, Elastics",
-        "pl": "Szycie, Elastyczne"
+        "pl": "Szycie, Elastyczne",
+        "es": "Sutura, elásticos",
+        "zh-cn": "缝合，弹性",
+        "ja": "縫合、エリスチック"
     },
     "description": {
         "en": "One of the most difficult aspects of laparoscopic suturing is to effectively manipulate and guide the needle along with a long piece of suture material. In this exercise you will guide an elastic piece of twine through the elastic rubber bands while avoiding sudden movements. Although laparoscopic suture material is much smaller this exercise is a good primer on the properties of manipulating these kinds of structures with laparoscopic instruments.",
-        "pl": "Jednym z najtrudniejszych aspektów szycia laparoskopowego jest skuteczne manipulowanie i prowadzenie igły wraz z długim kawałkiem materiału do szycia. W tym ćwiczeniu poprowadzisz elastyczny kawałek sznurka przez elastyczne gumki, unikając gwałtownych ruchów. Chociaż nić jest znacznie mniejsza, ćwiczenie to jest dobrym wprowadzeniem do właściwości manipulowania tego rodzaju strukturami za pomocą narzędzi laparoskopowych. "
+        "pl": "Jednym z najtrudniejszych aspektów szycia laparoskopowego jest skuteczne manipulowanie i prowadzenie igły wraz z długim kawałkiem materiału do szycia. W tym ćwiczeniu poprowadzisz elastyczny kawałek sznurka przez elastyczne gumki, unikając gwałtownych ruchów. Chociaż nić jest znacznie mniejsza, ćwiczenie to jest dobrym wprowadzeniem do właściwości manipulowania tego rodzaju strukturami za pomocą narzędzi laparoskopowych. ",
+        "es": "Uno de los aspectos más difíciles de la sutura laparoscópica es manipular y guiar eficazmente la aguja junto con un largo material de sutura. En este ejercicio, guiará una pieza de cordel elástica a través de las bandas de goma elásticas mientras evitó movimientos bruscos. Aunque el material de sutura laparoscópica es mucho menor, este ejercicio es una buena imprimación en las propiedades de manipular este tipo de estructuras con instrumentos laparoscópicos.",
+        "zh-cn": "腹腔镜缝合度最困难的方面之一是有效地操纵和引导针以及长型缝合材料。在这项运动中，您将通过弹性橡皮筋引导弹性的缠绕，同时避免突然移动。虽然腹腔镜缝合材料较小，但这种锻炼要小得多是一种良好的底漆，就像腹腔镜仪器操纵这些结构的性质。",
+        "ja": "腹腔鏡下縫合の最も困難な側面の1つは、長い縫合材料と共に針を効果的に操作し案内することである。この運動では、突然の動きを避けながら、弾性ゴムバンドを通して弾性片を導くでしょう。腹腔鏡下縫合材料ははるかに小さいが、この運動は腹腔鏡器具でこれらの種類の構造を操作するという性質に関する良いプライマーである。"
     },
     "instructions": {
         "en": "Begin with twine at the start position in the bottom peg. Do not cross your instruments while removing the entire twine. Move the twine to the left and intertwine through rubber bands alternating from top to bottom and towards the right side. Then return to the left side the by same way again. Use one instrument to lift the rubber bands instead of pushing the twine down. Finish by inserting the entire twine into the top peg.",
-        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Nie krzyżuj instrumentów podczas usuwania całego sznurka. Przesuń sznurek na lewą stroną i przeplataj przez gumki na przemian od góry do dołu i w prawym kierunku. Następnie przeciągnij resztę sznurka i wróć ponownie na lewą stronę w ten sam sposób. Użyj jednego narzędzia, aby podnosić gumki zamiast popychać sznurek w dół. Zakończ wkładając cały sznurek w górny kołek. "
+        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Nie krzyżuj instrumentów podczas usuwania całego sznurka. Przesuń sznurek na lewą stroną i przeplataj przez gumki na przemian od góry do dołu i w prawym kierunku. Następnie przeciągnij resztę sznurka i wróć ponownie na lewą stronę w ten sam sposób. Użyj jednego narzędzia, aby podnosić gumki zamiast popychać sznurek w dół. Zakończ wkładając cały sznurek w górny kołek. ",
+        "es": "Comience con guita en la posición de inicio en la clavija inferior. No cruce sus instrumentos mientras retire toda la cordita. Mueva el cordel a la izquierda e interrelación a través de las bandas de goma que se alternan de arriba a abajo y hacia el lado derecho. Luego vuelve al lado izquierdo de la misma manera otra vez. Use un instrumento para levantar las bandas de goma en lugar de empujar el hilo. Termine insertando toda la cordita en la clavija superior.",
+        "zh-cn": "从底部挂钩的起始位置开始缠绕。在删除整个缠绕时，请勿通过仪器。通过从上到下和朝向右侧交替的橡胶带向左移动缠绕和交叉线。然后再次通过相同的方式返回左侧。使用一个仪器抬起橡皮筋，而不是推动缠绕。通过将整个缠绕插入顶部栓钉完成。",
+        "ja": "下部ペグの開始位置でひもで始めます。手間全体を取り除きながら、楽器を越えないでください。左右に、上から下に交互に、右側に向かって輪を左に動かして絡み合ってください。それから再び同じように左側に戻ります。 2つの機器を使用して、蝶番を押し下げるのではなくラバーバンドを持ち上げます。トップ全体を上部ペグに挿入することで終了します。"
     },
     "preparation": {
         "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
-        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
+        "es": "Aplique 4 bandas de goma entre las clavijas superior e inferior. Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
+        "zh-cn": "在顶部和底部钉之间涂抹4个橡皮筋。将单块缠绕放入张力模块的底部中心栓的孔中。",
+        "ja": "上部と下のペグの間に4つのゴムバンドを塗ります。緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
     }
 }

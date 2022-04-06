@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1800
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 150
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 1200
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 1200
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 30
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 150
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Anastomosis End-to-Side",
-        "pl": "Zespolenie End-to-Side"
+        "pl": "Zespolenie End-to-Side",
+        "es": "Anastomosis de extremo a lado",
+        "zh-cn": "吻合尾末端",
+        "ja": "吻合終了"
     },
     "skills": {
         "en": "Anastomosis, Suturing, Sliding Knot",
-        "pl": "Zespolenie, Szycie, Węzeł Przesuwny"
+        "pl": "Zespolenie, Szycie, Węzeł Przesuwny",
+        "es": "Anastomosis, sutura, nudo deslizante.",
+        "zh-cn": "吻合，缝合，滑动结",
+        "ja": "吻合、縫合、スライディングノット"
     },
     "description": {
         "en": "Anastomosis in all of it’s combinations is the best way to develop advanced laparoscopic suturing skill. In this combination, end-to-side, a loose end of the penrose drain must be attached to the side of a long penrose drain suspended on the Advanced Suturing Platform.",
-        "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, prostopadle do siebie, luźny koniec drenu penrose musi być zespolony do boku drenu penrose zawieszonego na zaawansowanej platformie do szycia. "
+        "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, prostopadle do siebie, luźny koniec drenu penrose musi być zespolony do boku drenu penrose zawieszonego na zaawansowanej platformie do szycia. ",
+        "es": "La anastomosis en todas sus combinaciones es la mejor manera de desarrollar habilidades de sutura laparoscópica avanzada. En esta combinación, de extremo a lado, se debe unir un extremo suelto del drenaje de la penrosa al lado de un largo drenaje de penrosa suspendido en la plataforma de sutura avanzada.",
+        "zh-cn": "所有内容组合中的吻合术是开发先进的腹腔镜缝合技能的最佳方式。在这种组合中，端到来，猪鼻排水管的松散端必须连接到悬挂在先进的缝合平台上的长彭膦渠道的一侧。",
+        "ja": "その組み合わせのすべての吻合症は、高度な腹腔鏡下縫合スキルを発展させるための最良の方法です。この組み合わせでは、エンドツーサイドで、Penrose Drainの緩い端は、高度な縫合プラットフォーム上に吊り下げられた長いペナワースドレインの側面に取り付ける必要があります。"
     },
     "instructions": {
         "en": "First, use scissors to precisely cut a 2-3cm opening in the center of the long penrose drain where the anastomosis must be performed. Next, apply two single sliding knots between this long piece and the short piece which should be loose. Apply two more sliding knots between the corner of long piece and the edges of the short piece and then complete the exercise with two more on the top. The total prescribed for this exercise is 6 knots. A proper anastomosis should allow for an opening, be sure to inspect the results of your work to verify quality.",
-        "pl": "Najpierw nożyczki powinny być użyte, aby precyzyjnie wyciąć 2-3 cm otwór w środku boku długiego drenu penrose, do którego należy wykonać zespolenie. Następnie dwa pojedyncze węzły przesuwne powinny być założone, aby luźny koniec został zespolony. Dwa kolejne węzły przesuwne powinny połączyć narożniki dłuższego drenu z krawędziami krańca krótszego drenu. Następnie ćwiczenie powinno być zakończone dwoma ostatnimi węzłami przesównymi na górnej części zespolenia. W sumie na ćwiczenie powinno składać się 6 węzłów. Prawidłowe zespolenie powinno umożliwiać drożność, należy sprawdzić zespolenie, aby zweryfikować jakość. "
+        "pl": "Najpierw nożyczki powinny być użyte, aby precyzyjnie wyciąć 2-3 cm otwór w środku boku długiego drenu penrose, do którego należy wykonać zespolenie. Następnie dwa pojedyncze węzły przesuwne powinny być założone, aby luźny koniec został zespolony. Dwa kolejne węzły przesuwne powinny połączyć narożniki dłuższego drenu z krawędziami krańca krótszego drenu. Następnie ćwiczenie powinno być zakończone dwoma ostatnimi węzłami przesównymi na górnej części zespolenia. W sumie na ćwiczenie powinno składać się 6 węzłów. Prawidłowe zespolenie powinno umożliwiać drożność, należy sprawdzić zespolenie, aby zweryfikować jakość. ",
+        "es": "Primero, use tijeras para cortar con precisión una abertura de 2-3 cm en el centro del largo drenaje de penrose donde se debe realizar la anastomosis. A continuación, aplique dos nudos deslizantes individuales entre esta pieza larga y la pieza corta que debe estar suelta. Aplique dos nudos deslizantes más entre la esquina de la pieza larga y los bordes de la pieza corta y luego complete el ejercicio con dos más en la parte superior. El total prescrito para este ejercicio es de 6 nudos. Una anastomosis adecuada debe permitir una apertura, asegúrese de inspeccionar los resultados de su trabajo para verificar la calidad.",
+        "zh-cn": "首先，使用剪刀精确地切割2-3CM在长彭罗斯排水管中心的开口，其中必须进行吻合术。接下来，在这款长件和短件之间涂布两个单滑动结，应松动。在长件的角落和短片的边缘之间使用两个滑动结，然后在顶部再次完成两个锻炼。本练习规定的总规定为6节。适当的吻合应允许开放，请务必检查您的工作结果以核实质量。",
+        "ja": "まず、吻合を行う必要がある長いペロース排水路の中心に2~3cmの開口部を正確に切断するためにはさみを使用してください。次に、この長い部分と短い部分の間に2つのシングルスライド結び目を緩めるべきです。長片の角と短い部分の端の間に2つのスライド結び目を塗り、その後上部で2つの運動を完了します。この運動の合計は6ノットです。適切な吻合術は開口部を考慮に入れるべきであるため、作業の結果を確認して品質を検証するようにしてください。"
     },
     "preparation": {
         "en": "One long piece of the penrose train is stretched inside the suturing platform and one shorter piece is attached inside the suturing platform at a 90 degree angle. The start position for the needle should be located on the top of the Advanced Suturing Platform.",
-        "pl": "Jeden długi kawałek penrose'a jest rozciągnięty wewnątrz platformy do szycia, a jeden krótszy kawałek jest mocowany wewnątrz platformy do szycia pod kątem 90 stopni. Pozycja początkowa igły powinna znajdować się na górnej części zaawansowanej platformy do szycia. "
+        "pl": "Jeden długi kawałek penrose'a jest rozciągnięty wewnątrz platformy do szycia, a jeden krótszy kawałek jest mocowany wewnątrz platformy do szycia pod kątem 90 stopni. Pozycja początkowa igły powinna znajdować się na górnej części zaawansowanej platformy do szycia. ",
+        "es": "Una pieza larga del tren Penrose se estira dentro de la plataforma de sutura y una pieza más corta está unida dentro de la plataforma de sutura en un ángulo de 90 grados. La posición de inicio para la aguja debe estar ubicada en la parte superior de la plataforma de sutura avanzada.",
+        "zh-cn": "一条长长的彭罗斯列车在缝合平台内伸展，并且一个较短的件在缝合平台内以90度角附近。针的起始位置应位于先进的缝合平台的顶部。",
+        "ja": "1つの長さのペンロース列車が縫合プラットフォームの内側に引き伸ばされ、1つの短い部分が縫合台の内側に90度の角度で取り付けられています。針の開始位置は、高度な縫合プラットフォームの上部に配置する必要があります。"
     }
 }

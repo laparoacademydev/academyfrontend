@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 360
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 240
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 240
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Endurance and Precision",
-        "pl": "Wytrzymałość i Precyzja"
+        "pl": "Wytrzymałość i Precyzja",
+        "es": "Resistencia y precisión",
+        "zh-cn": "耐力和精确度",
+        "ja": "持久力と精度"
     },
     "skills": {
         "en": "Endurance, Precision",
-        "pl": "Wytrzymałość, Precyzja, Szycie"
+        "pl": "Wytrzymałość, Precyzja, Szycie",
+        "es": "Resistencia, precisión",
+        "zh-cn": "耐力，精确",
+        "ja": "耐久性、精度"
     },
     "description": {
         "en": "Laparoscopic procedures are often very simple in principle but can become very difficult when performed for prolonged periods of time. In this exercise you must execute a difficult maneuver methodically and with precision.",
-        "pl": "Procedury laparoskopowe są często bardzo proste w zasadzie, ale mogą stać się bardzo trudne, gdy wykonywane są przez dłuższy czas. W tym ćwiczeniu musisz metodycznie i precyzyjnie wykonać przedstawiony manewr."
+        "pl": "Procedury laparoskopowe są często bardzo proste w zasadzie, ale mogą stać się bardzo trudne, gdy wykonywane są przez dłuższy czas. W tym ćwiczeniu musisz metodycznie i precyzyjnie wykonać przedstawiony manewr.",
+        "es": "Los procedimientos laparoscópicos son a menudo muy simples, pero pueden ser muy difíciles cuando se realizan durante períodos prolongados de tiempo. En este ejercicio debes ejecutar una maniobra difícil metódicamente y con precisión.",
+        "zh-cn": "腹腔镜程序原则上往往非常简单，但在长时间执行时可能变得非常困难。在这项练习中，您必须有理由地执行困难的操纵和精度。",
+        "ja": "腹腔鏡下手順は、原則として非常に単純なものであり、長期間にわたって実行したときに非常に困難になる可能性があります。この演習では、困難な操縦士が身体的にそして精度で実行する必要があります。"
     },
     "instructions": {
         "en": "Push the cone into the hole on the ball and then place the ball with the cone vertically on the post.",
-        "pl": "Wciśnij stożek do otworu w kulce, a następnie umieść kulkę ze stożkiem pionowo na słupku. "
+        "pl": "Wciśnij stożek do otworu w kulce, a następnie umieść kulkę ze stożkiem pionowo na słupku. ",
+        "es": "Empuje el cono hacia el orificio en la bola y luego coloque la bola con el cono verticalmente en la publicación.",
+        "zh-cn": "将锥体推入球上的孔中，然后将球与锥体垂直放在柱上。",
+        "ja": "コーンをボールの穴に押し込み、次にポスト上の垂直にボールを垂直に置きます。"
     },
     "preparation": {
         "en": "Place one cone and one ball in the center basket of the Dexterity Module.",
-        "pl": "Umieść jeden stożek i jedną piłkę w środkowym koszu Modułu Zręczności. "
+        "pl": "Umieść jeden stożek i jedną piłkę w środkowym koszu Modułu Zręczności. ",
+        "es": "Coloque un cono y una bola en la canasta central del módulo de destreza.",
+        "zh-cn": "将一个锥形和一个球放在Dexterity模块的中心篮子里。",
+        "ja": "1つの円錐形と1つのボールを装置の中央バスケットの中央バスケットに入れます。"
     }
 }

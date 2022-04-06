@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 170
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 30
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 900
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 30
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 170
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Vessel Dissection, Clipping and Ligature",
-        "pl": "Preparowanie, Klipsowanie i Podwiązanie Przewodów"
+        "pl": "Preparowanie, Klipsowanie i Podwiązanie Przewodów",
+        "es": "Disección, recorte y ligadura del recorte.",
+        "zh-cn": "船舶解剖，剪切和结扎",
+        "ja": "船の解剖、クリッピング、結紮糸"
     },
     "skills": {
         "en": "Dissection, Vessel, Clipping, Ligature",
-        "pl": "Preparowanie, Przewód, Klipsowanie, Podwiązanie"
+        "pl": "Preparowanie, Przewód, Klipsowanie, Podwiązanie",
+        "es": "Disección, recipiente, recorte, ligadura.",
+        "zh-cn": "解剖，血管，剪切，结扎",
+        "ja": "解剖、容器、クリッピング、結紮糸"
     },
     "description": {
         "en": "Identifying structures and tissues inside the operating area is one of the most important skills in laparoscopy. Vessels and Ducts are often difficult to find as they are often submerged inside of other tissues and structures.",
-        "pl": "Rozpoznawanie struktur i tkanek w obszarze operacyjnym jest jedną z najważniejszych umiejętności w laparoskopii. Naczynia i przewody są często trudne do znalezienia, ponieważ często są zanurzone w innych tkankach i strukturach. "
+        "pl": "Rozpoznawanie struktur i tkanek w obszarze operacyjnym jest jedną z najważniejszych umiejętności w laparoskopii. Naczynia i przewody są często trudne do znalezienia, ponieważ często są zanurzone w innych tkankach i strukturach. ",
+        "es": "Identificar estructuras y tejidos dentro del área de operación es una de las habilidades más importantes en la laparoscopia. Los buques y los conductos a menudo son difíciles de encontrar, ya que a menudo se sumergen dentro de otros tejidos y estructuras.",
+        "zh-cn": "识别操作区域内的结构和组织是腹腔镜检查中最重要的技能之一。血管和管道通常难以发现，因为它们通常淹没在其他组织和结构内。",
+        "ja": "操作領域内の構造や組織の識別は腹腔鏡検査で最も重要なスキルの1つです。血管やダクトは、他の組織や構造体の中にしばしば浸されているため、見つけることがしばしば困難です。"
     },
     "instructions": {
         "en": "First, use scissors to precisely remove the top layer of skin near the top of the Vessel Dissection Module. Then dissect the module to find the three target vessels submerged under the surface. Use the clip applicator to apply 2 clips to each vessel on the left and right while leaving the center vessel intact. Cut these two vessels between the clips and then apply two ligatures to the center vessel and then cut in between.",
-        "pl": "Najpierw nożyczki powinne być użyte, aby precyzyjnie usunąć górną warstwę skóry w pobliżu górnej części insertu do preparowania naczyń. Następnie struktura powinna być przeanalizowana i wypreparowana w taki sposób, aby znaleźć trzy naczynia docelowe znajdujące się pod powierzchnią. Za pomocą klipsownicy 2 klipsy powinny być zacisnięte na naczyniach po lewej i po prawej stronie, pozostawiając naczynie środkowe nienaruszone. Po przecięciu dwóch naczyń pomiędzy klipsami, powinny być założone dwie podwiązki na naczynie środkowe, a następnie przetnij między nimi."
+        "pl": "Najpierw nożyczki powinne być użyte, aby precyzyjnie usunąć górną warstwę skóry w pobliżu górnej części insertu do preparowania naczyń. Następnie struktura powinna być przeanalizowana i wypreparowana w taki sposób, aby znaleźć trzy naczynia docelowe znajdujące się pod powierzchnią. Za pomocą klipsownicy 2 klipsy powinny być zacisnięte na naczyniach po lewej i po prawej stronie, pozostawiając naczynie środkowe nienaruszone. Po przecięciu dwóch naczyń pomiędzy klipsami, powinny być założone dwie podwiązki na naczynie środkowe, a następnie przetnij między nimi.",
+        "es": "Primero, use tijeras para retirar con precisión la capa superior de la piel cerca de la parte superior del módulo de disección del recipiente. Luego disecciona el módulo para encontrar los tres recipientes de destino sumergidos debajo de la superficie. Use el aplicador de clip para aplicar 2 clips a cada recipiente en la izquierda y hacia la derecha mientras sale del recipiente central intacto. Corte estos dos recipientes entre los clips y luego aplique dos ligaduras al recipiente central y luego corte entre.",
+        "zh-cn": "首先，使用剪刀精确地拆下船舶解剖模块顶部附近的顶层皮肤层。然后将模块解剖以找到浸没在表面下的三个目标血管。使用夹子涂抹器将2个夹子施加到左右的每个船只，同时使中心容器完好无损。在夹子之间切割这两个血管，然后将两个连接物施加到中心容器中，然后切入其中。",
+        "ja": "まず、船舶解剖モジュールの上部近くの皮膚の最上層を正確に取り除くためにはさみを使用してください。それからモジュールを解剖して、表面の下に浸された3つの標的血管を見つけます。中央船をそのまま残しながら、左右に2つのクリップを貼り付けるには、クリップアプリケータを使用します。これら2つの容器をクリップ間に切断してから、2つの船舶を中央容器に塗布してから切ります。"
     },
     "preparation": {
         "en": "Insert the Vessel Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured and clip the component into the three clips at the top. Make sure the underlying vessels are oriented with three vessels aimed towards the clips at the top.",
-        "pl": "Insert do preparowania naczyń powinien być umieszczony w modułe uchwytu tkanek. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. Przypnij element do trzech klipsów na górze modułu. Upewnij się, że znajdujące się pod spodem naczynia są zorientowane w taki sposób aby trzy naczynia były skierowane w górę."
+        "pl": "Insert do preparowania naczyń powinien być umieszczony w modułe uchwytu tkanek. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. Przypnij element do trzech klipsów na górze modułu. Upewnij się, że znajdujące się pod spodem naczynia są zorientowane w taki sposób aby trzy naczynia były skierowane w górę.",
+        "es": "Inserte la inserción de disección del recipiente en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen y cliple el componente en los tres clips en la parte superior. Asegúrese de que los recipientes subyacentes estén orientados con tres embarcaciones dirigidas a los clips en la parte superior.",
+        "zh-cn": "将血管解剖插入组织保持器模块中插入。使用螺钉确保组织如图所示，并将部件夹在顶部的三个夹子中。确保底层船舶面向顶部的三个船舶，朝向顶部的夹子。",
+        "ja": "血管の解剖インサートを組織ホルダーモジュールに挿入します。描画されているように組織がぴったり伸びていることを確認するためにネジを使用して、上部の3つのクリップに構成されていることを確認します。下にある血管が上部のクリップを目的とした3つの船で向けられていることを確認してください。"
     }
 }

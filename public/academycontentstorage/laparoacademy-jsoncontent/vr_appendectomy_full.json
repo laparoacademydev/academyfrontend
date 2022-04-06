@@ -53,6 +53,92 @@
         "scenario": ""
     },
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 450
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 60
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 8
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 300
+        }
+    },
     "isVR": true,
     "allowedInstruments": [
         "grasper",
@@ -63,46 +149,33 @@
         "clipper",
         "stapler"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 300
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 8
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 60
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
-        "en": "Appendectomy VR - Full procedure",
-        "pl": "Apendektomia VR"
+        "en": "Full Procedure - Appendectomy VR",
+        "pl": "Cały Zabieg - Apendektomia VR",
+        "es": "Procedimiento completo - Apendectectomy VR",
+        "zh-cn": "完整程序 - 阑尾切除术VR",
+        "ja": "フルプロシージャ -  appendictory VR."
     },
     "skills": {
         "en": "Procedure, Appendectomy, VR",
-        "pl": "Procedura, Apendektomia, VR"
+        "pl": "Procedura, Apendektomia, VR",
+        "es": "Procedimiento, Apendectectomía, VR",
+        "zh-cn": "程序，阑尾切除术，VR",
+        "ja": "手順、付属品切除術、VR"
     },
     "description": {
-        "en": "In this virtual reality exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction. The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a stapler should be used at the base to clip the entire appendicular artery before removing the appendix.",
-        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć staplera u podstawy, aby przyciąć całą tętnicę wyrostka przed usunięciem. "
+        "en": "In this virtual reality exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction.",
+        "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. ",
+        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una apendicectomía completa. Además de encontrar e identificar el apéndice inflamado, este procedimiento consiste en diseccionar con precisión e identificar dónde sobresale de la unión ileocecal.",
+        "zh-cn": "在这种虚拟现实运动中，目标是进行整个阑尾切除术。除了寻找和识别发炎的附录之外，该程序涉及准确地解剖并识别其从回肠连接点突出的位置。",
+        "ja": "このバーチャルリアリティでは、目的は添足切除術全体を実行することです。炎症を起こした付録を見つけて識別することとは別に、この手順はそれを正確に解剖し、それが回盲集合から突出する場所を識別することを含む。"
     },
-    "instructions": {},
+    "instructions": {
+        "en": "The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a stapler should be used at the base to clip the entire appendicular artery before removing the appendix.",
+        "pl": "Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć staplera u podstawy, aby przyciąć całą tętnicę wyrostka przed usunięciem. ",
+        "es": "El aprendiz debe encontrar el mesoappendix triangular que realiza el apéndice en la base. Para completar el procedimiento, se debe usar una grapadora en la base para obtener toda la arteria apendicular antes de retirar el apéndice.",
+        "zh-cn": "受训者必须找到三角形的中间人，在基础上采用阑尾。为了完成该过程，应在碱中使用订书机以在删除附录之前剪辑整个附奇动脉。",
+        "ja": "研修生は、基地の付録を撮影した三角形のメソアペンデクを見つけなければなりません。手順を完了するには、付録を取り外す前に、柔場者がベースで使用する必要があります。"
+    },
     "preparation": {}
 }

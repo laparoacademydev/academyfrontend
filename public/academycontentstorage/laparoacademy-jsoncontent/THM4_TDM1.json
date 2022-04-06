@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 540
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 75
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 360
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 360
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 15
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 75
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Sharp Resection",
-        "pl": "Ostra Resekcja"
+        "pl": "Ostra Resekcja",
+        "es": "Resección afilada",
+        "zh-cn": "急剧切除",
+        "ja": "シャープな切除"
     },
     "skills": {
         "en": "Scissors",
-        "pl": "Nożyczki, Cięcie"
+        "pl": "Nożyczki, Cięcie",
+        "es": "Tijeras",
+        "zh-cn": "剪刀",
+        "ja": "ハサミ"
     },
     "description": {
         "en": "The first exercise on the Tissue Dissection Module allows the trainee to practice precise laparoscopic scissor use with artificial tissues. ",
-        "pl": "Pierwsze ćwiczenie na module preparowania tkanek pozwala kandydatowi na ćwiczenie precyzyjnego użycia nożyczek laparoskopowych na sztucznych tkankach. "
+        "pl": "Pierwsze ćwiczenie na module preparowania tkanek pozwala kandydatowi na ćwiczenie precyzyjnego użycia nożyczek laparoskopowych na sztucznych tkankach. ",
+        "es": "El primer ejercicio en el módulo de disección tisular permite al aprendiz practicar el uso preciso de tijera laparoscópica con tejidos artificiales.",
+        "zh-cn": "组织解剖模块上的第一次运动允许受训者用人工组织实践精确的腹腔镜剪刀使用。",
+        "ja": "組織解剖モジュールの最初の運動により、研修生は人工組織との正確な腹腔鏡下シザー使用を実践することができます。"
     },
     "instructions": {
         "en": "The goal of the exercise is to separate the dark red circle from the rest of the tissue with as much precision as possible. After cutting the surface tissue you must cut into the module while avoiding puncturing the bottom skin layer. Use the tips of the scissors to precisely cut all of the red ‘tissue’ off of the module.",
-        "pl": "Celem ćwiczenia jest jak najdokładniejsze oddzielenie ciemnoczerwonego okręgu od reszty insertu do preparowania tkanki. Po przecięciu tkanki powierzchniowej należy naciąć moduł, jednocześnie unikając przebicia dolnej warstwy skóry. Użyj końcówek nożyczek, aby precyzyjnie odciąć całą czerwoną „tkankę” z modułu. "
+        "pl": "Celem ćwiczenia jest jak najdokładniejsze oddzielenie ciemnoczerwonego okręgu od reszty insertu do preparowania tkanki. Po przecięciu tkanki powierzchniowej należy naciąć moduł, jednocześnie unikając przebicia dolnej warstwy skóry. Użyj końcówek nożyczek, aby precyzyjnie odciąć całą czerwoną „tkankę” z modułu. ",
+        "es": "El objetivo del ejercicio es separar el círculo rojo oscuro del resto del tejido con la mayor precisión posible. Después de cortar el tejido superficial, debe cortar en el módulo mientras evita perforar la capa inferior de la piel. Use las puntas de las tijeras para cortar con precisión todo el 'tejido rojo' del módulo.",
+        "zh-cn": "练习的目标是尽可能多地将暗红色圆圈与剩余的组织分开。切割表面组织后，必须切入模块，同时避免刺穿底部表层。使用剪刀的尖端精确地切断模块的所有红色“组织”。",
+        "ja": "運動の目的は、濃い赤い円をティッシュの残りの部分からできるだけ多くの精度で分離することです。表面組織を切断した後は、底のスキン層を穿刺することを避けながらモジュールに切断する必要があります。ハサミの先端を使用して、モジュールの赤の「組織」をすべて正確に切り取ります。"
     },
     "preparation": {
         "en": "Insert the Tissue Dissection insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
-        "pl": "Włóż insert do preparowania tkanki do modułu uchwytu tkanki. Użyj śrub, aby upewnić się, że tkanka jest dobrze naciągnięta, jak na zdjęciu. "
+        "pl": "Włóż insert do preparowania tkanki do modułu uchwytu tkanki. Użyj śrub, aby upewnić się, że tkanka jest dobrze naciągnięta, jak na zdjęciu. ",
+        "es": "Inserte la inserción de disección del tejido en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen.",
+        "zh-cn": "将组织分析插入刀片插入组织保持器模块中。使用螺钉确保组织如图所示。",
+        "ja": "組織の解剖インサートを組織ホルダーモジュールに挿入します。診断されているように、組織がぴったりされていることを確認するためにネジを使用してください。"
     }
 }

@@ -5,35 +5,50 @@
             "type": "header",
             "text": {
                 "en": "Scissors",
-                "pl": "Nożyczki"
+                "pl": "Nożyczki",
+                "es": "Tijeras",
+                "zh-cn": "剪刀",
+                "ja": "ハサミ"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Scissors are some of the oldest surgical devices for surgery. The cutting force of scissors is proportional to the amount of force applied to the lever and to the distance from the fulcrum point. This means that they can grip, squeeze and tear the target structure in rapid succession with precision and speed. Tissue captured by the scissors should not exceed the space between the jaws so that it does not slip. After the scissors are squeezed sufficiently the tissues between the blades deform irreversibly and with continued action the tissue fractures along the intercellular plane. The fracture forms along the blade of the scissors and continues away from the fulcrum point of the scissors.",
-                "pl": "Nożyczki są jednym z najstarszych urządzeń wykorzystywanych w chirurgii. Siła cięcia nożyczek jest proporcjonalna do ilości siły przełożonej przez dźwignię z rękojeści. Jest ona też proporcjonalna do odległości od punktu podparcia. Oznacza to, że nożyczki najpierw chwytają, a potem ściskają i ostatecznie precyzyjnie rozdzierają strukturę podczas pojedynczego cięcia. Tkanka chwytana przez nożyczki nie powinna być szersza niż przestrzeń pomiędzy ostrzami, w przeciwnym razie tkanka może się ześlizgiwać z ostrza. Zaraz po początkowym zaciśnięciu nożyczek, tkanka pomiędzy ostrzami w pierwszej kolejności odkształca się. Przy dalszym zaciskaniu tkanka rozrywa się na osi międzykomórkowej. Rozdarcie, widoczne gołym okiem jako przecięcie, formuje się wzdłuż ostrzy zaczynając od punktu najbliższemu do punktu podparcia."
+                "pl": "Nożyczki są jednym z najstarszych urządzeń wykorzystywanych w chirurgii. Siła cięcia nożyczek jest proporcjonalna do ilości siły przełożonej przez dźwignię z rękojeści. Jest ona też proporcjonalna do odległości od punktu podparcia. Oznacza to, że nożyczki najpierw chwytają, a potem ściskają i ostatecznie precyzyjnie rozdzierają strukturę podczas pojedynczego cięcia. Tkanka chwytana przez nożyczki nie powinna być szersza niż przestrzeń pomiędzy ostrzami, w przeciwnym razie tkanka może się ześlizgiwać z ostrza. Zaraz po początkowym zaciśnięciu nożyczek, tkanka pomiędzy ostrzami w pierwszej kolejności odkształca się. Przy dalszym zaciskaniu tkanka rozrywa się na osi międzykomórkowej. Rozdarcie, widoczne gołym okiem jako przecięcie, formuje się wzdłuż ostrzy zaczynając od punktu najbliższemu do punktu podparcia.",
+                "es": "Las tijeras son algunos de los dispositivos quirúrgicos más antiguos para la cirugía. La fuerza de corte de las tijeras es proporcional a la cantidad de fuerza aplicada a la palanca y a la distancia desde el punto de fulcrum. Esto significa que pueden agarrar, apretar y desgarrar la estructura objetivo en rápida sucesión con precisión y velocidad. El tejido capturado por las tijeras no debe exceder el espacio entre las mandíbulas para que no se deslice. Después de que las tijeras se aprietan lo suficiente, los tejidos entre las cuchillas se deforman irreversiblemente y con una acción continua, las fracturas del tejido a lo largo del plano intercelular. La fractura se forma a lo largo de la hoja de las tijeras y continúa alejada del punto de apoyo de las tijeras.",
+                "zh-cn": "剪刀是手术中最古老的手术设备。剪刀的切割力与施加到杠杆的力量和与支点点的距离成比例。这意味着它们可以通过精度和速度抓住目标结构来握住，挤压和撕裂目标结构。被剪刀捕获的组织不应超过钳口之间的空间，使其不会滑动。在剪刀被充分挤压之后，叶片之间的组织不可逆地变形并且继续动作沿着细胞间平面的组织骨折。骨折沿着剪刀的刀片形式形成，并远离剪刀的支点。",
+                "ja": "ハサミは手術のための最も古い外科的装置のいくつかです。ハサミの切断力は、レバーに加わる力の量と支点からの距離に比例します。これは、それらが精度と速度で迅速な連続して標的構造を把握、絞り、引き裂くことができることを意味します。はさみによって捕獲された組織は、顎の間のスペースを超えてはいけません。ハサミが十分に絞った後、ブレード間の組織は不可逆的に変形し、そして細胞間平面に沿った組織骨折を続ける。破壊ははさみの刃に沿って形成され、ハサミの支点から離れています。"
             }
         },
         {
             "type": "quote",
             "text": {
                 "en": "To develop a deeper understanding of laparoscopic scissor action perform exercises with gauze pads and silicone tissues.",
-                "pl": "Aby rozwinąć umiejętność posługiwania się nożyczkami w laparoskopii, trenujący powinien wykonać ćwiczenia z wycinaniem kółek na gazie oraz przy pomocy silikonowych tkanek."
+                "pl": "Aby rozwinąć umiejętność posługiwania się nożyczkami w laparoskopii, trenujący powinien wykonać ćwiczenia z wycinaniem kółek na gazie oraz przy pomocy silikonowych tkanek.",
+                "es": "Para desarrollar una comprensión más profunda de la acción de tijera laparoscópica, realice ejercicios con almohadillas de gasa y tejidos de silicona.",
+                "zh-cn": "开发对腹腔镜剪裁的更深入了解，用纱布垫和硅氧烷组织进行锻炼。",
+                "ja": "腹腔鏡下シザーの作用をより深く理解するために、ガーゼパッドとシリコーン組織を備えた演習を行う。"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Laparoscopic scissors should be handled with extreme care. If they are not handled properly inside the operating area they can cause severe damage with their sharp tips. Intracorporeal bleeding can go unnoticed outside of the field of vision and it can cause severe post-operative complications. Laparoscopic scissors can be used for cutting any tissue, artery or duct, but also they can be used for ‘sharp dissection’ where the tips are introduced into the target tissue closed and are then opened to spread the tissue with precision. The back side of the scissors can also be used to spatulate and press tissues aside.",
-                "pl": "Nożyczki używane w chirurgii małoinwazyjnej powinny być używane bardzo ostrożnie. Ze względu na swoją ostrość, przy błędnym użyciu, mogą spowodować poważne komplikacje. Krwawienie poza polem widzenia wewnątrz pola operacyjnego może zostać niezauważone. \nNożyczki laparoskopowe mogą być użyte do cięcia każdego rodzaju tkanki, naczynia czy przewodu. Mogą też być użyte do preparowania na ostro. Preparując na ostro, chirurg wkłuwa się zamkniętymi nożyczkami w tkankę i otwiera je, aby precyzyjnie rozpreparowywać tkankę. Płaski tył nożyczek może być też używany do przepychania i szpatuowania tkanek.\n"
+                "pl": "Nożyczki używane w chirurgii małoinwazyjnej powinny być używane bardzo ostrożnie. Ze względu na swoją ostrość, przy błędnym użyciu, mogą spowodować poważne komplikacje. Krwawienie poza polem widzenia wewnątrz pola operacyjnego może zostać niezauważone. \nNożyczki laparoskopowe mogą być użyte do cięcia każdego rodzaju tkanki, naczynia czy przewodu. Mogą też być użyte do preparowania na ostro. Preparując na ostro, chirurg wkłuwa się zamkniętymi nożyczkami w tkankę i otwiera je, aby precyzyjnie rozpreparowywać tkankę. Płaski tył nożyczek może być też używany do przepychania i szpatuowania tkanek.\n",
+                "es": "Las tijeras laparoscópicas deben manejarse con mucho cuidado. Si no se manejan correctamente dentro del área de operación, pueden causar daños severos con sus puntas afiladas. El sangrado intracorpóreo puede pasar desapercibido fuera del campo de la visión y puede causar complicaciones postoperatorias graves. Las tijeras laparoscópicas se pueden usar para cortar cualquier tejido, arteria o conducto, pero también se pueden usar para \"disección afilada\" donde se introducen las puntas en el tejido objetivo cerrado y luego se abren para propagar el tejido con precisión. El lado posterior de las tijeras también se puede usar para salpicar y presionar los tejidos a un lado.",
+                "zh-cn": "腹腔镜剪刀应以极度保健处理。如果它们在操作区域内没有正确处理，它们会因尖锐的提示而导致严重的损坏。体内出血可以在视野之外没有注意到，它会导致严重的术后并发症。腹腔镜剪刀可用于切割任何组织，动脉或管道，而且它们也可用于“尖锐的解剖”，其中尖端被引入靶组织关闭，然后打开以略微地涂抹组织。剪刀的背面也可用于将组织搁置一边。",
+                "ja": "腹腔鏡下のはさみは極度の注意を払って取り扱ってください。それらが操作領域内で正しく処理されていない場合、彼らは彼らの鋭い先端で深刻なダメージを与える可能性があります。体内出血は視野の外で気づかれずに行くことができ、それは厳しい術後合併症を引き起こす可能性があります。腹腔鏡下のはさみを任意の組織、動脈またはダクトを切断するために使用することができますが、それらを「鋭い解剖」に使用することができます。ここで、チップが閉じられたターゲット組織に導入され、次いで組織を正確に広げるために開放されます。はさみの裏側はまた、貼り付け組織を空隙化して押圧するために使用することができる。"
             }
         },
         {
             "type": "header",
             "text": {
                 "en": "Many types of scissors are used in laparoscopy:",
-                "pl": "Wiele rodzajów nożyczek jest używane w laparoskopii:"
+                "pl": "Wiele rodzajów nożyczek jest używane w laparoskopii:",
+                "es": "Muchos tipos de tijeras se utilizan en laparoscopia:",
+                "zh-cn": "腹腔镜检查中使用了许多类型的剪刀：",
+                "ja": "腹腔鏡検査ではさみの多くの種類のハサミが使用されています。"
             }
         },
         {
@@ -44,7 +59,10 @@
                     "type": "image",
                     "label": {
                         "en": "Straight Scissors (1) - these scissors are simply straight and used less often in laparoscopy. Curved Scissors (2) - the most common shape used in laparoscopy because the curvature of the blade is better visualized inside the peritoneal cavity. Serrated Scissors (3) - the serrated edge on the blades of these scissors prevents the tissue from slipping; useful with ligatures and slippery tissue. Hook Scissors (4) - these scissors surround the target structure before cutting and prevent the tissue from slipping. Especially useful for cutting ducts, arteries and nerve bundles. Micro-Tip Scissors (5) - small scissors which are useful in exploration and cutting of small ducts.",
-                        "pl": "Proste nożyczki (1) - te nożyczki są proste i rzadziej używane w laparoskopii. Zakrzywione nożyczki (2) - najczęściej używany kształt w laparoskopii ponieważ zagięte ostrze jest łatwiejsze w wizualizacji w polu operacyjnym. Nożyczki ząbkowane (3) - ząbkowana krawędź nożyczek nie pozwala na ześlizgiwanie się tkanek z krawędzi, co może być przydatne przy ligaturach czy śliskich tkankach. Nożyki hakowe (4) - zagięte są w taki sposób, że ostrze otacza docelową strukturę przed właściwym przecięciem co ogranicza możliwość przecięcia. Szczególnie przydatne do przecinania przewodów, naczyń czy wiązek nerwów. Micro-Tip (5) - rzadko używane nożyczki o małych końcówkach, przydatne do eksploracji i nacinania małych przewodów."
+                        "pl": "Proste nożyczki (1) - te nożyczki są proste i rzadziej używane w laparoskopii. Zakrzywione nożyczki (2) - najczęściej używany kształt w laparoskopii ponieważ zagięte ostrze jest łatwiejsze w wizualizacji w polu operacyjnym. Nożyczki ząbkowane (3) - ząbkowana krawędź nożyczek nie pozwala na ześlizgiwanie się tkanek z krawędzi, co może być przydatne przy ligaturach czy śliskich tkankach. Nożyki hakowe (4) - zagięte są w taki sposób, że ostrze otacza docelową strukturę przed właściwym przecięciem co ogranicza możliwość przecięcia. Szczególnie przydatne do przecinania przewodów, naczyń czy wiązek nerwów. Micro-Tip (5) - rzadko używane nożyczki o małych końcówkach, przydatne do eksploracji i nacinania małych przewodów.",
+                        "es": "Tijeras rectas (1): estas tijeras son simplemente rectas y utilizadas con menos frecuencia en laparoscopia. Tijeras curvas (2): la forma más común utilizada en la laparoscopia porque la curvatura de la cuchilla se visualiza mejor dentro de la cavidad peritoneal. Tijeras serradas (3): el borde serrado en las cuchillas de estas tijeras evita que el tejido se deslice; Útil con ligaduras y tejido resbaladizo. Tijeras de gancho (4): estas tijeras rodean la estructura objetivo antes de cortar y evitar que el tejido se deslice. Especialmente útil para cortar ductos, arterias y paquetes nerviosos. Tijeras de micro-punta (5): pequeñas tijeras que son útiles en la exploración y el corte de pequeños conductos.",
+                        "zh-cn": "直剪刀（1） - 这些剪刀简单直接，较少使用腹腔镜检查。弯曲剪刀（2） - 腹腔镜检查中最常见的形状，因为叶片的曲率更好地在腹膜腔内可视化。锯齿状剪刀（3） - 这些剪刀的叶片上的锯齿状边缘防止组织滑倒;有用的韧带和湿滑组织。钩剪刀（4） - 这些剪刀在切割之前围绕着目标结构，防止组织滑倒。特别适用于切割管道，动脉和神经束。微尖剪刀（5） - 小型剪刀，可用于勘探和切割小管道。",
+                        "ja": "ストレートハサミ（1） - これらのはさみは単にまっすぐで、腹腔鏡検査ではそれほど頻繁に使用されていません。湾曲したはさみ（2） - ブレードの曲率が腹腔内で視覚化されているため、腹腔鏡検査で使用される最も一般的な形状です。鋸歯状のはさみ（3） - これらのはさみの刃の鋸歯状の端は、組織が滑り落ちるのを防ぎます。靭帯や滑りやすい組織に有用です。フックはさみ（4） - これらのはさみを切断する前にターゲット構造を囲み、組織が滑り落ちるのを防ぎます。ダクト、動脈および神経束には特に便利です。マイクロチップはさみ（5） - 小型ダクトの探査や切断に役立つ小さなはさみ。"
                     }
                 }
             ]
@@ -53,7 +71,10 @@
             "type": "disclaimer",
             "text": {
                 "en": "Although scissors can be used with monopolar electrosurgery, they will quickly become blunt with use.",
-                "pl": "Nożyczki mogą być używane z energią monopolarną, ale nie jest to rekomendowane ponieważ stają się tępe."
+                "pl": "Nożyczki mogą być używane z energią monopolarną, ale nie jest to rekomendowane ponieważ stają się tępe.",
+                "es": "Aunque las tijeras se pueden usar con electrocirugía monopolar, rápidamente se volverán contundentes con el uso.",
+                "zh-cn": "虽然剪刀可以与单极电外科使用一起使用，但它们会迅速使用使用。",
+                "ja": "ハサミは単極電気外科手術で使用することができますが、彼らはすぐに使用と鈍くなるでしょう。"
             }
         }
     ],
@@ -61,10 +82,16 @@
     "summary": [],
     "title": {
         "en": "Tissue Dissection and Resection Exercises",
-        "pl": "Preparowanie Tkanek na Ostro i na Tępo"
+        "pl": "Preparowanie Tkanek na Ostro i na Tępo",
+        "es": "Disección de tejido y ejercicios de resección.",
+        "zh-cn": "组织解剖和切除术",
+        "ja": "組織の解剖と切除演習"
     },
     "subTitle": {
         "en": "The properties of all the different types of scissors used in laparoscopy.",
-        "pl": "Właściwości różnych rodzajów nożyczek używanych w laparoskopii."
+        "pl": "Właściwości różnych rodzajów nożyczek używanych w laparoskopii.",
+        "es": "Las propiedades de todos los diferentes tipos de tijeras utilizadas en laparoscopia.",
+        "zh-cn": "腹腔镜检查中使用的所有不同类型剪刀的性质。",
+        "ja": "腹腔鏡検査で使用されているすべての異なる種類のはさみの特性。"
     }
 }

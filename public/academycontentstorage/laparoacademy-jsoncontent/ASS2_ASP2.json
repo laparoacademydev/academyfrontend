@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 315
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 210
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 210
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Vertical Sliding Knot Constrained",
-        "pl": "Węzeł Przesuwny w Ograniczonym Polu i Orientacji Pionowej"
+        "pl": "Węzeł Przesuwny w Ograniczonym Polu i Orientacji Pionowej",
+        "es": "Nudo deslizante vertical restringido",
+        "zh-cn": "垂直滑动结受约束",
+        "ja": "垂直スライド結び目が拘束されました"
     },
     "skills": {
         "en": "Knot, Suturing, Sliding Knot, Limited Access",
-        "pl": "Węzeł, Szycie, Węzeł Przesuwny, Pole Ograniczone"
+        "pl": "Węzeł, Szycie, Węzeł Przesuwny, Pole Ograniczone",
+        "es": "Nudo, sutura, nudo deslizante, acceso limitado",
+        "zh-cn": "结，缝合，滑动结，有限的进入",
+        "ja": "結び目、縫合、スライディングノット、限定アクセス"
     },
     "description": {
         "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. In this exercise it is the latter. The Advanced Suturing Platform limits the amount of space available. This limitation has a positive impact on laparoscopic technique because it helps develop habits for operating in evenly more constrained space than usual.",
-        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy jest mało miejsca. W tym ćwiczeniu przestrzeń potrzebna do zaciągania jest ograniczona dzięki Zaawansowanej Platformie do Szycia. To ograniczenie ma pozytywny wpływ na naukę techniki laparoskopowej, ponieważ jest ono pomocne w wykształceniu umiejętności operowania w bardziej ograniczonej przestrzeni niż zwykle. Węzeł przesuwny jest tutaj szczególnie pomocny."
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy jest mało miejsca. W tym ćwiczeniu przestrzeń potrzebna do zaciągania jest ograniczona dzięki Zaawansowanej Platformie do Szycia. To ograniczenie ma pozytywny wpływ na naukę techniki laparoskopowej, ponieważ jest ono pomocne w wykształceniu umiejętności operowania w bardziej ograniczonej przestrzeni niż zwykle. Węzeł przesuwny jest tutaj szczególnie pomocny.",
+        "es": "El nudo deslizante es útil cuando los tejidos de destino están más separados o cuando el espacio disponible es limitado. En este ejercicio es este último. La plataforma de sutura avanzada limita la cantidad de espacio disponible. Esta limitación tiene un impacto positivo en la técnica laparoscópica porque ayuda a desarrollar hábitos para operar en un espacio uniformemente más restringido de lo habitual.",
+        "zh-cn": "当靶组织进一步或当可用空间有限时，滑动结是有用的。在这项运动中，它是后者。先进的缝合平台限制了可用的空间量。这种限制对腹腔镜技术产生了积极的影响，因为它有助于开发比平常更受限制的空间均匀的习惯。",
+        "ja": "標的組織がさらに離れているとき、または利用可能な空間が限られているときには、スライド結び目が役立ちます。この演習では後者です。高度な縫合プラットフォームは、利用可能なスペースの量を制限します。この制限は、腹腔鏡技術に積極的な影響を与えます。"
     },
     "instructions": {
         "en": "Take the needle with 10-20 cm of suture material and begin the exercise by removing it from the start position. The Suturing component should be difficult to access with ease due to the Advanced Suturing Platform. Drive the needle through the target tissue and then apply a sliding knot. Note how the sliding knot can be tied above the target tissues and then pulled and tightened onto them. To complete the exercise, cut off the suture and return the needle to the start position.",
-        "pl": "Igła wraz z 10-20 cm nici powinna być podniesiona z pozycji startu i umieszczona pod odpowiednim kątem w imadle. Insert do szycia powinien być trudno dostępny i umieszczony po środku platformy. Po przekłuciu powinien być założony węzeł przesuwny. Warto zwrócić uwagę na sposób w który węzeł przesuwny może być wiązany ponad miejscem docelowym i następnie dociągnięty do niego poprawnie. Aby zakończyć ćwiczenie po poprawnym zaciągnięciu i zawiązaniu węzła, ćwiczący powinien odciąć resztę nici i powrócić z igłą do pozycji startu."
+        "pl": "Igła wraz z 10-20 cm nici powinna być podniesiona z pozycji startu i umieszczona pod odpowiednim kątem w imadle. Insert do szycia powinien być trudno dostępny i umieszczony po środku platformy. Po przekłuciu powinien być założony węzeł przesuwny. Warto zwrócić uwagę na sposób w który węzeł przesuwny może być wiązany ponad miejscem docelowym i następnie dociągnięty do niego poprawnie. Aby zakończyć ćwiczenie po poprawnym zaciągnięciu i zawiązaniu węzła, ćwiczący powinien odciąć resztę nici i powrócić z igłą do pozycji startu.",
+        "es": "Tome la aguja con 10-20 cm de material de sutura y comience el ejercicio eliminándolo desde la posición de inicio. El componente de sutura debe ser difícil de acceder con facilidad debido a la plataforma de sutura avanzada. Conduzca la aguja a través del tejido diana y luego aplique un nudo deslizante. Observe cómo se puede atar el nudo deslizante por encima de los tejidos diana y luego se tira y se aprieta sobre ellos. Para completar el ejercicio, corte la sutura y devuelva la aguja a la posición de inicio.",
+        "zh-cn": "用10-20厘米的缝线材料取向针，通过从起始位置移除它来开始运动。由于先进的缝合平台，缝合元件难以轻松访问。将针穿过目标组织，然后施加滑动结。注意滑动结如何捆绑在目标组织上方，然后拉动并拧紧到它们上面。要完成锻炼，请切断缝合线并将针返回开始位置。",
+        "ja": "10~20センチの縫合材料で針を取り、スタート位置から取り外して運動を始めます。縫合部品は、高度な縫合プラットフォームのために容易にアクセスするのが難しいはずです。針をターゲット組織を通して駆動し、次にスライド結び目を塗ります。スライド結び目をどのように標的組織の上に結び付けてから引き上げてそれらの上に締め付けることができます。運動を完了するには、縫合糸を切り取り、針を始動位置に戻します。"
     },
     "preparation": {
         "en": "Apply the suturing component vertically and the start position to the Basic Suturing Platform below as pictured. Then apply the Advanced Suturing Platform on the top. Both the start position and the target structure should be visible.",
-        "pl": "Insert do szycia powinien być umieszczony w orientacji pionowej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne."
+        "pl": "Insert do szycia powinien być umieszczony w orientacji pionowej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne.",
+        "es": "Aplique el componente de sutura verticalmente y la posición de inicio a la plataforma de sutura básica a continuación se muestra en la imagen. Luego, aplique la plataforma de sutura avanzada en la parte superior. Tanto la posición de inicio como la estructura objetivo deben ser visibles.",
+        "zh-cn": "如图所示，垂直应用缝合组件和启动位置到下面的基本缝合平台。然后在顶部应用高级缝合平台。起始位置和目标结构都应可见。",
+        "ja": "描画部品を縦に垂直方向に貼り付けると、写真のように下の基本的な縫合プラットフォームに適用します。その後、上位の縫合プラットフォームを上に適用します。開始位置とターゲット構造の両方を表示する必要があります。"
     }
 }

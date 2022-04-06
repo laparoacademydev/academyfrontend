@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 147
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 40
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 7
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 98
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 98
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 7
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 40
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Precision Cutting Task",
-        "pl": "Precyzyjne Cięcie"
+        "pl": "Precyzyjne Cięcie",
+        "es": "Tarea de corte de precisión",
+        "zh-cn": "精密切割任务",
+        "ja": "精密切断タスク"
     },
     "skills": {
         "en": "FLS, Scissors,",
-        "pl": "FLS, Cięcie"
+        "pl": "FLS, Cięcie",
+        "es": "Fls, tijeras,",
+        "zh-cn": "弗斯，剪刀，",
+        "ja": "フリス、ハサミ、"
     },
     "description": {
         "en": "In this second exercise of the FLS, skill with laparoscopic scissors and cutting ability is verified. Refer to the video for a detailed tutorial on the most effective approach. The task should be practiced until it can be performed in 98 seconds with all cuts made within the section between the two lines of the training gauze.This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions. ",
-        "pl": "W tym drugim ćwiczeniu FLS sprawdzana jest umiejętność posługiwania się nożyczkami laparoskopowymi i zdolność cięcia. Wideo pokazuje najskuteczniejsze podejście do ćwiczenia. Zadanie powinno być ćwiczone do momentu, gdy będzie można je wykonać w ciągu 98 sekund, ze wszystkimi cięciami wykonanymi w obrębie odcinka między dwoma liniami na materiale. Ten poziom wydajności należy osiągnąć w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. "
+        "pl": "W tym drugim ćwiczeniu FLS sprawdzana jest umiejętność posługiwania się nożyczkami laparoskopowymi i zdolność cięcia. Wideo pokazuje najskuteczniejsze podejście do ćwiczenia. Zadanie powinno być ćwiczone do momentu, gdy będzie można je wykonać w ciągu 98 sekund, ze wszystkimi cięciami wykonanymi w obrębie odcinka między dwoma liniami na materiale. Ten poziom wydajności należy osiągnąć w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. ",
+        "es": "En este segundo ejercicio de los FLS, se verifica la habilidad con las tijeras laparoscópicas y la capacidad de corte. Consulte el video para un tutorial detallado sobre el enfoque más efectivo. La tarea debe practicarse hasta que se pueda realizar en 98 segundos con todos los recortes realizados dentro de la sección entre las dos líneas de la gasa de capacitación. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.",
+        "zh-cn": "在第二次运动中，验证了腹腔镜剪刀和切割能力的技能。有关最有效的方法，请参阅视频以获取详细教程。应实行该任务，直到它可以在98秒内进行，并且在训练纱布两行之间的部分内完成所有切割。这一表现水平应在连续两次重复或最多80次重复。",
+        "ja": "この第二のFLSの運動では、腹腔鏡下のハサミおよび切断能力のスキルが検証されている。最も効果的なアプローチに関する詳細なチュートリアルのビデオを参照してください。このタスクは、トレーニングガーゼの2行の間のセクション内で行われたすべてのカットを使用して98秒で実行できるまで実施する必要があります。このレベルのパフォーマンスのレベルは、2つの連続した繰り返しまたは最大80の繰り返しのために達成されるべきです。"
     },
     "instructions": {
         "en": "The objective of this exercise is to precisely cut out the circle within the time limit of 98 seconds as close to the center line as possible.",
-        "pl": "Celem tego ćwiczenia jest precyzyjne wycięcie koła w czasie 98 sekund jak najbliżej linii środkowej. "
+        "pl": "Celem tego ćwiczenia jest precyzyjne wycięcie koła w czasie 98 sekund jak najbliżej linii środkowej. ",
+        "es": "El objetivo de este ejercicio es cortar con precisión el círculo dentro del límite de tiempo de 98 segundos lo más cerca posible de la línea central.",
+        "zh-cn": "本练习的目的是在98秒内精确地切断圆圈，尽可能靠近中心线。",
+        "ja": "この演習の目的は、できるだけ中心線の近くに98秒の期限内に円を正確に切り出すことです。"
     },
     "preparation": {
         "en": "In this exercise, attach the gauze pad to the Universal Holder Module on all four sides. The gauze pad is two ply and should be stretched out evenly.",
-        "pl": "W tym ćwiczeniu gaza powinna być przymocowana do modułu uniwersalnego uchwytu ze wszystkich czterech stron. Gaza jest dwuwarstwowa i powinna być równomiernie rozciągnięta. "
+        "pl": "W tym ćwiczeniu gaza powinna być przymocowana do modułu uniwersalnego uchwytu ze wszystkich czterech stron. Gaza jest dwuwarstwowa i powinna być równomiernie rozciągnięta. ",
+        "es": "En este ejercicio, fije la almohadilla de gasa al módulo del soporte universal en los cuatro lados. La almohadilla de gasa es de dos capas y debe extenderse uniformemente.",
+        "zh-cn": "在本练习中，将纱布垫连接到全部四个侧面上的通用支架模块。纱布垫是两个层，应该均匀地伸展。",
+        "ja": "この演習では、四方すべての側面のユニバーサルホルダーモジュールにガーゼパッドを取り付けます。ガーゼパッドは2匹のプライであり、均等に引き伸ばすべきです。"
     }
 }

@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 315
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 25
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 210
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 210
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 10
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 25
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Soft Object Manipulation Forward-Back",
-        "pl": "Manipulacja Miękkimi Obiektami Przód-Tył"
+        "pl": "Manipulacja Miękkimi Obiektami Przód-Tył",
+        "es": "Manipulación de objetos blandos adelante",
+        "zh-cn": "软体操纵向前返回",
+        "ja": "ソフトオブジェクト操作フォワードバック"
     },
     "skills": {
         "en": "Instrument Collaboration, Ambidexterity",
-        "pl": "Współpraca Instrumentami, Współpraca Oburęczna"
+        "pl": "Współpraca Instrumentami, Współpraca Oburęczna",
+        "es": "Colaboración del instrumento, Ambidexterity.",
+        "zh-cn": "仪器协作，肢体",
+        "ja": "機器のコラボレーション、Ambidexterity"
     },
     "description": {
         "en": "An important habit which can be developed early in training is to learn to move both instruments together as a unit, throughout any procedure and as often as possible. In this exercise you will learn to do this by moving elastic rubber triangles between pegs forward and back. By moving both instruments as a unit you will avoid focusing too much attention on one instrument while forgetting about the other instrument.",
-        "pl": "Ważnym nawykiem, który można rozwinąć na wczesnym etapie szkolenia, jest nauczenie się poruszania obydwoma instrumentami razem blisko siebie w parze kiedy jest to możliwe. W tym ćwiczeniu trenujący musi przesuwać elastyczne gumowe trójkąty między kołkami Wkładu Napięcia do przodu i do tyłu. Przesuwając oba instrumenty w parze, uczący uniknie skupiania zbyt dużej uwagi na jednym instrumencie i zapominaniu o drugim instrumencie. "
+        "pl": "Ważnym nawykiem, który można rozwinąć na wczesnym etapie szkolenia, jest nauczenie się poruszania obydwoma instrumentami razem blisko siebie w parze kiedy jest to możliwe. W tym ćwiczeniu trenujący musi przesuwać elastyczne gumowe trójkąty między kołkami Wkładu Napięcia do przodu i do tyłu. Przesuwając oba instrumenty w parze, uczący uniknie skupiania zbyt dużej uwagi na jednym instrumencie i zapominaniu o drugim instrumencie. ",
+        "es": "Un hábito importante que se puede desarrollar temprano en la capacitación es aprender a mover ambos instrumentos juntos como una unidad, a lo largo de ningún procedimiento y con la mayor frecuencia posible. En este ejercicio, aprenderá a hacer esto moviendo los triángulos de caucho elásticos entre las clavijas hacia adelante y hacia atrás. Al mover ambos instrumentos como una unidad, evitará centrarse con demasiada atención en un instrumento mientras olvidó el otro instrumento.",
+        "zh-cn": "可以在培训时提前开发的重要习惯是学会在任何程序和尽可能频繁的情况下将两个仪器作为单位移动。在本练习中，您将学会通过将弹性橡胶三角形移动到前后挂钩之间进行。通过将两个仪器移动为单位，您将避免在忘记其他仪器时关注过多的注意。",
+        "ja": "訓練の早期に開発される可能性がある重要な習慣は、どんな手順でも可能な限り頻繁に、両方の機器を単位として移動することを学ぶことです。この演習では、PEGの前後の弾性ゴムの三角形を動かすことでこれを行うことを学ぶでしょう。両方の器具をユニットとして移動することによって、他の楽器を忘れながら1つの機器にあまりにも多くの注意を集中させないようにします。"
     },
     "instructions": {
         "en": "Begin this exercise by lifting the middle triangle with both instruments. Place it on the peg at the top. Then move the bottom 4 triangles one by one to the top pegs and finally move the last middle triangle to the top peg. Then do this in the reverse order, moving up and down back to the starting positions. At all times try to hold the triangles with both instruments simultaneously. ",
-        "pl": "Rozpocznij to ćwiczenie od podniesienia środkowego trójkąta obydwoma instrumentami. Umieść go na kołku u góry. Następnie przenoś kolejno 4 dolne trójkąty na górę i na koniec przenieś ostatni środkowy trójkąt na górny kołek. Następnie wykonaj to odwrotnej kolejności przenosząc góra-dół spowrotem na pozycje startowe. Przez cały czas staraj się trzymać trójkąty obydwoma instrumentami symultanicznie. "
+        "pl": "Rozpocznij to ćwiczenie od podniesienia środkowego trójkąta obydwoma instrumentami. Umieść go na kołku u góry. Następnie przenoś kolejno 4 dolne trójkąty na górę i na koniec przenieś ostatni środkowy trójkąt na górny kołek. Następnie wykonaj to odwrotnej kolejności przenosząc góra-dół spowrotem na pozycje startowe. Przez cały czas staraj się trzymać trójkąty obydwoma instrumentami symultanicznie. ",
+        "es": "Comience este ejercicio levantando el triángulo medio con ambos instrumentos. Colóquelo en la clavija en la parte superior. Luego, mueva la parte inferior 4 triángulos uno por uno a las clavijas superiores y finalmente mueva el último triángulo medio a la clavija superior. Luego haga esto en el orden inverso, moviéndose hacia arriba y hacia abajo a las posiciones iniciales. En todo momento, trate de mantener los triángulos con ambos instrumentos simultáneamente.",
+        "zh-cn": "通过用两种仪器提升中间三角形来开始此练习。将它放在顶部的钉子上。然后将底部4三角形逐一移动到顶部栓钉，最后将最后一个中间三角形移动到顶部钉。然后以相反的顺序执行此操作，向上和向下移动回到起始位置。有时尝试同时使用两个仪器握住三角形。",
+        "ja": "両方の機器で中央の三角形を持ち上げることでこの運動を始めます。上部にペグに置きます。次に、底部4の三角形を1つずつ移動し、最後に最後の中央の三角形を上部ペグに移動します。その後、これを逆の順序で行い、開始位置に上下に移動します。常に、両方の機器と同時に三角形を保持してみてください。"
     },
     "preparation": {
         "en": "Place 4 triangles on the four outermost pegs on the bottom of the module. Then place 2 triangles on the remaining center peg.",
-        "pl": "Umieść 4 trójkąty na czterech skrajnych kołkach na dole modułu. Następnie umieść 2 trójkąty na pozostałym kołku środkowym. "
+        "pl": "Umieść 4 trójkąty na czterech skrajnych kołkach na dole modułu. Następnie umieść 2 trójkąty na pozostałym kołku środkowym. ",
+        "es": "Coloque 4 triángulos en las cuatro clavijas más externas en la parte inferior del módulo. Luego coloque 2 triángulos en la clavija central restante.",
+        "zh-cn": "将4个三角形放在模块底部的四个最外侧钉上。然后将2个三角形放在剩余的中心钉上。",
+        "ja": "モジュールの下部にある4つの最も外側のペグに4つの三角形を置きます。それから残りのセンターペグに2つの三角形を置きます。"
     }
 }

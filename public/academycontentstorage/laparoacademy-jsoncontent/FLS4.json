@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 204
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 136
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 136
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Suture with Extracorporeal Knot Task",
-        "pl": "Zadanie z Szyciem Pozaustrojowym"
+        "pl": "Zadanie z Szyciem Pozaustrojowym",
+        "es": "Suture con tarea de nudo extracorpóreo.",
+        "zh-cn": "缝合与体外结任务",
+        "ja": "体外結び目による縫合糸"
     },
     "skills": {
         "en": "FLS, Suturing, Extracorporeal Knot",
-        "pl": "FLS, Szycie, Węzeł Pozaustrojowy"
+        "pl": "FLS, Szycie, Węzeł Pozaustrojowy",
+        "es": "FLS, sutura, nudo extracorpóreo.",
+        "zh-cn": "FLS，缝合，体外结",
+        "ja": "FLS、縫合、体外結び目"
     },
     "description": {
         "en": "The point of this exercise is to demonstrate the ability to draw the needle through the target structure and then pull out the suture material so that it is possible to create the knot outside of the operating area on the trocar. A properly made roeder's knot can then be brought inside through the trocar and pulled onto the target structure. This does not require any intracorporeal laparoscopic suturing skill.",
-        "pl": "Celem ćwiczenia jest zademonstrowanie umiejętności przeciągania igły przez strukturę docelową, a następnie wyciągania nici tak, aby możliwe było utworzenie węzła poza obszarem operacyjnym na trokarze. Prawidłowo wykonany węzeł może być następnie wprowadzony do środka przez trokar i naciągnięty przy pomocy disektora na docelową strukturę. Nie wymaga to żadnej umiejętności szycia laparoskopowego. "
+        "pl": "Celem ćwiczenia jest zademonstrowanie umiejętności przeciągania igły przez strukturę docelową, a następnie wyciągania nici tak, aby możliwe było utworzenie węzła poza obszarem operacyjnym na trokarze. Prawidłowo wykonany węzeł może być następnie wprowadzony do środka przez trokar i naciągnięty przy pomocy disektora na docelową strukturę. Nie wymaga to żadnej umiejętności szycia laparoskopowego. ",
+        "es": "El punto de este ejercicio es demostrar la capacidad de dibujar la aguja a través de la estructura diana y luego sacar el material de sutura para que sea posible crear el nudo fuera del área de operación en el trocar. Se puede llevar un nudo de ROEDER correctamente hecho a través del trocar y se detuvo en la estructura objetivo. Esto no requiere ninguna habilidad de sutura laparoscópica intracorpórea.",
+        "zh-cn": "本练习的重点是展示将针通过目标结构绘制的能力，然后拉出缝合材料，使得可以在套管针上的操作区域外部形成结。然后可以通过户轨道进入适当的鸡型山的结并拉到目标结构。这不需要任何体内腹腔镜缝合技能。",
+        "ja": "この運動の点は、ターゲット構造を通して針を描き、次いで縫合糸材料を引き出すことができるように縫合材料を引き出すことである。その後、適切に作られたROEDERの結び目をトロカールを通して内側に持ち運び、目標構造に引き上げることができます。これは体内腹腔鏡下縫合スキルを必要としません。"
     },
     "instructions": {
         "en": "First, insert the needle with the needle holder into the operating area through the trocar while leaving the rest of the suture material outside. Use the needle holder to perform a single throw and then pull this end along with the needle out through the trocar. As a result two loose ends of suture material should be outside of the trocar. Now the needle can be cut off and a roeder loop can be tied on the trocar itself. A dissector or knot-pusher may be used to now push this knot back through the trocar and onto the target tissue. The task should be practiced until it can be performed in 136 seconds with up to 1mm accuracy errors. This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions.",
-        "pl": "Najpierw należy wprowadzić igłę przy pomocy imadła do obszaru operacyjnego przez trokar, pozostawiając resztę nici na zewnątrz. Imadło powinno być użyte aby wykonać pojedyncze przekłucie, a następnie nić wraz z igłą powinna zostać wyciągnięta przez trokar. W rezultacie dwie luźne końcówki nici powinny znajdować się poza trokarem. Teraz możliwe będzie odcięcie igły i zawiązanie pętelkę na trokar. Do przepchnięcia tego węzła z powrotem przez trokar i na tkankę docelową można teraz użyć disektora lub popychacza węzła. Zadanie należy ćwiczyć, aż będzie można je wykonać w 136 sekund z błędami dokładności do 1 mm. Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. "
+        "pl": "Najpierw należy wprowadzić igłę przy pomocy imadła do obszaru operacyjnego przez trokar, pozostawiając resztę nici na zewnątrz. Imadło powinno być użyte aby wykonać pojedyncze przekłucie, a następnie nić wraz z igłą powinna zostać wyciągnięta przez trokar. W rezultacie dwie luźne końcówki nici powinny znajdować się poza trokarem. Teraz możliwe będzie odcięcie igły i zawiązanie pętelkę na trokar. Do przepchnięcia tego węzła z powrotem przez trokar i na tkankę docelową można teraz użyć disektora lub popychacza węzła. Zadanie należy ćwiczyć, aż będzie można je wykonać w 136 sekund z błędami dokładności do 1 mm. Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. ",
+        "es": "Primero, inserte la aguja con el soporte de la aguja en el área de operación a través del trocar mientras sale del resto del material de sutura afuera. Use el soporte de la aguja para realizar un solo lanzamiento y luego tire de este extremo junto con la aguja a través del trocar. Como resultado, los dos extremos sueltos del material de sutura deben estar fuera del trocar. Ahora la aguja se puede cortar y un bucle Roeder puede estar atado en el propio Trocar. Se puede usar un disector o un empujador de nudos para empujar este nudo a través del trocar y en el tejido objetivo. La tarea debe practicarse hasta que se pueda realizar en 136 segundos con errores de precisión de hasta 1 mm. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.",
+        "zh-cn": "首先，通过套管针将用针支架插入手持式区域，同时留下缝合材料的其余部分。使用针头执行单次掷漏，然后通过套管针将此与针一起拉出。结果，缝合材料的两个松散端应在套管针的外部。现在，针可以切断，罗德圈可以捆绑在套管针上。分插仪或结吹气可用于现在将该结通过套管针和靶组织推回。应练习任务，直到可以在136秒内执行高达1毫米的准确误差。这种性能应在连续两次重复或最多80重复上实现。",
+        "ja": "まず、残りの縫合糸材料を外側に残しながら、針ホルダーをトロカールを通して操作領域に挿入します。ニードルホルダーを使用して単一の投げを実行してから、この端を針からトロカールから引き抜きます。結果として、縫合材料の2つの緩い端部はトロカールの外側にあるべきです。これで針を切り取ることができ、ローダーループをトロカール自体に結び付けることができます。解剖または結節プッシャを使用して、この結び目をトロカールを通って標的組織上に押し戻すために使用することができる。タスクは、最大1mmの正確さエラーで136秒で実行できるまで行われるべきです。このレベルのパフォーマンスは、2つの連続した繰り返しまたは最大80の繰り返しで達成されるべきです。"
     },
     "preparation": {
         "en": "Before performing this exercise ensure that the selected needle is capable of being drawn through the trocar. If not, either select a different needle, or use the needle holder to straighten the needle available. The FLS suturing module should be placed inside the trainer with the penrose drain attached by velcro.",
-        "pl": "Przed wykonaniem tego ćwiczenia upewnić się, że wybrana igła może zostać przeciągnięta przez trokar. Jeśli nie, wybierz inną igłę lub użyj uchwytu igły, aby wyprostować dostępną igłę. Moduł do szycia FLS poiwnien być umieszczony centralnie z drenem penrosa przymocowanym za pomocą rzepu."
+        "pl": "Przed wykonaniem tego ćwiczenia upewnić się, że wybrana igła może zostać przeciągnięta przez trokar. Jeśli nie, wybierz inną igłę lub użyj uchwytu igły, aby wyprostować dostępną igłę. Moduł do szycia FLS poiwnien być umieszczony centralnie z drenem penrosa przymocowanym za pomocą rzepu.",
+        "es": "Antes de realizar este ejercicio, asegúrese de que la aguja seleccionada sea capaz de ser dibujada a través del trocar. Si no, seleccione una aguja diferente, o use el soporte de la aguja para enderezar la aguja disponible. El módulo de sutura de FLS debe colocarse dentro del entrenador con el drenaje de penrose conectado por Velcro.",
+        "zh-cn": "在进行该练习之前，请确保所选择的针能够通过套管针绘制。如果没有，请选择不同的针，或者使用针架伸直针可用的针头。缝合缝合模块应放置在培训师内，通过Velcro附加的Penrose排水管。",
+        "ja": "この演習を実行する前に、選択した針がトロカールを通して描かれていることを確認してください。そうでない場合は、別の針を選択するか、針ホルダーを使用して針をまっすぐにしてください。 FLS縫合モジュールは、Penrose Drainがベルクロで取り付けられたトレーナーの内側に配置する必要があります。"
     }
 }

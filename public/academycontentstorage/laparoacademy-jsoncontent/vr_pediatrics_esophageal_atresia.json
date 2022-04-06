@@ -1,0 +1,191 @@
+{
+    "id": "vr_pediatrics_esophageal_atresia",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "angle": 30,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": ".png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": ".png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                9
+            ]
+        }
+    },
+    "drawerConfig": {
+        "main1mm": 120,
+        "main2mm": 120,
+        "plat1deg": 10,
+        "plat2deg": 12
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {
+            "position": 2
+        },
+        "Advance": {
+            "position": 2
+        },
+        "xPosition_mm": 0,
+        "yPosition_mm": 120,
+        "angle_deg": 0,
+        "height_mm": 12
+    },
+    "vrConfig": {
+        "scene": "EsophagealAtresia",
+        "scenario": ""
+    },
+    "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "dissector",
+        "scissors"
+    ],
+    "name": {
+        "en": "Esophageal Atresia",
+        "pl": "Atrezja przełyku",
+        "es": "Atresia esofágica",
+        "zh-cn": "食管休息室",
+        "ja": "食道atresia"
+    },
+    "skills": {
+        "en": "Procedure, Pediatrics",
+        "pl": "Procedure, Pediatrics",
+        "es": "Procedimiento, Pediatría",
+        "zh-cn": "程序，儿科",
+        "ja": "手順、小児科"
+    },
+    "description": {},
+    "instructions": {},
+    "preparation": {}
+}

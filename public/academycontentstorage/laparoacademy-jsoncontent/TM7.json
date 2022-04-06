@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 450
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 11
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 300
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 300
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 11
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 50
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Draw-Through with Obscurity",
-        "pl": "Przewlekanie przez Elementy Zasłonięte"
+        "pl": "Przewlekanie przez Elementy Zasłonięte",
+        "es": "Dibujar con oscuridad",
+        "zh-cn": "用默默无础",
+        "ja": "曖昧さを伴う描画"
     },
     "skills": {
         "en": "Suturing",
-        "pl": "Szycie"
+        "pl": "Szycie",
+        "es": "Sutura",
+        "zh-cn": "缝合",
+        "ja": "縫合"
     },
     "description": {
         "en": "This final Basic Skills exercise is an expansion of the ideas presented earlier. By guiding the twine through these complex shapes you will demonstrate that you have developed sufficient skill in moving and manipulating laparoscopic instruments. ",
-        "pl": "To ostatnie ćwiczenie w kursie Podstawowych Umiejętności jest rozwinięciem pomysłów przedstawionych wcześniej. Prowadząc sznurek przez te skomplikowane kształty, trenujący pokaże, że posiada wystarczająco dużo umiejętności w poruszaniu i manipulowaniu instrumentami laparoskopowymi. "
+        "pl": "To ostatnie ćwiczenie w kursie Podstawowych Umiejętności jest rozwinięciem pomysłów przedstawionych wcześniej. Prowadząc sznurek przez te skomplikowane kształty, trenujący pokaże, że posiada wystarczająco dużo umiejętności w poruszaniu i manipulowaniu instrumentami laparoskopowymi. ",
+        "es": "Este ejercicio final de habilidades básicas es una expansión de las ideas presentadas anteriormente. Al guiar a la cordalia a través de estas formas complejas, usted demostrará que ha desarrollado una habilidad suficiente para mover y manipular instrumentos laparoscópicos.",
+        "zh-cn": "这种最终的基本技能练习是提前提出的想法的扩展。通过通过这些复杂形状引导麻线，您将证明您已经开发了足够的技能和操纵腹腔镜仪器。",
+        "ja": "この最終的な基本的なスキルの演習は、以前に提示されたアイデアの拡大です。これらの複雑な形を通してひもを案内することによって、腹腔鏡器具の移動と操作のための十分なスキルを開発したことを実証します。"
     },
     "instructions": {
         "en": "Create an M shape going between holes of posts at the top. Begin with the twine in starting position and remove in the beginning. Then place the twine in the bottom hole of the far left post. Pull through twine and draw through the tip of the next far left post. Then pull the twine down, between the green rubber band and into the bottom hole of the center post. Avoid jolts and sudden movements and push through portions of the twine. Pull the twine between the next rubber bands and insert into the hole on the top of the near-right post. Complete the exercise by pushing the tip of the twine into the bottom hole of the remaining far right post.",
-        "pl": "Utwórz docelowo kształt M przechodzący pomiędzy otworami słupków u góry. Rozpocznij od sznurka w pozycji wyjściowej i usuń. Następnie umieść sznurek w dolnym otworze skrajnego lewego słupka. Przeciągnij sznurek i przeciągnij przez wierzchołek następnego lewego słupka. Następnie pociągnij sznurek w dół, między zieloną gumką i do dolnego otworu słupka środkowego. Unikaj szarpnięć i gwałtownych ruchów oraz przepychaj fragmenty sznurka. Przeciągnij sznurek pomiędzy kolejnymi gumkami i włóż do otworu na górze prawego słupka, tym razem od tyłu. Zakończ ćwiczenie, wpychając końcówkę sznurka w dolny otwór pozostałego skrajnego prawego słupka. "
+        "pl": "Utwórz docelowo kształt M przechodzący pomiędzy otworami słupków u góry. Rozpocznij od sznurka w pozycji wyjściowej i usuń. Następnie umieść sznurek w dolnym otworze skrajnego lewego słupka. Przeciągnij sznurek i przeciągnij przez wierzchołek następnego lewego słupka. Następnie pociągnij sznurek w dół, między zieloną gumką i do dolnego otworu słupka środkowego. Unikaj szarpnięć i gwałtownych ruchów oraz przepychaj fragmenty sznurka. Przeciągnij sznurek pomiędzy kolejnymi gumkami i włóż do otworu na górze prawego słupka, tym razem od tyłu. Zakończ ćwiczenie, wpychając końcówkę sznurka w dolny otwór pozostałego skrajnego prawego słupka. ",
+        "es": "Crea una forma de M ida entre los orificios de las publicaciones en la parte superior. Comience con la cordel en la posición inicial y retire al principio. Luego coloque la cordel en el orificio inferior del posterior izquierdo lejano. Tire de la cordita y atrae la punta del siguiente posterior izquierdo. Luego, tire del guito hacia abajo, entre la banda de goma verde y hacia el orificio inferior de la publicación central. Evite las sacudidas y los movimientos repentinos y empuje porciones de la cordel. Tire del cordel entre las siguientes bandas de goma e inserte en el orificio en la parte superior del poste cercano a la derecha. Complete el ejercicio presionando la punta de la cordera hacia el orificio inferior del poste extremadamente derecho restante.",
+        "zh-cn": "在顶部的帖子孔之间创建一个m形状。从起始位置开始缠绕并在开始时删除。然后将麻线放在最左侧柱的底部孔中。通过缠绕并绘制下一个远左柱的尖端。然后将麻线拉下来，在绿色橡皮筋和中心柱的底部孔之间。避免搅拌和突然移动，并推动缠绕的部分。将缠绕在下一个橡皮筋之间，并插入近右柱顶部的孔中。通过将麻线的尖端推入剩余的远方右柱的底部孔来完成练习。",
+        "ja": "上部の投稿の穴の間に行くM字形を作成します。開始位置のひもで始めて、最初に取り外します。それから遠くの投稿の底穴にひもを置きます。ひもを引っ張り、次の左の投​​稿の先端を描きます。次に、緑色のゴムバンドとセンターポストの底穴の間に蝶歯を引き下げます。ジョルトや突然の動きを避け、ひもの一部を押します。次のゴムバンドの間にひもを引っ張り、右側の右側の穴の上に挿入します。蝶番の先端を残りの右側の投稿の底穴に押し込むことで運動を完了してください。"
     },
     "preparation": {
         "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
-        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+        "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
+        "es": "Aplique 4 bandas de goma entre las clavijas superior e inferior. Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
+        "zh-cn": "在顶部和底部钉之间涂抹4个橡皮筋。将单块缠绕放入张力模块的底部中心栓的孔中。",
+        "ja": "上部と下のペグの間に4つのゴムバンドを塗ります。緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
     }
 }

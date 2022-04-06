@@ -1,0 +1,190 @@
+{
+    "id": "vr_hysterectomy_tlh_full",
+    "cameraConfig": {
+        "Apex": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Analytic": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "Advance": {
+            "angle": 0,
+            "brigthness": 1
+        },
+        "angle": 0,
+        "brigthness": 1
+    },
+    "trocarsConfig": {
+        "configurations": [
+            {
+                "backgroundUrl": "appendectomy_background.png",
+                "places": [
+                    1,
+                    3,
+                    7
+                ]
+            }
+        ],
+        "Apex": {
+            "backgroundUrl": "appendectomy_background.png",
+            "places": [
+                1,
+                3,
+                7
+            ]
+        },
+        "Analytic": {},
+        "Advance": {}
+    },
+    "drawerConfig": {
+        "main1mm": 0,
+        "main2mm": 0,
+        "plat1deg": 0,
+        "plat2deg": 0
+    },
+    "tableConfig": {
+        "Apex": {
+            "xPosition_mm": 0,
+            "yPosition_mm": 0,
+            "angle_deg": 0,
+            "height_mm": 0
+        },
+        "Analytic": {},
+        "Advance": {},
+        "xPosition_mm": 0,
+        "yPosition_mm": 0,
+        "angle_deg": 0,
+        "height_mm": 0
+    },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "TLH"
+    },
+    "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
+    "isVR": true,
+    "allowedInstruments": [
+        "grasper",
+        "ligasure",
+        "hook",
+        "bipolargrasper",
+        "harmonicscalpel",
+        "scissors"
+    ],
+    "name": {
+        "en": "Full Procedure - Total Hysterectomy",
+        "pl": "Cały Zabieg - Histerektomia Całkowita VR",
+        "es": "Procedimiento completo - Histerectomía total",
+        "zh-cn": "完整程序 - 总话题切除术",
+        "ja": "完全手術 - 総子宮切除術"
+    },
+    "skills": {
+        "en": "Procedure, Hysterectomy, VR, Gynecology",
+        "pl": "Procedura, Histerektomia, VR, Ginekologia",
+        "es": "Procedimiento, Histerectomía, VR, Ginecología",
+        "zh-cn": "程序，子宫切除术，VR，妇科",
+        "ja": "手順、子宮摘出術、VR、婦人科"
+    },
+    "description": {
+        "en": "In this virtual reality exercise the objective is to perform an entire total laparoscopic hysterectomy starting with cutting the ligaments between the uterus and the ovaries, and finishing just before the removal of the uterus. ",
+        "pl": "Celem tego ćwiczenia jest wykonanie całkowitej histerektomii metodą laparoskopową w wirtualnej rzeczywistości. Zabieg rozpoczyna się od przecięcia ligamentów pomiędzy macicą a jajnikami, i kończy się zaraz przed całkowitym usunięciem macicy.",
+        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una histerectomía laparoscópica total de la ladaroscópica que comienza con cortar los ligamentos entre el útero y los ovarios, y el acabado justo antes de la eliminación del útero.",
+        "zh-cn": "在这种虚拟现实运动中，目的是在切割子宫和卵巢之间切割韧带的整个腹腔镜子宫切除术，并在去除子宫之前完成。",
+        "ja": "この仮想現実感の演習では、目的は、子宮と卵巣の間の靭帯を切断して始めて全体的な腹腔鏡視神腸切除術を行い、子宮を除去する直前に仕上げることである。"
+    },
+    "instructions": {
+        "en": "First, coagulate and then cut the left round ligament between the uterus and ovaries. Then, do the same for the other side. Remember to use the uterine manipulator to create sufficient tension on the target tissues. Next, layer by layer, coagulate and cut the peritoneal tissue on the anterior side of the uterus and follow with the posterior side of the uterus below. The exercise is complete when the blue uterine manipulator is visible on all sides of the uterus.",
+        "pl": "Najpierw koaguluj oraz przetnij wiązadło obłe pomiędzy macicą a jajnikami. Następnie zrób to samo dla drugiej strony. Pamiętaj, aby używać manipulatora macicy w taki sposób aby wytworzyć wystarczające napięcie na tkankach docelowych. Po przecięciu więzadeł koaguluj i przecinaj tkanki otrzewnowe powyżej i poniżej macicy. Ćwiczenie będzie zakończone kiedy niebieski manipulator macicy zostanie uwidoczniony z każdej strony i wszystkie tkanki łączące zostaną odseparowane od macicy.",
+        "es": "Primero, coagule y luego corte el ligamento redondo izquierdo entre el útero y los ovarios. Luego, haz lo mismo por el otro lado. Recuerde usar el manipulador uterino para crear suficiente tensión en los tejidos diana. A continuación, la capa por capa, coagule y corte el tejido peritoneal en el lado anterior del útero y siga con el lado posterior del útero a continuación. El ejercicio se completa cuando el manipulador ulterino azul es visible en todos los lados del útero.",
+        "zh-cn": "首先，凝结，然后切割子宫和卵巢之间的左圆形韧带。然后，对另一边做同样的事情。记得使用子宫机械手在目标组织上产生足够的张力。接下来，通过层层，凝结和切割子宫前侧的腹膜组织，并在下面的子宫后侧遵循。当蓝耳操纵器在子宫的所有侧面可见时，运动是完整的。",
+        "ja": "まず、子宮と卵巣の間の左丸靭帯を凝固させてから切断します。その後、反対側で同じことをしてください。ターゲット組織に十分な張力を作り出すために子宮マニピュレータを使用することを忘れないでください。次に、層別層、子宮の前面上の腹膜組織を凝固させて切断し、下の子宮の後側に続く。青い子宮マニピュレータが子宮のすべての側に見えるとき、運動は完了です。"
+    },
+    "preparation": {}
+}

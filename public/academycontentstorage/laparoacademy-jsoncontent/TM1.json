@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 270
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 180
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 180
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Intro to Tension",
-        "pl": "Wprowadzenie do Napięcia"
+        "pl": "Wprowadzenie do Napięcia",
+        "es": "Introducción a la tensión",
+        "zh-cn": "介绍张力",
+        "ja": "緊張へのイントロ"
     },
     "skills": {
         "en": "Elasticity, Instrument Collaboration, Ambidexterity",
-        "pl": "Elastyczność, Współpraca Instrumentami, Współpraca Oburęczna"
+        "pl": "Elastyczność, Współpraca Instrumentami, Współpraca Oburęczna",
+        "es": "Elasticidad, colaboración del instrumento, ambidixteridad.",
+        "zh-cn": "弹性，仪器协作，肢体",
+        "ja": "弾力性、機器のコラボレーション、Ambidextality"
     },
     "description": {
         "en": "In this exercise you will learn how to manipulate elastic objects. The length of the instrument shaft on both sides of the fulcrum point at the trocar will influence how much force you have to apply to the instrument for the rubber band to stretch. The deeper you insert the instrument, the more force you must apply and vice versa.",
-        "pl": "W tym ćwiczeniu nauczysz się manipulować obiektami elastycznymi. Długość instrumentu po obu stronach punktu podparcia na trokarze wpływa na to, jaką siłę należy przykładać do instrumentu, aby gumka się rozciągnęła. Im głębiej wkładasz instrument, tym większą siłę musisz przyłożyć i na odwrót. "
+        "pl": "W tym ćwiczeniu nauczysz się manipulować obiektami elastycznymi. Długość instrumentu po obu stronach punktu podparcia na trokarze wpływa na to, jaką siłę należy przykładać do instrumentu, aby gumka się rozciągnęła. Im głębiej wkładasz instrument, tym większą siłę musisz przyłożyć i na odwrót. ",
+        "es": "En este ejercicio aprenderás a manipular objetos elásticos. La longitud del eje del instrumento en ambos lados del punto de apoyo en el trocar influirá en la cantidad de fuerza que tiene que aplicar al instrumento para que la banda de goma se estire. Cuanto más profundo inserte el instrumento, más fuerza debe aplicar y viceversa.",
+        "zh-cn": "在这项运动中，您将学习如何操纵弹性物体。套管针在特征点的支点两侧的仪器轴的长度将影响您必须向橡皮筋施加到仪器的仪器伸展多少力。您插入仪器的更深，必须申请的力量越多，反之亦然。",
+        "ja": "この演習では、弾性オブジェクトを操作する方法を学びます。トロカールの支点ポイントの両側の機器シャフトの長さは、ゴムバンドのための機器に適用されなければならない力の量に影響を与えます。あなたが楽器を挿入するより深いほど、あなたが適用しなければならない力が増え、その逆も同様です。"
     },
     "instructions": {
         "en": "Move three rubber bands from posts at the bottom to the top starting with the middle one, and then all three back, finishing with middle one. Hold the rubber band with both instruments from beginning until end. This exercise teaches the basic manipulation of elastic objects as well as moving instruments together as a unit.",
-        "pl": "Przenieś trzy gumki ze słupków na dole na górę, zaczynając od środkowego, a następnie wszystkie trzy z powrotem, kończąc na środkowym. Trzymaj gumkę obydwoma instrumentami od początku do końca. To ćwiczenie uczy podstawowych manipulacji obiektami elastycznymi, jak i poruszania się wewnątrz pola operacyjnego instrumentami razem."
+        "pl": "Przenieś trzy gumki ze słupków na dole na górę, zaczynając od środkowego, a następnie wszystkie trzy z powrotem, kończąc na środkowym. Trzymaj gumkę obydwoma instrumentami od początku do końca. To ćwiczenie uczy podstawowych manipulacji obiektami elastycznymi, jak i poruszania się wewnątrz pola operacyjnego instrumentami razem.",
+        "es": "Mueva tres bandas de goma desde las publicaciones en la parte inferior hasta la parte superior, comenzando con el medio, y luego las tres vueltas, terminando con la media. Sostenga la banda de goma con ambos instrumentos desde el principio hasta el final. Este ejercicio enseña la manipulación básica de los objetos elásticos, así como los instrumentos en movimiento juntos como una unidad.",
+        "zh-cn": "从底部到顶部的柱子从中间的柱子移动三个橡皮筋，然后用中间的三个背部，用中间完成。用两个仪器握住橡皮筋，从头到尾。该练习教导了弹性物体的基本操纵以及作为一个单位的移动仪器。",
+        "ja": "真ん中のものから頂部の頂上までの3つのゴムバンドを真ん中に移動し、次に3つすべての後ろに、中央のもので仕上げます。両方の器具を最初から最後まで両方の機器でゴムバンドを保持してください。この運動は、弾性物体の基本的な操作、ならびに機器を単位として一緒に動かすことを教示しています。"
     },
     "preparation": {
         "en": "Place three rubber bands onto the Tension Module between the posts at the bottom. Place two rubber bands first between the posts in the corners and then one rubber band on the triangle at the bottom.",
-        "pl": "Umieść trzy gumki na Module Napięcia. Najpierw umieść dwie gumki pomiędzy słupkami w rogach, a następnie jedną gumkę na trójkącie na środku. "
+        "pl": "Umieść trzy gumki na Module Napięcia. Najpierw umieść dwie gumki pomiędzy słupkami w rogach, a następnie jedną gumkę na trójkącie na środku. ",
+        "es": "Coloque tres bandas de goma en el módulo de tensión entre las publicaciones en la parte inferior. Coloque dos bandas de goma primero entre las publicaciones en las esquinas y luego una banda de goma en el triángulo en la parte inferior.",
+        "zh-cn": "将三个橡胶带放在底部的柱之间的张力模块上。首先在拐角处的柱之间放置两个橡皮筋，然后在底部的三角形上的一个橡皮筋。",
+        "ja": "底部のポストの間に3つのゴムバンドをテンションモジュールに置きます。角のポストと下の三角形の1つのゴムバンドの間に最初に2つのゴムバンドを置きます。"
     }
 }

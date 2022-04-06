@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 450
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 45
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 12
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 300
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 300
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 12
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 45
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Soft Object Manipulation Left-Right",
-        "pl": "Manipulacja Miękkimi Obiektami Lewo-Prawo "
+        "pl": "Manipulacja Miękkimi Obiektami Lewo-Prawo ",
+        "es": "Manipulación de objetos blandos izquierda a derecha",
+        "zh-cn": "左右软物体操纵",
+        "ja": "柔らかいオブジェクトの操作左右"
     },
     "skills": {
         "en": "Instrument Collaboration, Ambidexterity",
-        "pl": "Współpraca Instrumentami, Współpraca Oburęczna"
+        "pl": "Współpraca Instrumentami, Współpraca Oburęczna",
+        "es": "Colaboración del instrumento, Ambidexterity.",
+        "zh-cn": "仪器协作，肢体",
+        "ja": "機器のコラボレーション、Ambidexterity"
     },
     "description": {
         "en": "The habit of moving both instruments in the operating area together is very useful but it can be difficult to move left to right as each instrument is extended from different fulcrum points. In this exercise you will repeat the earlier exercise but move rubber triangles left-right and back. ",
-        "pl": "Przyzwyczajenie do poruszania obydwoma instrumentami razem w parze w obszarze operacyjnym jest bardzo przydatne, ale może być też utrudnione przy poruszaniu się od lewej do prawej, ponieważ każdy instrument ma oddalone od siebie punkty podparcia. W tym ćwiczeniu ćwiczone jest poruszanie trójkątami w kierunku lewo-prawo."
+        "pl": "Przyzwyczajenie do poruszania obydwoma instrumentami razem w parze w obszarze operacyjnym jest bardzo przydatne, ale może być też utrudnione przy poruszaniu się od lewej do prawej, ponieważ każdy instrument ma oddalone od siebie punkty podparcia. W tym ćwiczeniu ćwiczone jest poruszanie trójkątami w kierunku lewo-prawo.",
+        "es": "El hábito de mover ambos instrumentos en el área de operación es muy útil, pero puede ser difícil moverse de izquierda a derecha, ya que cada instrumento se extiende desde diferentes puntos de fulcrum. En este ejercicio, repetirá el ejercicio anterior, pero moverá los triángulos de goma a la izquierda a la derecha y hacia atrás.",
+        "zh-cn": "将两个仪器在操作区域中移动的习惯非常有用，但由于每个仪器从不同的支点延伸，因此难以向右移动。在这项运动中，您将重复较早的锻炼，但左右移动橡胶三角形。",
+        "ja": "操作領域内の両方の機器を一緒に移動させる習慣は非常に便利ですが、各機器が異なる支点から延長されるにつれて左から右へ移動するのは難しい場合があります。この演習では、以前の演習を繰り返すが、ラバー三角形を左右に移動する。"
     },
     "instructions": {
         "en": "Move 6 rubber triangles from the slots on the left side, to the right side and then back. For the first half, lift them with the left instrument and hand over to the right instrument and in the second half do the opposite. When placing in the slot, use the free instrument to push the triangles in.",
-        "pl": "Przesuń 6 gumowych trójkątów z otworów po lewej stronie, na prawą i z powrotem. W pierwszej połowie podnieś je lewym instrumentem i przekaż prawemu instrumentowi a w drugiej prawym przekazując leewemu. Podczas umieszczania w otworze użyj wolnego instrumentu, aby wepchnąć trójkąty. "
+        "pl": "Przesuń 6 gumowych trójkątów z otworów po lewej stronie, na prawą i z powrotem. W pierwszej połowie podnieś je lewym instrumentem i przekaż prawemu instrumentowi a w drugiej prawym przekazując leewemu. Podczas umieszczania w otworze użyj wolnego instrumentu, aby wepchnąć trójkąty. ",
+        "es": "Mueva 6 triángulos de goma de las ranuras del lado izquierdo, hacia el lado derecho y luego hacia atrás. Para la primera mitad, levántelos con el instrumento izquierdo y entregue el instrumento correcto y en la segunda mitad haga lo contrario. Al colocarlo en la ranura, use el instrumento gratuito para presionar los triángulos.",
+        "zh-cn": "将6个橡胶三角形从左侧的插槽移动到右侧，然后返回。上半场，用左仪器抬起它们并将其移交到右侧仪器，在下半部分做相反。放置在插槽中时，使用自由仪器推动三角形。",
+        "ja": "左側のスロットから右側に6つのゴム三角形を動かしてから戻ってください。前半のために、左の機器で持ち上げ、右側の機器に手を上げ、後半には反対側を行います。スロットに入れるときは、無料の機器を使用して三角形を押してください。"
     },
     "preparation": {
         "en": "Press the 6 rubber triangles into the hexagonal shape on the left side of the Tension Module.",
-        "pl": "Umieść 6 gumowych trójkątów w sześciokątny kształt po lewej stronie Modułu Napięcia."
+        "pl": "Umieść 6 gumowych trójkątów w sześciokątny kształt po lewej stronie Modułu Napięcia.",
+        "es": "Presione los 6 triángulos de goma en la forma hexagonal en el lado izquierdo del módulo de tensión.",
+        "zh-cn": "将6个橡胶三角形压入张力模块左侧的六角形。",
+        "ja": "6つのゴム三角形をテンションモジュールの左側にある六角形形状に押します。"
     }
 }

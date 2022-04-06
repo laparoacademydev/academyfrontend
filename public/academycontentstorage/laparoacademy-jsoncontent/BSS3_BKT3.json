@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 450
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 40
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 300
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 300
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 10
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 40
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Continuous Vertical Intro",
-        "pl": "Szew Ciągły Pionowy - Wprowadzenie"
+        "pl": "Szew Ciągły Pionowy - Wprowadzenie",
+        "es": "Introducción vertical continua",
+        "zh-cn": "连续垂直介绍",
+        "ja": "連続垂直イントロ"
     },
     "skills": {
         "en": "Suturing",
-        "pl": "Szycie"
+        "pl": "Szycie",
+        "es": "Sutura",
+        "zh-cn": "缝合",
+        "ja": "縫合"
     },
     "description": {
         "en": "This exercise introduces the continuous suturing pattern, which is time saving in comparison to multiple single knots. ",
-        "pl": "To ćwiczenie wprowadza pojęcie szwu ciągłego, pozwalakącego zaoszczędzić czas w porównaniu z zakładaniem wielu pojedynczych szwów. "
+        "pl": "To ćwiczenie wprowadza pojęcie szwu ciągłego, pozwalakącego zaoszczędzić czas w porównaniu z zakładaniem wielu pojedynczych szwów. ",
+        "es": "Este ejercicio introduce el patrón de sutura continua, que es ahorro de tiempo en comparación con múltiples nudos individuales.",
+        "zh-cn": "该练习引入了连续缝合图案，与多个单次结相比节省了时间。",
+        "ja": "この演習により、連続縫合パターンが導入されており、これは複数のシングルノットと比較して時間を節約します。"
     },
     "instructions": {
         "en": "Draw the rope through the hole farthest to the left and apply a simple 1x1 knot with majority of the rope on the bottom. Thread the rope, one by one, through the holes available from left to right. Apply the knot as shown in the video at the final hole of the platform.",
-        "pl": "Przeciągnij sznurek przez otwór najbardziej wysunięty w lewo i zawiąż prosty węzeł 1x1 tak, aby większość liny znajdowała się na dole. Przeciągnij linę przez otwory , jeden po drugim, przez otwory dostępne od lewej do prawej. Załóż węzeł, jak pokazano na filmie, na ostatnim otworze platformy. "
+        "pl": "Przeciągnij sznurek przez otwór najbardziej wysunięty w lewo i zawiąż prosty węzeł 1x1 tak, aby większość liny znajdowała się na dole. Przeciągnij linę przez otwory , jeden po drugim, przez otwory dostępne od lewej do prawej. Załóż węzeł, jak pokazano na filmie, na ostatnim otworze platformy. ",
+        "es": "Dibuje la cuerda a través del orificio más lejano a la izquierda y aplique un simple 1x1 nudo con la mayoría de la cuerda en la parte inferior. Hilo la cuerda, uno por uno, a través de los agujeros disponibles de izquierda a derecha. Aplique el nudo como se muestra en el video en el orificio final de la plataforma.",
+        "zh-cn": "将绳子穿过最远的洞到左侧，并在底部涂上大部分绳索的简单1x1结。通过从左到右可用的孔拧一个绳索。涂在平台最终孔中的视频中显示的结。",
+        "ja": "最も遠い穴を通してロープを左に描き、一番下のロープの大部分を持つ単純な1×1ノットを適用します。ロープを1つずつねじ込み、左から右から入手可能な穴を通して。プラットフォームの最後の穴のビデオに表示されているようにノットを適用してください。"
     },
     "preparation": {
         "en": "Place the basic knot tying platform horizontally onto the basic suturing module along with the piece of rope in the operating area.",
-        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona w orientacji poziomej na podstawowym module do szycia wraz z kawałkiem sznurka w obszarze operacyjnym. "
+        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona w orientacji poziomej na podstawowym module do szycia wraz z kawałkiem sznurka w obszarze operacyjnym. ",
+        "es": "Coloque la plataforma de atado básico de nudos horizontalmente en el módulo de sutura básica junto con la pieza de la cuerda en el área de operación.",
+        "zh-cn": "将基本结捆绑平台水平放置在基本缝合模块上以及操作区域中的绳索。",
+        "ja": "基本的な結び目のプラットフォームを基本的な縫合モジュールに水平に置くと、操作領域のロープとともに置きます。"
     }
 }

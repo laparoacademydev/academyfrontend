@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 630
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 420
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 420
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 15
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 50
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Continuous Horizontal Suturing",
-        "pl": "Szycie Ciągłe w Poziomie"
+        "pl": "Szycie Ciągłe w Poziomie",
+        "es": "Sutura continua horizontal.",
+        "zh-cn": "连续水平缝合",
+        "ja": "連続水平縫合"
     },
     "skills": {
         "en": "Knot, Suturing",
-        "pl": "Węzeł, Szycie"
+        "pl": "Węzeł, Szycie",
+        "es": "Nudo, sutura",
+        "zh-cn": "结，缝合",
+        "ja": "結び目、縫合"
     },
     "description": {
         "en": "In this exercise you will execute a continuous basic suturing pattern vertically. Note the difference in difficulty between this orientation in which the needle holder must rotate on the target tissue horizontally as opposed to vertically.",
-        "pl": "W tym ćwiczeniu ćwiczący wykona w pionie ciągły podstawowy wzór szycia. Uwaga powinna być zwrócona na różnicę trudności między tą orientacją, w której uchwyt igły musi obracać się na docelowej tkance poziomo, a nie na pionowo. "
+        "pl": "W tym ćwiczeniu ćwiczący wykona w pionie ciągły podstawowy wzór szycia. Uwaga powinna być zwrócona na różnicę trudności między tą orientacją, w której uchwyt igły musi obracać się na docelowej tkance poziomo, a nie na pionowo. ",
+        "es": "En este ejercicio ejecutará verticalmente un patrón de sutura básica continua. Tenga en cuenta la diferencia en la dificultad entre esta orientación en la que el soporte de la aguja debe girar en el tejido objetivo horizontalmente en lugar de verticalmente.",
+        "zh-cn": "在本练习中，您将垂直执行连续的基本缝合图案。注意该取向之间的难度差异，其中针支架必须水平地在目标组织上水平旋转，而不是垂直地相反。",
+        "ja": "この演習では、連続的な基本的な縫合パターンを垂直に実行します。垂直方向とは対照的に、針ホルダが標的組織上で水平に回転しなければならないこの向きの間の困難の違いは留意されたい。"
     },
     "instructions": {
         "en": "Use the needle holder on the right side and the dissector on the left. After removing the needle from the start position, puncture the silicone horizontally from the right with the needle-holder. Apply a single square knot with as little suture material remaining. Then apply 4 continuous throws from the right, each 1-2mm apart and below the previous. Complete the exercise with the knot shown in the video.",
-        "pl": "Imadło powinno być użyte po prawej stronie a disektor po lewej. Po wyjęciu igły z pozycji startowej silikon powinien być przekłuty poziomo od prawej strony. Po założeniu pojedynczego kwadratowego węzła, powinno być poz\\ostawione jak najmniej możliwie nici. Następnie: 4 kolejne rzuty z prawej strony, każdy w odstępie 1-2 mm i poniżej poprzedniego. Ćwiczenie powinno być zakończone węzłem pokazanym na filmie."
+        "pl": "Imadło powinno być użyte po prawej stronie a disektor po lewej. Po wyjęciu igły z pozycji startowej silikon powinien być przekłuty poziomo od prawej strony. Po założeniu pojedynczego kwadratowego węzła, powinno być poz\\ostawione jak najmniej możliwie nici. Następnie: 4 kolejne rzuty z prawej strony, każdy w odstępie 1-2 mm i poniżej poprzedniego. Ćwiczenie powinno być zakończone węzłem pokazanym na filmie.",
+        "es": "Use el soporte de la aguja en el lado derecho y el disector a la izquierda. Después de retirar la aguja desde la posición de inicio, perfore la silicona horizontalmente desde la derecha con el soporte de la aguja. Aplique un solo nudo cuadrado con la menor cantidad de material de sutura restante. Luego, aplique 4 tiros continuos de la derecha, cada 1-2 mm de distancia y debajo de la anterior. Completa el ejercicio con el nudo que se muestra en el video.",
+        "zh-cn": "在右侧和左侧的解剖器上使用针刺器。从开始位置移除针后，用右侧将硅胶水平刺穿针座。用剩余的小缝合材料涂抹单个方形结。然后从右侧施加4个连续抛出，每次1-2毫米分开，下面。使用视频中显示的结锻炼。",
+        "ja": "右側の針ホルダーと左側の解剖器具を使用してください。開始位置から針を取り外した後、針を右から水平に穿刺する。残りの縫合材料を小さな縫合材料で単一の正方形結び目を塗ります。次に、右から4連続スローを適用し、それぞれ2~2mm以下のそれぞれを塗ります。ビデオに表示されているノットで運動を完了してください。"
     },
     "preparation": {
         "en": "Place the long suturing component vertically into the suturing module and the needle with 15-20cm of suture material in the start position.",
-        "pl": "Umieszczony powinien być podłuzny insert do szycia w orientacji pionowej na module do szycia i igła z 15-20 cm nici w pozycji początkowej na górze wkładu. "
+        "pl": "Umieszczony powinien być podłuzny insert do szycia w orientacji pionowej na module do szycia i igła z 15-20 cm nici w pozycji początkowej na górze wkładu. ",
+        "es": "Coloque el componente de sutura larga verticalmente en el módulo de sutura y la aguja con 15-20 cm de material de sutura en la posición de inicio.",
+        "zh-cn": "将长缝合部件垂直放入缝合模块和用15-20cm的缝线材料中的缝合材料。",
+        "ja": "長い縫合部品を縫合モジュールと針に垂直に置き、開始位置に15~20cmの縫合糸材料を備えています。"
     }
 }

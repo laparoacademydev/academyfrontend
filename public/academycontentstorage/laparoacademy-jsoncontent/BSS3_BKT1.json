@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 270
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 180
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 180
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Surgical Knot Intro",
-        "pl": "Wprowadzenie do Pojedynczego Węzła Chirurgicznego"
+        "pl": "Wprowadzenie do Pojedynczego Węzła Chirurgicznego",
+        "es": "Introducción de nudo quirúrgico",
+        "zh-cn": "外科结介绍",
+        "ja": "外科的結び目"
     },
     "skills": {
         "en": "Surgical Knot, Suturing",
-        "pl": "Węzeł Chirurgiczny, Szycie"
+        "pl": "Węzeł Chirurgiczny, Szycie",
+        "es": "Nudo quirúrgico, sutura.",
+        "zh-cn": "手术结，缝合",
+        "ja": "外科的結び目、縫合"
     },
     "description": {
         "en": "The single surgical knot is the most basic knot used in surgery. Follow the instructions to learn how to apply this knot with the thick rope available.",
-        "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł przy pomocy sznurka."
+        "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł przy pomocy sznurka.",
+        "es": "El único nudo quirúrgico es el nudo más básico utilizado en la cirugía. Siga las instrucciones para aprender cómo aplicar este nudo con la cuerda gruesa disponible.",
+        "zh-cn": "单个手术结是手术中最基本的结。按照说明学习如何用厚厚的绳索涂上此结。",
+        "ja": "単一の外科用結節は手術に使用される最も基本的な結び目です。指示に従って、この結び目を厚いロープで適用する方法を学びます。"
     },
     "instructions": {
         "en": "The rope should be threaded through the farthest hole in the platform first. Then wrap the left instrument forwards with the rope on the left side and grab the right side of the rope. When the left instrument is pulled this wrapped rope should slip off the instrument forming the first throw. Next, this maneuver should be repeated on the right side. Wrap the right instrument forwards and grab the left rope and pull to form the second throw. This will result in a simple 1x1 knot when pulled.",
-        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. "
+        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. ",
+        "es": "La cuerda debe estar roscada a través del orificio más lejano en la plataforma primero. Luego, envuelva el instrumento izquierdo hacia adelante con la cuerda en el lado izquierdo y tome el lado derecho de la cuerda. Cuando se extrae el instrumento izquierdo, esta cuerda envuelta debe deslizarse del instrumento formando el primer lanzamiento. A continuación, esta maniobra debe repetirse en el lado derecho. Envuelva el instrumento derecho hacia adelante y agarre la cuerda izquierda y tire para formar el segundo lanzamiento. Esto resultará en un simple 1x1 nudo cuando se haya tirado.",
+        "zh-cn": "绳子应该先穿过平台上最远的洞。然后将左仪器用左侧的绳子转发，抓住绳索的右侧。当左仪器拉动时，这种包裹的绳子应拆下形成第一掷的仪器。接下来，应该在右侧重复这种机动。将右侧仪器包裹起来并抓住左绳并拉动形成第二次。这将导致拉动时的简单1x1结。",
+        "ja": "ロープは最初にプラットフォームの最も遠い穴を通してねじ込まれているべきです。次に左側のロープで左側の機器を包み、ロープの右側をつかみます。左側の機器が引っ張られたとき、この巻きロープは最初の投げを形成する装置の滑り落ちるはずです。次に、この操作を右側に繰り返す必要があります。右の機器を巻き付けて左ロープをつかみ、引っ張って2番目のスローを形成します。これにより、引っ張られたときに単純な1×1ノットが生じる。"
     },
     "preparation": {
         "en": "Place the basic knot tying platform with a rubber band onto the basic suturing module along with the piece of rope in the operating area.",
-        "pl": "Umieścić prostą platformę do węzłów podstawowych wraz z gumką na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. "
+        "pl": "Umieścić prostą platformę do węzłów podstawowych wraz z gumką na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. ",
+        "es": "Coloque la plataforma de atado básico con una banda de goma en el módulo de sutura básica junto con la pieza de la cuerda en el área de operación.",
+        "zh-cn": "将基本结用橡皮筋绑在基本缝合模块上，以及操作区域的绳索。",
+        "ja": "基本的な結び目のプラットフォームを、作業領域のロープ片とともに基本的な縫合モジュールにゴムバンドと一緒に置きます。"
     }
 }

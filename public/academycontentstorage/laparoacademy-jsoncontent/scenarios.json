@@ -65,8 +65,17 @@
     "vr_appendectomy_singlestapling",
     "module_appendectomy",
     "module_cholecystectomy",
-    "vr_hysterectomy_full",
+    "vr_hysterectomy_tlh_full",
+    "vr_hysterectomy_tlh_ligaments",
+    "vr_hysterectomy_tlh_bladder",
+    "vr_hysterectomy_tlh_colpotomy",
+    "vr_hysterectomy_tlh_so_full",
+    "vr_hysterectomy_tlh_so_ligaments",
+    "vr_hysterectomy_adnexectomy",
     "module_ovariancyst",
     "module_myomectomy",
-    "module_vaginalcuff"
+    "module_vaginalcuff",
+    "vr_pediatrics_pyloromyotomy",
+    "vr_pediatrics_esophageal_atresia",
+    "vr_pediatrics_pyeloplasty"
 ]

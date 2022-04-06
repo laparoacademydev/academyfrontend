@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 315
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 210
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 210
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 20
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Single Surgical Knot Horizontal",
-        "pl": "Pojedynczy Węzeł Chirurgiczny - Orientacja Pozioma"
+        "pl": "Pojedynczy Węzeł Chirurgiczny - Orientacja Pozioma",
+        "es": "Un solo nudo quirúrgico horizontal",
+        "zh-cn": "单手术结水平",
+        "ja": "水平方向の単体結び目"
     },
     "skills": {
         "en": "Surgical Knot, Suturing",
-        "pl": "Węzeł Chirurgiczny, Szycie"
+        "pl": "Węzeł Chirurgiczny, Szycie",
+        "es": "Nudo quirúrgico, sutura.",
+        "zh-cn": "手术结，缝合",
+        "ja": "外科的結び目、縫合"
     },
     "description": {
         "en": "The single surgical knot is the most basic knot used in surgery. Follow the instructions to learn how to apply this knot horizontally using a needle and thread.",
-        "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł w poziomie przy pomocy igły i nici."
+        "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł w poziomie przy pomocy igły i nici.",
+        "es": "El único nudo quirúrgico es el nudo más básico utilizado en la cirugía. Siga las instrucciones para aprender a aplicar este nudo horizontalmente usando una aguja e hilo.",
+        "zh-cn": "单个手术结是手术中最基本的结。按照说明学习如何使用针和螺纹水平施加此结。",
+        "ja": "単一の外科用結節は手術に使用される最も基本的な結び目です。指示に従って、針とスレッドを使用してこの結び目を水平に適用する方法を学びます。"
     },
     "instructions": {
         "en": "First use the needle holder to take the needle from the start position and rotate it so that it is positioned on ⅔ of the needle. Perform two horizontal throws, each followed by wrapping the suture around the instrument and tighten this simple knot onto the target tissue. Cut off the remaining suture and return the needle to the start position.",
-        "pl": "Najpierw igła z pozycji początkowej powinna być podniesiona igła przy pomocy imadła i powinna zostać obrócona w taki sposób, żeby imadło znalazło się na ⅔ igły. Po przekłuciu powinny być zostać założone dwa owinięcia typowe dla węzła chirurgicznego, przy każdym owijając szew wokół instrumentu i zaciskając węzeł na tkance docelowej. Pozostała nić powinna zostać odcięta a igła powinna wrócić do pozycji startowej na koniec ćwiczenia."
+        "pl": "Najpierw igła z pozycji początkowej powinna być podniesiona igła przy pomocy imadła i powinna zostać obrócona w taki sposób, żeby imadło znalazło się na ⅔ igły. Po przekłuciu powinny być zostać założone dwa owinięcia typowe dla węzła chirurgicznego, przy każdym owijając szew wokół instrumentu i zaciskając węzeł na tkance docelowej. Pozostała nić powinna zostać odcięta a igła powinna wrócić do pozycji startowej na koniec ćwiczenia.",
+        "es": "Primero use el soporte de la aguja para tomar la aguja desde la posición de inicio y gírela para que esté colocada en ⅔ de la aguja. Realice dos tiros horizontales, cada uno siguió envolviendo la sutura alrededor del instrumento y apriete este simple nudo sobre el tejido diana. Corte la sutura restante y devuelva la aguja a la posición de inicio.",
+        "zh-cn": "首先使用针座从起始位置取向针并旋转，使其定位在针的¾上。执行两个水平投掷，每个划分，然后缠绕仪器周围的缝合线并将这种简单的结拧紧到目标组织上。切断剩余的缝合线并将针返回起始位置。",
+        "ja": "まず、針ホルダーを使用して、開始位置から針を取り、針の▲に位置するように回転させます。 2つの水平方向のスローを実行し、それぞれ、その後に縫合糸を装置の周囲に包み、この単純な結び目をターゲット組織に締めます。残りの縫合糸を切り取り、針を開始位置に戻します。"
     },
     "preparation": {
         "en": "Place the needle in the start position at the top of the module and the small suturing component horizontally as shown.",
-        "pl": "Igła powinna zostać umieszczona w pozycji początkowej przy górnej części modułu, a mały element do zszywania w orientacji pionowej."
+        "pl": "Igła powinna zostać umieszczona w pozycji początkowej przy górnej części modułu, a mały element do zszywania w orientacji pionowej.",
+        "es": "Coloque la aguja en la posición de inicio en la parte superior del módulo y el componente de sutura pequeña horizontalmente como se muestra.",
+        "zh-cn": "将针在模块顶部的起始位置放置在模块顶部和水平的小缝线组件，如图所示。",
+        "ja": "図のように、モジュールの上部と小さな縫合部品の上部の開始位置に針を置きます。"
     }
 }

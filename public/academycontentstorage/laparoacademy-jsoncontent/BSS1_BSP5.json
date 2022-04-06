@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 315
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 210
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 210
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 20
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Single Sliding Knot Vertical",
-        "pl": "Węzeł Przesuwny Orientacja Pionowa"
+        "pl": "Węzeł Przesuwny Orientacja Pionowa",
+        "es": "Un solo nudo deslizante vertical",
+        "zh-cn": "单滑动结垂直",
+        "ja": "単一のスライド結び目の垂直"
     },
     "skills": {
         "en": "Sliding Knot, Suturing",
-        "pl": "Węzeł Przesuwny, Szycie"
+        "pl": "Węzeł Przesuwny, Szycie",
+        "es": "Nudo deslizante, sutura",
+        "zh-cn": "滑动结，缝合",
+        "ja": "スライド結び目、縫合"
     },
     "description": {
         "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
-        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. "
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. ",
+        "es": "El nudo deslizante es útil cuando los tejidos de destino están más separados o cuando el espacio disponible es limitado. Cuando se usa correctamente, este nudo se puede aplicar libremente y se puede apretar gradualmente tirando del extremo.",
+        "zh-cn": "当靶组织进一步或当可用空间有限时，滑动结是有用的。当正确使用时，该结可以松散地施加，并且可以通过拉动末端逐渐拧紧。",
+        "ja": "標的組織がさらに離れているとき、または利用可能な空間が限られているときには、スライド結び目が役立ちます。正しく使用されるとき、この結び目はゆるく適用することができ、終わりを引くことによって徐々に締め付けることができます。"
     },
     "instructions": {
         "en": "First use the needle holder to take the needle from the start position and apply a normal throw. Then apply two single loose loops in the 1x1 pattern as shown. When pulled on the left side, this knot will convert into a sliding knot. By pulling on this end further the loop can tighten onto the target tissue. To ‘lock’ the sliding knot simply pull on the opposite end and apply one more single throw to complete. ",
-        "pl": "Najpierw użyj imadła, aby wyjąć igłę z pozycji początkowej i zastosować normalny rzut. Następnie zastosuj dwie pojedyncze luźne pętle w układzie 1x1, tak jak pokazano. Po pociągnięciu z lewej strony węzeł ten zamieni się w węzeł przesuwny. Pociągając za ten koniec dalej, pętla może zaciskać się na tkance docelowej. Aby „zablokować” węzeł, po prostu pociągnij za przeciwny koniec i wykonaj jeszcze jeden pojedynczy rzut, aby zakończyć. "
+        "pl": "Najpierw użyj imadła, aby wyjąć igłę z pozycji początkowej i zastosować normalny rzut. Następnie zastosuj dwie pojedyncze luźne pętle w układzie 1x1, tak jak pokazano. Po pociągnięciu z lewej strony węzeł ten zamieni się w węzeł przesuwny. Pociągając za ten koniec dalej, pętla może zaciskać się na tkance docelowej. Aby „zablokować” węzeł, po prostu pociągnij za przeciwny koniec i wykonaj jeszcze jeden pojedynczy rzut, aby zakończyć. ",
+        "es": "Primero use el soporte de la aguja para tomar la aguja desde la posición de inicio y aplique un lanzamiento normal. Luego, aplique dos bucles sueltos individuales en el patrón 1x1 como se muestra. Cuando se tira del lado izquierdo, este nudo se convertirá en un nudo deslizante. Al tirar de este extremo, el bucle se puede apretar sobre el tejido diana. Para 'bloquear' El nudo deslizante simplemente tire del extremo opuesto y aplique un solo lanzamiento adicional para completar.",
+        "zh-cn": "首先使用针座从起始位置取向针并施加正常投掷。然后，如图所示，在1x1图案中涂上两个单个宽松的环。当左侧拉动时，该结将转换成滑动结。通过拉动该端，还可以将环拧紧到目标组织上。 “锁定”滑动结只是拉动相对的端，并将再次抛出一次完成。",
+        "ja": "まず、針ホルダーを使用して、開始位置から針を取り、通常のスローを加えます。次に、図のように1×1パターンで2つの緩いループを2つ適用します。左側に引っ張られたとき、この結び目はスライド結び目に変換されます。この端部を引っ張ることによって、ループは標的組織上に締められ得る。スライド結び目を「ロック」するだけで、反対側の端を引っ張り、もう1つのスローを完成させます。"
     },
     "preparation": {
         "en": "Place the needle in the start position at the top of the module and the small suturing component vertically as shown.",
-        "pl": "Umieść igłę w pozycji początkowej na górze modułu, a mały element zszywający pionowo, jak pokazano. "
+        "pl": "Umieść igłę w pozycji początkowej na górze modułu, a mały element zszywający pionowo, jak pokazano. ",
+        "es": "Coloque la aguja en la posición de inicio en la parte superior del módulo y el componente de sutura pequeña verticalmente como se muestra.",
+        "zh-cn": "将针在模块顶部的起始位置放置在模块顶部和小缝线部件，如图所示。",
+        "ja": "図のように、モジュールの上部と小さな縫合部品の上部の開始位置に針を置きます。"
     }
 }

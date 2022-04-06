@@ -5,49 +5,70 @@
             "type": "paragraph",
             "text": {
                 "en": "After spending some time performing exercises you will notice that it can be unintuitive to rotate and to manage smooth collaboration between the instruments. When focusing on the tip of one instrument, the operator intuitively ‘forgets’ to monitor the tip of the other which can move outside of the field of vision. This, and other errors are important to avoid as instruments can cause damage and lead severe complications during laparoscopic procedures.",
-                "pl": "Po spędzeniu miarodajnej ilości czasu wykonując ćwiczenia, trenujący powinien  zauważyć trudność w swobodzie rotacji i w kolaboracji pomiędzy dwoma instrumentami. Przykładowo, koncentrując uwagę na jednym instrumencie, operator intuicyjnie „zapomina” monitorować drugi instrument. Logiczne jest to, że inne tego rodzaju błędy muszą być unikane, gdyż instrumenty mogą wyrządzić szkodę i doprowadzić do komplikacji podczas procedur laparoskopowych."
+                "pl": "Po spędzeniu miarodajnej ilości czasu wykonując ćwiczenia, trenujący powinien  zauważyć trudność w swobodzie rotacji i w kolaboracji pomiędzy dwoma instrumentami. Przykładowo, koncentrując uwagę na jednym instrumencie, operator intuicyjnie „zapomina” monitorować drugi instrument. Logiczne jest to, że inne tego rodzaju błędy muszą być unikane, gdyż instrumenty mogą wyrządzić szkodę i doprowadzić do komplikacji podczas procedur laparoskopowych.",
+                "es": "Después de pasar algún tiempo realizando ejercicios, notará que puede ser inintintivo de rotar y administrar la colaboración suave entre los instrumentos. Cuando se centre en la punta de un instrumento, el operador intuitivamente se \"olvida\" para monitorear la punta del otro, que puede moverse fuera del campo de la visión. Esto, y otros errores son importantes para evitar, ya que los instrumentos pueden causar daños y plomo complicaciones severas durante los procedimientos laparoscópicos.",
+                "zh-cn": "在花一些时间执行练习后，您会注意到旋转并管理仪器之间的平稳合作可以是无意的。当关注一个仪器的尖端时，操作员直观地“忘记”监视另一个可以在视野外移动的尖端。这样，其他误差是重要的，因为避免仪器会导致腹腔镜程序期间造成损伤和铅严重并发症。",
+                "ja": "何らかの時間を過ごした後、あなたはそれが回転すること、そして楽器間の滑らかな協力を管理することが理解されていることに気付くでしょう。 1つの機器の先端に焦点を当てたとき、オペレータは直感的に「忘れ」他のものの先端を監視することができ、それは視野の外側に移動することができる。これ、および他のエラーは、機器が腹腔鏡手術中に損傷を引き起こす可能性があるので避けるために重要です。"
             }
         },
         {
             "type": "header",
             "text": {
                 "en": "Constant Movement and Field of Vision",
-                "pl": "Ciągły ruch i pole widzenia"
+                "pl": "Ciągły ruch i pole widzenia",
+                "es": "Movimiento constante y campo de visión.",
+                "zh-cn": "持续运动和视野",
+                "ja": "絶え間ない動きと視野"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Both instruments should be both in constant movement and stay inside the field of vision as much as possible. An instrument which leaves the field of vision and is still inside the operating area is an instrument that can be causing damage. An instrument which becomes motionless runs the risk of being ‘forgotten’ which can also lead to complications. When training laparoscopy skills it is valuable to develop good habits to mitigate such circumstances.",
-                "pl": "Instrument, który opuszcza pole widzenia, jednocześnie będący wewnątrz pola operacyjnego, jest instrumentem, który może wyrządzać szkodę. Instrument, który pozostaje w bezruchu, wytwarza ryzyko bycia 'zapomnianym' co może doprowadzić do nagłych komplikacji. Podczas trenowania umiejętności laparoskopowych wartościowe jest rozwijanie dobrych nawyków, aby unikać tych okoliczności. Oba instrumenty zawsze powinny być w ciągłym  ruchu i powinny pozostawać wewnątrz pola widzenia.\n"
+                "pl": "Instrument, który opuszcza pole widzenia, jednocześnie będący wewnątrz pola operacyjnego, jest instrumentem, który może wyrządzać szkodę. Instrument, który pozostaje w bezruchu, wytwarza ryzyko bycia 'zapomnianym' co może doprowadzić do nagłych komplikacji. Podczas trenowania umiejętności laparoskopowych wartościowe jest rozwijanie dobrych nawyków, aby unikać tych okoliczności. Oba instrumenty zawsze powinny być w ciągłym  ruchu i powinny pozostawać wewnątrz pola widzenia.\n",
+                "es": "Ambos instrumentos deben estar ambos en movimiento constante y permanecer dentro del campo de la visión lo más posible. Un instrumento que deja el campo de la visión y aún está dentro del área de operación es un instrumento que puede causar daños. Un instrumento que se vuelve inmóvil funciona el riesgo de ser \"olvidado\" que también puede provocar complicaciones. Cuando entrenan las habilidades de la laparoscopia, es valioso desarrollar buenos hábitos para mitigar tales circunstancias.",
+                "zh-cn": "这两种仪器都应该在不断的运动中，尽可能地留在视野中。留下视野并且仍然在操作区域的仪器是一种可能导致损坏的仪器。一个变得一动作的仪器冒着“被遗忘”的风险，这也可能导致并发症。当训练腹腔镜检查技能时，培养良好的习惯来缓解这种情况是有价值的。",
+                "ja": "どちらの楽器も一定の動きでも、できるだけ視野の内側にあるべきです。視野を残し、まだ操作領域の中にある機器は、損傷を与える可能性がある機器です。動きのない機器は、合併症につながる可能性がある「忘れて」されている危険性を引き起こします。腹腔鏡検査のスキルを訓練するとき、それはそのような状況を軽減するために良い習慣を発症するのに役立ちます。"
             }
         },
         {
             "type": "header",
             "text": {
                 "en": "Monocular Cues for Depth Perception",
-                "pl": "Dedukcja kolejności w percepcji głębi"
+                "pl": "Dedukcja kolejności w percepcji głębi",
+                "es": "Cues monoculares para la percepción de la profundidad.",
+                "zh-cn": "深度感知的单眼提示",
+                "ja": "深さ知覚のための単眼手がかり"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "As mentioned in the previous chapter, in laparoscopy we deal with a two-dimensional image which results from the endoscopic camera and lens. This is why with sufficient understanding we can use monocular cues to better visualize this operating area. Monocular cues include placing objects or instruments in front of each other to build a more accurate picture of the space in the third dimension. This is called occlusion - when one object blocks another we can conceptualize and estimate the distances involved.",
-                "pl": "Jak wspomniano w poprzednim rozdziale, w laparoskopii mamy do czynienia z dwuwymiarowym obrazem, który trafia do głowicy kamery przez tor wizyjny. Przy pomocy dobrego zrozumienia właściwości takiego obrazu, możemy interpretować kolejność aby lepiej wizualizować pole operacyjne. Najprostszym przykładem takiej wskazówki jest okluzja - umieszczenie jednego obiektu przed drugi, aby wydedukować, który obiekt jest bliżej, a który dalej poprzez proste zasłonięcie.\n"
+                "pl": "Jak wspomniano w poprzednim rozdziale, w laparoskopii mamy do czynienia z dwuwymiarowym obrazem, który trafia do głowicy kamery przez tor wizyjny. Przy pomocy dobrego zrozumienia właściwości takiego obrazu, możemy interpretować kolejność aby lepiej wizualizować pole operacyjne. Najprostszym przykładem takiej wskazówki jest okluzja - umieszczenie jednego obiektu przed drugi, aby wydedukować, który obiekt jest bliżej, a który dalej poprzez proste zasłonięcie.\n",
+                "es": "Como se mencionó en el capítulo anterior, en laparoscopia tratamos con una imagen bidimensional que resulta de la cámara endoscópica y la lente. Por eso, con suficiente comprensión, podemos usar señales monoculares para visualizar mejor este área de operación. Las señales monoculares incluyen colocar objetos o instrumentos frente a la otra para construir una imagen más precisa del espacio en la tercera dimensión. Esto se llama oclusión: cuando un objeto bloquea otro, podemos conceptualizar y estimar las distancias involucradas.",
+                "zh-cn": "如前一章所述，在腹腔镜检查中，我们处理由内窥镜相机和镜头产生的二维图像。这就是为什么有足够的理解我们可以使用单手抄本来更好地可视化这一操作区域。单眼提示包括将物体或仪器放置在彼此前面，以在第三维中建立更准确的空间图像。这称为遮挡 - 当一个对象阻挡另一个对象时，我们可以概念化和估计所涉及的距离。",
+                "ja": "前の章で述べたように、腹腔鏡検査では内視鏡カメラとレンズから生じる二次元画像を扱います。これが、この操作領域をより視覚化するために単眼キューを使用できるのに十分な理解を得て、なぜである。単眼キューは、第3の寸法のスペースのより正確な絵を互いの前に配置することを含む。これはOcclusionと呼ばれます -  1つのオブジェクトが別のオブジェクトをブロックするとき、私たちは含まれる距離を概念化し推定することができます。"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Occlusion is not the only available monocular cue. Kinetic Depth Perception can be determined by dynamically changing the position of an instrument to help determine depth. When an object is moved closer, it becomes proportionally larger, and vice versa. Making such movements can help calculate velocity based on the rate of size change which can allow the surgeon to estimate depth.",
-                "pl": "Innym sposobem jest tzw. percepcja głębokości kinetycznej. Poprzez dynamiczne zmienianie pozycji instrumentu (przykładowo do przodu i do tyłu) możliwe jest ocenienie głębokości pozycji i estymacja rozmiarów. Kiedy obiekt zbliża się do kamery, staje się on proporcjonalnie większy i wice wersa. Takie ruchy dostrzegane na bieżąco, pomagają kalkulować prędkość na bazie zmiany w rozmiarze co może pozwolić chirurgowi ocenić głębokość.\n"
+                "pl": "Innym sposobem jest tzw. percepcja głębokości kinetycznej. Poprzez dynamiczne zmienianie pozycji instrumentu (przykładowo do przodu i do tyłu) możliwe jest ocenienie głębokości pozycji i estymacja rozmiarów. Kiedy obiekt zbliża się do kamery, staje się on proporcjonalnie większy i wice wersa. Takie ruchy dostrzegane na bieżąco, pomagają kalkulować prędkość na bazie zmiany w rozmiarze co może pozwolić chirurgowi ocenić głębokość.\n",
+                "es": "La oclusión no es la única cue monocular disponible. La percepción de profundidad cinética se puede determinar cambiando dinámicamente la posición de un instrumento para ayudar a determinar la profundidad. Cuando se acerca un objeto, se vuelve proporcionalmente más grande y viceversa. Hacer que tales movimientos puedan ayudar a calcular la velocidad en función de la tasa de cambio del tamaño, lo que puede permitir al cirujano estimar la profundidad.",
+                "zh-cn": "闭塞不是唯一可用的单眼提示。通过动态地改变仪器的位置来帮助确定深度，可以确定动力学深度感知。当对象移动更近时，它变得成比例更大，反之亦然。使这种运动可以基于尺寸变化的速率来帮助计算速度，这可以允许外科医生估计深度。",
+                "ja": "閉塞は利用可能な単眼キューブではありません。速度論の深さ認識は、深さを決定するのを助けるために機器の位置を動的に変えることによって決定することができる。オブジェクトを近づけると、比例的に大きくなり、その逆も同様になります。そのような動きをすると、外科医が深さを推定できるサイズの変化率に基づいて速度を計算するのに役立ちます。"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Motion Parallax occurs when the observer changes the position of the camera to alter the perspective in relation to stationary objects. In laparoscopy this can be done by the camera holder assisting in the procedure. The angled scope can be used to alter the line of sight and get a sense of the visual angle. This is only available with 30 or 45 degree laparoscopes. Motion Parallax can both help and hinder when suturing laparoscopically.",
-                "pl": "Paralaksa ruchu odbywa się, kiedy obserwator zmienia pozycję kamery w taki sposób, aby zmienić perspektywę w relacji do stacjonarnego obiektu. Do tego właśnie najbardziej w laparoskopii przydaje się 30° albo 45° tor wizyjny. Operator kamery może nim sięgnąć na bok i wypracować zmysłu kąta  wizualnego. Paralaksa ruchu może być bardzo pomocna, ale może też nieznacznie czasami przeszkadzać podczas szycia w laparoskopii\n."
+                "pl": "Paralaksa ruchu odbywa się, kiedy obserwator zmienia pozycję kamery w taki sposób, aby zmienić perspektywę w relacji do stacjonarnego obiektu. Do tego właśnie najbardziej w laparoskopii przydaje się 30° albo 45° tor wizyjny. Operator kamery może nim sięgnąć na bok i wypracować zmysłu kąta  wizualnego. Paralaksa ruchu może być bardzo pomocna, ale może też nieznacznie czasami przeszkadzać podczas szycia w laparoskopii\n.",
+                "es": "El movimiento Parallax ocurre cuando el observador cambia la posición de la cámara para alterar la perspectiva en relación con los objetos estacionarios. En laparoscopia, esto puede ser realizado por el soporte de la cámara asistiendo en el procedimiento. El alcance en ángulo se puede usar para alterar la línea de visión y obtener un sentido del ángulo visual. Esto solo está disponible con laparoscopios de 30 o 45 grados. Motion Parallax puede ayudar y obstaculizar cuando se suturba laparoscópicamente.",
+                "zh-cn": "当观察者改变相机的位置以改变与静止物体的角度来改变透视时，发生运动视差。在腹腔镜检查中，这可以通过相机架辅助程序来完成。有角度的范围可用于改变视线并获得视角的感觉。这仅适用于30或45度的腹腔镜。运动视差在腹腔镜缝合时都可以帮助和阻碍。",
+                "ja": "モーション視差は、観察者がカメラの位置を変更して静止オブジェクトに関してパースペクティブを変更すると発生します。腹腔鏡検査では、この手順でカメラホルダーが支援することによって行うことができます。角度のある範囲は、視線を変えるために使用され、視野角の感覚を得ることができます。これは30または45度の腹腔鏡でのみ利用可能です。腹腔鏡的に縫合すると、モーション視差が助けて妨げることができます。"
             }
         },
         {
@@ -58,7 +79,10 @@
                     "type": "image",
                     "label": {
                         "en": "Monocular Cue Visual Examples - Occlusion, Kinetic Depth Perception - using these properties you may develop an instinct for visualizing the space inside the peritoneal cavity. ",
-                        "pl": "Okluzja, paralaksa ruchu, percepcja głębokości kinetycznej - wykorzystując te właściwości możesz instynktownie pojmować przestrzeń wewnątrz pola operacyjnego."
+                        "pl": "Okluzja, paralaksa ruchu, percepcja głębokości kinetycznej - wykorzystując te właściwości możesz instynktownie pojmować przestrzeń wewnątrz pola operacyjnego.",
+                        "es": "Ejemplos visuales de cue monocular: oclusión, percepción de profundidad cinética: utilizando estas propiedades, puede desarrollar un instinto para visualizar el espacio dentro de la cavidad peritoneal.",
+                        "zh-cn": "单眼提示视觉示例 - 闭塞，动力学深度感知 - 使用这些属性，您可能会开发一种用于可视化腹膜内腔内的空间的本能。",
+                        "ja": "単眼キューの視覚的な例 - 閉塞、速度論的な知覚 - これらの特性を使用すると、腹腔内の空間を視覚化するための本能が発生する可能性があります。"
                     }
                 }
             ]
@@ -68,10 +92,16 @@
     "summary": [],
     "title": {
         "en": "Instrument Collaboration and Visualization",
-        "pl": "Współpraca między instrumentami i wizualizacja pola operacyjnego "
+        "pl": "Współpraca między instrumentami i wizualizacja pola operacyjnego ",
+        "es": "Colaboración y visualización del instrumento.",
+        "zh-cn": "仪器协作和可视化",
+        "ja": "機器のコラボレーションとビジュアライゼーション"
     },
     "subTitle": {
         "en": "A description of techniques useful to visualize and conceptualize the three-dimensional space inside the operating area.",
-        "pl": "Opis kilku technik przydatnych w wizualizacji i orientacji w trójwymiarowej przestrzeni pola operacyjnego.\n"
+        "pl": "Opis kilku technik przydatnych w wizualizacji i orientacji w trójwymiarowej przestrzeni pola operacyjnego.\n",
+        "es": "Una descripción de las técnicas útiles para visualizar y conceptualizar el espacio tridimensional dentro del área de operación.",
+        "zh-cn": "用于可视化和概念化操作区域内的三维空间的技术的描述。",
+        "ja": "操作領域内の3次元空間を視覚化し概念化するのに役立つ技法の説明。"
     }
 }

@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 168
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 6
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 112
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "needle_h",
         "needle_h"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 112
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 6
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Suture with Intracorporeal Knot Task",
-        "pl": "Zadanie z Szyciem Wewnątrzustrojowym"
+        "pl": "Zadanie z Szyciem Wewnątrzustrojowym",
+        "es": "Suture con tarea de nudo intracorpóreo.",
+        "zh-cn": "缝合与体内结任务",
+        "ja": "体内結び目による縫合糸"
     },
     "skills": {
         "en": "FLS, Suturing, Intracorporeal Knot",
-        "pl": "FLS, Szycie, Węzeł Wewnątrzustrojowy"
+        "pl": "FLS, Szycie, Węzeł Wewnątrzustrojowy",
+        "es": "Fls, sutura, nudo intracorpóreo.",
+        "zh-cn": "FLS，缝合，体内结",
+        "ja": "フリス、縫合、体内結び子"
     },
     "description": {
         "en": "In this exercise the trainee must demonstrate the ability to accurately perform an intracorporeal knot entirely inside the operating area. A needle and suture material are placed inside the operating area and a single surgical knot must be applied to the target structure without accidentally pulling the penrose drain off of the velcro attachment.",
-        "pl": "W tym ćwiczeniu trenujący musi wykazać się umiejętnością dokładnego wykonania węzła wewnątrzustrojowego wewnątrz pola operacyjnego. Wewnątrz pola operacyjnego umieszcza się igłę i szew, a pojedynczy węzeł chirurgiczny musi być założony na strukturę docelową bez zerwania rzepu na którym dren jest przymocowany."
+        "pl": "W tym ćwiczeniu trenujący musi wykazać się umiejętnością dokładnego wykonania węzła wewnątrzustrojowego wewnątrz pola operacyjnego. Wewnątrz pola operacyjnego umieszcza się igłę i szew, a pojedynczy węzeł chirurgiczny musi być założony na strukturę docelową bez zerwania rzepu na którym dren jest przymocowany.",
+        "es": "En este ejercicio, el aprendiz debe demostrar la capacidad de realizar con precisión un nudo intracorpóreo completamente dentro del área de operación. Se coloca un material de aguja y sutura dentro del área de operación y se debe aplicar un solo nudo quirúrgico a la estructura de destino sin extraer accidentalmente el desagüe de penrose del accesorio de velcro.",
+        "zh-cn": "在这项运动中，受训者必须证明能够完全在操作区域内能够精确地进行体内结。将针和缝合材料放置在操作区域内，并且必须将单个手术结施加到目标结构上，而不意外地拉出魔术验附件的PenRose排水。",
+        "ja": "この演習では、研修生は全体的に操作領域の内側に体内結び目を正確に行う能力を実証しなければなりません。針状および縫合糸材料は作業領域の内側に配置され、誤ってPenrose Drainを標的構造にプラジャーアタッチメントから引き抜かずにターゲット構造に適用されなければならない。"
     },
     "instructions": {
         "en": "The exercise begins after the instruments are inserted with the needle loosely held in the right instrument by the suture material. The needle should be held so that a single draw through is performed on the target area. The suture material should then be wrapped twice around the left instrument to make the first throw. Then a second wrap should be peformed once around the right instrument. The resulting square knot (2x1) should be tied precisely and snugly.",
-        "pl": "Ćwiczenie rozpoczyna się po wprowadzeniu narzędzi z igłą luźno przytrzymaną w prawym instrumencie przy nici. Igłę należy trzymać w taki sposób, aby wykonać jedno przekłucie przez obszar docelowy. Następnie nić należy dwukrotnie owinąć wokół lewego narzędzia, aby wykonać pierwszy rzut. Następnie należy wykonać drugie owinięcie wokół właściwego instrumentu. Powstały węzeł kwadratowy (2x1) powinien być dokładnie i ciasno zaciągnięty. "
+        "pl": "Ćwiczenie rozpoczyna się po wprowadzeniu narzędzi z igłą luźno przytrzymaną w prawym instrumencie przy nici. Igłę należy trzymać w taki sposób, aby wykonać jedno przekłucie przez obszar docelowy. Następnie nić należy dwukrotnie owinąć wokół lewego narzędzia, aby wykonać pierwszy rzut. Następnie należy wykonać drugie owinięcie wokół właściwego instrumentu. Powstały węzeł kwadratowy (2x1) powinien być dokładnie i ciasno zaciągnięty. ",
+        "es": "El ejercicio comienza después de que los instrumentos se insertan con la aguja mantenida libremente en el instrumento correcto por el material de sutura. La aguja debe mantenerse de modo que se realice un solo sorteo en el área objetivo. El material de sutura debe envolverse dos veces alrededor del instrumento izquierdo para hacer el primer lanzamiento. Luego, se debe formar una segunda envoltura una vez alrededor del instrumento correcto. El nudo cuadrado resultante (2x1) debe estar atado de manera precisa y cómoda.",
+        "zh-cn": "锻炼在仪器插入缝合材料中松散地握住仪器后开始。应保持针，以便在目标区域上执行单个绘制。然后应在左仪器周围包裹缝合材料，以制作第一次投掷。然后，第二包装应在右侧仪器周围进行Peformed。所得到的方结（2x1）应精确封闭并贴紧。",
+        "ja": "運動は、楽器が縫合材料によって右側の機器にゆるく保持されている針で挿入された後に始まります。針をターゲット領域で描画するように針を保持する必要があります。縫合糸材料は、最初の投げを作るために左側の機器の周りに2回包まれるべきです。その後、2番目のラップを右の機器の周りに一度魅力的になる必要があります。得られた正方形結び目（2×1）は正確かつぴったりと結ばれるべきです。"
     },
     "preparation": {
         "en": "The FLS module should be attached inside the operating area along with the penrose drain element. Ideally the exercise should be performed with two needle holders.",
-        "pl": "Moduł FLS należy zamontować wewnątrz obszaru operacyjnego wraz z elementem odpływowym penrose'a. Ćwiczenie powinno być wykonane z dwoma imadłami jeżeli jest to możliwe. "
+        "pl": "Moduł FLS należy zamontować wewnątrz obszaru operacyjnego wraz z elementem odpływowym penrose'a. Ćwiczenie powinno być wykonane z dwoma imadłami jeżeli jest to możliwe. ",
+        "es": "El módulo FLS se debe unir dentro del área de operación junto con el elemento de drenaje de penrose. Idealmente, el ejercicio debe realizarse con dos titulares de agujas.",
+        "zh-cn": "FLS模块应附接在操作区域内，以及彭略省流元件。理想情况下，应使用两个针座进行锻炼。",
+        "ja": "FLSモジュールは、ペンロース排水要素と共に操作領域の内側に取​​り付ける必要があります。理想的には、演習は2つの針保持者で行われるべきです。"
     }
 }

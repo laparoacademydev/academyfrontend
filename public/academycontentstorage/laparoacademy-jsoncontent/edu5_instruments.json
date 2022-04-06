@@ -5,14 +5,20 @@
             "type": "header",
             "text": {
                 "en": "Clip Applicator",
-                "pl": "Klipsownica"
+                "pl": "Klipsownica",
+                "es": "Aplicador de clip",
+                "zh-cn": "夹子涂抹器",
+                "ja": "クリップアプリケータ"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "In open surgery ligation techniques are usually used to close off ducts and arteries. In laparoscopic procedures however, this is usually done with clips applied using clip applicators. Many types of laparoscopic clip applicators exist- some are disposable while others are reusable and reloadable. Form factors and sizes vary as well - it is important for the laparoscopic surgeon to be familiarized with the clip applicator being used. Even though the surgical assistant often loads clips into the applicator the surgeon should have a good understanding of the device so as not to damage tissue. It is important to never apply clips without a clip loaded as this could cut tissue unpredictably.",
-                "pl": "W otwartej chirurgii, techniki ligacji przeważnie są używane do zamykania przewodów. W laparoskopowych zabiegach jest to przeważnie robione za pomocą klipsów zakładanych przy pomocy klipsownicy. W użytku jest wiele różnych rodzajów klipsownic. Niektóre są jednorazowe a niektóre wielorazowe z magazynkami samoładującymi. Formy i rozmiary też się różnią - ważne jest więc, aby chirurg laparoskopowy wiedział jakiej klipsownicy używa. Pomimo obecnych w trakcie operacji instrumentariuszek, które przygotowują klipsownicę, chirurg zawsze powinien rozumieć dany model urządzenia, aby przypadkowo nie wyrządzić krzywdy. Na przykład, ważne jest żeby nigdy przypadkowo nie używać klipsownicy bez załadowanego klipsu ponieważ branże instrumentu mogą przeciąć przewód."
+                "pl": "W otwartej chirurgii, techniki ligacji przeważnie są używane do zamykania przewodów. W laparoskopowych zabiegach jest to przeważnie robione za pomocą klipsów zakładanych przy pomocy klipsownicy. W użytku jest wiele różnych rodzajów klipsownic. Niektóre są jednorazowe a niektóre wielorazowe z magazynkami samoładującymi. Formy i rozmiary też się różnią - ważne jest więc, aby chirurg laparoskopowy wiedział jakiej klipsownicy używa. Pomimo obecnych w trakcie operacji instrumentariuszek, które przygotowują klipsownicę, chirurg zawsze powinien rozumieć dany model urządzenia, aby przypadkowo nie wyrządzić krzywdy. Na przykład, ważne jest żeby nigdy przypadkowo nie używać klipsownicy bez załadowanego klipsu ponieważ branże instrumentu mogą przeciąć przewód.",
+                "es": "En la cirugía abierta, las técnicas de ligación se usan generalmente para cerrar los conductos y las arterias. Sin embargo, en los procedimientos laparoscópicos, esto generalmente se realiza con clips aplicados con aplicadores de clip. Existen muchos tipos de aplicadores de clip laparoscópico, algunos son desechables, mientras que otros son reutilizables y recargables. Los factores de forma y los tamaños varían también: es importante que el cirujano laparoscópico se familiarice con el aplicador de clip. Aunque el asistente quirúrgico a menudo carga los clips en el aplicador, el cirujano debe tener una buena comprensión del dispositivo para no dañar el tejido. Es importante nunca aplicar clips sin un clip cargado, ya que esto podría cortar el tejido impredecible.",
+                "zh-cn": "在开放外，手术连接技术通常用于关闭管道和动脉。然而，在腹腔镜程序中，这通常是使用夹子涂抹器施加的夹子进行的。许多类型的腹腔镜夹涂抹器存在 - 有些是一次性的，而其他类型是可重复使用和可重载的。外形因素和大小也有所不同 - 腹腔镜外科医生熟悉所使用的夹子涂抹器很重要。尽管外科手术助手经常将夹子载入涂抹器中，外科医生应该对装置具有良好的理解，以免损坏组织。重要的是在没有装载的情况下涂抹剪辑是重要的，因为这可以不可预测地切割组织。",
+                "ja": "開放外科の連結技術では、通常、ダクトや動脈を閉じるために使用されます。しかしながら、腹腔鏡手順では、これは通常、クリップアプリケータを使用して適用されたクリップを使用して行われます。多くの種類の腹腔鏡下クリップアプリケーターが存在します - 他の人は再利用可能でリロード可能ですが、いくつかは使い捨てです。フォームファクタとサイズは変わります。腹腔鏡下外科医が使用されているクリップアプリケーターに慣れることが重要です。外科手術助手がしばしばクリップをアプリケータにロードしても、外科医は組織を損傷しないように装置をよく理解するべきである。これは予測的に組織を切断する可能性があるように、クリップなしでクリップを塗ることは決してないことが重要です。"
             }
         },
         {
@@ -23,7 +29,10 @@
                     "type": "image",
                     "label": {
                         "en": "Remember - when applying a clip to any vessel or duct always rotate the instrument to visually confirm the other side of the instrument. Only then you will have the confidence that the clip will have captured the entire tissue securely.",
-                        "pl": "Pamiętaj - zakładając klips na jakikolwiek przewód obróć branżę w taki sposób, żeby zobaczyć drugą jej stronę. Będziesz wtedy mieć pewność, że klips chwyci całość i nie ześlizgnie się później."
+                        "pl": "Pamiętaj - zakładając klips na jakikolwiek przewód obróć branżę w taki sposób, żeby zobaczyć drugą jej stronę. Będziesz wtedy mieć pewność, że klips chwyci całość i nie ześlizgnie się później.",
+                        "es": "Recuerde: cuando aplique un clip a cualquier recipiente o conducto, siempre gire el instrumento para confirmar visualmente el otro lado del instrumento. Solo entonces tendrá la confianza de que el clip habrá capturado de forma segura a todo el tejido.",
+                        "zh-cn": "请记住 - 将夹子施加到任何船只或管道始终旋转仪器以在视觉上确认仪器的另一侧。只有那么你将有信心夹子将安全地捕获整个组织。",
+                        "ja": "覚えておいてください - すべての船舶にクリップを適用するとき、またはダクトは常に機器の反対側を視覚的に確認してください。そのとき、クリップが組織全体を安全に捉えたという自信を持っているでしょう。"
                     }
                 }
             ]
@@ -32,28 +41,40 @@
             "type": "quote",
             "text": {
                 "en": "When applying a clip it is important for the face of the clip applicator to be directed towards the field of vision so that the surgeon can visualize both jaws of the instrument.",
-                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem."
+                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem.",
+                "es": "Al aplicar un clip, es importante que la cara del aplicador de clip se dirija hacia el campo de la visión para que el cirujano pueda visualizar ambas mandíbulas del instrumento.",
+                "zh-cn": "当涂抹夹子时，对于剪辑涂抹器的面对朝向视野非常重要，以便外科医生可以想象仪器的两个钳口。",
+                "ja": "クリップを適用するときは、外科医が機器の両方の顎を視覚化できるように、クリップアプリケータの顔が視野に向けられることが重要である。"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "When applying a clip it is important for the face of the clip applicator to be directed towards the field of vision so that the surgeon can visualize both jaws of the instrument. This gives the surgeon confidence that the clip will fit around the entire structure of the target tissue and that it won’t accidentally catch any of the other tissues. It is worth noting that we should not use metal clips along with electro-surgery. The tissue may be damaged and the clips may loosen when the clips conduct electricity.",
-                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem. Tylko wtedy ma się pewność że cały przewód został poprawnie chwycony przez instrument. Ogranicza to też prawdopodobieństwo uchwycenia klipsownicą innych tkanek.. Nie jest też rekomendowane używanie elektrochirurgii w pobliżu założonych klipsów, gdyż klipsy mogą przypadkowo przewodzić prąd i poluzować się na tkance."
+                "pl": "Podczas zakładania klipsów na przewody przydatne jest obrócenie końcówki w taki sposób, aby obie szczęki były uwidocznione za przewodem. Tylko wtedy ma się pewność że cały przewód został poprawnie chwycony przez instrument. Ogranicza to też prawdopodobieństwo uchwycenia klipsownicą innych tkanek.. Nie jest też rekomendowane używanie elektrochirurgii w pobliżu założonych klipsów, gdyż klipsy mogą przypadkowo przewodzić prąd i poluzować się na tkance.",
+                "es": "Al aplicar un clip, es importante que la cara del aplicador de clip se dirija hacia el campo de la visión para que el cirujano pueda visualizar ambas mandíbulas del instrumento. Esto le da a la confianza del cirujano que el clip se ajustará a toda la estructura del tejido objetivo y que no accederá accidentalmente a ninguno de los otros tejidos. Vale la pena señalar que no debemos usar clips de metal junto con la electro-cirugía. El tejido puede dañarse y los clips pueden aflojarse cuando los clips realizan electricidad.",
+                "zh-cn": "当涂抹夹子时，对于剪辑涂抹器的面对朝向视野非常重要，以便外科医生可以想象仪器的两个钳口。这使外科医生有信心，即夹子将围绕着靶组织的整个结构，并且不会意外地捕获任何其他组织。值得注意的是，我们不应该使用金属夹以及电动手术。组织可能被损坏，并且当夹子导电时可以松开夹子。",
+                "ja": "クリップを適用するときは、外科医が機器の両方の顎を視覚化できるように、クリップアプリケータの顔が視野に向けられることが重要である。これにより、クリップが標的組織の構造全体の周りに適合し、それが誤って他の組織を捕まえないという外科医の信頼を与える。電気手術とともに金属クリップを使用しないでください。組織は損傷を受け、クリップが電気を伝導するときにクリップが緩むことがある。"
             }
         },
         {
             "type": "header",
             "text": {
                 "en": "Endo-Loop",
-                "pl": "Endo-Loop"
+                "pl": "Endo-Loop",
+                "es": "Endo-bucle",
+                "zh-cn": "endo-loop.",
+                "ja": "エンドループ"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Tying knots inside the laparoscopic operating area is usually difficult due to the limited space available. Only experienced and skilled surgeons are capable of working with complex intracorporeal sutures. This is why knots are often tied extracorporeally and are then brought in through the trocar. In this way the loop is ready and only needs to be pulled and tightened onto the target tissue.",
-                "pl": "Wiązanie węzłów wewnątrz pola operacyjnego jest uznawane za najtrudniejsze i jedynie doświadczeni chirurdzy potrafią to robić. Dlatego możliwe jest wiązanie węzłów poza polem operacyjnym i wprowadzanie ich przez trokar przy pomocy disektora bądź endo-loop'a. Tym sposobem możliwe jest obejście tej umiejętności. Pętla musi być jedynie wprowadzona do pola operacyjnego i zaciągnięta na docelową tkankę."
+                "pl": "Wiązanie węzłów wewnątrz pola operacyjnego jest uznawane za najtrudniejsze i jedynie doświadczeni chirurdzy potrafią to robić. Dlatego możliwe jest wiązanie węzłów poza polem operacyjnym i wprowadzanie ich przez trokar przy pomocy disektora bądź endo-loop'a. Tym sposobem możliwe jest obejście tej umiejętności. Pętla musi być jedynie wprowadzona do pola operacyjnego i zaciągnięta na docelową tkankę.",
+                "es": "Los nudos de atadura dentro del área de operación laparoscópica generalmente son difíciles debido al espacio limitado disponible. Solo los cirujanos experimentados y expertos son capaces de trabajar con suturas intracorpóreas complejas. Esta es la razón por la cual los nudos a menudo se atan extracorpóricamente y luego se traen a través del trocar. De esta manera, el bucle está listo y solo debe ser arrastrado y apretado sobre el tejido objetivo.",
+                "zh-cn": "由于可用空间有限，腹腔镜操作区域内的结通常难以实现。只有经验丰富和熟练的外科医生能够与复杂的体内缝合线合作。这就是为什么结经常被捆绑体外，然后通过户轨道进入。以这种方式，循环准备好，只需要被拉动并拧紧到目标组织上。",
+                "ja": "腹腔鏡手術範囲内の結び目を結ぶことは通常、スペースが限られているために通常困難です。経験豊富で熟練した外科医のみが複雑な体内縫合具を使って作業することができます。結び目がしばしば体外に縛られ、次にトロカールを通して持ち込まれる理由です。このようにして、ループは準備ができており、標的組織上に引っ張って締め付ける必要がある。"
             }
         }
     ],
@@ -61,10 +82,16 @@
     "summary": [],
     "title": {
         "en": "Other Commonly used Laparoscopic Instruments",
-        "pl": "Inne często używane instrumenty laparoskopowe"
+        "pl": "Inne często używane instrumenty laparoskopowe",
+        "es": "Otros instrumentos laparoscópicos de uso común.",
+        "zh-cn": "其他常用的腹腔镜仪器",
+        "ja": "他の一般的に使用されている腹腔鏡器具"
     },
     "subTitle": {
         "en": "An overview of the properties of the clip applicator and the endo-loop.",
-        "pl": "Przegląd właściwości klipsownicy i endo-loop"
+        "pl": "Przegląd właściwości klipsownicy i endo-loop",
+        "es": "Una descripción general de las propiedades del aplicador de clip y el endo-bucle.",
+        "zh-cn": "夹子涂抹器和endo环的性质概述。",
+        "ja": "クリップアプリケータとエンドループのプロパティの概要"
     }
 }

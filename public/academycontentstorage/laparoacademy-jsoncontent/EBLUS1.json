@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 402
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 20
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 10
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 268
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "needle_h",
         "needle_h",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 268
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 10
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 20
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Needle Guidance",
-        "pl": "Prowadzenie Igły"
+        "pl": "Prowadzenie Igły",
+        "es": "Guía de agujas",
+        "zh-cn": "针指导",
+        "ja": "ニードルガイダンス"
     },
     "skills": {
         "en": "E-BLUS, Suturing, Ambidexterity",
-        "pl": "E-BLUS, Szycie, Oburęczna zręczność"
+        "pl": "E-BLUS, Szycie, Oburęczna zręczność",
+        "es": "E-blus, sutura, ambidexteridad",
+        "zh-cn": "E-BLU，缝合，侧视",
+        "ja": "E-BLUS、縫合、AMBIDEXTARITY"
     },
     "description": {
         "en": "In the first E-BLUS standard exercise, the ability to smoothly manipulate the needle with suture is tested. The trainee must navigate the needle through the holes through a series of holes. The purpose of the exercise is to verify the ability to maintain control over the needle with both instruments and at a variety of different angles. ",
-        "pl": "W pierwszym ćwiczeniu standardu E-BLUS sprawdzana jest umiejętność płynnego manipulowania igłą przy pomocy imadeł. Trenujący musi przeprowadzić igłę przez szereg otworów. Celem ćwiczenia jest weryfikacja umiejętności kontrolowania igły obydwoma instrumentami pod różnymi kątami."
+        "pl": "W pierwszym ćwiczeniu standardu E-BLUS sprawdzana jest umiejętność płynnego manipulowania igłą przy pomocy imadeł. Trenujący musi przeprowadzić igłę przez szereg otworów. Celem ćwiczenia jest weryfikacja umiejętności kontrolowania igły obydwoma instrumentami pod różnymi kątami.",
+        "es": "En el primer ejercicio estándar E-BLUS, se prueba la capacidad de manipular suavemente la aguja con sutura. El aprendiz debe navegar por la aguja a través de los agujeros a través de una serie de agujeros. El propósito del ejercicio es verificar la capacidad de mantener el control sobre la aguja con ambos instrumentos y en una variedad de ángulos diferentes.",
+        "zh-cn": "在第一e-Blus标准运动中，测试了用缝合线平稳操纵针的能力。学员必须通过一系列孔通过孔导航针。练习的目的是验证用两个仪器和各种不同角度对针保持控制的能力。",
+        "ja": "最初のE-BLUS標準運動では、縫合糸で針をスムーズに操作する能力がテストされます。研修生は一連の穴を通して針を穴を通してナビゲートしなければなりません。演習の目的は、両方の機器と様々な異なる角度で針を制御する能力を検証することです。"
     },
     "instructions": {
         "en": "The needle should be driven through the holes in the order indicated on the module. According to the E-BLUS standard two needle drivers should be used with one braided suture and a 3-0 with curved needle. The entire exercise should be completed within 268 seconds. Alternatively the exercise may be executed with one needle driver and dissector if two needle drivers are not available to the trainee.",
-        "pl": "Igłę należy przeprowadzić przez otwory w kolejności wskazanej na module. Zgodnie ze standardem E-BLUS powinny być użyte dwa imadła z jednym szwem plecionymi igłą 3-0. Całe ćwiczenie powinno być wykonane w maksimum 268 sekund. Ćwiczenie może być również wykonane przy pomocy jednego imadła i disektora jeśli dwa imadła nie są dostępne."
+        "pl": "Igłę należy przeprowadzić przez otwory w kolejności wskazanej na module. Zgodnie ze standardem E-BLUS powinny być użyte dwa imadła z jednym szwem plecionymi igłą 3-0. Całe ćwiczenie powinno być wykonane w maksimum 268 sekund. Ćwiczenie może być również wykonane przy pomocy jednego imadła i disektora jeśli dwa imadła nie są dostępne.",
+        "es": "La aguja debe ser conducida a través de los orificios en el orden indicado en el módulo. De acuerdo con el estándar E-BLUS, se deben usar dos controladores de agujas con una sutura trenzada y un 3-0 con una aguja curva. Todo el ejercicio debe completarse dentro de los 268 segundos. Alternativamente, el ejercicio puede ejecutarse con un controlador y disector de agujas si dos controladores de agujas no están disponibles para el aprendiz.",
+        "zh-cn": "针应在模块上指示的顺序中通过孔驱动。根据E-Blus标准，两个针驾驶员应与一个编织缝合线和带有弯曲针的3-0一起使用。整个练习应在268秒内完成。或者，如果训练器不可用两个针头驱动器，则可以用一个针驾驶员和解剖员执行锻炼。",
+        "ja": "針は、モジュールに示されている順序で穴を通して駆動されるべきです。 E-BLUS規格によると、2つの針ドライバは1つの編組縫合糸と湾曲した針を有する3-0で使用されるべきです。演習全体は268秒以内に完了する必要があります。あるいは、2つのニードルドライバが研修生に利用できない場合、運動は1つの針運転者および分析器で実行されてもよい。"
     },
     "preparation": {
         "en": "Place the module in the operating area and prepare a needle with approximately 20-30cm of suture material available.",
-        "pl": "Moduł powinien być umieszczony wewnątrz pola operacyjnego i powinna zostać wprowadzona igła wraz z 20-30cm nici."
+        "pl": "Moduł powinien być umieszczony wewnątrz pola operacyjnego i powinna zostać wprowadzona igła wraz z 20-30cm nici.",
+        "es": "Coloque el módulo en el área de operación y prepare una aguja con aproximadamente 20-30 cm de material de sutura disponible.",
+        "zh-cn": "将模块放在操作区域中，并用大约20-30厘米的缝合材料准备一根针。",
+        "ja": "モジュールを操作領域に入れ、約20~30cmの縫合糸材料を使用可能な針を用意してください。"
     }
 }

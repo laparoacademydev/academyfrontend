@@ -1,868 +1,1202 @@
 {
-  "courses": [
-    {
-      "id": "basic_skills",
-      "content": [
+    "courses": [
         {
-          "type": "education",
-          "id": "edu1_posture_and_ergonomics",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "basic_skills",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu1_posture_and_ergonomics",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "DM2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu2_instrument_movement",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "DM1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu3_instrument_collaboration",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "DM3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "DM4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM6",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu4_object_directional",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM8",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM9",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "DM5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "TM7",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Basic Skills",
+                "pl": "Podstawowe Umiejętności",
+                "es": "Habilidades básicas",
+                "zh-cn": "基本技能",
+                "ja": "基本的なスキル"
+            }
         },
         {
-          "type": "scenario",
-          "id": "TM1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "basic_suturing",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu10_needle_handling",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS2_BNH1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS2_BNH2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS2_BNH3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu11_suture_patterns",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS3_BKT1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS4_BSP2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS1_BSP1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu12_knots",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS1_BSP1",
+                    "simulators": {
+                        "Apex": false,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS1_BSP2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS3_BKT3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS1_BSP4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Basic Suturing Skills",
+                "pl": "Szycie Podstawowe",
+                "es": "Habilidades básicas de sutura",
+                "zh-cn": "基本缝合技巧",
+                "ja": "基本的な縫合スキル"
+            }
         },
         {
-          "type": "scenario",
-          "id": "DM2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "intermediate_skills",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu8_trocars_insufflation",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu5_instruments",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu6_dissection_resection",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM4_TDM1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM4_TDM2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM4_TDM3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM4_TDM4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu7_vessel_manipulation",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM3_VDM1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "THM3_VDM2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu9_camera_systems",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Intermediate Skills",
+                "pl": "Średnio-Zaawansowane Umiejętności",
+                "es": "Habilidades intermedias",
+                "zh-cn": "中级技能",
+                "ja": "中間スキル"
+            }
         },
         {
-          "type": "education",
-          "id": "edu2_instrument_movement",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "advanced_suturing",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu13_vertical_horizontal",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS1_BSP3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS3_BKT2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "BSS1_BSP5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu14_advanced_platform",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS2_ASP1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS2_ASP2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS2_ASP3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS2_ASP5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu15_anastomosis",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS2_ASP4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS3_ASP1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS3_ASP4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS3_ASP2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "ASS3_ASP3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Advanced Suturing Skills",
+                "pl": "Szycie Zaawansowane",
+                "es": "Habilidades de sutura avanzadas",
+                "zh-cn": "先进的缝线技巧",
+                "ja": "高度な縫合スキル"
+            }
         },
         {
-          "type": "scenario",
-          "id": "TM2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "fls_fundamentals",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu16_fls",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "FLS1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "FLS2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "FLS3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "FLS4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "FLS5",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "FLS",
+                "pl": "FLS",
+                "es": "FLS",
+                "zh-cn": "FLS",
+                "ja": "FLS"
+            }
         },
         {
-          "type": "scenario",
-          "id": "TM3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "eblus_european",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu17_eblus",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "EBLUS1",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "EBLUS2",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "EBLUS3",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "EBLUS4",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "E-BLUS",
+                "pl": "E-BLUS",
+                "es": "E-BLUS",
+                "zh-cn": "E-BLUS",
+                "ja": "E-BLUS"
+            }
         },
         {
-          "type": "scenario",
-          "id": "DM1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "cholecystectomy",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu18_chole",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_cholecystectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "education",
+                    "id": "edu20_chole_vr",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_cholecystectomy_dissecting",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_cholecystectomy_clipping",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_cholecystectomy_separation",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_cholecystectomy_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                }
+            ],
+            "name": {
+                "en": "Cholecystectomy",
+                "pl": "Cholecystektomia",
+                "es": "Colecistectomía",
+                "zh-cn": "胆囊切除术",
+                "ja": "胆嚢摘出術"
+            }
         },
         {
-          "type": "education",
-          "id": "edu3_instrument_collaboration",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "appendectomy",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu19_appendix",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_appendectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_appendectomy_dualstapling",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_appendectomy_singlestapling",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_appendectomy_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                }
+            ],
+            "name": {
+                "en": "Appendectomy",
+                "pl": "Appendektomia",
+                "es": "Apendectomía",
+                "zh-cn": "阑尾切除术",
+                "ja": "虫垂摘課"
+            }
         },
         {
-          "type": "scenario",
-          "id": "DM3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "gynecology",
+            "content": [
+                {
+                    "type": "education",
+                    "id": "edu21_hysterectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_ligaments",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_bladder",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_colpotomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_so_ligaments",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_tlh_so_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_vaginalcuff",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_hysterectomy_adnexectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_ovariancyst",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_myomectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": false
+                    }
+                }
+            ],
+            "name": {
+                "en": "Gynecology",
+                "pl": "Ginekologia",
+                "es": "Ginecología",
+                "zh-cn": "妇科",
+                "ja": "婦人科"
+            }
         },
         {
-          "type": "scenario",
-          "id": "DM4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM6",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu4_object_directional",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM8",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM9",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "DM5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "TM7",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
+            "id": "pediatrics",
+            "content": [
+                {
+                    "type": "scenario",
+                    "id": "vr_pediatrics_pyloromyotomy",
+                    "simulators": {
+                        "Apex": false,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_pediatrics_esophageal_atresia",
+                    "simulators": {
+                        "Apex": false,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_pediatrics_pyeloplasty",
+                    "simulators": {
+                        "Apex": false,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Pediatrics",
+                "pl": "Pediatria",
+                "es": "Pediatría",
+                "zh-cn": "儿科",
+                "ja": "小児科"
+            }
         }
-      ],
-      "name": {
-        "en": "Basic Skills",
-        "pl": "Podstawowe Umiejętności"
-      }
-    },
-    {
-      "id": "basic_suturing",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu10_needle_handling",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS2_BNH1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS2_BNH2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS2_BNH3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu11_suture_patterns",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS3_BKT1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS4_BSP2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS1_BSP1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu12_knots",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS1_BSP1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS1_BSP2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS3_BKT3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS1_BSP4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "Basic Suturing Skills",
-        "pl": "Szycie Podstawowe"
-      }
-    },
-    {
-      "id": "intermediate_skills",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu8_trocars_insufflation",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu5_instruments",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu6_dissection_resection",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM4_TDM1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM4_TDM2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM4_TDM3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM4_TDM4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu7_vessel_manipulation",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM3_VDM1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "THM3_VDM2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu9_camera_systems",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "Intermediate Skills",
-        "pl": "Średnio-Zaawansowane Umiejętności"
-      }
-    },
-    {
-      "id": "advanced_suturing",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu13_vertical_horizontal",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS1_BSP3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS3_BKT2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "BSS1_BSP5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu14_advanced_platform",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS2_ASP1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS2_ASP2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS2_ASP3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS2_ASP5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "education",
-          "id": "edu15_anastomosis",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS2_ASP4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS3_ASP1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS3_ASP4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS3_ASP2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "ASS3_ASP3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "Advanced Suturing Skills",
-        "pl": "Szycie Zaawansowane"
-      }
-    },
-    {
-      "id": "fls_fundamentals",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu16_fls",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "FLS1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "FLS2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "FLS3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "FLS4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "FLS5",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "FLS",
-        "pl": "FLS"
-      }
-    },
-    {
-      "id": "eblus_european",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu17_eblus",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "EBLUS1",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "EBLUS2",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "EBLUS3",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "EBLUS4",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "E-BLUS",
-        "pl": "E-BLUS"
-      }
-    },
-    {
-      "id": "cholecystectomy",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu18_chole",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "module_cholecystectomy",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_cholecystectomy_dissecting",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_cholecystectomy_clipping",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_cholecystectomy_separation",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_cholecystectomy_full",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        }
-      ],
-      "name": {
-        "en": "Cholecystectomy",
-        "pl": "Cholecystektomia"
-      }
-    },
-    {
-      "id": "appendectomy",
-      "content": [
-        {
-          "type": "education",
-          "id": "edu19_appendix",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "module_appendectomy",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_appendectomy_dualstapling",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_appendectomy_singlestapling",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "vr_appendectomy_full",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        }
-      ],
-      "name": {
-        "en": "Appendectomy",
-        "pl": "Appendektomia"
-      }
-    },
-    {
-      "id": "gynecology",
-      "content": [
-        {
-          "type": "scenario",
-          "id": "vr_hysterectomy_full",
-          "simulators": {
-            "Apex": true,
-            "Analytic": false,
-            "Advance": false
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "module_ovariancyst",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "module_myomectomy",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        },
-        {
-          "type": "scenario",
-          "id": "module_vaginalcuff",
-          "simulators": {
-            "Apex": true,
-            "Analytic": true,
-            "Advance": true
-          }
-        }
-      ],
-      "name": {
-        "en": "Gynecology",
-        "pl": "Ginekologia"
-      }
-    }
-  ]
+    ]
 }

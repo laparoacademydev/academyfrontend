@@ -64,57 +64,130 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 270
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 15
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 5
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 180
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 180
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 5
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 15
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Sliding Knot Intro",
-        "pl": "Węzeł Przesuwny - Wprowadzenie"
+        "pl": "Węzeł Przesuwny - Wprowadzenie",
+        "es": "Introducción de nudo deslizante",
+        "zh-cn": "滑动结介绍",
+        "ja": "スライドノットイントロ"
     },
     "skills": {
         "en": "Sliding Knot, Suturing",
-        "pl": "Węzeł Przesuwny, Szycie"
+        "pl": "Węzeł Przesuwny, Szycie",
+        "es": "Nudo deslizante, sutura",
+        "zh-cn": "滑动结，缝合",
+        "ja": "スライド結び目、縫合"
     },
     "description": {
         "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
-        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. "
+        "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. ",
+        "es": "El nudo deslizante es útil cuando los tejidos de destino están más separados o cuando el espacio disponible es limitado. Cuando se usa correctamente, este nudo se puede aplicar libremente y se puede apretar gradualmente tirando del extremo.",
+        "zh-cn": "当靶组织进一步或当可用空间有限时，滑动结是有用的。当正确使用时，该结可以松散地施加，并且可以通过拉动末端逐渐拧紧。",
+        "ja": "標的組織がさらに離れているとき、または利用可能な空間が限られているときには、スライド結び目が役立ちます。正しく使用されるとき、この結び目はゆるく適用することができ、終わりを引くことによって徐々に締め付けることができます。"
     },
     "instructions": {
         "en": "The rope should be threaded through the farthest hole in the platform first. Then wrap the left instrument forwards with the rope on the left side and grab the right side of the rope. When the left instrument is pulled this wrapped rope should slip off the instrument forming the first throw. Next, this maneuver should be repeated on the right side. Wrap the right instrument forwards and grab the left rope and pull to form the second throw. This will result in a simple 1x1 knot when pulled. Then progress down, threading the rope through the remaining holes as shown. Complete the continous pattern with a single surgical knot as shown.",
-        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. Następnie kolejno sznurek powinien być przewleczony przez kolejne otwory na module i ćwiczenie zakończone jest na węźle chirurgicznym pokazanym na filmie."
+        "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. Następnie kolejno sznurek powinien być przewleczony przez kolejne otwory na module i ćwiczenie zakończone jest na węźle chirurgicznym pokazanym na filmie.",
+        "es": "La cuerda debe estar roscada a través del orificio más lejano en la plataforma primero. Luego, envuelva el instrumento izquierdo hacia adelante con la cuerda en el lado izquierdo y tome el lado derecho de la cuerda. Cuando se extrae el instrumento izquierdo, esta cuerda envuelta debe deslizarse del instrumento formando el primer lanzamiento. A continuación, esta maniobra debe repetirse en el lado derecho. Envuelva el instrumento derecho hacia adelante y agarre la cuerda izquierda y tire para formar el segundo lanzamiento. Esto resultará en un simple 1x1 nudo cuando se haya tirado. Luego, progrese hacia abajo, enhebre la cuerda a través de los orificios restantes como se muestra. Complete el patrón continuo con un solo nudo quirúrgico como se muestra.",
+        "zh-cn": "绳子应该先穿过平台上最远的洞。然后将左仪器用左侧的绳子转发，抓住绳索的右侧。当左仪器拉动时，这种包裹的绳子应拆下形成第一掷的仪器。接下来，应该在右侧重复这种机动。将右侧仪器包裹起来并抓住左绳并拉动形成第二次。这将导致拉动时的简单1x1结。然后进展，通过所示穿过剩余的孔穿过绳索。如图所示，用单个手术结用连续图案。",
+        "ja": "ロープは最初にプラットフォームの最も遠い穴を通してねじ込まれているべきです。次に左側のロープで左側の機器を包み、ロープの右側をつかみます。左側の機器が引っ張られたとき、この巻きロープは最初の投げを形成する装置の滑り落ちるはずです。次に、この操作を右側に繰り返す必要があります。右の機器を巻き付けて左ロープをつかみ、引っ張って2番目のスローを形成します。これにより、引っ張られたときに単純な1×1ノットが生じる。次に進行中に、図のように残りの穴を通してロープをねじ込みます。示されているように、単一の外科用結節で連続的なパターンを完成させてください。"
     },
     "preparation": {
         "en": "Place the basic knot tying platform onto the basic suturing module along with the piece of rope in the operating area.",
-        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. "
+        "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. ",
+        "es": "Coloque la plataforma de atado de nudos básicos en el módulo de sutura básica junto con la pieza de la cuerda en el área de operación.",
+        "zh-cn": "将基本结绑在基本缝合模块上以及操作区域的绳索上。",
+        "ja": "基本的な結び目の止めプラットフォームを基本的な縫合モジュールに沿って、運転領域のロープとともに置きます。"
     }
 }

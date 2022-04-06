@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 270
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 40
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 8
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 180
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 180
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 8
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 40
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Draw-Through with Solids",
-        "pl": "Przewlekanie przez Obiekty Solidne"
+        "pl": "Przewlekanie przez Obiekty Solidne",
+        "es": "Dibujar con sólidos",
+        "zh-cn": "用固体绘制",
+        "ja": "ソリッドで描きます"
     },
     "skills": {
         "en": "Suturing",
-        "pl": "Szycie"
+        "pl": "Szycie",
+        "es": "Sutura",
+        "zh-cn": "缝合",
+        "ja": "縫合"
     },
     "description": {
         "en": "By guiding this elastic twine through the solid holes in the available posts you can further expand your abilities. Pushing and pulling the twine through and directing the tip accurately expands your proficiency further with manipulating through in-elastic structures.",
-        "pl": "Prowadząc ten elastyczny sznurek przez solidne otwory w dostępnych słupkach, możesz jeszcze bardziej rozwinąć swoje umiejętności i przygotować się do szycia. Popychanie i przeciąganie sznurka oraz precyzyjne kierowanie końcówką zwiększy biegłość w manipulowaniu elastycznymi strukturami. "
+        "pl": "Prowadząc ten elastyczny sznurek przez solidne otwory w dostępnych słupkach, możesz jeszcze bardziej rozwinąć swoje umiejętności i przygotować się do szycia. Popychanie i przeciąganie sznurka oraz precyzyjne kierowanie końcówką zwiększy biegłość w manipulowaniu elastycznymi strukturami. ",
+        "es": "Al guiar a este cordel elástico a través de los orificios sólidos en los puestos disponibles, puede ampliar aún más sus habilidades. Empujando y tirando de la cordalia a través y la dirección de la sugerencia, expande con precisión su competencia con la manipulación de las estructuras en elásticos.",
+        "zh-cn": "通过将此弹性线引导通过可用帖子中的固体孔，您可以进一步扩大您的能力。通过弹性结构的操纵，推动和拉动麻线并指导尖端，进一步扩大您的熟练程度。",
+        "ja": "利用可能な投稿のソリッドホールを通ってこの弾性捻転を案内することによって、あなたはあなたの能力をさらに拡大することができます。糸字形の構造を操作して、チップを押して引っ張り、先端を向けることを正確に拡大します。"
     },
     "instructions": {
         "en": "Begin with twine at the start position in the bottom peg. Again, do not cross your instruments while removing the entire twine. Pass twine through visible holes in tops of both far-left pegs. Then move the entire twine through and repeat the same in pegs on the far right in the opposite direction. Again, move the entire twine through and finish by pushing into the end position of the top center peg.",
-        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie nie krzyżuj instrumentów podczas usuwania całego sznurka. Przełóż sznurek przez widoczne otwory w wierzchołkach obu skrajnych lewych kołków. Następnie przesuń cały sznurek i powtórz to samo kołkami po prawej stronie w przeciwnym kierunku. Ponownie przełóż cały sznurek i zakończ, wpychając go w położenie końcowe górnego kołka środkowego. "
+        "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie nie krzyżuj instrumentów podczas usuwania całego sznurka. Przełóż sznurek przez widoczne otwory w wierzchołkach obu skrajnych lewych kołków. Następnie przesuń cały sznurek i powtórz to samo kołkami po prawej stronie w przeciwnym kierunku. Ponownie przełóż cały sznurek i zakończ, wpychając go w położenie końcowe górnego kołka środkowego. ",
+        "es": "Comience con guita en la posición de inicio en la clavija inferior. Nuevamente, no cruce sus instrumentos mientras retire toda la cordita. Pase el cordel a través de orificios visibles en las tops de ambas clavijas de lejano. Luego, mueva toda la cordita a través y repita lo mismo en clavijas en el extremo derecho en la dirección opuesta. Nuevamente, mueva a toda la cordita a través y termine empujando la posición final de la clavija central superior.",
+        "zh-cn": "从底部挂钩的起始位置开始缠绕。再次，不要在删除整个缠绕时越过乐器。通过左侧钉钉顶部的可见孔通过麻线。然后将整个缠绕通过沿相反方向的右右侧的钉子中的相同缠绕。再次，通过推入顶部中心栓的最终位置来移动整个缠绕和完成。",
+        "ja": "下部ペグの開始位置でひもで始めます。繰り返しますが、手間全体を取り外しながら機器を渡りません。両方の遠くのペグの上の目に見える穴を通して蝶番を通過します。次に、蝶番を貫通して、反対方向の右側のPEGで同じことを繰り返します。繰り返しますが、Twineを通り抜けて終了し、トップセンターペグの終了位置を押します。"
     },
     "preparation": {
         "en": "Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
-        "pl": "Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. "
+        "pl": "Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
+        "es": "Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
+        "zh-cn": "将单块缠绕放入张力模块的底部中心栓的孔中。",
+        "ja": "緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
     }
 }

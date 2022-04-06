@@ -35,8 +35,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
+        "Analytic": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "drawerConfig": {
         "main1mm": 120,
@@ -64,58 +76,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 900
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 27
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 180
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
-        "en": "Myomectomy",
-        "pl": "Wytłuszczenie Mięśniaka Macicy"
+        "en": "Myomectomy - Module",
+        "pl": "Wyłuszczenie Mięśniaka Macicy - Moduł",
+        "es": "Myomectomía - Módulo",
+        "zh-cn": "肌瘤切除术 - 模块",
+        "ja": "筋Omectomy - モジュール"
     },
     "skills": {
         "en": "Procedure, Gynecology, Dissection",
-        "pl": "Procedura, Ginekologia, Dissection"
+        "pl": "Procedura, Ginekologia, Dissection",
+        "es": "Procedimiento, ginecología, disección.",
+        "zh-cn": "程序，妇科，解剖",
+        "ja": "手順、婦人科、解剖"
     },
     "description": {
         "en": "In this exercise the objective is to perform the removal of uterine fibroids, also called leiomyomas, which are common noncancerous growths that form in the uterus.",
-        "pl": "W tym ćwiczeniu celem jest usunięcie mięśniaka gładkiego, znanego również jako włókniaka, często powstającego guza łagodnego powstającego w macicy"
+        "pl": "W tym ćwiczeniu celem jest usunięcie mięśniaka gładkiego, znanego również jako włókniaka, często powstającego guza łagodnego powstającego w macicy",
+        "es": "En este ejercicio, el objetivo es realizar la eliminación de los fibromas uterinos, también llamados leiomiomas, que son crecimientos no cancerosos comunes que se forman en el útero.",
+        "zh-cn": "在这项运动中，目的是去除子宫肌瘤，也称为平滑肌，这是在子宫内形成的常见非癌症生长。",
+        "ja": "この運動において、目的は、子宮内に形成される一般的な非癌性成長である平滑筋腫とも呼ばれる子宮線維性筋腫の除去を行うことである。"
     },
     "instructions": {
         "en": "The fibroid is covered with a surface layer which must be cut and opened for the fibroid to be exposed. This structure must then be dissected and separated from the surrounding tissues with as little damage as possible.",
-        "pl": "Mięśniak jest pokryty warstwą tkanek jajnika i te tkanki muszą zostać przecięte i otwarte aby uwidocznić mięśniaka. Structura ta musi być wypreparowana i odseparowana od otaczających ją tkanek wyrządzając najmniejszą możliwą szkodę tym tkankom."
+        "pl": "Mięśniak jest pokryty warstwą tkanek jajnika i te tkanki muszą zostać przecięte i otwarte aby uwidocznić mięśniaka. Structura ta musi być wypreparowana i odseparowana od otaczających ją tkanek wyrządzając najmniejszą możliwą szkodę tym tkankom.",
+        "es": "El fibroma está cubierto con una capa superficial que debe cortarse y abrirse para que el FIBROIDE esté expuesto. Esta estructura debe luego diseccionarse y separarse de los tejidos circundantes con el menor daño posible.",
+        "zh-cn": "肌瘤覆盖有表面层，必须切割并打开肌瘤以进行暴露。然后必须将这种结构与周围组织分离并与围绕组织分离，随着尽可能少的损坏。",
+        "ja": "繊維状は、曝露されるべき線維性について切断され開かれなければならない表面層で覆われている。この構造は、できるだけ少ない損傷で周囲の組織から解剖されて分離されなければならない。"
     },
     "preparation": {
         "en": "Clip the fibroid into the two clips on the sides of the gynaecology module. Note: The fibroid should be made out of a single piece of silicone and not be mistaken for the ovarian cyst which appears identical but is filled with fluid.",
-        "pl": "Mięśniak powinien zostać umocowany do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: mięśniak powinien być jednym kawałkiem silikonu, i nie powinien zostać pomylony z torbielą jajnika która wygląda identycznie ale jest wypełniona płynem."
+        "pl": "Mięśniak powinien zostać umocowany do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: mięśniak powinien być jednym kawałkiem silikonu, i nie powinien zostać pomylony z torbielą jajnika która wygląda identycznie ale jest wypełniona płynem.",
+        "es": "Clip the FiBroide en los dos clips en los lados del módulo de ginecología. NOTA: El fibroide se debe hacer de una sola pieza de silicona y no se confunda con el quiste ovárico que parece idéntico, pero está lleno de líquido.",
+        "zh-cn": "将肌瘤夹在妇科模块两侧的两个夹子中。注意：肌瘤应由一块硅胶中制成，而不是误认为卵巢囊肿，卵巢囊肿看起来相同但充满液体。",
+        "ja": "gynecologyモジュールの側面の2つのクリップにフィブロイドをクリップします。注：繊維状は単一のシリコーンから作られており、同一のように見えるが流体で満たされる卵巣嚢胞の間違いはない。"
     }
 }

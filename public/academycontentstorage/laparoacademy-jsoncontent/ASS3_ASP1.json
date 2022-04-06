@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 630
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 420
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 420
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 15
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 50
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Continuous Suturing under Tension",
-        "pl": "Szew Ciągły pod Napięciem"
+        "pl": "Szew Ciągły pod Napięciem",
+        "es": "Sutura continua bajo tensión.",
+        "zh-cn": "张力下连续缝合",
+        "ja": "張力下での連続縫合"
     },
     "skills": {
         "en": "Suturing, Sliding Knot, Continuous, Tension",
-        "pl": "Szycie, Węzeł Przesuwny, Szew Ciągły, Napięcie"
+        "pl": "Szycie, Węzeł Przesuwny, Szew Ciągły, Napięcie",
+        "es": "Sutura, nudo deslizante, continuo, tensión.",
+        "zh-cn": "缝合，滑动结，连续，张力",
+        "ja": "縫合、スライド結び目、連続、緊張"
     },
     "description": {
         "en": "When the edges of the target tissues are spread apart, suturing can be very challenging. In this exercise you must execute a continuous suturing pattern between the two inserts which are spread 1 cm apart. ",
-        "pl": "Kiedy krawędzie tkanek docelowych są od siebie oddalone, szycie może być bardzo trudne. W tym ćwiczeniu musisz wykonać ciągły szew pomiędzy dwoma silikonowymi insertami, które są rozstawione 1 cm od siebie. "
+        "pl": "Kiedy krawędzie tkanek docelowych są od siebie oddalone, szycie może być bardzo trudne. W tym ćwiczeniu musisz wykonać ciągły szew pomiędzy dwoma silikonowymi insertami, które są rozstawione 1 cm od siebie. ",
+        "es": "Cuando los bordes de los tejidos diana se separan, la sutura puede ser muy desafiante. En este ejercicio, debe ejecutar un patrón de sutura continua entre los dos insertos que se propagan 1 cm de distancia.",
+        "zh-cn": "当目标组织的边缘分开时，缝合可能非常具有挑战性。在本练习中，您必须在两个插入件之间执行连续缝合图案，它们分开1厘米。",
+        "ja": "標的組織の縁部が離れて広がると、縫合は非常に困難であり得る。この演習では、1 cm離れた2つのインサートの間に連続的な縫合パターンを実行する必要があります。"
     },
     "instructions": {
         "en": "Begin the exercise by fastening a single sliding knot on the top of the inserts to pull them together. Then perform four continuous throws approximately 1-2mm apart. Complete the exercise by completing a secure knot as shown in the video.  ",
-        "pl": "Ćwiczenie musi byc zaczęte od zawiązania pojedynczego węzła przesuwnego na górnej części insertu, w taki sposób, aby je połączyć ze sobą. Następnie powinny być wykonane kolejne rzuty w odległości około 1-2 mm poniżej. Ćwiczenie powinno być zakończone bezpiecznym węzłem, jak pokazano na filmie. "
+        "pl": "Ćwiczenie musi byc zaczęte od zawiązania pojedynczego węzła przesuwnego na górnej części insertu, w taki sposób, aby je połączyć ze sobą. Następnie powinny być wykonane kolejne rzuty w odległości około 1-2 mm poniżej. Ćwiczenie powinno być zakończone bezpiecznym węzłem, jak pokazano na filmie. ",
+        "es": "Comience el ejercicio sujetando un solo nudo deslizante en la parte superior de los insertos para juntarlos. Luego realice cuatro tiros continuos de aproximadamente 1-2 mm de diferencia. Complete el ejercicio completando un nudo seguro, como se muestra en el video.",
+        "zh-cn": "通过将单个滑动结在插入件顶部的顶部紧固以将它们拉到一起来开始锻炼。然后执行四个连续的投掷大约1-2毫米。通过在视频中显示的安全结来完成练习。",
+        "ja": "挿入物の上部にある単一のスライド結び目を締めて運動を始めてください。それから、約1~2mm離れた4つの連続的なスローを実行します。ビデオに示すように安全な結び目を完成させることによって運動を完了してください。"
     },
     "preparation": {
         "en": "For this exercise use the Advanced Suturing Platform with two inserts spread x cm apart and securely fastened with the screws. Place the needle in the start position on the top level of the Advanced Suturing Platform.",
-        "pl": "Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Inserty z sikonu powinny być rozstawione w odległości 1cm i przymocowane w platformie. Igła, wraz z 10-20cm nici powinna być umieszczona w pozycji startowej na wyższym poziomie platformy"
+        "pl": "Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Inserty z sikonu powinny być rozstawione w odległości 1cm i przymocowane w platformie. Igła, wraz z 10-20cm nici powinna być umieszczona w pozycji startowej na wyższym poziomie platformy",
+        "es": "Para este ejercicio, use la plataforma de sutura avanzada con dos insertos, dispersos x cm separados y sujetados firmemente con los tornillos. Coloque la aguja en la posición de inicio en el nivel superior de la plataforma de sutura avanzada.",
+        "zh-cn": "对于此练习，使用先进的缝合平台，两个插入件分开x cm并用螺钉牢固地固定。将针放在先进缝合平台顶级的起始位置。",
+        "ja": "この運動のために、2つのインサートがX cmを広げ、ネジでしっかりと固定された高度な縫合プラットフォームを使用してください。高度な縫合プラットフォームの最上位レベルの開始位置に針を配置します。"
     }
 }

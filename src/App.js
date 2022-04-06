@@ -38,7 +38,7 @@ export class AppHelper {
 
 function App() {
   //DEV Mode - for using localhost:3000 previews:
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [developerMode, setDeveloperMode] = useState(true);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
@@ -146,8 +146,8 @@ function App() {
           return response.json();
         })
         .then(function (myJson) {
-          setCourses(myJson);
-          setCourseIdAndScenarioList(myJson.courses[0]);
+          setCourses(extractCourseData(myJson));
+          setCourseIdAndScenarioList(extractCourseData(myJson).courses[0]);
         });
     }
   }
@@ -169,6 +169,30 @@ function App() {
       .then(function (myJson) {
         extractLocalizationData(myJson, selectedLanguage);
       });
+  }
+
+  function extractCourseData(myJson) {
+    var extractedCourses = { courses };
+    extractedCourses.courses = [];
+
+    for (let i = 0; i < myJson.courses.length; i++) {
+      var courseArray = [];
+      for (let x = 0; x < myJson.courses[i].content.length; x++) {
+        if (myJson.courses[i].content[x].simulators.Academy === true) {
+          courseArray.push(myJson.courses[i].content[x]);
+        }
+      }
+      if (courseArray.length !== 0) {
+        var currentCourse = {
+          content: courseArray,
+          id: myJson.courses[i].id,
+          name: myJson.courses[i].name,
+        };
+
+        extractedCourses.courses.push(currentCourse);
+      }
+    }
+    return extractedCourses;
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {

@@ -5,21 +5,30 @@
             "type": "paragraph",
             "text": {
                 "en": "After acquiring basic skill in moving instruments inside the operating area and after developing skill in visualization of 3D space, the laparoscopic surgery trainee is ready to perform exercises leading to the most important practical skill - laparoscopic suturing. For this purpose the surgeon must understand two basic concepts - holding and rotating instruments with long objects like needles and manipulating the suture material.",
-                "pl": "Po zdobyciu podstawowej umiejętności w poruszaniu się instrumentami wewnątrz pola operacyjnego, i po rozwinięciu umiejętności w wizualizacji trójwymiarowej przestrzeni, trenujący jest gotowy na wykonywanie podstawowych ćwiczeń, które później pomogą w najważniejszej umiejętności, czyli w szyciu. Z tej przyczyny chirurg musi zrozumieć dwa podstawowe pojęcia: trzymanie i obracanie instrumentów wraz z dłuższymi elementami(takimi jak igły), oraz manipulacja  nici chirurgicznej."
+                "pl": "Po zdobyciu podstawowej umiejętności w poruszaniu się instrumentami wewnątrz pola operacyjnego, i po rozwinięciu umiejętności w wizualizacji trójwymiarowej przestrzeni, trenujący jest gotowy na wykonywanie podstawowych ćwiczeń, które później pomogą w najważniejszej umiejętności, czyli w szyciu. Z tej przyczyny chirurg musi zrozumieć dwa podstawowe pojęcia: trzymanie i obracanie instrumentów wraz z dłuższymi elementami(takimi jak igły), oraz manipulacja  nici chirurgicznej.",
+                "es": "Después de adquirir habilidades básicas en los instrumentos de movimiento dentro del área de operación y después de desarrollar habilidades en la visualización del espacio 3D, el aprendiz de cirugía laparoscópica está listo para realizar ejercicios que conducen a la habilidad práctica más importante: sutura laparoscópica. Para este propósito, el cirujano debe comprender dos conceptos básicos: mantenimiento y instrumentos giratorios con objetos largos como agujas y manipulando el material de sutura.",
+                "zh-cn": "在获得操作区域内移动仪器的基本技能之后，在发展3D空间可视化的技能之后，腹腔镜手术实习者准备执行练习，导致最重要的实际技能 - 腹腔镜缝合。为此目的，外科医生必须了解两个基本概念 - 使用长物体的持有和旋转仪器，如针和操纵缝合材料。",
+                "ja": "運転面内で機器の移動技術を習得し、3D空間の可視化のスキルを開発した後、腹腔鏡手術研修生は腹腔鏡下縫合を担うための演習を行う準備ができています。この目的のために、外科医は2つの基本的な概念を理解しなければなりません - 針のような長い物体を持つ楽器と回転し、縫合材料を操作する必要があります。"
             }
         },
         {
             "type": "header",
             "text": {
                 "en": "Long Objects - Needles",
-                "pl": "Długie elementy - igły"
+                "pl": "Długie elementy - igły",
+                "es": "Objetos largos - agujas",
+                "zh-cn": "长物体 - 针",
+                "ja": "ロングオブジェクト - 針"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "Because the surgeon only has a 2D view and limited monocular cues to go on it is important to develop methods for understanding how a needle is pronated when held by the needle holder. The most useful way of doing this is to hand the object between the instruments to grasp the object at an angle at which it is best visible by the camera, and then to rotate to the desired directional angle. The exercises with cones included in these tutorials are specifically designed to focus the practice on directional guidance.",
-                "pl": "Ponieważ podczas procedury małoinwazyjnej chirurg ma jedynie ograniczony dwuwymiarowy obraz na którym może bazować informacje potrzebne przy obracaniu i kontrolowaniu igły podczas szycia. Podając i obracając obiekt pomiędzy instrumentami możliwe jest przygotowanie odpowiedniego kąta natarcia. Ćwiczenia przy użyciu stożków zostały zaprojektowane w taki sposób aby skupić uwagę ćwiczącego na tych właściwościach.\n"
+                "pl": "Ponieważ podczas procedury małoinwazyjnej chirurg ma jedynie ograniczony dwuwymiarowy obraz na którym może bazować informacje potrzebne przy obracaniu i kontrolowaniu igły podczas szycia. Podając i obracając obiekt pomiędzy instrumentami możliwe jest przygotowanie odpowiedniego kąta natarcia. Ćwiczenia przy użyciu stożków zostały zaprojektowane w taki sposób aby skupić uwagę ćwiczącego na tych właściwościach.\n",
+                "es": "Debido a que el cirujano solo tiene una visión 2D y las señales monoculares limitadas para continuar es importante desarrollar métodos para comprender cómo se prola una aguja cuando se sostiene por el soporte de la aguja. La forma más útil de hacer esto es entregar el objeto entre los instrumentos para agarrar el objeto en un ángulo en el que es mejor visible por la cámara, y luego girar al ángulo direccional deseado. Los ejercicios con conos incluidos en estos tutoriales están diseñados específicamente para enfocar la práctica en orientación direccional.",
+                "zh-cn": "因为外科医生只有2D视图和有限的单手抄线，所以要继续开发用于了解针被针支架握持时姿势的方法是重要的。这样做的最有用方式是将仪器之间的物体交给仪器之间以相机最佳可见的角度抓住物体，然后旋转到所需的方向角度。这些教程中包含的锥体的练习专门用于将实践集中在方向指导上。",
+                "ja": "外科医は2Dビューだけを有し、それを行く単眼手がかりがあるため、針ホルダーによって保持されたときに針がどのように投影されるかを理解するための方法を開発することが重要です。これを行う最も有用な方法は、それがカメラによって最もよく見える角度でオブジェクトを握り、次いで所望の方向角度に回転するために器具間の物を手渡すことです。これらのチュートリアルに含まれているコーンを持つ演習は、指向性ガイダンスに慣行を集中させるように特別に設計されています。"
             }
         },
         {
@@ -30,7 +39,10 @@
                     "type": "image",
                     "label": {
                         "en": "An exercise in which the trainee must push through and grasp cones at different angles resembles the way in which the surgeon will later handle needles in suturing.",
-                        "pl": "Ćwiczenie w którym przeprowadzisz i złapiesz stożki pod różniącymi się kątami przypomina sposób w który później będziesz chwytać i przekłuwać igłę podczas szycia."
+                        "pl": "Ćwiczenie w którym przeprowadzisz i złapiesz stożki pod różniącymi się kątami przypomina sposób w który później będziesz chwytać i przekłuwać igłę podczas szycia.",
+                        "es": "Un ejercicio en el que el aprendiz debe empujar y agarrar conos en diferentes ángulos se asemeja a la forma en que el cirujano manejará más tarde las agujas en sutura.",
+                        "zh-cn": "一项运动员必须在不同角度推开并抓住锥体的运动类似于外科医生后来将在缝合中处理针头的方式。",
+                        "ja": "研修生が異なる角度で円錐を押し上げて把握しなければならない運動は、外科医が後で縫合の針を扱う方法に似ています。"
                     }
                 }
             ]
@@ -39,21 +51,30 @@
             "type": "header",
             "text": {
                 "en": "Threads - Suture Handling",
-                "pl": "Sznurki - zarządzanie nicią"
+                "pl": "Sznurki - zarządzanie nicią",
+                "es": "Hilos - Manejo de sutura",
+                "zh-cn": "线程 - 缝合处理",
+                "ja": "スレッド - 縫合券"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "The included Draw-Through exercises feature an a stiff twine. Exercises performed on real sutures can be very difficult for inexperienced laparoscopic surgeons because the thin material is difficult to control without tangling. By learning to guide, rotate, and direct the twine, the trainee can learn how to later manipulate the suture material.",
-                "pl": "Innym aspektem utrudniającym naukę szycia jest plątanie się samej nici. Ćwiczenia z przeciąganiem sznurków ćwiczą umiejętność przewidywania tego plątania i zarządzania nicią w taki sposób aby nie utrudniała szycia laparoskopowego."
+                "pl": "Innym aspektem utrudniającym naukę szycia jest plątanie się samej nici. Ćwiczenia z przeciąganiem sznurków ćwiczą umiejętność przewidywania tego plątania i zarządzania nicią w taki sposób aby nie utrudniała szycia laparoskopowego.",
+                "es": "Los ejercicios de sorteo incluidos cuentan con un cordel rígido. Los ejercicios realizados en suturas reales pueden ser muy difíciles para los cirujanos laparoscópicos inexpertos porque el material delgado es difícil de controlar sin enredar. Al aprender a guiar, rotar y dirigir el cordel, el aprendiz puede aprender a manipular más tarde el material de sutura.",
+                "zh-cn": "附带的绘制练习具有一个僵硬的麻线。在真正的缝合线上进行的练习对于缺乏经验的腹腔镜外科医生来说非常困难，因为薄材料难以控制而不缠结。通过学习引导，旋转和指导缠绕，学员可以学习如何以后操纵缝合材料。",
+                "ja": "含まれている描画演習は硬いひもを備えています。実質的な縫合糸に対して行われた運動は、薄い材料が絡まずに制御するのが困難であるため、経験のない腹腔鏡下外科医にとって非常に困難であり得る。蝶相を導く、回転させ、そして直接することを学ぶことによって、研修生は後で縫合材料を操作する方法を学ぶことができます。"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "A noteworthy aspect of manipulating such twine is the fact that because it is thick and made out of plastic, it retains its shape and twist when bent out of shape. This is called 'memory' and real suture material can behave similarly too a lesser extent. Although depending on the specific material type sutures will have slightly different properties. Learning on twine is helpful in developing an understanding of the difficulties involved.",
-                "pl": "Warte podkreślenia jest  to, że sznurek użyty w tych ćwiczeniach jest gruby i plastikowy przez co utrzymuje swój kształt po zgięciu. Ta właściwość nazywana jest  pamięcią. Niektóre prawdziwe nici mają podobne właściwości i są one zależne od materiału, czyli plecionki lub  monofilamentu. Ucząc się na takim sztywnym sznurku trenujący rozwinie podstawowe zrozumienie trudności, które napotyka później."
+                "pl": "Warte podkreślenia jest  to, że sznurek użyty w tych ćwiczeniach jest gruby i plastikowy przez co utrzymuje swój kształt po zgięciu. Ta właściwość nazywana jest  pamięcią. Niektóre prawdziwe nici mają podobne właściwości i są one zależne od materiału, czyli plecionki lub  monofilamentu. Ucząc się na takim sztywnym sznurku trenujący rozwinie podstawowe zrozumienie trudności, które napotyka później.",
+                "es": "Un aspecto notable de manipular dicho chile es el hecho de que porque es grueso y hecho de plástico, conserva su forma y se tuerza cuando se dobla de forma. Esto se llama 'Memoria' y el material de sutura real puede comportarse de manera similar también menor. Aunque dependiendo de las suturas de tipo de material específico tendrá propiedades ligeramente diferentes. El aprendizaje en The Behine es útil para desarrollar una comprensión de las dificultades involucradas.",
+                "zh-cn": "操纵这种缠绕的值得注意的方面是因为它厚实并用塑料制成，它在弯曲时保持其形状和扭曲。这被称为“记忆”，真正的缝合材料可以表现得显着较小。虽然取决于特定的材料型缝合线的特性略有不同。在线学习有助于制定对所涉及的困难的理解。",
+                "ja": "そのような手段を操作するという注目すべき側面は、それが厚くてプラスチックから作られているので、形状から曲がったときにその形状とねじれを保持しているという事実です。これは「メモリ」と呼ばれ、本物の縫合糸材料は同様にもっと低くなる可能性があります。特定の材料タイプに依存しているが、縫合糸はわずかに異なる特性を有するであろう。撚り官の学習は、関与する困難性についての理解を深めるのに役立ちます。"
             }
         },
         {
@@ -64,7 +85,10 @@
                     "type": "image",
                     "label": {
                         "en": "Exercises with plastic twine are a good primer on manipulating suture material. Although larger and more stiff, twine retains memory much like suture material does at a smaller scale.",
-                        "pl": "Wykonując ćwiczenia z plastikowym sznurkiem szybko zrozumiesz na czym polega ‘pamięć’ nici."
+                        "pl": "Wykonując ćwiczenia z plastikowym sznurkiem szybko zrozumiesz na czym polega ‘pamięć’ nici.",
+                        "es": "Los ejercicios con cordel de plástico son una buena imprimación para manipular material de sutura. Aunque más grande y más rígido, el hilo retiene la memoria, al igual que el material de sutura en una escala menor.",
+                        "zh-cn": "用塑料麻线练习是操纵缝合材料的良好底漆。虽然较大且较强，但系丝像缝合材料的更小规模，均以较小的记忆。",
+                        "ja": "プラスチック製の蝶番を備えた運動は、縫合糸材料を操作する上で良いプライマーです。より大きくて硬いが、糸は縫合材料が小さいスケールではるかに小さいメモリを保持します。"
                     }
                 }
             ]
@@ -73,14 +97,20 @@
             "type": "header",
             "text": {
                 "en": "Basic Skills - Conclusion",
-                "pl": "Umiejętności podstawowe - podsumowanie"
+                "pl": "Umiejętności podstawowe - podsumowanie",
+                "es": "Habilidades básicas - Conclusión",
+                "zh-cn": "基本技能 - 结论",
+                "ja": "基本的なスキル - 結論"
             }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "After performing all the exercises of the Basic Skills chapter, you will be ready to move on to learning Basic Suturing Skills. The final exercises in the Basic Skills chapter have been designed to be challenging. We recommend thoroughly repeating all of these exercises at different instrument angles, in different ergonomic positions, and configurations.\n",
-                "pl": "Po wykonaniu wszystkich ćwiczeń w kursie podstawowych umiejętności, trenujący będzie gotowy na kurs szycia podstawowego. Ostatnie ćwiczenia w tym rozdziale zostały zaprojektowane tak, aby były większym wyzwaniem dla trenującego. Rekomendowane jest też powracanie i powtarzanie wszystkich ćwiczeń, stosując przy tym różne lokalizacje portów. Różnorodność pozycji ergonomicznych i konfiguracji omówionych powyżej da trenującemu doświadczenie i pewność w poruszaniu się instrumentami wewnątrz pola operacyjnego."
+                "pl": "Po wykonaniu wszystkich ćwiczeń w kursie podstawowych umiejętności, trenujący będzie gotowy na kurs szycia podstawowego. Ostatnie ćwiczenia w tym rozdziale zostały zaprojektowane tak, aby były większym wyzwaniem dla trenującego. Rekomendowane jest też powracanie i powtarzanie wszystkich ćwiczeń, stosując przy tym różne lokalizacje portów. Różnorodność pozycji ergonomicznych i konfiguracji omówionych powyżej da trenującemu doświadczenie i pewność w poruszaniu się instrumentami wewnątrz pola operacyjnego.",
+                "es": "Después de realizar todos los ejercicios del capítulo de habilidades básicas, estará listo para pasar a aprender habilidades de sutura básicas. Los ejercicios finales en el capítulo de habilidades básicas han sido diseñados para ser desafiantes. Recomendamos repetir a fondo todos estos ejercicios en diferentes ángulos de instrumentos, en diferentes posiciones ergonómicas y configuraciones.\n",
+                "zh-cn": "在执行基本技能章节的所有练习后，您将准备好继续学习基本的缝线技能。基本技能章节中的最终练习旨在挑战。我们建议在不同的仪器角度下彻底重复所有这些练习，在不同的符合人体工程学位置和配置。\n",
+                "ja": "基本的なスキルの章のすべての演習を実行した後、あなたは基本的な縫合スキルの学習に進む準備ができています。基本スキルの章の最終的な演習は挑戦的になるように設計されています。さまざまな人間工学的な立場で、さまざまな機器の角度でこれらのエクササイズをすべて繰り返すことをお勧めします。\n"
             }
         }
     ],
@@ -88,10 +118,16 @@
     "summary": [],
     "title": {
         "en": "Object Directional Control and String Guidance",
-        "pl": "Kierunkowa kontrola obiektu i prowadzenie nici"
+        "pl": "Kierunkowa kontrola obiektu i prowadzenie nici",
+        "es": "Objeto control direccional y guía de cadena",
+        "zh-cn": "对象方向控制和字符串引导",
+        "ja": "オブジェクト方向制御と文字列のガイダンス"
     },
     "subTitle": {
         "en": "A primer on the basic skills useful later when suturing inside the operating area.",
-        "pl": "Wstęp do podstawowych umiejętności przydatnych w szyciu wewnątrz pola operacyjnego."
+        "pl": "Wstęp do podstawowych umiejętności przydatnych w szyciu wewnątrz pola operacyjnego.",
+        "es": "Una imprimación en las habilidades básicas útiles más adelante cuando se suturba dentro del área de operación.",
+        "zh-cn": "在手术区域内缝合时，稍后有用的基本技能的底漆。",
+        "ja": "作業領域内に縫合するときには、後で有用な基本的なスキルに関するプライマー。"
     }
 }

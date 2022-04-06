@@ -76,57 +76,126 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 225
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 30
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 6
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance"
+                        },
+                        {
+                            "name": "symmetryClamps"
+                        }
+                    ],
+                    "name": "bimanual"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand"
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 150
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 150
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 6
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 30
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Intro to Manipulation",
-        "pl": "Wprowadzenie do Manipulacji"
+        "pl": "Wprowadzenie do Manipulacji",
+        "es": "Introducción a la manipulación",
+        "zh-cn": "操纵介绍",
+        "ja": "操作するためのイントロ"
     },
     "skills": {
         "en": "Precision, Depth Perception, Instrument Control",
-        "pl": "Precyzja, Percepcja Głębi, Kontrola Instrumentów"
+        "pl": "Precyzja, Percepcja Głębi, Kontrola Instrumentów",
+        "es": "Precisión, Percepción de profundidad, Control de instrumentos.",
+        "zh-cn": "精度，深度感知，仪器控制",
+        "ja": "精度、奥行き認識、計測器制御"
     },
     "description": {
         "en": "In this exercise you will simply learn how to manipulate objects with instruments used in laparoscopic procedures. Initially this can be difficult as the movement of the instruments is inverted and depth perception is limited. By performing these types of exercises you will develop basic laparoscopic skill.",
-        "pl": "W tym ćwiczeniu nauczysz się podstaw manipulacji przedmiotami za pomocą instrumentów używanych w zabiegach laparoskopowych. Początkowo może to być trudne, ponieważ ruch instrumentów jest odwrócony, a percepcja głębi jest ograniczona. Wykonując tego typu ćwiczenia rozwiniesz początkujące umiejętności laparoskopowe. "
+        "pl": "W tym ćwiczeniu nauczysz się podstaw manipulacji przedmiotami za pomocą instrumentów używanych w zabiegach laparoskopowych. Początkowo może to być trudne, ponieważ ruch instrumentów jest odwrócony, a percepcja głębi jest ograniczona. Wykonując tego typu ćwiczenia rozwiniesz początkujące umiejętności laparoskopowe. ",
+        "es": "En este ejercicio, simplemente aprenderá cómo manipular objetos con instrumentos utilizados en los procedimientos laparoscópicos. Inicialmente, esto puede ser difícil, ya que el movimiento de los instrumentos es invertido y la percepción de profundidad es limitada. Al realizar estos tipos de ejercicios, desarrollará habilidades laparoscópicas básicas.",
+        "zh-cn": "在本练习中，您将简单地学习如何用腹腔镜程序中使用的仪器操纵对象。最初这可能是困难的，因为仪器的运动被倒置并且深度感知是有限的。通过执行这些类型的练习，您将发展基本的腹腔镜技能。",
+        "ja": "この演習では、腹腔鏡手順で使用されている機器を使ってオブジェクトを操作する方法を簡単に学びます。最初にこれは、機器の動きが反転されて深さの知覚が制限されるので、これは困難であり得る。これらの種類の演習を実行することによって、あなたは基本的な腹腔鏡手法を開発するでしょう。"
     },
     "instructions": {
         "en": "Grab plastic balls from the central container and place on all 8 posts. First use the right instrument to pick-up, hand to the left instrument and then place on left 4 posts. Then use the left instrument, hand to the right instrument and place on right 4 posts. Exercise is complete when 8 posts are covered.",
-        "pl": "Chwyć plastikowe kulki z centralnego pojemnika i umieść na wszystkich 8 słupkach. Najpierw użyj prawego instrumentu do podniesienia kulki, podaj ją do lewego instrumentu, a następnie postaw na jednym z czterech słupków po lewej stronie. Powtórz dla wszystkich czterech po lewej. Następnie użyj lewego instrumentu żeby podnieść kulkę, podaj do prawego instrumentu i umieszczaj kolejno kulki na prawych 4 słupkach. Ćwiczenie jest zakończone kiedy 8 słupków zawiera kulki."
+        "pl": "Chwyć plastikowe kulki z centralnego pojemnika i umieść na wszystkich 8 słupkach. Najpierw użyj prawego instrumentu do podniesienia kulki, podaj ją do lewego instrumentu, a następnie postaw na jednym z czterech słupków po lewej stronie. Powtórz dla wszystkich czterech po lewej. Następnie użyj lewego instrumentu żeby podnieść kulkę, podaj do prawego instrumentu i umieszczaj kolejno kulki na prawych 4 słupkach. Ćwiczenie jest zakończone kiedy 8 słupków zawiera kulki.",
+        "es": "Agarre bolas de plástico del contenedor central y lugar en los 8 postes. Primero use el instrumento adecuado para recoger, entregar el instrumento izquierdo y luego colóquela en las publicaciones de 4 izquierdas. Luego use el instrumento izquierdo, mano al instrumento correcto y colóquelo en las publicaciones a la derecha. El ejercicio se completa cuando se cubren 8 puestos.",
+        "zh-cn": "从中央容器中抓住塑料球，并在所有8个柱子上放置。首先使用正确的仪器来拾取，向左仪器提取，然后放在左4个帖子上。然后使用左仪器，手动到正确的仪器并放在右侧4个帖子上。当覆盖8个帖子时，锻炼已完成。",
+        "ja": "中央の容器からプラスチック製のボールをつかみ、8の投稿すべての場所に置きます。最初に右の機器を使ってピックアップして、左側の楽器に手を入れてから左4枚の投稿を置きます。それから左の機器を使って、右側の機器に手を入れて右4の投稿に置きます。 8つの投稿が覆われているときに運動が完了しました。"
     },
     "preparation": {
         "en": "Place 10 balls in center basket of Dexterity Module.",
-        "pl": "Umieść 10 piłek w środkowym koszu Modułu Zręczności."
+        "pl": "Umieść 10 piłek w środkowym koszu Modułu Zręczności.",
+        "es": "Coloque 10 bolas en la canasta central de módulo de destreza.",
+        "zh-cn": "将10个球放在Dexterity模块的中心篮子里。",
+        "ja": "機器モジュールのセンターバスケットに10ボールを入れる。"
     }
 }

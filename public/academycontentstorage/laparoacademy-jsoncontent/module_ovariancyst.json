@@ -35,8 +35,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
+        "Analytic": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": ".png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "drawerConfig": {
         "main1mm": 120,
@@ -64,58 +76,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 1350
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 180
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 27
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 900
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 900
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 27
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 180
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
-        "en": "Ovarian Cyst Removal",
-        "pl": "Usunięcie Torbieli Jajnika"
+        "en": "Ovarian Cyst Removal - Module",
+        "pl": "Usunięcie Torbieli Jajnika - Moduł",
+        "es": "Remoción de quiste ovárico - Módulo",
+        "zh-cn": "卵巢囊肿清除 - 模块",
+        "ja": "卵巣嚢胞除去 - モジュール"
     },
     "skills": {
         "en": "Procedure, Gynecology, Dissection",
-        "pl": "Procedura, Ginekologia, Dissection"
+        "pl": "Procedura, Ginekologia, Dissection",
+        "es": "Procedimiento, ginecología, disección.",
+        "zh-cn": "程序，妇科，解剖",
+        "ja": "手順、婦人科、解剖"
     },
     "description": {
         "en": "In this exercise the objective is to perform the removal of an cyst which usually forms on one or both ovaries.",
-        "pl": "W tym ćwiczeniu celem jest usunięcie torbieli która powstaje na jednym albo obu jajnikach."
+        "pl": "W tym ćwiczeniu celem jest usunięcie torbieli która powstaje na jednym albo obu jajnikach.",
+        "es": "En este ejercicio, el objetivo es realizar la eliminación de un quiste que generalmente se forma en uno o ambos ovarios.",
+        "zh-cn": "在这项运动中，目的是进行除去通常在一个或两个卵巢上形成的囊肿的去除。",
+        "ja": "この運動において、目的は、通常、一方または両方の卵巣に形成される嚢胞の除去を実行することである。"
     },
     "instructions": {
         "en": "The ovarian cyst is filled with fluid which must not be allowed to leak into the operating area. The surface layer of the ovary must be carefully dissected to expose the cyst and then the cyst must be entirely separated from the tissues of the ovary without being punctured or damaged. At the same time, the ovaries must be left intact and not be torn into separate parts to maintain healthy functioning.",
-        "pl": "Torbiel jajnika jest wypełniona płynem który nie może wypłynąć do pola operacyjnego. Tkanki na powierzchni jajnika muszą zostać ostrożnie wypreparowane w taki sposób, aby ujawnić torbiel która musi być całkowicie odseparowana nieuszkodzona. Jednocześnie tkanka jajowodu nie może zostać rozerwana na osobne części aby zostały zachowane funkcje jajnika."
+        "pl": "Torbiel jajnika jest wypełniona płynem który nie może wypłynąć do pola operacyjnego. Tkanki na powierzchni jajnika muszą zostać ostrożnie wypreparowane w taki sposób, aby ujawnić torbiel która musi być całkowicie odseparowana nieuszkodzona. Jednocześnie tkanka jajowodu nie może zostać rozerwana na osobne części aby zostały zachowane funkcje jajnika.",
+        "es": "El quiste ovárico se llena con líquido que no debe permitirse fugarse en el área de operación. La capa superficial del ovario debe diseccionarse cuidadosamente para exponer el quiste y luego el quiste debe estar completamente separado de los tejidos del ovario sin ser pinchados o dañados. Al mismo tiempo, los ovarios deben dejarse intactos y no estar desgarrados en piezas separadas para mantener un funcionamiento saludable.",
+        "zh-cn": "卵巢囊肿填充有流体，不得被允许进入操作区域。必须小心地沉积卵巢的表面层以暴露囊肿，然后必须将囊肿完全与卵巢的组织完全分离，而不会被刺破或损坏。与此同时，卵巢必须完整，不会撕成分开的部件以保持健康的功能。",
+        "ja": "卵巣嚢胞は流体で充填されており、それは操作領域に漏れることを許可されてはならない。卵巣の表層を慎重に解剖して嚢胞を露出させ、次いで嚢胞を穿刺または損傷を受けずに完全に分離されなければならない。同時に、卵巣は無傷のままにする必要があり、健全な機能を維持するために別々の部品に引き裂かないでください。"
     },
     "preparation": {
         "en": "Clip the ovarian cyst into the two clips on the sides of the gynaecology module. Note: the ovarian cyst should be soft and filled with fluid, which is not to be mistaken for the uterine fibroid which appears identical but is made out of single piece of silicone.",
-        "pl": "Torbiel powinna zostać umocowana do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: torbiel powinna być miękka i wypełniona płynem, i nie powinna zostać pomylona z włókniakiem macicy który wygląda identycznie ale jest pojedynczym elementem silikonu."
+        "pl": "Torbiel powinna zostać umocowana do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: torbiel powinna być miękka i wypełniona płynem, i nie powinna zostać pomylona z włókniakiem macicy który wygląda identycznie ale jest pojedynczym elementem silikonu.",
+        "es": "Clip El quiste ovárico en los dos clips en los lados del módulo de ginecología. NOTA: El quiste ovárico debe ser suave y lleno de líquido, que no debe confundirse con el fibroide uterino que parece idéntico, pero está hecho de una sola pieza de silicona.",
+        "zh-cn": "将卵巢囊肿夹在妇科模块侧面的两个夹子中。注意：卵巢囊肿应柔软并充满液体，这是不误认为是子宫肌瘤，其出现相同但是由单件硅树脂制成。",
+        "ja": "卵巣嚢胞を婦人科モジュールの側面の2つのクリップにクリップします。注：卵巣嚢胞は柔らかくて液体で満たされるべきであり、それは同一であるが単一のシリコーンから作られている子宮線維性の間違いではない。"
     }
 }

@@ -64,58 +64,131 @@
     },
     "vrConfig": {},
     "isFreeTraining": false,
+    "evalConfig": {
+        "manual": {
+            "categories": [
+                {
+                    "params": [
+                        {
+                            "name": "time",
+                            "limit": 630
+                        }
+                    ],
+                    "name": "time"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "clamps",
+                            "limit": 50
+                        },
+                        {
+                            "name": "distance",
+                            "limit": 15
+                        }
+                    ],
+                    "name": "economy"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "symmetryDistance",
+                            "enabled": false
+                        },
+                        {
+                            "name": "symmetryClamps",
+                            "enabled": false
+                        }
+                    ],
+                    "name": "bimanual",
+                    "enabled": false
+                },
+                {
+                    "params": [
+                        {
+                            "name": "acceleration"
+                        },
+                        {
+                            "name": "jolt"
+                        },
+                        {
+                            "name": "clampSpeed"
+                        },
+                        {
+                            "name": "handOscillation"
+                        }
+                    ],
+                    "name": "smoothness"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "velocityHigh"
+                        },
+                        {
+                            "name": "velocityLowOneHand",
+                            "enabled": false
+                        },
+                        {
+                            "name": "velocityLowTwoHand"
+                        }
+                    ],
+                    "name": "activity"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "distanceOutOfVis"
+                        },
+                        {
+                            "name": "clampsOutOfVis"
+                        }
+                    ],
+                    "name": "visibility"
+                }
+            ],
+            "proficiency": 420
+        }
+    },
     "isVR": false,
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
-    "evalConfig": {
-        "manual": {
-            "categories": [
-                {
-                    "name": "time",
-                    "params": [
-                        {
-                            "name": "time",
-                            "limit": 420
-                        }
-                    ]
-                },
-                {
-                    "name": "economy",
-                    "params": [
-                        {
-                            "name": "distance",
-                            "limit": 15
-                        },
-                        {
-                            "name": "clamps",
-                            "limit": 50
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "name": {
         "en": "Continuous Horizontal Limited",
-        "pl": "Szew Ciągły w Ograniczonym Polu i Orientacji Poziomej"
+        "pl": "Szew Ciągły w Ograniczonym Polu i Orientacji Poziomej",
+        "es": "Continuo horizontal limitado",
+        "zh-cn": "连续水平有限公司",
+        "ja": "連続水平制限"
     },
     "skills": {
         "en": "Suturing, Continuous, Limited Access",
-        "pl": "Szycie, Szew Ciągły, Pole Ograniczone"
+        "pl": "Szycie, Szew Ciągły, Pole Ograniczone",
+        "es": "Sutura, continua, acceso limitado.",
+        "zh-cn": "缝合，连续，有限的访问",
+        "ja": "縫合、継続的、限定アクセス"
     },
     "description": {
         "en": "The Advanced Suturing Platform limits the amount of space available. This limitation has a positive impact on laparoscopic technique because it helps develop habits for operating in evenly more constrained space than usual.",
-        "pl": "Zaawansowana platforma do szycia ogranicza ilość dostępnej przestrzeni. To ograniczenie ma pozytywny wpływ na technikę laparoskopową, ponieważ pomaga wykształcić nawyki operowania w bardziej ograniczonej przestrzeni niż zwykle. "
+        "pl": "Zaawansowana platforma do szycia ogranicza ilość dostępnej przestrzeni. To ograniczenie ma pozytywny wpływ na technikę laparoskopową, ponieważ pomaga wykształcić nawyki operowania w bardziej ograniczonej przestrzeni niż zwykle. ",
+        "es": "La plataforma de sutura avanzada limita la cantidad de espacio disponible. Esta limitación tiene un impacto positivo en la técnica laparoscópica porque ayuda a desarrollar hábitos para operar en un espacio uniformemente más restringido de lo habitual.",
+        "zh-cn": "先进的缝合平台限制了可用的空间量。这种限制对腹腔镜技术产生了积极的影响，因为它有助于开发比平常更受限制的空间均匀的习惯。",
+        "ja": "高度な縫合プラットフォームは、利用可能なスペースの量を制限します。この制限は、腹腔鏡技術に積極的な影響を与えます。"
     },
     "instructions": {
         "en": "In this exercise you must perform a continuous suturing pattern inside of a limited amount of space available. Apply 4 throws approx 1-2mm apart and complete with the knot shown in the video.",
-        "pl": "W tym ćwiczeniu musi być wykonany ciągły szew w ograniczonej dostępnej przestrzeni. Powinny zostać zastosowane 4 rzuty w odległości około 1-2 mm i zakończone węzłem pokazanym na filmie. "
+        "pl": "W tym ćwiczeniu musi być wykonany ciągły szew w ograniczonej dostępnej przestrzeni. Powinny zostać zastosowane 4 rzuty w odległości około 1-2 mm i zakończone węzłem pokazanym na filmie. ",
+        "es": "En este ejercicio, debe realizar un patrón de sutura continua dentro de una cantidad limitada de espacio disponible. Aplicar 4 tiros aproximadamente 1-2 mm de distancia y complete con el nudo que se muestra en el video.",
+        "zh-cn": "在本练习中，您必须在可用空间数量的空间内执行连续缝合图案。涂抹4次抛出约1-2毫米，并在视频中显示的结。",
+        "ja": "この演習では、利用可能な限られた量のスペースの内側に連続的な縫合パターンを実行する必要があります。 4を適用すると、約1~2mm離れて、ビデオに表示されているノットが完成します。"
     },
     "preparation": {
         "en": "Apply the long suturing insert vertically and the start position to the Basic Suturing Platform below as pictured. Then apply the Advanced Suturing Platform on the top. Both the start position and the target structure should be visible.",
-        "pl": "Długi insert do szycia powinien być umieszczony w orientacji poziomej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne."
+        "pl": "Długi insert do szycia powinien być umieszczony w orientacji poziomej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne.",
+        "es": "Aplique la inserción de sutura larga verticalmente y la posición de inicio a la plataforma de sutura básica a continuación como se muestra en la foto. Luego, aplique la plataforma de sutura avanzada en la parte superior. Tanto la posición de inicio como la estructura objetivo deben ser visibles.",
+        "zh-cn": "垂直应用长缝线插入，并将启动位置与下面的基本缝合平台应用于如下图所示。然后在顶部应用高级缝合平台。起始位置和目标结构都应可见。",
+        "ja": "描画されているように下の基本的な縫合プラットフォームへの長い縫合挿入部を適用します。その後、上位の縫合プラットフォームを上に適用します。開始位置とターゲット構造の両方を表示する必要があります。"
     }
 }
