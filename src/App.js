@@ -38,7 +38,7 @@ export class AppHelper {
 
 function App() {
   //DEV Mode - for using localhost:3000 previews:
-  const [developerMode, setDeveloperMode] = useState(true);
+  const [developerMode, setDeveloperMode] = useState(false);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
