@@ -1,6 +1,6 @@
 import React from "react";
-import buttonclasses from "../UI/Button.module.css";
-import classes from "./DisplayedItemContent.module.css";
+import buttonclasses from "../../UI/Button.module.css";
+import classes from "../DisplayedItemContent.module.css";
 
 function ScenarioButton(props) {
   return (

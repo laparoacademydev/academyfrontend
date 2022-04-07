@@ -1,6 +1,6 @@
-import classes from "./DisplayedItemContent.module.css";
-import { AppHelper } from "./../../App.js";
-import ReturnNextPrevNav from "./ReturnNextPrevNav";
+import classes from "../DisplayedItemContent.module.css";
+import { AppHelper } from "../../../App.js";
+import ReturnNextPrevNav from "../ReturnNextPrevNav";
 
 function EducationSection(props) {
   let key = 0;

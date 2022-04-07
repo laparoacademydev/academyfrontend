@@ -1,6 +1,6 @@
 import classes from "./DisplayedItemContent.module.css";
-import EducationSection from "./EducationSection.js";
-import ScenarioDescription from "./ScenarioDescription.js";
+import EducationSection from "./EducationSection/EducationSection.js";
+import ScenarioDescription from "./ScenarioDescription/ScenarioDescription.js";
 
 function DisplayedItemContent(props) {
   if (

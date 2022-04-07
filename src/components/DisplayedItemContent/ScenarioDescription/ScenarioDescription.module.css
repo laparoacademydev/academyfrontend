@@ -1,0 +1,91 @@
+.itemcontenttophalf {
+  position: fixed;
+  top: 105px;
+  width: 850px;
+  margin-bottom: 310px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 60%;
+}
+
+.header {
+  position: relative;
+  left: 16px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  color: #263238;
+  font-size: 24px;
+}
+
+.skills {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6d6d6d;
+  left: 16px;
+  top: 15px;
+}
+
+.description {
+  text-align: justify;
+  text-justify: auto;
+  position: relative;
+  left: 16px;
+  top: 30px;
+  width: 95%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
+}
+/* SCENARIO DESCRIPTION INSTRUCTIONS */
+.instructionheader {
+  position: relative;
+  left: 16px;
+  top: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #263238;
+}
+
+.instructiongrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 452px auto;
+}
+
+.scenarioimg {
+  margin-top: 35px;
+  margin-left: 16px;
+  width: 452px;
+  border-radius: 4px;
+}
+
+.scenarioinstructions {
+  position: relative;
+  margin-left: 40px;
+  margin-right: 16px;
+  margin-top: 35px;
+  text-align: justify;
+  text-justify: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
+  width: 80%;
+}
+
+.horizontalline {
+  margin-top: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #e5e5e5;
+  border-top: 1px;
+}
