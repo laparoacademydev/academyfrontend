@@ -1,4 +1,4 @@
-import classes from "../DisplayedItemContent.module.css";
+import classes from "./EducationSection.module.css";
 import { AppHelper } from "../../../App.js";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
 
