@@ -53,7 +53,11 @@
   margin-right: auto;
 
   width: 150px;
-  background-color: #7e7e7e;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00619d;
 }
 
 .accesscodesubmitbtntext {
@@ -62,6 +66,18 @@
   text-transform: uppercase;
   top: 7px;
   color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.logoutbtntext {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 7px;
+  color: #00619d;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
