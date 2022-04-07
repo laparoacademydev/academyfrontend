@@ -425,30 +425,6 @@ function App() {
     );
   } else if (loaded === false) {
     return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
-  } else if (selectedItem === null) {
-    return (
-      <Fragment>
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
-          setSelectedLanguage={setSelectedLanguage}
-          localizationData={localizationData}
-          getLocalization={getLocalization}
-          developerMode={developerMode}
-        />
-        <ScenarioList
-          selectedScenarioList={selectedScenarioList}
-          setSelectedItem={setSelectedItem}
-          selectedLanguage={selectedLanguage}
-        ></ScenarioList>
-      </Fragment>
-    );
   } else if (playingScenario === false) {
     return (
       <Fragment>
@@ -466,18 +442,26 @@ function App() {
           getLocalization={getLocalization}
           developerMode={developerMode}
         />
-        <DisplayedItemContent
-          selectedItemContent={selectedItem}
-          setPlayingScenario={setPlayingScenario}
-          selectedLanguage={selectedLanguage}
-          localizationData={localizationData}
-          setSelectedItem={setSelectedItem}
-          selectedNextItem={selectedNextItem}
-          selectedPrevItem={selectedPrevItem}
-        ></DisplayedItemContent>
+        {selectedItem === null ? (
+          <ScenarioList
+            selectedScenarioList={selectedScenarioList}
+            setSelectedItem={setSelectedItem}
+            selectedLanguage={selectedLanguage}
+          ></ScenarioList>
+        ) : (
+          <DisplayedItemContent
+            selectedItemContent={selectedItem}
+            setPlayingScenario={setPlayingScenario}
+            selectedLanguage={selectedLanguage}
+            localizationData={localizationData}
+            setSelectedItem={setSelectedItem}
+            selectedNextItem={selectedNextItem}
+            selectedPrevItem={selectedPrevItem}
+          ></DisplayedItemContent>
+        )}
       </Fragment>
     );
-  } else if (playingScenario === true) {
+  } else {
     return (
       <Fragment>
         <WebcamTraining
