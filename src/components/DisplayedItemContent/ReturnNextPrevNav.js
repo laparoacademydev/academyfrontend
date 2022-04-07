@@ -17,32 +17,40 @@ function ReturnNextPrevNav(props) {
           {props.localizationData.scenariodescription.returnbtn}
         </div>
       </div>
-      <div
-        className={classes.nextbutton}
-        onClick={() => {
-          if (props.selectedNextItem !== null) {
-            props.setSelectedItem(props.selectedNextItem);
-          }
-        }}
-      >
-        <img src={rightarrico} className={classes.rightarrico} alt="."></img>
-        <div className={classes.nextbuttontext}>
-          {props.localizationData.scenariodescription.nextbtn}
+      {props.selectedNextItem !== null ? (
+        <div
+          className={classes.nextbutton}
+          onClick={() => {
+            if (props.selectedNextItem !== null) {
+              props.setSelectedItem(props.selectedNextItem);
+            }
+          }}
+        >
+          <img src={rightarrico} className={classes.rightarrico} alt="."></img>
+          <div className={classes.nextbuttontext}>
+            {props.localizationData.scenariodescription.nextbtn}
+          </div>
         </div>
-      </div>
-      <div
-        className={classes.prevbutton}
-        onClick={() => {
-          if (props.selectedPrevItem !== null) {
-            props.setSelectedItem(props.selectedPrevItem);
-          }
-        }}
-      >
-        <img src={leftarrico} className={classes.leftarrico} alt="."></img>
-        <div className={classes.prevbuttontext}>
-          {props.localizationData.scenariodescription.prevbtn}
+      ) : (
+        <div></div>
+      )}
+      {props.selectedPrevItem !== null ? (
+        <div
+          className={classes.prevbutton}
+          onClick={() => {
+            if (props.selectedPrevItem !== null) {
+              props.setSelectedItem(props.selectedPrevItem);
+            }
+          }}
+        >
+          <img src={leftarrico} className={classes.leftarrico} alt="."></img>
+          <div className={classes.prevbuttontext}>
+            {props.localizationData.scenariodescription.prevbtn}
+          </div>
         </div>
-      </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }
