@@ -440,6 +440,7 @@ function App() {
           setSelectedLanguage={setSelectedLanguage}
           localizationData={localizationData}
           getLocalization={getLocalization}
+          developerMode={developerMode}
         />
         <ScenarioList
           selectedScenarioList={selectedScenarioList}
@@ -463,6 +464,7 @@ function App() {
           setSelectedLanguage={setSelectedLanguage}
           localizationData={localizationData}
           getLocalization={getLocalization}
+          developerMode={developerMode}
         />
         <DisplayedItemContent
           selectedItemContent={selectedItem}

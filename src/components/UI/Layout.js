@@ -3,11 +3,18 @@ import LogoHome from "../LogoHome/LogoHome";
 import Courses from "../Sidebar/Courses";
 import UserPanel from "../UserPanel/UserPanel";
 import Topbar from "../Topbar/Topbar";
+import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
 
 function Layout(props) {
   return (
     <Fragment>
       <LogoHome />
+      {props.developerMode ? (
+        <ScreenHeightWidthTester></ScreenHeightWidthTester>
+      ) : (
+        <div></div>
+      )}
+
       <Courses
         items={props.items}
         setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
