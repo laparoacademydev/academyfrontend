@@ -43,10 +43,18 @@
   bottom: 20px;
 }
 
+.webcamcontrolstartbtn:hover {
+  background-color: #26a551;
+}
+
 .webcamcontrolstopbtn {
   grid-column: 1 / 3;
   background-color: #940a00;
   bottom: 20px;
+}
+
+.webcamcontrolstopbtn:hover {
+  background-color: #700700;
 }
 
 .webcamcontroldownloadbtn {
@@ -55,7 +63,7 @@
 }
 
 .webcamcontroldownloadbtn:hover {
-  background-color: #005386;
+  background-color: #00426b;
 }
 
 .webcamcontrolfullscreenbtn {
@@ -94,6 +102,10 @@
   border-style: solid;
   border-width: 1px;
   border-color: #00619d;
+}
+
+.webcamexitbtn:hover {
+  background-color: #eeeeee;
 }
 
 .buttontxt {
