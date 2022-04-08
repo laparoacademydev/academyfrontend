@@ -1,7 +1,7 @@
 .itemcontenttophalf {
   position: fixed;
   top: 105px;
-  width: 850px;
+  width: 1100px;
   margin-bottom: 310px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -35,7 +35,7 @@
   position: relative;
   left: 16px;
   top: 30px;
-  width: 95%;
+  width: 1000px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

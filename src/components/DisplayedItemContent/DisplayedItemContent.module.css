@@ -3,52 +3,10 @@
   left: 300px;
   top: 65px;
   background-color: #ffffff;
-  width: 850px;
+  width: 1100px;
   height: 100%;
   overflow: auto;
   margin-left: 1px;
-}
-
-/* SCENARIO PREPARATION INSTRUCTIONS */
-
-.scenariopreparationbox {
-  position: fixed;
-  width: 815px;
-  height: 30%;
-  margin-left: 16px;
-  top: 70%;
-  text-justify: auto;
-  background-color: #f5f5f5;
-  border-radius: 6px;
-}
-
-.scenariopreparationheader {
-  position: relative;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #263238;
-}
-
-.scenariopreptext {
-  text-align: justify;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  color: #555555;
-  margin: 10px 75px;
-}
-
-.scenarioprepimg {
-  display: block;
-  height: 50%;
-  margin: 10px auto;
-  border-radius: 5px;
-  margin-bottom: 30px;
 }
 
 /* BUTTON */
@@ -58,7 +16,7 @@
   background-color: #00619d;
   width: 150px;
   bottom: 20px;
-  left: 650px;
+  left: 850px;
 }
 
 .buttonstarttraining:hover {

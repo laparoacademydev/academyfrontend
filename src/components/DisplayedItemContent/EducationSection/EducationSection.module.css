@@ -5,7 +5,7 @@
   left: 300px;
   top: 65px;
   background-color: #ffffff;
-  width: 850px;
+  width: 1100px;
   height: 100%;
   overflow: auto;
   margin-left: 1px;
@@ -21,9 +21,9 @@
 
 .eduparagraph {
   position: relative;
-  left: 20px;
+  left: 60px;
   top: 10px;
-  width: 90%;
+  width: 950px;
   text-align: justify;
   text-justify: auto;
   font-style: normal;
@@ -38,7 +38,7 @@
   position: relative;
   margin-top: 30px;
   margin-bottom: 10px;
-  left: 20px;
+  left: 60px;
   top: 10px;
   font-style: normal;
   font-weight: 600;
@@ -73,7 +73,7 @@
   color: #555555;
   margin-bottom: 15px;
   width: 80%;
-  left: 55px;
+  left: 80px;
   font-weight: 500;
 }
 
@@ -81,4 +81,8 @@
   position: relative;
   width: 90%;
   height: 500px;
+}
+
+.scenarioprepimg {
+  margin-left: 150px;
 }
