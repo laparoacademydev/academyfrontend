@@ -18,11 +18,11 @@ function ScenarioPreparationBox(props) {
         className={classes.scenarioprepimg}
       ></img>
 
-      <ScenarioButton
+      {/* <ScenarioButton
         setPlayingScenario={props.setPlayingScenario}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
-      ></ScenarioButton>
+      ></ScenarioButton> */}
     </div>
   );
 }

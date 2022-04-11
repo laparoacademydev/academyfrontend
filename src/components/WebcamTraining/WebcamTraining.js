@@ -14,6 +14,7 @@ function WebcamTraining(props) {
   const [uploading, setUploading] = React.useState(false);
   const [uploaded, setUploaded] = React.useState(false);
   const [fullScreen, setFullScreen] = React.useState(false);
+  const [simulatorSwitch, setSimulatorSwitch] = React.useState(false);
 
   function switchFullScreen() {
     var elem = webcamRef.current.video;

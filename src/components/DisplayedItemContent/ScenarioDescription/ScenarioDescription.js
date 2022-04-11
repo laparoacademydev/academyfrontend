@@ -57,6 +57,11 @@ function ScenarioDescription(props) {
         setPlayingScenario={props.setPlayingScenario}
         selectedLanguage={props.selectedLanguage}
       ></ScenarioPreparationBox>
+      <ScenarioButton
+        setPlayingScenario={props.setPlayingScenario}
+        localizationData={props.localizationData}
+        selectedLanguage={props.selectedLanguage}
+      ></ScenarioButton>
     </div>
   );
 }

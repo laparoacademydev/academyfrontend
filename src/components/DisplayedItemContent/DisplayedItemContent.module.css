@@ -12,13 +12,28 @@
 /* BUTTON */
 
 .buttonstarttraining {
-  position: absolute;
+  position: fixed;
   background-color: #00619d;
-  width: 150px;
+  width: 100px;
+  height: 100px;
   bottom: 20px;
-  left: 850px;
+  left: 1250px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .buttonstarttraining:hover {
   background-color: #2cc25f;
+}
+
+.buttontext {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 35px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
 }
