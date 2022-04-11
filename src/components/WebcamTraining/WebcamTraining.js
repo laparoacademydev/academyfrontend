@@ -3,8 +3,21 @@ import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
 import WebcamControlPanelBox from "./WebcamControlPanelBox";
 import WebcamExit from "./WebcamExit";
+import TrainerSelectBox from "./TrainerSelectBox";
 
 import { useRef } from "react";
+
+const aspireVideoConstraints = {
+  width: 1280,
+  height: 720,
+  facingMode: "user",
+};
+
+const advanceVideoConstraints = {
+  width: 1920,
+  height: 1080,
+  facingMode: "user",
+};
 
 function WebcamTraining(props) {
   const webcamRef = React.useRef(null);
@@ -14,26 +27,19 @@ function WebcamTraining(props) {
   const [uploading, setUploading] = React.useState(false);
   const [uploaded, setUploaded] = React.useState(false);
   const [fullScreen, setFullScreen] = React.useState(false);
-  const [simulatorSwitch, setSimulatorSwitch] = React.useState(false);
+  const [videoConstraints, setVideoConstraints] = React.useState(
+    aspireVideoConstraints
+  );
+  const [currentTrainer, setCurrentTrainer] = React.useState(null);
 
   function switchFullScreen() {
     var elem = webcamRef.current.video;
     if (fullScreen === false) {
       openFullscreen(elem);
-      setFullScreen(true);
     } else if (fullScreen === true) {
       closeFullscreen(elem);
-      setFullScreen(false);
     }
   }
-
-  const videoConstraints = {
-    width: 1280,
-    height: 720,
-    facingMode: "user",
-  };
-
-  // var elem;
 
   function openFullscreen(elem) {
     if (elem.requestFullscreen) {
@@ -132,27 +138,45 @@ function WebcamTraining(props) {
   return (
     <div>
       <div className={classes.webcamscreen}>
-        <div className={classes.webcamview}>
-          <Webcam
-            audio={false}
-            ref={webcamRef}
-            forceScreenshotSourceSize={false}
-            videoConstraints={videoConstraints}
-          />
+        <div
+          className={
+            currentTrainer === "aspire"
+              ? classes.aspirewebcamview
+              : classes.advancewebcamview
+          }
+        >
+          {currentTrainer === null ? (
+            <TrainerSelectBox
+              setVideoConstraints={setVideoConstraints}
+              aspireVideoConstraints={aspireVideoConstraints}
+              advanceVideoConstraints={advanceVideoConstraints}
+              setCurrentTrainer={setCurrentTrainer}
+              localizationData={props.localizationData}
+            ></TrainerSelectBox>
+          ) : (
+            <div>
+              <Webcam
+                audio={false}
+                ref={webcamRef}
+                forceScreenshotSourceSize={false}
+                videoConstraints={videoConstraints}
+              />
+              <WebcamControlPanelBox
+                handleStopCaptureClick={handleStopCaptureClick}
+                handleStartCaptureClick={handleStartCaptureClick}
+                handleDownload={handleDownload}
+                uploading={uploading}
+                uploaded={uploaded}
+                capturing={capturing}
+                recordedChunks={recordedChunks}
+                switchFullScreen={switchFullScreen}
+                fullScreen={fullScreen}
+                localizationData={props.localizationData}
+                selectedLanguage={props.selectedLanguage}
+              />
+            </div>
+          )}
         </div>
-        <WebcamControlPanelBox
-          handleStopCaptureClick={handleStopCaptureClick}
-          handleStartCaptureClick={handleStartCaptureClick}
-          handleDownload={handleDownload}
-          uploading={uploading}
-          uploaded={uploaded}
-          capturing={capturing}
-          recordedChunks={recordedChunks}
-          switchFullScreen={switchFullScreen}
-          fullScreen={fullScreen}
-          localizationData={props.localizationData}
-          selectedLanguage={props.selectedLanguage}
-        />
         <WebcamExit
           setPlayingScenario={props.setPlayingScenario}
           switchFullScreen={switchFullScreen}

@@ -1,17 +1,19 @@
 .webcamscreen {
   position: fixed;
-  /* margin-left: 10%;
-  margin-top: 2%; */
   width: 100%;
 }
 
-.webcamview {
+.aspirewebcamview {
   position: fixed;
-  /* width: 70%; */
-  /* margin-left: 0px;
-  margin-right: auto; */
-  /* width: 100%; */
-  /* margin-top: 20px; */
+  margin-left: 15%;
+  margin-right: auto;
+  margin-top: 3%;
+  object-fit: fill;
+}
+
+.advancewebcamview {
+  position: fixed;
+  margin-right: auto;
   object-fit: fill;
 }
 
