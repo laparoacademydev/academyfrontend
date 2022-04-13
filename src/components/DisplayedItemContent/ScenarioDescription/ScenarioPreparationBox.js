@@ -3,7 +3,6 @@ import { AppHelper } from "../../../App.js";
 import ScenarioButton from "./ScenarioButton";
 
 function ScenarioPreparationBox(props) {
-  console.log(props.selectedItemContent);
   return (
     <div className={classes.scenariopreparationbox}>
       <div className={classes.scenariopreparationheader}>
