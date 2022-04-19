@@ -38,7 +38,7 @@ export class AppHelper {
 
 function App() {
   //DEV Mode - for using localhost:3000 previews:
-  const [developerMode, setDeveloperMode] = useState(false);
+  const [developerMode, setDeveloperMode] = useState(true);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
@@ -61,6 +61,8 @@ function App() {
 
   const [selectedTraining, setSelectedTraining] = useState(null);
   const [trainingList, setTrainingList] = useState(null);
+
+  const [completedScenarios, setCompletedScenarios] = useState([]);
 
   React.useEffect(() => {
     if (developerMode === true) {
@@ -359,6 +361,20 @@ function App() {
     }
   }
 
+  function completedScenariosTrack() {
+    var thisUserEmail = getUserEmail();
+    axios.post(`${AppHelper.ApiUrl}completedScenariosTracking`, null, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: {
+        email: thisUserEmail,
+        progress: completedScenarios,
+      },
+    });
+  }
+
   function activateUser(thisaccesscode) {
     var thisUserEmail = getUserEmail();
     axios
@@ -457,6 +473,8 @@ function App() {
             setSelectedItem={setSelectedItem}
             selectedNextItem={selectedNextItem}
             selectedPrevItem={selectedPrevItem}
+            completedScenarios={completedScenarios}
+            setCompletedScenarios={setCompletedScenarios}
           ></DisplayedItemContent>
         )}
       </Fragment>

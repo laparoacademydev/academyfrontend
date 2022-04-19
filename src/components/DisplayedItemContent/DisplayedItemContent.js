@@ -35,6 +35,8 @@ function DisplayedItemContent(props) {
         setSelectedItem={props.setSelectedItem}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        completedScenarios={props.completedScenarios}
+        setCompletedScenarios={props.setCompletedScenarios}
       />
     );
   } else {

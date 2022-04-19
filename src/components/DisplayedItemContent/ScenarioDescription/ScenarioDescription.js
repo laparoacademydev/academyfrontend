@@ -4,6 +4,7 @@ import ScenarioButton from "./ScenarioButton";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import { AppHelper } from "../../../App.js";
 import ScenarioPreparationBox from "./ScenarioPreparationBox";
+import CompletedCheckBox from "./CompletedCheckBox";
 
 function ScenarioDescription(props) {
   return (
@@ -16,6 +17,11 @@ function ScenarioDescription(props) {
       />
       <div className={scenarioclasses.itemcontenttophalf}>
         <div>
+          <CompletedCheckBox
+            completedScenarios={props.completedScenarios}
+            setCompletedScenarios={props.setCompletedScenarios}
+            scenarioID={props.selectedItemContent.id}
+          />
           <div className={scenarioclasses.header}>
             {props.selectedItemContent.name[props.selectedLanguage]}
           </div>
