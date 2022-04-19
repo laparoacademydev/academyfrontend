@@ -20,6 +20,8 @@ function DisplayedItemContent(props) {
         localizationData={props.localizationData}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        completedScenarios={props.completedScenarios}
+        setCompletedScenarios={props.setCompletedScenarios}
       />
     );
   } else if (

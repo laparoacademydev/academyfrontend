@@ -42,9 +42,13 @@
 COMPLETED CHECKBOXES */
 
 .checkbox {
-  position: relative;
   z-index: 100;
 }
 
+.completedbox {
+  position: relative;
+  top: 44px;
+  left: 20px;
+}
 .checkboxno {
 }

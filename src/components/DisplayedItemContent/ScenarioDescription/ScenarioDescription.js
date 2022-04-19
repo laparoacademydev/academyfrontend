@@ -17,11 +17,14 @@ function ScenarioDescription(props) {
       />
       <div className={scenarioclasses.itemcontenttophalf}>
         <div>
-          <CompletedCheckBox
-            completedScenarios={props.completedScenarios}
-            setCompletedScenarios={props.setCompletedScenarios}
-            scenarioID={props.selectedItemContent.id}
-          />
+          <div className={classes.completedbox}>
+            <CompletedCheckBox
+              completedScenarios={props.completedScenarios}
+              setCompletedScenarios={props.setCompletedScenarios}
+              scenarioID={props.selectedItemContent.id}
+            />
+          </div>
+
           <div className={scenarioclasses.header}>
             {props.selectedItemContent.name[props.selectedLanguage]}
           </div>

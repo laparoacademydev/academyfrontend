@@ -38,7 +38,7 @@ export class AppHelper {
 
 function App() {
   //DEV Mode - for using localhost:3000 previews:
-  const [developerMode, setDeveloperMode] = useState(true);
+  const [developerMode, setDeveloperMode] = useState(false);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
@@ -62,7 +62,7 @@ function App() {
   const [selectedTraining, setSelectedTraining] = useState(null);
   const [trainingList, setTrainingList] = useState(null);
 
-  const [completedScenarios, setCompletedScenarios] = useState([]);
+  const [completedScenarios, setCompletedScenarios] = useState(null);
 
   React.useEffect(() => {
     if (developerMode === true) {
@@ -86,6 +86,11 @@ function App() {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
 
+    if (completedScenarios === null) {
+      setCompletedScenarios([]);
+      // completedScenariosTrack();
+    }
+
     ReactGa.initialize("G-WBREGFZ6J3");
     ReactGa.pageview("/");
   }, [
@@ -98,6 +103,10 @@ function App() {
     selectedItem,
     selectedLanguage,
   ]);
+
+  React.useEffect(() => {
+    // completedScenariosTrack();
+  }, [completedScenarios]);
 
   // Loading Initializing Functions:
   function loadAcademy() {
@@ -363,16 +372,42 @@ function App() {
 
   function completedScenariosTrack() {
     var thisUserEmail = getUserEmail();
-    axios.post(`${AppHelper.ApiUrl}completedScenariosTracking`, null, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: {
-        email: thisUserEmail,
-        progress: completedScenarios,
-      },
-    });
+
+    if (completedScenarios === null) {
+      axios
+        .put(`${AppHelper.ApiUrl}completedScenariosTracking`, {
+          headers: {
+            "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+            "Access-Control-Allow-Headers": "*",
+          },
+          params: {
+            email: thisUserEmail,
+          },
+        })
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (myJson) {
+          setCompletedScenarios(myJson);
+        });
+    } else {
+      axios
+        .put(`${AppHelper.ApiUrl}completedScenariosTracking`, {
+          headers: {
+            "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+            "Access-Control-Allow-Headers": "*",
+          },
+          params: {
+            email: thisUserEmail,
+            progress: completedScenarios,
+          },
+        })
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (myJson) {});
+    }
+    console.log(completedScenarios);
   }
 
   function activateUser(thisaccesscode) {

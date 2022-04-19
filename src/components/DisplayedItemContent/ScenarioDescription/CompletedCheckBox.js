@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../DisplayedItemContent.module.css";
-import chckboxyesicon from "../../../graphicassets/icons/chckboxyes_blue.svg";
+import chckboxyesicon from "../../../graphicassets/icons/chckboxyes_green.svg";
 import chckboxnoicon from "../../../graphicassets/icons/chckboxno_gray.svg";
 
 function CompletedCheckBox(props) {
