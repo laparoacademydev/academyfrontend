@@ -39,6 +39,8 @@ export class AppHelper {
 function App() {
   //DEV Mode - for using localhost:3000 previews:
   const [developerMode, setDeveloperMode] = useState(false);
+  // TEST Mode - activated when logged in with account flagged as tester
+  const [featureTestingMode, setFeatureTestingMode] = useState(null);
 
   const [loaded, setLoaded] = useState(false);
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
@@ -66,6 +68,7 @@ function App() {
     if (developerMode === true) {
       setTokenConfirmed(true);
       setUserIsActive(1);
+      setFeatureTestingMode(false);
     }
 
     if (loaded === false) {
@@ -110,6 +113,9 @@ function App() {
     }
     if (courses === null && localizationData !== null) {
       getCourses();
+    }
+    if (featureTestingMode === null && courses !== null) {
+      checkTesterUser();
     }
   }
 
@@ -331,6 +337,7 @@ function App() {
   }
 
   const checkUserActive = async () => {
+    // this checks if our user is 'active' in our database - did he put in his serial number?
     var thisUserEmail = getUserEmail();
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}CheckUserActive`, {
@@ -345,6 +352,29 @@ function App() {
         setUserIsActive(1);
       } else {
         setAccessCodeCheck(true);
+      }
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
+
+  const checkTesterUser = async () => {
+    // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
+    var thisUserEmail = getUserEmail();
+    try {
+      let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { email: thisUserEmail },
+      });
+
+      if (response.data === true) {
+        setFeatureTestingMode(true);
+        console.log("tester mode active - logged in as tester user");
+      } else {
+        setFeatureTestingMode(false);
       }
     } catch (error) {
       AppHelper.onRequestError(error);
