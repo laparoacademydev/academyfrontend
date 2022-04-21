@@ -471,6 +471,7 @@ function App() {
           localizationData={localizationData}
           getLocalization={getLocalization}
           developerMode={developerMode}
+          featureTestingMode={featureTestingMode}
         />
         {selectedItem === null ? (
           <ScenarioList

@@ -14,6 +14,11 @@ function Layout(props) {
       ) : (
         <div></div>
       )}
+      {props.featureTestingMode ? (
+        <ScreenHeightWidthTester></ScreenHeightWidthTester>
+      ) : (
+        <div></div>
+      )}
 
       <Courses
         items={props.items}
