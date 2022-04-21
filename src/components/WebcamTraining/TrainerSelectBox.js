@@ -5,11 +5,15 @@ function TrainerSelectBox(props) {
   function AspireSwitch() {
     props.setVideoConstraints(props.aspireVideoConstraints);
     props.setCurrentTrainer("aspire");
+    let aspireselect = "aspireselect";
+    props.LogUserEvent(aspireselect, props.selectedItem.id);
   }
 
   function AdvanceSwitch() {
     props.setVideoConstraints(props.advanceVideoConstraints);
     props.setCurrentTrainer("advance");
+    let advanceselect = "advanceselect";
+    props.LogUserEvent(advanceselect, props.selectedItem.id);
   }
 
   return (

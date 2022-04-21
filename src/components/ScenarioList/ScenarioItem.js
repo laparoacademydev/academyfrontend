@@ -7,7 +7,11 @@ function ScenarioItem(props) {
   return (
     <div
       className={classes.scenariolistitem}
-      onClick={() => props.setSelectedItem(props.selectedScenario)}
+      onClick={() => {
+        props.setSelectedItem(props.selectedScenario);
+        let scenarioselected = "scenarioselected";
+        props.LogUserEvent(scenarioselected, props.selectedScenario.id);
+      }}
     >
       <img
         src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}

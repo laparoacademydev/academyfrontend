@@ -66,6 +66,8 @@ function ActiveUserPanel(props) {
     onclick: function () {
       window.localStorage.removeItem("jwt");
       window.location.href = `${AppHelper.LoginUrl}`;
+      var logout = "logout";
+      props.LogUserEvent(logout);
     },
     icon: exitusericon,
   };

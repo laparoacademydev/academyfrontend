@@ -7,7 +7,11 @@ function EducationItem(props) {
   return (
     <div
       className={classes.sleducationitem}
-      onClick={() => props.setSelectedItem(props.selectedScenario)}
+      onClick={() => {
+        props.setSelectedItem(props.selectedScenario);
+        let eduselected = "eduselected";
+        props.LogUserEvent(eduselected, props.selectedScenario.id);
+      }}
     >
       <img
         src={`${AppHelper.storageUrl}laparoacademy-mediacontent/edu_placeholder.png`}

@@ -20,6 +20,7 @@ function DisplayedItemContent(props) {
         localizationData={props.localizationData}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        LogUserEvent={props.LogUserEvent}
       />
     );
   } else if (
@@ -35,6 +36,7 @@ function DisplayedItemContent(props) {
         setSelectedItem={props.setSelectedItem}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        LogUserEvent={props.LogUserEvent}
       />
     );
   } else {

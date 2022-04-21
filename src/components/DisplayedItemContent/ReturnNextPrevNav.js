@@ -23,6 +23,8 @@ function ReturnNextPrevNav(props) {
           onClick={() => {
             if (props.selectedNextItem !== null) {
               props.setSelectedItem(props.selectedNextItem);
+              let scenarioselected = "scenarioselected";
+              props.LogUserEvent(scenarioselected, props.selectedNextItem.id);
             }
           }}
         >
@@ -40,6 +42,8 @@ function ReturnNextPrevNav(props) {
           onClick={() => {
             if (props.selectedPrevItem !== null) {
               props.setSelectedItem(props.selectedPrevItem);
+              let scenarioselected = "scenarioselected";
+              props.LogUserEvent(scenarioselected, props.selectedPrevItem.id);
             }
           }}
         >

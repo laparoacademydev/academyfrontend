@@ -7,6 +7,8 @@ function ScenarioButton(props) {
       className={`${classes.buttonstarttraining}`}
       onClick={() => {
         props.setPlayingScenario(true);
+        var scenariostart = "scenariostart";
+        props.LogUserEvent(scenariostart, props.selectedItemContent.id);
       }}
     >
       <div className={classes.buttontext}>

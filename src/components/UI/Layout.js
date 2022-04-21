@@ -37,6 +37,7 @@ function Layout(props) {
         setSelectedLanguage={props.setSelectedLanguage}
         localizationData={props.localizationData}
         getLocalization={props.getLocalization}
+        LogUserEvent={props.LogUserEvent}
       />
       <Topbar />
     </Fragment>

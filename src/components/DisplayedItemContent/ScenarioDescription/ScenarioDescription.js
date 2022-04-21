@@ -13,6 +13,7 @@ function ScenarioDescription(props) {
         localizationData={props.localizationData}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        LogUserEvent={props.LogUserEvent}
       />
       <div className={scenarioclasses.itemcontenttophalf}>
         <div>
@@ -61,6 +62,8 @@ function ScenarioDescription(props) {
         setPlayingScenario={props.setPlayingScenario}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
+        LogUserEvent={props.LogUserEvent}
+        selectedItemContent={props.selectedItemContent}
       ></ScenarioButton>
     </div>
   );

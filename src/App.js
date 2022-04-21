@@ -68,7 +68,7 @@ function App() {
     if (developerMode === true) {
       setTokenConfirmed(true);
       setUserIsActive(1);
-      setFeatureTestingMode(false);
+      setFeatureTestingMode(true);
     }
 
     if (loaded === false) {
@@ -131,6 +131,8 @@ function App() {
             if (loaded === false) {
               setLoadingScreenMsg("");
               setLoaded(true);
+              var login = "login";
+              LogUserEvent(login);
             }
           }
         }
@@ -231,6 +233,8 @@ function App() {
     setSelectedItem(null);
     setPlayingScenario(false);
     setSelectedCourseID(selectedCourse.id);
+    var courseselected = "courseselected";
+    LogUserEvent(courseselected, selectedCourse.id);
 
     let scenarioFileNames = [];
     let scenarioTypes = [];
@@ -407,6 +411,8 @@ function App() {
         setLoaded(true);
         setAccessCodeCheck(false);
         checkUserActive();
+        var activateduser = "activateduser";
+        LogUserEvent(activateduser);
       });
   }
 
@@ -444,6 +450,20 @@ function App() {
     });
   }
 
+  // API log call:
+  function LogUserEvent(event, component) {
+    var thisUserEmail = getUserEmail();
+    if (featureTestingMode === true) {
+      if (component === null || component === undefined) {
+        console.log(`Logged ${event} event on ${thisUserEmail} account.`);
+      } else {
+        console.log(
+          `Logged ${event} with ${component} on ${thisUserEmail} account.`
+        );
+      }
+    }
+  }
+
   if (isMobile === true) {
     return <MobileView />;
   } else if (accessCodeCheck === true) {
@@ -472,12 +492,14 @@ function App() {
           getLocalization={getLocalization}
           developerMode={developerMode}
           featureTestingMode={featureTestingMode}
+          LogUserEvent={LogUserEvent}
         />
         {selectedItem === null ? (
           <ScenarioList
             selectedScenarioList={selectedScenarioList}
             setSelectedItem={setSelectedItem}
             selectedLanguage={selectedLanguage}
+            LogUserEvent={LogUserEvent}
           ></ScenarioList>
         ) : (
           <DisplayedItemContent
@@ -488,6 +510,7 @@ function App() {
             setSelectedItem={setSelectedItem}
             selectedNextItem={selectedNextItem}
             selectedPrevItem={selectedPrevItem}
+            LogUserEvent={LogUserEvent}
           ></DisplayedItemContent>
         )}
       </Fragment>
@@ -500,6 +523,8 @@ function App() {
           setPlayingScenario={setPlayingScenario}
           localizationData={localizationData}
           selectedLanguage={selectedLanguage}
+          LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
         />
       </Fragment>
     );

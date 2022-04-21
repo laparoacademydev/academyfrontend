@@ -12,6 +12,7 @@ function EducationSection(props) {
         localizationData={props.localizationData}
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
+        LogUserEvent={props.LogUserEvent}
       />
       <div className={classes.edutopfade}></div>
       <div className={classes.edutitle}>

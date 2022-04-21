@@ -20,6 +20,7 @@ function ScenarioList(props) {
                 selectedScenario={object.scenario}
                 setSelectedItem={props.setSelectedItem}
                 selectedLanguage={props.selectedLanguage}
+                LogUserEvent={props.LogUserEvent}
               />
             );
           } else {
@@ -29,6 +30,7 @@ function ScenarioList(props) {
                 selectedScenario={object.scenario}
                 setSelectedItem={props.setSelectedItem}
                 selectedLanguage={props.selectedLanguage}
+                LogUserEvent={props.LogUserEvent}
               />
             );
           }
