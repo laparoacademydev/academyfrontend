@@ -457,15 +457,18 @@ function App() {
     var thisUserEmail = getUserEmail();
     // types of events: login, logout, activateduser
     // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,     var thisUserEmail = getUserEmail();
-    if (featureTestingMode === true) {
-      if (component === null || component === undefined) {
+
+    if (component === null || component === undefined) {
+      sendUserEventAPILog(thisUserEmail, event);
+      if (featureTestingMode === true) {
         console.log(`Logged ${event} event on ${thisUserEmail} account.`);
-        sendUserEventAPILog(thisUserEmail, event);
-      } else {
+      }
+    } else {
+      sendUserEventAPILog(thisUserEmail, event, component);
+      if (featureTestingMode === true) {
         console.log(
           `Logged ${event} with ${component} on ${thisUserEmail} account.`
         );
-        sendUserEventAPILog(thisUserEmail, event, component);
       }
     }
   }
