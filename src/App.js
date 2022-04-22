@@ -475,7 +475,7 @@ function App() {
       component = "none";
     }
 
-    axios.post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
+    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
       headers: {
         "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
         "Access-Control-Allow-Headers": "*",
