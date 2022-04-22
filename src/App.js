@@ -366,7 +366,6 @@ function App() {
 
   const checkTesterUser = async () => {
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
-    console.log("check tester user is firing");
     var thisUserEmail = getUserEmail();
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
@@ -456,15 +455,38 @@ function App() {
   // API log call:
   function LogUserEvent(event, component) {
     var thisUserEmail = getUserEmail();
+    // types of events: login, logout, activateduser
+    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,     var thisUserEmail = getUserEmail();
     if (featureTestingMode === true) {
       if (component === null || component === undefined) {
         console.log(`Logged ${event} event on ${thisUserEmail} account.`);
+        sendUserEventAPILog(thisUserEmail, event);
       } else {
         console.log(
           `Logged ${event} with ${component} on ${thisUserEmail} account.`
         );
+        sendUserEventAPILog(thisUserEmail, event, component);
       }
     }
+  }
+
+  function sendUserEventAPILog(email, event, component) {
+    if (component === null || component === undefined) {
+      component = "none";
+    }
+
+    axios.post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: {
+        email: email,
+        date: Date(),
+        event: event,
+        component: component,
+      },
+    });
   }
 
   if (isMobile === true) {
