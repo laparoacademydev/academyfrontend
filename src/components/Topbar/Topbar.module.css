@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1402px) {
+@media only screen and (max-width: 1202px) {
   .topbar {
     position: fixed;
     z-index: 9;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     /* right: 401px; */
-    min-width: 700px;
+    min-width: 500px;
     max-width: 1100px;
     left: 301px;
     padding: 0.5rem;
@@ -14,14 +14,14 @@
   }
 }
 
-@media only screen and (min-width: 1802px) {
+@media only screen and (min-width: 1602px) {
   .topbar {
     position: fixed;
     z-index: 9;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     right: 401px;
     left: 301px;
-    max-width: 1100px;
+    max-width: 900px;
     padding: 0.5rem;
     padding-top: 15px;
     background-color: #ffffff;

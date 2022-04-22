@@ -3,7 +3,7 @@
   left: 300px;
   top: 65px;
   background-color: #ffffff;
-  width: 1100px;
+  width: 900px;
   height: 100%;
   overflow: auto;
   margin-left: 1px;
@@ -17,7 +17,7 @@
   width: 100px;
   height: 100px;
   bottom: 20px;
-  left: 1250px;
+  left: 1050px;
   border-radius: 3px;
   box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;

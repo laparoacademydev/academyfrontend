@@ -5,7 +5,7 @@
   left: 300px;
   top: 65px;
   background-color: #ffffff;
-  width: 1100px;
+  width: 900px;
   height: 100%;
   overflow: auto;
   margin-left: 1px;
@@ -13,7 +13,7 @@
 
 .edutopfade {
   position: fixed;
-  width: 1100px;
+  width: 900px;
   height: 80px;
   background-image: linear-gradient(white, white, rgba(255, 255, 255, 0));
   z-index: 11;
@@ -21,9 +21,9 @@
 
 .eduparagraph {
   position: relative;
-  left: 60px;
+  left: 50px;
   top: 10px;
-  width: 950px;
+  width: 85%;
   text-align: justify;
   text-justify: auto;
   font-style: normal;
@@ -38,7 +38,7 @@
   position: relative;
   margin-top: 30px;
   margin-bottom: 10px;
-  left: 60px;
+  left: 50px;
   top: 10px;
   font-style: normal;
   font-weight: 600;
@@ -50,7 +50,7 @@
 .edutitle {
   position: relative;
   margin-top: 50px;
-  left: 20px;
+  left: 50px;
   top: 10px;
   font-style: normal;
   font-weight: 600;
@@ -73,7 +73,7 @@
   color: #555555;
   margin-bottom: 15px;
   width: 60%;
-  left: 180px;
+  left: 150px;
   font-weight: 500;
 }
 
@@ -84,5 +84,7 @@
 }
 
 .scenarioprepimg {
-  margin-left: 150px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }

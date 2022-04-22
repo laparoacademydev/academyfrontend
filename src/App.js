@@ -39,7 +39,7 @@ export class AppHelper {
 function App() {
   //DEV Mode - for using localhost:3000 previews:
   const [developerMode, setDeveloperMode] = useState(false);
-  // TEST Mode - activated when logged in with account flagged as tester
+  //TEST Mode - activated when logged in with account flagged as tester
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
 
   const [loaded, setLoaded] = useState(false);
@@ -364,6 +364,7 @@ function App() {
 
   const checkTesterUser = async () => {
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
+    console.log("check tester user is firing");
     var thisUserEmail = getUserEmail();
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
