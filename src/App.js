@@ -98,6 +98,7 @@ function App() {
     localizationData,
     selectedItem,
     selectedLanguage,
+    featureTestingMode,
   ]);
 
   // Loading Initializing Functions:
@@ -114,9 +115,6 @@ function App() {
     if (courses === null && localizationData !== null) {
       getCourses();
     }
-    if (featureTestingMode === null && courses !== null) {
-      checkTesterUser();
-    }
   }
 
   function initializeAcademy() {
@@ -128,11 +126,15 @@ function App() {
           setLoadingScreenMsg("localization data downloaded...");
           if (courses !== null) {
             setLoadingScreenMsg("courses loaded...");
-            if (loaded === false) {
-              setLoadingScreenMsg("");
-              setLoaded(true);
-              var login = "login";
-              LogUserEvent(login);
+            checkTesterUser();
+            if (featureTestingMode !== null) {
+              setLoadingScreenMsg("checked if user is tester...");
+              if (loaded === false) {
+                setLoadingScreenMsg("");
+                setLoaded(true);
+                var login = "login";
+                LogUserEvent(login);
+              }
             }
           }
         }
