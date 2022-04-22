@@ -37,17 +37,18 @@ export class AppHelper {
 }
 
 function App() {
-  //DEV Mode - for using localhost:3000 previews:
+  //DEV Mode - for using localhost:3000 previews, keep false for all production builds:
   const [developerMode, setDeveloperMode] = useState(false);
-  //TEST Mode - activated when logged in with account flagged as tester
+  //TEST Mode - activated when logged in with an account that has "tester:true" in the Azure All Users DB.
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
 
   const [loaded, setLoaded] = useState(false);
+  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
+
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
   const [userIsActive, setUserIsActive] = useState(0);
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
   const [accessCodeError, setAccessCodeError] = useState(false);
-  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
 
   const [courses, setCourses] = useState(null);
   const [localizationData, setLocalizationData] = useState(null);
@@ -459,22 +460,6 @@ function App() {
     // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,     var thisUserEmail = getUserEmail();
 
     if (component === null || component === undefined) {
-      sendUserEventAPILog(thisUserEmail, event);
-      if (featureTestingMode === true) {
-        console.log(`Logged ${event} event on ${thisUserEmail} account.`);
-      }
-    } else {
-      sendUserEventAPILog(thisUserEmail, event, component);
-      if (featureTestingMode === true) {
-        console.log(
-          `Logged ${event} with ${component} on ${thisUserEmail} account.`
-        );
-      }
-    }
-  }
-
-  function sendUserEventAPILog(email, event, component) {
-    if (component === null || component === undefined) {
       component = "none";
     }
 
@@ -491,6 +476,8 @@ function App() {
       },
     });
   }
+
+  //
 
   if (isMobile === true) {
     return <MobileView />;
