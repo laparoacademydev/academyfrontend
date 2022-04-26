@@ -52,6 +52,7 @@ function App() {
 
   // Acquire and store all user activity here at the beginning and update this everytime a checkbox is checked:
   const [userActivityHistory, setUserActivityHistory] = useState(null);
+  const [userTrainingHistory, setUserTrainingHistory] = useState([]);
 
   const [courses, setCourses] = useState(null);
   const [localizationData, setLocalizationData] = useState(null);
@@ -93,6 +94,10 @@ function App() {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
 
+    if (userActivityHistory !== null) {
+      extractUserTrainingHistory(userActivityHistory);
+    }
+
     ReactGa.initialize("G-WBREGFZ6J3");
     ReactGa.pageview("/");
   }, [
@@ -105,6 +110,7 @@ function App() {
     selectedItem,
     selectedLanguage,
     featureTestingMode,
+    userActivityHistory,
   ]);
 
   // Loading Initializing Functions:
@@ -236,6 +242,20 @@ function App() {
     }
     extractedLocalization["language"] = selectedLanguage;
     setLocalizationData(extractedLocalization);
+  }
+
+  function extractUserTrainingHistory(userActivityHistory) {
+    // go through the array one by one seeking out object with "event":"scenariocompleted" and add these into a new array
+    // return this just the "component":"scenarioname"
+    // "setUserTrainingHistory" - parse out the history into an setState array
+    let activityhistory = [];
+    for (let i = 0; i < userActivityHistory.length; i++) {
+      if (userActivityHistory[i].event === "scenarioselected") {
+        activityhistory.push(userActivityHistory[i].component);
+      }
+    }
+    setUserTrainingHistory(activityhistory);
+    console.log(userTrainingHistory);
   }
 
   function setCourseIdAndScenarioList(selectedCourse) {
@@ -465,7 +485,7 @@ function App() {
   function LogUserEvent(event, component) {
     var thisUserEmail = getUserEmail();
     // types of events: login, logout, activateduser
-    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,     var thisUserEmail = getUserEmail();
+    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, scenariocompleted,
 
     if (component === null || component === undefined) {
       component = "none";
@@ -492,21 +512,15 @@ function App() {
     var thisUserEmail = getUserEmail();
 
     try {
-      let response = await axios.get(
-        `${AppHelper.ApiUrl}UserActivityHistory`,
-        null,
-        {
-          headers: {
-            "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-            "Access-Control-Allow-Headers": "*",
-          },
-          params: {
-            email: thisUserEmail,
-          },
-        }
-      );
-
-      console.log(response.data);
+      let response = await axios.get(`${AppHelper.ApiUrl}UserActivityHistory`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: {
+          email: thisUserEmail,
+        },
+      });
       setUserActivityHistory(response.data);
     } catch (error) {
       AppHelper.onRequestError(error);
