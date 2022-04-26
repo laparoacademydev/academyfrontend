@@ -50,6 +50,9 @@ function App() {
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
   const [accessCodeError, setAccessCodeError] = useState(false);
 
+  // Acquire and store all user activity here at the beginning and update this everytime a checkbox is checked:
+  const [userActivityHistory, setUserActivityHistory] = useState(null);
+
   const [courses, setCourses] = useState(null);
   const [localizationData, setLocalizationData] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -69,7 +72,9 @@ function App() {
     if (developerMode === true) {
       setTokenConfirmed(true);
       setUserIsActive(1);
-      setFeatureTestingMode(true);
+      if (featureTestingMode === null) {
+        setFeatureTestingMode(true);
+      }
     }
 
     if (loaded === false) {
@@ -135,6 +140,9 @@ function App() {
                 setLoaded(true);
                 var login = "login";
                 LogUserEvent(login);
+                if (featureTestingMode === true) {
+                  AcquireUserHistory();
+                }
               }
             }
           }
@@ -469,15 +477,41 @@ function App() {
         "Access-Control-Allow-Headers": "*",
       },
       params: {
-        email: email,
+        email: thisUserEmail,
         date: Date(),
         event: event,
         component: component,
       },
     });
+
+    //Add Event to local User ActivityHistory
   }
 
-  //
+  // Acquire all existing User activity (done once at every login)
+  const AcquireUserHistory = async () => {
+    var thisUserEmail = getUserEmail();
+
+    try {
+      let response = await axios.get(
+        `${AppHelper.ApiUrl}UserActivityHistory`,
+        null,
+        {
+          headers: {
+            "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+            "Access-Control-Allow-Headers": "*",
+          },
+          params: {
+            email: thisUserEmail,
+          },
+        }
+      );
+
+      console.log(response.data);
+      setUserActivityHistory(response.data);
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
 
   if (isMobile === true) {
     return <MobileView />;
