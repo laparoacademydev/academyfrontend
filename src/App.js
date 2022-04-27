@@ -255,7 +255,6 @@ function App() {
       }
     }
     setUserTrainingHistory(activityhistory);
-    console.log(userTrainingHistory);
   }
 
   function setCourseIdAndScenarioList(selectedCourse) {
