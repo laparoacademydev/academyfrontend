@@ -10,8 +10,17 @@
 }
 
 .text {
+  z-index: 41;
   font-size: 16pt;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  color: white;
+}
+
+.textscenario {
+  z-index: 41;
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 0px;
   color: white;
 }

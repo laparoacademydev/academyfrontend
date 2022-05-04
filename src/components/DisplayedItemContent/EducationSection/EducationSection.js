@@ -1,6 +1,7 @@
 import classes from "./EducationSection.module.css";
 import { AppHelper } from "../../../App.js";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
+import CompletedCheckbox from "../CompletedCheckbox";
 
 function EducationSection(props) {
   let key = 0;
@@ -50,6 +51,23 @@ function EducationSection(props) {
           }
         })}
       </div>
+      {props.featureTestingMode === true ? (
+        <div className={classes.completedbox}>
+          <div className={classes.checkbox}>
+            <CompletedCheckbox
+              setUserTrainingHistory={props.setUserTrainingHistory}
+              userTrainingHistory={props.userTrainingHistory}
+              selectedItemContent={props.selectedItemContent}
+              LogUserEvent={props.LogUserEvent}
+              RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
+            />
+          </div>
+          <div className={classes.completedboxtext}>complete</div>
+        </div>
+      ) : (
+        <div></div>
+      )}
+
       <div className={classes.edufinaldiv}></div>
     </div>
   );

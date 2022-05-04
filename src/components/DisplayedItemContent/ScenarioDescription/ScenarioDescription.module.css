@@ -10,7 +10,7 @@
 
 .header {
   position: relative;
-  left: 16px;
+  left: 45px;
   top: 10px;
   font-style: normal;
   font-weight: 600;
@@ -20,6 +20,7 @@
 
 .skills {
   position: relative;
+
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -88,4 +89,10 @@
   margin-right: 20px;
   color: #e5e5e5;
   border-top: 1px;
+}
+
+.checkbox {
+  position: relative;
+  left: 15px;
+  top: 45px;
 }

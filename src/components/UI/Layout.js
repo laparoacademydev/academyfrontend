@@ -10,12 +10,16 @@ function Layout(props) {
     <Fragment>
       <LogoHome />
       {props.developerMode ? (
-        <ScreenHeightWidthTester></ScreenHeightWidthTester>
+        <ScreenHeightWidthTester
+          selectedItem={props.selectedItem}
+        ></ScreenHeightWidthTester>
       ) : (
         <div></div>
       )}
       {props.featureTestingMode ? (
-        <ScreenHeightWidthTester></ScreenHeightWidthTester>
+        <ScreenHeightWidthTester
+          selectedItem={props.selectedItem}
+        ></ScreenHeightWidthTester>
       ) : (
         <div></div>
       )}

@@ -94,12 +94,8 @@ function App() {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
 
-    if (userActivityHistory !== null) {
-      extractUserTrainingHistory(userActivityHistory);
-    }
-
-    ReactGa.initialize("G-WBREGFZ6J3");
-    ReactGa.pageview("/");
+    // ReactGa.initialize("G-WBREGFZ6J3");
+    // ReactGa.pageview("/");
   }, [
     loaded,
     tokenConfirmed,
@@ -127,6 +123,15 @@ function App() {
     if (courses === null && localizationData !== null) {
       getCourses();
     }
+    if (courses !== null && featureTestingMode === null) {
+      checkTesterUser();
+    }
+    if (featureTestingMode !== null && userActivityHistory === null) {
+      AcquireUserHistory();
+    }
+    if (userActivityHistory !== null) {
+      extractUserTrainingHistory(userActivityHistory);
+    }
   }
 
   function initializeAcademy() {
@@ -138,16 +143,14 @@ function App() {
           setLoadingScreenMsg("localization data downloaded...");
           if (courses !== null) {
             setLoadingScreenMsg("courses loaded...");
-            checkTesterUser();
-            if (featureTestingMode !== null) {
-              setLoadingScreenMsg("checked if user is tester...");
-              if (loaded === false) {
-                setLoadingScreenMsg("");
-                setLoaded(true);
-                var login = "login";
-                LogUserEvent(login);
-                if (featureTestingMode === true) {
-                  AcquireUserHistory();
+            if (userActivityHistory !== null) {
+              setLoadingScreenMsg("user activity history loaded...");
+              if (featureTestingMode !== null) {
+                setLoadingScreenMsg("checked if user is tester...");
+                if (loaded === false) {
+                  setLoadingScreenMsg("");
+                  setLoaded(true);
+                  LogUserEvent("login");
                 }
               }
             }
@@ -245,12 +248,9 @@ function App() {
   }
 
   function extractUserTrainingHistory(userActivityHistory) {
-    // go through the array one by one seeking out object with "event":"scenariocompleted" and add these into a new array
-    // return this just the "component":"scenarioname"
-    // "setUserTrainingHistory" - parse out the history into an setState array
     let activityhistory = [];
     for (let i = 0; i < userActivityHistory.length; i++) {
-      if (userActivityHistory[i].event === "scenarioselected") {
+      if (userActivityHistory[i].event === "scenariocompleted") {
         activityhistory.push(userActivityHistory[i].component);
       }
     }
@@ -506,6 +506,20 @@ function App() {
     //Add Event to local User ActivityHistory
   }
 
+  //Remove the 'scenariocompleted' event from the user history:
+  function RemoveLogScenarioCompleted(component) {
+    var thisUserEmail = getUserEmail();
+    var event = "scenariocompleted";
+
+    axios.delete(`${AppHelper.ApiUrl}RemoveLogScenarioCompleted`, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: { email: thisUserEmail, event: event, component: component },
+    });
+  }
+
   // Acquire all existing User activity (done once at every login)
   const AcquireUserHistory = async () => {
     var thisUserEmail = getUserEmail();
@@ -555,6 +569,7 @@ function App() {
           developerMode={developerMode}
           featureTestingMode={featureTestingMode}
           LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
         />
         {selectedItem === null ? (
           <ScenarioList
@@ -573,6 +588,10 @@ function App() {
             selectedNextItem={selectedNextItem}
             selectedPrevItem={selectedPrevItem}
             LogUserEvent={LogUserEvent}
+            setUserTrainingHistory={setUserTrainingHistory}
+            userTrainingHistory={userTrainingHistory}
+            featureTestingMode={featureTestingMode}
+            RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
           ></DisplayedItemContent>
         )}
       </Fragment>

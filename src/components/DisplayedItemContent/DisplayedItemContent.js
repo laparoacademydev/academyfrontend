@@ -21,6 +21,10 @@ function DisplayedItemContent(props) {
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
         LogUserEvent={props.LogUserEvent}
+        setUserTrainingHistory={props.setUserTrainingHistory}
+        userTrainingHistory={props.userTrainingHistory}
+        featureTestingMode={props.featureTestingMode}
+        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
       />
     );
   } else if (
@@ -37,6 +41,10 @@ function DisplayedItemContent(props) {
         selectedNextItem={props.selectedNextItem}
         selectedPrevItem={props.selectedPrevItem}
         LogUserEvent={props.LogUserEvent}
+        setUserTrainingHistory={props.setUserTrainingHistory}
+        userTrainingHistory={props.userTrainingHistory}
+        featureTestingMode={props.featureTestingMode}
+        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
       />
     );
   } else {
