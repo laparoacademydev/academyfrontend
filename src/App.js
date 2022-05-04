@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, Fragment } from "react";
 import axios from "axios";
-import ReactGa from "react-ga";
 
 import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
@@ -50,15 +49,16 @@ function App() {
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
   const [accessCodeError, setAccessCodeError] = useState(false);
 
-  // Acquire and store all user activity here at the beginning and update this everytime a checkbox is checked:
   const [userActivityHistory, setUserActivityHistory] = useState(null);
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
 
-  const [courses, setCourses] = useState(null);
   const [localizationData, setLocalizationData] = useState(null);
-  const [selectedItem, setSelectedItem] = useState(null);
+
+  const [courses, setCourses] = useState(null);
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
+  const [selectedItem, setSelectedItem] = useState(null);
+
   const [selectedNextItem, setSelectedNextItem] = useState(null);
   const [selectedPrevItem, setSelectedPrevItem] = useState(null);
 
@@ -93,9 +93,6 @@ function App() {
     if (selectedItem !== null) {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
-
-    // ReactGa.initialize("G-WBREGFZ6J3");
-    // ReactGa.pageview("/");
   }, [
     loaded,
     tokenConfirmed,
@@ -111,6 +108,7 @@ function App() {
 
   // Loading Initializing Functions:
   function loadAcademy() {
+    //this is the flow orchestrating all the other loading functions:
     if (tokenConfirmed === false && developerMode === false) {
       checkToken();
     }
@@ -135,6 +133,7 @@ function App() {
   }
 
   function initializeAcademy() {
+    // initialize goes through all the conditions while adjusting loading screen message. If everything is confirmed sets loaded to true.
     if (tokenConfirmed === true) {
       setLoadingScreenMsg("user token confirmed...");
       if (userIsActive === 1) {
@@ -160,8 +159,108 @@ function App() {
     }
   }
 
+  // User Loading Functions:
+  function checkToken() {
+    // this takes the token present in the browser and bounces user back to login screen if anything is wrong
+    var fullIp = window.location.href.split("#id_token=");
+    var webToken = fullIp[1];
+    if (webToken === null || webToken === undefined) {
+      var localToken = window.localStorage.getItem("jwt");
+      if (localToken === null || localToken === undefined) {
+        window.location.href = `${AppHelper.LoginUrl}`;
+        return false;
+      } else {
+        setTokenConfirmed(true);
+      }
+    } else {
+      window.localStorage.setItem("jwt", webToken);
+      window.location.href = fullIp[0];
+      setTokenConfirmed(true);
+    }
+  }
+
+  const checkUserActive = async () => {
+    //this checks if our user is 'active' in our database - the user is active only after providing the serial number on device.
+    //If user is not active, bounces to access code check screen.
+    var thisUserEmail = getUserEmail();
+    try {
+      let response = await axios.get(`${AppHelper.ApiUrl}CheckUserActive`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { email: thisUserEmail },
+      });
+
+      if (response.data === true) {
+        setUserIsActive(1);
+      } else {
+        setAccessCodeCheck(true);
+      }
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
+
+  const checkTesterUser = async () => {
+    // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
+    var thisUserEmail = getUserEmail();
+    try {
+      let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { email: thisUserEmail },
+      });
+
+      if (response.data === true) {
+        setFeatureTestingMode(true);
+        console.log("tester mode active - logged in as tester user");
+      } else {
+        setFeatureTestingMode(false);
+      }
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
+
+  function getUserEmail() {
+    // this simply checks for the user email and returns it - if in devmode sets up a local email address
+    if (developerMode === false) {
+      return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+    } else {
+      return "devmode@laparosimulators.com";
+    }
+  }
+
+  function activateUser(thisaccesscode) {
+    // this is used to activate the user - adds the user to the table containing 'active users'
+    var thisUserEmail = getUserEmail();
+    axios
+      .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: {
+          email: thisUserEmail,
+          active: true,
+          serialnumber: thisaccesscode,
+        },
+      })
+      .then(() => {
+        setLoaded(true);
+        setAccessCodeCheck(false);
+        checkUserActive();
+        var activateduser = "activateduser";
+        LogUserEvent(activateduser);
+      });
+  }
+
   // Content Related Functions:
   function getCourses() {
+    // fetches all courses from json. upon success sets the course data and displays the first course:
     if (courses === null) {
       fetch(`${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json`, {
         headers: {
@@ -181,6 +280,7 @@ function App() {
   }
 
   function getLocalization() {
+    //this fetches the localization data and then sends it over to be parsed out for selected language:
     fetch(
       `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json`,
       {
@@ -200,6 +300,7 @@ function App() {
   }
 
   function extractCourseData(myJson) {
+    // takes in our json course data and creates an array which containes courses, id's and names:
     var extractedCourses = { courses };
     extractedCourses.courses = [];
 
@@ -224,6 +325,7 @@ function App() {
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {
+    // this parses out all localization for selected language:
     var extractedLocalization = {};
     var localizationPages = Object.entries(myJson);
 
@@ -247,17 +349,8 @@ function App() {
     setLocalizationData(extractedLocalization);
   }
 
-  function extractUserTrainingHistory(userActivityHistory) {
-    let activityhistory = [];
-    for (let i = 0; i < userActivityHistory.length; i++) {
-      if (userActivityHistory[i].event === "scenariocompleted") {
-        activityhistory.push(userActivityHistory[i].component);
-      }
-    }
-    setUserTrainingHistory(activityhistory);
-  }
-
   function setCourseIdAndScenarioList(selectedCourse) {
+    // takes in the selected course and then fetches each json file for each actual scenario or edu section. remixes response json files into array so that entire list of scenarios can be viewed.
     setSelectedTraining(null);
     setTrainingList(null);
     setSelectedItem(null);
@@ -324,6 +417,7 @@ function App() {
   }
 
   function selectedNextPrev(id, selectedScenarioList) {
+    // used to track the next and prev scenario for next-prev component buttons to work as intended:
     var scenarioListArrayNextPosition;
     var scenarioListArrayPrevPosition;
 
@@ -351,163 +445,20 @@ function App() {
     }
   }
 
-  // User Related Functions:
-  function checkToken() {
-    var fullIp = window.location.href.split("#id_token=");
-    var webToken = fullIp[1];
-    if (webToken === null || webToken === undefined) {
-      var localToken = window.localStorage.getItem("jwt");
-      if (localToken === null || localToken === undefined) {
-        window.location.href = `${AppHelper.LoginUrl}`;
-        return false;
-      } else {
-        setTokenConfirmed(true);
+  // User Progress Tracking:
+  function extractUserTrainingHistory(userActivityHistory) {
+    //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
+    let activityhistory = [];
+    for (let i = 0; i < userActivityHistory.length; i++) {
+      if (userActivityHistory[i].event === "scenariocompleted") {
+        activityhistory.push(userActivityHistory[i].component);
       }
-    } else {
-      window.localStorage.setItem("jwt", webToken);
-      window.location.href = fullIp[0];
-      setTokenConfirmed(true);
     }
+    setUserTrainingHistory(activityhistory);
   }
 
-  const checkUserActive = async () => {
-    // this checks if our user is 'active' in our database - did he put in his serial number?
-    var thisUserEmail = getUserEmail();
-    try {
-      let response = await axios.get(`${AppHelper.ApiUrl}CheckUserActive`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { email: thisUserEmail },
-      });
-
-      if (response.data === true) {
-        setUserIsActive(1);
-      } else {
-        setAccessCodeCheck(true);
-      }
-    } catch (error) {
-      AppHelper.onRequestError(error);
-    }
-  };
-
-  const checkTesterUser = async () => {
-    // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
-    var thisUserEmail = getUserEmail();
-    try {
-      let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { email: thisUserEmail },
-      });
-
-      if (response.data === true) {
-        setFeatureTestingMode(true);
-        console.log("tester mode active - logged in as tester user");
-      } else {
-        setFeatureTestingMode(false);
-      }
-    } catch (error) {
-      AppHelper.onRequestError(error);
-    }
-  };
-
-  function getUserEmail() {
-    if (developerMode === false) {
-      return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
-    } else {
-      return "devmode@laparosimulators.com";
-    }
-  }
-
-  function activateUser(thisaccesscode) {
-    var thisUserEmail = getUserEmail();
-    axios
-      .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: {
-          email: thisUserEmail,
-          active: true,
-          serialnumber: thisaccesscode,
-        },
-      })
-      .then(() => {
-        setLoaded(true);
-        setAccessCodeCheck(false);
-        checkUserActive();
-        var activateduser = "activateduser";
-        LogUserEvent(activateduser);
-      });
-  }
-
-  //Access Code Related Functions:
-  function sendAccessCode(thisaccesscode) {
-    axios
-      .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { accesscode: thisaccesscode },
-      })
-      .then((response) => {
-        if (response.data === "True") {
-          activateUser(thisaccesscode);
-          removeAccessCode(thisaccesscode);
-        } else if (response.data === "False") {
-          setAccessCodeError(true);
-          console.log("access code did not work");
-        } else {
-          setAccessCodeError(true);
-          console.log("access code request did not work at all");
-        }
-      });
-  }
-
-  function removeAccessCode(thisaccesscode) {
-    axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: { accesscode: thisaccesscode },
-    });
-  }
-
-  // API log call:
-  function LogUserEvent(event, component) {
-    var thisUserEmail = getUserEmail();
-    // types of events: login, logout, activateduser
-    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, scenariocompleted,
-
-    if (component === null || component === undefined) {
-      component = "none";
-    }
-
-    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: {
-        email: thisUserEmail,
-        date: Date(),
-        event: event,
-        component: component,
-      },
-    });
-
-    //Add Event to local User ActivityHistory
-  }
-
-  //Remove the 'scenariocompleted' event from the user history:
   function RemoveLogScenarioCompleted(component) {
+    //Remove the 'scenariocompleted' event from the user history:
     var thisUserEmail = getUserEmail();
     var event = "scenariocompleted";
 
@@ -520,8 +471,8 @@ function App() {
     });
   }
 
-  // Acquire all existing User activity (done once at every login)
   const AcquireUserHistory = async () => {
+    // Acquire all existing User activity (done once at every login)
     var thisUserEmail = getUserEmail();
 
     try {
@@ -539,6 +490,70 @@ function App() {
       AppHelper.onRequestError(error);
     }
   };
+
+  //Access Code Related Functions:
+  function sendAccessCode(code) {
+    // sends accesscode and then activates user while removing access code from table DB (destroys it)
+    axios
+      .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { accesscode: code },
+      })
+      .then((response) => {
+        if (response.data === "True") {
+          activateUser(code);
+          removeAccessCode(code);
+        } else if (response.data === "False") {
+          setAccessCodeError(true);
+          console.log("access code did not work");
+        } else {
+          setAccessCodeError(true);
+          console.log("access code request did not work at all");
+        }
+      });
+  }
+
+  function removeAccessCode(code) {
+    // removes the access code from the list in DB:
+    axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: { accesscode: code },
+    });
+  }
+
+  // API log call:
+  function LogUserEvent(event, component) {
+    // logs a user event to the eventlogcontainer of the eventlog DB in azure - pairs this with user email. This function is found anywhere where we log events.
+
+    // types of events: login, logout, activateduser
+    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,
+    // special event with component (this gets added, but also removed if user unclicks): scenariocompleted,
+
+    var thisUserEmail = getUserEmail();
+
+    if (component === null || component === undefined) {
+      component = "none";
+    }
+
+    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: {
+        email: thisUserEmail,
+        date: Date(),
+        event: event,
+        component: component,
+      },
+    });
+  }
 
   if (isMobile === true) {
     return <MobileView />;

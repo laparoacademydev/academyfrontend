@@ -19,7 +19,7 @@ function EducationItem(props) {
         className={classes.scenariolistthumbimg}
       ></img>
       <div className={classes.sleducationtitle}>
-        <img src={eduicon} />
+        <img src={eduicon} alt="." />
         {props.selectedScenario.title[props.selectedLanguage]}
       </div>
       <div className={classes.sleducationitemskills}>
