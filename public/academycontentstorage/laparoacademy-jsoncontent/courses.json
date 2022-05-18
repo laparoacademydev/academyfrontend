@@ -11,7 +11,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -22,7 +23,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -33,7 +35,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -44,7 +47,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -55,7 +59,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -66,7 +71,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -77,7 +83,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -88,7 +95,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -99,7 +107,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -110,7 +119,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -121,7 +131,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -131,8 +142,9 @@
                         "Apex": true,
                         "Analytic": true,
                         "Advance": true,
-                        "Academy": true,
-                        "Papex": true
+                        "Academy": false,
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -143,7 +155,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -154,7 +167,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -165,7 +179,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -176,7 +191,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -187,7 +203,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -198,7 +215,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -207,7 +225,8 @@
                 "pl": "Podstawowe Umiejętności",
                 "es": "Habilidades básicas",
                 "zh-cn": "基本技能",
-                "ja": "基本的なスキル"
+                "ja": "基本的なスキル",
+                "hu": "Alapvető képességek"
             }
         },
         {
@@ -221,7 +240,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -232,7 +252,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -243,7 +264,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -254,7 +276,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -265,7 +288,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -276,7 +300,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -287,7 +312,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -298,7 +324,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -309,7 +336,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -320,18 +348,20 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
                     "type": "scenario",
                     "id": "ASS1_BSP1",
                     "simulators": {
-                        "Apex": false,
+                        "Apex": true,
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -342,7 +372,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -353,7 +384,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -364,7 +396,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -372,8 +405,9 @@
                 "en": "Basic Suturing Skills",
                 "pl": "Szycie Podstawowe",
                 "es": "Habilidades básicas de sutura",
-                "zh-cn": "基本缝合技巧",
-                "ja": "基本的な縫合スキル"
+                "zh-cn": "基本的缝合技巧",
+                "ja": "基本的な縫合スキル",
+                "hu": "Alapvető varrási készségek"
             }
         },
         {
@@ -387,7 +421,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -398,7 +433,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -409,7 +445,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -420,7 +457,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -431,7 +469,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -442,7 +481,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -453,7 +493,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -464,7 +505,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -475,7 +517,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -486,7 +529,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -497,7 +541,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -508,7 +553,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -519,7 +565,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -530,7 +577,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -539,7 +587,8 @@
                 "pl": "Średnio-Zaawansowane Umiejętności",
                 "es": "Habilidades intermedias",
                 "zh-cn": "中级技能",
-                "ja": "中間スキル"
+                "ja": "中級スキル",
+                "hu": "Közbenső készség"
             }
         },
         {
@@ -553,7 +602,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -564,7 +614,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -575,7 +626,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -586,7 +638,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -597,7 +650,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -608,7 +662,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -619,7 +674,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -630,7 +686,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -641,7 +698,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -652,7 +710,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -663,7 +722,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -674,7 +734,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -685,7 +746,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -696,7 +758,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -707,7 +770,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -715,8 +779,9 @@
                 "en": "Advanced Suturing Skills",
                 "pl": "Szycie Zaawansowane",
                 "es": "Habilidades de sutura avanzadas",
-                "zh-cn": "先进的缝线技巧",
-                "ja": "高度な縫合スキル"
+                "zh-cn": "高级缝合技巧",
+                "ja": "高度な縫合スキル",
+                "hu": "Fejlett varrási készségek"
             }
         },
         {
@@ -730,7 +795,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -741,7 +807,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -752,7 +819,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -763,7 +831,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -774,7 +843,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -785,7 +855,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -794,7 +865,8 @@
                 "pl": "FLS",
                 "es": "FLS",
                 "zh-cn": "FLS",
-                "ja": "FLS"
+                "ja": "FLS",
+                "hu": "FLS"
             }
         },
         {
@@ -808,7 +880,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -819,7 +892,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -830,7 +904,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -841,7 +916,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -852,7 +928,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -861,7 +938,8 @@
                 "pl": "E-BLUS",
                 "es": "E-BLUS",
                 "zh-cn": "E-BLUS",
-                "ja": "E-BLUS"
+                "ja": "E-BLUS",
+                "hu": "E-BLUS"
             }
         },
         {
@@ -875,7 +953,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -886,7 +965,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -897,7 +977,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -908,7 +989,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -919,7 +1001,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -930,7 +1013,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -941,7 +1025,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -950,7 +1035,8 @@
                 "pl": "Cholecystektomia",
                 "es": "Colecistectomía",
                 "zh-cn": "胆囊切除术",
-                "ja": "胆嚢摘出術"
+                "ja": "胆嚢摘出術",
+                "hu": "Kolecisztektómia"
             }
         },
         {
@@ -964,7 +1050,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -975,7 +1062,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -986,7 +1074,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -997,7 +1086,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1008,7 +1098,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -1017,7 +1108,8 @@
                 "pl": "Appendektomia",
                 "es": "Apendectomía",
                 "zh-cn": "阑尾切除术",
-                "ja": "虫垂摘課"
+                "ja": "虫垂切除",
+                "hu": "Vakbélműtét"
             }
         },
         {
@@ -1031,7 +1123,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1042,7 +1135,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1053,7 +1147,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1064,7 +1159,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1075,7 +1171,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1086,7 +1183,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1097,7 +1195,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1108,7 +1207,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1119,7 +1219,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1130,7 +1231,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1141,7 +1243,8 @@
                         "Analytic": true,
                         "Advance": true,
                         "Academy": true,
-                        "Papex": false
+                        "Papex": false,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -1150,7 +1253,57 @@
                 "pl": "Ginekologia",
                 "es": "Ginecología",
                 "zh-cn": "妇科",
-                "ja": "婦人科"
+                "ja": "婦人科",
+                "hu": "Nőgyógyászat"
+            }
+        },
+        {
+            "id": "urology",
+            "content": [
+                {
+                    "type": "scenario",
+                    "id": "vr_nephrectomy_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false,
+                        "MentorServer": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "vr_prostatectomy_full",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": false,
+                        "Advance": false,
+                        "Academy": false,
+                        "Papex": false,
+                        "MentorServer": true
+                    }
+                },
+                {
+                    "type": "scenario",
+                    "id": "module_prostatectomy",
+                    "simulators": {
+                        "Apex": true,
+                        "Analytic": true,
+                        "Advance": true,
+                        "Academy": true,
+                        "Papex": true,
+                        "MentorServer": true
+                    }
+                }
+            ],
+            "name": {
+                "en": "Urology",
+                "pl": "Urologia",
+                "es": "Urología",
+                "zh-cn": "泌尿科",
+                "ja": "泌尿器科",
+                "hu": "Urológia"
             }
         },
         {
@@ -1164,7 +1317,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1175,7 +1329,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 },
                 {
@@ -1186,7 +1341,8 @@
                         "Analytic": false,
                         "Advance": false,
                         "Academy": false,
-                        "Papex": true
+                        "Papex": true,
+                        "MentorServer": true
                     }
                 }
             ],
@@ -1195,7 +1351,8 @@
                 "pl": "Pediatria",
                 "es": "Pediatría",
                 "zh-cn": "儿科",
-                "ja": "小児科"
+                "ja": "小児科",
+                "hu": "Gyermekgyógyászat"
             }
         }
     ]
