@@ -50,7 +50,7 @@ function ScreenHeightWidthTester(props) {
   return (
     <div className={classes.box}>
       <div className={classes.text}>
-        {height}x{width}
+        h:{height}px w:{width}px
       </div>
       <div className={classes.textscenario}>{currentscenarioid}</div>
     </div>

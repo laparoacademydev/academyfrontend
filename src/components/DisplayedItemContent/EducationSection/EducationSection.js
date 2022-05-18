@@ -51,22 +51,19 @@ function EducationSection(props) {
           }
         })}
       </div>
-      {props.featureTestingMode === true ? (
-        <div className={classes.completedbox}>
-          <div className={classes.checkbox}>
-            <CompletedCheckbox
-              setUserTrainingHistory={props.setUserTrainingHistory}
-              userTrainingHistory={props.userTrainingHistory}
-              selectedItemContent={props.selectedItemContent}
-              LogUserEvent={props.LogUserEvent}
-              RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
-            />
-          </div>
-          <div className={classes.completedboxtext}>complete</div>
+
+      <div className={classes.completedbox}>
+        <div className={classes.checkbox}>
+          <CompletedCheckbox
+            setUserTrainingHistory={props.setUserTrainingHistory}
+            userTrainingHistory={props.userTrainingHistory}
+            selectedItemContent={props.selectedItemContent}
+            LogUserEvent={props.LogUserEvent}
+            RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
+          />
         </div>
-      ) : (
-        <div></div>
-      )}
+        <div className={classes.completedboxtext}>complete</div>
+      </div>
 
       <div className={classes.edufinaldiv}></div>
     </div>

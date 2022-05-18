@@ -18,19 +18,15 @@ function ScenarioDescription(props) {
       />
       <div className={scenarioclasses.itemcontenttophalf}>
         <div>
-          {props.featureTestingMode === true ? (
-            <div className={scenarioclasses.checkbox}>
-              <CompletedCheckbox
-                setUserTrainingHistory={props.setUserTrainingHistory}
-                userTrainingHistory={props.userTrainingHistory}
-                selectedItemContent={props.selectedItemContent}
-                LogUserEvent={props.LogUserEvent}
-                RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
-              ></CompletedCheckbox>
-            </div>
-          ) : (
-            <div></div>
-          )}
+          <div className={scenarioclasses.checkbox}>
+            <CompletedCheckbox
+              setUserTrainingHistory={props.setUserTrainingHistory}
+              userTrainingHistory={props.userTrainingHistory}
+              selectedItemContent={props.selectedItemContent}
+              LogUserEvent={props.LogUserEvent}
+              RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
+            ></CompletedCheckbox>
+          </div>
 
           <div className={scenarioclasses.header}>
             {props.selectedItemContent.name[props.selectedLanguage]}
