@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,56 @@
             "proficiency": 210
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h"
+    ],
+    "accessories": [
+        "start_position:1",
+        " short_suturing_insert:1",
+        " needle_suture_10cm:1"
     ],
     "name": {
         "en": "Single Surgical Knot Horizontal",
         "pl": "Pojedynczy Węzeł Chirurgiczny - Orientacja Pozioma",
         "es": "Un solo nudo quirúrgico horizontal",
-        "zh-cn": "单手术结水平",
-        "ja": "水平方向の単体結び目"
+        "zh-cn": "单手术结",
+        "ja": "単一の外科的結び目水平",
+        "hu": "Egyetlen műtéti csomó vízszintes"
     },
     "skills": {
         "en": "Surgical Knot, Suturing",
         "pl": "Węzeł Chirurgiczny, Szycie",
         "es": "Nudo quirúrgico, sutura.",
-        "zh-cn": "手术结，缝合",
-        "ja": "外科的結び目、縫合"
+        "zh-cn": "外科结，缝合",
+        "ja": "外科的な結び目、縫合",
+        "hu": "Sebészeti csomó, varrás"
     },
     "description": {
         "en": "The single surgical knot is the most basic knot used in surgery. Follow the instructions to learn how to apply this knot horizontally using a needle and thread.",
         "pl": "Pojedynczy węzeł chirurgiczny jest najbardziej podstawowym węzłem stosowanym w chirurgii. Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak założyć ten węzeł w poziomie przy pomocy igły i nici.",
         "es": "El único nudo quirúrgico es el nudo más básico utilizado en la cirugía. Siga las instrucciones para aprender a aplicar este nudo horizontalmente usando una aguja e hilo.",
-        "zh-cn": "单个手术结是手术中最基本的结。按照说明学习如何使用针和螺纹水平施加此结。",
-        "ja": "単一の外科用結節は手術に使用される最も基本的な結び目です。指示に従って、針とスレッドを使用してこの結び目を水平に適用する方法を学びます。"
+        "zh-cn": "单手术结是手术中最基本的结。请按照说明学习如何使用针和线水平施加此结。",
+        "ja": "単一の外科的結び目は、手術で使用される最も基本的な結び目です。指示に従って、針と糸を使用してこの結び目を水平に適用する方法を学びます。",
+        "hu": "Az egyetlen sebészeti csomó a legalapvetőbb csomó, amelyet a műtétben használnak. Kövesse az utasításokat, hogy megtanulja, hogyan kell ezt a csomót vízszintesen alkalmazni tűvel és szálral."
     },
     "instructions": {
         "en": "First use the needle holder to take the needle from the start position and rotate it so that it is positioned on ⅔ of the needle. Perform two horizontal throws, each followed by wrapping the suture around the instrument and tighten this simple knot onto the target tissue. Cut off the remaining suture and return the needle to the start position.",
         "pl": "Najpierw igła z pozycji początkowej powinna być podniesiona igła przy pomocy imadła i powinna zostać obrócona w taki sposób, żeby imadło znalazło się na ⅔ igły. Po przekłuciu powinny być zostać założone dwa owinięcia typowe dla węzła chirurgicznego, przy każdym owijając szew wokół instrumentu i zaciskając węzeł na tkance docelowej. Pozostała nić powinna zostać odcięta a igła powinna wrócić do pozycji startowej na koniec ćwiczenia.",
         "es": "Primero use el soporte de la aguja para tomar la aguja desde la posición de inicio y gírela para que esté colocada en ⅔ de la aguja. Realice dos tiros horizontales, cada uno siguió envolviendo la sutura alrededor del instrumento y apriete este simple nudo sobre el tejido diana. Corte la sutura restante y devuelva la aguja a la posición de inicio.",
-        "zh-cn": "首先使用针座从起始位置取向针并旋转，使其定位在针的¾上。执行两个水平投掷，每个划分，然后缠绕仪器周围的缝合线并将这种简单的结拧紧到目标组织上。切断剩余的缝合线并将针返回起始位置。",
-        "ja": "まず、針ホルダーを使用して、開始位置から針を取り、針の▲に位置するように回転させます。 2つの水平方向のスローを実行し、それぞれ、その後に縫合糸を装置の周囲に包み、この単純な結び目をターゲット組織に締めます。残りの縫合糸を切り取り、針を開始位置に戻します。"
+        "zh-cn": "首先使用针固定器将针从起始位置上取出并旋转，以便将其放在针上。进行两次水平投掷，每次都将缝合线包裹在仪器上，然后将这个简单的结拧到目标组织上。切断剩余的缝合线，然后将针头返回开始位置。",
+        "ja": "まず、針ホルダーを使用して、針を開始位置から取り出し、針の上に配置するように針を回転させます。 2つの水平スローを実行し、それぞれ縫合糸を器具の周りに包み、この単純な結び目を標的組織に締めます。残りの縫合糸を切り取り、針を開始位置に戻します。",
+        "hu": "Először használja a tűtartót, hogy vegye a tűt a kezdeti helyzetből, és forgassa el úgy, hogy az a tű ⅔ -re helyezze. Végezzen el két vízszintes dobást, mindegyik követte a varrót a műszer körül, és húzza meg ezt az egyszerű csomót a célszövetre. Vágja le a fennmaradó varratot, és tegye vissza a tűt a kezdő helyzetbe."
     },
     "preparation": {
         "en": "Place the needle in the start position at the top of the module and the small suturing component horizontally as shown.",
         "pl": "Igła powinna zostać umieszczona w pozycji początkowej przy górnej części modułu, a mały element do zszywania w orientacji pionowej.",
         "es": "Coloque la aguja en la posición de inicio en la parte superior del módulo y el componente de sutura pequeña horizontalmente como se muestra.",
-        "zh-cn": "将针在模块顶部的起始位置放置在模块顶部和水平的小缝线组件，如图所示。",
-        "ja": "図のように、モジュールの上部と小さな縫合部品の上部の開始位置に針を置きます。"
+        "zh-cn": "如图所示，将针头放在模块顶部的起始位置和小缝合组件。",
+        "ja": "図のように、モジュールの上部と小さな縫合成分を水平に開始位置に置きます。",
+        "hu": "Helyezze a tűt a kezdési helyzetbe a modul tetejére és a kis varrási alkatrészre vízszintesen."
     }
 }

@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 0,
-        "plat2deg": 0
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 0
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,57 @@
             "proficiency": 420
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "ASS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
+    "accessories": [
+        "start_position:1",
+        " long_suturing_insert:1",
+        " needle_suture_20cm:1"
+    ],
     "name": {
         "en": "Continuous Vertical Limited",
         "pl": "Szew Ciągły w Ograniczonym Polu i Orientacji Pionowej",
-        "es": "Continuo VERTICAL LIMITADO",
-        "zh-cn": "连续垂直有限公司",
-        "ja": "連続縦線"
+        "es": "Continuo Vertical Limitado",
+        "zh-cn": "连续垂直有限",
+        "ja": "連続垂直リミテッド",
+        "hu": "Folyamatos függőleges korlátozott"
     },
     "skills": {
         "en": "Suturing, Continuous, Limited Access, Vertical",
         "pl": "Szycie, Szew Ciągły, Pole Ograniczone",
         "es": "Sutura, Continuo, Acceso Limitado, Vertical",
-        "zh-cn": "缝合，连续，有限的接入，垂直",
-        "ja": "縫合、連続、限られたアクセス、縦"
+        "zh-cn": "缝合，连续，有限的访问，垂直",
+        "ja": "縫合、連続、限られたアクセス、垂直",
+        "hu": "Varrás, folyamatos, korlátozott hozzáférés, függőleges"
     },
     "description": {
         "en": "The Advanced Suturing Platform limits the amount of space available. This limitation has a positive impact on laparoscopic technique because it helps develop habits for operating in evenly more constrained space than usual.",
         "pl": "Zaawansowana platforma do szycia ogranicza ilość dostępnej przestrzeni. To ograniczenie ma pozytywny wpływ na technikę laparoskopową, ponieważ pomaga wykształcić nawyki operowania w bardziej ograniczonej przestrzeni niż zwykle. ",
         "es": "La plataforma de sutura avanzada limita la cantidad de espacio disponible. Esta limitación tiene un impacto positivo en la técnica laparoscópica porque ayuda a desarrollar hábitos para operar en un espacio uniformemente más restringido de lo habitual.",
-        "zh-cn": "先进的缝合平台限制了可用的空间量。这种限制对腹腔镜技术产生了积极的影响，因为它有助于开发比平常更受限制的空间均匀的习惯。",
-        "ja": "高度な縫合プラットフォームは、利用可能なスペースの量を制限します。この制限は、腹腔鏡技術に積極的な影響を与えます。"
+        "zh-cn": "高级缝合平台限制了可用空间的数量。该限制对腹腔镜技术产生积极影响，因为它有助于养成比平时更具限制空间的习惯。",
+        "ja": "高度な縫合プラットフォームは、利用可能なスペースの量を制限します。この制限は、通常よりも均等に制約された空間で動作するための習慣を開発するのに役立つため、腹腔鏡技術にプラスの影響を与えます。",
+        "hu": "A fejlett varrási platform korlátozza a rendelkezésre álló hely mennyiségét. Ez a korlátozás pozitív hatással van a laparoszkópos technikára, mivel elősegíti a szokásosnál egyenletesen korlátozottabb térben történő működés szokásainak kialakulását."
     },
     "instructions": {
         "en": "In this exercise you must perform a continuous suturing pattern inside of a limited amount of space available. Apply 4 throws approx 1-2mm apart and complete with the knot shown in the video.",
         "pl": "W tym ćwiczeniu musi być wykonany ciągły szew w ograniczonej dostępnej przestrzeni. Powinny zostać zastosowane 4 rzuty w odległości około 1-2 mm i zakończone węzłem pokazanym na filmie. ",
         "es": "En este ejercicio, debe realizar un patrón de sutura continua dentro de una cantidad limitada de espacio disponible. Aplicar 4 tiros aproximadamente 1-2 mm de distancia y complete con el nudo que se muestra en el video.",
-        "zh-cn": "在本练习中，您必须在可用空间数量的空间内执行连续缝合图案。涂抹4次抛出约1-2毫米，并在视频中显示的结。",
-        "ja": "この演習では、利用可能な限られた量のスペースの内側に連続的な縫合パターンを実行する必要があります。 4を適用すると、約1~2mm離れて、ビデオに表示されているノットが完成します。"
+        "zh-cn": "在本练习中，您必须在有限的可用空间内部执行连续的缝合图案。应用4次分开约1-2毫米，并在视频中显示的结。",
+        "ja": "この演習では、利用可能な限られた量のスペースの内部で連続的な縫合パターンを実行する必要があります。約1〜2mm離れた4スローを適用し、ビデオに示されている結び目を完成させます。",
+        "hu": "Ebben a gyakorlatban folyamatos varrási mintát kell végrehajtania, korlátozott mennyiségű helyen belül. Vigyen fel 4 dobást kb. 1-2 mm-re, és kiegészítve a videóban látható csomóval."
     },
     "preparation": {
         "en": "Apply the long suturing component horizontally and the start position to the Basic Suturing Platform below as pictured. Then apply the Advanced Suturing Platform on the top. Both the start position and the target structure should be visible.",
         "pl": "Insert do szycia powinien być umieszczony w orientacji pionowej na środku modułu do szycia podstawowego. Zaawansowana platforma wraz z pozycją startową powinny być założone na module, a w pozycji startowej powinna być umieszczona igła wraz z 10-20cm nici. Zarówno pozycja startowa pozycja jak i docelowe miejsce węzła muszą być widoczne i dostępne.",
-        "es": "Aplique el componente de sutura larga horizontalmente y la posición de inicio a la plataforma de sutura básica a continuación se muestra en la imagen. Luego, aplique la plataforma de sutura avanzada en la parte superior. Tanto la posición de inicio como la estructura objetivo deben ser visibles.",
-        "zh-cn": "如图所示，将长缝合组件水平应用和开始位置到下面的基本缝合平台。然后在顶部应用高级缝合平台。起始位置和目标结构都应可见。",
-        "ja": "写真のように下の長さの縫合部品を水平に、開始位置を下の基本的な縫合プラットフォームに適用します。その後、上位の縫合プラットフォームを上に適用します。開始位置とターゲット構造の両方を表示する必要があります。"
+        "es": "Aplique el componente de sutura larga horizontalmente y la posición de inicio a la plataforma de sutura básica a continuación se muestra en la foto. Luego, aplique la plataforma de sutura avanzada en la parte superior. Tanto la posición de inicio como la estructura objetivo deben ser visibles.",
+        "zh-cn": "如图所示，将长缝合组件水平应用到下面的基本缝合平台上。然后在顶部应用高级缝合平台。起始位置和目标结构都应可见。",
+        "ja": "長い縫合成分を水平方向に適用し、以下の基本的な縫合プラットフォームに開始位置を適用します。次に、上部に高度な縫合プラットフォームを適用します。開始位置とターゲット構造の両方が表示される必要があります。",
+        "hu": "Vigye fel a hosszú varrási alkatrészt vízszintesen, és a kezdési pozíciót az alábbi alapvető varrási platformra a képen látható módon. Ezután alkalmazza a fejlett varrási platformot a tetején. Mind a kiindulási helyzetnek, mind a célszerkezetnek láthatónak kell lennie."
     }
 }

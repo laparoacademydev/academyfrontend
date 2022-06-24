@@ -1,5 +1,5 @@
 {
-    "id": "vr_hysterectomy_tlh_so_full",
+    "id": "vr_nephrectomy_colon_mobilization",
     "cameraConfig": {
         "Apex": {
             "angle": 0,
@@ -16,7 +16,7 @@
     },
     "trocarsConfig": {
         "Apex": {
-            "backgroundUrl": "appendectomy_background.png",
+            "backgroundUrl": ".png",
             "places": [
                 1,
                 3,
@@ -31,7 +31,7 @@
             "xPosition_mm": 0,
             "yPosition_mm": 0,
             "angle_deg": 0,
-            "height_mm": 0
+            "height_mm": 1
         },
         "Analytic": {},
         "Advance": {}
@@ -124,50 +124,47 @@
         }
     },
     "vrConfig": {
-        "scene": "Hysterectomy",
-        "scenario": "TLH(WithOvariesRemoval)",
-        "minZoomFieldOfView": 22.5,
-        "maxZoomFieldOfView": 45
+        "scene": "Nephrectomy",
+        "scenario": "ColonMobilization",
+        "minZoomFieldOfView": 31,
+        "maxZoomFieldOfView": 62
     },
     "isVR": true,
     "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
-        "ligasure",
-        "hook",
-        "bipolargrasper",
         "harmonicscalpel",
-        "scissors"
+        "scissors",
+        "dissector"
     ],
     "name": {
-        "en": "Full Procedure - Total Hysterectomy with Salpingo-Oophorectomy",
-        "pl": "Cały Zabieg - Histerektomia Całkowita z Obustronnym Usunięciem Jajowodów VR",
-        "es": "Procedimiento completo: histerectomía total con salpingo -ooforectomía",
-        "zh-cn": "完整的手术 - 全子宫切除术，分别是Salpingo -opopophorortomy",
-        "ja": "完全な手順 - 卵管卵黄摘出術を伴う全子宮摘出術",
-        "hu": "Teljes eljárás - teljes hiszterektómia salpingo -oophorectomy -val"
+        "en": "Nephrectomy - colon mobilization",
+        "pl": "Nefrektomia",
+        "es": "Nefrectomía - movilización de colon",
+        "zh-cn": "肾切除术 - 结肠动员",
+        "ja": "腎摘出 - 結腸動員",
+        "hu": "Nephrektómia - vastagbél mobilizáció"
     },
     "skills": {
-        "en": "Procedure, Hysterectomy, VR, Gynecology",
-        "pl": "Procedura, Histerektomia, VR, Ginekologia",
-        "es": "Procedimiento, Histerectomía, VR, Ginecología",
-        "zh-cn": "程序，子宫切除术，VR，妇科学",
-        "ja": "手順、子宮摘出術、VR、婦人科",
-        "hu": "Eljárás, hiszterektómia, VR, nőgyógyászat"
+        "en": "Procedure, Urology",
+        "pl": "Procedure, Urologia",
+        "es": "Procedimiento, urología",
+        "zh-cn": "程序，泌尿科",
+        "ja": "手順、泌尿器科",
+        "hu": "Eljárás, urológia"
     },
     "description": {
-        "en": "In this virtual reality exercise the objective is to perform an entire total laparoscopic hysterectomy with bilateral salpingo-oophrectomy. The exercise begins with cutting the round ligaments and finishing just before the removal of the uterus along with the fallopian tubes and ovaries from the operating area.",
-        "pl": "Celem tego ćwiczenia jest wykonanie całkowitej histerektomii metodą laparoskopową wraz z obustronnym wycięciem jajników i jajowodów. Zabieg rozpoczyna się od przecięcia ligamentów za jajnikami, i kończy się zaraz przed całkowitym usunięciem macicy z pola operacyjnego.",
-        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una histerectomía laparoscópica total completa con salpingo-ofrectomía bilateral. El ejercicio comienza con cortar los ligamentos redondos y terminar justo antes de la extracción del útero junto con las trompas de Falopio y los ovarios del área de operación.",
-        "zh-cn": "在这种虚拟现实练习中，目标是进行整个腹腔镜子宫切除术，并进行双侧salpingo-opophrrrryrryrycomento。锻炼始于切割圆形韧带，并在取出子宫之前以及从操作区域的输卵管和卵巢之前完成完成。",
-        "ja": "この仮想現実の演習では、目的は、両側卵管胚切除を使用して、腹腔鏡下総子宮摘出術全体を実行することです。この運動は、丸い靭帯を切断し、子宮が除去される直前に仕上げ、動作エリアからの卵管と卵巣とともに終了することから始まります。",
-        "hu": "Ebben a virtuális valóság gyakorlatában a cél az, hogy egy teljes teljes laparoszkópos hiszterektómiát végezzen bilaterális salpingo-koophrektómiával. A gyakorlat a kerek szalagok vágásával és a méh eltávolítása előtt a petevezetékkel és petefészkekkel való befejezés előtt kezdődik."
+        "en": "Procedure, Urology",
+        "pl": "Procedure, Urologia",
+        "es": "Procedimiento, urología",
+        "zh-cn": "程序，泌尿科",
+        "ja": "手順、泌尿器科",
+        "hu": "Eljárás, urológia"
     },
     "instructions": {},
     "preparation": {
         "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
         "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
-        "es": "Retire los módulos físicos del área operativa. Retire los instrumentos de los trocares y extraiga la cámara lo más lejos posible.",
         "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
         "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
         "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."

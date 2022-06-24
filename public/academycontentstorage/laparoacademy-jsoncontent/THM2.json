@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,55 @@
             "proficiency": 240
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "THM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "suture_20cm:4 ",
+        " foam_insert:1"
     ],
     "name": {
         "en": "Endo-Loop Practice",
         "pl": "Ćwiczenie Endo-Loop",
         "es": "Práctica endo-bucle",
-        "zh-cn": "内部循环练习",
-        "ja": "エンドループ練習"
+        "zh-cn": "内地环实践",
+        "ja": "エンドループの練習",
+        "hu": "Endo-hurok gyakorlat"
     },
     "skills": {
         "en": "Endo-Loop, Extracorporeal, Suturing",
         "pl": "Endo-Loop, Szycie",
         "es": "Endo-bucle, extracorpóreo, sutura.",
-        "zh-cn": "内循环，体外，缝合",
-        "ja": "エンドループ、体外、縫合"
+        "zh-cn": "内地环，体外，缝合",
+        "ja": "エンドループ、体外、縫合",
+        "hu": "Endo-hurok, extrakorporális, varrás"
     },
     "description": {
         "en": "When the clip applicator is not available or clips are not optimal we can also implement knots tied extracorporeally and introduce them through the trocars. This can be done with a specialized laparoscopic knot pusher or with the dissector. Knot-Pushers are also produced as Endo-Loop, disposable single-use instruments with the knots already tied. Learning how to apply loops around target structure is a vital skill for many routine procedures.",
         "pl": "Gdy klipsownica nie jest dostępna lub założenie klipsów nie jest właściwym rozwiązaniem, możemy również wprowadzić węzły wiązane na zewnątrz pola operacyjnego i wprowadzić je przez trokary. Można to zrobić za pomocą specjalistycznego laparoskopowego popychacza węzłów (tzw. knot-pusher) bądź przy pomocy disektora. Knot-Pushery są tez oferowane oddzielnie jako Endo-Loop gdzie węzeł jest już zaciśnięty. Nauka stosowania pętli wokół struktury docelowej jest kluczową umiejętnością w wielu rutynowych procedurach. ",
         "es": "Cuando el aplicador de clip no está disponible o los clips no son óptimos, también podemos implementar los nudos atados extracorpóricamente y presentarlos a través de los trocars. Esto se puede hacer con un empujador de nudo laparoscópico especializado o con el disector. Los ajustes de nudos también se producen como instrumentos de uso único endo-bucle, con los nudos ya atados. Aprender a aplicar los bucles alrededor de la estructura objetivo es una habilidad vital para muchos procedimientos de rutina.",
-        "zh-cn": "当不可用或剪辑涂敷器时或剪辑不最佳时，我们也可以通过轨道介绍并介绍它们的结捆绑。这可以用专门的腹腔镜结或与解剖器进行。结推动器也被制作为内端环，一次性单用仪器，有结已经捆绑在一起。学习如何在目标结构周围应用循环是许多例行程序的重要技能。",
-        "ja": "クリップアプリケータが利用できない場合、またはクリップが最適ではない場合は、体外に結び付けられた結び目を実装し、トロカールを通して紹介することもできます。これは、特殊な腹腔鏡下結び目プッシャーまたは分析器を使って行うことができます。ノットプッシャーはまた、エンドループとして生産されており、ノットが既に結ばれたノットを持つ使い捨ての使い捨ての楽器です。ターゲット構造の周囲のループを適用する方法を学ぶことは、多くの日常的な手順にとって重要なスキルです。"
+        "zh-cn": "当夹子涂抹器不可用或剪辑不是最佳的情况下，我们还可以实现绑定的结节，并通过ter曲线引入它们。这可以通过专门的腹腔镜打结或使用解剖器来完成。开结式器也被以束缚的结构为内环，一次性的一次性仪器。学习如何在目标结构上应用循环是许多常规程序的重要技能。",
+        "ja": "クリップアプリケーターが利用できない場合、またはクリップが最適でない場合、筋肉外に結び付けられたノットを実装して、トロカーを通してそれらを紹介することもできます。これは、特殊な腹腔鏡の結び目プッシャーまたは分離器で行うことができます。ノットプッシャーは、エンドループの使い捨ての片足機器としても製造されています。ターゲット構造にループを適用する方法を学ぶことは、多くの日常的な手順にとって重要なスキルです。",
+        "hu": "Ha a klip applikátor nem áll rendelkezésre, vagy a klipek nem optimálisak, akkor az extrakorporálisan kötött csomókat is megvalósíthatjuk, és bemutathatjuk azokat a trokarokon keresztül. Ez megtehető egy speciális laparoszkópos csomós tolóval vagy a boncolóval. A csomós-pushereket endo-hurokként is előállítják, eldobható, egyszer használatos műszerként, a már kötött csomókkal. Számos rutin eljárás számára létfontosságú készség a hurkok felhordásának megtanulása a célszerkezet körül."
     },
     "instructions": {
         "en": "Begin the exercise and apply the first loop onto the far left foam flap, targeting as close to the marked line as possible. Complete the exercise by applying four loops around each target element.",
         "pl": "Rozpocznij ćwiczenie nakładając pierwszą pętlę na skrajnie lewą piankę, celując jak najbliżej zaznaczonej linii. Wykonaj ćwiczenie, wykonując cztery pętle wokół każdego elementu docelowego wprowadzając za każdym razem nowe pętle przy pomocy disektora.",
         "es": "Comience el ejercicio y aplique el primer bucle en la solapa de espuma de lejana, se dirige lo más cerca posible de la línea marcada. Complete el ejercicio aplicando cuatro bucles alrededor de cada elemento objetivo.",
-        "zh-cn": "开始锻炼并将第一个环应用到最左侧泡沫挡板上，瞄准尽可能靠近标记线。通过在每个目标元素周围应用四个循环来完成练习。",
-        "ja": "運動を開始し、できるだけマークされたラインの近くにターゲティングして、左端のフォームフラップに最初のループを適用します。各ターゲット要素の周囲に4つのループを適用することによって運動を完了してください。"
+        "zh-cn": "开始练习，然后将第一个环将其应用于最左侧的泡沫瓣上，靶向尽可能靠近标记线。通过在每个目标元素周围应用四个循环来完成练习。",
+        "ja": "エクササイズを開始し、最初のループを左端のフォームフラップに適用し、マークされたラインにできるだけ近いターゲットにします。各ターゲット要素に4つのループを適用して、演習を完了します。",
+        "hu": "Kezdje el a gyakorlatot, és vigye fel az első hurkot a bal oldali bal habflapra, a lehető legközelebb a jelölt vonalhoz. Végezze el a gyakorlatot úgy, hogy négy hurkot alkalmaz az egyes célelemek körül."
     },
     "preparation": {
         "en": "Clip the red foam insert into the Tissue Holder Module and place it in the operating area. Prepare four pieces of 30cm suture material and tie standard sliding knots around each one. ",
         "pl": "Przypnij Czerwony Insert Silikonowy do modułu trzymania tkanek i umieść moduł w obszarze operacyjnym. Przygotuj cztery kawałki nici o długości 30 cm i zawiąż wokół każdego z nich standardowe węzły ślizgowe. ",
         "es": "Clip El inserto de espuma rojo en el módulo del soporte de tejido y colóquelo en el área de operación. Prepare cuatro piezas de material de sutura de 30 cm y atan nudos deslizantes estándar alrededor de cada uno.",
-        "zh-cn": "将红色泡沫插入夹在组织保持器模块中并将其放入操作区域。准备四件30厘米缝合材料，并在每一个周围系标准滑动结。",
-        "ja": "赤い泡の挿入を組織ホルダーモジュールに入れ、操作領域に置きます。 4枚の30cmの縫合糸材料を用意し、それぞれの周りに標準のスライド結び目を結びます。"
+        "zh-cn": "将红色泡沫插入到组织支架模块中，并将其放在操作区域中。准备四件30厘米的缝合材料，并在每种缝合线上打结标准的滑动结。",
+        "ja": "レッドフォームインサートを組織ホルダーモジュールにクリップし、動作エリアに配置します。 30cmの縫合材料の4個を準備し、それぞれの周りに標準のスライドノットを結びます。",
+        "hu": "Keverje el a piros hab betétét a szöveti tartó moduljába, és helyezze azt a működési területre. Készítsen elő négy darab 30 cm -es varrás anyagot, és kösse össze a standard csúszó csomókat mindegyik körül."
     }
 }

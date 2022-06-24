@@ -7,8 +7,17 @@
                 "en": "Surgical procedures performed laparoscopically differ from the open approach at several fundamental levels. These include, but are not limited to: Visualization, Fulcrum Effect and the Lack of Tactile Feedback. Because of this, developing laparoscopic skill requires time and regular practice for the surgeon to become confident.",
                 "pl": "Zabiegi wykonywane metodą laparoskopową różnią się od zabiegów wykonywanych metodą laparotomową w kilku kluczowych aspektach. Należą  do nich: utrudniona wizualizacja, efekt podparcia oraz brak wyczuwalnej informacji zwrotnej. Przez to, rozwijanie umiejętności laparoskopowej i budowanie pewności siebie wymaga czasu i regularnych ćwiczeń.\n",
                 "es": "Los procedimientos quirúrgicos realizados laparoscópicamente difieren del enfoque abierto en varios niveles fundamentales. Estos incluyen, pero no se limitan a: visualización, efecto de fulcro y la falta de retroalimentación táctil. Debido a esto, el desarrollo de habilidades laparoscópicas requiere tiempo y práctica regular para que el cirujano tenga confianza.",
-                "zh-cn": "在若干基本级别下进行腹腔镜表演的外科手术与开放方法不同。这些包括但不限于：可视化，支点效应和缺乏触觉反馈。因此，发展腹腔镜技能需要时间和定期做外科医生的练习。",
-                "ja": "腹腔鏡的に行われた外科的処置は、いくつかの基本レベルでのオープンアプローチとは異なります。これらには、可視化、支点効果、および触覚フィードバックの欠如が含まれます。このため、腹腔鏡技量の発展は、外科医が自信を持っているのに時間と定期的な慣行を必要とします。"
+                "zh-cn": "腹腔镜进行的手术程序在几个基本层面上与开放式方法有所不同。其中包括但不限于：可视化，支点效应和缺乏触觉反馈。因此，发展腹腔镜技能需要时间和常规练习才能使外科医生变得自信。",
+                "ja": "腹腔鏡下で行われた外科的処置は、いくつかの基本レベルでのオープンアプローチとは異なります。これらには、視覚化、支点効果、触覚フィードバックの欠如が含まれますが、これらに限定されません。このため、腹腔鏡スキルを開発するには、外科医が自信を持つために時間と定期的な練習が必要です。",
+                "hu": "A műtéti eljárások laparoszkóposan különböznek a nyílt megközelítéstől több alapvető szinten. Ide tartoznak, de nem korlátozódnak a következőkre: megjelenítés, fulcrum hatás és a tapintható visszajelzés hiánya. Emiatt a laparoszkópos készség fejlesztése időt és rendszeres gyakorlatot igényel, hogy a sebész magabiztossá váljon."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -18,7 +27,16 @@
                 "pl": "Wizualizacja",
                 "es": "Visualización",
                 "zh-cn": "可视化",
-                "ja": "視覚化"
+                "ja": "視覚化",
+                "hu": "Megjelenítés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -27,25 +45,41 @@
                 "en": "In a laparoscopic surgical procedure the surgeon only has a two-dimensional view of the surgical field. The image available is projected on a screen and comes from a camera. The endoscopic lens is not stereoscopic (3D) and the lens shape affects how three-dimensional space is translated into a two-dimensional image. To maintain precision of instrument movement, the surgeon must learn to visualize how this image distorts physical space and must construct an accurate mental picture of the space in and around the operating area based on this information. An improved mental picture allows the surgeon to plan the desired tasks ahead of time and to perform them efficiently and without unnecessary complication.",
                 "pl": "W zabiegach laparoskopowych chirurg ma dostęp jedynie do dwuwymiarowego  widoku pola operacyjnego. Dostępny obraz wyświetlany jest na ekranie i pochodzi z kamery. Soczewka laparoskopowa nie jest stereoskopowa (3D), a kształt samej soczewki wpływa na to, jak trójwymiarowa przestrzeń jest przetwarzana na dwuwymiarowy obraz. Aby utrzymać precyzję ruchu instrumentów, chirurg musi nauczyć się wizualizować, czyli rozumieć jak przestrzeń jest tłumaczona na obraz. Na bazie tej informacji musi konstruować precyzyjny obraz mentalny przestrzeni operacyjnej. Taki obraz mentalny pozwala chirurgowi na planowanie pożądanych  czynności odpowiednio wcześnie, i na wykonywanie ich wydajnie bez niepotrzebnych komplikacji.\n",
                 "es": "En un procedimiento quirúrgico laparoscópico, el cirujano solo tiene una vista bidimensional del campo quirúrgico. La imagen disponible se proyecta en una pantalla y proviene de una cámara. La lente endoscópica no es estereoscópica (3D) y la forma de la lente afecta a cómo se traduce el espacio tridimensional a una imagen bidimensional. Para mantener la precisión del movimiento del instrumento, el cirujano debe aprender a visualizar cómo esta imagen distorsiona el espacio físico y debe construir una imagen mental precisa del espacio en y alrededor del área de operación según esta información. Una imagen mental mejorada le permite al cirujano planificar las tareas deseadas antes de tiempo y realizarlas de manera eficiente y sin complicaciones innecesarias.",
-                "zh-cn": "在腹腔镜手术过程中，外科医生仅具有手术领域的二维视图。可用的图像在屏幕上投影并来自相机。内窥镜镜片不是立体（3D），并且透镜形状会影响三维空间如何将三维空间转换成二维图像。为了保持仪器运动的精度，外科医生必须学会通过基于此信息构建本图像的扭曲物理空间，并且必须根据该信息构建操作区域内和周围的空间的精确心理图像。改进的心理图片允许外科医生提前规划所需的任务，并有效地执行它们，没有不必要的并发症。",
-                "ja": "腹腔鏡手術手順では、外科医は手術野の二次元図のみを有する。利用可能な画像は画面に投影され、カメラから来ています。内視鏡レンズは立体視（3D）ではなく、レンズ形状は、三次元空間が二次元画像に並進しているかに影響を及ぼす。機器の動きの精度を維持するために、外科医は、この画像が物理的空間を歪ませ、この情報に基づいて操作領域の周囲のスペースの正確な精神像をどのように構築する必要があるかを学ぶ必要があります。精神像が改善されたことで、外科医は望みのタスクを進歩し、それらを効率的かつ不必要な合併症なしに実行することを可能にします。"
+                "zh-cn": "在腹腔镜外科手术中，外科医生仅对手术场有二维视图。可用的图像投影在屏幕上，并来自相机。内窥镜镜头不是立体镜（3D），并且透镜形状会影响三维空间如何转化为二维图像。为了保持仪器运动的精确性，外科医生必须学会可视化该图像如何扭曲物理空间，并必须根据此信息构建操作区域内和周围空间的准确心理图片。改进的心理状况使外科医生能够提前计划所需的任务，并有效地执行这些任务，而无需不必要的并发症。",
+                "ja": "腹腔鏡下の外科的処置では、外科医は外科フィールドの2次元の見解しかありません。利用可能な画像は画面に投影され、カメラから届きます。内視鏡レンズは立体視（3D）ではなく、レンズの形状は3次元空間が2次元画像にどのように変換されるかに影響します。機器の動きの精度を維持するために、外科医は、このイメージが物理的空間を歪める方法を視覚化することを学び、この情報に基づいて動作領域とその周辺の空間の正確な精神的絵を構築する必要があります。改善された精神的絵により、外科医は望ましいタスクを事前に計画し、不必要な合併症なしに効率的に実行することができます。",
+                "hu": "Egy laparoszkópos műtéti eljárás során a sebész csak kétdimenziós képet mutat a műtéti területről. A rendelkezésre álló képet a képernyőn vetítik, és kamerából származik. Az endoszkópos lencse nem sztereoszkópos (3D), és a lencse alakja befolyásolja a háromdimenziós teret kétdimenziós képré. A műszermozgás pontosságának fenntartása érdekében a sebésznek meg kell tanulnia, hogy ez a kép torzítja a fizikai teret, és pontos mentális képet kell készítenie a térről a működési területen és annak környékén ezen információk alapján. A továbbfejlesztett mentális kép lehetővé teszi a sebész számára, hogy idő előtt megtervezze a kívánt feladatokat, és hatékonyan és szükségtelen komplikáció nélkül végezze el azokat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu2_instrument_movement_06.png",
-                    "type": "image",
-                    "label": {
-                        "en": "The image on the left is produced when a laparoscope tip is inserted right up to the target area. The image on the right is produced when the laparoscope tip is kept further away but a digital zoom is applied.",
-                        "pl": "Obraz po lewej powstaje kiedy końcówka laparoskopu znajduje się głęboko zaraz przy docelowym miejscu operacyjnym. Obraz po prawej powstaje kiedy końcówka laparoskopu znajduje się dalej ale zastosowane jest cyfrowe przybliżenie.",
-                        "es": "La imagen de la izquierda se produce cuando se inserta una punta de laparoscopio hasta el área de destino. La imagen a la derecha se produce cuando la punta del laparoscopio se mantiene más lejos, pero se aplica un zoom digital.",
-                        "zh-cn": "当探头插入到目标区域时，左侧的图像是产生的。当腹腔镜尖端保持远离时，产生右侧的图像，但是应用了数码变焦。",
-                        "ja": "左側の画像は、腹腔鏡の先端が目標領域まで挿入されたときに生成されます。右側の画像は、腹腔鏡の先端がさらに遠くに保たれるがデジタルズームが適用されるときに生成されます。"
-                    }
+            "media": {
+                "url": "edu2_instrument_movement_06.png",
+                "type": "image",
+                "label": {
+                    "en": "The image on the left is produced when a laparoscope tip is inserted right up to the target area. The image on the right is produced when the laparoscope tip is kept further away but a digital zoom is applied.",
+                    "pl": "Obraz po lewej powstaje kiedy końcówka laparoskopu znajduje się głęboko zaraz przy docelowym miejscu operacyjnym. Obraz po prawej powstaje kiedy końcówka laparoskopu znajduje się dalej ale zastosowane jest cyfrowe przybliżenie.",
+                    "es": "La imagen de la izquierda se produce cuando se inserta una punta de laparoscopio hasta el área de destino. La imagen a la derecha se produce cuando la punta del laparoscopio se mantiene más lejos, pero se aplica un zoom digital.",
+                    "zh-cn": "当将腹腔镜尖端直接插入到目标区域时，左侧的图像将产生。当腹腔镜尖端保持更远的位置，但应用数字变焦时，会产生右侧的图像。",
+                    "ja": "左側の画像は、腹腔鏡先の先端がターゲットエリアまで挿入されたときに生成されます。右側の画像は、腹腔鏡先の先端がさらに遠く離れているが、デジタルズームが適用されると生成されます。",
+                    "hu": "A bal oldali kép akkor készül, amikor egy laparoszkópos hegyet közvetlenül a célterületig helyeznek be. A jobb oldalon lévő kép akkor jön létre, amikor a laparoszkópos hegyet távol tartják, de digitális zoomot alkalmaznak."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "quote",
@@ -53,8 +87,17 @@
                 "en": "To maintain precision of instrument movement, the surgeon must learn to visualize how this image distorts physical space and must construct an accurate mental picture of this space. ",
                 "pl": "Aby utrzymać precyzję ruchu instrumentów, chirurg musi nauczyć się wizualizować, czyli rozumieć jak przestrzeń jest tłumaczona na obraz i na bieżąco musi konstruować precyzyjny obraz mentalny pola operacyjnego. ",
                 "es": "Para mantener la precisión del movimiento del instrumento, el cirujano debe aprender a visualizar cómo esta imagen distorsiona el espacio físico y debe construir una imagen mental precisa de este espacio.",
-                "zh-cn": "为了保持仪器运动的精度，外科医生必须学会可视化该图像的扭曲物理空间，并且必须构建该空间的准确的心理图片。",
-                "ja": "機器の動きの精度を維持するために、外科医は、この画像が物理的空間を歪めてこのスペースの正確な精神像を構築する必要があるかを視覚化することを学ばなければなりません。"
+                "zh-cn": "为了保持仪器运动的精确性，外科医生必须学会可视化该图像如何扭曲物理空间，并必须构建该空间的准确心理图片。",
+                "ja": "機器の動きの精度を維持するために、外科医は、このイメージが物理的空間をどのようにゆがめ、この空間の正確な精神的絵を構築するかを視覚化することを学ばなければなりません。",
+                "hu": "A műszermozgás pontosságának fenntartása érdekében a sebésznek meg kell tanulnia, hogy megjelenítse, hogyan torzítja ez a kép a fizikai teret, és pontos mentális képet kell készítenie erről a térről."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -63,8 +106,17 @@
                 "en": "Visualization of a three-dimensional space with a two-dimensional image is referred to as perspective in art. Visual distance and visual angle are two factors which affect the ability to visualize space. As the distance between the tip of the camera and of the object being observed changes, visualization will change because of a shift in visual angle. When the distance between the tip of the camera and object increases, we will see a good panoramic view but we will lose depth sensation with an increase in distance. Conversely, when the distance between the tip of the camera and object decreases, we will lose the wide-lens panoramic view but the depth sensation will be improved. The surgeon must take this distortion into account at all times and understand how the lens of a camera system works.",
                 "pl": "Wizualizacja trójwymiarowej przestrzeni za pomocą dwuwymiarowego obrazu nazywana jest perspektywą w sztukach wizualnych. Odległość i wizualizowany kąt są dwoma czynnikami, które mają wpływ na zdolność wizualizowania przestrzeni. Przykładowo, kiedy odległość między soczewką a obiektem zmienia się, wizualizacja zmieni się przez zmianę w wizualizowanym kącie. Kiedy odległość między soczewką a obiektem zwiększa się zobaczymy szeroki panoramiczny obraz, jednocześnie tracąc poczucie głębi proporcjonalnie do tej odległości. I odwrotnie, kiedy odległość między soczewką kamery a obiektem zmniejszy się, stracimy panoramiczny widok szerokokątny, jednocześnie zwiększając percepcję głębokości obiektu. Chcąc poprawnie wizualizować przestrzeń, chirurg musi rozumieć jak działa system soczewek w kamerze i jak przekształca on  trójwymiarową przestrzeń na dwuwymiarowy obraz.\n",
                 "es": "La visualización de un espacio tridimensional con una imagen bidimensional se conoce como perspectiva en la técnica. La distancia visual y el ángulo visual son dos factores que afectan la capacidad de visualizar el espacio. A medida que la distancia entre la punta de la cámara y del objeto se observa cambios, la visualización cambiará debido a un cambio en el ángulo visual. Cuando aumenta la distancia entre la punta de la cámara y el objeto, veremos una buena vista panorámica, pero perderemos la sensación de profundidad con un aumento en la distancia. A la inversa, cuando la distancia entre la punta de la cámara y el objeto disminuye, perderemos la vista panorámica de lente ancha, pero se mejorará la sensación de profundidad. El cirujano debe tener en cuenta esta distorsión en todo momento y entender cómo funciona la lente de un sistema de cámara.",
-                "zh-cn": "具有二维图像的三维空间的可视化被称为领域的透视图。视觉距离和视角是影响可视化空间能力的两个因素。由于相机尖端与被观察到的对象之间的距离，因此由于视角的偏移而可视化将改变。当相机尖端与对象之间的距离增加时，我们将看到一个很好的全景视图，但我们将减少深度感觉，距离增加。相反，当相机尖端与物体之间的距离减小时，我们将丢失宽镜头全景，但深度感觉将得到改善。外科医生必须随时掌握这种失真，并了解相机系统的镜头是如何工作的。",
-                "ja": "二次元画像を用いた三次元空間の可視化を図表と呼ぶ。視覚距離と視角は、スペースを視覚化する能力に影響を与える2つの要因です。カメラの先端と観察されている物体の間の距離が変化すると、視覚角がずれたために可視化が変化します。カメラの先端とオブジェクトの先端の間の距離が増加すると、パノラマの視点が表示されますが、距離が増加して深さの感覚を失います。逆に、カメラと物体の先端の間の距離が減少すると、広いレンズのパノラマビューが失われますが、深さの感覚は改善されます。外科医は常にこの歪みを考慮に入れて、カメラシステムのレンズがどのように機能するかを理解しなければなりません。"
+                "zh-cn": "具有二维图像的三维空间的可视化被称为艺术中的观点。视觉距离和视角是影响可视化空间能力的两个因素。随着相机尖端和观察到的对象之间的距离发生变化，视觉角度的变化将发生变化。当相机尖端和物体之间的距离增加时，我们将看到一个良好的全景视图，但我们会随着距离的增加而失去深度感觉。相反，当相机的尖端和物体之间的距离减小时，我们将失去宽镜头全景视图，但深度感觉将得到改善。外科医生必须始终考虑这种失真，并了解相机系统的镜头的工作原理。",
+                "ja": "2次元画像を使用した3次元空間の視覚化は、芸術の視点と呼ばれます。視覚距離と視角は、空間を視覚化する能力に影響する2つの要因です。カメラの先端と観測されるオブジェクトの間の距離が変化すると、視覚のシフトにより視覚化が変化します。カメラの先端とオブジェクトの間の距離が増加すると、良いパノラマビューが表示されますが、距離が増加すると深さの感覚が失われます。逆に、カメラの先端とオブジェクトの間の距離が減少すると、ワイドレンズのパノラマビューが失われますが、深さの感覚は改善されます。外科医は常にこの歪みを考慮に入れ、カメラシステムのレンズがどのように機能するかを理解する必要があります。",
+                "hu": "A háromdimenziós tér kétdimenziós képpel történő megjelenítését a művészet perspektívájának nevezzük. A vizuális távolság és a vizuális szög két tényező, amelyek befolyásolják a tér megjelenítésének képességét. Mivel a kamera hegye és a megfigyelt tárgy közötti távolság megváltozik, a megjelenítés megváltozik a vizuális szög eltolódása miatt. Amikor a kamera és az objektum csúcsa közötti távolság növekszik, jó panorámás nézetet fogunk látni, de a távolság növekedésével elveszítjük a mélységérzetet. Ezzel szemben, amikor a kamera és az objektum közötti távolság csökken, akkor elveszítjük a széles lencséjű panorámás nézetet, de a mélységérzékelés javul. A sebésznek ezt a torzítást mindig figyelembe kell vennie, és meg kell értenie, hogyan működik a kamerarendszer lencséje."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -73,25 +125,41 @@
                 "en": "There are 3 common types of rod-lens laparoscopic viewing angles - 0, 30 and 45 degrees. Such angles allow surgeons to position the rod in such a way as to optimize the visual distance and visual angle to best conceptualize the three-dimensional space. In a laparoscopic procedure, the camera operator who is usually an assisting surgeon resident must collaborate closely with the surgeon to give the best possible image.",
                 "pl": "W laparoskopii powszechnie używane są trzy rodzaje torów wizyjnych:0°, 30° i 45°. \nKąty te zniekształcają obraz w taki sposób że możliwe jest usprawnione wizualizowanie odległości i kątów pomagające w wizualizacji trójwymiarowej przestrzeni. Operator kamery (najczęściej  asystujący chirurg) musi blisko współpracować i komunikować się z chirurgiem aby powstawał najbardziej pomocny obraz na ekranie.\n",
                 "es": "Hay 3 tipos comunes de ángulos laparoscópicos de visión laparoscópica - 0, 30 y 45 grados. Dichos ángulos permiten a los cirujanos colocar la varilla de tal manera que optimice la distancia visual y el ángulo visual para conceptualizar mejor el espacio tridimensional. En un procedimiento laparoscópico, el operador de la cámara que suele ser un residente del cirujano asistido debe colaborar estrechamente con el cirujano para dar la mejor imagen posible.",
-                "zh-cn": "有3种常见类型的杆镜头腹腔镜观察角 -  0,30和45度。这种角度允许外科医生以优化视觉距离和视角的方式定位杆，以最佳概念化三维空间。在腹腔镜程序中，通常是辅助外科医生居民的相机运营商必须与外科医生密切合作，以提供最佳的图像。",
-                "ja": "ロッドレンズ腹腔鏡下角度3種類が0,30および45度の3種類がある。そのような角度は、3次元空間を最もよく概念化するために視覚距離および視野角を最適化するように外科医をロッドを位置決めすることを可能にする。腹腔鏡下手順では、通常、居住外科医が居住しているカメラオペレータは、外科医と密接に協力して、可能な限り最良の画像を与える必要があります。"
+                "zh-cn": "有3种常见类型的杆透镜腹腔镜观察角-0、30和45度。这样的角度使外科医生可以以优化视觉距离和视角的方式定位杆，以最好地概念化三维空间。在腹腔镜程序中，通常是协助外科医生居民的相机操作员必须与外科医生紧密合作，以提供最佳的图像。",
+                "ja": "ロッドレンズの3つの一般的なタイプの腹腔鏡視聴角 -  0、30、および45度があります。このような角度により、外科医は視覚距離と視角を最適化して3次元空間を最適化するような方法でロッドを配置できます。腹腔鏡手順では、通常、外科医の居住者であるカメラオペレーターは、可能な限り最高のイメージを与えるために外科医と密接に協力しなければなりません。",
+                "hu": "Három általános típusú rúd -lencse laparoszkópos látószög létezik - 0, 30 és 45 fok. Az ilyen szögek lehetővé teszik a sebészek számára, hogy a rudat úgy helyezzék el, hogy optimalizálják a vizuális távolságot és a vizuális szöget, hogy a háromdimenziós tér legjobban fogalmazzák meg. Laparoszkópos eljárás során a kameraüzemeltetőnek, aki általában segítő sebész lakos, szorosan együttműködnie kell a sebészrel, hogy a lehető legjobb képet nyújtsa."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu2_instrument_movement_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "When a 0° laparoscope rotates with the camera head fixed, nothing will change. However, when a 30° laparoscope is rotated with the camera head fixed, the image will change angle, allowing the operator to view the peritoneal cavity at an angle. This is why angled laparoscopes are usually preferred - they provide an additional flexibility.",
-                        "pl": "Kiedy głowica kamery pozostanie umocowana, a 0° laparoskop zostanie obrócony to nic nie zmieni się w obrazie. Aczkolwiek, kiedy laparoskop 30° zostanie obrócony, obraz zmieni kąt co pozwala operatorowi na zobaczenie odmy otrzewnowej pod różnymi kątami. Dlatego laparoskopy z taką optyką są przeważnie preferowane - dają one dodatkowy poziom elastyczności.",
-                        "es": "Cuando un laparoscopio de 0 ° gira con la cabeza de la cámara fija, nada cambiará. Sin embargo, cuando se gira un laparoscopio de 30 ° con la cabeza de la cámara fija, la imagen cambiará el ángulo, lo que permitirá al operador ver la cavidad peritoneal en un ángulo. Por eso, generalmente se prefieren los laparoscopios en ángulo, proporcionan una flexibilidad adicional.",
-                        "zh-cn": "当0°探头旋转使用相机头固定时，没有任何改变。然而，当使用相机头固定30°探头镜旋转时，图像将改变角度，允许操作者以一定角度观察腹腔腔。这就是为什么通常优先考虑的腹腔镜 - 它们提供了额外的灵活性。",
-                        "ja": "0°腹腔鏡がカメラヘッドを固定して回転すると、何も変わらない。しかしながら、カメラヘッドを固定して30°腹腔鏡を回転させると、画像は角度が変化し、オペレータが角度で腹腔内のキャビティを見ることができる。これが、斜め腹腔鏡が通常好ましい理由です。それらは追加の柔軟性を提供します。"
-                    }
+            "media": {
+                "url": "edu2_instrument_movement_01.png",
+                "type": "image",
+                "label": {
+                    "en": "When a 0° laparoscope rotates with the camera head fixed, nothing will change. However, when a 30° laparoscope is rotated with the camera head fixed, the image will change angle, allowing the operator to view the peritoneal cavity at an angle. This is why angled laparoscopes are usually preferred - they provide an additional flexibility.",
+                    "pl": "Kiedy głowica kamery pozostanie umocowana, a 0° laparoskop zostanie obrócony to nic nie zmieni się w obrazie. Aczkolwiek, kiedy laparoskop 30° zostanie obrócony, obraz zmieni kąt co pozwala operatorowi na zobaczenie odmy otrzewnowej pod różnymi kątami. Dlatego laparoskopy z taką optyką są przeważnie preferowane - dają one dodatkowy poziom elastyczności.",
+                    "es": "Cuando un laparoscopio de 0 ° gira con la cabeza de la cámara fija, nada cambiará. Sin embargo, cuando se gira un laparoscopio de 30 ° con la cabeza de la cámara fija, la imagen cambiará el ángulo, lo que permitirá al operador ver la cavidad peritoneal en un ángulo. Por eso, generalmente se prefieren los laparoscopios en ángulo, proporcionan una flexibilidad adicional.",
+                    "zh-cn": "当0°腹腔镜用固定摄像头旋转时，什么都不会改变。但是，当将30°腹腔镜旋转使用固定摄像头旋转时，图像将改变角度，从而使操作员以一定角度查看腹膜腔。这就是为什么通常首选腹腔镜的原因 - 它们提供了额外的灵活性。",
+                    "ja": "カメラヘッドを固定して0°の腹腔鏡が回転すると、何も変わりません。ただし、カメラヘッドを固定して30°の腹腔鏡を回転させると、画像が角度を変更し、オペレーターが角度で腹膜腔を表示できるようになります。これが、角度のある腹腔鏡が通常好まれる理由です - それらは追加の柔軟性を提供します。",
+                    "hu": "Amikor a 0 ° -os laparoszkóp a kamera fejével forog, akkor semmi sem változik. Ha azonban egy 30 ° -os laparoszkópot elforgatnak a kamerafej rögzítésével, a kép megváltozik, lehetővé téve a kezelő számára, hogy a peritoneális üreget szögben tekintse meg. Ez az oka annak, hogy általában a szögletes laparoszkópokat részesítik előnyben - ezek további rugalmasságot biztosítanak."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -100,7 +168,16 @@
                 "pl": "Efekt podparcia",
                 "es": "Efecto de fulcrum",
                 "zh-cn": "支点效应",
-                "ja": "支点の効果"
+                "ja": "支点効果",
+                "hu": "Fulcrum hatás"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -109,25 +186,41 @@
                 "en": "In most procedures performed laparoscopically instruments are inserted through trocars in the abdominal wall. This limits the ease with which they can be manipulated and counter-intuitively inverts their movements inside the operating area. This is called the fulcrum effect. The incision in which the trocar sits is a fulcrum point and is called a port. When the handle of the instrument goes up, the tip of the instrument inside goes down. The amount of force applied to the handle of the instrument also translates to a different amount of force affected at the tip of the instrument depending on the depth of insertion. The surgeon must get a feeling for how this works with practice.",
                 "pl": "W trakcie większości zabiegów, instrumenty wprowadzane są do jamy brzusznej za pomocą trokarów. Nazywane też portami, trokary w nieoczywisty sposób odwracają ruchy wewnątrz pola operacyjnego. Nazywamy to efektem podparcia. Kiedy rękojeść instrumentu przesuwana jest w górę, wierzchołek instrumentu po drugiej stronie przesuwa się w dół. Ilość siły przykładana do rękojeści instrumentu przenosi ilość siły do wierzchołka która jest zależna od głębokości na którą wprowadzony jest instrument w danym momencie. Poprzez trening uczący musi zrozumieć i wyczuć tę właściwość w praktyce.",
                 "es": "En la mayoría de los procedimientos realizados los instrumentos laparoscópicos se insertan a través de trócares en la pared abdominal. Esto limita la facilidad con la que se pueden manipular y contan intuitará sus movimientos dentro del área de operación. Esto se llama el efecto Fulcrum. La incisión en la que se encuentra el trocar es un punto de punto de apoyo y se llama un puerto. Cuando sube la manija del instrumento, la punta del instrumento dentro se apaga. La cantidad de fuerza aplicada al asa del instrumento también se traduce en una cantidad diferente de fuerza afectada en la punta del instrumento dependiendo de la profundidad de la inserción. El cirujano debe tener un sentimiento por cómo funciona esto con la práctica.",
-                "zh-cn": "在大多数手术中，进行腹腔镜仪器通过腹壁中的套管插入。这限制了它们可以操纵的容易性，并反向直接地反转操作区域内的运动。这称为支点效应。套管针坐在的切口是支点点，称为端口。当仪器的手柄上升时，内部仪器的尖端会下降。施加到仪器手柄的力量也转换为根据插入深度影响在仪器尖端的不同力量。外科医生必须感受到这种情况如何与实践有关。",
-                "ja": "腹腔鏡的に楽器を遂行したほとんどの手順では、腹壁のトロカールを通して挿入されます。これは、操作領域内のそれらの動きを操作して直感的に反転することができる容易さを制限する。これを支点効果と呼びます。トロカールが座っている切開は支点ポイントであり、ポートと呼ばれます。機器のハンドルが上がると、内部の機器の先端が下がります。装置のハンドルに加えられる力の量はまた、挿入深さに応じて機器の先端に影響を受ける異なる力に変換される。外科医は、これがどのように練習でどのように働くかを感じなければなりません。"
+                "zh-cn": "在大多数手术中，腹腔镜仪器都通过腹壁中的套筒插入。这限制了它们可以操纵和违反直觉的易度性，从而将其移动在操作区域内。这称为支点效应。套管卡所在的切口是支点点，称为端口。当仪器的手柄上升时，内部仪器的尖端向下下降。根据插入的深度，施加到仪器手柄上的力量还转化为在仪器尖端影响的不同力。外科医生必须感觉到这种方法如何与实践一起工作。",
+                "ja": "ほとんどの手順では、腹壁のトロカルを通して腹腔鏡下で行われた機器が挿入されています。これにより、それらを操作できる容易さが制限され、オペレーティングエリア内の動きを直感的に反転させます。これは支点効果と呼ばれます。トロカーが座る切開は支点であり、ポートと呼ばれます。楽器のハンドルが上がると、内部の楽器の先端がダウンします。機器のハンドルに適用される力の量は、挿入の深さに応じて、機器の先端で影響を受ける異なる量の力に変換されます。外科医は、これが練習でどのように機能するかについて感覚を得なければなりません。",
+                "hu": "A legtöbb eljárást végezték el a laparoszkópos hangszereket a hasi falba helyezve. Ez korlátozza azt a könnyedséget, amellyel manipulálhatók, és az intuitív módon megfordíthatják mozgásukat a működési területen. Ezt nevezzük Fulcrum effektusnak. Az a bemetszés, amelyben a trokar ül, egy fulcrum pont, és portnak hívják. Amikor a műszer fogantyúja felmegy, a hangszer vége belsejében csökken. A műszer fogantyújára alkalmazott erőmennyiség a műszer végén más erőre is vonatkozik, a beillesztés mélységétől függően. A sebésznek éreznie kell, hogy ez hogyan működik a gyakorlatban."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu2_instrument_movement_02.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Fulcrum Visual Angle - the image above demonstrates the way the insertion depth changes the scale of forces on the other side of a fulcrum point.",
-                        "pl": "Wizualizacja Efektu Podparcia - obraz powyżej demonstruje sposób w który głębokość insercji wpływa na skalę sił udczuwalnych po drugiej stronie punktu podparcia.",
-                        "es": "Ángulo visual de Fulcrum: la imagen de arriba demuestra la forma en que la profundidad de inserción cambia la escala de fuerzas en el otro lado de un punto de apoyo.",
-                        "zh-cn": "fulcrum视角 - 上面的图像演示了插入深度在支点的另一侧改变力的规模。",
-                        "ja": "支点の視野角 - 上の画像は、挿入深さが支点の反対側の力のスケールを変える方法を示しています。"
-                    }
+            "media": {
+                "url": "edu2_instrument_movement_02.png",
+                "type": "image",
+                "label": {
+                    "en": "Fulcrum Visual Angle - the image above demonstrates the way the insertion depth changes the scale of forces on the other side of a fulcrum point.",
+                    "pl": "Wizualizacja Efektu Podparcia - obraz powyżej demonstruje sposób w który głębokość insercji wpływa na skalę sił udczuwalnych po drugiej stronie punktu podparcia.",
+                    "es": "Ángulo visual de Fulcrum: la imagen de arriba demuestra la forma en que la profundidad de inserción cambia la escala de fuerzas en el otro lado de un punto de apoyo.",
+                    "zh-cn": "支点视角 - 上图展示了插入深度改变支点点另一侧的力尺度的方式。",
+                    "ja": "支点の視角 - 上の画像は、挿入深度が支点ポイントの反対側の力のスケールを変える方法を示しています。",
+                    "hu": "Fulcrum vizuális szög - A fenti kép bemutatja, hogy a beillesztési mélység megváltoztatja az erők méretét a fulcrum pont másik oldalán."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -136,7 +229,16 @@
                 "pl": "Brak wyczuwalnej informacji zwrotnej",
                 "es": "Falta de retroalimentación táctil",
                 "zh-cn": "缺乏触觉反馈",
-                "ja": "触覚フィードバックの欠如"
+                "ja": "触覚フィードバックの欠如",
+                "hu": "A tapintható visszajelzés hiánya"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -145,8 +247,17 @@
                 "en": "Because instruments are used to grasp, dissect and manipulate tissue, there is an obvious absence of tactile feedback which is normally available in open surgery. The instrument provides little feedback on the softness, hardness and texture of tissues. Because of this the surgeon has a limited scope of information on the properties of the tissues and the amount of force needed to apply to the tips of the instruments.",
                 "pl": "Ponieważ instrumenty są używane do chwytania, preparowania i manipulowania tkanką, istnieje też oczywisty brak wyczuwalnej informacji zwrotnej, która normalnie jest obecna podczas zabiegów otwartych. Instrument nie daje poczucia twardości, miękkości czy struktury tkanek. Z tego powodu chirurg ma ograniczony  zakres informacji o właściwościach tkanek i sile potrzebnej do przyłożenia na końcówkach instrumentów.",
                 "es": "Debido a que los instrumentos se usan para agarrar, diseccionar y manipular el tejido, existe una ausencia obvia de retroalimentación táctil que normalmente está disponible en cirugía abierta. El instrumento proporciona pocas retroalimentación sobre la suavidad, la dureza y la textura de los tejidos. Debido a esto, el cirujano tiene un alcance limitado de información sobre las propiedades de los tejidos y la cantidad de fuerza necesaria para aplicarse a las puntas de los instrumentos.",
-                "zh-cn": "因为仪器用于掌握，解剖和操纵组织，所以存在明显的触觉反馈，其通常在开放手术中可用。该仪器提供有关柔软性，硬度和组织质地的反馈。因此，外科医生的信息范围有限，有关组织性质的信息和适用于仪器提示所需的力量。",
-                "ja": "器具は組織を握り、解剖して操作するために使用されるので、正常に開放手術で入手可能な触覚フィードバックの明らかな欠如がある。機器は、組織の柔らかさ、硬さおよび質感に関するフィードバックをほとんど提供します。このため、外科医は、組織の特性および機器の先端に適用するのに必要な力の量に関する限られた情報の範囲を有する。"
+                "zh-cn": "由于仪器用于掌握，剖析和操纵组织，因此通常没有触觉反馈，通常可以在开放手术中获得。该仪器几乎没有关于组织的柔软度，硬度和质地的反馈。因此，外科医生的信息范围有限，有关组织特性以及应用于仪器尖端所需的力量。",
+                "ja": "機器は組織をつかみ、分析し、操作するために使用されるため、通常、開いた手術で利用できる触覚フィードバックが明らかにないことがあります。この機器は、組織の柔らかさ、硬度、質感に関するフィードバックをほとんど提供しません。このため、外科医は組織の特性と、機器の先端に適用するために必要な力の量に関する情報の範囲が限られています。",
+                "hu": "Mivel a műszereket a szövetek megragadására, boncolására és manipulálására használják, nyilvánvalóan nincs tapintható visszajelzés, amely általában a nyílt műtét során elérhető. A műszer kevés visszajelzést ad a szövetek lágyságáról, keménységéről és textúrájáról. Emiatt a sebész korlátozott információkkal rendelkezik a szövetek tulajdonságairól és az erők mennyiségéről, amely a műszerek tippeire vonatkozik."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -155,8 +266,17 @@
                 "en": "In the first exercises you will learn how the operative area works. In these exercises, pay close attention to how the lack of haptic and tactile feedback, the counter-intuitive fulcrum effect and the lack of two-dimensional view will affect your ability to perform these seemingly simple tasks.",
                 "pl": "W pierwszych ćwiczeniach trenujący pozna sposób działania pola operacyjnego. Warto zwrócić uwagę na zredukowaną ilość wyczuwalnej informacji zwrotnej, sprzeczny z intuicją  efekt podparcia oraz brak trójwymiarowego widoku podczas tych prostych ćwiczeń.",
                 "es": "En los primeros ejercicios, aprenderá cómo funciona el área operativa. En estos ejercicios, preste mucha atención a la forma en que la falta de retroalimentación háptica y táctil, el efecto de fulcrum contraproducente y la falta de visión bidimensional afectarán su capacidad para realizar estas tareas aparentemente simples.",
-                "zh-cn": "在第一次练习中，您将学习操作区域的工作原理。在这些练习中，密切关注缺乏触觉和触觉反馈，反向直观的支点效应以及缺乏二维视图将影响您的执行这些看似简单的任务的能力。",
-                "ja": "最初の演習で、あなたは手術地域がどのように機能するかを学ぶでしょう。これらの演習では、触覚と触覚的なフィードバックの欠如、直感的な支点効果、および二次元ビューの欠如は、これらの一見単純なタスクを実行する能力に影響を与えるでしょう。"
+                "zh-cn": "在第一次练习中，您将了解操作区域的工作原理。在这些练习中，请密切注意缺乏触觉和触觉反馈，违反抗衡效应以及缺乏二维观点如何影响您执行这些看似简单的任务的能力。",
+                "ja": "最初の演習では、手術エリアがどのように機能するかを学びます。これらのエクササイズでは、触覚と触覚のフィードバックの欠如、直感に反した支点効果、2次元の見解の欠如が、これらの一見単純なタスクを実行する能力にどのように影響するかに細心の注意を払ってください。",
+                "hu": "Az első gyakorlatokban megtanulhatja, hogyan működik az operatív terület. Ezekben a gyakorlatokban nagy figyelmet fordítson arra, hogy a haptikus és tapintható visszajelzések, az ellentmondásos Fulcrum-hatás és a kétdimenziós nézet hiánya befolyásolja az Ön képességét, hogy elvégezze ezeket a látszólag egyszerű feladatokat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -165,8 +285,17 @@
                 "en": "Procedure Planning",
                 "pl": "Planowanie zabiegów",
                 "es": "Planificación de procedimientos",
-                "zh-cn": "程序规划",
-                "ja": "手順計画"
+                "zh-cn": "程序计划",
+                "ja": "手順計画",
+                "hu": "Eljárási tervezés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -175,8 +304,17 @@
                 "en": "One of the most important aspects of correctly performing a Laparoscopic procedure lies in planning and defining the exact port position in relationship to the operating area. It isn’t possible to change the positions of the trocars once the procedure has begun and so the surgeon must carefully assess which angles will give the most ease of movement throughout the procedure.",
                 "pl": "Jednym z najważniejszych aspektów poprawnego wykonania zabiegu metodą laparoskopową  jest planowanie i definiowanie dokładnej pozycji portu w relacji do pola operacyjnego. Zmienienie lokalizacji trokarów nie jest możliwe po rozpoczęciu zabiegu. Tak więc chirurg musi ostrożnie wymierzyć kąty, które zapewnią mu największą swobodę ruchu podczas zabiegu.",
                 "es": "Uno de los aspectos más importantes de la realización correcta de un procedimiento laparoscópico radica en la planificación y definición de la posición exacta del puerto en relación con el área de operación. No es posible cambiar las posiciones de los trocares una vez que el procedimiento haya comenzado y, por lo tanto, el cirujano debe evaluar cuidadosamente qué ángulos darán la mayor facilidad de movimiento a lo largo del procedimiento.",
-                "zh-cn": "正确执行腹腔镜程序的最重要方面之一是规划和定义与操作区域的关系中的确切端口位置。一旦程序开始，它无法改变履带的位置，因此外科医生必须仔细地评估整个过程中最容易移动的角度。",
-                "ja": "腹腔鏡下手順を正しく実行する最も重要な側面の1つは、操作領域との関係の正確なポート位置を計画および定義することにあります。手順が始まったらトロカールの位置を変更することは不可能であり、そのため、外科医はどの角度を慎重に評価しなければなりません。"
+                "zh-cn": "正确执行腹腔镜程序的最重要方面之一在于计划和定义与操作区域关系的确切端口位置。一旦过程开始，就无法更改套筒的位置，因此外科医生必须仔细评估哪些角度将在整个过程中最容易移动。",
+                "ja": "腹腔鏡手順を正しく実行することの最も重要な側面の1つは、操作領域との関係における正確なポート位置を計画および定義することにあります。処置が開始されたら、トロカルの位置を変更することはできません。そのため、外科医は、どの角度が手順全体で最も容易な動きを与えるかを慎重に評価する必要があります。",
+                "hu": "A laparoszkópos eljárás helyes végrehajtásának egyik legfontosabb szempontja a pontos port helyzetének megtervezésében és meghatározásában rejlik a működési területhez viszonyítva. Az eljárás megkezdésekor nem lehet megváltoztatni a trokarok helyzetét, és így a sebésznek gondosan meg kell vizsgálnia, hogy mely szögek adják a legkönnyebben a mozgást az eljárás során."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -185,8 +323,17 @@
                 "en": "Before inserting the trocars and insufflating the surgeon must decide where the ports will be placed and make an accurate prediction of the range of movement possible. When two ports are placed and instruments are inserted, a plane will be created. When a third port is placed, planes are created by each pair of trocars. These planes create a three dimensional operating area inside of which the surgeon has the best access to and mobility inside of. ",
                 "pl": "Przed insercją trokarów i rozpoczęciem insuflacji, musi zostać podjęta najważniejsza strategiczna decyzja o lokalizacji portów, i musi zostać poprawnie przewidziany zakres ruchu, który to rozmieszczenie zapewni. Definicja portów i włożenie instrumentów wytwarza wyobrażoną płaszczyznę pomiędzy nimi. Umieszczając trzeci port, dodatkowe płaszczyzny są tworzone przez każdą parę trokarów. Wyobrażając sobie te płaszczyzny możemy wyobrazić sobie trójwymiarową strukturę pola operacyjnego, wewnątrz którego chirurg będzie miał najlepszy dostęp i największą mobilność zakresu ruchów.",
                 "es": "Antes de insertar los trocares y la insuficiencia, el cirujano debe decidir dónde se colocarán los puertos y realizará una predicción precisa del rango de movimiento posible. Cuando se colocan dos puertos e inserta los instrumentos, se creará un plano. Cuando se coloca un tercer puerto, cada par de trocars crea aviones. Estos aviones crean un área de operación tridimensional dentro de los cuales el cirujano tiene el mejor acceso y movilidad dentro de.",
-                "zh-cn": "在插入套管和吹入外科医生之前，外科医生必须决定将港口放置并进行准确地预测运动范围。当放置两个端口并插入仪器时，将创建一个平面。当放置第三端口时，每对轨道制造平面。这些平面在其中内部创建了三维操作区域，外科医生内部具有最佳访问和移动性。",
-                "ja": "トロカールを挿入する前に、外科医は、ポートがどこに配置され、可能な範囲の移動範囲の正確な予測を決定しなければなりません。 2つのポートが配置され、機器が挿入されると、平面が作成されます。 3番目のポートが配置されると、トロカールの各ペアによって平面が作成されます。これらの飛行機は、外科医が内部の最高のアクセスを持っている3次元操作領域を作成します。"
+                "zh-cn": "在插入套筒之前，外科医生必须决定放置端口的位置，并准确地预测运动范围。当放置两个端口并插入仪器时，将创建一个飞机。放置第三个端口时，每对套管器都会创建飞机。这些平面创建了一个三维操作区域，外科医生在其内部拥有最佳的访问和移动性。",
+                "ja": "トロカーを挿入して外科医に耐える前に、ポートがどこに配置されるかを決定し、可能な限り移動範囲を正確に予測する必要があります。 2つのポートが配置され、機器が挿入されると、平面が作成されます。 3番目のポートが配置されると、飛行機は各ペアのトロカーによって作成されます。これらの飛行機は、外科医が内部に最適なアクセスと機動性を持つ3次元の動作エリアを作成します。",
+                "hu": "A trokarok beillesztése előtt és a sebész elolvadása előtt el kell döntenie, hogy hová kerül a portok, és pontos előrejelzést kell tenni a mozgás tartományáról. Ha két portot helyeznek el, és a műszereket beillesztik, sík jön létre. Ha egy harmadik portot helyeznek el, minden trokarpárt síkokat hoznak létre. Ezek a síkok háromdimenziós működési területet hoznak létre, amelyen a sebész a legjobb hozzáféréssel és a mobilitással rendelkezik."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -195,41 +342,87 @@
                 "en": "Before inserting the trocars and insufflating the surgeon must decide where the ports will be placed and make an accurate prediction of the range of movement possible. ",
                 "pl": "Przed insercją trokarów i rozpoczęciem insuflacji, musi zostać podjęta najważniejsza strategiczna decyzja o lokalizacji portów, i musi zostać poprawnie przewidziany zakres ruchu, który to rozmieszczenie zapewni.",
                 "es": "Antes de insertar los trocares y la insuficiencia, el cirujano debe decidir dónde se colocarán los puertos y realizará una predicción precisa del rango de movimiento posible.",
-                "zh-cn": "在插入套管和吹入外科医生之前，外科医生必须决定将港口放置并进行准确地预测运动范围。",
-                "ja": "トロカールを挿入する前に、外科医は、ポートがどこに配置され、可能な範囲の移動範囲の正確な予測を決定しなければなりません。"
+                "zh-cn": "在插入套筒之前，外科医生必须决定放置端口的位置，并准确地预测运动范围。",
+                "ja": "トロカーを挿入して外科医に耐える前に、ポートがどこに配置されるかを決定し、可能な限り移動範囲を正確に予測する必要があります。",
+                "hu": "A trokarok beillesztése előtt és a sebész elolvadása előtt el kell döntenie, hogy hová kerül a portok, és pontos előrejelzést kell tenni a mozgás tartományáról."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu2_instrument_movement_03.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Port placements vary between procedures. The angle between the instruments, and the positioning of the surgeon and the OR set-up have a big impact on the situation inside the target operating area.",
-                        "pl": "Lokalizacje portów są zależne od wykonywanej procedury. Kąt pomiędzy instrumentami, pozycja chirurga oraz rozstawienie sali operacyjnej mogą mieć duży wpływ na warunki panujące wewnątrz pola operacyjnego.",
-                        "es": "Las ubicaciones de puertos varían entre los procedimientos. El ángulo entre los instrumentos, y el posicionamiento del cirujano y la configuración, tienen un gran impacto en la situación dentro del área de operación objetivo.",
-                        "zh-cn": "港口展示位置在程序之间变化。仪器之间的角度以及外科医生的定位和或建立对目标操作区域内的情况产生了很大影响。",
-                        "ja": "ポートプレースメントは手順によって異なります。機器間の角度と外科医の位置決めと設定は、目標作業領域内の状況に大きな影響を与えます。"
-                    }
+            "media": {
+                "url": "edu2_instrument_movement_03.png",
+                "type": "image",
+                "label": {
+                    "en": "Port placements vary between procedures. The angle between the instruments, and the positioning of the surgeon and the OR set-up have a big impact on the situation inside the target operating area.",
+                    "pl": "Lokalizacje portów są zależne od wykonywanej procedury. Kąt pomiędzy instrumentami, pozycja chirurga oraz rozstawienie sali operacyjnej mogą mieć duży wpływ na warunki panujące wewnątrz pola operacyjnego.",
+                    "es": "Las ubicaciones de puertos varían entre los procedimientos. El ángulo entre los instrumentos, y el posicionamiento del cirujano y la configuración, tienen un gran impacto en la situación dentro del área de operación objetivo.",
+                    "zh-cn": "端口位置在过程之间有所不同。仪器之间的角度，外科医生和或设置的定位对目标操作区域内部的情况有很大影响。",
+                    "ja": "ポート配置は手順によって異なります。楽器の間の角度と、外科医の位置とORセットアップは、ターゲットの動作領域内の状況に大きな影響を与えます。",
+                    "hu": "A kikötői elhelyezések eljárásokonként változnak. A műszerek közötti szög, valamint a sebész elhelyezkedése és a vagy felépítés nagy hatással van a megcélzott működési területen belüli helyzetre."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Instrument Movement: Fulcrum Inversion and Precision",
-        "pl": "Ruch instrumentów: efekt podparcia i precyzja",
-        "es": "Movimiento del instrumento: Inversión de Fulcrum y precisión.",
-        "zh-cn": "仪器运动：Fulcrum反转和精确度",
-        "ja": "機器の動き：支点反転と精度"
+        "text": {
+            "en": "Instrument Movement: Fulcrum Inversion and Precision",
+            "pl": "Ruch instrumentów: efekt podparcia i precyzja",
+            "es": "Movimiento del instrumento: Inversión de Fulcrum y precisión.",
+            "zh-cn": "仪器运动：支点倒置和精确",
+            "ja": "機器の動き：支点の反転と精度",
+            "hu": "Műszermozgás: Fulcrum inverzió és pontosság"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "An overview of what makes instrument movement and manipulation so difficult in laparoscopy.",
-        "pl": "Właściwości pola operacyjnego utrudniające ruch i manipulację instrumentami w laparoskopii.",
-        "es": "Una visión general de lo que hace que el movimiento del instrumento y la manipulación sea tan difícil en la laparoscopia.",
-        "zh-cn": "概述腹腔镜检查仪器运动和操纵是什么。",
-        "ja": "腹腔鏡検査で機器の動きと操作を非常に困難にするものの概要。"
+        "text": {
+            "en": "An overview of what makes instrument movement and manipulation so difficult in laparoscopy.",
+            "pl": "Właściwości pola operacyjnego utrudniające ruch i manipulację instrumentami w laparoskopii.",
+            "es": "Una visión general de lo que hace que el movimiento del instrumento y la manipulación sea tan difícil en la laparoscopia.",
+            "zh-cn": "概述是什么使仪器运动和操纵在腹腔镜上如此困难。",
+            "ja": "腹腔鏡検査で楽器の動きと操作を非常に困難にする理由の概要。",
+            "hu": "Áttekintés arról, hogy mi teszi a műszermozgást és a manipulációt a laparoszkópiában."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

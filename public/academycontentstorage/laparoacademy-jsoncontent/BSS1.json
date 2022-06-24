@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,56 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "start_position:1",
+        " suture_10cm:1",
+        " needle_threading_platform_1:1"
     ],
     "name": {
         "en": "Suture Manipulation Intro",
         "pl": "Wprowadzenie do Manipulacji Nicią",
         "es": "Introducción de manipulación de sutura",
-        "zh-cn": "缝线操纵介绍",
-        "ja": "縫合糸の操作"
+        "zh-cn": "缝合操作介绍",
+        "ja": "縫合操作イントロ",
+        "hu": "Varrás manipulációs bevezető"
     },
     "skills": {
         "en": "Suturing",
         "pl": "Suturing",
         "es": "Sutura",
         "zh-cn": "缝合",
-        "ja": "縫合"
+        "ja": "縫合",
+        "hu": "Varrat"
     },
     "description": {
         "en": "The purpose of this exercise is to introduce the trainee to the difficulty of suture manipulation without the presence of a needle.",
         "pl": "Celem tego ćwiczenia jest wystawienie uczestnika szkolenia na trudności w manipulowaniu szwami bez użycia igły. ",
         "es": "El propósito de este ejercicio es introducir al aprendiz a la dificultad de la manipulación de sutura sin la presencia de una aguja.",
-        "zh-cn": "本练习的目的是将受训者引入缝合操作的难度而不存在针。",
-        "ja": "この演習の目的は、針の存在なしに縫合糸操作の難しさに研修生を紹介することです。"
+        "zh-cn": "这项练习的目的是向受训者介绍缝合操作的难度，而没有针头。",
+        "ja": "この演習の目的は、針の存在なしに縫合糸操作の難しさを研修生に紹介することです。",
+        "hu": "Ennek a gyakorlatnak az a célja, hogy bemutassa a gyakornokot a varrás manipuláció nehézségeivel tű jelenléte nélkül."
     },
     "instructions": {
         "en": "In this exercise the trainee must manipulate a single 10cm piece of suture material through holes in the module. Begin with the largest hole closest to the start position and progress to the smaller holes.",
         "pl": "W tym ćwiczeniu uczący musi manipulować pojedynczym 10 cm kawałkiem materiału do szycia przez otwory w module. ",
         "es": "En este ejercicio, el aprendiz debe manipular una sola pieza de material de sutura de 10 cm a través de agujeros en el módulo. Comience con el agujero más grande más cercano a la posición de inicio y progrese a los agujeros más pequeños.",
-        "zh-cn": "在这项工作中，受训者必须通过模块中的孔操纵一个10厘米的缝合材料。从最靠近开始位置的最大孔开始，进展到较小的孔。",
-        "ja": "この演習では、研修生はモジュール内の穴を通して単一の10cmの縫合糸材料を操作しなければなりません。開始位置に最も近い最大の穴から始まり、小さな穴に進みます。"
+        "zh-cn": "在本练习中，学员必须通过模块中的孔操纵一块10厘米的缝合材料。从最接近起始位置的最大孔开始，然后延伸到较小的孔。",
+        "ja": "この演習では、研修生はモジュール内の穴を通して10cmの10cmの縫合物質を操作する必要があります。開始位置に最も近い最大の穴から始め、小さな穴に進みます。",
+        "hu": "Ebben a gyakorlatban a gyakornoknak a modul lyukain keresztül egy 10 cm -es darab varrás anyagot kell manipulálni. Kezdje a kezdeti helyzethez legközelebb eső legnagyobb lyukkal, és haladjon a kisebb lyukakhoz."
     },
     "preparation": {
         "en": "Place the Basic Suturing Platform with the Fin module in the center. Place 10cm of suture material into the needle start position as pictured.",
         "pl": "Umieść Platformę do Szycia Podstawowego wraz z elementem początkowym na środku. Umieść 10cm nici w pozycji początkowej.",
         "es": "Coloque la plataforma de sutura básica con el módulo de aleta en el centro. Coloque 10 cm de material de sutura en la posición de inicio de la aguja como se muestra en la foto.",
-        "zh-cn": "将基本缝合平台放在中心的FIN模块。如图所示，将10cm的缝合材料放入针头开始位置。",
-        "ja": "基本的な縫合プラットフォームをFINモジュールと中央に入れる。描画しているように、縫合糸材料を針の開始位置に入れる。"
+        "zh-cn": "将基本的缝合平台放在中心。如图所示。",
+        "ja": "基本的な縫合プラットフォームを中央にフィンモジュールを置いて配置します。写真のように、縫合材料10cmを針の開始位置に入れます。",
+        "hu": "Helyezze az alapvető varrási platformot a középső modullal. Helyezze a 10 cm -es varrat anyagot a tű kiindulási helyzetébe a képen."
     }
 }

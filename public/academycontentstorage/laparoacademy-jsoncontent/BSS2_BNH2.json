@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,56 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h"
+    ],
+    "accessories": [
+        "start_position:1",
+        " suture10cm:1 ",
+        " needle_threading_platform_1:1"
     ],
     "name": {
         "en": "Basic Needle Rotation and Threading",
         "pl": "Podstawowe Obracanie Igły i Przewlekanie",
         "es": "Rotación básica de agujas y roscado.",
-        "zh-cn": "基本针旋转和螺纹",
-        "ja": "基本的な針の回転とねじ込み"
+        "zh-cn": "基本的针旋和螺纹",
+        "ja": "基本的な針の回転とスレッド",
+        "hu": "Alapvető tű forgása és menete"
     },
     "skills": {
         "en": "Needle Holder, Needle Threading, Needle Manipulation, Suturing",
         "pl": "Imadło, Przewlekanie, Manipulacja Igłą, Szycie",
         "es": "Soporte de la aguja, roscado de la aguja, manipulación de la aguja, sutura",
-        "zh-cn": "针脚，针穿针，针操作，缝合",
-        "ja": "ニードルホルダー、針ねじ切り、針操作、縫合"
+        "zh-cn": "针固定器，针线，针头操纵，缝合",
+        "ja": "針ホルダー、針のねじ、針操作、縫合",
+        "hu": "Tűtartót, tűszálak, tű manipuláció, varrás"
     },
     "description": {
         "en": "The exercise imitates the rotation angle to supinate the needle holder and pronate the needle to follow the curvature of the needle. When positioned correctly the surgeon should be able to not only easily drive the needle through the target tissues and structures but also to grab the needle on the other side to pull it through.",
         "pl": "Ćwiczenie to imituje kąt obrotu imadła potrzebny aby właściwie schwytaną igłę obrócić i wykonać poprawne natarcie podążające za krzywizną igły. Po prawidłowym ustawieniu ćwiczący powinien być w stanie nie tylko przeprowadzić igłę przez docelowe tkanki ale też chwycić igłę z drugiej strony aby poprawnie przeciągnąć.",
         "es": "El ejercicio imita el ángulo de rotación para supinar el soporte de la aguja y proné la aguja para seguir la curvatura de la aguja. Cuando se coloca correctamente, el cirujano debería poder no solo conducir fácilmente la aguja a través de los tejidos y estructuras de destino, sino también para agarrar la aguja en el otro lado para tirarlo.",
-        "zh-cn": "练习模仿旋转角度以悬索针支架并向针突出以遵循针的曲率。当正确定位时，外科医生应该能够通过目标组织和结构容易地驱动针，而且还可以将针头抓住另一侧以拉动它。",
-        "ja": "運動は回転角を模倣して針ホルダを抑えるために針を針の曲率に追従するように模倣している。正しく配置されると、外科医は標的組織や構造を通して針を容易に駆動するだけでなく、反対側の針を引っ張るためにも針をつかむことができるはずです。"
+        "zh-cn": "该练习模仿旋转角度以旋转针固定器并置于针头以跟随针的曲率。正确定位后，外科医生不仅应该能够轻松地将针头穿过目标组织和结构，还可以抓住另一侧的针头将其拉入。",
+        "ja": "エクササイズは、針ホルダーを覆い、針を回転させて針の曲率をたどるために回転角を模倣します。正しく配置すると、外科医は標的組織や構造を簡単に駆動するだけでなく、反対側の針をつかんで引き抜くことができるはずです。",
+        "hu": "A gyakorlat utánozza a forgási szöget, hogy felhúzza a tűtartót, és a tűt kifogásolja, hogy kövesse a tű görbületét. Ha helyesen helyezkedik el, a sebésznek nemcsak a tűt a célszöveteken és szerkezeteken keresztül kell vezetnie, hanem megragadni a másik oldalán lévő tűt is, hogy áthúzza."
     },
     "instructions": {
         "en": "In this exercise, the trainee must rotate and position the needle to thread it through each hole available, beginning with the biggest and finishing at the smallest. This motion must be done with the needle holder and from the same side. If the surgeon is using the needle holder on the right, the needle should be driven from the right and vice versa. Upon completing the exercise, return the needle to the start position.",
         "pl": "W tym ćwiczeniu uczący musi obrócić i ustawić igłę w taki sposób, aby przewlec ją przez każdy dostępny otwór, zaczynając od największego i kończąc na najmniejszym. Ten ruch musi być wykonany z imadłem ze strony natarcia. Jeśli chirurg używa imadła z prawej strony, igłę należy wbijać z prawej strony i odwrotnie. Po zakończeniu ćwiczenia igła powinna powrócić do pozycji startowej. ",
         "es": "En este ejercicio, el aprendiz debe girar y colocar la aguja para enroscarla a través de cada orificio disponible, comenzando con el más grande y finalizado en el más pequeño. Este movimiento debe hacerse con el soporte de la aguja y del mismo lado. Si el cirujano está utilizando el soporte de la aguja a la derecha, la aguja debe ser conducida de la derecha y viceversa. Al completar el ejercicio, devuelva la aguja a la posición de inicio.",
-        "zh-cn": "在这个练习中，学员必须旋转和定位针头通过每个可用的孔旋转，以最大的最大和精加工。该运动必须用针座和同一侧完成。如果外科医生右侧使用针头，则应从右侧驱动针头，反之亦然。完成练习后，将针返回到开始位置。",
-        "ja": "この演習では、研修生は針を回転させて、利用可能な各穴を通してそれをねじ込むために、最も小さい最小で始まります。この動きは、針ホルダーと同じ側から行わなければなりません。外科医が右側に針ホルダーを使用している場合、針は右から駆動されるべきであり、その逆も同様です。運動が完了すると、針を開始位置に戻します。"
+        "zh-cn": "在此练习中，学员必须旋转并定位针，以将其穿过可用的每个孔，从最大的孔开始，最小。必须使用针固定器和同一侧进行此运动。如果外科医生在右侧使用针固定器，则应从右侧驱动针，反之亦然。完成练习后，将针头返回开始位置。",
+        "ja": "この演習では、研修生は回転し、針を配置して利用可能な各穴に通すように配置する必要があります。この動きは、針ホルダーと同じ側から行う必要があります。外科医が右側に針ホルダーを使用している場合、針は右から駆動する必要があり、その逆も同様です。運動を完了したら、針を開始位置に戻します。",
+        "hu": "Ebben a gyakorlatban a gyakornoknak el kell forgatnia és elhelyeznie a tűt, hogy az összes rendelkezésre álló lyukon áthaladjon, kezdve a legnagyobb és a legkisebben. Ezt a mozgást a tűtartóval és ugyanabból az oldalról kell elvégezni. Ha a sebész a jobb oldalon lévő tűtartót használja, a tűt jobbról kell meghajtani, és fordítva. A gyakorlat befejezése után adja vissza a tűt a kezdő helyzetbe."
     },
     "preparation": {
         "en": "Place the Basic Suturing Platform with the Fin module in the center. Place 10cm of suture material into the needle start position as pictured.",
         "pl": "Umieść Platformę do Szycia Podstawowego wraz z elementem \"Płetwą\" na środku. Umieść 10cm nici w pozycji początkowej.",
         "es": "Coloque la plataforma de sutura básica con el módulo de aleta en el centro. Coloque 10 cm de material de sutura en la posición de inicio de la aguja como se muestra en la foto.",
-        "zh-cn": "将基本缝合平台放在中心的FIN模块。如图所示，将10cm的缝合材料放入针头开始位置。",
-        "ja": "基本的な縫合プラットフォームをFINモジュールと中央に入れる。描画しているように、縫合糸材料を針の開始位置に入れる。"
+        "zh-cn": "将基本的缝合平台放在中心。如图所示。",
+        "ja": "基本的な縫合プラットフォームを中央にフィンモジュールを置いて配置します。写真のように、縫合材料10cmを針の開始位置に入れます。",
+        "hu": "Helyezze az alapvető varrási platformot a középső modullal. Helyezze a 10 cm -es varrat anyagot a tű kiindulási helyzetébe a képen."
     }
 }

@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": ".png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": ".png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -162,44 +139,55 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "gynaecology",
     "allowedInstruments": [
         "grasper",
         "needle_h"
     ],
+    "accessories": [
+        "vaginal_cuff:1",
+        " needle_suture_20cm:1"
+    ],
     "name": {
         "en": "Vaginal Cuff Repair - Module",
         "pl": "Zaszycie Kołnierza Pochwy - Moduł",
-        "es": "Reparación de manguitos vaginales - Módulo",
+        "es": "Reparación de puño vaginal",
         "zh-cn": "阴道袖口修复 - 模块",
-        "ja": "膣カフ修理 - モジュール"
+        "ja": "膣カフ修復 - モジュール",
+        "hu": "Hüvelyi mandzsetta javítása - modul"
     },
     "skills": {
         "en": "Procedure, Gynecology, suturing",
         "pl": "Procedura, Ginekologia, Suturing",
         "es": "Procedimiento, ginecología, sutura.",
         "zh-cn": "程序，妇科，缝合",
-        "ja": "手順、婦人科、縫合"
+        "ja": "手順、婦人科、縫合",
+        "hu": "Eljárás, nőgyógyászat, varrás"
     },
     "description": {
         "en": "Usually following a hysterectomy, this exercise focuses on the suturing of the opening of the vaginal cuff that remains after the uterus is removed.",
         "pl": "W tym ćwiczeniu celem jest poprawne zaszycie otwarcia powstałego w pochwie, przeważnie po usunięciu macicy.",
         "es": "Por lo general, siguiendo una histerectomía, este ejercicio se enfoca en la sutura de la apertura del manguito vaginal que permanece después de que se elimine el útero.",
-        "zh-cn": "通常在子宫切除术后，该练习侧重于阴道袖口的开口留下，这些侧面被移除后仍然存在。",
-        "ja": "通常、子宮摘出術後に、このエクササイズは、子宮が取り除かれた後に残る膣カフの開口部の縫合に焦点を当てています。"
+        "zh-cn": "通常在子宫切除术后，此练习着重于切除子宫后残留的阴道袖口的缝合。",
+        "ja": "通常、子宮摘出術に続いて、この演習は、子宮が除去された後に残っている膣袖の開口部の縫合に焦点を当てています。",
+        "hu": "Általában hiszterektómiát követően ez a gyakorlat a hüvelyi mandzsetta megnyitásának varrására összpontosít, amely a méh eltávolítása után megmarad."
     },
     "instructions": {
         "en": "Begin by driving the needle through one of the edges of the cuff. The suture should go through both layers of the vaginal mucosa and the fascia, and a single knot should be used to reapproximate the tissues. Follow this with a continuous suturing pattern along the cuff from one side to the other. At the other end of the cuff use the aberdeen knot to securely close off the entire cuff.",
         "pl": "Ćwiczenie należy zacząć od przeprowadzenia igły przez krawędzie kołnierza po jednej stronie. Nić powinna przechodzić zarówno przez błonę śluzową pochwy jak i warstwę powięzi, i jeden pojedynczy węzeł powinien je ze sobą zespolić. Następnie, szew ciągły powinien zostać poprowadzony od jednej strony kołnierza do drugiej. Na koniec, kołnierz powinien zostać zamknięty węzłem aberdeen.",
         "es": "Comience conduciendo la aguja a través de uno de los bordes del brazalete. La sutura debe pasar a través de ambas capas de la mucosa vaginal y la fascia, y se debe usar un solo nudo para volver a compartir los tejidos. Siga esto con un patrón de sutura continua a lo largo del brazalete de un lado a otro. En el otro extremo del manguito, use el nudo de Aberdeen para cerrar de forma segura de todo el brazalete.",
-        "zh-cn": "通过将针穿过袖带的一个边缘开始。缝合线应通过阴道粘膜和筋膜的两层，并且应该使用单个结来重新储备组织。跟随沿着袖口的连续缝合图案，从一侧到另一侧。在袖口的另一端，使用Aberdeen结牢固地关闭整个袖口。",
-        "ja": "カフの縁の1つを通して針を運転することから始めます。縫合糸は膣粘膜と筋膜の両方の層を通過し、そして単一の結び目を使用して組織を改造する必要があります。片側からもう一方の側へのカフに沿って連続した縫合パターンでこれに従ってください。カフのもう一方の端には、アバディーンノットを使用してカフ全体を安全に閉じます。"
+        "zh-cn": "首先，将针刺穿过袖口的一个边缘。缝合线应穿过阴道粘膜和筋膜的两个层，并应使用一个结来重新陈化组织。从一侧到另一侧的袖口沿着袖口进行连续的缝合图案。在袖口的另一端，使用阿伯丁结牢固地关闭整个袖口。",
+        "ja": "カフの端の1つを通って針を駆動することから始めます。縫合は、膣粘膜の両方の層と筋膜を通過する必要があり、組織を再現するために単一の結び目を使用する必要があります。これに従ってください。袖口に沿って片側からもう一方の縫合パターンに沿って続きます。袖口のもう一方の端で、アバディーンの結び目を使用して、カフ全体をしっかりと閉じます。",
+        "hu": "Kezdje úgy, hogy a tűt a mandzsetta egyik szélén keresztül vezeti. A varratnak át kell mennie a hüvelyi nyálkahártya és a fascia mindkét rétegén, és egyetlen csomót kell használni a szövetek újrahasznosítására. Kövesse ezt egy folyamatos varrási mintával a mandzsetta mentén az egyik oldalról a másikra. A mandzsetta másik végén használja az Aberdeen csomót a teljes mandzsetta biztonságos bezárásához."
     },
     "preparation": {
         "en": "Apply the vaginal cuff component onto the blue element in the center of the gynaecology module. Position the opening so that the two layers of silicone are visible and oriented towards the camera inside the operating area.",
         "pl": "Kołnierz pochwy powinien zostać nałożony na niebieski element na środku modułu ginekologicznego. Moduł powinien zostać umieszczony w polu operacyjnym w taki sposób aby dwie warstwy silikonu były skierowane do kamery.",
         "es": "Aplique el componente del manguito vaginal en el elemento azul en el centro del módulo de ginecología. Coloque la abertura de modo que las dos capas de silicona sean visibles y orientadas hacia la cámara dentro del área de operación.",
-        "zh-cn": "将阴道袖带组件应用到妇科模块中心的蓝色元件上。将开口定位，使得两层硅胶可见并向操作区域内向相机定向。",
-        "ja": "gynecologyモジュールの中央の青い要素に膣カフ部品を塗ります。 2層のシリコーンが目に見えるように開口部を位置決めし、操作領域内のカメラに向かって配向しています。"
+        "zh-cn": "将阴道袖带组件应用于妇科模块中心的蓝色元素。放置开口，使两层有机硅可见，并将其定向朝着操作区域内的相机定向。",
+        "ja": "膣カフ成分を婦人科モジュールの中心にある青い要素に塗ります。シリコンの2層が見えるように開口部を配置し、動作エリア内のカメラに向けます。",
+        "hu": "Vigyen fel a hüvelyi mandzsetta komponenst a nőgyógyászati ​​modul közepén lévő kék elemre. Helyezze a nyílást úgy, hogy a két szilikonréteg látható és a kamera felé irányuljon a működési területen belül."
     }
 }

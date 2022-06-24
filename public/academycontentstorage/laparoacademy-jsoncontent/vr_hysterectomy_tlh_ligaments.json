@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 0,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "appendectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "appendectomy_background.png",
             "places": [
@@ -38,12 +26,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -52,15 +34,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Hysterectomy",
-        "scenario": "CuttingLigaments"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -149,7 +123,14 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "CuttingLigaments",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "ligasure",
@@ -163,28 +144,32 @@
         "pl": "Etap Przecięcia Więzadeł - Histerektomia Całkowita VR",
         "es": "Etapa de ligamentos de corte - Histerectomía total VR",
         "zh-cn": "切割韧带阶段 - 总子宫切除术VR",
-        "ja": "切断靭帯段階 - 総ヒステムー摘出術VR."
+        "ja": "靭帯の切断段階 - 子宮全摘出術VR",
+        "hu": "Vágó ligamensek stádiuma - Teljes hiszterektómia VR"
     },
     "skills": {
         "en": "Procedure, Hysterectomy, VR, Gynecology",
         "pl": "Procedura, Histerektomia, VR, Ginekologia",
         "es": "Procedimiento, Histerectomía, VR, Ginecología",
-        "zh-cn": "程序，子宫切除术，VR，妇科",
-        "ja": "手順、子宮摘出術、VR、婦人科"
+        "zh-cn": "程序，子宫切除术，VR，妇科学",
+        "ja": "手順、子宮摘出術、VR、婦人科",
+        "hu": "Eljárás, hiszterektómia, VR, nőgyógyászat"
     },
     "description": {
         "en": "In this version of the exercise the goal is to cut and separate the ligaments between the ovaries and the uterus.",
         "pl": "W tej wersji ćwiczenia celem jest przecięcie i odseparowanie więzadeł pomiędzy jajnikami a macicą. ",
         "es": "En esta versión del ejercicio, el objetivo es cortar y separar los ligamentos entre los ovarios y el útero.",
-        "zh-cn": "在这一版本的运动中，目标是切割并分离卵巢和子宫之间的韧带。",
-        "ja": "このバージョンの運動では、目標は卵巣と子宮の間の靭帯を切り取って分離することです。"
+        "zh-cn": "在此版本的练习中，目标是切割和分离卵巢和子宫之间的韧带。",
+        "ja": "このバージョンの演習では、目標は卵巣と子宮の間の靭帯を切断して分離することです。",
+        "hu": "A gyakorlat ebben a verziójában a cél az, hogy a ligamentumokat a petefészek és a méh között vágja és elválasztja."
     },
     "instructions": {
         "en": "Use the Multi-Tool1 to select the appropriate instrument for tissue coagulation. First, create tension on the round ligament to use monopolar energy on the target area between the uterus and the ovaries. If you hit a vessel which starts bleeding coagulate to prevent it. Next, do the same for the round ligament on the other side of the uterus.",
         "pl": "Użyj Multi-Tool1, aby wybrać odpowiedni instrument do koagulacji tkanek. Najpierw stwórz napięcie na więzadle obłym, aby i użyj energii monopolarnej na docelowym obszarze między macicą a jajnikami. Jeśli trafisz na naczynie, które zacznie krwawić, użyj na nim koagulacji aby zatrzymać. Następnie zrób to samo dla więzadła okrągłego po drugiej stronie macicy.",
-        "es": "Use la Multi-Tool1 para seleccionar el instrumento apropiado para la coagulación del tejido. Primero, cree tensión en el ligamento redondo para usar la energía monopolar en el área objetivo entre el útero y los ovarios. Si golpeas un recipiente que comienza a sangrar coagule para evitarlo. A continuación, haga lo mismo para el ligamento redondo en el otro lado del útero.",
-        "zh-cn": "使用多功能工具1选择适当的组织凝固仪器。首先，在圆形韧带上产生张力，以在子宫和卵巢之间的目标区域上使用单极能量。如果你碰到了一艘开始出血凝结的船只以防止它。接下来，对子宫另一侧的圆形韧带做同样的操作。",
-        "ja": "組織凝固のための適切な機器を選択するためにマルチツール1を使用してください。まず、子宮と卵巣のターゲット領域に単極エネルギーを使用するために丸靭帯に緊張を生み出します。あなたがそれを防ぐために出血を起こし始める船を打つならば。次に、子宮の反対側の丸靭帯についても同じことをしてください。"
+        "es": "Use el Multi-Tool1 para seleccionar el instrumento apropiado para la coagulación de tejidos. Primero, cree tensión en el ligamento redondo para usar energía monopolar en el área objetivo entre el útero y los ovarios. Si golpeas un recipiente que comienza a sangrar coagulado para evitarlo. Luego, haga lo mismo para el ligamento redondo en el otro lado del útero.",
+        "zh-cn": "使用多工具1选择适当的组织凝结仪器。首先，在圆形韧带上产生张力，以在子宫和卵巢之间的目标区域使用单极能。如果您撞到开始流血的容器以防止它。接下来，对子宫另一侧的圆形韧带进行同样的操作。",
+        "ja": "Multi-Tool1を使用して、組織凝固に適した機器を選択します。まず、丸靭帯に緊張を引き起こし、子宮と卵巣の間の標的領域にモノ極エネルギーを使用します。出血を開始する容器を叩いて凝固している場合は、それを防ぎます。次に、子宮の反対側の丸い靭帯についても同じことをします。",
+        "hu": "A multi-tool1 segítségével válassza ki a szöveti koaguláció megfelelő műszerét. Először feszültséget keltsen a kerek szalagon, hogy monopoláris energiát használjon a méh és a petefészek közötti célterületen. Ha eltalál egy olyan edényt, amely a vérzést elkezdi koagulálni, hogy megakadályozza. Ezután tegye ugyanezt a méh másik oldalán található kerek ligamentumra."
     },
     "preparation": {}
 }

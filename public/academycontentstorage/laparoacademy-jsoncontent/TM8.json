@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 90
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "rtriangle:3",
+        " ytriangle:3"
     ],
     "name": {
         "en": "Tower Building",
         "pl": "Wieża",
         "es": "Edificio torre",
         "zh-cn": "塔楼",
-        "ja": "タワービルチ"
+        "ja": "タワービルディング",
+        "hu": "Toronyépület"
     },
     "skills": {
         "en": "Instrument Collaboration, Precision",
         "pl": "Współpraca Instrumentami, Precyzja",
         "es": "Colaboración del instrumento, precisión.",
         "zh-cn": "仪器协作，精度",
-        "ja": "機器のコラボレーション、精度"
+        "ja": "機器のコラボレーション、精度",
+        "hu": "Eszköz együttműködés, pontosság"
     },
     "description": {
         "en": "You can further develop your laparoscopic skills in this exercise in which you must collaborate with both instruments while planning and executing movements with stability and precision.",
         "pl": "W tym ćwiczeniu uczący może dalej rozwinąć swoje umiejętności. Współpracując obydwoma instrumentami podczas planowania i wykonywania ruchów ze stabilnością i precyzją uczący może zweryfikować zręczność, precyzję i współpracę pomiędzy instrumentami.",
         "es": "Puede desarrollar aún más sus habilidades laparoscópicas en este ejercicio en las que debe colaborar con ambos instrumentos mientras planifique y ejecute movimientos con estabilidad y precisión.",
-        "zh-cn": "您可以在本练习中进一步发展您的腹腔镜技能，其中您必须在规划和执行具有稳定性和精度的运动时与两个仪器进行合作。",
-        "ja": "安定性と精度の動きを計画し実行する間に、両方の機器と協力しなければならないこの演習であなたの腹腔鏡スキルをさらに発展させることができます。"
+        "zh-cn": "您可以在本练习中进一步发展腹腔镜技能，在此练习中，您必须在计划和执行运动以稳定性和精确度的同时与两种乐器进行合作。",
+        "ja": "この演習では、安定性と精度で動きを計画および実行しながら、両方の楽器と協力する必要があるこの演習で、腹腔鏡スキルをさらに開発できます。",
+        "hu": "Fejlesztheti a laparoszkópos képességeit ebben a gyakorlatban, amelyben mindkét eszközzel együttműködnie kell, miközben a mozgásokat stabilitással és pontossággal hajtja végre."
     },
     "instructions": {
         "en": "Build an alternating color tower from the triangles inside the center triangle slot. Start with yellow triangle, finish with red.",
         "pl": "Zbuduj wieżę o naprzemiennym kolorze z trójkątów pochodzących z pozycji początkowej. Zacznij od żółtego trójkąta, zakończ na czerwonym. ",
         "es": "Construye una torre de color alterna de los triángulos dentro de la ranura del triángulo central. Comience con el triángulo amarillo, termine con rojo.",
-        "zh-cn": "从中心三角形插槽内的三角形构建交替的颜色塔。从黄色三角开始，用红色完成。",
-        "ja": "中央の三角形のスロットの内側の三角形から交互のカラータワーを作ります。黄色の三角形から始めて、赤で終わります。"
+        "zh-cn": "从中央三角插槽内的三角形建立交替的彩色塔。从黄色三角形开始，以红色结束。",
+        "ja": "中央の三角形のスロット内の三角形から交互の色の塔を構築します。黄色の三角形から始め、赤で仕上げます。",
+        "hu": "Készítsen egy váltakozó színes tornyot a háromszögek háromszögéből. Kezdje a sárga háromszöggel, fejezze be a piros színt."
     },
     "preparation": {
         "en": "Place three yellow triangles in the hexagonal slots on the left and three red triangles in the hexagonal slots on the right.",
         "pl": "Umieść trzy żółte trójkąty w sześciokątnych otworach po lewej i trzy czerwone trójkąty w sześciokątnych otworach po prawej stronie. ",
         "es": "Coloque tres triángulos amarillos en las ranuras hexagonales a la izquierda y tres triángulos rojos en las ranuras hexagonales a la derecha.",
-        "zh-cn": "将三个黄色三角形放在左侧的六角形插槽中，右侧六角形插槽中的三个红色三角形。",
-        "ja": "左側の六角形のスロットに3つの黄色の三角形を置き、右側の六角形のスロットに3つの赤い三角形を置きます。"
+        "zh-cn": "将三个黄色三角形放在左侧的六角形插槽中，在右侧的六角形插槽中放置三个红色三角形。",
+        "ja": "左側の六角形のスロットに3つの黄色の三角形を置き、右側の六角形のスロットに3つの赤い三角形を置きます。",
+        "hu": "Helyezzen három sárga háromszöget a bal oldali hatszögletű résidőkbe, és három piros háromszöget a jobb oldali hatszögletű résekben."
     }
 }

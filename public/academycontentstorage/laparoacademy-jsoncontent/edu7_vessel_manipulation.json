@@ -7,25 +7,41 @@
                 "en": "Vessels and ducts are some of the most important tissue structures we will encounter in laparoscopic surgery. When performing some procedures we will have to cut them, and when performing others we have to clip them temporarily or move them out of the way without damaging them.",
                 "pl": "Naczynia i przewody są jednymi z najważniejszych i najdelikatniejszych struktur spotykanych w zabiegach małoinwazyjnych. Nieodpowiednie zwizualizowanie, przecięcie bądź klipsowanie może być niezauważone, co może doprowadzić do poważnych komplikacji.",
                 "es": "Los buques y los conductos son algunas de las estructuras de tejidos más importantes que encontraremos en cirugía laparoscópica. Al realizar algunos procedimientos, tendremos que cortarlos, y al realizar otros, tenemos que imaginarlos temporalmente o sacarlos del camino sin dañarlos.",
-                "zh-cn": "血管和管道是我们将在腹腔镜手术中遇到的一些最重要的组织结构。执行某些程序时，我们将不得不削减它们，并且在执行其他人时，我们必须暂时剪辑它们，或者在不损害它们的情况下将它们移出。",
-                "ja": "血管やダクトは私たちが腹腔鏡下手術で遭遇する最も重要な組織構造のいくつかです。いくつかの手順を実行するときはそれらを切り取る必要があります、そして他の人を実行するとき、私たちはそれらを一時的に切り取るか、それらを損傷することなくそれらを邪魔にならないようにしなければなりません。"
+                "zh-cn": "血管和管道是我们将在腹腔镜手术中遇到的一些最重要的组织结构。执行某些程序时，我们将不得不切割它们，并且在执行其他程序时，我们必须暂时夹住它们或将它们移开而不会损坏它们。",
+                "ja": "血管とダクトは、腹腔鏡手術で遭遇する最も重要な組織構造の一部です。いくつかの手順を実行するとき、私たちはそれらをカットする必要があり、他の手順を実行するときは、それらを一時的にクリップするか、それらを損傷することなくそれらを邪魔にならないようにしなければなりません。",
+                "hu": "Az edények és a csatornák a legfontosabb szövetszerkezetek, amelyekkel a laparoszkópos műtét során találkozunk. Néhány eljárás elvégzésekor meg kell vágnunk őket, és mások végrehajtásakor ideiglenesen be kell vágnunk őket, vagy át kell mozgatnunk őket az útból, anélkül, hogy károsítanánk őket."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu7_vessel_manipulation_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Clip Application",
-                        "pl": "Aplikacja klipsów",
-                        "es": "Aplicación de clip",
-                        "zh-cn": "夹应用",
-                        "ja": "クリップアプリケーション"
-                    }
+            "media": {
+                "url": "edu7_vessel_manipulation_01.png",
+                "type": "image",
+                "label": {
+                    "en": "Clip Application",
+                    "pl": "Aplikacja klipsów",
+                    "es": "Aplicación de clip",
+                    "zh-cn": "剪辑应用程序",
+                    "ja": "クリップアプリケーション",
+                    "hu": "Klip alkalmazás"
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
@@ -33,25 +49,64 @@
                 "en": "Most importantly, the laparoscopic surgeon must learn how to identify these structures accurately so as to not cause any damage. When performing cholecystectomy for instance three clips should be applied and the vessel should then be cut with two remaining on the patient side for security. In other cases when a clip or hemo-lock is applied to a large vessel it can be important to capture the entire vessel with a clip applicator. Even seemingly large ducts can often be captured with a small clip if they can be properly tied off and moved to fold in on themselves. No anatomy is alike and procedures vary but learning how to find and manipulate vessels, how to properly identify them, and even cut them with scissors can be very important. Exercises with vessels and ducts on the Tissue Holder Module will help in developing this skill.",
                 "pl": "Przede wszystkim, najważniejsze jest precyzyjne rozpoznanie i zidentyfikowanie przewodów w taki sposób, aby mieć pewność, że klips jest umieszczony tam gdzie powinien. Przykładowo, podczas cholecystektomii trzy klipsy powinny być założone przewód żółciowy i krwionośny w taki sposób, aby dwa klipsy zostały po stronie pacjenta, a jeden po stronie woreczka. W innych zabiegach wymagających klipsowania, wyzwaniem z kolei może być uchwycenie całego przewodu wewnątrz branży klipsownicy. Aczkolwiek, nawet największe przewody mogą często zostać złapane małym klipsem, jeśli tylko zostaną wcześniej zawiązane i zgięte pod odpowiednim kątem. Ćwiczenia zawarte w module do chwytania tkanek pomagają w rozwinięciu kompetencji w posługiwaniu się klipsownicą.",
                 "es": "Lo más importante es que el cirujano laparoscópico debe aprender a identificar estas estructuras con precisión para no causar ningún daño. Cuando se realiza una colecistectomía, por ejemplo, se deben aplicar tres clips y el recipiente debe cortarse con dos restantes en el lado del paciente para la seguridad. En otros casos, cuando se aplica un clip o hemo-bloqueo a un barco grande, puede ser importante capturar todo el recipiente con un aplicador de clip. Incluso los conductos aparentemente grandes a menudo pueden ser capturados con un pequeño clip si pueden estar bien atados y movidos para plegar en sí mismos. Ninguna anatomía es igual y los procedimientos varían, pero aprendiendo cómo encontrar y manipular los buques, cómo identificarlos correctamente, e incluso cortarlos con unas tijeras pueden ser muy importantes. Los ejercicios con buques y conductos en el módulo de titular de tejido ayudarán a desarrollar esta habilidad.",
-                "zh-cn": "最重要的是，腹腔镜外科医生必须学习如何准确识别这些结构，以便不会导致任何损坏。例如，当执行胆囊切除术时，应施加三个夹子，然后将血管留在患者侧的两个留在患者身上以进行安全性。在其他情况下，当夹子或血管锁被施加到大容器时，用夹子涂抹器捕获整个容器可能是重要的。如果它们可以正确束缚并移动以折叠，甚至可以用小夹子捕获似乎大的管道甚至可以用小夹子捕获。没有解剖学是相似的，程序变化，但学习如何找到和操纵船只，如何正确识别它们，甚至用剪刀切割它们可能非常重要。用血管和组织架模块上的管道锻炼将有助于开发这种技能。",
-                "ja": "最も重要なことに、腹腔鏡下外科医は、損傷を引き起こさないようにこれらの構造を正確に識別する方法を学ぶ必要があります。たとえば、胆嚢摘出術を行う場合は、3つのクリップを適用する必要があり、その後、セキュリティのために患者側に残っている2つの血管を切断する必要があります。他の場合には、クリップまたはヘモロックが大きな血管に適用されるとき、それは血管全体をクリップアプリケータで捕捉することが重要であり得る。一見大きなダクトでさえ、それらが適切に縛られて自ら折りたたんで動かされる可能性がある場合、小さなクリップで捕獲されることがよくあります。不適切なものは似ていて、手順は異なりますが、血管を見つけて操作する方法、それらを適切に識別する方法、そしてそれらをハサミで切り取ることさえできます。組織ホルダーモジュールの船舶やダクトを持つ演習はこのスキルを発展させるのに役立ちます。"
+                "zh-cn": "最重要的是，腹腔镜外科医生必须学习如何准确识别这些结构，以免造成任何损害。当进行胆囊切除术时，应使用三个夹子，然后应切割容器，然后将其剩下的两个夹子切割，以确保安全。在其他情况下，将夹子或血液锁定在大容器上时，用夹子涂抹器捕获整个容器可能很重要。如果可以将它们正确绑住并移动以折叠自己，即使看似大的管道通常也可以用一个小夹子捕获。没有解剖结构是相似的，并且程序有所不同，但是学习如何找到和操纵血管，如何正确识别它们，甚至用剪刀切割它们可能非常重要。在组织支架模块上使用血管和管道进行锻炼将有助于发展这一技能。",
+                "ja": "最も重要なことは、腹腔鏡外科医は、損傷を引き起こさないように、これらの構造を正確に識別する方法を学ばなければならないことです。たとえば、胆嚢摘出術を行う場合、3つのクリップを適用する必要があり、容器はセキュリティのために患者側に残っている2つで切断する必要があります。他の場合、クリップまたはヘモロックが大きな容器に適用される場合、クリップアプリケーターを使用して容器全体をキャプチャすることが重要です。一見大きなダクトでさえ、適切に縛られて自分自身に折りたたむように動くことができる場合、小さなクリップでしばしばキャプチャできます。解剖学的構造はありません。手順はさまざまですが、船を見つけて操作する方法、それらを適切に識別する方法を学ぶこと、そしてハサミでそれらをカットすることは非常に重要です。組織ホルダーモジュール上の血管とダクトを使用した運動は、このスキルの開発に役立ちます。",
+                "hu": "A legfontosabb, hogy a laparoszkópos sebésznek meg kell tanulnia, hogyan kell pontosan azonosítani ezeket a struktúrákat, hogy ne okozzon károkat. A kolecisztektómia elvégzésekor például három klipet kell alkalmazni, és az ereket a biztonság érdekében kettő maradt a beteg oldalán. Más esetekben, amikor egy klipet vagy hemo-lockot alkalmaznak egy nagy edényre, fontos lehet, hogy az egész edényt klip applikátorral rögzítsük. Még a látszólag nagy vezetékeket is gyakran lehet rögzíteni egy kis kliptel, ha megfelelően leköthetők és magukba mozgathatják őket. Az anatómia nem egyaránt, és az eljárások eltérőek, de nagyon fontos lehet megtanulni, hogyan kell megtalálni és manipulálni az edényeket, hogyan lehet azokat az ollóval vágni, és még ollóval is vágni. Az edényekkel és csatornákkal ellátott gyakorlatok a szövettartó modulon segítenek ennek a készségnek a fejlesztésében."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Vessels and Ducts",
-        "pl": "Naczynia i przewody",
-        "es": "Buques y conductos.",
-        "zh-cn": "血管和管道",
-        "ja": "船舶とダクト"
+        "text": {
+            "en": "Vessels and Ducts",
+            "pl": "Naczynia i przewody",
+            "es": "Buques y conductos.",
+            "zh-cn": "血管和管道",
+            "ja": "容器とダクト",
+            "hu": "Hajók és csatornák"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "An intro on the properties of vessels and ducts inside the operating area in laparoscopic procedures.",
-        "pl": "Wstęp opisujący właściwości przewodów i naczyń wewnątrz pola operacyjnego podczas zabiegów laparoskopowych.",
-        "es": "Una introducción en las propiedades de los buques y conductos dentro del área de operación en los procedimientos laparoscópicos.",
-        "zh-cn": "腹腔镜手术中船舶和管道内部性能的介绍。",
-        "ja": "腹腔鏡手術における運転領域内の血管およびダクトの特性に関するイントロ"
+        "text": {
+            "en": "An intro on the properties of vessels and ducts inside the operating area in laparoscopic procedures.",
+            "pl": "Wstęp opisujący właściwości przewodów i naczyń wewnątrz pola operacyjnego podczas zabiegów laparoskopowych.",
+            "es": "Una introducción en las propiedades de los buques y conductos dentro del área de operación en los procedimientos laparoscópicos.",
+            "zh-cn": "腹腔镜手术中操作区域内血管和管道特性的介绍。",
+            "ja": "腹腔鏡手術の動作エリア内の船舶とダクトの特性に関するイントロ。",
+            "hu": "Bevezető az edények és csatornák tulajdonságairól a működési területen belül laparoszkópos eljárásokban."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

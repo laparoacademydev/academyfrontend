@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,55 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h"
+    ],
+    "accessories": [
+        "needle_positioning_platform:1",
+        " needle:1"
     ],
     "name": {
         "en": "Needle Positioning and Rotation",
         "pl": "Pozycjonowanie i Obracanie Igły",
         "es": "Posicionamiento y rotación de la aguja.",
-        "zh-cn": "针定位和旋转",
-        "ja": "針の位置決めと回転"
+        "zh-cn": "针的定位和旋转",
+        "ja": "針の位置と回転",
+        "hu": "Tű pozicionálás és forgás"
     },
     "skills": {
         "en": "Needle Handling, Precision, Suturing",
         "pl": "Poruszanie się Igłą, Precyzja, Szycie",
         "es": "Manejo de agujas, precisión, sutura.",
-        "zh-cn": "针处理，精确，缝合",
-        "ja": "ニードルハンドリング、精度、縫合"
+        "zh-cn": "针的处理，精确，缝合",
+        "ja": "針の取り扱い、精度、縫合",
+        "hu": "Tűkezelés, pontosság, varrás"
     },
     "description": {
         "en": "By learning how to properly handle the needle the young surgeon will be able to swiftly rotate and position it at the best angle in relationship to the target tissue and the most optimal angle in the needle driver. In this exercise the trainee must become familiar with needle rotation and handling by applying the needle to various positions which indicate the angle and position on the needle. The actual exercise however occurs in the space above the module because to be positioned properly the needle must first be rotated and positioned between the instruments.",
         "pl": "Dzięki nauce prawidłowego posługiwania się igłą, młody chirurg będzie mógł szybko obracać i ustawiać ją pod najlepszym kątem w stosunku do tkanki docelowej i najbardziej optymalnym kątem w prowadnicy igły. W tym ćwiczeniu uczący musi zapoznać się z obrotem i obsługą igły, umieszczając igłę w różnych pozycjach, które wskazują kąt i pozycję na igle. Właściwe ćwiczenie odbywa się jednak w przestrzeni nad modułem, ponieważ w celu prawidłowego ustawienia igły należy najpierw obrócić i ustawić ją między instrumentami. ",
         "es": "Al aprender cómo manejar correctamente la aguja, el joven cirujano podrá girar rápidamente y colocarlo en el mejor ángulo en relación con el tejido diana y el ángulo más óptimo en el controlador de la aguja. En este ejercicio, el aprendiz debe familiarizarse con la rotación y el manejo de la aguja aplicando la aguja a varias posiciones que indican el ángulo y la posición en la aguja. El ejercicio real, sin embargo, se produce en el espacio por encima del módulo debido a que se coloca correctamente, la aguja debe girarse primero y colocarse entre los instrumentos.",
-        "zh-cn": "通过学习如何正确处理针头，年轻外科医生将能够以与目标组织的关系的最佳角度迅速旋转和定位它，以及针钳中的最佳角度。在本练习中，学员必须通过将针施加到指示针上的角度和位置的各种位置来熟悉针头旋转和处理。然而，实际的练习发生在模块上方的空间中，因为要正确定位针必须首先旋转并定位在仪器之间。",
-        "ja": "針を適切に取り扱う方法を学ぶことによって、若い外科医は、標的組織との関係で、そして針運転者の最も最適な角度に最適な角度でそれを迅速に回転させて位置決めすることができるでしょう。この演習では、研修生は針の角度と位置を示す様々な位置に針を適用することによって、針の回転と取り扱いに精通していなければなりません。しかしながら、実際の運動は、正しく位置決めされるべきであるため、最初に器具の間に回転させて位置決めされなければならないので、モジュールの上の空間で発生する。"
+        "zh-cn": "通过学习如何正确处理针头，年轻的外科医生将能够迅速旋转并以最佳角度与目标组织和针头驱动器中最佳角度的角度定位。在本练习中，学员必须通过将针刺到指示针上的角度和位置的各个位置来熟悉针头旋转和处理。然而，实际练习发生在模块上方的空间中，因为要正确放置，必须首先旋转针并在仪器之间定位。",
+        "ja": "針を適切に処理する方法を学ぶことで、若い外科医は標的組織と針ドライバーの最も最適な角度との関係で最適な角度で迅速に回転し、それを配置することができます。この運動では、研修生は、針の角度と位置を示すさまざまな位置に針を適用することにより、針の回転と取り扱いに精通しなければなりません。ただし、実際の運動は、針を適切に配置するには、最初に機器間で回転して配置する必要があるため、モジュールの上のスペースで発生します。",
+        "hu": "Ha megtanulja, hogyan kell megfelelően kezelni a tűt, a fiatal sebész gyorsan elforgathatja és a legjobb szögben elhelyezheti a célszövethez viszonyítva, és a tűsvezetőben a legoptimálisabb szöget. Ebben a gyakorlatban a gyakornoknak meg kell ismernie a tű forgását és a kezelést úgy, hogy a tűt különféle helyzetekre alkalmazza, amelyek jelzik a tű szögét és helyzetét. A tényleges gyakorlat azonban a modul feletti térben zajlik, mivel a tű megfelelő elhelyezkedését először el kell forgatni és a műszerek között elhelyezni."
     },
     "instructions": {
         "en": "The trainee must lift the needle and position it to be able to hold it up against R1 so that the tip of the needle holder is in the hole and the needle sits at the indicated angle inside the ridge. Next, the trainee must lift the needle, rotate it and reposition it to be able to hold it up against R2. After holding it up to R3, the trainee must return the needle to the start position and switch instruments. Now the same must be done but for L1, L2, and L3 positions. Upon completion the needle should be returned to the start position.",
         "pl": "Uczący musi podnieść igłę i ustawić ją tak, aby móc przytrzymać ją przy pozycji R1, tak aby końcówka imadła znalazła się w otworze, a igła była osadzona pod wskazanym kątem. Następnie konieczne jest podniesienie igły, obrót i zmiana położenia, aby móc utrzymać ją przy pozycji R2. Po przytrzymaniu igły do R3 uczący musi przywrócić igłę do pozycji wyjściowej i zamienić instrumenty. Teraz to samo należy zrobić, ale z imadłem po lewej stronie i dla kolejnych pozycji L1, L2 i L3. Po zakończeniu igła powinna zostać przywrócona do pozycji wyjściowej. ",
         "es": "El aprendiz debe levantar la aguja y colóquelo para poder sostenerlo contra R1 para que la punta del soporte de la aguja esté en el orificio y la aguja se sienta en el ángulo indicado dentro de la cresta. A continuación, el aprendiz debe levantar la aguja, gírelo y reposicione para poder mantenerlo contra R2. Después de mantenerlo hasta R3, el aprendiz debe devolver la aguja a la posición de inicio y cambiar los instrumentos. Ahora se debe hacer lo mismo, pero para posiciones L1, L2 y L3. Al finalizar, la aguja debe devolverse a la posición de inicio.",
-        "zh-cn": "学员必须抬起针头并将其定位才能将其固定在R1上，使得针架的尖端位于孔中，并且针坐在脊内的指示角度。接下来，学员必须抬起针头，旋转它并重新定位以便能够将其抵御R2。将其保持在R3后，学员必须将针返回到起始位置和开关仪器。现在必须完成相同但对于L1，L2和L3位置也是如此。完成后，应将针返回到起始位置。",
-        "ja": "研修生は針を持ち上げて、針ホルダーの先端が穴の中にあるようにR1に対してそれを保持することができなければならず、針は隆起部の内側の指示された角度で座っているようにする必要があります。次に、研修生は針を持ち上げ、回転させ、それをR2に対して保持することができるようにする必要があります。 R3まで保持した後、研修生は開始位置とスイッチ機器に針を戻す必要があります。これで同じことがなければならないが、L1、L2、およびL3位置のために。完了したら、針を開始位置に戻す必要があります。"
+        "zh-cn": "学员必须抬起针并将其定位为能够将其固定在R1上，以使针头固定器的尖端在孔中，并且针头位于脊内指示的角度。接下来，学员必须抬起针头，旋转并重新定位它，以便能够将其固定在R2上。将其固定到R3之后，学员必须将针头恢复到起始位置并切换仪器。现在必须这样做，但是对于L1，L2和L3位置。完成后，应将针头返回到开始位置。",
+        "ja": "研修生は針を持ち上げて、それをR1に対して保持できるように配置する必要があり、針ホルダーの先端が穴にあり、針が尾根内の示された角度に座っています。次に、研修生は針を持ち上げ、それを回転させて再配置して、R2に対してそれを保持できるようにしなければなりません。 R3に保持した後、研修生は針を開始位置に戻し、機器を切り替える必要があります。これで、L1、L2、およびL3の位置についても同じことが行われなければなりません。完了すると、針を開始位置に戻す必要があります。",
+        "hu": "A gyakornoknak fel kell emelnie a tűt, és elhelyeznie kell, hogy az R1 -hez tartsa, hogy a tűtartó csúcsa a lyukban legyen, és a tű a gerinc belsejében lévő szögben helyezkedik el. Ezután a gyakornoknak fel kell emelnie a tűt, el kell forgatnia és áthelyeznie, hogy az R2 ellen tartsa. Miután az R3 -ig tartotta, a gyakornoknak vissza kell adnia a tűt a kezdési helyzetbe, és váltson a műszereket. Most ugyanezt kell megtenni, de az L1, L2 és L3 pozíciók esetében. A befejezés után a tűt vissza kell adni a kezdő helyzetbe."
     },
     "preparation": {
         "en": "Apply the Needle Positioning and Rotation Module onto the top of the Basic Suturing Platform. Place a single needle with only 2cm of suture material into the start position at the top.",
         "pl": "Nałóż Moduł Pozycjonowania i Rotacji Igły na wskazane miejsce na Podstawowej Platformie do Szycia. Umieść pojedynczą igłę z zaledwie 2 cm materiału do szycia w pozycji początkowej u góry. ",
         "es": "Aplique el módulo de posicionamiento y rotación de la aguja en la parte superior de la plataforma de sutura básica. Coloque una sola aguja con solo 2 cm de material de sutura en la posición de inicio en la parte superior.",
-        "zh-cn": "将针定位和旋转模块应用到基本缝合平台的顶部。将单针放入2厘米的缝线材料到顶部的起始位置。",
-        "ja": "針の位置決めおよび回転モジュールを基本的な縫合プラットフォームの上部に適用します。上部のスタート位置に2cmの縫合糸材料だけで単一の針を置きます。"
+        "zh-cn": "将针头定位和旋转模块应用于基本缝合平台的顶部。将单针仅用2厘米的缝合材料放入顶部的起始位置。",
+        "ja": "針の位置決めと回転モジュールを基本的な縫合プラットフォームの上部に適用します。縫合材料が2cmしかない単一の針を上部の開始位置に置きます。",
+        "hu": "Vigye fel a tű pozicionálási és forgási modult az alapvető varrási platform tetejére. Helyezzen egyetlen tűt, csak 2 cm varrat anyaggal a tetején a kiindulási helyzetbe."
     }
 }

@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,56 @@
             "proficiency": 53.333333333333336
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "FLS_foam",
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
+    ],
+    "accessories": [
+        "suture_20cm:4",
+        " foam_insert:1"
     ],
     "name": {
         "en": "Ligating Loop Task",
         "pl": "Zakładanie Pętli",
         "es": "Tarea de bucle ligante",
         "zh-cn": "连接循环任务",
-        "ja": "結紮ループタスク"
+        "ja": "ライジングループタスク",
+        "hu": "Logizáló hurokfeladat"
     },
     "skills": {
         "en": "FLS, Endo-Loop, Extracorporeal Knot",
         "pl": "FLS, Endo-Loop, Węzeł Pozaustrojowy",
-        "es": "Fls, endo-bucle, nudo extracorpóreo",
-        "zh-cn": "FLS，内诺环，体外结",
-        "ja": "FLS、エンドループ、体外結び目"
+        "es": "FLS, endo-bucle, nudo extracorpóreo",
+        "zh-cn": "FLS，内向环，体外结",
+        "ja": "FLS、エンドループ、体外結び目",
+        "hu": "FLS, endo-hurok, extrakorporális csomó"
     },
     "description": {
         "en": "The ligating loop task of the FLS verifies the trainee’s skill with pulling and attaching ligating loops with precision and speed. In the exercise below you will perform 4 repeated ligating loops, but on the FLS test only one must be applied. The task should be practiced until it can be performed in 53 seconds with up to 1mm accuracy errors on the markings on the tips of the red foam. This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions.\n",
         "pl": "Zadanie z podwiązywaniem pętli w systemie FLS weryfikuje umiejętności osoby szkolonej w zakresie ciągnięcia i mocowania pętli z podwiązywaniem szybko i precyzyjnie. W poniższym ćwiczeniu powinny być wykonane 4 pętle do podwiązywania, aczkolwiek w oficjalnym teście FLS należy zastosować tylko jedną. Zadanie powinno być ćwiczone, aż będzie można je wykonać w ciągu 53 sekund z błędem dokładności do 1 mm od oznaczeń na końcach czerwonej pianki.Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach.",
-        "es": "La tarea de bucle ligante de los FLS verifica la habilidad del aprendiz con tirar y colocar los bucles ligantes con precisión y velocidad. En el ejercicio a continuación, realizará 4 bucles de ligadura repetidos, pero en la prueba FLS, solo se debe aplicar uno. La tarea debe practicarse hasta que se pueda realizar en 53 segundos con errores de precisión de hasta 1 mm en las marcas en las puntas de la espuma roja. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.\n",
-        "zh-cn": "氟的连接循环任务验证了实习生的技能，以精确和速度拔出和连接连接环。在下面的运动中，您将执行4个重复的连接循环，但在FLS测试中只有一个必须应用。应练习任务，直到它可以在53秒内执行，在红色泡沫的尖端上的标记上具有高达1mm的精度误差。这种性能应在连续两次重复或最多80重复上实现。\n",
-        "ja": "FLSの結紮ループタスクは、訓練生のスキルを、連結ループを正確かつ速度で引っ張って取り付けることで検証します。下の演習では、4回の繰り返しの結紮ループを実行しますが、FLSテストでは1つだけ適用する必要があります。このタスクは、赤い泡の先端のマーキング上の最大1mmの精度の誤差で53秒で実行できるまで行われるべきです。このレベルのパフォーマンスは、2つの連続した繰り返しまたは最大80の繰り返しで達成されるべきです。\n"
+        "es": "La tarea de bucle ligante de los FLS verifica la habilidad del aprendiz con tirar y colocar los bucles ligantes con precisión y velocidad. En el ejercicio a continuación, realizará 4 bucles de ligadura repetidos, pero en la prueba FLS, solo se debe aplicar uno. La tarea debe practicarse hasta que se pueda realizar en 53 segundos con errores de precisión de hasta 1 mm en las marcas en las puntas de la espuma roja. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.",
+        "zh-cn": "FLS的连接环任务可验证受训者的技能，以精确和速度拉动和连接绑扎循环。在下面的练习中，您将执行4个重复的连杆循环，但在FLS测试中只能应用一个。该任务应进行练习，直到可以在53秒内执行，在红色泡沫尖端上的标记上最多有1mm的精度错误。应在两次连续重复或最多80个重复时达到这种绩效水平。\n",
+        "ja": "FLSの連結ループタスクは、正確さと速度でライジングループを引っ張って取り付けることで、研修生のスキルを検証します。以下の演習では、4つの繰り返しのライジングループを実行しますが、FLSテストでは1つだけを適用する必要があります。タスクは、赤いフォームの先端のマーキングに最大1mmの精度エラーで53秒で実行できるまで実践する必要があります。このレベルのパフォーマンスは、2回連続の繰り返しで、または最大80回の繰り返しで達成する必要があります。\n",
+        "hu": "Az FLS ligáló hurok feladata ellenőrzi a gyakornok készségét a ligáló hurkok pontossággal és sebességgel történő húzásával és rögzítésével. Az alábbi gyakorlatban 4 ismételt ligáló hurkot hajt végre, de az FLS -tesztnél csak egyet kell alkalmazni. A feladatot addig kell gyakorolni, amíg 53 másodpercen belül nem lehet végrehajtani, akár 1 mm -es pontossági hibákkal a piros hab hegyén lévő jelöléseken. Ezt a teljesítményszintet két egymást követő ismétlésen vagy legfeljebb 80 ismétlésnél kell elérni.\n"
     },
     "instructions": {
         "en": "Begin the exercise and apply the first loop onto the left element, targeting as close to the marked line as possible. Complete the exercise by applying four loops around each target element.",
         "pl": "Pojedyncza pętla powinna być zawiązana poza trenażerem i powinna być wprowadzona przy pomocy disektora. Cztery kolejne pętle powinny być przymocowane wokół każdego elementu docelowego. ",
         "es": "Comience el ejercicio y aplique el primer bucle en el elemento izquierdo, se dirige lo más cerca posible de la línea marcada. Complete el ejercicio aplicando cuatro bucles alrededor de cada elemento objetivo.",
-        "zh-cn": "开始锻炼并将第一个循环应用到左元件上，瞄准尽可能靠近标记线。通过在每个目标元素周围应用四个循环来完成练习。",
-        "ja": "運動を始めて、最初のループを左の要素に適用して、マークされた行のできるだけ近くにターゲットにします。各ターゲット要素の周囲に4つのループを適用することによって運動を完了してください。"
+        "zh-cn": "开始练习，然后将第一个循环应用于左元元素，将靶向尽可能靠近标记线。通过在每个目标元素周围应用四个循环来完成练习。",
+        "ja": "エクササイズを開始し、最初のループを左要素に適用し、マークされたラインの近くに可能な限りターゲットにします。各ターゲット要素に4つのループを適用して、演習を完了します。",
+        "hu": "Kezdje el a gyakorlatot, és vigye fel az első hurkot a bal elemre, a lehető legközelebb a jelölt vonalhoz. Végezze el a gyakorlatot úgy, hogy négy hurkot alkalmaz az egyes célelemek körül."
     },
     "preparation": {
         "en": "Clip the red foam insert into the Tissue Holder Module and place it in the operating area. Prepare four pieces of 30cm suture material and tie standard sliding knots around each one.\n",
         "pl": "Czerwona wkładka piankowa powinna być przymocowana do modułu trzymania tkanek. Cztery 30 cm nici powinny być przygotowane z zawiązanymi pętlami z węzłów przesuwnych.",
-        "es": "Clip El inserto de espuma rojo en el módulo del soporte de tejido y colóquelo en el área de operación. Prepare cuatro piezas de material de sutura de 30 cm y atan nudos deslizantes estándar alrededor de cada uno.\n",
-        "zh-cn": "将红色泡沫插入夹在组织保持器模块中并将其放入操作区域。准备四件30厘米缝合材料，并在每一个周围系标准滑动结。\n",
-        "ja": "赤い泡の挿入を組織ホルダーモジュールに入れ、操作領域に置きます。 4枚の30cmの縫合糸材料を用意し、それぞれの周りに標準のスライド結び目を結びます。\n"
+        "es": "Clip El inserto de espuma rojo en el módulo del soporte de tejido y colóquelo en el área de operación. Prepare cuatro piezas de material de sutura de 30 cm y atan nudos deslizantes estándar alrededor de cada uno.",
+        "zh-cn": "将红色泡沫插入到组织支架模块中，并将其放在操作区域中。准备四件30厘米的缝合材料，并在每种缝合线上打结标准的滑动结。\n",
+        "ja": "レッドフォームインサートを組織ホルダーモジュールにクリップし、動作エリアに配置します。 30cmの縫合材料の4個を準備し、それぞれの周りに標準のスライドノットを結びます。\n",
+        "hu": "Keverje el a piros hab betétét a szöveti tartó moduljába, és helyezze azt a működési területre. Készítsen elő négy darab 30 cm -es varrás anyagot, és kösse össze a standard csúszó csomókat mindegyik körül.\n"
     }
 }

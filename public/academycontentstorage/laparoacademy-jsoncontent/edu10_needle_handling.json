@@ -7,8 +7,17 @@
                 "en": "Research suggests that the widespread adoption of laparoscopic surgery has not been as fast as could be possible, in part, because of the difficulty of laparoscopic suturing. Despite advancement in surgical techniques and the availability of newer surgical tools, the complexity of suturing continues to be one of the biggest barriers to more widespread adoption of MIS. ",
                 "pl": "Badania naukowe sugerują, że w ostatnich kilku dekadach adopcja zabiegów laparoskopowych nie odbyła się tak szybko jak mogło to być możliwe ze względu na trudność nauki szycia wewnątrz pola operacyjnego. Pomimo rozwoju technik zabiegowych i dostępu do nowych zaawansowanych instrumentów i narzędzi, stroma krzywa uczenia przy skomplikowanych technikach szycia wciąż jest jednym z największych czynników hamujących szerszą adopcję technik minimalnie inwazyjnych.",
                 "es": "La investigación sugiere que la adopción generalizada de la cirugía laparoscópica no ha sido tan rápida como sea posible, en parte, debido a la dificultad de la sutura laparoscópica. A pesar del avance en las técnicas quirúrgicas y la disponibilidad de nuevas herramientas quirúrgicas, la complejidad de la sutura sigue siendo una de las barreras más grandes para una adopción más generalizada de MIS.",
-                "zh-cn": "研究表明，由于腹腔镜缝合难度，腹腔镜手术的广泛采用尚未尽可能快地快速。尽管手术技术和新手术工具的可用性推进，但缝合的复杂性仍然是更广泛采用MIS的最大障碍之一。",
-                "ja": "研究は、腹腔鏡下縫合の困難さのために、腹腔鏡手術の広範な採用が可能であると同じくらい速いものではなかったことを示唆している。外科的技術の進歩とより新しい外科的ツールの利用可能性にもかかわらず、縫合の複雑さは、MISのより広範な採用に対する最大の障壁の1つであると続いています。"
+                "zh-cn": "研究表明，由于腹腔镜缝合的困难，腹腔镜手术的广泛采用并没有尽可能快。尽管手术技术的进步和较新的手术工具的可用性，但缝合的复杂性仍然是更广泛采用MIS的最大障碍之一。",
+                "ja": "研究によると、腹腔鏡手術の広範な採用は、腹腔鏡下縫合の難しさのために、それほど速くなかったことが示唆されています。外科的技術の進歩と新しい外科ツールの利用可能性にもかかわらず、縫合の複雑さは、MISのより広範な採用に対する最大の障壁の1つであり続けています。",
+                "hu": "A kutatások azt sugallják, hogy a laparoszkópos műtét széles körű elfogadása nem volt olyan gyors, amennyire csak lehetséges, részben a laparoszkópos varródás nehézségei miatt. A műtéti technikák fejlődése és az újabb műtéti eszközök rendelkezésre állása ellenére a varrás bonyolultsága továbbra is az egyik legnagyobb akadály a Mis."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -17,8 +26,17 @@
                 "en": "Laparoscopic surgeons should strive to master suturing so that they can respond to any situation inside the tight and constrained operating area. Ideally, a skilled surgeon should quickly and effortlessly apply knots of all kinds with even the smallest amount of suture material available. This saves time and resources while maintaining and often improving positivie patient outcomes. The only way to improve laparoscopic suturing technique however is through consistent and repetitive practice.",
                 "pl": "Chirurdzy chcący specjalizować się w laparoskopii powinni aspirować do zdobycia umiejętności szycia, aby mogli zareagować na każdą sytuację wewnątrz pola operacyjnego. Chirurg powinien być w stanie szybko i bez wysiłku założyć węzły wielu typów wykorzystując najmniejszą możliwą ilość nici. Umiejętność szycia oszczędza czas i zasoby, jednocześnie podnosząc jakość wykonywanych zabiegów. Jedyny sposób na zdobywanie lepszej techniki szycia to konsekwentny i powtarzający się trening i ćwiczenia.",
                 "es": "Los cirujanos laparoscópicos deben esforzarse por dominar la sutura para que puedan responder a cualquier situación dentro del área de operación apretada y restringida. Idealmente, un cirujano especializado debería aplicar de forma rápida y sin esfuerzo nudos de todo tipo con incluso la cantidad más pequeña de material de sutura disponible. Esto ahorra tiempo y recursos mientras se mantiene y, a menudo, mejorando los resultados de los pacientes positivos. La única forma de mejorar la técnica de sutura laparoscópica, sin embargo, es a través de una práctica consistente y repetitiva.",
-                "zh-cn": "腹腔镜外科医生应努力主持缝线，以便它们可以响应紧张和受限制的操作区域内的任何情况。理想情况下，熟练的外科医生应该快速而毫不费力地涂抹各种的结，甚至可以使用最小的缝合材料。这节省了时间和资源，同时维持和经常改善实证患者结果。然而，改善腹腔镜缝合技术的唯一方法是通过一致和重复的做法。",
-                "ja": "腹腔鏡下外科医は、縫合糸を厳しく拘束するように努力し、厳密な運転地域の内側のいかなる状況にも対応させることができます。理想的には、熟練した外科医は、利用可能な最小量の縫合材料でさえも、あらゆる種類の結び目を迅速かつ簡単に適用する必要があります。これにより、維持している間に時間とリソースが節約され、患者の結果を向上させることがよくあります。しかしながら、腹腔鏡下縫合技術を改善するための唯一の方法は、一貫した繰り返しの慣習を通過することである。"
+                "zh-cn": "腹腔镜外科医生应努力掌握缝合，以便他们可以应对紧密且受约束的操作区域内的任何情况。理想情况下，熟练的外科医生应迅速而轻松地施加各种打结，即使是最少的缝合材料。这可以节省时间和资源，同时维持并经常改善积极的患者结果。但是，改善腹腔镜缝合技术的唯一方法是通过一致和重复的实践。",
+                "ja": "腹腔鏡下外科医は、縫合を習得するよう努力して、緊密で制約された操作エリア内のあらゆる状況に対応できるようにする必要があります。理想的には、熟練した外科医は、利用可能な最小量の縫合材でさえ、あらゆる種類の結び目を迅速かつ楽に適用する必要があります。これにより、ポジティブな患者の転帰を維持し、しばしば改善しながら、時間とリソースを節約します。ただし、腹腔鏡下縫合技術を改善する唯一の方法は、一貫した繰り返しの実践によるものです。",
+                "hu": "A laparoszkópos sebészeknek arra kell törekedniük, hogy elsajátítsák a varrást, hogy reagálhassanak a szűk és korlátozott működési területen belüli bármely helyzetre. Ideális esetben a képzett sebésznek gyorsan és könnyedén alkalmaznia kell mindenféle csomót, még a rendelkezésre álló varrat anyagok legkisebb mennyiségű varrat -anyagával is. Ez időt és erőforrásokat takarít meg, miközben fenntartja és gyakran javítja a betegek kimenetelét. A laparoszkópos varrási technika javításának egyetlen módja azonban a következetes és ismétlődő gyakorlat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -27,8 +45,17 @@
                 "en": "In this chapter you will learn everything you need to know about suturing. You will gain the practice necessary to advance to the most difficult suturing techniques, and you will be able to make big steps towards being able to perform complex laparoscopic procedures. This chapter is structured so that the trainee can advance from the lowest suturing basics to the most advanced techniques step-by-step, and in an organized and methodical manner with incremental increases in difficulty.",
                 "pl": "W tym rozdziale trenujący dowie się wszystkiego co będzie mu potrzebne do nauki szycia. Ćwiczenia te są konieczne przy nabywaniu umiejętności potrzebnych do późniejszego wykonywania tych trudniejszych technik szycia, a ćwiczący może podjąć znaczące kroki ku zdobyciu tych umiejętności. Poniższy rozdział zbudowany jest w taki sposób, aby pozwolić ćwiczącemu na rozwój, od najbardziej podstawowych umiejętności szycia do najbardziej zaawansowanych technik krok po kroku, w sposób zorganizowany i stopniowo podwyższający stopień trudności.",
                 "es": "En este capítulo, aprenderá todo lo que necesita saber sobre la sutura. Obtendrá la práctica necesaria para avanzar a las técnicas de sutura más difíciles, y podrá hacer grandes pasos para poder realizar procedimientos laparoscópicos complejos. Este capítulo está estructurado para que el aprendiz pueda avanzar desde los conceptos básicos de sutura más bajos hasta las técnicas más avanzadas paso a paso, y de manera organizada y metódica con aumentos incrementales en la dificultad.",
-                "zh-cn": "在本章中，您将学习您需要了解的所有内容。您将获得所需的实践，以提高最困难的缝线技术，您将能够对能够进行复杂的腹腔镜程序进行大的步骤。本章是结构化的，使受训者可以从最低缝合的基础推出到逐步的最先进的技术，并且以有组织和有条学的方式，难度增加增加。",
-                "ja": "この章では、縫合について知る必要があるすべてを学ぶことができます。あなたは最も困難な縫合技術を進めるのに必要な練習をするでしょう、そしてあなたは複雑な腹腔鏡手順を実行できるように大きなステップを作ることができるでしょう。この章は、研修生が最低の縫合の基本から最も先進的な技術まで進歩することができるように、漸進的に困難であると組織的かつ方法の様式的な方法で構成されています。"
+                "zh-cn": "在本章中，您将学习有关缝合的所有信息。您将获得必要的练习，以促进最困难的缝合技术，并且您将能够迈出重要的步骤，以执行复杂的腹腔镜手术。本章的结构化，以便学员可以从最低的缝合基础知识逐步发展到最先进的技术，并以有条理的有条不紊的方式以逐步增加的难度增加。",
+                "ja": "この章では、縫合について知る必要があるすべてを学びます。最も困難な縫合技術に進むために必要な慣行を獲得し、複雑な腹腔鏡手順を実行できるようにするための大きな一歩を踏み出すことができます。この章は、訓練生が最も低い縫合の基本から、段階的に最も高度なテクニックに進むことができるように構造化されており、難易度が漸進的に増加する組織的で系統的な方法で進みます。",
+                "hu": "Ebben a fejezetben mindent megtudhat, amit tudnia kell a varrásról. Megszerezheti a szükséges gyakorlatot, hogy továbbjuthasson a legnehezebb varrási technikákhoz, és nagy lépéseket tehet a komplex laparoszkópos eljárások elvégzésére. Ez a fejezet úgy van felépítve, hogy a gyakornok továbbléphessen a legalacsonyabb varrási alapoktól a legfejlettebb technikákig, lépésről lépésre, és szervezett és módszertani módon növekszik a nehézségi növekedéssel."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -38,17 +65,35 @@
                 "pl": "Krzywa uczenia przy nauce szycia",
                 "es": "Curva de aprendizaje de sutura",
                 "zh-cn": "缝合学习曲线",
-                "ja": "縫合学習曲線"
+                "ja": "縫合学習曲線",
+                "hu": "Varrási tanulási görbe"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "paragraph",
             "text": {
-                "en": "Laparoscopic suturing is a complex task that is evident by the prolonged learning curve. The struggle of learning this skill exists somewhat due to the simplicity in which it is usually taught. By assuming innate capacity in the student the instructor may give an oversimplified explanation of the task, instead expecting the student to make progress on his or her own.",
+                "en": "Laparoscopic suturing is a complex task that is evident by the prolonged learning curve. The struggle of learning this skill exists somewhat due to the simplicity in which it is usually taught. By assuming innate capacity in the trainee the instructor may give an oversimplified explanation of the task, instead expecting the treinee to make progress on his or her own.",
                 "pl": "Krzywa uczenia przy nauce szycia jest znacząco wydłużona. Trudności wynikają między innymi ze sposobu, w którym jest przeważnie uczona. Licząc na wcześniejsze predyspozycje studentów, instruktor często uczy tych umiejętności w sposób uproszczony oczekując od uczącego samodzielności w zdobywaniu umiejętności.",
                 "es": "La sutura laparoscópica es una tarea compleja que es evidente por la curva de aprendizaje prolongada. La lucha de aprender esta habilidad existe un poco debido a la simplicidad en la que se suele enseñar. Al asumir una capacidad innata en el estudiante, el instructor puede dar una explicación más flexible de la tarea, en cambio, esperando que el estudiante progrese sobre su propio.",
-                "zh-cn": "腹腔镜缝线是一种复杂的任务，即由长时间的学习曲线明显。学习这种技能的斗争存在于通常被教导的简单性的情况下存在。通过假设学生的先天能力，教师可能会产生过度简化的对任务的解释，而是期望学生在他或她自己上取得进展。",
-                "ja": "腹腔鏡下縫合は、長期の学習曲線によって明らかである複雑な作業です。このスキルを学ぶのの闘争は、それが通常教示されている単純さのために多少存在します。生徒の自然能力を想定することで、講師はそのタスクの明確化された説明を求めることができ、代わりに学生が自分の自分のものを進歩させることを期待しています。"
+                "zh-cn": "腹腔镜缝合是一项复杂的任务，长期学习曲线可以明显看出。学习这种技能的斗争有些存在，因为它通常教授它的简单性。通过假设学员的天生能力，讲师可以对任务进行过分简化的解释，而是期望跨越人民用自己自己的进步。",
+                "ja": "腹腔鏡下縫合は、長期にわたる学習曲線によって明らかな複雑なタスクです。このスキルを学ぶという闘争は、それが通常教えられるシンプルさのためにやや存在します。研修生の生来の能力を想定することにより、インストラクターはタスクの単純化された説明をすることができ、代わりにトレインが自分のもので進歩することを期待するかもしれません。",
+                "hu": "A laparoszkópos varrás egy összetett feladat, amelyet a meghosszabbított tanulási görbe nyilvánvaló. Ennek a készségnek a tanulásának küzdelme kissé fennáll az egyszerűség miatt, amelyben általában tanítják. A gyakornok veleszületett kapacitásának feltételezésével az oktató megkönnyített magyarázatot adhat a feladatról, ehelyett arra számíthat, hogy a Treinee önmagában halad."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -57,8 +102,17 @@
                 "en": "When observing experienced laparoscopic surgeons one can often get a sense that what they do is easy. When performed correctly, laparoscopic suturing does look simple and straightforward, the suture material obeys instrument movements and it does not tangle. However, although suturing is simple in principle the skill nevertheless requires an incredible amount of planning and foresight. It can be broken down into two core component skills which must be developed in parallel - needle handling and suture handling.",
                 "pl": "Obserwując chirurgów doświadczonych w laparoskopii można odnieść wrażenie, że to czym się zajmują jest łatwe. Poprawnie wykonane szycie laparoskopowe rzeczywiście wygląda swobodnie - nić zachowuje się tak jak operujący chce i nie plącze się. Aczkolwiek umiejętność szycia wymaga dużej ilości planowania i wyobraźni przestrzennej. Najlepszym sposobem zrozumienia szycia laparoskopowego jest rozbicie go na dwie odrębne składowe umiejętności. One mogą być rozwijane równolegle: przykładowo umiejętność kontrolowania i obracania igły oraz umiejętność kontrolowania samej nici.",
                 "es": "Al observar a los cirujanos laparoscópicos experimentados, a menudo puede tener una sensación de que lo que hacen es fácil. Cuando se realiza correctamente, la sutura laparoscópica se ve simple y sencilla, el material de sutura obedece movimientos de instrumentos y no se enreda. Sin embargo, aunque la sutura es simple, en principio, la habilidad, sin embargo, requiere una increíble cantidad de planificación y previsión. Se puede dividir en dos habilidades de componentes básicos que deben desarrollarse en paralelo: manejo de agujas y manejo de suturas.",
-                "zh-cn": "当观察有经验的腹腔镜外科医生时，人们通常可以了解他们所做的容易。当正确执行时，腹腔镜缝合确实看起来简单直观，缝合材料Obeys仪器运动，它不会缠结。然而，虽然缝合原则上很简单，但技能尽管如此需要令人难以置信的规划和远见。它可以分为两种核心组件技能，必须在并联 - 针处理和缝合处理中开发。",
-                "ja": "経験豊富な腹腔鏡外科医を観察すると、しばしば彼らがすることが簡単であるという意味を得ることができます。正しく実行されると、腹腔鏡下の縫合は単純で直接的に見え、縫合糸材料は機器の動きを遵守し、それはもつれません。しかし、原則として縫合は単純ではありませんが、それにもかかわらず、スキルは信じられないほどの計画と先見性を必要とします。それは並列的な取り扱いと縫合糸の取り扱いで開発されなければならない2つのコアコンポーネントスキルに分解することができます。"
+                "zh-cn": "当观察经验丰富的腹腔镜外科医师时，人们通常会感觉到他们的工作很容易。正确执行后，腹腔镜缝合确实看起来很简单明了，缝合材料遵守仪器的运动，并且不会缠结。但是，尽管缝合在原则上很简单，但是技能仍然需要大量的计划和远见。它可以分为两个核心组件技能，必须并行开发 - 针头处理和缝合处理。",
+                "ja": "経験豊富な腹腔鏡外科医を観察すると、しばしば彼らがしていることが簡単であるという感覚を得ることができます。正しく実行すると、腹腔鏡下縫合はシンプルで簡単に見え、縫合材料は機器の動きに従い、絡みません。ただし、縫合は原則として単純ですが、それでもスキルは信じられないほどの計画と先見性が必要です。針の取り扱いと縫合の取り扱いを並行して開発する必要がある2つのコアコンポーネントスキルに分解できます。",
+                "hu": "A tapasztalt laparoszkópos sebészek megfigyelésekor gyakran lehet érezni, hogy az, amit csinálnak, könnyű. Helyes végrehajtás esetén a laparoszkópos varratok egyszerűnek és egyértelműnek tűnik, a varrás anyag engedelmeskedik a műszermozgásoknak, és nem zavarja. Noha a varrás elvileg egyszerű, a készség mindazonáltal hihetetlen mennyiségű tervezést és előrelátást igényel. Két alapvető elemre bontható, amelyeket párhuzamos tűkezelésben és varratkezelésben kell fejleszteni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -67,25 +121,41 @@
                 "en": "There are several factors which must be taken into consideration when learning to handle suture material. At the scale at which the laparoscopic surgeon operates, memory of the suture material is one of the most important aspects for consideration in selection. Exercises performed during the Basic Skills demonstrated this concept well. Monofilament suture has more memory and can often help in creating loops to tie knots. This stiffness can however be a hindrance in other applications. If not properly understood, it can be the primary source of difficulty. Also, the length of the suture is very important in intracorporeal suturing, it should usually be between 10-30cm depending on the pattern being used.",
                 "pl": "Warto zwrócić uwagę na kilka czynników, które mają wpływ na naukę kontrolowania nici. Jednym z nich jest tak zwana pamięć nici, która zależna jest od wybranego rodzaju. Demonstrują to świetnie ćwiczenia wykonane podczas kursu podstawowych umiejętności podczas ćwiczeń ze sznurkiem. Przykładowo nić monofilamentowa ma większą pamięć i może pomóc w zakładaniu pętli i wiązania węzłów. Ta sztywność nici może być też barierą. Słabe zrozumienie tych właściwości może być dużym źródłem trudności dla początkującego. Innym czynnikiem jest długość samej nici, której potrzebna jest wystarczająca długość, żeby móc wykonać manewry, ale która się plącze kiedy jest zbyt długa.",
                 "es": "Hay varios factores que deben tomarse en consideración al aprender a manejar el material de sutura. En la escala a la que opera el cirujano laparoscópico, la memoria del material de sutura es uno de los aspectos más importantes para su consideración en la selección. Los ejercicios realizados durante las habilidades básicas demostraron bien este concepto. La sutura de monofilamento tiene más memoria y a menudo puede ayudar a crear bucles para atar nudos. Sin embargo, esta rigidez puede ser un obstáculo en otras aplicaciones. Si no se entiende adecuadamente, puede ser la principal fuente de dificultad. Además, la longitud de la sutura es muy importante en la sutura intracorpórea, generalmente debe estar entre 10-30 cm, dependiendo del patrón que se está utilizando.",
-                "zh-cn": "学习处理缝线材料时必须考虑有几个因素。在腹腔镜外科医生操作的规模中，缝合材料的记忆是在选择中考虑的最重要方面之一。在基本技能期间进行的练习展示了这一概念。单丝缝合线有更多的内存，并且通常可以帮助创造环绕结。然而，这种刚度可以是其他应用中的障碍。如果没有正确理解，它可以是主要的难度源。而且，缝合线的长度在体内缝合中非常重要，通常应在10-30cm之间，取决于所使用的图案。",
-                "ja": "縫合糸材料を取り扱うことを学ぶときに考慮に入れなければならないいくつかの要因があります。腹腔鏡下外科医が作動する規模では、縫合材料の記憶は選択的に考慮すべき最も重要な側面の1つである。基本的なスキルの間に実行される演習は、この概念をよく示しました。モノフィラメントの縫い目はもっとメモリを持っており、結び目を結ぶためにループを作成するのに役立ちます。しかしながら、この剛性は他の用途における障害であり得る。適切に理解されていない場合は、それは主要な困難な源です。また、縫合糸の長さは体内縫合内で非常に重要です、それは通常使用されているパターンに応じて10-30cmの間であるべきです。"
+                "zh-cn": "在学习处理缝合材料时，必须考虑几个因素。在腹腔镜外科医生运作的规模上，缝合材料的记忆是选择中最重要的方面之一。在基本技能期间进行的练习很好地证明了这一概念。单丝缝合线有更多的记忆力，通常可以帮助创建循环以打结。但是，这种刚度在其他应用中可能是障碍。如果未正确理解，它可能是难度的主要来源。同样，缝合线的长度在体内缝合方面非常重要，通常应在10-30厘米之间取决于所使用的模式。",
+                "ja": "縫合材料を処理することを学習する際に考慮しなければならないいくつかの要因があります。腹腔鏡外科医が動作する規模では、縫合物質の記憶は、選択において最も重要な側面の1つです。基本的なスキル中に実行された演習は、この概念をよく実証しました。モノフィラメント縫合には、より多くの記憶があり、結び目を結ぶループを作成するのに役立つことがよくあります。ただし、この剛性は、他のアプリケーションでは障害になる可能性があります。適切に理解されていない場合、それは難易度の主な原因になる可能性があります。また、縫合の長さは体内縫合において非常に重要であり、通常は使用されているパターンに応じて10〜30cmの間である必要があります。",
+                "hu": "Számos tényezőt kell figyelembe venni a varrás anyag kezelésének megtanulásakor. A laparoszkópos sebész működésének skáláján a varrás anyag memóriája az egyik legfontosabb szempont a kiválasztás szempontjából. Az alapvető készségek során végzett gyakorlatok jól mutatták ezt a koncepciót. A monofil varrásnak több memóriája van, és gyakran segíthet a csomók kötésének hurkok létrehozásában. Ez a merevség azonban akadályt jelenthet más alkalmazásokban. Ha nem értjük megfelelően, akkor ez lehet a nehézségi elsődleges forrása. Ezenkívül a varrás hossza nagyon fontos az intrakorporális varratokban, általában 10-30 cm-re kell lennie, a használt mintától függően."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu10_needle_handling_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Needles vary in size and shape. Needle packaging usually shows the exact cross-section shape of the needle. When suturing in MIS you should avoid needles that could cut the tissue in mid-throw. Remember, always pay attention to the properties of the needle and suture you want to use.",
-                        "pl": "Igły różnią się pod względem rozmiaru i kształtu. Opakowania na igły pokazują przekrój kształtu danej igły. Szyjąc w procedurach minimalnie inwazyjnych powinno się unikać igieł które mogłyby przecinać tkanki. Pamiętaj aby zawsze zwrócić uwagę na właściwości używanej igły i nici.",
-                        "es": "Las agujas varían en tamaño y forma. El embalaje de la aguja generalmente muestra la forma de sección transversal exacta de la aguja. Cuando se suturne en MIS, debe evitar las agujas que puedan cortar el tejido a medio tiro. Recuerde, siempre preste atención a las propiedades de la aguja y sutura que desea usar.",
-                        "zh-cn": "针的大小和形状有变化。针包装通常显示针的精确横截面形状。当在MES缝合时，您应该避免可以在中掷中切割组织的针头。请记住，始终注意您要使用的针和缝合线的属性。",
-                        "ja": "針は大きさと形状が異なります。ニードルパッケージングは​​通常、針の正確な断面形状を示しています。 MISで縫合するとき、あなたはミッドスロー中の組織を切ることができる針を避けるべきです。覚えておいて、常に使用したい針や縫合糸の特性に注意を払います。"
-                    }
+            "media": {
+                "url": "edu10_needle_handling_01.png",
+                "type": "image",
+                "label": {
+                    "en": "Needles vary in size and shape. Needle packaging usually shows the exact cross-section shape of the needle. When suturing in MIS you should avoid needles that could cut the tissue in mid-throw. Remember, always pay attention to the properties of the needle and suture you want to use.",
+                    "pl": "Igły różnią się pod względem rozmiaru i kształtu. Opakowania na igły pokazują przekrój kształtu danej igły. Szyjąc w procedurach minimalnie inwazyjnych powinno się unikać igieł które mogłyby przecinać tkanki. Pamiętaj aby zawsze zwrócić uwagę na właściwości używanej igły i nici.",
+                    "es": "Las agujas varían en tamaño y forma. El embalaje de la aguja generalmente muestra la forma de sección transversal exacta de la aguja. Cuando se suturne en MIS, debe evitar las agujas que puedan cortar el tejido a medio tiro. Recuerde, siempre preste atención a las propiedades de la aguja y sutura que desea usar.",
+                    "zh-cn": "针的大小和形状各不相同。针包装通常显示针的精确横截面形状。在MIS中缝合时，您应该避免可以在中期切割组织的针头。请记住，始终注意要使用的针和缝合线的特性。",
+                    "ja": "針のサイズと形状はさまざまです。針包装は通常、針の正確な断面形状を示します。 MISで縫合するときは、投球中に組織を切る可能性のある針を避ける必要があります。使用したい針と縫合の特性に常に注意を払ってください。",
+                    "hu": "A tűk méretük és alakja eltérő. A tűcsomagolás általában a tű pontos keresztmetszeti alakját mutatja. Amikor a MIS-ben varrni kell, kerülje el azokat a tűket, amelyek a szövettel megszakíthatják a dobás közepén. Ne feledje, mindig figyeljen a használni kívánt tű és varrás tulajdonságaira."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -93,8 +163,17 @@
                 "en": "Intro to Needle Handling",
                 "pl": "Wstęp do kontrolowania i obracania igły",
                 "es": "Introducción a la manipulación de la aguja.",
-                "zh-cn": "介绍针处理",
-                "ja": "針の扱いへのイントロ"
+                "zh-cn": "介绍针头处理",
+                "ja": "針の取り扱いへのイントロ",
+                "hu": "Bevezető a tűkezeléshez"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -103,18 +182,36 @@
                 "en": "Because it is easy to get a sense that one has sufficiently grasped the skill of suturing at an early stage, laparoscopic surgeons in training often feel the urge to advance to more difficult knots, without thoroughly and sufficiently developing the core component skills. Counter-intuitively, this creates a barrier to learning because an important aspect is essentially skipped: the ability to position and handle the needle.",
                 "pl": "Trenujący podstawowe umiejętności laparoskopowe często dość wcześnie odnoszą wrażenie, że zdobyli wystarczający poziom zaawansowania. Że mogą awansować do skomplikowanych węzłów i układów jednocześnie nie rozwijając najbardziej podstawowych umiejętności opisanych powyżej. Generuje to barierę przed nauką ponieważ ważny aspekt jest pomijany: możliwość umiejętnego pozycjonowania i obracania igły.",
                 "es": "Debido a que es fácil tener la sensación de que uno ha agarrado lo suficiente la habilidad de sutura en una etapa temprana, los cirujanos laparoscópicos en la capacitación a menudo sienten la necesidad de avanzar a nudos más difíciles, sin desarrollar a fondo y suficientemente el desarrollo de las habilidades del componente central. Contramentamente, esto crea una barrera para aprender porque un aspecto importante es esencialmente omitido: la capacidad de posicionar y manejar la aguja.",
-                "zh-cn": "因为很容易理解，一个人在早期阶段充分掌握了缝合的技能，训练中的腹腔镜外科医生经常感受到前进到更加困难的结的冲动，而不是彻底，充分地发展核心组件技能。反直观地，这为学习创造了一个障碍，因为基本上跳过了一个重要的方面：定位和处理针的能力。",
-                "ja": "早い段階で縫合のスキルを十分に把握しているという意味で、訓練の腹腔鏡外科医は、徹底的かつ十分にコアコンポーネントのスキルを開発することなく、より難しい結び目に促進するという衝動を感じることが多いためです。反動的に、これは重要な側面が本質的にスキップされているため、学習に対する障壁を作成します。"
+                "zh-cn": "因为很容易感觉到人们已经足够掌握了早期缝合的技巧，所以腹腔镜外科医生在训练中经常感到渴望迈向更加困难的结，而没有彻底和足够的核心成分技能。违反直觉，这为学习创造了一个障碍，因为一个重要方面实际上是跳过的：定位和处理针的能力。",
+                "ja": "初期段階で縫合のスキルを十分に把握しているという感覚を得るのは簡単であるため、トレーニングの腹腔鏡外科医は、コアコンポーネントのスキルを完全かつ十分に開発することなく、より困難な結び目に進む衝動を感じることがよくあります。直感的には、重要な側面が本質的にスキップされるため、これは学習に対する障壁を作り出します。つまり、針を配置して処理する能力です。",
+                "hu": "Mivel könnyű megérteni, hogy az ember eléggé megragadta a varrás képességét egy korai szakaszban, a laparoszkópos sebészek az edzés során gyakran érzik a vágyát, hogy továbbfejlesszék a nehezebb csomókat, anélkül, hogy alaposan és kellően fejlesztenék az alapvető képességeket. Intuitív módon ez akadályt teremt a tanulásban, mivel a fontos szempontot lényegében kihagyják: a tű elhelyezésének és kezelésének képessége."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "paragraph",
             "text": {
-                "en": "At the core of effective suturing in laparoscopy is the skill to set the needle perpendicular to the shaft of the needle holder. Many students underestimate its importance and focus undue time on the ability to tie an intracorporeal knot with the suture after poorly driving the needle through the target structure. The ability to tie a knot is useless without the ability to place the needle in the proper location and at an optimal angle. In this chapter you will develop the essential basics of how to grasp the needle with a needle holder and you will learn many tricks which will help you rotate and manipulate the position of the needle between the instruments. Complex knots are an order of magnitude easier to tie once a sufficient level of control over the needle is developed.",
+                "en": "At the core of effective suturing in laparoscopy is the skill to set the needle perpendicular to the shaft of the needle holder. Many trainees underestimate its importance and focus undue time on the ability to tie an intracorporeal knot with the suture after poorly driving the needle through the target structure. The ability to tie a knot is useless without the ability to place the needle in the proper location and at an optimal angle. In this chapter you will develop the essential basics of how to grasp the needle with a needle holder and you will learn many tricks which will help you rotate and manipulate the position of the needle between the instruments. Complex knots are an order of magnitude easier to tie once a sufficient level of control over the needle is developed.",
                 "pl": "Najważniejszym aspektem efektywnego szycia w laparoskopii jest umiejętność nastawienia igły pod odpowiednim kątem w imadle tak, żeby igła była pod optymalnym kątem wobec tkanki. Wiele adeptów laparoskopii nie docenia wagi tej umiejętności i zamiast tego koncentruje uwagę na umiejętność zawiązania węzła po źle wykonanym przekłuciu przez docelowe miejsce. Umiejętność zawiązania węzła jest bezużyteczna bez umiejętności umieszczenia igły we właściwym miejscu, pod właściwym kątem. W następującym rozdziale trenujący pozna podstawy chwytania igły imadłem i nauczy się wielu technik, które pomogą w swobodnym obracaniu i manipulacji pozycji igły pomiędzy instrumentami. Skomplikowane węzły stają się tak naprawdę o wiele łatwiejsze do wykonania, kiedy rozwinięty zostanie odpowiedni poziom kontroli nad igłą.",
                 "es": "En el núcleo de la sutura efectiva en la laparoscopia, es la habilidad para configurar la aguja perpendicular al eje del soporte de la aguja. Muchos estudiantes subestiman su importancia y enfoque el tiempo indebido sobre la capacidad de atar un nudo intracorpóreo con la sutura después de conducir mal la aguja a través de la estructura objetivo. La capacidad de atar un nudo es inútil sin la capacidad de colocar la aguja en la ubicación adecuada y en un ángulo óptimo. En este capítulo, desarrollará los elementos básicos esenciales de cómo agarrar la aguja con un soporte de aguja y aprenderá muchos trucos que lo ayudarán a girar y manipular la posición de la aguja entre los instrumentos. Los nudos complejos son un orden de magnitud más fácil de atar una vez que se desarrolla un nivel de control suficiente sobre la aguja.",
-                "zh-cn": "在腹腔镜检查中有效缝合的核心是将垂直于针座轴的轴的技能。许多学生低估了其重要性，并在通过目标结构速度速度速度驱动针后将缝合器与缝合线绑定的能力。在没有将针放在适当位置和最佳角度的能力，将结的能力无用。在本章中，您将开发如何用针刺器抓住针的基本基础，您将学习许多技巧，这将有助于您旋转和操纵仪器之间针的位置。复杂结是在开发针对针头上足够的控制水平的情况下更容易绑定的数量级。",
-                "ja": "腹腔鏡検査における効果的な縫合の中核は、針を針ホルダーのシャフトに垂直に設定するためのスキルです。多くの学生はその重要性を過小評価し、標的構造を介して針を駆動した後に縫合室とを結び付ける能力について過度の時間を焦点にさらしています。結び目を結び付ける能力は、針を適切な場所に配置し、最適な角度で役立ちます。この章では、針保持者で針をつかむ方法の必須基本を開発し、あなたが楽器間の針の位置を回転させ操作するのに役立つ多くのトリックを学ぶでしょう。複雑な結び目は、針の上に十分なレベルの制御が開発されると結びつくのが簡単な桁です。"
+                "zh-cn": "腹腔镜有效缝合的核心是将针头垂直于针固定器的轴固定的技能。许多受训者低估了其重要性，并将不当的时间集中在将针对缝合线绑在目标结构的情况下，将体内结与缝合线联系起来的能力。打结的能力是无用的，没有能力将针放在适当的位置和最佳角度。在本章中，您将开发如何用针固定器抓住针头的基本基础知识，您将学习许多技巧，这些技巧将帮助您旋转并操纵仪器之间的针头。一旦开发出足够的控制针头，复杂的结是一个数量级，更容易平局。",
+                "ja": "腹腔鏡検査における効果的な縫合の中核は、針ホルダーのシャフトに垂直に針を設定するスキルです。多くの研修生は、その重要性を過小評価し、標的構造から針を運転していない後、体内の結び目を縫合糸で結び付ける能力に過度の時間を集中しています。結び目を結ぶ能力は、針を適切な場所と最適な角度に配置する能力なしでは役に立ちません。この章では、針ホルダーで針をつかむ方法の本質的な基本を開発すると、楽器間の針の位置を回転させて操作するのに役立つ多くのトリックを学びます。複雑な結び目は、針に対する十分なレベルの制御が開発されると、ほぼ1桁の結びつきがあります。",
+                "hu": "A laparoszkópiában a tényleges varrálás középpontjában az a készség, hogy a tűt a tűtartó tengelyére merőleges beállítsák. Sok gyakornok alábecsüli fontosságát, és indokolatlan időt arra összpontosít, hogy képes -e egy intrakorporális csomót a varrással kötni, miután a tűt rosszul vezette a célszerkezeten keresztül. A csomó lekötésének képessége haszontalan anélkül, hogy a tűt a megfelelő helyre és az optimális szögbe helyezheti. Ebben a fejezetben kidolgozza azt a lényeges alapot, hogy miként lehet megfogni a tűt egy tűtartóval, és sok trükköt megtanul, amelyek segítenek a tű elforgatásában és manipulálásában a műszerek között. A komplex csomók olyan nagyságrenddel, amely könnyebben megköthető, ha elegendő szintű vezérlést fejlesztettek ki."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -123,8 +220,17 @@
                 "en": "Suture Material",
                 "pl": "Nić chirurgiczna",
                 "es": "Material de sutura",
-                "zh-cn": "缝线材料",
-                "ja": "縫合材料"
+                "zh-cn": "缝合材料",
+                "ja": "縫合材料",
+                "hu": "Varrás anyag"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -133,8 +239,17 @@
                 "en": "A separate aspect of laparoscopic suturing is the ability to tangle, untangle, direct and to control the suture material. For this skill, which is distinct and separate from needle handling, the trainee will benefit from learning basic knots on the thick rope and the modules which are included.",
                 "pl": "Całkowicie oddzielnym aspektem szycia w laparoskopii jest umiejętność obracania, skręcania, kierowania i kontrolowania nici. Ta umiejętność, całkowicie oddzielna od umiejętności kontroli nad igłą, może być rozwijana od podstawowych węzłów wykonywanych na grubszym sznurku i na zawartych modułach.",
                 "es": "Un aspecto separado de la sutura laparoscópica es la capacidad de enredarse, desenredar, directamente y controlar el material de sutura. Para esta habilidad, que es distinta y separada del manejo de la aguja, el aprendiz se beneficiará de aprender nudos básicos en la cuerda gruesa y los módulos que se incluyen.",
-                "zh-cn": "腹腔镜缝合的单独方面是能够缠结，解开，直接和控制缝合材料。对于这种明显和与针处理分开的技能，学员将受益于粗绳索和包括的模块上的学习基本结。",
-                "ja": "腹腔鏡下縫合の別個の側面は、縫合材料を段階的、非打ち切り、直接および制御する能力である。針取扱いとは異なるこのスキルのために、研修生は厚いロープ上の基本結び目と含まれるモジュールの基本結び目を学ぶことから利益を得るでしょう。"
+                "zh-cn": "腹腔镜缝合的一个单独方面是纠缠，解开，直接和控制缝合物材料的能力。对于这种技能（与针头处理的不同），学员将受益于在厚绳索和包含的模块上学习基本结。",
+                "ja": "腹腔鏡下縫合の個別の側面は、絡み合って、解き、直接的な材料を制御する能力です。針の取り扱いとは異なるこのスキルのために、研修生は厚いロープと含まれるモジュールで基本的な結び目を学ぶことから恩恵を受けます。",
+                "hu": "A laparoszkópos varrás különálló aspektusa az a képesség, hogy a varrat anyagát kusza, kibontakozhassuk, irányítsák és irányítsák. Ennek a készségnek, amely megkülönböztethető és elkülönül a tűkezeléstől, a gyakornok számára előnyös lesz, ha a vastag kötélen alapvető csomókat és a mellékelt modulokat tanulja meg."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -143,25 +258,64 @@
                 "en": "The thick rope used in these exercises is different from real suture material and the twine used earlier. The rope also does not behave exactly like the real suture material, but because of the thickness it is much easier to grasp and direct it, and then it is also much easier to perceive the exact knot structure. Upon developing an understanding of the knots, it is much easier to advance to the real suture material.",
                 "pl": "Sznurek użyty w tych ćwiczeniach różni się od prawdziwej nici i sznurka użytego wcześniej. Nie zachowuje się tak naprawdę tak jak prawdziwa nić, aczkolwiek ze względu na grubość jest łatwiejszy do łapania, obracania i kierowania. Z grubym sznurkiem możliwe jest też dostrzeżenie struktury samego węzła. Po rozwinięciu umiejętności wiązania węzłów na sznurku, łatwiejsze jest awansowanie do szycia prawdziwymi nićmi.",
                 "es": "La cuerda gruesa utilizada en estos ejercicios es diferente del material real de sutura y el cordel se usa antes. La cuerda tampoco se comporta exactamente como el material de sutura real, sino por el grosor, es mucho más fácil de captarlo y dirigirlo, y luego también es mucho más fácil percibir la estructura de nudos exactos. Al desarrollar una comprensión de los nudos, es mucho más fácil avanzar al material de sutura real.",
-                "zh-cn": "这些练习中使用的厚绳不同于真正的缝合材料和较早使用的麻线。绳子也不像真正的缝合材料一样行事，但由于厚度更容易掌握并引导它，然后感知确切的结结构也更容易。在开发对结的理解时，将更容易地前进到真正的缝合材料。",
-                "ja": "これらの演習で使用されている厚いロープは、実際の縫合材料と早く使用されているひねりとは異なります。ロープはまた、本物の縫合材料のように正確に振る舞わないが、厚さのためにそれをつかむことがはるかに容易であり、そしてそれから正確な結び目構造を知覚することもはるかに容易である。結び目の理解を深めると、実際の縫合材料に進むのがはるかに簡単である。"
+                "zh-cn": "这些练习中使用的厚绳索不同于真实的缝合材料和较早使用的麻线。绳索也不像真实的缝合力材料完全一样，但是由于厚度，它更容易掌握和指导它，然后才能感觉到精确的结结构也容易得多。在对结的理解发展后，更容易晋升为真正的缝合材料。",
+                "ja": "これらのエクササイズで使用されている厚いロープは、実際の縫合材料とは異なり、先ほど使用したひもが異なります。また、ロープは本物の縫合材料とまったく同じように動作しませんが、厚さのために把握して指示するのがはるかに簡単で、正確な結び目構造を知覚する方がはるかに簡単です。結び目を理解すると、実際の縫合材料に進むのがはるかに簡単です。",
+                "hu": "Az ezekben a gyakorlatokban használt vastag kötél különbözik a valódi varrat anyagától és a korábban használt zsinegtől. A kötél szintén nem úgy viselkedik, mint a valódi varrás anyag, de a vastagság miatt sokkal könnyebb megfogni és irányítani, és akkor sokkal könnyebb a pontos csomószerkezetet érzékelni. A csomók megértésének kidolgozásakor sokkal könnyebb továbbjutni a valódi varrás anyaghoz."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Basic Suturing Skills",
-        "pl": "Podstawowe umiejętności szycia",
-        "es": "Habilidades básicas de sutura",
-        "zh-cn": "基本缝合技巧",
-        "ja": "基本的な縫合スキル"
+        "text": {
+            "en": "Basic Suturing Skills",
+            "pl": "Podstawowe umiejętności szycia",
+            "es": "Habilidades básicas de sutura",
+            "zh-cn": "基本的缝合技巧",
+            "ja": "基本的な縫合スキル",
+            "hu": "Alapvető varrási készségek"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "About the learning curve and the skills necessary to master laparoscopic suturing.",
-        "pl": "O krzywej uczenia i umiejętnościach koniecznych do zdobycia umiejętności szycia laparoskopowego.",
-        "es": "Sobre la curva de aprendizaje y las habilidades necesarias para dominar la sutura laparoscópica.",
-        "zh-cn": "关于学习曲线和掌握腹腔镜缝合所需的技能。",
-        "ja": "学習曲線と腹腔鏡下縫合を習得するのに必要なスキルについて。"
+        "text": {
+            "en": "About the learning curve and the skills necessary to master laparoscopic suturing.",
+            "pl": "O krzywej uczenia i umiejętnościach koniecznych do zdobycia umiejętności szycia laparoskopowego.",
+            "es": "Sobre la curva de aprendizaje y las habilidades necesarias para dominar la sutura laparoscópica.",
+            "zh-cn": "关于学习曲线以及掌握腹腔镜缝合所需的技能。",
+            "ja": "学習曲線と腹腔鏡縫合を習得するために必要なスキルについて。",
+            "hu": "A tanulási görbéről és a laparoszkópos varratok elsajátításához szükséges készségekről."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

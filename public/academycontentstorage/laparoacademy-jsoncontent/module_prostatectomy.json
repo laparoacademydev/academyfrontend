@@ -52,7 +52,6 @@
             "position": 2
         }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -132,7 +131,9 @@
             ]
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "prostatectomy",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -155,19 +156,27 @@
         "hu": "Eljárás, urológia"
     },
     "description": {
-        "en": "Procedure, Urology",
-        "pl": "Procedure, Urologia",
-        "es": "Procedimiento, urología",
-        "zh-cn": "程序，泌尿科",
-        "ja": "手順、泌尿器科",
-        "hu": "Eljárás, urológia"
+        "en": "This exercise focuses on the final step of a prostatectomy which follows the removal of the prostate. The goal is to perform an anastomosis between the opening of the bladder and the urethra.",
+        "pl": "Ćwiczenie obejmuje ostatni krok prostatektomii który następuje po usunięciu prostaty. Celem jest wykonanie zespolenia pomiędzy pęcherzem oraz cewką moczową.",
+        "es": "Este ejercicio se centra en el paso final de una prostatectomía que sigue la eliminación de la próstata. El objetivo es realizar una anastomosis entre la apertura de la vejiga y la uretra.",
+        "zh-cn": "这项运动的重点是前列腺切除术的最后一步，后者是去除前列腺的。目的是在膀胱开口和尿道之间进行吻合。",
+        "ja": "この演習は、前立腺の除去に続く前立腺切除の最終ステップに焦点を当てています。目標は、膀胱の開口部と尿道の間に吻合を行うことです。",
+        "hu": "Ez a gyakorlat a prosztatektómia utolsó lépésére összpontosít, amely a prosztata eltávolítását követi. A cél az anastomosis végrehajtása a hólyag megnyitása és a húgycső között."
     },
-    "instructions": {},
+    "instructions": {
+        "en": "Bring in a needle along with suture into the operating area. Begin by driving the needle through the posterior edge of the opening on the bladder and then through the posterior edge of the rim of the ureter. Place a single surgical knot and cut off the remaining suture. Repeat three or more times around the openings, finishing with the anterior edge.",
+        "pl": "Wprowadź igłę wraz z nicią do pola operacyjnego. Przekłuj się przez tylną krawędź otworu w pęcherzu po czym przekłuj się przez tylną krawędź otworu w cewce moczowej. Zawiąż pojedynczy węzeł chirurgiczny i odetnij końcówki nici. Powtórz ten manewr trzy albo więcej razy wokół krawędzi otworów i pamiętaj aby zakończyć na przedniej krawędzi.",
+        "es": "Traiga una aguja junto con sutura al área de operación. Comience conduciendo la aguja a través del borde posterior de la abertura en la vejiga y luego a través del borde posterior del borde del uréter. Coloque un solo nudo quirúrgico y corte la sutura restante. Repita tres o más veces alrededor de las aberturas, terminando con el borde anterior.",
+        "zh-cn": "将针与缝合线一起进入操作区域。首先，将针刺穿过膀胱上的开口的后边缘，然后穿过输尿管轮辋的后边缘。放置一个手术结并切断剩余的缝合线。在开口周围重复三次或更多次，并在前边缘结束。",
+        "ja": "縫合と一緒に針を運転エリアに持ち込みます。針を膀胱の開口部の後端から、そして尿管の縁の後縁を通って針を駆動することから始めます。 1つの外科的結び目を置き、残りの縫合を切り取ります。開口部の周りで3回以上繰り返し、前縁で仕上げます。",
+        "hu": "Hozzon be egy tűt a varrattal együtt a működési területre. Kezdje úgy, hogy a tűt a húgyhólyag nyílásának hátsó szélén, majd a húgycső peremének hátsó szélén keresztül hajtsa végre. Helyezzen el egyetlen műtéti csomót, és vágja le a fennmaradó varratot. Ismételje meg három vagy többször a nyílások körül, az elülső szélével befejezve."
+    },
     "preparation": {
-        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
-        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
-        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
-        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
-        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+        "en": "Clip the bladder and the ureter as shown into the prostatectomy holder. You may adjust the tension between the elements to create more, or less tension on the tissues, increasing or decreasing the difficulty of the scenario.",
+        "pl": "Przymocuj pęcherz oraz cewkę moczową do modułu prostatektomii. Możesz dostosować napięcie pomiędzy tymi elementami aby wytworzyć większ lub mniejsze napięcie na tkankach co ułatwi albo utrudni to ćwiczenie.",
+        "es": "Clote la vejiga y el uréter como se muestra en el soporte de prostatectomía. Puede ajustar la tensión entre los elementos para crear más o menos tensión en los tejidos, aumentando o disminuyendo la dificultad del escenario.",
+        "zh-cn": "如前所述，将膀胱和输尿管夹在前列腺切除术中。您可以调整元素之间的张力，以在组织上产生更多或更少的张力，从而增加或减少场景的难度。",
+        "ja": "前立腺切除術所に示されているように、膀胱と尿管をクリップします。要素間の緊張を調整して、組織の緊張度を高めるか、それほど少ないか、シナリオの難しさを増加または減少させることができます。",
+        "hu": "Keverje el a hólyagot és a húgyát a prosztatektómia tartójába. Beállíthatja az elemek közötti feszültséget, hogy több vagy kevesebb feszültséget hozzon létre a szöveteknél, növelve vagy csökkentve a forgatókönyv nehézségét."
     }
 }

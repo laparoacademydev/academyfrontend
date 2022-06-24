@@ -7,8 +7,17 @@
                 "en": "The Laparo Advanced Suturing Skills course is intended for those who already have completed the Laparo Basic Skills, Basic Suturing Skills and Intermediate Instrument Handling Skills courses. The exercises below focus on the execution of complex suturing patterns with the use of the basic suturing skills developed earlier. These exercises are also recommended to laparoscopic surgeons who are already practicing and are familiar with the nature of laparoscopic suturing but wish to push the boundaries of their capabilities.",
                 "pl": "Kurs szycia zaawansowanego skierowany jest do tych, którzy ukończyli poprzedzające rozdziały szkolące podstawowe umiejętności, podstawowe umiejętności szycia i średnio-zaawansowane umiejętności. Ćwiczenia zawarte poniżej skupiają uwagę na wykonywaniu kompleksowych wzorów i szwów przy pomocy podstawowych umiejętności wyćwiczonych wcześniej. Poniższe ćwiczenia są też skierowane do tych, którzy są już już praktykami techniki laparoskopowej i chcą poszerzać granice swoich możliwości.",
                 "es": "El curso de habilidades de sutura avanzada de Laparo está destinado a aquellos que ya han completado las habilidades básicas de Laparo, las habilidades básicas de sutura y los cursos de habilidades de manejo de instrumentos intermedios. Los ejercicios a continuación se centran en la ejecución de patrones de sutura complejos con el uso de las habilidades básicas de sutura desarrolladas anteriormente. Estos ejercicios también se recomiendan a cirujanos laparoscópicos que ya están practicando y están familiarizados con la naturaleza de la sutura laparoscópica, pero desean impulsar los límites de sus capacidades.",
-                "zh-cn": "Laparo高级缝线技能课程适用于那些已经完成了Laparo基本技能的人，基本缝合技能和中间仪器处理技能课程。下面的练习专注于执行复杂的缝合模式，利用早期开发的基本缝合技能。这些练习也被推荐给已经练习并熟悉腹腔镜缝合的性质，但希望推动其能力的界限的腹腔镜技术。",
-                "ja": "Laparo Advanced Sutuling Skillsコースは、すでにLaparoの基本的なスキル、基本的な縫合スキル、および中間機器処理スキルコースを完了した人を対象としています。以前に開発された基本的な縫合スキルを使用して、複雑な縫合パターンの実行に焦点を当てています。これらの演習は、すでに練習している腹腔鏡外科医にも推奨されており、腹腔鏡下縫合の性質に精通していますが、能力の境界を推進したいと考えています。"
+                "zh-cn": "Laparo高级缝合技能课程旨在为已经完成Laparo基本技能，基本缝合技能和中级乐器处理技能课程的人提供。下面的练习重点是使用早期发展的基本缝合技巧来执行复杂的缝合模式。这些运动也建议给已经练习并且熟悉腹腔镜缝合性质但希望突破其能力界限的腹腔镜外科医生。",
+                "ja": "Laparo Advanced Suturing Skillsコースは、Laparo Basic Skills、Basic Suturing Skills、および中級の機器処理スキルコースをすでに完了している人を対象としています。以下のエクササイズは、以前に開発された基本的な縫合スキルを使用した複雑な縫合パターンの実行に焦点を当てています。これらの演習は、すでに練習しており、腹腔鏡下縫合の性質に精通しているが、能力の境界を押し広げたい腹腔鏡外科医にも推奨されます。",
+                "hu": "A Laparo Advanced Suturing Skills tanfolyam azoknak szól, akik már befejezték a Laparo alapvető készségeit, az alapvető varrási készségeket és a közbenső műszerkezelési készségeket. Az alábbi gyakorlatok a komplex varrási minták végrehajtására összpontosítanak a korábban kifejlesztett alapvető varrási készségek felhasználásával. Ezeket a gyakorlatokat a laparoszkópos sebészeknek is ajánlják, akik már gyakorolnak és ismerik a laparoszkópos varratok természetét, de meg akarják tolni képességeik határait."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -17,8 +26,17 @@
                 "en": "Developing skill with limited space helps develop good habits for all laparoscopic suturing approaches.",
                 "pl": "Umiejętność poruszania się w ograniczonym polu pomaga w rozwijaniu dobrych nawyków.",
                 "es": "Desarrollar habilidad con espacio limitado ayuda a desarrollar buenos hábitos para todos los enfoques de sutura laparoscópica.",
-                "zh-cn": "发展空间有限的技能有助于为所有腹腔镜缝合方法产生良好的习惯。",
-                "ja": "スペースが限られているスキルを開発するのは、すべての腹腔鏡下縫合アプローチのための良い習慣を発症するのに役立ちます。"
+                "zh-cn": "使用有限的空间发展技能有助于养成所有腹腔镜缝合方法的良好习惯。",
+                "ja": "限られたスペースでスキルを開発することは、すべての腹腔鏡下縫合アプローチに適した習慣を開発するのに役立ちます。",
+                "hu": "A korlátozott térben végzett készség fejlesztése elősegíti a jó szokások kialakulását az összes laparoszkópos varrási megközelítéshez."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -27,8 +45,17 @@
                 "en": "First, the trainee will become acquainted with continuous suturing patterns which depend in difficulty on the orientation of the target structures. These exercises are then followed by more difficult exercises perfrormed on the Advanced Suturing Platform. A set of exercises forces the trainee to apply sutures within spatial constraints imposed by the Advanced Suturing Platform. Developing skill with this limited space helps develop good habits for all laparoscopic suturing approaches as they prevent the trainee from moving the instruments outside of the limited amount of space available. Basic Suturing Exercises give an extra amount of freedom of movement, even outside the field of view which is not acceptable in a real laparoscopic procedure. The Advanced Suturing Skills course concludes with exercises performed on the top of the Advanced Suturing Platform. These exercises deal with simualted tissue under tension and direct the trainee to perform complex anastomosis maneuvers with the use of sliding knots. Upon successful completion of all of these exercises the trainee will have the skills necessary to perform laparoscopic procedures. Further skill development can occur through repetitive practice.",
                 "pl": "W pierwszej kolejności trenujący zmierzy się ze szwami ciągłymi. Po tych pierwszych ćwiczeniach następują trudniejsze, wykonywane przy pomocy platformy do szycia zaawansowanego. Uczący zmierzy się z zestawem ćwiczeń, w których  będzie zakładać podstawowe szwy i węzły wewnątrz ograniczonego pola dostępu spowodowanego platformą. Umiejętność poruszania się w ograniczonym polu pomaga w rozwijaniu dobrych nawyków. Wykonywane wcześniej ćwiczenia z szycia podstawowego umożliwiają szeroki zakres ruchu, co jest nieadekwatne do warunków podczas prawdziwego zabiegu laparoskopowego. Finalny zestaw ćwiczeń w Kursie zaawansowanym wykonywany jest na górnej części platformy do szycia zaawansowanego. Ćwiczenia te symulują tkanki pod napięciem i prowadzą trenującego przez skomplikowane manewry zespoleń przy pomocy węzłów przesuwnych. Po wykonaniu tych ćwiczeń wewnątrz zadanych parametrów i czasu można powiedzieć, że trenujący zademonstrował wystarczające umiejętności w posługiwaniu się instrumentami do wykonywania zabiegów laparoskopowych. ",
                 "es": "Primero, el aprendiz se familiarizará con los patrones de sutura continua que dependen de la dificultad de la orientación de las estructuras objetivo. Estos ejercicios son seguidos por ejercicios más difíciles, perfumados en la plataforma de sutura avanzada. Un conjunto de ejercicios obliga al aprendiz para aplicar suturas dentro de las restricciones espaciales impuestas por la plataforma de sutura avanzada. El desarrollo de habilidades con este espacio limitado ayuda a desarrollar buenos hábitos para todos los enfoques de sutura laparoscópica, ya que impiden que el aprendiz movga los instrumentos fuera de la cantidad limitada de espacio disponible. Los ejercicios de sutura básicos dan una cantidad extra de libertad de movimiento, incluso fuera del campo de visión que no es aceptable en un procedimiento laparoscópico real. El curso avanzado de habilidades de sutura concluye con los ejercicios realizados en la parte superior de la plataforma de sutura avanzada. Estos ejercicios tratan con tejido simulado bajo tensión y dirija el aprendiz para realizar maniobras de anastomosis complejas con el uso de nudos deslizantes. Tras la finalización exitosa de todos estos ejercicios, el aprendiz tendrá las habilidades necesarias para realizar procedimientos laparoscópicos. Un mayor desarrollo de habilidades puede ocurrir a través de la práctica repetitiva.",
-                "zh-cn": "首先，实习生将熟悉连续缝合图案，这取决于目标结构的取向难以困难。然后，这些练习随后在先进的缝合平台上提供更加困难的练习。一系列练习迫使受训人员在先进缝合平台施加的空间限制内应用缝合线。具有这种有限空间的发展技巧有助于为所有腹腔镜缝合方法产生良好的习惯，因为它们防止受训者在可用空间数量的空间之外移动仪器。基本缝合练习甚至在实际腹腔镜手术过程中不可接受的视野外，提供了额外的运动自由。先进的缝线技能课程与先进缝合平台顶部进行的练习结束。这些练习在紧张下处理了仿真组织，并指导了受训者在使用滑动结的情况下进行复杂的吻合吻合器。在成功完成所有这些练习后，受训者将具有执行腹腔镜程序所需的技能。通过重复的实践，可以进行进一步的技能发展。",
-                "ja": "第一に、研修生はターゲット構造の向きに困難に依存する連続縫合パターンを知り合いになるだろう。その後、これらの演習に続いて、高度な縫合プラットフォーム上で灌流されたより困難な演習が続きます。一連のエクササイズは、研修生に高度な縫合プラットフォームによって課される空間的な制約内で縫合糸を適用させる。この限られたスペースのスキルを開発するのに役立ち、研修生が限られた量のスペースの限られた量のスペースの外側にある機器を動かすのを防ぐため、すべての腹腔鏡下縫合アプローチのための良い習慣を発症するのに役立ちます。基本的な縫合演習は、実際の腹腔鏡手術では受け入れられない視野の外側でさえも、余分な動きの自由度を与えます。高度な縫合スキルコースは、高度な縫合プラットフォームの上部で行われる演習を終えています。これらの演習は、緊張した組織を扱い、スライドノットの使用を伴う複雑な吻合操作を実行するように研修生に向けます。これらのエクササイズの全てが正しく完了すると、研修生は腹腔鏡手術を行うために必要なスキルを持つでしょう。さらなるスキル発展は繰り返しの練習によって起こり得る。"
+                "zh-cn": "首先，学员将熟悉连续的缝合模式，这些模式取决于目标结构的方向。然后，这些练习在高级缝合平台上进行了更加困难的练习。一组练习迫使受训者在高级缝合平台施加的空间约束中应用缝合线。在这个有限的空间中，开发技能有助于养成所有腹腔镜缝合方法的良好习惯，因为它们阻止了受训者将仪器移至可用空间的有限空间之外。基本的缝合练习可以提供额外的运动自由度，即使在视野之外，这在真正的腹腔镜程序中也是不可接受的。先进的缝合技巧课程以高级缝合平台的顶部进行的练习结束。这些练习处理在张力下的类似组织，并指导学员使用滑动结进行复杂的吻合操作。成功完成所有这些练习后，学员将拥有执行腹腔镜手术所需的技能。可以通过重复实践进行进一步的技能发展。",
+                "ja": "第一に、研修生は、ターゲット構造の方向に困難に依存する連続的な縫合パターンに精通するようになります。次に、これらのエクササイズに続いて、高度な縫合プラットフォームでより困難なエクササイズが妨げられます。一連のエクササイズにより、研修生は高度な縫合プラットフォームによって課される空間的制約内で縫合を適用することを強制します。この限られたスペースを使用してスキルを開発することは、研修生が利用可能な限られた量のスペースの外側に楽器を移動するのを妨げるため、すべての腹腔鏡下縫合アプローチに適した習慣を開発するのに役立ちます。基本的な縫合運動は、実際の腹腔鏡手術では受け入れられない視野の外でさえ、余分な量の移動の自由を与えます。高度な縫合スキルコースは、高度な縫合プラットフォームの上部で実行されるエクササイズで終わります。これらのエクササイズは、緊張下での同時組織を扱い、訓練生にスライドノットを使用して複雑な吻合操作を行うように指示します。これらすべてのエクササイズが正常に完了すると、研修生は腹腔鏡手順を実行するために必要なスキルを備えます。繰り返しの実践を通じて、さらなるスキル開発が発生する可能性があります。",
+                "hu": "Először is, a gyakornok megismerkedik a folyamatos varrási mintákkal, amelyek a célszerkezetek orientációjától függnek. Ezeket a gyakorlatokat ezután nehezebb gyakorlatok követik a fejlett varrási platformon. Egy gyakorlati készlet arra készteti a gyakornokot, hogy varratok alkalmazzák a fejlett varrási platform által előidézett térbeli korlátozásokat. A készség fejlesztése ezzel a korlátozott térben elősegíti a jó szokások kialakulását az összes laparoszkópos varrási megközelítéshez, mivel megakadályozzák a gyakornokot abban, hogy a műszereket a rendelkezésre álló korlátozott mennyiségű helyen kívül mozgatja. Az alapvető varrási gyakorlatok extra mennyiségű mozgási szabadságot biztosítanak, még a látómezőn kívül is, amely nem elfogadható egy valódi laparoszkópos eljárásban. Az Advanced Suturing Skills kurzus a fejlett varrási platform tetején végzett gyakorlatokkal zárul. Ezek a gyakorlatok feszültség alatt álló szöveti szövetekkel foglalkoznak, és a gyakornokot az összetett anastomosis manőverek végrehajtására irányítják csúszó csomók használatával. Az összes ezen gyakorlat sikeres befejezése után a gyakornokok rendelkeznek a laparoszkópos eljárások elvégzéséhez szükséges készségekkel. A további készségek fejlesztése ismétlődő gyakorlaton keresztül fordulhat elő."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -38,7 +65,16 @@
                 "pl": "Szycie w pionie i poziomie",
                 "es": "Patrones de sutura vertical y horizontal.",
                 "zh-cn": "垂直和水平缝合图案",
-                "ja": "垂直および水平縫合パターン"
+                "ja": "垂直および水平方向の縫合パターン",
+                "hu": "Függőleges és vízszintes varrási minták"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -47,8 +83,17 @@
                 "en": "When the angle of the target tissue is parallel to the needle holder, driving the needle is easy because the needle, which is held horizontally, can be driven by the rotation of the needle holder. This rotation is only available along the axis of the needle holder. Whenever the target tissue is placed at other angles, driving the needle can become significantly more difficult as demonstrated in the Basic Suturing Skills chapter.",
                 "pl": "Kiedy kąt docelowych tkanek jest równoległy do imadła to przekłuwanie igłą jest łatwe, ponieważ trzymana prostopadle igła naturalnie przekłuwa tkankę wraz z obrotem imadła. Ten kąt dostępny jest jedynie wzdłuż osi imadła. Kiedy tkanka jest umieszczona pod innymi kątami, przekłuwanie igłą staje się znacznie trudniejsze, co było widoczne w rozdziale o Podstawowych umiejętności szycia.",
                 "es": "Cuando el ángulo del tejido objetivo es paralelo al soporte de la aguja, conducir la aguja es fácil porque la aguja, que se mantiene horizontalmente, puede ser accionada por la rotación del soporte de la aguja. Esta rotación solo está disponible a lo largo del eje del soporte de la aguja. Siempre que se coloque el tejido diana en otros ángulos, conducir la aguja puede volverse significativamente más difícil como se demuestra en el capítulo Básico de habilidades de sutura.",
-                "zh-cn": "当目标组织的角度平行于针架时，驱动针容易，因为可以通过针支架的旋转驱动针。该旋转仅沿针支架的轴线可用。每当将目标组织放置在其他角度时，驱动针可以变得明显更加困难，如基本缝合技能章节中所示。",
-                "ja": "標的組織の角度が針ホルダと平行である場合、針を駆動することは容易であり、針は水平に保持され、針ホルダーの回転によって駆動され得る。この回転は針ホルダーの軸に沿ってのみ利用可能です。標的組織が他の角度に配置されるときはいつでも、基本的な縫合スキルの章で示されているように針を駆動することができます。"
+                "zh-cn": "当目标组织的角度与针固定器平行时，驾驶针很容易，因为水平固定的针可以由针固定器的旋转驱动。这种旋转仅沿着针固定器的轴可用。每当将目标组织放置在其他角度时，驱动针头可能会变得更加困难，如基本的缝合技能章节所示。",
+                "ja": "標的組織の角度が針ホルダーに平行な場合、水平に保持される針は針ホルダーの回転によって駆動できるため、針を駆動するのは簡単です。この回転は、針ホルダーの軸に沿ってのみ利用できます。標的組織が他の角度に配置されるたびに、基本的な縫合スキルの章で実証されているように、針を駆動することは非常に困難になります。",
+                "hu": "Ha a célszövet szöge párhuzamos a tűtartóval, akkor a tű vezetése könnyű, mivel a tűt tartó tűt a tűtartalom forgatása meghajthatja. Ez a forgás csak a tűtartó tengelye mentén érhető el. Ha a célszövet más szögekre helyezkedik el, a tű vezetése lényegesen nehezebbé válhat, amint azt az alapvető varrási készségek fejezete mutatja."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -57,41 +102,87 @@
                 "en": "To acquire an understanding of this dynamic you may perform exercises with both vertical and horizontal continuous suturing patterns. In the horizontal approach the needle is driven horizontally and in the vertical approach it is driven vertically down but never up or away from the operator.",
                 "pl": "Aby zdobyć odpowiednie zrozumienie tego aspektu, uczący powinien porównać ćwiczenia z szyciem ciągłym w orientacji pionowej i poziomej. W orientacji poziomej igła przekłuwa tkanki w kierunku poziomym od instrumentu, a w orientacji pionowej w dół, ale nigdy w górę.",
                 "es": "Para adquirir una comprensión de esta dinámica, puede realizar ejercicios con patrones de sutura continua tanto verticales como horizontales. En el enfoque horizontal, la aguja se acciona horizontalmente y, en el enfoque vertical, se acciona verticalmente, pero nunca está arriba o alejado del operador.",
-                "zh-cn": "要获得对此动态的理解，您可以使用垂直和水平连续缝合模式进行练习。在水平方法中，针水平驱动，并且在垂直方法中，它垂直向下驱动，但永不向上或远离操作员。",
-                "ja": "この動的の理解を習得するには、垂直方向と水平方向の連続縫合パターンの両方で演習を実行することができます。水平方向の接近では、針は水平方向に駆動され、垂直方向のアプローチでは垂直方向に駆動されますが、オペレータから離れたり、決して離れたりします。"
+                "zh-cn": "为了了解这种动态的理解，您可以通过垂直和水平连续缝合模式进行练习。在水平方法中，针头是水平驱动的，在垂直方法中，它被垂直驱动，但永远不会向上或远离操作员。",
+                "ja": "このダイナミクスの理解を得るために、垂直および水平の連続縫合パターンの両方で演習を行うことができます。水平アプローチでは、針は水平に駆動され、垂直アプローチでは垂直に駆動されますが、オペレーターから上下することはありません。",
+                "hu": "Ennek a dinamikának a megértése érdekében gyakorlatokat végezhet mind függőleges, mind vízszintes folyamatos varrási mintákkal. Vízszintes megközelítésben a tűt vízszintesen hajtják, és a függőleges megközelítésben függőlegesen lefelé hajtják, de soha nem vagy távol vannak az operátortól."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu13_vertical_horizontal_ 01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Completion of Continuous Suturing Pattern",
-                        "pl": "Przykład szycia ciągłego",
-                        "es": "Finalización del patrón de sutura continua.",
-                        "zh-cn": "完成连续缝合图案",
-                        "ja": "連続縫合パターンの完成"
-                    }
+            "media": {
+                "url": "edu13_vertical_horizontal_ 01.png",
+                "type": "image",
+                "label": {
+                    "en": "Completion of Continuous Suturing Pattern",
+                    "pl": "Przykład szycia ciągłego",
+                    "es": "Finalización del patrón de sutura continua.",
+                    "zh-cn": "连续缝合模式的完成",
+                    "ja": "連続縫合パターンの完了",
+                    "hu": "A folyamatos varrási mintázat befejezése"
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Advanced Suturing Skills",
-        "pl": "Zaawansowane umiejętności szycia",
-        "es": "Habilidades de sutura avanzadas",
-        "zh-cn": "先进的缝线技巧",
-        "ja": "高度な縫合スキル"
+        "text": {
+            "en": "Advanced Suturing Skills",
+            "pl": "Zaawansowane umiejętności szycia",
+            "es": "Habilidades de sutura avanzadas",
+            "zh-cn": "高级缝合技巧",
+            "ja": "高度な縫合スキル",
+            "hu": "Fejlett varrási készségek"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "An overview of the difficulties encountered in challenging situations when suturing laparoscopicially.",
-        "pl": "Wstęp do utrudnień spotykanych podczas wyzwań podczas szycia laparoskopowego.",
-        "es": "Una visión general de las dificultades encontradas en situaciones desafiantes cuando se suturnen laparoscopialmente.",
-        "zh-cn": "在腹腔镜下缝合时挑战情境遇到的困难概述。",
-        "ja": "腹腔鏡的に縫合するときの挑戦的な状況で遭遇する困難の概要。"
+        "text": {
+            "en": "An overview of the difficulties encountered in challenging situations when suturing laparoscopicially.",
+            "pl": "Wstęp do utrudnień spotykanych podczas wyzwań podczas szycia laparoskopowego.",
+            "es": "Una visión general de las dificultades encontradas en situaciones desafiantes cuando se suturnen laparoscopialmente.",
+            "zh-cn": "在腹腔镜缝合时，在具有挑战性的情况下遇到的困难概述。",
+            "ja": "腹腔鏡下で縫合する際の困難な状況で遭遇する困難の概要。",
+            "hu": "Áttekintés a kihívásokkal teli helyzetekben felmerült nehézségekről, amikor laparoszkópiálisan varrnak."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

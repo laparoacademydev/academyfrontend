@@ -3,20 +3,9 @@
     "cameraConfig": {
         "Apex": {},
         "Analytic": {},
-        "Advance": {},
-        "angle": 0
+        "Advance": {}
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "cholecystectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "cholecystectomy_background.png",
             "places": [
@@ -28,12 +17,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -42,15 +25,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Cholecystectomy",
-        "scenario": "Separation"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -139,7 +114,14 @@
             "proficiency": 270
         }
     },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "Separation",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -149,30 +131,40 @@
     "name": {
         "en": "Gallbladder Separation - Cholecystectomy VR",
         "pl": "Separacja Pęcherzyka Żółciowego - Cholecystektomia VR",
-        "es": "Separación de la vesícula biliar - Cholecistectomy VR",
+        "es": "Colecistectomía VR - Separación de la vesícula biliar",
         "zh-cn": "胆囊分离 - 胆囊切除术VR",
-        "ja": "胆嚢分離 - 胆嚢摘出術VR."
+        "ja": "胆嚢分離 - 胆嚢摘出VR",
+        "hu": "Epehólyag elválasztása - kolecisztektómia VR"
     },
     "skills": {
         "en": "Procedure, Cholecystectomy, VR",
         "pl": "Procedura, Cholecystektomia, VR",
         "es": "Procedimiento, Colecistectomía, VR",
         "zh-cn": "程序，胆囊切除术，VR",
-        "ja": "手順、胆嚢切除術、VR"
+        "ja": "手順、胆嚢摘出術、VR",
+        "hu": "Eljárás, kolecisztektómia, VR"
     },
     "description": {
         "en": "In this version of the exercise, the cystic duct and artery have already been clipped and cut. What remains at this stage of the procedure is the separation of the gallbladder along the areoal tissue plane which binds it to the liver bed. This separation is done with the use of the monopolar hook and some energy. The surgeon must avoid accidentally damaging the liver while also making sure that the gallbladder itself remains intact. After this separation is complete, the gallbladder can be safely removed from the peritoneal cavity.",
         "pl": "W tej wersji ćwiczenia przewód torbielowaty i tętniczka zostały już zaklipsowane i przecięte. Na tym etapie procedury pozostaje separacja pęcherzyka żółciowego wzdłuż płaszczyzny tkanki otoczkowej która trzyma pęcherzyk przymocowany do łożyska wątroby. To oddzielenie jest wykonywane przy pomocy haka monopolarnego oraz energii. Chirurg musi unikać przypadkowego uszkodzenia powierzchni wątroby jednocześnie upewniając się że pęcherzyk pozostaje w całości. Po pomyślnym zakończeniu tej separacji pęcherzyk jest już całkowicie oddzielony i może być bezpiecznie usunięty z jamy otrzewnej.",
         "es": "En esta versión del ejercicio, el conducto quístico y la arteria ya han sido recortados y cortados. Lo que queda en esta etapa del procedimiento es la separación de la vesícula biliar a lo largo del plano de tejido areológico que lo une al lecho hígado. Esta separación se realiza con el uso del gancho monopolar y algo de energía. El cirujano debe evitar dañar accidentalmente el hígado mientras también se asegura de que la vesícula biliara se mantenga intacta. Después de completar esta separación, la vesícula biliar se puede quitar de manera segura de la cavidad peritoneal.",
-        "zh-cn": "在这个练习的这种版本中，已经剪切和切割囊性管道和动脉。在该过程的这个阶段保持剩余的是胆囊沿着胆囊组织平面分离，该组织平面将其与肝脏床结合起来。这种分离是通过使用单极钩和一些能量来完成的。外科医生必须避免意外地破坏肝脏，同时确保胆囊本身仍然完好无损。在该分离完成后，可以从腹膜腔安全地去除胆囊。",
-        "ja": "このバージョンの運動では、嚢胞性ダクトと動脈はすでに切り取られて切断されています。この手順のこの段階で残っているものは、それを肝臓床に結合する、胆嚢の分離である。この分離は、単極性フックといくつかのエネルギーを使用して行われます。外科医は、胆嚢自体がそのまま残っていることを確実にしながら、衝撃を損傷を受けるのを避けなければなりません。この分離が完了した後、胆嚢を腹腔内腔から安全に除去することができる。"
+        "zh-cn": "在此版本的练习中，囊性管道和动脉已经被剪裁和切割。在该过程的这个阶段仍然存在的是将胆囊沿着将其结合到肝脏床的囊肿平面的分离。这种分离是通过使用单极钩和一些能量来完成的。外科医生必须避免意外损坏肝脏，同时还要确保胆囊本身保持完整。分离完成后，可以安全地从腹膜腔中移除胆囊。",
+        "ja": "このバージョンの運動では、嚢胞性管と動脈はすでに切り取られて切断されています。手順のこの段階に残っているのは、肝臓の床に結合する等骨組織面に沿った胆嚢の分離です。この分離は、モノポーラフックといくらかのエネルギーを使用して行われます。外科医は、胆嚢自体がそのままであることを確認しながら、誤って肝臓に損傷を与えることを避けなければなりません。この分離が完了した後、胆嚢を腹膜腔から安全に除去できます。",
+        "hu": "A gyakorlat ezen verziójában a cisztás vezetéket és az artériát már vágták és vágták. Az eljárás ezen szakaszában marad az epehólyag elválasztása az Areoal szöveti sík mentén, amely a májágyhoz köti. Ezt az elválasztást a monopoláris horog és némi energia felhasználásával hajtják végre. A sebésznek el kell kerülnie a máj véletlenszerű károsodását, miközben megbizonyosodjon arról, hogy az epehólyag is érintetlen marad -e. Miután ez a szétválasztás befejeződött, az epehólyag biztonságosan eltávolítható a peritoneális üregből."
     },
     "instructions": {
         "en": "Use the grasper to get a hold of the base of the gallbladder where the clip was placed. Pull on this part up to create tension on the tissue which binds the gallbladder to the liver. Introduce the monopolar hook and use it pull on pieces of this tissue away from both the gallbladder and the liver. Use the pedal to activate energy and this will cauterize the tissue surrounding the hook. The energy can also be activated when pushing the hook against the tissue, but this is not recommended. The purpose of the hook is to pull the tissue away and avoid applying energy where it shouldn't be applied. A thin and even layer of tissue should remain on the surface of the liver and the gallbladder. The surface of the liver will begin to bleed slightly when the separation gets too close to the liver. Although sometimes this cannot be avoided and it not technically a mistake, the surface of the liver should be kept intact and any bleeding should be cauterized before completing the procedure. To confirm that the remaining tissues are intact after cauterizing it may be useful to wash them off with the irrigation and suction tool.",
         "pl": "Podstawa pęcherzyka żółciowego w okolicy klipsa powinna zostać chwycona grasperem. Grasper w trakcie tego ćwiczenia powinien ciągnąć za pęcherzyk w taki sposób aby wytwarzać napięcie na tkance mocującej go do wątroby. Hak monopolarny powinien zostać wprowadzony i powinien pociągać za tkanki w połowie pomiędzy woreczkiem a wątrobą. Używając pedału aktywującego energię tkanka zostanie wypalona wokół samego haczyka. Energia jest też aktywowana popychając hakiem tę tkankę ale ten sposób nie jest zalecany. Celem użycia haka jest pociąganie za tkankę w taki spoób aby unikać stosowania energii zbyt blisko do otaczających narządów. Cieńka i równomierna warstwa tkanek powinna pozostać zarówno na powierzchni wątroby jak i na pęcherzyku. Powierzchnia wątroby zacznie krwawić kiedy separacja hakiem odbędzie się zbyt blisko wątroby. Chociaż czasami nie może to być uniknięte więc nie jest to technicznie błędem. Powierzchnia wątroby nie powinna ulec szkodzie i jakiekolwiek krwawienie powinno też być dla pewności przypalone delikatnie energią monopolarną przed zakończeniem procedury. Aby upewnić się że takie krwawienie zostało wyłapane, rekomendowane jest użycie irygatora i ssaka aby oczyścić powierzchnie tkanek.",
         "es": "Use el agarre para obtener una retención de la base de la vesícula biliar donde se colocó el clip. Tire de esta parte hasta crear tensión en el tejido que une la vesícula biliar al hígado. Introduzca el gancho monopolar y utilícelo. Tire de los pedazos de este tejido lejos de la vesícula biliar y del hígado. Use el pedal para activar la energía y esto cauterizará el tejido que rodea el gancho. La energía también se puede activar al empujar el gancho contra el tejido, pero esto no se recomienda. El propósito del gancho es sacar el tejido y evitar aplicar energía donde no se debe aplicar. Una capa delgada e incluso uniforme debe permanecer en la superficie del hígado y la vesícula biliar. La superficie del hígado comenzará a sangrar ligeramente cuando la separación se acerca demasiado al hígado. Aunque a veces no se puede evitar esto y, técnicamente, es un error, la superficie del hígado debe mantenerse intacta y cualquier sangrado debe ser cauterizado antes de completar el procedimiento. Para confirmar que los tejidos restantes están intactos después de la cauterización, puede ser útil lavarlos con la herramienta de riego y succión.",
-        "zh-cn": "使用抓取器抓住放置夹子的胆囊的底座。拉动这部分以在组织上产生张力，使胆囊结合到肝脏上。介绍单极钩子，并使用它从胆囊和肝脏中拉开这种组织。使用踏板激活能量，这将腐蚀钩子周围的组织。当将钩子推到组织时，也可以激活能量，但不建议使用。钩子的目的是将组织拉开并避免在不应用的能量上施加能量。薄且均匀的组织层应保留在肝脏和胆囊的表面上。当分离变得太近肝脏时，肝脏表面将开始略微出血。虽然有时这种情况无法避免，但在技术上没有错误，肝脏的表面应该保持完整，并且在完成程序之前应该腐蚀任何出血。为了确认含剩余的组织在腐蚀后完整，可以用灌溉和吸入工具洗涤它们可能是有用的。",
-        "ja": "クリップが配置された胆嚢の基部を保持するためにgrasperを使用してください。この部分を引き上げて、胆嚢を肝臓に結合する組織に張力を作ります。モノポーラフックを紹介し、それを使用して、胆嚢と肝臓の両方からこの組織の部分を引っ張ります。ペダルを使用してエネルギーを作動させ、これはフックを取り囲む組織を焼灼します。エネルギーは、フックを組織に対して押すと活性化することもできますが、これはお勧めできません。フックの目的は、組織を引っ張り、それが適用されてはいけないエネルギーの適用を避けることです。薄くて均一な組織層層は、肝臓の表面と胆嚢の表面に残るべきです。肝臓の表面は、分離が肝臓に近づきすぎるとわずかに出血し始めます。時にはこれを避けることができず、技術的には間違いではないが、肝臓の表面はそのままに保たれ、手順を完了する前に任意の出血を慎重にする必要があります。残りの組織が焼灼後に無傷であることを確認するために、洗浄および吸引具でそれらを洗い流すのに有用であり得る。"
+        "zh-cn": "使用Grasper握住放置夹子的胆囊底部。将这一部分拉起以在将胆囊与肝脏结合的组织上产生张力。引入单极钩子，并使用它拉在胆囊和肝脏的薄片上。使用踏板激活能量，这将使钩子周围的组织灼伤。将钩子推向组织时也可以激活能量，但这不建议进行。钩子的目的是将组织拉开，并避免在不应施加的地方施加能量。肝脏和胆囊表面应保留一层薄甚至什至的组织。当分离离肝脏太近时，肝脏的表面将开始略微流血。尽管有时无法避免这种情况，并且从技术上讲这不是一个错误，但肝脏的表面应保持完整，并且在完成该过程之前应捕捉任何出血。为了确认剩余的组织在烧灼后完好无损，用灌溉和吸力工具将其洗净可能很有用。",
+        "ja": "グレーパーを使用して、クリップが配置された胆嚢のベースをつかみます。この部分を引き上げて、胆嚢を肝臓に結合する組織に張力をかけます。モノポーラフックを導入し、胆嚢と肝臓の両方からこの組織の断片を引っ張ってください。ペダルを使用してエネルギーを活性化すると、フックを囲む組織が焼き付けられます。フックを組織に押し込むと、エネルギーを活性化することもできますが、これは推奨されません。フックの目的は、組織を引き離し、適用すべきではない場所にエネルギーを適用することを避けることです。薄くて偶数の組織の層は、肝臓と胆嚢の表面に残る必要があります。分離が肝臓に近づきすぎると、肝臓の表面がわずかに出血し始めます。これは回避できず、技術的には間違いではありませんが、肝臓の表面をそのままに保ち、出血を処置を完了する前に細心の注意を払う必要があります。残りの組織が凝固した後に無傷であることを確認するには、灌漑および吸引ツールでそれらを洗い流すのに役立つかもしれません。",
+        "hu": "Használja a Grasper -t, hogy megkapja az epehólyag alapját, ahol a klipet elhelyezték. Húzza fel ezt a részt, hogy feszültséget teremtsen a szövetre, amely az epehólyagot köti a májhoz. Mutassa be a monopoláris horgot, és használja a szövet darabjait mind az epehólyagtól, mind a májtól. Használja a pedált az energia aktiválásához, és ez a horgot körülvevő szövetet cauterizálja. Az energia aktiválható, ha a horgot a szövethez nyomja, de ez nem ajánlott. A horog célja az, hogy elhúzza a szövetet, és kerülje az energiafelhasználást, ahol azt nem szabad alkalmazni. A vékony és egyenletes szöveti rétegnek a máj és az epehólyag felületén kell maradnia. A máj felülete kissé vérzik, amikor az elválasztás túl közel kerül a májhoz. Bár néha ezt nem lehet elkerülni, és technikailag nem hibát, a máj felületét érintetlenül kell tartani, és az eljárás befejezése előtt minden vérzést cauterizálni kell. Annak megerősítésére, hogy a fennmaradó szövetek érintetlenek -e a cauterizálás után, hasznos lehet az öntözési és szívószerszámmal történő lemosás."
     },
-    "preparation": {}
+    "preparation": {
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+    }
 }

@@ -1,0 +1,261 @@
+{
+    "id": "edu24_prostatectomy_vr",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The virtual procedure featured in Laparo Apex is the radical retroperitoneal prostatectomy. The procedure begins with the laparoscope introduced outside of the peritoneal cavity with the prostate and bladder visible.",
+                "pl": "Wirtualna procedura przedstawiona w Laparo Apex to radykalna prostatektomia zaotrzewnowa. Zabieg rozpoczyna się od wprowadzenia laparoskopu poza jamą otrzewną z uwidocznionym gruczołem krokowym i pęcherzem moczowym.",
+                "es": "El procedimiento virtual presentado en el apex de laparo es la prostatectomía retroperitoneal radical. El procedimiento comienza con el laparoscopio introducido fuera de la cavidad peritoneal con la próstata y la vejiga visible.",
+                "zh-cn": "Laparo Apex中介绍的虚拟程序是自由基腹膜前列腺切除术。该过程始于腹腔腔外引入的腹腔镜，前列腺和膀胱可见。",
+                "ja": "Laparo Apexで紹介されている仮想手順は、根治的な後腹膜前立腺摘出術です。この手順は、前立腺と膀胱が見える状態で腹膜腔の外に導入された腹腔鏡から始まります。",
+                "hu": "A Laparo Apexben bemutatott virtuális eljárás a radikális retroperitoneális prosztatektómia. Az eljárás a peritoneális üregen kívül bevezetett laparoszkóppal kezdődik, a prosztata és a hólyag látható."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Separation of Prostate and Bladder",
+                "pl": "Oddzielenie prostaty i pęcherza",
+                "es": "Separación de próstata y vejiga",
+                "zh-cn": "前列腺和膀胱的分离",
+                "ja": "前立腺と膀胱の分離",
+                "hu": "A prosztata és a hólyag elválasztása"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In the first stage the surgeon must dissect the layer of tissue which covers the connection between the prostate and the bladder. This layer makes it difficult to accurately define the exact location of the connection and there are two ways surgeons define it. One, which is not available in the virtual procedure, is by using a balloon-tip catheter which is inserted through the ureter. After inserting this catheter up to the bladder, the balloon is inflated and when the catheter is pulled, the balloon stops at the appropriate location and the surgeon can approximately tell based on the movements. The other, which is available in the virtual procedure is done by applying an instrument to the surface of this connection. The prostate has more stiffness to it, and the bladder is softer and  more malleable. When this connection is defined, the surgeon must dissect that area to visualize the exact location of the connection between these two organs. This is often the most time consuming stage of the procedure.",
+                "pl": "W pierwszym etapie zabiegu chirurg musi wypreparować warstwę tkanki, pokrywającą połączenie między prostatą a pęcherzem. Warstwa ta utrudnia dokładne określenie miejsca dokładnego połączenia i istnieją dwa sposoby znalezienia tego łączenia. Jeden, który nie jest dostępny w procedurze wirtualnej, polega na użyciu cewnika z końcówką balonową wprowadzanego przez moczowód. Po wprowadzeniu tego cewnika do pęcherza balonik jest nadmuchiwany, a po pociągnięciu cewnika balonik ten zatrzymuje się w odpowiednim miejscu. Chirurg może wtedy w przybliżeniu stwierdzić na podstawie ruchów dokładne miejsce. Druga, dostępna w procedurze wirtualnej, polega na przykładaniu instrumentu do powierzchni tego połączenia w celu wyczucia różnicy w twardości. Prostata jest twardsza, a pęcherz jest bardziej miękki i plastyczny. Po zdefiniowaniu tego połączenia chirurg musi wypreparować ten obszar, aby zwizualizować dokładną lokalizację połączenia. Często jest to najbardziej czasochłonny etap zabiegu.",
+                "es": "En la primera etapa, el cirujano debe diseccionar la capa de tejido que cubre la conexión entre la próstata y la vejiga. Esta capa hace que sea difícil definir con precisión la ubicación exacta de la conexión y hay dos formas en que los cirujanos la definen. Uno, que no está disponible en el procedimiento virtual, es mediante el uso de un catéter de punta de globo que se inserta a través del uréter. Después de insertar este catéter hasta la vejiga, el globo está inflado y cuando se tira del catéter, el globo se detiene en la ubicación apropiada y el cirujano puede decir aproximadamente en función de los movimientos. El otro, que está disponible en el procedimiento virtual, se realiza aplicando un instrumento a la superficie de esta conexión. La próstata tiene más rigidez, y la vejiga es más suave y más maleable. Cuando se define esta conexión, el cirujano debe diseccionar esa área para visualizar la ubicación exacta de la conexión entre estos dos órganos. Esta es a menudo la etapa más lenta del procedimiento.",
+                "zh-cn": "在第一阶段，外科医生必须剖析覆盖前列腺和膀胱之间连接的组织层。该层使得难以准确定义连接的确切位置，并且有两种方式来定义它。一种在虚拟过程中不可用的是使用通过输尿管插入的气球尖导管。将此导管插入膀胱后，气球会充气，当导管拉动时，气球在适当的位置停止，外科医生可以根据动作大致告诉。另一个在虚拟过程中可用的是通过将仪器应用于该连接的表面来完成。前列腺具有更大的刚度，并且膀胱更柔软，更具延展性。定义此连接时，外科医生必须剖析该区域，以可视化这两个器官之间连接的确切位置。这通常是该过程中最耗时的阶段。",
+                "ja": "最初の段階では、外科医は前立腺と膀胱の間のつながりを覆う組織の層を分析する必要があります。このレイヤーにより、接続の正確な位置を正確に定義することが困難になり、外科医が定義する2つの方法があります。仮想手順では利用できない1つは、尿管に挿入されたバルーン先端カテーテルを使用することです。このカテーテルを膀胱に挿入した後、風船が膨らみ、カテーテルが引っ張られると、バルーンは適切な場所で停止し、外科医は動きに基づいてほぼ知ることができます。仮想手順で使用できるもう1つは、この接続の表面に機器を適用することによって行われます。前立腺はそれに対してより剛性があり、膀胱はより柔らかく順応性があります。この接続が定義されている場合、外科医はその領域を分析して、これら2つの臓器間の接続の正確な位置を視覚化する必要があります。多くの場合、これは手順の最も時間のかかる段階です。",
+                "hu": "Az első szakaszban a sebésznek boncolnia kell a szövetréteget, amely lefedi a prosztata és a hólyag közötti kapcsolatot. Ez a réteg megnehezíti a kapcsolat pontos helyének pontos meghatározását, és a sebészek kétféle módon határozzák meg azt. Az egyik, amely nem érhető el a virtuális eljárásban, egy ballon-hegyi katéter használatával, amelyet a húgycsőn keresztül helyeznek be. Miután beillesztette ezt a katétert a hólyagba, a ballon felfújt, és amikor a katéter meghúzódik, a léggömb a megfelelő helyen megáll, és a sebész a mozgások alapján megközelítőleg megmondhatja. A másik, amely a virtuális eljárásban elérhető, egy műszer alkalmazásával történik a kapcsolat felületére. A prosztata nagyobb merevséggel bír, és a hólyag lágyabb és melegebb. Amikor ezt a kapcsolatot meghatározzák, a sebésznek boncolnia kell ezt a területet, hogy megjelenítse a két szerv közötti kapcsolat pontos helyét. Ez gyakran az eljárás legigényesebb stádiuma."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Sever Prostate from Bladder",
+                "pl": "Odcięcie Prostaty od Pęcherza",
+                "es": "Se separa la próstata de la vejiga",
+                "zh-cn": "从膀胱切断前列腺",
+                "ja": "膀胱から前立腺を切断します",
+                "hu": "Severje el a prosztatát a hólyagtól"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "First the surgeon must cut this connection proximally, and then gradually to the bottom. Before separating the connection completely it is necessary to find and visualize the vas deferns and the seminal vesicles which are located directly below the prostate.",
+                "pl": "Chirurg musi najpierw przeciąć to połączenie proksymalnie, najbliżej, a następnie stopniowo musi przecinać do dołu. Aczkolwiek przed całkowitym rozdzieleniem tego połączenia konieczne jest też znalezienie i wizualizacja nasieniowodów i pęcherzyków nasiennych znajdujących się bezpośrednio poniżej prostaty.",
+                "es": "Primero, el cirujano debe cortar esta conexión de manera proximal y luego gradualmente hasta el fondo. Antes de separar la conexión por completo, es necesario encontrar y visualizar las diferencias VAS y las vesículas seminales que se encuentran directamente debajo de la próstata.",
+                "zh-cn": "首先，外科医生必须近端切割此连接，然后逐渐到达底部。在完全分离连接之前，有必要查找和可视化位于前列腺下方的VAS延迟和精确的囊泡。",
+                "ja": "最初に外科医はこの接続を近位に切り、次に徐々に底まで切断する必要があります。接続を完全に分離する前に、前立腺の真下にあるVas Defernsと精液を見つけて視覚化する必要があります。",
+                "hu": "Először a sebésznek ezt a kapcsolatot proximálisan, majd fokozatosan az aljára kell vágnia. Mielőtt a kapcsolatot teljesen elválasztaná, meg kell találni és megjeleníteni a VAS halasztásait és a közvetlenül a prosztata alatt található szeminál vezikulumokat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Seminal Vesicles and Vas Deferens",
+                "pl": "Pęcherzyki Nasienne i Nasieniowody",
+                "es": "Vesículas seminales y VAS deferens",
+                "zh-cn": "囊泡和VAS延迟",
+                "ja": "精液の小胞と血管延期",
+                "hu": "Alapvető vezikulumok és vas deferens"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The seminal vesicles are connected to the prostate itself and after being visualized and dissected should be left attached to the prostate. The vas deferens on the other hand lead to the testicles and should be cut. At this point, the remaining tissues connecting the bladder and the ureter can be cut.",
+                "pl": "Pęcherzyki nasienne są połączone z samą prostatą. Po uwidocznieniu ich poniżej wykonywanego odcięcia należy pozostawić je przymocowane do prostaty ale odpreparować od reszty tkanek. Nasieniowody z kolei znajdują się w tym samym miejscu i prowadzą do jąder, je również należy przeciąć. W tym momencie możliwe jest wypreparowanie i odseparowanie pozostałych tkanek łączących pęcherz z moczowodem.",
+                "es": "Las vesículas seminales están conectadas a la próstata misma y después de visualizar y diseccionar deben dejarse unidas a la próstata. Los VAS diferenciales, por otro lado, conducen a los testículos y deben cortarse. En este punto, los tejidos restantes que conectan la vejiga y el uréter se pueden cortar.",
+                "zh-cn": "精确的囊泡连接到前列腺本身，被可视化和解剖后，应将附着在前列腺上。另一方面，VAS延迟导致睾丸，应切割。在这一点上，可以切割连接膀胱和输尿管的其余组织。",
+                "ja": "精液の小胞は前立腺自体に接続されており、視覚化されて解剖された後、前立腺に取り付けたままにする必要があります。一方、vasはtest丸につながり、切断する必要があります。この時点で、膀胱と尿管を接続する残りの組織を切断できます。",
+                "hu": "A vezikulumok magához a prosztatához kapcsolódnak, és a megjelenítés és a boncolás után a prosztatához kapcsolódni kell. A VAS deferens viszont a herékhez vezet, és meg kell vágni. Ezen a ponton a hólyagot és a húgyáterítőt összekötő fennmaradó szövetek kivághatók."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Sever at the External Urethral Sphincter",
+                "pl": "Odcięcie przy Zewnętrznym Zwieraczu Cewki Moczowej",
+                "es": "Sever en el esfínter uretral externo",
+                "zh-cn": "在外部尿道括约肌上切断",
+                "ja": "外部尿道括約筋で切断します",
+                "hu": "Reverje el a külső húgycső -sphincternél"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Next, the entire prostate should be dissected so that it can be entirely mobilized and reapproximated below so that the laparoscope can visualize the connection between the prostate and the urethral sphincter. Similarly to before, this connection should first be cut proximally and then distally, exposing the catheter which protrudes from the ureter. At this point the entire prostate should be mobilized and separated from all surrounding tissues and structures.",
+                "pl": "Następnie, jeżeli nie zostało to zrobione wcześniej należy do końca odciąć prostatę od pęcherza, w taki sposób aby można ją było całkowicie zmobilizować i przesunąć niżej, w taki sposób aby laparoskop mógł zwizualizować połączenie między prostatą a zwieraczem cewki moczowej. Podobnie jak poprzednio, połączenie to należy najpierw przeciąć proksymalnie, a następnie dystalnie, odsłaniając wystający z moczowodu cewnik. W tym momencie cała prostata powinna zostać zmobilizowana i oddzielona od wszystkich otaczających ją tkanek i struktur.",
+                "es": "A continuación, toda la próstata debe diseccionarse para que pueda movilizarse y reaproximarse por completo a continuación para que el laparoscopio pueda visualizar la conexión entre la próstata y el esfínter uretral. De manera similar a antes, esta conexión debe cortarse primero de forma proximal y luego distalmente, exponiendo el catéter que sobresale del uréter. En este punto, toda la próstata debe movilizarse y separarse de todos los tejidos y estructuras circundantes.",
+                "zh-cn": "接下来，应解剖整个前列腺，以便可以将其完全动员和重新置换在下面，以便腹腔镜可以看到前列腺和尿道括约肌之间的连接。与以前类似，首先应近端和远端切割此连接，以暴露导管从输尿管突出的导管。在这一点上，应将整个前列腺与所有周围的组织和结构分开。",
+                "ja": "次に、腹腔鏡が前立腺と尿道括約筋の間のつながりを視覚化できるように、完全に動員して再現できるように、前立腺全体を解剖する必要があります。以前と同様に、この接続は最初に近位で切断し、次に遠位に切断し、尿管から突き出ているカテーテルを露出させる必要があります。この時点で、前立腺全体を動員し、周囲のすべての組織や構造から分離する必要があります。",
+                "hu": "Ezután a teljes prosztatát boncolni kell úgy, hogy az teljesen mobilizálható és újrahirdethető legyen az alábbiakban, hogy a laparoszkóp megjelenítse a prosztata és a húgycső -sphincter közötti kapcsolatot. Hasonlóan korábban, ezt a kapcsolatot először proximálisan, majd disztálisan kell vágni, kitéve a katétert, amely kinyúlik a húgycsőből. Ezen a ponton a teljes prosztatát mobilizálni és el kell választani az összes környező szövettől és szerkezettől."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Removing the Prostate and Bowel Inspection",
+                "pl": "Usuwanie Prostaty i Inspekcja Jelita",
+                "es": "Eliminar la inspección de la próstata y el intestino",
+                "zh-cn": "删除前列腺和肠检查",
+                "ja": "前立腺と腸の検査を除去します",
+                "hu": "A prosztata és a bélellenőrzés eltávolítása"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "An endo-bag is introduced into the operating area and the entire prostate along with the seminal vesicles and vas deferens can be placed inside for removal. After removing the prostate from the cavity it is now important to inspect the bowel which is located below and confirm that it has not been damaged. If the bowel is damaged it is important to make repairs with the use of suture, however if the procedure was performed with precision and care this should not be the case.",
+                "pl": "Do pola operacyjnego wprowadzany jest endo-bag i cała prostata wraz z pęcherzykami nasiennymi i nasieniowodami może być umieszczona wewnątrz w celu usunięcia. Po usunięciu prostaty z pola operacyjnego ważne jest też zbadanie jelita, które znajduje się poniżej i upewnienie się, że nie zostało uszkodzone w trakcie wcześniejszych cięć. Jeżeli jelito jest uszkodzone, ważne jest wykonanie naprawy za pomocą szwów. Aczkolwiek, jeśli zabieg został wykonany precyzyjnie i starannie i to jelito powinno pozostać całe i zdrowe. ",
+                "es": "Se introduce un endobag en el área de operación y toda la próstata junto con las vesículas seminales y VAS deferens se pueden colocar dentro para su extracción. Después de quitar la próstata de la cavidad, ahora es importante inspeccionar el intestino que se encuentra a continuación y confirmar que no ha sido dañado. Si el intestino está dañado, es importante hacer reparaciones con el uso de sutura, sin embargo, si el procedimiento se realizó con precisión y cuidado, este no debería ser el caso.",
+                "zh-cn": "将一个内袋引入操作区域，整个前列腺以及精确的囊泡和VAS deferens可以放置在内部以供去除。从腔体中取出前列腺后，现在重要的是要检查下面的肠子并确认其尚未受到损坏。如果肠子损坏，重要的是要使用缝合线进行维修，但是，如果以精确和护理进行手术，则不应该这样。",
+                "ja": "エンドバッグは手術領域に導入され、前立腺全体と精液の小胞とvas延期を中に入れて除去することができます。空洞から前立腺を除去した後、下にある腸を検査し、損傷していないことを確認することが重要になりました。腸が損傷している場合、縫合糸を使用して修理を行うことが重要ですが、手順が精度とケアで実行された場合、これは当てはまりません。",
+                "hu": "Endo-táskát vezetnek be a működési területre, és a teljes prosztata, a szeminál vezikulumokkal és a VAS deferens-kel együtt helyezhető el az eltávolítás céljából. A prosztata eltávolítása után az üregből fontos, hogy megvizsgáljuk az alábbiakban található bélet, és megerősítsük, hogy az nem sérült meg. Ha a bél megsérül, fontos javításokat végezni a varrás alkalmazásával, azonban ha az eljárást pontossággal végezték el, és gondoskodtak, ez nem így lehet."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "disclaimer",
+            "text": {
+                "en": "At this point the virtual procedure is finished. In a real procedure this is followed by an anastomosis between the urethral sphincter and the remaining opening in the bladder.",
+                "pl": "W tym momencie procedura wirtualna jest zakończona. W prawdziwym zabiegu następuje zespolenie pomiędzy zwieraczem cewki moczowej a pozostałym otworem w pęcherzu.",
+                "es": "En este punto, el procedimiento virtual está terminado. En un procedimiento real, esto es seguido por una anastomosis entre el esfínter uretral y la apertura restante en la vejiga.",
+                "zh-cn": "此时，虚拟过程完成。在实际过程中，这是尿道括约肌与膀胱中其余的开口之间的吻合。",
+                "ja": "この時点で、仮想手順が終了します。実際の手順では、これに続いて、尿道括約筋と膀胱の残りの開口部との間の吻合が続きます。",
+                "hu": "Ezen a ponton a virtuális eljárás befejeződött. Valódi eljárásban ezt egy anastomosis követi a húgycső -sphincter és a hólyagban fennmaradó nyílás között."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "text": {
+            "en": "Virtual Prostatectomy",
+            "pl": "Wirtualna Prostatektomia",
+            "es": "Prostatectomía virtual",
+            "zh-cn": "虚拟前列腺切除术",
+            "ja": "仮想前立腺切除",
+            "hu": "Virtuális prosztatektómia"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
+    }
+}

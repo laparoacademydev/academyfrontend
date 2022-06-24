@@ -3,19 +3,26 @@
     "content": [
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu17_eblus_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "EAU Logo",
-                        "pl": "Logo EAU",
-                        "es": "Logo de eau",
-                        "zh-cn": "eau logo.",
-                        "ja": "eau logo."
-                    }
+            "media": {
+                "url": "edu17_eblus_01.png",
+                "type": "image",
+                "label": {
+                    "en": "EAU Logo",
+                    "pl": "Logo EAU",
+                    "es": "Logo de eau",
+                    "zh-cn": "EAU徽标",
+                    "ja": "EAUロゴ",
+                    "hu": "Eau logó"
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
@@ -23,8 +30,17 @@
                 "en": "The Basic Laparoscopic Urological Skills (E-BLUS) is a standardised examination carried out in the training programme of the European Association of Urology. The purpose is to verify the cognitive, technical and eye-hand coordination skills and laparoscopic knowledge.",
                 "pl": "Podstawowe Laparoskopowe Umiejętności Urologiczne (E-BLUS) to standaryzowane badanie przeprowadzane w ramach programu szkoleniowego Europejskiego Towarzystwa Urologicznego. Celem jest weryfikacja umiejętności koordynacji poznawczej, technicznej i wzrokowo-ruchowej oraz wiedzy laparoskopowej.",
                 "es": "Las habilidades urológicas laparoscópicas básicas (E-BLU) son un examen estandarizado realizado en el programa de capacitación de la Asociación Europea de Urología. El propósito es verificar las habilidades cognitivas, técnicas y de la coordinación de las manos y el conocimiento laparoscópico.",
-                "zh-cn": "基本的腹腔镜泌尿理学技能（E-Blu）是欧洲泌尿外科协会培训计划中进行的标准化考试。目的是验证认知，技术和眼睛的协调技巧和腹腔镜知识。",
-                "ja": "基本的な腹腔鏡泌尿器科学技術技能（E-BLUS）は、ヨーロッパ泌尿器科協会の研修プログラムで実施された標準化された検査です。目的は、認知的、技術的および目の調整のスキルと腹腔鏡的知識を検証することです。"
+                "zh-cn": "基本的腹腔镜泌尿科技能（E-Blus）是在欧洲泌尿外科协会培训计划中进行的标准化检查。目的是验证认知，技术和眼手协调能力以及腹腔镜知识。",
+                "ja": "基本的な腹腔鏡泌尿器科スキル（E-BLUS）は、欧州泌尿器協会のトレーニングプログラムで実施された標準化された試験です。目的は、認知、技術、目の手の調整スキルと腹腔鏡知識を検証することです。",
+                "hu": "Az alapvető laparoszkópos urológiai készségek (e-blus) egy szabványosított vizsgálat, amelyet az Urológiai Európai Szövetség képzési programjában végeznek. A cél a kognitív, műszaki és a szem-koordinációs készségek és a laparoszkópos ismeretek ellenőrzése."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -33,8 +49,17 @@
                 "en": "The E-BLUS is the result of a joint effort of the European Association of Uro-Technology (ESUT) and the Catharina Hospital in Eindhoven. It is often mandatory in many EU countries and ensures competence allowing subsequent participation in laparoscopic procedures.",
                 "pl": "E-BLUS jest wynikiem wspólnych wysiłków Europejskiego Stowarzyszenia Uro-Technologii (ESUT) i Szpitala Catharina w Eindhoven. Często, w niektórych krajach UE jest obowiązkowy i zapewnia kompetencje umożliwiające późniejszy udział w zabiegach laparoskopowych.",
                 "es": "El E-BLUS es el resultado de un esfuerzo conjunto de la Asociación Europea de URO-TECHNOLOGY (ESUT) y el Hospital Catharina en Eindhoven. A menudo es obligatorio en muchos países de la UE y garantiza la competencia que permite la participación posterior en los procedimientos laparoscópicos.",
-                "zh-cn": "E-BLU是欧洲Uro技术协会（ESUT）和埃因霍温的Catharina医院共同努力的结果。许多欧盟国家通常是强制性的，确保允许随后参与腹腔镜程序的能力。",
-                "ja": "E-BLUSは、ヨーロッパのURO-Technology（ESUT）とアインドホベンのカタリナ病院の共同努力の結果です。多くのEU諸国では義務付けられており、その後の腹腔鏡手術への参加を可能にする能力を確実にします。"
+                "zh-cn": "E-Blus是欧洲Uro技术协会（ESUT）和Eindhoven的Catharina医院共同努力的结果。在许多欧盟国家，通常是强制性的，并确保能力允许随后参与腹腔镜程序。",
+                "ja": "e-blusは、欧州ウロテクノロジー協会（ESUT）とアインドホーベンのカタリナ病院の共同努力の結果です。多くの場合、多くのEU諸国で必須であり、その後の腹腔鏡手術への参加を許可する能力を保証します。",
+                "hu": "Az e-blusz az Európai Európai Szövetség (ESUT) és az Eindhoven-i Catharina Kórház közös erőfeszítéseinek eredménye. Sok EU -országban gyakran kötelező, és biztosítja a kompetenciát, amely lehetővé teszi a későbbi részvételt a laparoszkópos eljárásokban."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -43,8 +68,17 @@
                 "en": "All materials for studying for the exam are available online at uroweb.org. The learner prepares with a theoretical course covering all the necessary knowledge and information, this is then followed with practical testing. The practical curriculum begins at basic skills and simple maneuvers and is followed by complex tasks involving challenging steps full of procedures and ends with complete simulated surgeries.",
                 "pl": "Wszystkie materiały do nauki do egzaminu są dostępne online na uroweb.org. Uczeń przygotowuje się do kursu teoretycznego obejmującego całą niezbędną wiedzę i informacje, po którym następuje test praktyczny. Praktyczny program nauczania zaczyna się od podstawowych umiejętności i prostych manewrów, po czym następują złożone zadania obejmujące trudne kroki pełne procedur, a kończy się kompletnymi symulowanymi operacjami.",
                 "es": "Todos los materiales para estudiar para el examen están disponibles en línea en otoweb.org. El alumno se prepara con un curso teórico que cubre todos los conocimientos e información necesarios, esto se sigue con las pruebas prácticas. El plan de estudios práctico comienza en habilidades básicas y maniobras simples y es seguida por tareas complejas que involucran pasos desafiantes llenos de procedimientos y terminan con cirugías simuladas completas.",
-                "zh-cn": "用于考试的所有材料在Uroweb.org提供。学习者准备了一个涵盖所有必要的知识和信息的理论课程，然后进行实际测试。实际课程以基本技能和简单的演习开始，然后是复杂的任务，涉及充满程序的具有挑战性的步骤，并以完整的模拟手术结束。",
-                "ja": "試験の勉強のためのすべての材料はuroweb.orgでオンラインで入手可能です。学習者はすべての必要な知識と情報を網羅する理論的コースで準備しています。その後、これには実用的なテストが続きます。実際のカリキュラムは基本的なスキルとシンプルな操作で始まり、その後に手続きに満ちた挑戦的な手順を含む複雑なタスクが続き、完全なシミュレートされた手術で終わる。"
+                "zh-cn": "所有用于考试的材料均可在ouroweb.org上在线获得。学习者准备涵盖所有必要知识和信息的理论课程，然后进行实际测试。实用的课程始于基本技能和简单的演习，紧随其后的是复杂的任务，这些任务涉及挑战性步骤，并以完整的模拟手术结束。",
+                "ja": "試験のために勉強するためのすべての資料は、uroweb.orgでオンラインで入手できます。学習者は、必要なすべての知識と情報をカバーする理論的コースで準備します。これには実用的なテストが行​​われます。実用的なカリキュラムは、基本的なスキルと単純な操作から始まり、その後、手順に満ちた挑戦的なステップを含む複雑なタスクが続き、完全なシミュレートされた手術で終わります。",
+                "hu": "A vizsga tanulmányozására szolgáló összes anyag online elérhető az uroweb.org oldalon. A tanuló elméleti kurzussal készül, amely az összes szükséges tudást és információt lefedi, ezt követően gyakorlati teszteléssel követik. A gyakorlati tanterv az alapvető készségekkel és az egyszerű manőverekkel kezdődik, és összetett feladatok követik, amelyek kihívásokkal teli, eljárásokkal teli és teljes szimulált műtétekkel véget érnek."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -53,8 +87,17 @@
                 "en": "The E-BLUS exam is made up of five tasks which evaluate bi-manual dexterity, eye-hand coordination, spatial perception and skills in intraoperative suturing, clipping and cutting.",
                 "pl": "Egzamin E-BLUS składa się z pięciu zadań, które oceniają dwuręczną zręczność, koordynację wzrokowo-ruchową, percepcję przestrzenną oraz umiejętności śródoperacyjnego szycia, obcinania i cięcia.",
                 "es": "El examen E-BLUS está formado por cinco tareas que evalúan la destreza bi-manual, la coordinación de las manos, la percepción espacial y las habilidades en sutura intraoperatoria, recorte y corte.",
-                "zh-cn": "E-Blus考试由五项任务组成，评估术中缝合，剪切和切割中的双手动的灵活性，眼睛交易，空间感知和技能。",
-                "ja": "E-BLUS試験は、術中の縫合、クリッピング、切断の双手のげ所、眼の協調、空間的知覚、およびスキルを評価する5つのタスクで構成されています。"
+                "zh-cn": "E-Blus考试由五项任务组成，这些任务评估了术中缝合，剪裁和切割方面的双重敏捷性，眼手协调，空间感知和技能。",
+                "ja": "E-BLUS試験は、術中の縫合、切り抜き、切断における双方向の器用さ、目の手の調整、空間的知覚、およびスキルを評価する5つのタスクで構成されています。",
+                "hu": "Az e-blus vizsga öt feladatból áll, amelyek értékelik a kétkénuális ügyességet, a szem-kéz koordinációt, a térbeli észlelést és az intraoperatív varrni, vágás és vágás készségeit."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -63,8 +106,17 @@
                 "en": "We here at Laparo Medical Simulators highly recommend that trainees follow the included Basic Skills and Basic Suturing Skill training paths to hone their skill. Those exercises will walk the trainee through smaller difficulty increments step-by-step, breaking down skills into simpler components. This practice is beneficial for performance with E-BLUS exercises.",
                 "pl": "Laparo Medical Simulators zaleca, aby ćwiczący podążali za dołączonymi ścieżkami treningowymi: Umiejętności podstawowe i Podstawowe umiejętności szycia. Ćwiczenia te prowadzą krok po kroku, rozkładając umiejętności na czynniki pierwsze. Ta praktyka jest korzystna dla wydajności z ćwiczeniami E-BLUS.",
                 "es": "Aquí, en los simuladores médicos de Laparo recomiendan altamente a que los alumnos sigan las habilidades básicas incluidas y las rutas de capacitación de habilidades básicas para perfeccionar su habilidad. Esos ejercicios caminarán por el aprendiz a través de incrementos de dificultad más pequeños paso a paso, rompiendo habilidades en componentes más simples. Esta práctica es beneficiosa para el rendimiento con ejercicios E-BLUS.",
-                "zh-cn": "我们在Laparo医疗模拟器中强烈建议学员遵循包括的基本技能和基本缝合技能培训路径，以磨练他们的技能。这些练习将通过较小的难度将受训者逐步增量，将技能分解为更简单的组件。这种做法有利于具有电子邮件练习的性能。",
-                "ja": "私たちはLaparo Medical Simulatorsでは、研修生には含まれている基本的なスキルと基本的な縫合スキルトレーニングパスに彼らのスキルを磨くことを強くお勧めします。これらの演習は、より小さな難易度を段階的に歩くことによって研修生を歩き、スキルを簡単な部品に分割します。この慣行はE-BLUS演習によるパフォーマンスにとって有益です。"
+                "zh-cn": "我们在Laparo Medical Simulators的这里强烈建议学员遵循包括的基本技能和基本的缝合技能培训路径，以磨练他们的技能。这些练习将使受训者逐步进行较小的难度增量，从而将技能分解为更简单的组件。这种做法对通过e-blus练习的性能有益。",
+                "ja": "Laparo Medical Simulatorsの私たちは、研修生が含まれている基本的なスキルと基本的な縫合スキルトレーニングパスに従うためにスキルを磨くことを強くお勧めします。これらのエクササイズは、段階的に段階的に困難な増加を練習し、スキルをよりシンプルなコンポーネントに分割します。このプラクティスは、E-BLUSエクササイズでのパフォーマンスに有益です。",
+                "hu": "Mi, itt, a Laparo Medical Simulátorok, nagyon javasoljuk, hogy a gyakornokok kövessék az alapvető készségeket és az alapvető varrási készség -edzési útvonalakat, hogy fejlesszék képességeiket. Ezek a gyakorlatok a gyakornokot a kisebb nehézségi fokozatokon keresztül lépésről lépésre vezetik, és a készségeket egyszerűbb alkatrészekre bontják. Ez a gyakorlat hasznos az e-blus gyakorlatokkal végzett teljesítményhez."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -72,26 +124,65 @@
             "text": {
                 "en": "Disclaimer:\nThe E-BLUS-Compatible components and courses made by Laparo Medical Simulators are not endorsed or verified by the European Association of Urology. Because of this they may not be completely identical to the actual devices used for certification and differences may exist.\n",
                 "pl": "Zastrzeżenie:\nKomponenty i kursy kompatybilne z E-BLUS wykonane przez Laparo Medical Simulators nie są zatwierdzone ani weryfikowane przez Europejskie Stowarzyszenie Urologiczne. Z tego powodu mogą nie być identyczne z rzeczywistymi urządzeniami używanymi do certyfikacji i mogą istnieć różnice.\n",
-                "es": "Descargo de responsabilidad:\nLos componentes y cursos compatibles con E-Blus realizados por los simuladores médicos de Laparo no están respaldados o verificados por la Asociación Europea de Urología. Debido a esto, es posible que no sean completamente idénticos a los dispositivos reales utilizados para la certificación y pueden existir diferencias.\n",
-                "zh-cn": "免责声明：\nLaparo医疗模拟器制造的电子数据库兼容组件和课程未被欧洲泌尿外科协会认可或验证。因此，由于这可能与用于认证的实际设备完全相同，因此可能存在差异。\n",
-                "ja": "免責事項：\nLaparo医療シミュレータによるE-Blus互換性のあるコンポーネントとコースは、ヨーロッパ泌尿器科の協会によって承認または検証されていません。このため、それらは認証に使用される実際の装置と完全に同一ではないかもしれません。\n"
+                "es": "Descargo de responsabilidad:\n Los componentes y cursos compatibles con E-Blus realizados por los simuladores médicos de Laparo no están respaldados o verificados por la Asociación Europea de Urología. Debido a esto, es posible que no sean completamente idénticos a los dispositivos reales utilizados para la certificación y pueden existir diferencias.",
+                "zh-cn": "免责声明：\nLaparo医疗模拟器提供的E-Blus兼容组件和课程未经欧洲泌尿科协会的认可或验证。因此，它们可能与用于认证的实际设备并不完全相同，并且可能存在差异。\n",
+                "ja": "免責事項：\nLaparo Medical Simulatorsによって作成された電子ブラス互換のコンポーネントとコースは、欧州泌尿器科協会によって承認または検証されていません。このため、それらは認証に使用される実際のデバイスと完全に同一ではない場合があり、違いが存在する可能性があります。\n",
+                "hu": "Jogi nyilatkozat:\nA Laparo orvosi szimulátorok által készített e-blus-kompatibilis alkatrészeket és tanfolyamokat az Urológiai Európai Szövetség nem hagyta jóvá vagy nem igazolja. Emiatt előfordulhat, hogy nem teljesen azonosak a tanúsításhoz használt tényleges eszközökkel, és létezhetnek különbségek.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "European Basic Laparoscopic Urology Skills - E-BLUS",
-        "pl": "European Basic Laparoscopic Urology Skills - E-BLUS",
-        "es": "Habilidades europeas de urología laparoscópica básica - e-blus",
-        "zh-cn": "欧洲基本腹腔镜泌尿外科技能 -  E-BLUS",
-        "ja": "ヨーロッパの基本的な腹腔鏡泌尿器科学技術 -  e-blus"
+        "text": {
+            "en": "European Basic Laparoscopic Urology Skills - E-BLUS",
+            "pl": "European Basic Laparoscopic Urology Skills - E-BLUS",
+            "es": "Habilidades europeas de urología laparoscópica básica - E-BLUS",
+            "zh-cn": "欧洲基本腹腔镜泌尿科技能-E -Blus",
+            "ja": "ヨーロッパの基本的な腹腔鏡泌尿器科のスキル-E -blus",
+            "hu": "Európai alapvető laparoszkópos urológiai készségek - E -blus"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "A description of the standard for verifying Laparoscopic skill developed by the European Association of Urology",
-        "pl": "Opis standardu weryfikacji umiejętności rozwijanego przez Europejskie Stowarzyszenie Urologiczne",
-        "es": "Una descripción del estándar para verificar la habilidad laparoscópica desarrollada por la Asociación Europea de Urología.",
-        "zh-cn": "核查欧洲泌尿外科协会产生的腹腔镜技能的标准描述",
-        "ja": "ヨーロッパ泌尿器科協会によって開発された腹腔鏡技術を検証するための標準の説明"
+        "text": {
+            "en": "A description of the standard for verifying Laparoscopic skill developed by the European Association of Urology",
+            "pl": "Opis standardu weryfikacji umiejętności rozwijanego przez Europejskie Stowarzyszenie Urologiczne",
+            "es": "Una descripción del estándar para verificar la habilidad laparoscópica desarrollada por la Asociación Europea de Urología.",
+            "zh-cn": "欧洲泌尿外科协会开发的腹腔镜技能的标准的描述",
+            "ja": "欧州泌尿器協会によって開発された腹腔鏡スキルを検証するための基準の説明",
+            "hu": "Az Urológiai Európai Szövetség által kidolgozott laparoszkópos készségek ellenőrzésének szabványának leírása"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

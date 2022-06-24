@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,54 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "EBLUS3",
     "allowedInstruments": [
         "dissector",
         "dissector"
+    ],
+    "accessories": [
+        "fls_triangle:6"
     ],
     "name": {
         "en": "Peg Transfer",
         "pl": "Peg Transfer",
         "es": "Transferencia de clavija",
-        "zh-cn": "PEG转移",
-        "ja": "PEG転送"
+        "zh-cn": "钉转移",
+        "ja": "PEG転送",
+        "hu": "Csapszünet"
     },
     "skills": {
         "en": "E-BLUS, Ambidexterity",
         "pl": "E-BLUS, Oburęczna Zręczność",
         "es": "E-blus, ambidexterity",
-        "zh-cn": "E-BLU，BEALIDXTERITY",
-        "ja": "E-Blus、Ambidexterity"
+        "zh-cn": "E-Blus，灵活性",
+        "ja": "e-blus、両手利き",
+        "hu": "E-blus, ambidexteritás"
     },
     "description": {
         "en": "In this exercise six triangles must be moved left to right and back between the pegs available. The exercise verifies trainee skill in laparoscopic instrument dexterity and ability to collaborate between the instruments. ",
         "pl": "W tym ćwiczeniu należy przesunąć sześć trójkątów od lewej do prawej i z powrotem pomiędzy kołkami. Ćwiczenie weryfikuje umiejętności ćwiczącego w zakresie zręczności posługiwania się instrumentami laparoskopowymi oraz umiejętności współpracy instrumentami.",
         "es": "En este ejercicio, seis triángulos deben moverse de izquierda a derecha y de regreso entre las clavijas disponibles. El ejercicio verifica la habilidad de aprendizaje en la destreza del instrumento laparoscópico y la capacidad de colaborar entre los instrumentos.",
-        "zh-cn": "在本练习中，必须将六个三角形移动到右侧并在可用的挂钩之间左右移动。该练习验证了腹腔镜仪器灵巧和在仪器之间合作的能力技能。",
-        "ja": "この演習では、6つの三角形を利用可能なペグ間に右端に移動する必要があります。この運動は、腹腔鏡手術器具の機器の機器のスキルと機器間で協力する能力を検証します。"
+        "zh-cn": "在本练习中，必须向左向右移动六个三角形。该练习验证了腹腔镜仪器灵活性的受训者技能以及在仪器之间合作的能力。",
+        "ja": "この演習では、利用可能なPEGの間に6つの三角形を左から右に移動する必要があります。この演習は、腹腔鏡楽器の器用さの研修生スキルと、楽器間で協力する能力を検証します。",
+        "hu": "Ebben a gyakorlatban hat háromszöget kell mozgatni balról jobbra és hátra a rendelkezésre álló csapok között. A gyakorlat ellenőrzi a gyakornoki képességeket a laparoszkópos műszeres ügyességben és az eszközök közötti együttműködés képességét."
     },
     "instructions": {
         "en": "This task is performed with 2 dissectors. Pick up 6 triangles on the left and hand them over to the right instrument and then drop them onto the pegs on the right. This must then be followed in the opposite direction and all 6 triangles should be returned to the pegs on the left.",
         "pl": "Zadanie wykonywane jest za pomocą 2 disektorów. 6 trójkątów musi być podnoszone kolejno lewym instrumentem i przekazywane prawemu instrumentowi, a następnie powinny być umieszczone na kołkach po prawej stronie. Następnie należy postępować w przeciwnym kierunku i wszystkie 6 trójkątów należy z powrotem umieścić na kołkach po lewej stronie.",
         "es": "Esta tarea se realiza con 2 disectores. Recoge 6 triángulos a la izquierda y entreguelos hacia el instrumento correcto y luego los soltó en las clavijas a la derecha. Esto debe seguirse en la dirección opuesta y los 6 triángulos deben devolverse a las clavijas a la izquierda.",
-        "zh-cn": "此任务是用2个解剖员执行的。在左侧拾取6个三角形，然后将它们交给正确的仪器，然后将它们放在右侧的钉子上。然后必须沿相反方向遵循这一切，所有6个三角形应返回到左侧的钉子。",
-        "ja": "このタスクは2つの解剖器具を使用して実行されます。左側に6つの三角形を拾い上げて、それらを右側の楽器に取り上げてから、右側のペグに落とします。その後、これは反対方向に続く必要があり、6つの三角形はすべて左側のPEGに戻されるべきです。"
+        "zh-cn": "此任务是由2个解剖器执行的。在左侧拿起6个三角形，然后将它们交给右侧仪器，然后将它们放在右侧的钉子上。然后必须沿相反的方向遵循，所有6个三角形应返回左侧的钉子。",
+        "ja": "このタスクは、2つの分析者で実行されます。左側の6つの三角形を拾い、右の楽器に手渡してから、右側のペグにドロップします。次に、これを反対方向にたどり、6つの三角形すべてを左側のペグに戻す必要があります。",
+        "hu": "Ezt a feladatot 2 boncolóval hajtják végre. Vegyen fel 6 háromszöget a bal oldalon, adja át a jobb műszerre, majd ejtse le a jobb oldali csapokra. Ezt azután ellenkező irányban kell követni, és mind a 6 háromszöget vissza kell térni a bal oldali csapokhoz."
     },
     "preparation": {
         "en": "Place six triangles onto the pegs on the left side of the E-BLUS Peg Transfer platform.",
         "pl": "Sześć trójkątów powinno być umieszczone na kołkach po lewej stronie modułu z kołkami E-BLUS.",
         "es": "Coloque seis triángulos en las clavijas en el lado izquierdo de la plataforma E-BLUS PEG Transfer.",
-        "zh-cn": "将六个三角形放在E-BLU PEG转移平台左侧的钉子上。",
-        "ja": "E-BLUS PEG転送プラットフォームの左側のPEGに6つの三角形を置きます。"
+        "zh-cn": "将六个三角形放在E-Blus PEG传输平台左侧的钉上。",
+        "ja": "E-BLUS PEG転送プラットフォームの左側のペグに6つの三角形を置きます。",
+        "hu": "Helyezzen hat háromszöget a csapokra az E-blus PEG átviteli platform bal oldalán."
     }
 }

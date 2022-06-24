@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +139,57 @@
             "proficiency": 420
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
+    "accessories": [
+        "start_position:1",
+        " long_suturing_insert:1",
+        " needle_suture_20cm:1"
+    ],
     "name": {
         "en": "Continuous Basic Vertical",
         "pl": "Szew Podstawowy Pionowy Ciągły",
         "es": "Vertical básica continua",
-        "zh-cn": "连续基本垂直",
-        "ja": "連続基本垂直"
+        "zh-cn": "连续的基本垂直方向",
+        "ja": "連続的な基本的な垂直",
+        "hu": "Folyamatos alapvető függőleges"
     },
     "skills": {
         "en": "Suturing, Continuous",
         "pl": "Szycie, Ciągły",
         "es": "Sutura, continua",
         "zh-cn": "缝合，连续",
-        "ja": "縫合、連続"
+        "ja": "縫合、連続",
+        "hu": "Varrat, folyamatos"
     },
     "description": {
         "en": "In this exercise you will execute a continuous basic horizontal suturing pattern. Although difficult and rare in laparoscopic suturing, this pattern is a time saving technique which can be used instead of multiple single knots.",
         "pl": "W tym ćwiczeniu wykonywany jest ciągły podstawowy poziomy szew. Chociaż jest to trudne i rzadkie w szyciu laparoskopowym, taki szew może pomóc w oszczędzeniu czasu. Wiele pojedynczych węzłów jest bardziej czasochłonne. ",
         "es": "En este ejercicio, ejecutará un patrón de sutura horizontal básico continuo. Aunque es difícil y raro en sutura laparoscópica, este patrón es una técnica de ahorro de tiempo que se puede usar en lugar de múltiples nudos individuales.",
-        "zh-cn": "在本练习中，您将执行连续的基本水平缝合模式。虽然腹腔镜缝合难以且罕见，但这种模式是一种可以使用的时间节省技术而不是多个单一结。",
-        "ja": "この課題では、連続的な基本水平縫合パターンを実行します。腹腔鏡下縫合において困難で稀であるが、このパターンは複数の単結晶の代わりに使用することができる時間節約技術である。"
+        "zh-cn": "在本练习中，您将执行连续的基本水平缝合模式。尽管在腹腔镜缝合方面很困难且罕见，但这种模式是一种节省时间的技术，可以使用多个单结。",
+        "ja": "この演習では、連続した基本的な水平縫合パターンを実行します。腹腔鏡下縫合では困難でまれですが、このパターンは、複数の単一ノットの代わりに使用できる時間節約技術です。",
+        "hu": "Ebben a gyakorlatban folyamatos alapvető vízszintes varrási mintát fog végrehajtani. Noha a laparoszkópos varratokban nehéz és ritka, ez a minta egy időmegtakarítási technika, amelyet több egyszeri csomó helyett lehet használni."
     },
     "instructions": {
         "en": "Use the needle holder on the left side and the dissector on the right. To begin the exercise remove the needle from the start position and puncture the silicone from the top with the needle-holder. Apply a single square knot with as little suture material remaining on the top. Then apply 4 continuous throws from the top, each 1-2mm apart. Complete the exercise with the knot shown in the video.",
         "pl": "W tym ćwiczeniu imadło powinno się znajdować po prawej stronie a disektor po lewej stronie. Aby rozpocząć, należy zdjąć igłę z pozycji startowej i nakłuć długi insert do szycie od góry. Po wykonaniu przekłucia powinien być założony pojedynczy węzeł chirurgiczny (1x1) z jak najmniejszą ilością nici pozostałej na górze. Następnie powinny być wykonane 4 kolejne rzuty od góry, każdy w odstępie 1-2 mm. Ćwiczenie powinno być zakończone w sposób pokazany w video. ",
         "es": "Use el soporte de la aguja en el lado izquierdo y el disector a la derecha. Para comenzar el ejercicio, retire la aguja de la posición de inicio y perfore la silicona desde la parte superior con el soporte de la aguja. Aplique un solo nudo cuadrado con un poco de material de sutura que quede permanece en la parte superior. Luego, aplique 4 tiros continuos desde la parte superior, cada 1-2 mm de distancia. Completa el ejercicio con el nudo que se muestra en el video.",
-        "zh-cn": "在左侧和右侧的解剖器上使用针刺器。开始锻炼从起始位置取下针头，并用针座从顶部刺穿硅胶。将单个方形结用作顶部的小缝合材料。然后从顶部施加4个连续抛出，每次1-2mm分开。使用视频中显示的结锻炼。",
-        "ja": "左側のニードルホルダーと右側の解剖器具を使用してください。運動を開始するには、開始位置から針を取り除き、シリコーンを針ホルダーと一緒に穿刺します。一番上に残っているほとんど縫合糸材料を持つ単一の正方結び目を塗ります。その後、上から4つの連続的なスローを適用します。ビデオに表示されているノットで運動を完了してください。"
+        "zh-cn": "使用左侧的针固定器，右侧使用解剖器。要开始练习，将针从起始位置上移开，并用针架从顶部穿刺硅酮。施加一个平方结，顶部剩下的缝合线材料少。然后从顶部施加4个连续的投掷，每1-2毫米相距1-2毫米。通过视频中显示的结完成练习。",
+        "ja": "左側の針ホルダーと右側の分離器を使用します。エクササイズを開始するには、針を開始位置から取り外し、シリコンを上から針を保持します。上部に残っているのと同じ小さな縫合材料を備えた単一の正方形の結び目を塗ります。次に、1〜2mmのそれぞれの上部から4つの連続スローを適用します。ビデオに示されている結び目でエクササイズを完了します。",
+        "hu": "Használja a bal oldalon lévő tűtartót és a jobb oldali boncolót. A gyakorlat elindításához Távolítsa el a tűt a kezdeti helyzetből, és a tűtartóval felülről lyukasztja a szilikont. Vigyen fel egy négyzet alakú csomót, amelynek a tetején maradt kis varrás anyag. Ezután alkalmazzon 4 folyamatos dobást felülről, mindegyik 1-2 mm-re. Töltse ki a gyakorlatot a videóban látható csomóval."
     },
     "preparation": {
         "en": "Place the long suturing insert horizontally into the suturing module and the needle with 15-20cm of suture material in the start position.",
         "pl": "Umieścić długi insert poziomo na module do szycia oraz pozycję startu na górnej części. Igła wraz z 15-20cm nici umieścić w pozycji startu.",
         "es": "Coloque la inserción de sutura larga horizontalmente en el módulo de sutura y la aguja con 15-20 cm de material de sutura en la posición de inicio.",
-        "zh-cn": "将长缝线插入水平放入缝合模块和用15-20cm的缝线材料中的缝合材料。",
-        "ja": "長い縫合挿入を水平に置き、スタート位置にある15~20cmの縫合材料を縫合モジュールと針に入れます。"
+        "zh-cn": "将长缝合线水平插入缝合模块中，并在起始位置上用15-20厘米的缝合材料插入针头。",
+        "ja": "長い縫合インサートを縫合モジュールと針を開始位置に15〜20cmの縫合材で水平に置きます。",
+        "hu": "Helyezze a hosszú varrási betétet vízszintesen a varrómodulba és a tűt, 15-20 cm-es varrási anyaggal a kezdő helyzetben."
     }
 }

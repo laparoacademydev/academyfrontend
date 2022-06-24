@@ -77,5 +77,11 @@
     "module_vaginalcuff",
     "vr_pediatrics_pyloromyotomy",
     "vr_pediatrics_esophageal_atresia",
-    "vr_pediatrics_pyeloplasty"
+    "vr_pediatrics_pyeloplasty",
+    "vr_nephrectomy_colon_mobilization",
+    "vr_nephrectomy_dissection",
+    "vr_nephrectomy_clipping",
+    "vr_nephrectomy_full",
+    "vr_prostatectomy_full",
+    "module_prostatectomy"
 ]

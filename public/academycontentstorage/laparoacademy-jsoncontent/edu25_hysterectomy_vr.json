@@ -1,0 +1,200 @@
+{
+    "id": "edu25_hysterectomy_vr",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Hysterectomy Virtual Procedures",
+                "pl": "Histerektomia Procedury Wirtualne",
+                "es": "Procedimientos virtuales de histerectomía",
+                "zh-cn": "子宫切除术虚拟程序",
+                "ja": "子宮摘出仮想手順",
+                "hu": "Hiszterektómia virtuális eljárások"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The virtual exercises developed by Laparo for the Laparo Apex provide the trainee with the ability to complete an entire hysterectomy inside of a virtual operating area using real instruments. The purpose of these exercises is to take the trainee through the stages of the procedures and the order in which they should be performed and to depict the complications that may arise from mistakes. Since the procedure varies by scope, there are many different options to select from.",
+                "pl": "Wirtualne ćwiczenia opracowane przez Laparo pozwalają trenującemu ukończenie całej procedury histerektomii w virtualnym polu operacyjnym. Celem tych ćwiczeń jest przeprowadzenie użytkownika przez wszystkie etapy procedury w odpowiedniej kolejności i odzwierciedlenie możliwych komplikacji powstających z błędów. Ponieważ histerektomia jest zróżnicowana i zależna od zakresu jest wiele etapów i trzy zabiegi do wyboru.",
+                "es": "Los ejercicios virtuales desarrollados por Laparo para el apex de Laparo proporcionan al alumno la capacidad de completar una histerectomía completa dentro de un área de operación virtual utilizando instrumentos reales. El propósito de estos ejercicios es llevar al alumno a través de las etapas de los procedimientos y el orden en que deben realizarse y representar las complicaciones que pueden surgir de los errores. Dado que el procedimiento varía según el alcance, hay muchas opciones diferentes para seleccionar.",
+                "zh-cn": "拉帕罗（Laparo）为拉帕罗（Laparo）顶点开发的虚拟练习使受训者能够使用真实仪器在虚拟操作区域内完成整个子宫切除术。这些练习的目的是使学员穿越程序的阶段以及应执行的顺序，并描绘出错误可能引起的并发症。由于该过程因范围而异，因此有许多不同的选项可供选择。",
+                "ja": "LaparoがLaparo Apexのために開発した仮想演習により、訓練生は、実際の機器を使用して仮想操作領域内で子宮摘出全体を完了する能力を提供します。これらのエクササイズの目的は、訓練生を手順の段階と実行する必要がある順序を通過し、間違いから生じる可能性のある合併症を描写することです。手順は範囲によって異なるため、選択する多くの異なるオプションがあります。",
+                "hu": "A Laparo által a Laparo Apex által kifejlesztett virtuális gyakorlatok lehetővé teszik a gyakornok számára, hogy egy teljes hiszterektómiát egy virtuális működési terület belsejében valós eszközökkel töltsön be. Ezeknek a gyakorlatoknak az a célja, hogy a gyakornokot az eljárások szakaszaiban és a végzés elvégzéséhez, valamint a hibákból fakadó komplikációk ábrázolása. Mivel az eljárás hatályonként változik, sokféle lehetőség közül választhat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The program of exercises offers two full versions of the procedure - total laparoscopic hysterectomy in which the ovaries and fallopian tubes are spared, and total laparoscopic hysterectomy with salpingo-oophorectomy.",
+                "pl": "Program nauczania oferuje dwie pełne wersje procedury - całkowita histerektomia, w której jajowody i jajniki pozostają nienaruszone, oraz całkowita histerektomia z salpingo-ooforektomią.",
+                "es": "El programa de ejercicios ofrece dos versiones completas del procedimiento: histerectomía laparoscópica total en la que se ahorran los ovarios y las trompas de Falopio, y la histerectomía laparoscópica total con salpingo -ooforectomía.",
+                "zh-cn": "练习程序提供了两个完整的手术版本 - 腹腔镜子宫切除术，其中保留了卵巢和输卵管，总腹腔镜子宫切除术和Salpingo -Ophororophorortomophorortormosy术。",
+                "ja": "エクササイズのプログラムは、2つの完全なバージョンの手順 - 卵巣と卵管が免除される腹腔鏡下子宮全摘出術と、雄犬織機摘出術を伴う腹腔鏡下子宮全摘出術を提供します。",
+                "hu": "A Gyakorlatok programja az eljárás két teljes változatát kínálja - a petefészek és a petefészek teljes laparoszkópos hiszterektómiája, valamint a teljes laparoszkópos hiszterektómia salpingo -oophorektómiával."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Aside from these two, the program also offers exercises which focus on specific stages of this procedure such as cutting of the ligaments, bladder mobilization and colpotomy. The program also offers a full procedure for salpingo-oophorectomy without the actual hysterectomy itself.",
+                "pl": "Poza tymi dwoma pełnymi zabiegami, program oferuje również możliwość wykonywania ćwiczeń skupiających na pojedynczych etapach procedury takich jak przecinanie wiązadeł, mobilizację pęcherza oraz kolpotomię. Dostępny jest też trzeci zabieg, obustronną Salpingo Ooforektomię w którym nie jest wykonywana sama histerektomia.",
+                "es": "Además de estos dos, el programa también ofrece ejercicios que se centran en etapas específicas de este procedimiento, como cortar los ligamentos, la movilización de la vejiga y la colpotomía. El programa también ofrece un procedimiento completo para la salpingo-ooforectomía sin la histerectomía real en sí.",
+                "zh-cn": "除了这两者外，该计划还提供练习，这些练习侧重于此过程的特定阶段，例如切割韧带，膀胱动员和结肠切开术。该计划还提供了一个完整的手术方法，即没有实际的子宫切除术本身，提供了salpingo-opophororcormosy。",
+                "ja": "これら2つとは別に、このプログラムは、靭帯の削減、膀胱動員、コルポトミーなどのこの手順の特定の段階に焦点を当てた演習も提供しています。また、このプログラムは、実際の子宮摘出自体なしでは、大規模な卵巣摘出術の完全な手順を提供しています。",
+                "hu": "E kettő mellett a program olyan gyakorlatokat is kínál, amelyek az eljárás meghatározott szakaszaira összpontosítanak, például a ligamentumok vágására, a hólyag mobilizációjára és a kolpotómiára. A program teljes eljárást kínál a salpingo-oophorectomia szempontjából, maga a tényleges hiszterektómia nélkül."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The virtual hysterectomy exercises end before the findla stage of suturing of the vaginal cuff. To practice this suturing aspect of the procedure we recommend using the physical vaginal cuff repair module.",
+                "pl": "Wirtualne ćwiczenia histerektomii kończą się wraz z usunięciem macicy przed zaszyciem kikuta pochwy. Aby przećwiczyć i dopełnić ten aspekt procedury, zalecane jest użycie modułu oraz wykonanie ćwiczenia 'Zaszycie Kołnierza Pochwy - Moduł'.",
+                "es": "Los ejercicios de histerectomía virtual terminan antes de la etapa Findla de sutura del manguito vaginal. Para practicar este aspecto de sutura del procedimiento, recomendamos usar el módulo de reparación de manguitos vaginales físicos.",
+                "zh-cn": "虚拟子宫切除术练习在阴道袖口缝合的findla阶段之前结束。为了练习该过程的缝合方面，我们建议使用物理阴道袖带修复模块。",
+                "ja": "仮想子宮摘出術の運動は、膣カフの縫合のフィンドラ段階の前で終わります。手順のこの縫合の側面を練習するには、物理​​的な膣カフ修復モジュールを使用することをお勧めします。",
+                "hu": "A virtuális hiszterektómia gyakorlatok a hüvelyi mandzsetta varrása Findla stádiuma előtt végződnek. Az eljárás ezen varrási aspektusának gyakorlásához javasoljuk a fizikai hüvelyi mandzsetta javító modul használatát."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Virtual Uterine Manipulator",
+                "pl": "Wirtualny Manipulator Pochwowy",
+                "es": "Manipulador uterino virtual",
+                "zh-cn": "虚拟子宫操纵器",
+                "ja": "仮想子宮マニピュレーター",
+                "hu": "Virtuális méh manipulátor"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The uterine manipulator is a key component of a laparoscopic hysterectomy. It is used to change the angle of the entire uterus so that the instruments can reach the tissues at the best angles for cutting and coagulating.",
+                "pl": "Manipulator pochwowy jest kluczowym narzędziem używanym podczas histerektomii. Jest potrzebny aby możliwe było dostosowywanie kąta całej macicy w taki sposób, aby możliwe było wygodne i precyzyjne cięcie i koagulacja tkanek.",
+                "es": "El manipulador uterino es un componente clave de una histerectomía laparoscópica. Se usa para cambiar el ángulo de todo el útero para que los instrumentos puedan alcanzar los tejidos en los mejores ángulos para cortar y coagular.",
+                "zh-cn": "子宫操纵剂是腹腔镜子宫切除术的关键组成部分。它用于改变整个子宫的角度，以便仪器可以以最佳角度切割和凝结的角度到达组织。",
+                "ja": "子宮マニピュレーターは、腹腔鏡下子宮摘出術の重要な要素です。子宮全体の角度を変更するために使用され、機器が切断と凝固のために最良の角度で組織に到達できるようにします。",
+                "hu": "A méh manipulátor a laparoszkópos hiszterektómia kulcsfontosságú eleme. A teljes méh szögének megváltoztatására használják, hogy a műszerek a vágás és a koaguláció legjobb szögeiben elérhessék a szöveteket."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In the APEX, the manipulator is virtual. It is controlled with the arrows visible on the screen. An assistant can help out the operator by pressing them on the touchscreen or using the mouse interface. Alternatively, if an assistant is not available, the operator may move the actual instruments inside the operating area over the arrows to activate the manipulator. To prevent accidental activation, there is a brief time delay before the selected arrow is activated.",
+                "pl": "W APEX, manipulator jest wirtualny. Oznacza to że jest kontrolowany za pomocą strzałek widocznych na ekranie. Asystent może pomóc operatorowi przyciskając te strzałki na ekranie dotykowym bądź przy pomocy kursora. Jeżeli operator ćwiczy sam, możliwe jest przesunięcie końcówek instrumentów wewnątrz pola operacyjnego w miejsce strzałki aby aktywować kierunek ruchu. Aby uniknąć przypadkowej aktywacji, końcówka musi znajdować się w bezruchu pod strzałką kilka sekund zanim manipulator zacznie się przesuwać.",
+                "es": "En el ápice, el manipulador es virtual. Se controla con las flechas visibles en la pantalla. Un asistente puede ayudar al operador presionándolos en la pantalla táctil o utilizando la interfaz del mouse. Alternativamente, si un asistente no está disponible, el operador puede mover los instrumentos reales dentro del área de operación sobre las flechas para activar el manipulador. Para evitar la activación accidental, hay un breve retraso de tiempo antes de que se active la flecha seleccionada.",
+                "zh-cn": "在顶点中，操纵器是虚拟的。它通过屏幕上可见的箭头控制。助手可以通过按触摸屏或使用鼠标接口来帮助操作员。另外，如果没有助手，操作员可以将实际仪器移到操作区域内，以激活操纵器。为了防止意外激活，在激活选定的箭头之前存在短暂的时间延迟。",
+                "ja": "頂点では、マニピュレーターは仮想です。画面に表示される矢印で制御されます。アシスタントは、タッチスクリーンに押し付けたり、マウスインターフェイスを使用したりすることで、オペレーターを支援できます。あるいは、アシスタントが利用できない場合、オペレーターは矢印の上に操作領域内の実際の機器を移動して、マニピュレーターを作動させることができます。偶発的な活性化を防ぐために、選択した矢印が活性化される前に短い時間遅延があります。",
+                "hu": "A csúcsban a manipulátor virtuális. A képernyőn látható nyilakkal vezérlik. Az asszisztens segíthet az operátornak azáltal, hogy megnyomja azokat az érintőképernyőn vagy az egér felületet használja. Alternatív megoldásként, ha egy asszisztens nem áll rendelkezésre, akkor az operátor mozgathatja a tényleges műszereket a működési területen a nyilak fölött a manipulátor aktiválásához. A véletlen aktiválás elkerülése érdekében egy rövid késleltetés van a kiválasztott nyíl aktiválása előtt."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "text": {
+            "en": "Virtual Hysterectomy",
+            "pl": "Histerektomia wirtualna",
+            "es": "Histerectomía virtual",
+            "zh-cn": "虚拟子宫切除术",
+            "ja": "仮想子宮摘出術",
+            "hu": "Virtuális hiszterektómia"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
+    },
+    "subTitle": {
+        "text": {
+            "en": "About the virtual hysterectomy exercises and how to use them.",
+            "pl": "O wirtualnych ćwiczeniach histerektomii",
+            "es": "Sobre los ejercicios de histerectomía virtual y cómo usarlos."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    }
+}

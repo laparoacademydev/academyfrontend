@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "dexterity_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "dexterity_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,54 @@
             "proficiency": 240
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "DM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "cone:10"
     ],
     "name": {
         "en": "Object Draw-Through",
         "pl": "Przekłuwanie Obiektem",
         "es": "Objeto de drenaje",
-        "zh-cn": "对象绘制",
-        "ja": "オブジェクトドロースルー"
+        "zh-cn": "对象抽奖",
+        "ja": "オブジェクトドロースルー",
+        "hu": "Objektumfelvétel"
     },
     "skills": {
         "en": "Suturing, Draw-Through, Rotation, Ambidexterity",
         "pl": "Przekłuwanie, Obracanie, Zręczność Oburęczna, Szycie",
         "es": "Suturación, dibujante, rotación, ambidexteridad.",
-        "zh-cn": "缝合，绘制，旋转，双心",
-        "ja": "縫合、描画、回転、AMBIDEXTALITY"
+        "zh-cn": "缝合，牵引，旋转，野性",
+        "ja": "縫合、ドロースルー、回転、両手利き",
+        "hu": "Varrni, áthaladás, forgás, ambidexteritás"
     },
     "description": {
         "en": "In laparoscopic suturing one of the frequent maneuvers occurs when the needle is pulled or drawn through tissue. In this exercise you will draw the rubber triangles through holes and pull them out with the assisting instrument at different angles before placing them in target locations. This kind exercise is a great preview of the kind of stability and collaboration you will have to demonstrate with instruments to effectively execute sutures laparoscopically.",
         "pl": "W szyciu laparoskopowym jednym z częstych manewrów jest przekłuwanie i przeciąganie igły przez tkankę. W tym ćwiczeniu trenujący musi przewlec stożki przez otwory i musi wyciągać je za pomocą instrumentu pomocniczego pod różnymi kątami, przed umieszczaniem ich w miejscach docelowych. Ćwiczenie jest zapowiedzią współpracy, którą będziesz musiał zademonstrować za pomocą narzędzi, aby skutecznie wykonywać szwy laparoskopowo. ",
         "es": "En la sutura laparoscópica, una de las maniobras frecuentes se produce cuando la aguja se tira o se dibuja a través del tejido. En este ejercicio, dibujará los triángulos de goma a través de los agujeros y los sacarán con el instrumento de asistencia en diferentes ángulos antes de colocarlos en ubicaciones de destino. Este tipo de ejercicio es una excelente vista previa del tipo de estabilidad y colaboración que tendrá que demostrar con los instrumentos para ejecutar efectivamente suturas laparoscópicamente.",
-        "zh-cn": "在腹腔镜中缝合频繁的操作，当针被拉动或通过组织拉出时发生。在本练习中，您将把橡胶三角形穿过孔，并在将辅助仪器以不同的角度拉出，然后将它们放在目标位置。这种练习是一种伟大的预览，即稳定性和合作，您必须用仪器展示以在腹腔镜上有效执行缝线。",
-        "ja": "腹腔鏡下では、頻繁な操縦のうちの1つが針が組織を通して引っ張って引っ張られるときに起こる。この演習では、ゴムの三角形を穴を開けると、ターゲットの位置に配置する前に、穴を通して引き出すことができます。この種の演習は、腹腔鏡的に縫合糸を効果的に実行するために機器で実証する必要がある種類の安定性とコラボレーションの素晴らしいプレビューです。"
+        "zh-cn": "在腹腔镜缝合中，当针头或通过组织拉动针或拉动针时，会发生一种频繁的操作。在本练习中，您将通过孔将橡胶三角形绘制，并用不同角度将它们拉出，然后将其放置在目标位置。这种练习是对您必须与工具一起演示的稳定性和协作的绝佳预览，以有效地腹腔镜执行缝合线。",
+        "ja": "腹腔鏡下縫合では、針が組織を通して引っ張ったり描かれたりすると、頻繁な操作の1つが発生します。この演習では、ゴムの三角形を穴から描き、ターゲットの場所に配置する前に、さまざまな角度でアシスト機器でそれらを引き出します。この種のエクササイズは、安定性とコラボレーションの種類の優れたプレビューであり、縫合的に縫合を効果的に実行するために機器で実証する必要があります。",
+        "hu": "Laparoszkópos varrni az egyik gyakori manőver akkor fordul elő, amikor a tűt meghúzzák vagy szöveten keresztül húzzák. Ebben a gyakorlatban a gumi háromszögeket a lyukakon keresztül húzza, és különböző szögekben húzza ki őket a segítő műszerrel, mielőtt a célhelyekbe helyezné őket. Ez a fajta gyakorlat nagyszerű előnézet a stabilitásról és az együttműködésről, amelyet eszközökkel kell bemutatnia a varratok laparoszkópos hatékony végrehajtásához."
     },
     "instructions": {
         "en": "Grab cones from their holes in the top left or right 4 holes. Then draw through each cone through a hole in the basket with one instrument and pull out with the other. Then the place this cone inside the post nearest to that basket hole. Repeat until all posts have cones in them. Do not repeat drawing a cone through the same hole throughout the exercise as there are 8 holes for 8 cones and only draw through inside-out on the basket.",
         "pl": "Chwytaj kolejno stożki z otworów w 4 górnych pozycjach po lewej lub prawej stronie. Następnie jednym instrumentem przeciągnij każdy stożek przez otwór w koszu, a drugim instrumentem wyciągaj. Następnie umieszczaj stożek w słupku najbliższym do tego otworu. Powtarzaj, aż wszystkie słupki będą miały w sobie stożki. Nie powtarzaj przewlekania przez ten sam otwór dwa razy i przewlekaj od wewnątrz do zewnątrz koszyczka. ",
-        "es": "Agarre conos de sus agujeros en la parte superior izquierda o derecha 4 agujeros. Luego dibuje a través de cada cono a través de un agujero en la canasta con un instrumento y salga con el otro. Luego, el lugar de este cono dentro de la publicación más cercana a ese agujero de la cesta. Repita hasta que todos los mensajes tengan conos en ellos. No repita el dibujo de un cono a través del mismo orificio durante todo el ejercicio, ya que hay 8 orificios para 8 conos y solo atrae dentro de la canasta.",
-        "zh-cn": "从左上或右4孔的孔中抓住锥体。然后通过一个乐器中的每个锥体划出每个锥体，一个仪器并用另一个仪器拉出。然后将这个锥体的地方最接近那个篮子洞。重复，直到所有帖子都有锥体。在整个运动中，不要重复通过同一个孔绘制锥体，因为8个锥体有8个孔，并且仅在篮子上汲取内部。",
-        "ja": "左上または右の4つの穴の中の穴からコーンをつかみます。それからバスケットの穴を通して各コーンを介して1つの機器で引き抜き、もう一方を引き出します。それからこのコーンをそのバスケットホールに最も近い投稿の中に置きます。すべての投稿がそれらの中にコーンになるまで繰り返します。 8つの円錐用に8つの穴があるので、運動中の同じ穴を通してコーンを描画しないでください。"
+        "es": "Agarre conos de sus agujeros en la parte superior izquierda o derecha 4 agujeros. Luego dibuje a través de cada cono a través de un agujero en la canasta con un instrumento y salga con el otro. Luego, el lugar en este cono dentro de la publicación más cercana a ese agujero de la cesta. Repita hasta que todos los mensajes tengan conos en ellos. No repita el dibujo de un cono a través del mismo orificio durante todo el ejercicio, ya que hay 8 orificios para 8 conos y solo atrae dentro de la canasta.",
+        "zh-cn": "从左上角或右上方的4个孔中抓住锥体。然后用一种乐器通过篮子的一个孔拉动每个圆锥，然后与另一个锥子一起拉出。然后将这个圆锥体放在最近的篮子孔中。重复直到所有柱子都有锥体。在整个运动过程中，不要重复通过相同孔绘制锥体，因为有8个孔的孔，只能通过篮子上的内而外。",
+        "ja": "左上または右4穴の穴からコーンをつかみます。次に、一方の楽器でバスケットの穴を通って各円錐を通り抜け、もう一方の楽器で引き出します。次に、そのバスケットホールに最も近いポスト内のこのコーンの場所。すべての投稿にコーンが含まれるまで繰り返します。 8つのコーンに8つの穴があり、バスケットの内側にのみ描画するため、運動中に同じ穴からコーンを描くのは繰り返さないでください。",
+        "hu": "Fogd meg a kúpokat a bal felső vagy jobb oldali lyukukból 4 lyukból. Ezután húzza át az egyes kúpokat egy kosárban lévő lyukon keresztül, és húzza ki a másikkal. Ezután a kúp helyét a kosár lyukhoz legközelebbi oszlop belsejében. Addig ismételje meg, amíg az összes hozzászólásban nincs kúp. Ne ismételje meg a kúp rajzolását ugyanazon a lyukon keresztül a gyakorlat során, mivel 8 lyuk van 8 kúphoz, és csak a kosáron kívül húzza át."
     },
     "preparation": {
         "en": "Place 4 cones each in the holes in the top right and top left of the Dexterity Module.",
         "pl": "Umieść po 4 stożki w otworach w prawym górnym i lewym górnym rogu Modułu Zręczności. ",
         "es": "Coloque 4 conos en los orificios en la parte superior derecha y la parte superior izquierda del módulo de destreza.",
-        "zh-cn": "将4个锥体中的每个孔中的右上角和左上角的孔。",
-        "ja": "部品の左右の左右の穴の中に4つの円錐形を置きます。"
+        "zh-cn": "将4个圆锥体放在敏捷模块右上方和左上方的孔中。",
+        "ja": "Dexterityモジュールの右上と左上の穴にそれぞれ4つのコーンを置きます。",
+        "hu": "Helyezzen mindegyik 4 kúpot a lyukakba az ügyességi modul jobb felső és bal felső részébe."
     }
 }

@@ -2,59 +2,111 @@
     "id": "edu20_chole_vr",
     "content": [
         {
-            "type": "header",
-            "text": {
-                "en": "Laparo Apex VR Cholecystectomy Exercises",
-                "pl": "Ćwiczenia cholecystektomii VR",
-                "es": "Ejercicios de colecistectomía de Laparo Apex VR",
-                "zh-cn": "Laparo Apex VR胆囊切除术术",
-                "ja": "Laparo Apex VR胆嚢摘出術の練習"
-            }
-        },
-        {
             "type": "paragraph",
             "text": {
-                "en": "The VR exercises developed by Laparo provide the trainee with the ability to complete an entire Cholecystectomy inside of a virtual operating area using real instruments. The purpose of these exercises is to take the trainee through the stages of the procedures and the order in which they should be performed and to depict the complications that may arise from mistakes. It is noteworthy however that since there is no physical module inside the operating area there won’t be any physical haptic feedback typically experienced in laparoscopic procedures. With this in mind, the trainee should nevertheless concentrate attention on the actual events taking place in the operating area and some of the aspects not possible in simulating it on physical modules such as electro-surgery.",
-                "pl": "Ćwiczenia VR opracowane przez Laparo dają uczącemu możliwość wykonania całej cholecystektomii w wirtualnym polu operacyjnym przy użyciu prawdziwych instrumentów. Celem ćwiczeń jest przeprowadzenie przez etapy procedur i pokazanie kolejności ich wykonywania oraz przedstawienie komplikacji, które mogą wyniknąć z wykonywanych błędów. Warto zauważyć, że ponieważ w obszarze operacyjnym nie ma modułu fizycznego, nie powstaje fizyczne sprzężenie zwrotne odczuwane w prawdziwym zabiegu. Mając to na uwadze, praktykant powinien jednak koncentrować uwagę na rzeczywistych zdarzeniach zachodzących w obszarze operacyjnym i niektórych aspektach niemożliwych do symulacji na modułach fizycznych, takich jak elektrochirurgia.",
+                "en": "The virtual exercises developed by Laparo provide the trainee with the ability to complete an entire Cholecystectomy inside of a virtual operating area using real instruments. The purpose of these exercises is to take the trainee through the stages of the procedures and the order in which they should be performed and to depict the complications that may arise from mistakes. It is noteworthy however that since there is no physical module inside the operating area there won’t be any physical haptic feedback typically experienced in laparoscopic procedures. With this in mind, the trainee should nevertheless concentrate attention on the actual events taking place in the operating area and some of the aspects not possible in simulating it on physical modules such as electro-surgery.",
+                "pl": "Wirtualne ćwiczenia opracowane przez Laparo dają uczącemu możliwość wykonania całej cholecystektomii w wirtualnym polu operacyjnym przy użyciu prawdziwych instrumentów. Celem ćwiczeń jest przeprowadzenie przez etapy procedur i pokazanie kolejności ich wykonywania oraz przedstawienie komplikacji, które mogą wyniknąć z wykonywanych błędów. Warto zauważyć, że ponieważ w obszarze operacyjnym nie ma modułu fizycznego, nie powstaje fizyczne sprzężenie zwrotne odczuwane w prawdziwym zabiegu. Mając to na uwadze, praktykant powinien jednak koncentrować uwagę na rzeczywistych zdarzeniach zachodzących w obszarze operacyjnym i niektórych aspektach niemożliwych do symulacji na modułach fizycznych, takich jak elektrochirurgia.",
                 "es": "Los ejercicios VR desarrollados por Laparo proporcionan al aprendiz la posibilidad de completar una colecistectomía completa dentro de un área de operación virtual utilizando instrumentos reales. El propósito de estos ejercicios es llevar al aprendiz a través de las etapas de los procedimientos y el orden en que se deben realizar y representar las complicaciones que pueden surgir de los errores. Sin embargo, es decir, que no hay un módulo físico dentro del área de operación, no habrá ninguna respuesta háptica física que normalmente se experimenta en los procedimientos laparoscópicos. Con esto en mente, el aprendiz debe concentrar la atención en los eventos reales que tienen lugar en el área de operación y algunos de los aspectos que no son posibles al simularlo en módulos físicos, como la electrofirría.",
-                "zh-cn": "Laparo开发的VR练习为受训者提供了使用真实仪器在虚拟操作区域内完成整个胆囊切除术的能力。这些练习的目的是通过程序的阶段和应当将受训人员拿走，并描述可能因错误而产生的并发症。然而，值得注意的是，由于操作区域内没有物理模块，因此在腹腔镜程序中通常不会有任何物理触觉反馈。考虑到这一点，应将受训者集中注意在操作区域的实际事件以及在诸如电动手术等物理模块上模拟它的一些方面。",
-                "ja": "Laparoによって開発されたVR演習は、実際の機器を使用して仮想運転地域の内側の胆嚢摘出術全体を完成させる能力を訓練者に提供しています。これらの演習の目的は、手順の段階を通して研修生に行くべきであり、それらが実行されるべき順序を描いて、間違いから生じる可能性がある合併症を描くことです。しかしながら、それは注目に値するが、操作領域内に物理的なモジュールがないので、腹腔鏡手順で一般的に経験されている物理的な触覚フィードバックはありません。これを念頭に置いて、研修生はそれにもかかわらず、運営分野で行われている実際の出来事に注意を集めており、電気手術などの物理的モジュールでシミュレーションするのが不可能な態様のいくつかについて注意を集めてください。"
+                "zh-cn": "拉帕罗（Laparo）开发的虚拟练习使受训者能够使用真实仪器在虚拟操作区域内完成整个胆囊切除术。这些练习的目的是使学员穿越程序的阶段以及应执行的顺序，并描绘出错误可能引起的并发症。但是，值得注意的是，由于操作区域内部没有物理模块，因此腹腔镜手术中通常没有任何物理触觉反馈。考虑到这一点，学员应该将注意力集中在操作区域中发生的实际事件上，以及在诸如电子手术之类的物理模块上模拟它的某些方面。",
+                "ja": "Laparoによって開発された仮想演習により、研修生は、実際の機器を使用して仮想操作領域内で胆嚢摘出術全体を完了する能力を提供します。これらのエクササイズの目的は、訓練生を手順の段階と実行する必要がある順序を通過し、間違いから生じる可能性のある合併症を描写することです。ただし、操作エリア内に物理モジュールがないため、腹腔鏡手術で通常経験される物理的な触覚フィードバックはないことは注目に値します。これを念頭に置いて、研修生は、動作エリアで行われている実際のイベントと、エレクトロサーージなどの物理モジュールでそれをシミュレートする際に不可能な側面のいくつかに注意を集中する必要があります。",
+                "hu": "A Laparo által kifejlesztett virtuális gyakorlatok biztosítják a gyakornok számára, hogy egy teljes kolecisztektómiát egy virtuális működési terület belsejében valós műszerek segítségével töltsön be. Ezeknek a gyakorlatoknak az a célja, hogy a gyakornokot az eljárások szakaszaiban és a végzés elvégzéséhez, valamint a hibákból fakadó komplikációk ábrázolása. Figyelemre méltó azonban, hogy mivel a működési területen belül nincs fizikai modul, a laparoszkópos eljárásokban általában nem lesz fizikai haptikus visszajelzés. Ezt szem előtt tartva, a gyakornoknak mindazonáltal a figyelmet a működési területen zajló tényleges eseményekre kell koncentrálnia, és néhány szempontot nem lehetséges a fizikai modulok, például az elektro-műtét szimulálásában."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "paragraph",
             "text": {
-                "en": "An important noteworthy aspect of the VR Cholecystectomy exercises is the way in which the gallbladder is positioned in the beginning. In a real procedure, the gallbladder must be visualized and pulled out from under the liver. In many cases this is done with a third port and an instrument holds the gallbladder up throughout the procedure. In our VR module, to limit the amount of help a trainee needs this doesn't need to happen, the gallbladder already is positioned where it should be for the entire procedure to be practiced.",
-                "pl": "Ważnym aspektem ćwiczeń VR Cholecystektomii jest sposób w który pęcherzyk żółciowy jest usytuowany na początku. W prawdziwej procedurze pęcherzyk musi być uwidoczniony i pociągnięty przy wątrobie w zależności od anatomii pacjenta. Jest to często wykonywane przy użyciu trzeciego portu przez który asystent może trzymać pęcherzyknaciągnięty w trakcie całej procedury. Aby ograniczyć ilość potrzebnych rąk, w VR pęcherzyk żółciowy jest już zlokalizowany tam gdzie być powinien aby cała reszta procedury mogła być ćwiczona.",
+                "en": "An important noteworthy aspect of the virtual cholecystectomy is the way in which the gallbladder is positioned at the start. In a real procedure, the gallbladder must be visualized and pulled out from under the liver. In many cases this is done with a third port and an instrument holds the gallbladder up throughout the procedure. In our VR module, to limit the amount of help a trainee needs this doesn't need to happen, the gallbladder already is positioned where it should be for the entire procedure to be practiced.",
+                "pl": "Ważnym aspektem ćwiczeń wirtualne cholecystektomii jest sposób w który pęcherzyk żółciowy jest usytuowany na początku ćwiczenia. W prawdziwym zabiegu pęcherzyk musi być uwidoczniony i pociągnięty przy wątrobie w zależności od anatomii pacjenta. Jest to często wykonywane przy użyciu trzeciego portu przez który asystent może trzymać pęcherzyknaciągnięty w trakcie całej procedury. Aby ograniczyć ilość potrzebnych rąk, w wirtualnym zabiegu pęcherzyk żółciowy jest już zlokalizowany tam gdzie być powinien aby cała reszta procedury mogła być ćwiczona.",
                 "es": "Un aspecto importante: el aspecto notable de los ejercicios de colecistectomía VR es la forma en que la vesícula biliar está posicionada al principio. En un procedimiento real, la vesícula biliar debe visualizarse y extraerse de debajo del hígado. En muchos casos, esto se realiza con un tercer puerto y un instrumento sostiene la vesícula biliar en todo el procedimiento. En nuestro módulo VR, para limitar la cantidad de ayuda, las necesidades de un aprendiz no tienen que suceder, la vesícula biliar ya se coloca donde debe practicarse para todo el procedimiento.",
-                "zh-cn": "VR胆囊切除术术的重要值得注意的方面是胆囊在一开始时定位的方式。在真实的程序中，胆囊必须可视化并从肝脏下方拉出。在许多情况下，这是用第三端口完成的，并且仪器在整个过程中保持胆囊。在我们的VR模块中，为了限制实习生所需的帮助量，这不需要发生，胆囊已经定位，在那里它应该用于整个程序的实践。",
-                "ja": "VR胆嚢摘出術の重要な側面は、胆嚢が最初に位置づけられる方法です。実際の手順では、胆嚢を視覚化して肝臓の下から引き抜かなければならない。多くの場合、これは3番目のポートで行われ、器具は手順全体を通して胆嚢を保持しています。私たちのVRモジュールでは、研修生がこれを必要とする必要がないヘルプの量を制限する必要はありません。"
+                "zh-cn": "虚拟胆囊切除术的一个重要方面是胆囊在开始时定位的方式。在实际过程中，必须将胆囊可视化并从肝脏下方拉出。在许多情况下，这是通过第三个端口完成的，并且在整个过程中将炮弹固定在胆囊中。在我们的VR模块中，为了限制受训者需要的帮助量，这不需要发生，胆囊已经定位在应该练习整个过程的位置。",
+                "ja": "仮想胆嚢摘出術の重要な注目すべき側面は、胆嚢が最初に配置される方法です。実際の手順では、胆嚢を視覚化し、肝臓の下から引き抜く必要があります。多くの場合、これは3番目のポートで行われ、手順全体で胆嚢を保持します。私たちのVRモジュールでは、研修生が必要とする支援の量を制限するためにこれを起こす必要はありません。胆嚢は、手順全体が実践されるべき場所にある場所にすでに配置されています。",
+                "hu": "A virtuális kolecisztektómia fontos figyelemre méltó aspektusa az, ahogyan az epehólyag elején helyezkedik el. Valódi eljárásban az epehólyagot ki kell viselni és ki kell húzni a máj alól. Sok esetben ezt egy harmadik portdal végzik, és egy műszer az epehólyagot az eljárás során tartja. A VR modulunkban, hogy korlátozzuk a gyakornokok által igényelt segítség mennyiségét, ennek nem kell megtörténnie, az epehólyag már ott van, ahol a teljes eljárás gyakorlásához kell lennie."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu20_chole_vr_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Although approaches may differ, it is recommended that before cutting, two clips be applied on the hepatocystic duct and three clips be applied on the cystic artery. In this way two clips should secure the artery and one clip should secure the duct. ",
-                        "pl": "Chociaż wykorzystywane metodologie różnią się, jest powszechnie przyjęte że dwa klipsy powinny zostać umocowane na przewodzie woreczka żółciowego, oraz że trzy klipsy powinny zostać umieszczone na tętniczce prowadzącej do woreczka. W ten sposób po przecięciu dwa klipsy powinny zabezpieczać tętnicę oraz jeden pozostałość po przewodzie żółciowym.",
-                        "es": "Aunque los enfoques pueden diferir, se recomienda que antes de cortar, se aplican dos clips en el conducto hepatocístico y se aplican tres clips en la arteria quística. De esta manera, dos clips deben asegurar la arteria y un clip debe asegurar el conducto.",
-                        "zh-cn": "虽然方法可能不同，但建议在切割之前，在肝细管上施加两条夹子，并在囊性动脉上施加三个夹子。以这种方式，两个夹子应该固定动脉，一个夹子应该固定管道。",
-                        "ja": "アプローチは異なるかもしれないが、切断する前に、眼嚢胞性ダクト上に2つのクリップを適用し、そして嚢胞性動脈に3つのクリップを塗布することを推奨する。このようにして、2つのクリップは動脈を固定し、1つのクリップはダクトを固定するべきです。"
-                    }
+            "media": {
+                "url": "edu20_chole_vr_01.png",
+                "type": "image",
+                "label": {
+                    "en": "Although approaches may differ, it is recommended that before cutting, two clips be applied on the hepatocystic duct and three clips be applied on the cystic artery. In this way two clips should secure the artery and one clip should secure the duct. ",
+                    "pl": "Chociaż wykorzystywane metodologie różnią się, jest powszechnie przyjęte że dwa klipsy powinny zostać umocowane na przewodzie woreczka żółciowego, oraz że trzy klipsy powinny zostać umieszczone na tętniczce prowadzącej do woreczka. W ten sposób po przecięciu dwa klipsy powinny zabezpieczać tętnicę oraz jeden pozostałość po przewodzie żółciowym.",
+                    "es": "Aunque los enfoques pueden diferir, se recomienda que antes de cortar, se aplican dos clips en el conducto hepatocístico y se aplican tres clips en la arteria quística. De esta manera, dos clips deben asegurar la arteria y un clip debe asegurar el conducto.",
+                    "zh-cn": "尽管方法可能有所不同，但建议在切割之前，将两个夹子应用于肝囊管上，并将三个夹子应用于囊性动脉上。这样，两个夹子应固定动脉，一个夹子应固定管道。",
+                    "ja": "アプローチは異なる場合がありますが、切断する前に、肝細胞管に2つのクリップを適用し、嚢胞動脈に3つのクリップを適用することをお勧めします。このようにして、2つのクリップが動脈を固定する必要があり、1つのクリップがダクトを固定する必要があります。",
+                    "hu": "Noha a megközelítések eltérhetnek, ajánlott, hogy vágás előtt két klipet alkalmazzanak a hepatocisztikus csatornán, és három klipet alkalmazzanak a cisztás artériára. Ilyen módon két klipnek kell rögzítenie az artériát, és egy klipnek rögzítenie kell a csatornát."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Cholecystectomy VR",
-        "pl": "Cholecystektomia",
-        "es": "Colecistectomy vr",
-        "zh-cn": "胆囊切除术vr.",
-        "ja": "胆嚢摘出術VR."
+        "text": {
+            "en": "Virtual Cholecystectomy",
+            "pl": "Cholecystektomia Wirtualna",
+            "es": "Colecistectomía virtual",
+            "zh-cn": "虚拟胆囊切除术",
+            "ja": "仮想胆嚢摘出術",
+            "hu": "Virtuális kolecisztektómia"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
+    },
+    "subTitle": {
+        "text": {
+            "en": "Practical information about the Virtual Cholecystectomy available in Laparo Apex.",
+            "pl": "Informacje praktyczne o ćwiczeniu wirtualnej cholecystektomii dostępnej w Lapro Apex.",
+            "es": "Ejercicios de colecistectomía de Laparo Apex VR",
+            "zh-cn": "有关Laparo Apex可用的虚拟胆囊切除术的实用信息。",
+            "ja": "Laparo Apexで利用可能な仮想胆嚢摘出術に関する実用的な情報。",
+            "hu": "Gyakorlati információk a Laparo Apex -ben elérhető virtuális kolecisztektómiáról."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

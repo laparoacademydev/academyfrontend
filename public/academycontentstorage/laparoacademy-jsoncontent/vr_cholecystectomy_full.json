@@ -3,20 +3,9 @@
     "cameraConfig": {
         "Apex": {},
         "Analytic": {},
-        "Advance": {},
-        "angle": 0
+        "Advance": {}
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "cholecystectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "cholecystectomy_background.png",
             "places": [
@@ -28,12 +17,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -42,15 +25,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Cholecystectomy",
-        "scenario": ""
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -139,7 +114,14 @@
             "proficiency": 840
         }
     },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -151,36 +133,41 @@
     "name": {
         "en": "Full Procedure - Cholecystectomy VR",
         "pl": "Cały Zabieg - Cholecystektomia VR",
-        "es": "Procedimiento completo - Cholecistectomy VR",
-        "zh-cn": "完整程序 - 胆囊切除术VR",
-        "ja": "完全手続き - 胆嚢非摘出術VR."
+        "es": "Colecistectomía VR - Procedimiento completo",
+        "zh-cn": "完整的手术 - 胆囊切除术VR",
+        "ja": "完全な手順-Kolecystectomy vr",
+        "hu": "Teljes eljárás - kolecisztektómia VR"
     },
     "skills": {
         "en": "Procedure, Cholecystectomy, VR, CVS",
         "pl": "Procedura, Cholecystektomia, VR, CVS",
         "es": "Procedimiento, Colecistectomía, VR, CVS",
         "zh-cn": "程序，胆囊切除术，VR，CVS",
-        "ja": "手順、胆嚢切除術、VR、CVS"
+        "ja": "手順、胆嚢摘出術、VR、CVS",
+        "hu": "Eljárás, kolecisztektómia, VR, CVS"
     },
     "description": {
         "en": "In this virtual reality exercise the objective is to perform an entire cholecystectomy. The first step is to sufficiently dissect the tissue and properly visualize the structures. Next, the trainee must find the relevant ducts, assess the Critical View of Safety and accurately place clips on the vessels and ducts before cutting them. The final step simulated in this virtual reality procedure is the actual use of monopolar energy to dissect the gallbladder away from the surface of the bladder without causing damage to the surrounding tissues and to 'remove' the gallbladder from the operating area.",
         "pl": "Celem tego ćwiczenia jest wykonanie całej cholecystektomii w wirtualnej rzeczywistości. Pierwszym krokiem jest dostateczne rozcięcie i rozpreparowanie tkanki i odpowiednia wizualizacja struktur ukrytych pod powierzchnią. Następnie ćwiczący musi znaleźć odpowiednie przewody, ocenić tzw. krytyczny widok bezpieczeństwa (CVS) i dokładnie umieścić klipsy na naczyniach i przewodach przed przecięciem. Finalnym etapem symulowanym w tej procedurze jest faktyczne użycie energii monopolarnej do oddzielania pęcherzyka żółciowego od powierzchni pęcherza bez powodowania uszkodzenia otaczających tkanek i „usunięcia” pęcherzyka żółciowego z pola operacyjnego. ",
         "es": "En este ejercicio de realidad virtual, el objetivo es realizar una colecistectomía completa. El primer paso es diseccionar suficientemente el tejido y visualizar adecuadamente las estructuras. A continuación, el aprendiz debe encontrar los conductos relevantes, evaluar la visión crítica de la seguridad y colocar con precisión los clips en los buques y los conductos antes de cortarlos. El paso final simulado en este procedimiento de realidad virtual es el uso real de la energía monopolar para diseccionar la vesícula biliar lejos de la superficie de la vejiga sin causar daños a los tejidos circundantes y \"eliminar\" la vesícula biliar desde el área de operación.",
-        "zh-cn": "在这种虚拟现实运动中，目标是进行整个胆囊切除术。第一步是充分地描述组织并适当地可视化结构。接下来，学员必须找到相关管道，评估安全性和准确放置在血管和管道上的临界视图和切割之前的剪辑。在该虚拟现实过程中模拟的最后一步是实际使用单极能量，使胆囊脱离膀胱的表面而不会导致周围组织的损伤，并从操作区域“去除”胆囊。",
-        "ja": "このバーチャルリアリティでは、目的は胆嚢摘出術全体を実行することである。第一段階は、組織を十分に解剖し、構造を適切に視覚化することである。次に、研修生は関連するダクトを見つけ、安全性の批判的な見方を評価し、それらを切る前に船舶やダクトに正確にクリップを置きます。この仮想現実的な手順でシミュレートされた最後のステップは、周囲の組織に損傷を与えず、そして胆嚢を操作領域から胆嚢を除去することなく膀胱の表面から離れて胆嚢を解剖するための単極エネルギーの実際の使用である。"
+        "zh-cn": "在这个虚拟现实练习中，目标是进行整个胆囊切除术。第一步是充分剖析组织并正确地可视化结构。接下来，学员必须找到相关的管道，评估安全性的批判性观点，并在切割之前准确地将夹子放在容器和管道上。在此虚拟现实过程中，模拟的最后一步是实际使用单极能量将胆囊从膀胱表面脱离而不会损害周围的组织，并从操作区域“删除”胆囊。",
+        "ja": "この仮想現実演習では、目的は胆嚢摘出術全体を実行することです。最初のステップは、組織を十分に分析し、構造を適切に視覚化することです。次に、研修生は関連するダクトを見つけ、安全性の批判的見解を評価し、それらを切断する前に容器とダクトにクリップを正確に配置する必要があります。この仮想現実手順でシミュレートされた最後のステップは、単極エネルギーの実際の使用であり、周囲の組織に損傷を与えずに膀胱の表面から胆嚢を分析し、胆嚢を動作領域から「除去」することです。",
+        "hu": "Ebben a virtuális valóság gyakorlatában a cél egy teljes kolecisztektómia végrehajtása. Az első lépés a szövet megfelelő boncolása és a szerkezetek megfelelő megjelenítése. Ezután a gyakornoknak meg kell találnia a vonatkozó vezetékeket, fel kell értékelnie a biztonság kritikus nézetét, és pontosan el kell helyeznie a klipeket a hajókra és a csatornákra. Az ebben a virtuális valóság eljárásában szimulált utolsó lépés a monopoláris energia tényleges felhasználása az epehólyag boncolására a hólyag felületétől anélkül, hogy a környező szövetek károsodását okoznák, és az epehólyag „eltávolítását” az üzemi területről."
     },
     "instructions": {
-        "en": "The trainee must first use the grasper and dissector to properly grasp the base of the gallbladder and then use the dissector to dissect the tissue in the Calot's triangle. The objective is to properly expose the cystic duct and the artery which both lead into the gallbladder and are concealed beneath the surface of the tissues surrounding them. The monopolar hook can be used here to use energy to additionally open the ducts and arteries up to be able to be visualized. Upon properly identifying and assessing these structures the trainee must bring in the clip applicator and apply clips to the duct and artery. Theoretically 3 clipps should be used per vessel, 2 clips on the patient side of the vessel and 1 on the side of the gallbladder. In this way when these vessels are cut, there is a limited danger of the vessels rupturing or of the gallbladder itself leaking bile into the operating area. Finally, the trainee must accurately separate the gallbladder with the monopolar hook away from the surface of the liver before removal.",
+        "en": "The trainee must first use the grasper and dissector to properly grasp the base of the gallbladder and then use the dissector to dissect the tissue in the Calot's triangle. The objective is to properly expose the cystic duct and the artery which both lead into the gallbladder and are concealed beneath the surface of the tissues surrounding them. The monopolar hook can be used here to use energy to additionally open the ducts and arteries up to be able to be visualized. Upon properly identifying and assessing these structures the trainee must bring in the clip applicator and apply clips to the duct and artery. Theoretically 3 clips should be used per vessel, 2 clips on the patient side of the vessel and 1 on the side of the gallbladder. In this way when these vessels are cut, there is a limited danger of the vessels rupturing or of the gallbladder itself leaking bile into the operating area. Finally, the trainee must accurately separate the gallbladder with the monopolar hook away from the surface of the liver before removal.",
         "pl": "Ćwiczący musi najpierw użyć graspera i disektora, aby prawidłowo chwycić podstawę pęcherzyka żółciowego, a następnie użyć disektora, aby rozpreparować tkankę w trójkącie Calota. Celem jest prawidłowe odsłonięcie przewodu torbielowatego i tętnicy, które prowadzą do pęcherzyka żółciowego i są ukryte pod powierzchnią otaczających je tkanek. Można tutaj użyć monopolarnego haka, aby wykorzystać energię do dodatkowego otwarcia kanałów i tętnic, aby można było je zwizualizować. Po prawidłowym zidentyfikowaniu i ocenie tych struktur, szkolony musi wprowadzić klipsownicę i założyć klipsy na przewód i tętnicę. Teoretycznie należy zastosować 3 klipsy na naczynie, 2 klipsy po stronie pacjenta i 1 po stronie pęcherzyka żółciowego. W ten sposób, gdy te naczynia zostaną przecięte, istnieje ograniczone niebezpieczeństwo pęknięcia naczyń lub wycieku żółci z samego pęcherzyka żółciowego do obszaru operacyjnego. Na koniec ćwiczący musi precyzyjnie oddzielić sam pęcherzyk żółciowy za pomocą monopolarnego haka wzdłuż powierzchni wątroby przed usunięciem. ",
         "es": "El aprendiz debe primero usar el agarre y el disector para agarrar correctamente la base de la vesícula biliar y luego usar el disecador para diseccionar el tejido en el triángulo del cálculo. El objetivo es exponer adecuadamente el conducto quístico y la arteria que ambos conducen a la vesícula biliar y se ocultan debajo de la superficie de los tejidos que los rodean. El gancho monopolar se puede usar aquí para usar la energía para abrir adicionalmente los conductos y las arterias para poder visualizarse. Al identificar y evaluar adecuadamente estas estructuras, el aprendiz debe traer el aplicador de clip y aplicar clips al conducto y la arteria. Teóricamente 3 Los CLIPPS deben usarse por recipiente, 2 clips en el lado del paciente del recipiente y 1 en el lado de la vesícula biliar. De esta manera, cuando se cortan estos buques, existe un peligro limitado de las rupturas de los vasos o de la bilis de fugas de la vesícula biliar en el área de operación. Finalmente, el aprendiz debe separar con precisión la vesícula biliar con el gancho monopolar lejos de la superficie del hígado antes de la eliminación.",
-        "zh-cn": "学员必须首先使用抓握和解剖器正确掌握胆囊的底部，然后使用解剖剖视角于征集三角形的组织。目的是适当地暴露囊性管道和导体，所述动脉均导致胆囊，并隐藏在周围的组织的表面下方。这里可以使用单极钩以使用能量来另外打开管道和动脉，以便能够可视化。在适当地识别和评估这些结构时，学员必须带入夹子涂抹器并将夹子施加到管道和动脉中。每艘容器应使用3个Clipp，在血管的患者侧和胆囊侧的侧面上进行2个夹子。以这种方式，当这些血管被切割时，血管破裂或胆囊本身泄漏到操作区域的有限危险。最后，受训者必须在去除前将胆囊与单极钩子分开，远离肝脏的表面。",
-        "ja": "研修生は最初にgrasperとdissectorを使用して胆嚢の基部を適切に把握してから、解剖器官を使用してカカトの三角形の組織を解剖する必要があります。目的は、嚢胞性ダクトおよび動脈を適切に露出させることであり、両方が胆嚢に導く、それらを囲む組織の表面の下に隠されている。モノポーラフックは、視覚化されることができるようにダクトおよび動脈をさらに開放するためにエネルギーを使用するために使用することができる。これらの構造を適切に識別し評価すると、研修生はクリップアプリケータを持ち、ダクトと動脈にクリップを塗布する必要があります。理論的に3つのクリップを血管ごとに、血管の患者側の2つのクリップ、胆嚢の側面に1つのクリップを使用する必要があります。このようにしてこれらの血管が切断されているとき、血管が破裂しているか胆嚢自体の漏れ胆汁が操作領域に漏れる危険性があります。最後に、研修生は胆嚢を除去前に肝臓の表面から正確に肝臓の表面から遠ざける必要があります。"
+        "zh-cn": "学员必须首先使用grasper和解剖器才能正确掌握胆囊的底部，然后使用解剖器剖析Calot三角形中的组织。目的是正确暴露囊性管和动脉，它们都通向胆囊，并藏在周围组织的表面下方。单极钩在这里可用于使用能量来额外打开管道和动脉，以便能够可视化。在正确识别和评估这些结构后，受训者必须带入剪辑涂抹器并将夹子应用于管道和动脉。理论上应使用3个夹子，每个容器应使用3个夹子，在船只的患者侧和1个夹子，在胆囊的侧面使用1个夹子。这样，当这些船只被切割时，船只破裂或胆囊本身会泄漏到操作区域的危险。最后，受训者必须在去除之前将胆囊与单极钩从肝脏表面脱离。",
+        "ja": "研修生は最初にグラスパーと解剖を使用して胆嚢の基部を適切に把握し、次に分離器を使用してカロットの三角形の組織を分析する必要があります。目的は、両方とも胆嚢につながり、周囲の組織の表面の下に隠されている嚢胞性管と動脈を適切に暴露することです。ここでは、モノポーラフックを使用してエネルギーを使用して、ダクトと動脈をさらに視覚化できるようにします。これらの構造を適切に特定して評価すると、研修生はクリップアプリケーターを持ち込み、ダクトと動脈にクリップを適用する必要があります。理論的には、容器ごとに3つのクリップを使用し、船舶の患者側に2つのクリップ、胆嚢側に1つのクリップを使用する必要があります。このようにして、これらの容器が切断されると、船舶が破裂するか、胆嚢自体が胆汁を動作エリアに漏れているという危険が限られています。最後に、研修生は、除去する前に、肝臓の表面から肝臓の表面から離れて胆嚢を正確に分離する必要があります。",
+        "hu": "A gyakornoknak először a Grasper -t és a boncolót kell használnia az epehólyag alapjának megfelelő megragadásához, majd a boncolóval a Calot háromszögének boncolására. A cél az, hogy a cisztás csatornát és az artériát megfelelően tegyék fel, amelyek egyaránt az epehólyagba vezetnek, és a körülvevő szövetek felülete alatt rejtik el. A monopoláris horog itt felhasználható az energia felhasználására a csatornák és artériák kinyitásához, hogy megjelenítsük. Ezeknek a struktúráknak a megfelelő azonosítása és értékelése után a gyakornoknak be kell hoznia a klip applikátort, és klipeket kell alkalmaznia a vezetékre és az artériára. Elméletileg 3 klipet kell használni edényenként, 2 klipet az edény beteg oldalán és 1 az epehólyag oldalán. Ilyen módon, amikor ezeket a hajókat vágják, korlátozott veszély áll fenn, ha a hajók szakadnak, vagy maga az epehólyag szivárog az epe -hez a működési területre. Végül a gyakornoknak pontosan el kell választania az epehólyagot a monopoláris horoggal a máj felületétől az eltávolítás előtt."
     },
     "preparation": {
-        "en": "Remove any physical modules from the base of the positioning platform of the Apex. Place the ports with trocars in the indicated locations and remove instruments from the device.",
-        "pl": "Wszelkie fizyczne moduły z podstawy platformy pozycjonującej Apex powinny zostać usunięte. Porty wraz z trokarami powinny być ustawione we wskazanych miejscach i instrumenty powinny być wyjęte z urządzenia. ",
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
         "es": "Retire cualquier módulo físico de la base de la plataforma de posicionamiento del ápice. Coloque los puertos con trocares en las ubicaciones indicadas y elimine los instrumentos del dispositivo.",
-        "zh-cn": "从顶点的定位平台的基础上删除任何物理模块。将端口用指示位置中的轨道放置在指示的位置，并从设备中删除仪器。",
-        "ja": "Apexの位置決めプラットフォームのベースから物理モジュールを削除します。ポートを表示された場所にトロカールを置き、デバイスから楽器を取り除きます。"
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
     }
 }

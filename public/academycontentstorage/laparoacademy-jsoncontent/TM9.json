@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,56 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "rtwine:1",
+        " rtriangle:3",
+        " ytriangle:3"
     ],
     "name": {
         "en": "Hanging Beads",
         "pl": "Koraliki",
         "es": "Perlas colgantes",
-        "zh-cn": "悬挂珠子",
-        "ja": "ぶら下がっているビーズ"
+        "zh-cn": "悬挂珠",
+        "ja": "ぶら下がっているビーズ",
+        "hu": "Függő gyöngyök"
     },
     "skills": {
         "en": "Instrument Collaboration, Precision, Finesse",
         "pl": "Współpraca Instrumentami, Precyzja",
         "es": "Colaboración del instrumento, precisión, delicadeza.",
-        "zh-cn": "仪器协作，精度，精心",
-        "ja": "機器のコラボレーション、精度、フィネス"
+        "zh-cn": "仪器协作，精度，精巧",
+        "ja": "楽器のコラボレーション、精度、フィネス",
+        "hu": "Hangszer -együttműködés, pontosság, finomság"
     },
     "description": {
         "en": "It is generally advised to either move both instruments as a unit to avoid confusion or as in this case, to keep one instrument completely stationary while executing a movement or action with the other. In this exercise you must build a complicated twine and bead structure while using the assisting instrument to bring pieces forward.",
         "pl": "Ogólnie zaleca się, aby albo poruszać obydwoma instrumentami jako całość, aby uniknąć pomyłek, albo jak w tym przypadku, aby jeden instrument był całkowicie nieruchomy podczas wykonywania ruchu lub działania drugim. W tym ćwiczeniu musisz zbudować skomplikowaną strukturę sznurka i koralików, używając instrumentu wspomagającego, aby przesuwać kawałki do przodu. ",
         "es": "En general, se recomienda mover ambos instrumentos como una unidad para evitar confusiones o como en este caso, para mantener un instrumento completamente estacionario mientras ejecute un movimiento o acción con el otro. En este ejercicio, debe construir una estructura de cordedores y cordones complicados mientras usa el instrumento de asistencia para avanzar.",
-        "zh-cn": "通常建议将两个仪器移动为单位以避免混淆或如在这种情况下，以保持一个仪器在执行运动或与另一个动作的同时完全静止。在本练习中，您必须在使用辅助仪器转发碎片时构建复杂的缠绕和珠子结构。",
-        "ja": "他方の機器を完全に静止させながら、混乱を避けるために、またはこの場合のように、両方の機器をユニットとして移動することをお勧めします。この演習では、補助器具を前方に持参しながら、複雑なひもとビード構造を作りなければなりません。"
+        "zh-cn": "通常，建议将两种乐器作为一个单元移动以避免混乱，或者像在这种情况下一样，将一种工具完全固定，同时与另一个工具执行运动或动作。在此练习中，您必须在使用辅助仪器提出零件的同时制定复杂的麻线和珠子结构。",
+        "ja": "一般的に、混乱を避けるために両方の機器をユニットとして移動するか、この場合のように、1つの楽器を他の機器と動作または行動を実行しながら完全に静止させることをお勧めします。この演習では、補助器具を使用してピースを前進させながら、複雑な断片とビーズの構造を構築する必要があります。",
+        "hu": "Általánosságban azt javasoljuk, hogy mindkét hangszert egységként mozgassa, hogy elkerülje a zavart, vagy mint ebben az esetben, hogy az egyik műszert teljesen álló helyzetben tartsák, miközben mozgás vagy művelet végrehajtása a másikkal. Ebben a gyakorlatban egy bonyolult zsineg- és gyöngyszerkezetet kell felépítenie, miközben a segítő eszközt használja a darabok előmozdításához."
     },
     "instructions": {
         "en": "Begin with twine in the starting position peg at the bottom. Pull out the piece of twine from the starting position and never let it fall. Grab triangles starting with the red one and put them on the twine. Alternate colors until all triangles are placed on twine. Never put down the twine or the triangles throughout the scenario.",
         "pl": "Rozpocznij od sznurka w pozycji wyjściowej kołkiem na dole. Wyciągnij kawałek sznurka z pozycji wyjściowej i nigdy nie pozwól mu spaść. Chwytaj kolejno trójkąty zaczynając od czerwonego i nakładaj na sznurek. Zmieniaj kolory naprzemiennie, aż wszystkie trójkąty zostaną umieszczone na sznurku. Nigdy nie odkładaj sznurka ani trójkątów w całym scenariuszu. ",
         "es": "Comience con guita en la posición de posición inicial en la parte inferior. Saque el pedazo de hilo de la posición inicial y nunca deje que caiga. Agarre los triángulos que comienzan con el rojo y ponlos en la cordalia. Colores alternativos hasta que todos los triángulos se coloquen en cordel. Nunca dejes caer la cordalia o los triángulos a lo largo del escenario.",
-        "zh-cn": "从底部的起始位置钉中的缠绕开始。从起始位置拔出一条麻线，永远不会让它下降。抓住与红色开始的三角形，并将它们放在麻线上。替代颜色，直到所有三角形放在麻线上。永远不要在整个场景中放下麻线或三角形。",
-        "ja": "下部の開始位置ペグでひもで始めます。開始位置からひもを引き抜き、決して落ちることはありません。赤いものから始めて三角形をつかみ、それらをひねりに入れます。すべての三角形がひねりに配置されるまで交互の色を付けます。シナリオ全体でひもまたは三角形を捨てないでください。"
+        "zh-cn": "首先从底部的起始位置钉上插头。从起跑位置拉出麻线，永远不要让它掉落。从红色的角开始抓住三角形，然后将它们放在麻线上。替代颜色，直到所有三角形都置于麻线上。在整个情况下，切勿放下麻线或三角形。",
+        "ja": "下部の開始位置ペグでひねりから始めます。開始位置からひもの断片を引き出して、決して落ちないようにします。赤いものから始めて、三角形をつかみ、ひもに置きます。すべての三角形がひもに置かれるまで、代替色。シナリオ全体にひもや三角形を置かないでください。",
+        "hu": "Kezdje a zsineggel az alján lévő kiindulási helyzetben. Húzza ki a zsineget a kiindulási helyzetből, és soha ne hagyja, hogy esjen. Ragadja meg a háromszögeket a pirossal kezdve, és tegye a zsinegre. Alternatív színek, amíg az összes háromszöget zsinegre nem helyezik. Soha ne tegye le a zsineget vagy a háromszögeket a forgatókönyv egészében."
     },
     "preparation": {
         "en": "Place yellow triangles in the right side slots, and red triangles on the left side. Place the twine in the starting position peg at the bottom.",
         "pl": "Umieść żółte trójkąty w szczelinach po prawej stronie, a czerwone trójkąty po lewej stronie. Umieść sznurek w pozycji wyjściowej kołkiem na dole. ",
         "es": "Coloque los triángulos amarillos en las ranuras del lado derecho y los triángulos rojos en el lado izquierdo. Coloque la cordel en la posición de posición inicial en la parte inferior.",
-        "zh-cn": "将黄色三角形放在右侧插槽中，左侧的红色三角形。将缠绕在底部的起始位置钉中。",
-        "ja": "左側の赤い三角形に黄色の三角形を置きます。下部の開始位置ペグにひもを置きます。"
+        "zh-cn": "将黄色三角形放在右侧插槽中，然后在左侧将红色三角形放置。将麻线放在起始位置钉在底部。",
+        "ja": "右側のスロットに黄色の三角形を置き、左側に赤い三角形を置きます。麻ひもを開始位置のペグに下部に置きます。",
+        "hu": "Helyezze a sárga háromszögeket a jobb oldali nyílásokba, a vörös háromszögeket a bal oldalra. Helyezze a zsineget a kiindulási helyzetbe az aljára."
     }
 }

@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,55 @@
             "proficiency": 1200
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "THM",
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
     ],
+    "accessories": [
+        "suture_5cm:4"
+    ],
     "name": {
         "en": "Vessel Intersection, Dissection and Ligature",
         "pl": "Preparowanie, Klipsowanie i Podwiązanie Krzyżujących się Przewodów",
         "es": "Intersección de recipientes, disección y ligadura.",
-        "zh-cn": "船舶交叉路口，解剖和结扎",
-        "ja": "船舶交差点、解剖および結紮糸"
+        "zh-cn": "血管相交，解剖和结扎",
+        "ja": "容器の交差点、解剖、および結紮",
+        "hu": "Hajó kereszteződés, boncolás és ligáció"
     },
     "skills": {
         "en": "Dissection, Vessel, Clipping, Ligature",
         "pl": "Preparowanie, Przewód, Klipsowanie, Podwiązanie",
         "es": "Disección, recipiente, recorte, ligadura.",
-        "zh-cn": "解剖，血管，剪切，结扎",
-        "ja": "解剖、容器、クリッピング、結紮糸"
+        "zh-cn": "解剖，容器，剪裁，结扎",
+        "ja": "解剖、容器、クリッピング、結晶",
+        "hu": "Boncolás, edény, kivágás, ligáció"
     },
     "description": {
         "en": "Vessels don’t always follow a logical path, they intersect and intertwine. Varying anatomy further complicates surgery. In this exercise you must dissect the entire area to properly identify the vessels at the intersection. You must avoid doing any unnecessary damage and you must maintain the bottom intersection intact while accurately ligating and cutting target vessels.",
         "pl": "Przewody nie zawsze podążają logiczną ścieżką. Przecinają się i splatają nieprzewidywalnie. Zmienna anatomia dodatkowo komplikuje operacje i powoduje że każdy pacjent jest inny. W tym ćwiczeniu uczący musi wypreparować cały obszar, aby prawidłowo zidentyfikować splot naczyń na skrzyżowaniu. Należy uniknąć uszkodzeń i utrzymywać dolne przewody w stanie nienaruszonym, jednocześnie dokładnie podwiązując i przecinając naczynia docelowe. ",
         "es": "Los buques no siempre siguen un camino lógico, se intersecan e entrelazan. La anatomía variable complica aún más la cirugía. En este ejercicio, debe diseccionar todo el área para identificar correctamente los buques en la intersección. Debe evitar realizar cualquier daño innecesario y debe mantener la intersección inferior intacta al tiempo que liga con precisión y corte los recipientes objetivo.",
-        "zh-cn": "船只并不总是遵循逻辑路径，他们相交和交织。不同的解剖学进一步使手术变得复杂。在本练习中，必须将整个区域解剖以正确识别交叉口的船只。您必须避免做任何不必要的损坏，并且必须保持底部交叉点，同时准确连接和切割目标船只。",
-        "ja": "船舶は必ずしも論理パスに従わない、彼らは交差して絡み合っています。さまざまな解剖学的構造は手術をさらに複雑にします。この演習では、交差点で船舶を適切に識別するために全域を解剖する必要があります。不要な損傷をしないでください。"
+        "zh-cn": "船只并不总是遵循逻辑路径，它们相交并交织在一起。不同的解剖结构进一步使手术复杂化。在本练习中，您必须剖析整个区域以正确识别交叉路口的船只。您必须避免造成任何不必要的损坏，并且必须在准确绑扎和切割目标容器的同时保持完整的底部交叉点。",
+        "ja": "船舶は常に論理的な道をたどるわけではなく、交差して絡み合っています。さまざまな解剖学的構造は、手術をさらに複雑にします。この演習では、交差点の容器を適切に識別するために、エリア全体を分析する必要があります。不必要な損傷を避ける必要があり、ターゲット容器を正確に連結および切断しながら、底部の交差点をそのまま維持する必要があります。",
+        "hu": "A hajók nem mindig követik a logikus utat, keresztezik és összefonódnak. Az anatómia változtatása tovább bonyolítja a műtétet. Ebben a gyakorlatban az egész területet boncolnia kell, hogy a kereszteződésnél megfelelően azonosítsa a hajókat. Kerülnie kell a felesleges károk elvégzését, és az alsó kereszteződés érintetlennek kell lennie, miközben pontosan ligál és vágja le a cél edényeket."
     },
     "instructions": {
         "en": "First, use the dissector to precisely remove the top layer of the skin near the bottom of the Vessel Dissection Module. Then dissect to find and identify all three intersections of vessels submerged under the surface. Apply two ligatures on each left side of the two top-most vessels while avoiding the third bottom vessel intersection. Use scissors to precisely cut these two vessels.",
         "pl": "Najpierw disektor powinien być użyty aby dokładnie usunąć górną warstwę skóry w pobliżu dolnej części insertu. Następnie powinno być przeprowadzone preparowanie, aby znaleźć i zidentyfikować wszystkie trzy przecięcia naczyń zanurzonych pod powierzchnią. Założone powinny być dwa wiązania po każdej stronie dwóch naczyń położonych najbliżej powierchni, unikając przecięcia trzeciego naczynia dolnego. Nożyczki powinny być użyte, aby precyzyjnie przeciąć te dwa naczynia. ",
         "es": "Primero, use el disector para retirar con precisión la capa superior de la piel cerca de la parte inferior del módulo de disección del recipiente. Luego se disecciona para encontrar e identifica las tres intersecciones de los vasos sumergidos debajo de la superficie. Aplique dos ligaduras en cada lado izquierdo de los dos buques más largos mientras evita la tercera intersección de recipientes. Use tijeras para cortar con precisión estos dos buques.",
-        "zh-cn": "首先，使用解剖器精确地拆下船舶解剖模块底部附近皮肤的顶层。然后剖析，发现并识别在表面下浸没的所有三个血管交叉点。在两个顶部血管的每个左侧施加两个连接，同时避免第三底血管交叉口。使用剪刀精确地切割这两个船只。",
-        "ja": "まず、解剖器具を使用して、血管解剖モジュールの底部付近の皮膚の最上層を正確に除去します。それから表面の下に浸された血管の3つの交点をすべて見つけて識別することを解消します。 3番目の底部血管交差点を避けながら、最上部の2つの血管の左側に2つのリガネートを塗ります。はさみを使ってこれら2つの船を正確に切断してください。"
+        "zh-cn": "首先，使用解剖器精确去除船舶解剖模块底部附近皮肤的顶层。然后解剖以找到并识别浸入地面下方的血管的所有三个交叉点。在两个最高容器的左侧左侧施加两个连接，同时避免了第三底船体交叉点。使用剪刀精确切割这两个容器。",
+        "ja": "まず、分離器を使用して、容器解剖モジュールの底部近くの皮膚の最上層を正確に除去します。次に、分析して、表面の下に沈んだ容器の3つの交差点すべてを見つけて識別します。 3番目の底容器の交差点を避けながら、2つの最上位の容器の各左側に2つの結晶を適用します。はさみを使用して、これら2つの容器を正確に切断します。",
+        "hu": "Először használja a boncolót, hogy pontosan távolítsa el a bőr felső rétegét az edény boncolási modul alja közelében. Ezután boncolja be, hogy megtalálja és azonosítsa a felület alá merült edények mindhárom kereszteződését. Vigyen fel két ligate-t a két legmagasabb edény minden bal oldalán, elkerülve a harmadik alsó edény kereszteződését. Az ollóval pontosan vágja ezt a két edényt."
     },
     "preparation": {
         "en": "Insert the Vessel Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured and clip the component into the three clips at the top. Make sure the underlying vessels are oriented with three vessels aimed towards the clips at the top.",
         "pl": "Insert do preparowania naczyń powinien być umieszczony w modułe uchwytu tkanek. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. Przypnij element do trzech klipsów na górze modułu. Upewnij się, że znajdujące się pod spodem naczynia są zorientowane w taki sposób aby trzy naczynia były skierowane w górę.",
         "es": "Inserte la inserción de disección del recipiente en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen y cliple el componente en los tres clips en la parte superior. Asegúrese de que los recipientes subyacentes estén orientados con tres embarcaciones dirigidas a los clips en la parte superior.",
-        "zh-cn": "将血管解剖插入组织保持器模块中插入。使用螺钉确保组织如图所示，并将部件夹在顶部的三个夹子中。确保底层船舶面向顶部的三个船舶，朝向顶部的夹子。",
-        "ja": "血管の解剖インサートを組織ホルダーモジュールに挿入します。描画されているように組織がぴったり伸びていることを確認するためにネジを使用して、上部の3つのクリップに構成されていることを確認します。下にある血管が上部のクリップを目的とした3つの船で向けられていることを確認してください。"
+        "zh-cn": "将血管解剖插入插入组织固定器模块中。用螺钉确保将组织紧贴地拉伸，并将其夹在顶部的三个夹子中。确保将基础容器定向，三个容器朝向顶部的夹子。",
+        "ja": "組織ホルダーモジュールに容器切開インサートを挿入します。ネジを使用して、写真のように組織がぴったりと伸びていることを確認し、コンポーネントを上部の3つのクリップにクリップします。下にある船舶が、上部のクリップに向けられた3隻の船で方向付けられていることを確認してください。",
+        "hu": "Helyezze be az edény boncolási betétét a szöveti tartó modulba. Használja a csavarokat, hogy ellenőrizze, hogy a szövet a képen látható módon feszült -e, és vágja be az összetevőt a tetején lévő három klipbe. Győződjön meg arról, hogy az alapul szolgáló hajók három edényben vannak -e orientálva, a tetején lévő klipek felé irányulva."
     }
 }

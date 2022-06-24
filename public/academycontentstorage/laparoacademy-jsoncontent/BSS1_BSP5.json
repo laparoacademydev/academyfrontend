@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +139,57 @@
             "proficiency": 210
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
+    "accessories": [
+        "start_position:1",
+        " short_suturing_insert:1",
+        " needle_suture_10cm:1"
+    ],
     "name": {
         "en": "Single Sliding Knot Vertical",
         "pl": "Węzeł Przesuwny Orientacja Pionowa",
         "es": "Un solo nudo deslizante vertical",
-        "zh-cn": "单滑动结垂直",
-        "ja": "単一のスライド結び目の垂直"
+        "zh-cn": "单个滑结垂直",
+        "ja": "シングルスライドノット垂直",
+        "hu": "Egyetlen csúszó csomó függőleges"
     },
     "skills": {
         "en": "Sliding Knot, Suturing",
         "pl": "Węzeł Przesuwny, Szycie",
         "es": "Nudo deslizante, sutura",
-        "zh-cn": "滑动结，缝合",
-        "ja": "スライド結び目、縫合"
+        "zh-cn": "滑结，缝合",
+        "ja": "スライドノット、縫合",
+        "hu": "Csúszó csomó, varrni"
     },
     "description": {
         "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
         "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. ",
         "es": "El nudo deslizante es útil cuando los tejidos de destino están más separados o cuando el espacio disponible es limitado. Cuando se usa correctamente, este nudo se puede aplicar libremente y se puede apretar gradualmente tirando del extremo.",
-        "zh-cn": "当靶组织进一步或当可用空间有限时，滑动结是有用的。当正确使用时，该结可以松散地施加，并且可以通过拉动末端逐渐拧紧。",
-        "ja": "標的組織がさらに離れているとき、または利用可能な空間が限られているときには、スライド結び目が役立ちます。正しく使用されるとき、この結び目はゆるく適用することができ、終わりを引くことによって徐々に締め付けることができます。"
+        "zh-cn": "当目标组织进一步分开或可用空间有限时，滑动结会很有帮助。正确使用时，可以松散地施加此结，可以通过拉动末端逐渐拧紧。",
+        "ja": "ターゲット組織がさらに離れている場合、または利用可能なスペースが制限されている場合、スライディングノットは役立ちます。正しく使用すると、この結び目はゆるく適用でき、端を引っ張ることで徐々に締めることができます。",
+        "hu": "A csúszó csomó hasznos, ha a célszövetek távolabb vannak egymástól, vagy ha a rendelkezésre álló hely korlátozott. Helyes használat esetén ez a csomó lazán alkalmazható, és fokozatosan meghúzható a végével."
     },
     "instructions": {
         "en": "First use the needle holder to take the needle from the start position and apply a normal throw. Then apply two single loose loops in the 1x1 pattern as shown. When pulled on the left side, this knot will convert into a sliding knot. By pulling on this end further the loop can tighten onto the target tissue. To ‘lock’ the sliding knot simply pull on the opposite end and apply one more single throw to complete. ",
         "pl": "Najpierw użyj imadła, aby wyjąć igłę z pozycji początkowej i zastosować normalny rzut. Następnie zastosuj dwie pojedyncze luźne pętle w układzie 1x1, tak jak pokazano. Po pociągnięciu z lewej strony węzeł ten zamieni się w węzeł przesuwny. Pociągając za ten koniec dalej, pętla może zaciskać się na tkance docelowej. Aby „zablokować” węzeł, po prostu pociągnij za przeciwny koniec i wykonaj jeszcze jeden pojedynczy rzut, aby zakończyć. ",
         "es": "Primero use el soporte de la aguja para tomar la aguja desde la posición de inicio y aplique un lanzamiento normal. Luego, aplique dos bucles sueltos individuales en el patrón 1x1 como se muestra. Cuando se tira del lado izquierdo, este nudo se convertirá en un nudo deslizante. Al tirar de este extremo, el bucle se puede apretar sobre el tejido diana. Para 'bloquear' El nudo deslizante simplemente tire del extremo opuesto y aplique un solo lanzamiento adicional para completar.",
-        "zh-cn": "首先使用针座从起始位置取向针并施加正常投掷。然后，如图所示，在1x1图案中涂上两个单个宽松的环。当左侧拉动时，该结将转换成滑动结。通过拉动该端，还可以将环拧紧到目标组织上。 “锁定”滑动结只是拉动相对的端，并将再次抛出一次完成。",
-        "ja": "まず、針ホルダーを使用して、開始位置から針を取り、通常のスローを加えます。次に、図のように1×1パターンで2つの緩いループを2つ適用します。左側に引っ張られたとき、この結び目はスライド結び目に変換されます。この端部を引っ張ることによって、ループは標的組織上に締められ得る。スライド結び目を「ロック」するだけで、反対側の端を引っ張り、もう1つのスローを完成させます。"
+        "zh-cn": "首先使用针固定器从开始位置拿起针并施加正常投掷。然后，如图所示，在1x1模式中应用两个单个松散循环。当拉到左侧时，这个结会转换为滑动结。通过进一步拉动此末端，环可以拧紧到目标组织上。要“锁定”滑动结，只需在另一端拉动，然后再进行一次单次掷骰即可完成。",
+        "ja": "最初に針ホルダーを使用して、針を開始位置から取り、通常のスローを塗ります。次に、図のように1x1パターンに2つの単一のルーズループを適用します。左側に引っ張ると、この結び目はスライドノットに変換されます。この端をさらに引っ張ることにより、ループはターゲット組織に締めることができます。スライドノットを「ロック」するには、反対側の端を引っ張り、もう1つのシングルスローを適用して完了します。",
+        "hu": "Először használja a tűtartót, hogy vegye a tűt a kezdeti helyzetből, és alkalmazzon egy normál dobást. Ezután alkalmazzon két egyszemélyes laza hurkot az 1x1 -es mintában, az ábra szerint. A bal oldalra húzva ez a csomó csúszó csomóvá alakul. Ha ezt a végét tovább húzza, a hurok meghúzódhat a célszövetre. A csúszó csomó „lezárásához” egyszerűen húzza meg az ellenkező végét, és vegye fel még egy egyetlen dobást."
     },
     "preparation": {
         "en": "Place the needle in the start position at the top of the module and the small suturing component vertically as shown.",
         "pl": "Umieść igłę w pozycji początkowej na górze modułu, a mały element zszywający pionowo, jak pokazano. ",
         "es": "Coloque la aguja en la posición de inicio en la parte superior del módulo y el componente de sutura pequeña verticalmente como se muestra.",
-        "zh-cn": "将针在模块顶部的起始位置放置在模块顶部和小缝线部件，如图所示。",
-        "ja": "図のように、モジュールの上部と小さな縫合部品の上部の開始位置に針を置きます。"
+        "zh-cn": "如图所示，将针头放在模块顶部的起始位置，并垂直放置小缝合组件。",
+        "ja": "図のように、モジュールの上部と小さな縫合成分を垂直に開始位置に置きます。",
+        "hu": "Helyezze a tűt a kezdő helyzetbe a modul tetejére és a kis varrási alkatrészt függőlegesen az ábra szerint."
     }
 }

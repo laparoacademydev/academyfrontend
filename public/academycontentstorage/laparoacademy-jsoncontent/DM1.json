@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "dexterity_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "dexterity_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,54 @@
             "proficiency": 150
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "DM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "ball:10"
     ],
     "name": {
         "en": "Intro to Manipulation",
         "pl": "Wprowadzenie do Manipulacji",
         "es": "Introducción a la manipulación",
-        "zh-cn": "操纵介绍",
-        "ja": "操作するためのイントロ"
+        "zh-cn": "操纵的介绍",
+        "ja": "操作の紹介",
+        "hu": "Bevezetés a manipulációhoz"
     },
     "skills": {
         "en": "Precision, Depth Perception, Instrument Control",
         "pl": "Precyzja, Percepcja Głębi, Kontrola Instrumentów",
         "es": "Precisión, Percepción de profundidad, Control de instrumentos.",
-        "zh-cn": "精度，深度感知，仪器控制",
-        "ja": "精度、奥行き認識、計測器制御"
+        "zh-cn": "精确，深度感知，仪器控制",
+        "ja": "精度、深さ知覚、機器制御",
+        "hu": "Pontosság, mélységérzékelés, műszervezérlés"
     },
     "description": {
         "en": "In this exercise you will simply learn how to manipulate objects with instruments used in laparoscopic procedures. Initially this can be difficult as the movement of the instruments is inverted and depth perception is limited. By performing these types of exercises you will develop basic laparoscopic skill.",
         "pl": "W tym ćwiczeniu nauczysz się podstaw manipulacji przedmiotami za pomocą instrumentów używanych w zabiegach laparoskopowych. Początkowo może to być trudne, ponieważ ruch instrumentów jest odwrócony, a percepcja głębi jest ograniczona. Wykonując tego typu ćwiczenia rozwiniesz początkujące umiejętności laparoskopowe. ",
         "es": "En este ejercicio, simplemente aprenderá cómo manipular objetos con instrumentos utilizados en los procedimientos laparoscópicos. Inicialmente, esto puede ser difícil, ya que el movimiento de los instrumentos es invertido y la percepción de profundidad es limitada. Al realizar estos tipos de ejercicios, desarrollará habilidades laparoscópicas básicas.",
-        "zh-cn": "在本练习中，您将简单地学习如何用腹腔镜程序中使用的仪器操纵对象。最初这可能是困难的，因为仪器的运动被倒置并且深度感知是有限的。通过执行这些类型的练习，您将发展基本的腹腔镜技能。",
-        "ja": "この演習では、腹腔鏡手順で使用されている機器を使ってオブジェクトを操作する方法を簡単に学びます。最初にこれは、機器の動きが反転されて深さの知覚が制限されるので、これは困難であり得る。これらの種類の演習を実行することによって、あなたは基本的な腹腔鏡手法を開発するでしょう。"
+        "zh-cn": "在本练习中，您只需学习如何使用腹腔镜程序中使用的仪器来操纵对象。最初，这可能很困难，因为仪器的运动是倒置的，并且深度感知受到限制。通过执行这些类型的练习，您将发展基本的腹腔镜技能。",
+        "ja": "この演習では、腹腔鏡手順で使用される機器でオブジェクトを操作する方法を単に学ぶことができます。最初は、機器の動きが反転し、深さの知覚が限られているため、これは難しい場合があります。これらのタイプのエクササイズを実行することにより、基本的な腹腔鏡スキルを開発します。",
+        "hu": "Ebben a gyakorlatban egyszerűen megtanulja, hogyan lehet az objektumokat manipulálni a laparoszkópos eljárásokban használt műszerekkel. Kezdetben ez nehéz lehet, mivel a műszerek mozgása megfordult, és a mélységérzékelés korlátozott. Az ilyen típusú gyakorlatok elvégzésével alapvető laparoszkópos készségeket fog fejleszteni."
     },
     "instructions": {
         "en": "Grab plastic balls from the central container and place on all 8 posts. First use the right instrument to pick-up, hand to the left instrument and then place on left 4 posts. Then use the left instrument, hand to the right instrument and place on right 4 posts. Exercise is complete when 8 posts are covered.",
         "pl": "Chwyć plastikowe kulki z centralnego pojemnika i umieść na wszystkich 8 słupkach. Najpierw użyj prawego instrumentu do podniesienia kulki, podaj ją do lewego instrumentu, a następnie postaw na jednym z czterech słupków po lewej stronie. Powtórz dla wszystkich czterech po lewej. Następnie użyj lewego instrumentu żeby podnieść kulkę, podaj do prawego instrumentu i umieszczaj kolejno kulki na prawych 4 słupkach. Ćwiczenie jest zakończone kiedy 8 słupków zawiera kulki.",
         "es": "Agarre bolas de plástico del contenedor central y lugar en los 8 postes. Primero use el instrumento adecuado para recoger, entregar el instrumento izquierdo y luego colóquela en las publicaciones de 4 izquierdas. Luego use el instrumento izquierdo, mano al instrumento correcto y colóquelo en las publicaciones a la derecha. El ejercicio se completa cuando se cubren 8 puestos.",
-        "zh-cn": "从中央容器中抓住塑料球，并在所有8个柱子上放置。首先使用正确的仪器来拾取，向左仪器提取，然后放在左4个帖子上。然后使用左仪器，手动到正确的仪器并放在右侧4个帖子上。当覆盖8个帖子时，锻炼已完成。",
-        "ja": "中央の容器からプラスチック製のボールをつかみ、8の投稿すべての場所に置きます。最初に右の機器を使ってピックアップして、左側の楽器に手を入れてから左4枚の投稿を置きます。それから左の機器を使って、右側の機器に手を入れて右4の投稿に置きます。 8つの投稿が覆われているときに運動が完了しました。"
+        "zh-cn": "从中央容器中抓住塑料球，然后放在所有8个柱子上。首先使用右仪器拾取，将其交给左乐器，然后放在左4个柱子上。然后使用左仪器，手向右仪器，然后放在右4个柱子上。涵盖8个帖子时，锻炼完成。",
+        "ja": "中央の容器からプラスチック製のボールをつかみ、8つのポストすべてに配置します。まず、右の機器を使用してピックアップし、左の楽器に手を入れてから、左の4つのポストに置きます。次に、左の楽器を使用し、右の楽器に手を使用し、右4のポストに置きます。 8つのポストがカバーされている場合、運動は完了します。",
+        "hu": "Ragadja meg a műanyag golyókat a központi tartályból, és tegye mind a 8 oszlopra. Először használja a megfelelő műszert a felvételhez, kézzel a bal oldali műszerhez, majd helyezze a bal oldali 4 oszlopra. Ezután használja a bal oldali műszert, kézzel a megfelelő műszerhez, és helyezze a jobb 4 oszlopra. A testmozgás befejeződött, ha 8 oszlopot fedeznek."
     },
     "preparation": {
         "en": "Place 10 balls in center basket of Dexterity Module.",
-        "pl": "Umieść 10 piłek w środkowym koszu Modułu Zręczności.",
+        "pl": "Umieść 10 kulek w środkowym koszu Modułu Zręczności.",
         "es": "Coloque 10 bolas en la canasta central de módulo de destreza.",
-        "zh-cn": "将10个球放在Dexterity模块的中心篮子里。",
-        "ja": "機器モジュールのセンターバスケットに10ボールを入れる。"
+        "zh-cn": "将10球放在敏捷模块的中心篮子中。",
+        "ja": "Dexterityモジュールの中央バスケットに10個のボールを置きます。",
+        "hu": "Helyezzen 10 golyót az ügyességi modul középső kosárába."
     }
 }

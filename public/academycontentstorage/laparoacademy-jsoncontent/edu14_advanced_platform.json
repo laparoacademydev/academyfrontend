@@ -7,8 +7,17 @@
                 "en": "The limited amount of space available inside the operating area can increase difficulty. Although this should always be planned for by the surgeon, when selecting port location, complications may nevertheless occur. In such situations it is especially useful to have sufficient skills available to respond and apply an unforeseen and unplanned knot in a difficult location.",
                 "pl": "Ograniczając ilość dostępnej przestrzeni wokół miejsca w polu operacyjnym możliwe jest podniesienie trudności ćwiczenia. Chociaż wszelkie utrudnienia powinny być zawsze z góry przewidziane przez chirurga podczas wyboru portów, to wciąż zawsze mogą wystąpić komplikacje w trakcie operacji. W takich sytuacjach szczególnie przydatne są umiejętności pozwalające na reakcję, na nieprzewidziany czy niezaplanowany szew w trudnej lokalizacji.",
                 "es": "La cantidad limitada de espacio disponible dentro del área de operación puede aumentar la dificultad. Aunque siempre debe planificarse por el cirujano, al seleccionar la ubicación del puerto, es posible que se produzcan complicaciones. En tales situaciones, es especialmente útil tener suficientes habilidades disponibles para responder y aplicar un nudo imprevisto y no planificado en una ubicación difícil.",
-                "zh-cn": "操作区域内可用的空间有限，可以增加难度。虽然在选择港口位置时，外科医生应始终计划，但可能发生并发症。在这种情况下，拥有足够的技能可以在困难的位置进行响应和应用不可预见的结的特点是特别有用的。",
-                "ja": "操作領域内で利用可能な限られた量のスペースが困難である可能性があります。これは常に外科医のために計画されるべきですが、ポートの位置を選択するときには、それでもなかなかなかもしれません。そのような状況では、困難な場所で予期せず、予測されていないノットを応答して適用するのに十分なスキルを持つことが特に役立ちます。"
+                "zh-cn": "操作区域内可用的空间有限可能会增加难度。尽管外科医生应始终为此计划，但是在选择端口位置时，可能仍会发生并发症。在这种情况下，拥有足够的技能来响应并在艰难的位置应用不可预见和计划外的结特别有用。",
+                "ja": "操作エリア内で利用可能な限られたスペースは、難易度を高める可能性があります。これは常に外科医が計画する必要がありますが、港の位置を選択する場合、それでも合併症が発生する可能性があります。このような状況では、困難な場所にある予期せぬ予期せぬ結び目を応答し、適用するのに十分なスキルを利用できることが特に役立ちます。",
+                "hu": "A működési területen belül elérhető korlátozott mennyiségű hely növeli a nehézségeket. Noha ezt a sebésznek mindig meg kell terveznie, a port helyének kiválasztásakor szövődmények mindazonáltal előfordulhatnak. Ilyen helyzetekben különösen hasznos, ha elegendő készség áll rendelkezésre egy előre nem látható és nem tervezett csomó reagálására és alkalmazására."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -17,25 +26,64 @@
                 "en": "The Advanced Suturing Platform exercises in this course allow the practice with an additional limitation of space. When suturing with this add-on, instruments have a limited amount of lateral space available. The surgeon must take this into account when planning each movement. We recommend trainees practice suturing with this platform as much as possible, as suturing like this develops a habit of never deviating with the instruments away from the target tissues.",
                 "pl": "Ćwiczenia wykonywane w tym kursie, na zaawansowanej platformie do szycia pozwalają na praktykę w takich trudno dostępnych miejscach. Chirurg musi wziąć to ograniczenie pod uwagę i dostosować każdy ruch. Rekomendowane jest też trenowanie z tym ograniczeniem ponieważ pozwala na rozwinięcie innego dobrego nawyku - nie wychodzenia poza pole widzenia instrumentami, oraz ogólnie nie odchodzenie nimi dalej od operowanego miejsca.",
                 "es": "Los ejercicios de plataforma de sutura avanzada en este curso permiten la práctica con una limitación adicional del espacio. Cuando se suturne con este complemento, los instrumentos tienen una cantidad limitada de espacio lateral disponible. El cirujano debe tener esto en cuenta al planificar cada movimiento. Recomendamos que los aprendices practican la sutura con esta plataforma tanto como sea posible, ya que sutura como esta desarrolla un hábito de no desviarse con los instrumentos alejados de los tejidos diana.",
-                "zh-cn": "本课程中的先进缝合平台练习允许练习额外限制空间。使用此附加组件缝制时，仪器可提供有限的横向空间。在规划每个运动时，外科医生必须考虑到这一点。我们建议尽可能多地与该平台进行训练的培训练习，因为这样的缝合，这种缝合也会养成永不偏离目标组织的乐器。",
-                "ja": "このコースの高度な縫合プラットフォームの運動により、スペースの追加の制限を伴う実践が可能になります。このアドオンで縫合する場合、機器は空き容量が限られています。外科医は、各動きを計画するときにこれを考慮に入れる必要があります。このような縫合糸が標的組織から離れて逸脱しない習慣を発揮するように、研修生練習策はできるだけ縫合を可能な限り推奨します。"
+                "zh-cn": "在本课程中，先进的缝合平台练习允许练习以额外的空间限制。当使用此附加组件缝合时，仪器的横向空间可用数量有限。在计划每个运动时，外科医生必须考虑到这一点。我们建议学员尽可能多地使用这个平台缝制，因为这样的缝合会养成永远不要偏离目标组织的仪器的习惯。",
+                "ja": "このコースの高度な縫合プラットフォームの演習により、スペースの追加制限がある練習が可能になります。このアドオンで縫合するとき、楽器の量は限られています。外科医は、各運動を計画する際にこれを考慮しなければなりません。このような縫合は、標的組織から楽器を逸脱しないという習慣を身につける習慣を身につけるため、研修生はこのプラットフォームで縫合をできる限り練習することをお勧めします。",
+                "hu": "A fejlett varrási platform gyakorlatai ezen a kurzuson lehetővé teszik a gyakorlatot a hely további korlátozásával. Ha ezzel a kiegészítővel varrnak, a műszerek korlátozott mennyiségű oldalsó hely rendelkezésre állnak. A sebésznek ezt figyelembe kell vennie, amikor minden mozgást megtervez. Javasoljuk, hogy a gyakornokok a lehető legnagyobb mértékben gyakorolják ezt a platformot, mivel ez az ilyen varrás olyan szokás, hogy soha nem térítsen ki a műszerekkel a célszövetektől távol."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Advanced Suturing Platform",
-        "pl": "Platforma do szycia zaawansowanego",
-        "es": "Plataforma de sutura avanzada",
-        "zh-cn": "先进的缝线平台",
-        "ja": "高度な縫合プラットフォーム"
+        "text": {
+            "en": "Advanced Suturing Platform",
+            "pl": "Platforma do szycia zaawansowanego",
+            "es": "Plataforma de sutura avanzada",
+            "zh-cn": "高级缝合平台",
+            "ja": "高度な縫合プラットフォーム",
+            "hu": "Fejlett varrási platform"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "Constraint and Limitation as the key to developing advanced laparoscopic suturing skill.",
-        "pl": "Ograniczenie przestrzenne jako klucz do rozwijania zaawansowanej techniki szycia laparoskopowego.",
-        "es": "La restricción y la limitación como la clave para desarrollar habilidades de sutura laparoscópica avanzada.",
-        "zh-cn": "制约与限制作为发展晚期腹腔镜缝合技能的关键。",
-        "ja": "上級腹腔鏡下縫合スキルを発展させるための鍵としての制約と制限。"
+        "text": {
+            "en": "Constraint and Limitation as the key to developing advanced laparoscopic suturing skill.",
+            "pl": "Ograniczenie przestrzenne jako klucz do rozwijania zaawansowanej techniki szycia laparoskopowego.",
+            "es": "La restricción y la limitación como la clave para desarrollar habilidades de sutura laparoscópica avanzada.",
+            "zh-cn": "约束和限制是发展高级腹腔镜缝合技能的关键。",
+            "ja": "制約と制限高度な腹腔鏡下縫合スキルを開発するための鍵として。",
+            "hu": "Kényszer és korlátozás, mint a fejlett laparoszkópos varrási készség fejlesztésének kulcsa."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

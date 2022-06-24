@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 0,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "appendectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "appendectomy_background.png",
             "places": [
@@ -38,12 +26,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -52,15 +34,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Hysterectomy",
-        "scenario": "Colpotomy"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -149,7 +123,14 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "Colpotomy",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "ligasure",
@@ -162,29 +143,40 @@
         "en": "Colpotomy Stage - Total Hysterectomy",
         "pl": "Etap Kolpotomii - Histerektomia Całkowita VR",
         "es": "Etapa de colpotomía - histerectomía total",
-        "zh-cn": "Colpotomy阶段 - 总话题术",
-        "ja": "コルポトミー段階 - 総子宮摘出術"
+        "zh-cn": "结肠切开术 - 总子宫切除术",
+        "ja": "大腸菌段階 - 全子宮摘出術",
+        "hu": "Kolpotómia stádium - teljes hiszterektómia"
     },
     "skills": {
         "en": "Procedure, Hysterectomy, VR, Gynecology",
         "pl": "Procedura, Histerektomia, VR, Ginekologia",
         "es": "Procedimiento, Histerectomía, VR, Ginecología",
-        "zh-cn": "程序，子宫切除术，VR，妇科",
-        "ja": "手順、子宮摘出術、VR、婦人科"
+        "zh-cn": "程序，子宫切除术，VR，妇科学",
+        "ja": "手順、子宮摘出術、VR、婦人科",
+        "hu": "Eljárás, hiszterektómia, VR, nőgyógyászat"
     },
     "description": {
         "en": "In this version of the exercise the goal is to complete the final separation of the uterus and cervix around the uterine manipulator with the use of monopolar energy.",
         "pl": "W tej wersji ćwiczenia celem jest ostateczne oddzielenie macicy i szyjki macicy wokół manipulatora pochwy przy użyciu energii monopolarnej.",
-        "es": "En esta versión del ejercicio, el objetivo es completar la separación final del útero y el cuello uterino alrededor del manipulador uterino con el uso de la energía monopolar.",
-        "zh-cn": "在这一版本的行使中，目标是通过利用单极能量完成子宫操纵器周围子宫和子宫颈的最终分离。",
-        "ja": "このバージョンでは、行使の目標は、子宮内エネルギーを使用して子宮と子宮頸部の最終的な分離を完了することです。"
+        "es": "En esta versión del ejercicio, el objetivo es completar la separación final del útero y el cuello uterino alrededor del manipulador uterino con el uso de energía monopolar.",
+        "zh-cn": "在此版本的练习中，目标是通过使用单极能量来完成子宫和子宫颈周围子宫和子宫颈的最终分离。",
+        "ja": "このバージョンの演習では、目標は、単極エネルギーを使用して子宮マニピュレーターの周りの子宮と子宮頸部の最終的な分離を完了することです。",
+        "hu": "A gyakorlat ezen verziójában a cél az, hogy a méh és a méhnyak végső elválasztását a méh manipulátor körül monopoláris energia felhasználásával fejezze be."
     },
     "instructions": {
         "en": "Use the Multi-Tool1 with X to apply monopolar energy to the final layer of tissue connecting the uterus to the cervix around the uterine manipulator. Begin this by extending the uterine manipulator down to comfortably target the indicated tissue. Move the manipulator to the sides to vizualize the tissues connecting the uterus on the right and left sides. Finally, use the manipulator to position the uterus up so that you can find the tissues on the posterior side. Coagulate and cut them as well. When tissues are separated on all sides of the manipulator this exercise will be complete.",
         "pl": "Użyj Multi-Tool1 z X, aby przyłożyć energię monopolarną do ostatniej warstwy tkanki łączącej macicę z szyjką macicy wokół manipulatora. Rozpocznij od wyciągnięcia manipulatorem macicy w dół, aby wygodnie sięgnąć w odpowiednio napiętą tkankę wskazaną w ćwiczeniu. Przesuwaj następnie manipulator na boki, aby zwizualizować tkanki łączące macicę po prawej i lewej stronie do oddzielenia. Na koniec użyj manipulatora, aby upozycjonować macicę do góry, w taki sposób aby można było znaleźć tkanki na dolnej stronie manipulators. Je również skoaguluj i oddziel. Kiedy tkanki zostaną oddzielone po wszystkich stronach manipulatora, ćwiczenie będzie zakończone. ",
-        "es": "Use la Multi-Tool1 con X para aplicar la energía monopolar a la capa final de tejido que conecta el útero al cuello uterino alrededor del manipulador uterino. Comience esto extendiendo el manipulador uterino hacia abajo para apuntar cómodamente al tejido indicado. Mueva el manipulador a los lados para vizalizar los tejidos que conectan el útero en los lados derecho e izquierdo. Finalmente, use el manipulador para colocar el útero para que pueda encontrar los tejidos en el lado posterior. Coblarlos y cortarlos también. Cuando los tejidos están separados en todos los lados del manipulador, este ejercicio será completo.",
-        "zh-cn": "使用多工具1与X将单极能量施加到将子宫连接到子宫机械手周围的子宫内侧的最终组织。通过将子宫机械手扩展到舒适地瞄准所指示的组织来开始这一点。将操纵器移动到侧面以使组织与连接子宫右侧和左侧的组织。最后，使用操纵器将子宫定位起来，以便您可以在后侧找到组织。同样凝固和切割它们。当组织在机械手的所有侧面上分离时，这项运动将完成。",
-        "ja": "XをXでマルチツール1を使用して、子宮を子宮の最終層に子宮をまったく子宮内の子宮内の子宮内に接続します。子宮マニピュレータを下に延ばすことによってこれを始めて示された組織を快適に標的にすることによってこれを開始します。マニピュレータを側面に動かして、左右の子宮を接続する組織を大型化します。最後に、後側の組織を見つけることができるように、マニピュレータを使用して子宮を位置付けます。それらを凝固させて切る。組織がマニピュレーターのすべての側面で分離されているとき、この運動は完了します。"
+        "es": "Use el Multi-Tool1 con X para aplicar energía monopolar a la capa final de tejido que conecta el útero al cuello uterino alrededor del manipulador uterino. Comience esto extendiendo el manipulador uterino hacia abajo para apuntar cómodamente al tejido indicado. Mueva el manipulador a los lados para visualizar los tejidos que conectan el útero en los lados derecho e izquierdo. Finalmente, use el manipulador para colocar el útero para que pueda encontrar los tejidos en el lado posterior. Coagular y cortarlos también. Cuando los tejidos se separan en todos los lados del manipulador, este ejercicio estará completo.",
+        "zh-cn": "使用与X的多工具1将单极能施加到将子宫连接到子宫宫颈周围的子宫颈的最终层。首先，将子宫操纵器向下延伸以舒适地瞄准指示的组织。将操纵器移动到侧面，使其在左右侧面连接子宫的组织。最后，使用操纵器将子宫放置起来，以便您可以在后侧找到组织。也凝结并切割它们。当操纵器的各个侧面分离组织时，该练习将完成。",
+        "ja": "Xを備えたMulti-Tool1を使用して、子宮を子宮マニピュレーターの周りの子宮頸部に接続する組織の最終層にモノ極エネルギーを適用します。これを始めて、子宮マニピュレーターを拡張して、示された組織を快適に標的とします。マニピュレーターを側面に移動して、右側と左側の子宮をつなぐ組織を動かします。最後に、マニピュレーターを使用して子宮を配置して、後方に組織を見つけることができるようにします。それらも凝固してカットします。組織がマニピュレーターのすべての側面で分離されると、この運動は完了します。",
+        "hu": "Használja a többrétegű 1-t X-rel, hogy monopoláris energiát alkalmazzon a méh méhnyakhoz csatlakoztató szöveti végső rétegére a méh manipulátor körül. Kezdje ezt úgy, hogy a méh manipulátort meghosszabbítja a jelzett szövet kényelmes megcélzása érdekében. Mozgassa a manipulátort oldalra, hogy a jobb és a bal oldalon lévő méht összekötő szöveteket vizualizálja. Végül használja a manipulátort a méh elhelyezéséhez, hogy megtalálja a szöveteket a hátsó oldalon. Koagulálja és vágja le őket is. Amikor a szöveteket elválasztják a manipulátor minden oldalán, ez a gyakorlat befejeződik."
     },
-    "preparation": {}
+    "preparation": {
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
+        "es": "Retire los módulos físicos del área operativa. Retire los instrumentos de los trocares y extraiga la cámara lo más lejos posible.",
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+    }
 }

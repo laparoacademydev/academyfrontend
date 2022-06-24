@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 0,
-        "plat2deg": 0
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 0
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,57 @@
             "proficiency": 1200
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "ASS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
+    "accessories": [
+        "start_position:1",
+        " penrose_drain:2",
+        " needle_suture_10cm:1"
+    ],
     "name": {
         "en": "Anastomosis End-to-Side",
         "pl": "Zespolenie End-to-Side",
         "es": "Anastomosis de extremo a lado",
-        "zh-cn": "吻合尾末端",
-        "ja": "吻合終了"
+        "zh-cn": "吻合端到一侧",
+        "ja": "吻合エンドツーサイド",
+        "hu": "Anastomosis végéig"
     },
     "skills": {
         "en": "Anastomosis, Suturing, Sliding Knot",
         "pl": "Zespolenie, Szycie, Węzeł Przesuwny",
         "es": "Anastomosis, sutura, nudo deslizante.",
-        "zh-cn": "吻合，缝合，滑动结",
-        "ja": "吻合、縫合、スライディングノット"
+        "zh-cn": "吻合，缝合，滑结",
+        "ja": "吻合、縫合、スライドノット",
+        "hu": "Anastomosis, varrás, csúszó csomó"
     },
     "description": {
         "en": "Anastomosis in all of it’s combinations is the best way to develop advanced laparoscopic suturing skill. In this combination, end-to-side, a loose end of the penrose drain must be attached to the side of a long penrose drain suspended on the Advanced Suturing Platform.",
         "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, prostopadle do siebie, luźny koniec drenu penrose musi być zespolony do boku drenu penrose zawieszonego na zaawansowanej platformie do szycia. ",
         "es": "La anastomosis en todas sus combinaciones es la mejor manera de desarrollar habilidades de sutura laparoscópica avanzada. En esta combinación, de extremo a lado, se debe unir un extremo suelto del drenaje de la penrosa al lado de un largo drenaje de penrosa suspendido en la plataforma de sutura avanzada.",
-        "zh-cn": "所有内容组合中的吻合术是开发先进的腹腔镜缝合技能的最佳方式。在这种组合中，端到来，猪鼻排水管的松散端必须连接到悬挂在先进的缝合平台上的长彭膦渠道的一侧。",
-        "ja": "その組み合わせのすべての吻合症は、高度な腹腔鏡下縫合スキルを発展させるための最良の方法です。この組み合わせでは、エンドツーサイドで、Penrose Drainの緩い端は、高度な縫合プラットフォーム上に吊り下げられた長いペナワースドレインの側面に取り付ける必要があります。"
+        "zh-cn": "在所有组合中，吻合是发展先进的腹腔镜缝合技能的最佳方法。在这种组合中，端到一侧，必须将penrose排水管的松散末端连接到悬挂在高级缝合平台上的长penrose排水口的侧面。",
+        "ja": "そのすべての組み合わせの吻合は、高度な腹腔鏡下縫合スキルを開発するための最良の方法です。この組み合わせでは、エンドツーサイドでは、ペンローズドレインのゆるい端を、高度な縫合プラットフォームに吊り下げられた長いペンローズ排水の側面に取り付ける必要があります。",
+        "hu": "Az anastomosis az összes kombinációban a legjobb módja a fejlett laparoszkópos varrási készség kialakításának. Ebben a kombinációban, a teljes oldalról a penrose lefolyó laza végét kell rögzíteni egy hosszú penrose lefolyó oldalára, amelyet az Advanced Varring platformon felfüggesztenek."
     },
     "instructions": {
         "en": "First, use scissors to precisely cut a 2-3cm opening in the center of the long penrose drain where the anastomosis must be performed. Next, apply two single sliding knots between this long piece and the short piece which should be loose. Apply two more sliding knots between the corner of long piece and the edges of the short piece and then complete the exercise with two more on the top. The total prescribed for this exercise is 6 knots. A proper anastomosis should allow for an opening, be sure to inspect the results of your work to verify quality.",
         "pl": "Najpierw nożyczki powinny być użyte, aby precyzyjnie wyciąć 2-3 cm otwór w środku boku długiego drenu penrose, do którego należy wykonać zespolenie. Następnie dwa pojedyncze węzły przesuwne powinny być założone, aby luźny koniec został zespolony. Dwa kolejne węzły przesuwne powinny połączyć narożniki dłuższego drenu z krawędziami krańca krótszego drenu. Następnie ćwiczenie powinno być zakończone dwoma ostatnimi węzłami przesównymi na górnej części zespolenia. W sumie na ćwiczenie powinno składać się 6 węzłów. Prawidłowe zespolenie powinno umożliwiać drożność, należy sprawdzić zespolenie, aby zweryfikować jakość. ",
         "es": "Primero, use tijeras para cortar con precisión una abertura de 2-3 cm en el centro del largo drenaje de penrose donde se debe realizar la anastomosis. A continuación, aplique dos nudos deslizantes individuales entre esta pieza larga y la pieza corta que debe estar suelta. Aplique dos nudos deslizantes más entre la esquina de la pieza larga y los bordes de la pieza corta y luego complete el ejercicio con dos más en la parte superior. El total prescrito para este ejercicio es de 6 nudos. Una anastomosis adecuada debe permitir una apertura, asegúrese de inspeccionar los resultados de su trabajo para verificar la calidad.",
-        "zh-cn": "首先，使用剪刀精确地切割2-3CM在长彭罗斯排水管中心的开口，其中必须进行吻合术。接下来，在这款长件和短件之间涂布两个单滑动结，应松动。在长件的角落和短片的边缘之间使用两个滑动结，然后在顶部再次完成两个锻炼。本练习规定的总规定为6节。适当的吻合应允许开放，请务必检查您的工作结果以核实质量。",
-        "ja": "まず、吻合を行う必要がある長いペロース排水路の中心に2~3cmの開口部を正確に切断するためにはさみを使用してください。次に、この長い部分と短い部分の間に2つのシングルスライド結び目を緩めるべきです。長片の角と短い部分の端の間に2つのスライド結び目を塗り、その後上部で2つの運動を完了します。この運動の合計は6ノットです。適切な吻合術は開口部を考慮に入れるべきであるため、作業の結果を確認して品質を検証するようにしてください。"
+        "zh-cn": "首先，使用剪刀精确地在必须进行吻合术的长牛肉排水管中心的2-3厘米处开口。接下来，在这长片和短片之间应用两个单个滑动结，应该松动。在长片的角落和短片的边缘之间再应用两个滑动结，然后在顶部再完成两个练习。此练习的总处方为6节。适当的吻合应允许开放，请确保检查工作结果以验证质量。",
+        "ja": "まず、ハサミを使用して、吻合を実施する必要がある長いペンローズ排水の中心にある2〜3cmの開口部を正確に切断します。次に、この長いピースと緩んでいるはずの短いピースの間に2つの単一のスライドノットを適用します。長いピースの角と短いピースのエッジの間にさらに2つのスライドノットを塗り、上部にさらに2つのエクササイズを完了します。この演習で規定されている合計は6ノットです。適切な吻合は開口部を可能にする必要があります。品質を検証するために、作業の結果を必ず調べてください。",
+        "hu": "Először az ollóval pontosan vágja le a 2-3 cm-es nyílást a hosszú Penrose lefolyó közepén, ahol az anastomosist kell elvégezni. Ezután alkalmazzon két egyszemélyes csomót e hosszú darab és a rövid darab között, amelynek laza kell lennie. Vigyen fel még két csúszó csomót a hosszú darab és a rövid darab szélei közé, majd fejezze be a gyakorlatot, még kettővel a tetején. A gyakorlathoz előírt összeg 6 csomó. A megfelelő anastomosisnak lehetővé kell tennie a megnyitást, ügyeljen arra, hogy ellenőrizze munkájának eredményeit a minőség ellenőrzése érdekében."
     },
     "preparation": {
         "en": "One long piece of the penrose train is stretched inside the suturing platform and one shorter piece is attached inside the suturing platform at a 90 degree angle. The start position for the needle should be located on the top of the Advanced Suturing Platform.",
         "pl": "Jeden długi kawałek penrose'a jest rozciągnięty wewnątrz platformy do szycia, a jeden krótszy kawałek jest mocowany wewnątrz platformy do szycia pod kątem 90 stopni. Pozycja początkowa igły powinna znajdować się na górnej części zaawansowanej platformy do szycia. ",
         "es": "Una pieza larga del tren Penrose se estira dentro de la plataforma de sutura y una pieza más corta está unida dentro de la plataforma de sutura en un ángulo de 90 grados. La posición de inicio para la aguja debe estar ubicada en la parte superior de la plataforma de sutura avanzada.",
-        "zh-cn": "一条长长的彭罗斯列车在缝合平台内伸展，并且一个较短的件在缝合平台内以90度角附近。针的起始位置应位于先进的缝合平台的顶部。",
-        "ja": "1つの長さのペンロース列車が縫合プラットフォームの内側に引き伸ばされ、1つの短い部分が縫合台の内側に90度の角度で取り付けられています。針の開始位置は、高度な縫合プラットフォームの上部に配置する必要があります。"
+        "zh-cn": "一条长的彭罗斯火车在缝合平台内拉伸，并以90度角将一个较短的缝合线连接起来。针的起始位置应位于高级缝合平台的顶部。",
+        "ja": "ペンローズ列の1つの長い部分が縫合プラットフォーム内に伸びており、縫合プラットフォーム内に90度の角度で1つの短いピースが取り付けられています。針の開始位置は、高度な縫合プラットフォームの上部に配置する必要があります。",
+        "hu": "A Penrose vonat egy hosszú darabja a varrási platformon belül van kinyújtva, és egy rövidebb darabot a varrási platformon belül 90 fokos szögben rögzítenek. A tű kiindulási helyzetét a fejlett varrási platform tetején kell elhelyezni."
     }
 }

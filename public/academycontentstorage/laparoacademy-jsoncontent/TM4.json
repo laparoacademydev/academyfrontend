@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 270
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "gband:4",
+        " rtwine:1"
     ],
     "name": {
         "en": "Draw-Through with Elastics",
         "pl": "Przewlekanie przez Obiekty Elastyczne",
         "es": "Extraer con elastics",
-        "zh-cn": "用弹性学绘制",
-        "ja": "エリスチックで引き抜く"
+        "zh-cn": "带有弹性的绘图",
+        "ja": "エラシクスでドロースルー",
+        "hu": "Átadás az elasztikával"
     },
     "skills": {
         "en": "Suturing, Elastics",
         "pl": "Szycie, Elastyczne",
         "es": "Sutura, elásticos",
         "zh-cn": "缝合，弹性",
-        "ja": "縫合、エリスチック"
+        "ja": "縫合、エラシクス",
+        "hu": "Varrás, elasztika"
     },
     "description": {
         "en": "One of the most difficult aspects of laparoscopic suturing is to effectively manipulate and guide the needle along with a long piece of suture material. In this exercise you will guide an elastic piece of twine through the elastic rubber bands while avoiding sudden movements. Although laparoscopic suture material is much smaller this exercise is a good primer on the properties of manipulating these kinds of structures with laparoscopic instruments.",
         "pl": "Jednym z najtrudniejszych aspektów szycia laparoskopowego jest skuteczne manipulowanie i prowadzenie igły wraz z długim kawałkiem materiału do szycia. W tym ćwiczeniu poprowadzisz elastyczny kawałek sznurka przez elastyczne gumki, unikając gwałtownych ruchów. Chociaż nić jest znacznie mniejsza, ćwiczenie to jest dobrym wprowadzeniem do właściwości manipulowania tego rodzaju strukturami za pomocą narzędzi laparoskopowych. ",
         "es": "Uno de los aspectos más difíciles de la sutura laparoscópica es manipular y guiar eficazmente la aguja junto con un largo material de sutura. En este ejercicio, guiará una pieza de cordel elástica a través de las bandas de goma elásticas mientras evitó movimientos bruscos. Aunque el material de sutura laparoscópica es mucho menor, este ejercicio es una buena imprimación en las propiedades de manipular este tipo de estructuras con instrumentos laparoscópicos.",
-        "zh-cn": "腹腔镜缝合度最困难的方面之一是有效地操纵和引导针以及长型缝合材料。在这项运动中，您将通过弹性橡皮筋引导弹性的缠绕，同时避免突然移动。虽然腹腔镜缝合材料较小，但这种锻炼要小得多是一种良好的底漆，就像腹腔镜仪器操纵这些结构的性质。",
-        "ja": "腹腔鏡下縫合の最も困難な側面の1つは、長い縫合材料と共に針を効果的に操作し案内することである。この運動では、突然の動きを避けながら、弾性ゴムバンドを通して弾性片を導くでしょう。腹腔鏡下縫合材料ははるかに小さいが、この運動は腹腔鏡器具でこれらの種類の構造を操作するという性質に関する良いプライマーである。"
+        "zh-cn": "腹腔镜缝合的最困难的方面之一是有效地操纵和引导针头以及一块长缝合物材料。在本练习中，您将通过弹性橡皮筋引导一块麻线，同时避免突然运动。尽管腹腔镜缝合材料要小得多，但这种练习是对用腹腔镜仪器操纵这类结构的特性的好入门。",
+        "ja": "腹腔鏡下縫合の最も難しい側面の1つは、長い縫合物質とともに針を効果的に操作し、導くことです。この演習では、突然の動きを避けながら、弾力性のある輪ゴムを通して弾力性のあるひもを導きます。腹腔鏡下縫合物質ははるかに小さくなりますが、この演習は、これらの種類の構造を腹腔鏡機器で操作する特性に関する優れた入門書です。",
+        "hu": "A laparoszkópos varródás egyik legnehezebb aspektusa a tű hatékony manipulálása és irányítása egy hosszú darab varrat anyaggal együtt. Ebben a gyakorlatban egy rugalmas zsineget vezet az elasztikus gumiszalagokon, miközben elkerüli a hirtelen mozgásokat. Noha a laparoszkópos varrás anyag sokkal kisebb, ez a gyakorlat jó alapot jelent az ilyen típusú struktúrák laparoszkópos műszerekkel történő manipulálásának tulajdonságaira."
     },
     "instructions": {
         "en": "Begin with twine at the start position in the bottom peg. Do not cross your instruments while removing the entire twine. Move the twine to the left and intertwine through rubber bands alternating from top to bottom and towards the right side. Then return to the left side the by same way again. Use one instrument to lift the rubber bands instead of pushing the twine down. Finish by inserting the entire twine into the top peg.",
         "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Nie krzyżuj instrumentów podczas usuwania całego sznurka. Przesuń sznurek na lewą stroną i przeplataj przez gumki na przemian od góry do dołu i w prawym kierunku. Następnie przeciągnij resztę sznurka i wróć ponownie na lewą stronę w ten sam sposób. Użyj jednego narzędzia, aby podnosić gumki zamiast popychać sznurek w dół. Zakończ wkładając cały sznurek w górny kołek. ",
         "es": "Comience con guita en la posición de inicio en la clavija inferior. No cruce sus instrumentos mientras retire toda la cordita. Mueva el cordel a la izquierda e interrelación a través de las bandas de goma que se alternan de arriba a abajo y hacia el lado derecho. Luego vuelve al lado izquierdo de la misma manera otra vez. Use un instrumento para levantar las bandas de goma en lugar de empujar el hilo. Termine insertando toda la cordita en la clavija superior.",
-        "zh-cn": "从底部挂钩的起始位置开始缠绕。在删除整个缠绕时，请勿通过仪器。通过从上到下和朝向右侧交替的橡胶带向左移动缠绕和交叉线。然后再次通过相同的方式返回左侧。使用一个仪器抬起橡皮筋，而不是推动缠绕。通过将整个缠绕插入顶部栓钉完成。",
-        "ja": "下部ペグの開始位置でひもで始めます。手間全体を取り除きながら、楽器を越えないでください。左右に、上から下に交互に、右側に向かって輪を左に動かして絡み合ってください。それから再び同じように左側に戻ります。 2つの機器を使用して、蝶番を押し下げるのではなくラバーバンドを持ち上げます。トップ全体を上部ペグに挿入することで終了します。"
+        "zh-cn": "首先从底部钉的开始位置开始。在删除整个麻线时，请勿越过乐器。将麻线向左移动，然后通过从上到下和右侧交替的橡皮筋交织。然后再次以同样的方式返回左侧。使用一种乐器来抬起橡皮筋，而不是将麻线向下推。结束，将整个麻线插入顶部钉上。",
+        "ja": "下部のペグの開始位置でひもで始めます。ひも全体を取り除いている間、楽器を渡らないでください。ひもを左に移動し、上から下まで、右側に向かって交互に走ります。次に、同じ方法で左側に戻ります。 1つの楽器を使用して、ひもを押し下げるのではなく、輪ゴムを持ち上げます。ひも全体を上部のペグに挿入して終了します。",
+        "hu": "Kezdje a zsineggel a kezdési helyzetben az alsó csapban. Ne lépje át a műszereit, miközben eltávolítja a teljes zsineget. Mozgassa a zsineget balra, és összefonja a gumiszalagokon, felülről lefelé és jobb oldalra váltakozva. Ezután térjen vissza a bal oldalra ugyanúgy. Használjon egy műszert a gumiszalagok felemeléséhez, ahelyett, hogy a zsineg lefelé nyomja. Végezze el úgy, hogy a teljes zsineget beilleszti a felső csapba."
     },
     "preparation": {
         "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
         "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
         "es": "Aplique 4 bandas de goma entre las clavijas superior e inferior. Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
-        "zh-cn": "在顶部和底部钉之间涂抹4个橡皮筋。将单块缠绕放入张力模块的底部中心栓的孔中。",
-        "ja": "上部と下のペグの間に4つのゴムバンドを塗ります。緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
+        "zh-cn": "在顶部和底部钉之间应用4个橡皮筋。将单个麻线的单块放入张力模块底部中心钉的孔中。",
+        "ja": "上部と下部のペグの間に4つの輪ゴムを塗ります。張力モジュールの下部中央ペグの穴に、ひもの単一の部分を置きます。",
+        "hu": "Vigyen fel 4 gumiszalagot a felső és az alsó csapok között. Helyezze az egy darab zsineget a feszítőmodul alsó pontján lévő lyukba."
     }
 }

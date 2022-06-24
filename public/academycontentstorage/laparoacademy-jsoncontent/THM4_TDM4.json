@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,54 @@
             "proficiency": 480
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "THM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "tissue_dissection_pad:1"
     ],
     "name": {
         "en": "Blunt Dissection",
         "pl": "Preparowanie na Tępo",
         "es": "Disección roma",
         "zh-cn": "钝解剖",
-        "ja": "鈍い解剖"
+        "ja": "鈍い解剖",
+        "hu": "Tompa boncolás"
     },
     "skills": {
         "en": "Dissection, Dissector",
         "pl": "Preparowanie, Disektor",
         "es": "Disección, disector",
-        "zh-cn": "解剖分歧",
-        "ja": "解剖"
+        "zh-cn": "解剖，解剖器",
+        "ja": "解剖、解剖",
+        "hu": "Boncolás, boncoló"
     },
     "description": {
         "en": "Sometimes target tissues are so close to critical vessels or ducts that scissors should not be used at all. In this final Tissue Dissection Module exercise you will rely only on the dissector and it’s properties to separate the target structure apart.",
         "pl": "Czasami tkanki docelowe znajdują się tak blisko krytycznych naczyń lub przewodów, że nożyczki w ogóle nie powinny być używane. W tym ostatnim ćwiczeniu na module do preparowania tkanki, ćwiczący powinien polegać jedynie na disektorze aby oddzielić strukturę docelową. ",
         "es": "A veces, los tejidos diana están tan cerca de los vasos críticos o los conductos que las tijeras no deben usarse en absoluto. En este ejercicio de módulo de disección de tejido final, se basará solo en el disector y sus propiedades separar la estructura objetivo.",
-        "zh-cn": "有时靶组织如此接近关键血管或导管，即剪刀不应使用。在此最终组织解剖模块锻炼中，您将仅依赖于监控器，并且它是将目标结构分开的性质。",
-        "ja": "ターゲット組織は、ハサミがまったく使用されるべきではない重要な血管やダクトに非常に近い場合があります。この最終的な組織解剖モジュールの運動では、ターゲット構造を別々に分離するためのプロパティのみに依存します。"
+        "zh-cn": "有时，靶组织非常接近关键血管或管道，因此根本不应使用剪刀。在最终的组织解剖模块运动中，您将仅依靠解剖器及其特性来分开目标结构。",
+        "ja": "標的組織は重要な容器やダクトに非常に近いため、ハサミをまったく使用しないでください。この最後の組織解剖モジュールの演習では、ターゲット構造を分離するための分離とそれは特性に依存します。",
+        "hu": "A célszövetek néha olyan közel állnak a kritikus erekhez vagy csatornákhoz, hogy az olló egyáltalán nem szabad használni. Ebben a végső szöveti boncolási modul gyakorlatban csak a boncolóra támaszkodhat, és tulajdonságai a célszerkezet elválasztására."
     },
     "instructions": {
         "en": "Use the dissector to punch through the surface tissue on the insert. You may also use the grasper and the dissector to tear this silicone surface if dissection is not enough and then extract the entire red X using only the dissector.",
         "pl": "Disektor powinien być użyty od samego początku aby przebić się przez warstwę powierzchniową insertu. Disektor może być też użyty aby rozrywać powierzchnię. Cały czerwony kształt X powinien być wydobyty przy pomocy disektora.",
         "es": "Use el disector para perforar a través del tejido superficial en el inserto. También puede usar el agarre y el disector para desgarrar esta superficie de silicona si la disección no es suficiente y luego extrae el rojo X usando solo el disector.",
-        "zh-cn": "使用解剖器穿过插入件上的表面组织。如果解剖还不够，您也可以使用抓握和解剖器撕裂这种硅胶表面，然后仅使用解剖器提取整个红色x。",
-        "ja": "挿入物の表面組織を通って解剖器具を使用してください。また、解剖が十分でない場合はこのシリコーン表面を引き裂くために、grasperと解剖器具を使用して、解剖器具のみを使って赤X全体を抽出することもできます。"
+        "zh-cn": "使用解剖器在插入物上的表面组织中打孔。如果解剖不够，您也可以使用Grasper和解剖器撕裂该硅胶表面，然后仅使用解剖器提取整个红色X。",
+        "ja": "分離器を使用して、インサートの表面組織をパンチします。また、解剖が十分でない場合は、グレーパーと解剖を使用してこのシリコン表面を引き裂き、解剖学のみを使用して赤x全体を抽出することもできます。",
+        "hu": "A boncolóval lyukasztja át a betét felszíni szövetét. Használhatja a Grasper -t és a boncolót is a szilikon felületének elszakításához, ha a boncolás nem elegendő, majd csak a boncolóval extrahálja a teljes piros X -et."
     },
     "preparation": {
         "en": "Insert the Tissue Dissection component into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
         "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. ",
         "es": "Inserte el componente de disección del tejido en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen.",
-        "zh-cn": "将组织解剖组件插入组织保持器模块中。使用螺钉确保组织如图所示。",
-        "ja": "組織の解剖成分を組織ホルダーモジュールに挿入します。診断されているように、組織がぴったりされていることを確認するためにネジを使用してください。"
+        "zh-cn": "将组织解剖成分插入组织支架模块中。使用螺钉确保如图所示的那样紧密地拉伸组织。",
+        "ja": "組織解剖成分を組織ホルダーモジュールに挿入します。ネジを使用して、写真のように組織がぴったりと伸びていることを確認してください。",
+        "hu": "Helyezze be a szöveti boncolási komponenst a szöveti modulba. Használja a csavarokat, hogy megbizonyosodjon arról, hogy a szövet a képen látható módon feszesen van -e nyújtva."
     }
 }

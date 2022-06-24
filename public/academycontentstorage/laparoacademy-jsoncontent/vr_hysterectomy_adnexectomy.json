@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 0,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "appendectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "appendectomy_background.png",
             "places": [
@@ -38,12 +26,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -52,15 +34,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Hysterectomy",
-        "scenario": "Oophorectomy"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -149,7 +123,14 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "Oophorectomy",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "ligasure",
@@ -161,24 +142,34 @@
     "name": {
         "en": "Full Procedure - Salpingo-Oophorectomy",
         "pl": "Cały Zabieg - Usunięcie Jajników i Jajowodów",
-        "es": "Procedimiento completo - salpingo-oophorectomy",
-        "zh-cn": "完整程序 -  Salpingo-Oophorectomy",
-        "ja": "全手順 - サルピョオ - 卵巣摘出術"
+        "es": "Procedimiento completo: salpingo -ooforectomía",
+        "zh-cn": "完整的手术 -  Salpingo -opophororcomponsy",
+        "ja": "完全な手順 - 大規模な染色虫摘出術",
+        "hu": "Teljes eljárás - Salpingo -oophorectomia"
     },
     "skills": {
         "en": "Procedure, Hysterectomy, VR, Gynecology, Adnexectomy",
         "pl": "Procedura, Histerektomia, VR, Ginekologia",
-        "es": "Procedimiento, Histerectomía, VR, Ginecología, A Anexectomía",
-        "zh-cn": "程序，子宫切除术，VR，妇科，adnexectomy",
-        "ja": "手順、子宮切除術、VR、婦人科、adnexectomy"
+        "es": "Procedimiento, Histerectomía, VR, Ginecología, Adnexectomía",
+        "zh-cn": "手术，子宫切除术，VR，妇科，附加切除术",
+        "ja": "手順、子宮摘出術、VR、婦人科、アドネクセント切除",
+        "hu": "Eljárás, hiszterektómia, VR, nőgyógyászat, adnexectomia"
     },
     "description": {
         "en": "In this virtual reality exercise the objective is to perform a bilateral salpingo-oophorectomy which is also known as adnexectomy, or the removal of the fallopian tubes and ovaries. ",
         "pl": "Celem tego ćwiczenia jest wykonanie obustronnej salpingo-ooforektomii, znanej również jako andeksektomia, czyli usunięcie jajowodów oraz jajników.",
-        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una salpingo-oophorectomía bilateral que también se conoce como anexectomía, o la eliminación de las trompas de Falopio y los ovarios.",
-        "zh-cn": "在这种虚拟现实运动中，目的是进行双侧Salpingo-Oophorectomy，其也称为Adnexectomy，或去除输卵管和卵巢。",
-        "ja": "この仮想現実的な運動では、目的は、添加術としても知られている二国間サルピョオ毛虫摘出術、または卵管および卵巣の除去を行うことである。"
+        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una salpingo-ooforectomía bilateral que también se conoce como anexectomía, o la eliminación de las trompas y ovarios de Falopio.",
+        "zh-cn": "在这种虚拟现实练习中，目标是进行双侧salpingo-opophororcompormans，也称为adnexcontomy，或去除输卵管和卵巢。",
+        "ja": "この仮想現実の演習では、目的は、副腎摘出術としても知られている両側の大ingingo卵黄摘出術を行うこと、または卵管と卵巣の除去を行うことです。",
+        "hu": "Ebben a virtuális valóság gyakorlatában a cél egy kétoldalú salpingo-oophorectomia végrehajtása, amelyet Adnexectomia néven is ismert, vagy a petevezetékek és petefészek eltávolítását."
     },
     "instructions": {},
-    "preparation": {}
+    "preparation": {
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
+        "es": "Retire los módulos físicos del área operativa. Retire los instrumentos de los trocares y extraiga la cámara lo más lejos posible.",
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+    }
 }

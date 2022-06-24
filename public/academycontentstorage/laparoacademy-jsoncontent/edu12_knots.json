@@ -7,34 +7,59 @@
                 "en": "Keeping the Work Area Clean",
                 "pl": "Utrzymywanie porządku w polu operacyjnym",
                 "es": "Mantener el área de trabajo limpia",
-                "zh-cn": "保持工作区清洁",
-                "ja": "作業領域を清潔に保つ"
+                "zh-cn": "保持工作区域清洁",
+                "ja": "作業エリアを清潔に保つ",
+                "hu": "A munkaterület tisztán tartása"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu12_knots_04.png",
-                    "type": "image",
-                    "label": {
-                        "en": "It can be helpful to always hold instruments inside of an imaginary circle. The image on the left demonstrates how the suture material can tangle. To avoid this simply keep all of the extra suture outside of the circle - don't worry, it won't get tangled! ",
-                        "pl": "Pomocne może być trzymanie instrumentów wewnątrz wyobrażonego koła. Obraz po lewej pokazuje jak nić się może zaplątać na polu operacyjnym. Aby tego uniknąć możesz odepchnąć nić poza koło - nie martw się, nić się tam nie zaplącze!",
-                        "es": "Puede ser útil mantener siempre los instrumentos dentro de un círculo imaginario. La imagen de la izquierda demuestra cómo el material de sutura puede enredarse. Para evitar esto, simplemente mantenga toda la sutura adicional fuera del círculo, ¡no se preocupe, ¡no se enredará!",
-                        "zh-cn": "始终持有虚构圈内的仪器可以有帮助。左侧的图像演示了缝合材料如何缠结。为了避免这种情况，只需留在圆圈之外的所有额外缝合线 - 别担心，它不会纠结！",
-                        "ja": "想像上の円の内側に楽器を常に保持するのに役立ちます。左側の画像は、縫合材料がどれほどもつれているかを示しています。これを避けるために、単にすべての余分な縫合糸を円の外側に保ちます - 心配しないで、それは絡まっていません！"
-                    }
+            "media": {
+                "url": "edu12_knots_04.png",
+                "type": "image",
+                "label": {
+                    "en": "It can be helpful to always hold instruments inside of an imaginary circle. The image on the left demonstrates how the suture material can tangle. To avoid this simply keep all of the extra suture outside of the circle - don't worry, it won't get tangled! ",
+                    "pl": "Pomocne może być trzymanie instrumentów wewnątrz wyobrażonego koła. Obraz po lewej pokazuje jak nić się może zaplątać na polu operacyjnym. Aby tego uniknąć możesz odepchnąć nić poza koło - nie martw się, nić się tam nie zaplącze!",
+                    "es": "Puede ser útil mantener siempre los instrumentos dentro de un círculo imaginario. La imagen de la izquierda demuestra cómo el material de sutura puede enredarse. Para evitar esto, simplemente mantenga toda la sutura adicional fuera del círculo, ¡no se preocupe, ¡no se enredará!",
+                    "zh-cn": "始终将仪器放在虚构的圆圈内可能会有所帮助。左侧的图像展示了缝合材料如何纠缠。为了避免这种情况，只需将所有额外的缝合线放在圆圈外 - 不用担心，它不会纠结！",
+                    "ja": "想像上の円の中に常に楽器を保持することは役立ちます。左側の画像は、縫合材がどのように絡み合うかを示しています。これを避けるために、すべての余分な縫合糸を円の外側に置いておくだけです - 心配しないでください、それはもつれません！",
+                    "hu": "Hasznos lehet, ha mindig egy képzeletbeli körben tartja a hangszereket. A bal oldali kép azt mutatja, hogy a varrás anyag hogyan kusza. Ennek elkerülése érdekében egyszerűen tartsa az összes extra varratot a körön kívül - ne aggódjon, nem fog megzavarodni!"
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
             "text": {
                 "en": "One of the biggest mistakes beginners and practitioners alike make when performing intracorporeal suturing is in simply not keeping the target area clear. When several pieces of suture material tangle in and around the target tissues it can become difficult to properly visualize the available suture and it can become tangled or even knotted. It is helpful to visualize a circle and to keep only the necessary suture material inside of it. Interestingly, when pushed out of field of view, there is no danger of the suture material becoming tangled so there is no need to keep all of the suture visible at all times. When only the necessary sutures are visible it is much easier to wrap and knot sutures with confidence.\n",
                 "pl": "Jednym z błędów, które podczas nauki szycia trapią mniej doświadczonych trenujących jest nie utrzymywanie uporządkowanego i czystego pola operacyjnego. Kiedy kilka centymetrów nici plącze się wokół docelowych tkanek, trudną może się stać odpowiednia wizualizacja dostępnej nici. Pomocne jest wizualizowanie sobie kółka i utrzymywanie wyłącznie potrzebnej nici wewnątrz niego. Co ciekawe, kiedy reszta nici odepchnięta jest poza to kółko to nie ma tak naprawdę niebezpieczeństwa plątania się tej nici poza widokiem. Kiedy widoczna jest jedynie potrzebna nić,owijanie i kreowanie potrzebnych pętli i węzłów jest o wiele łatwiejsze.",
-                "es": "Uno de los mayores errores, los principiantes y los practicantes, hacen, cuando se realizan la sutura intracorpórea, simplemente no es mantener el área objetivo clara. Cuando varias piezas de material de sutura se enredan y alrededor de los tejidos diana, puede volverse difícil visualizar adecuadamente la sutura disponible y puede enredarse o incluso anudarse. Es útil visualizar un círculo y mantener solo el material de sutura necesario dentro de ella. Curiosamente, cuando se salió del campo de la vista, no hay peligro de que el material de sutura se enrede, por lo que no hay necesidad de mantener toda la sutura visible en todo momento. Cuando solo las suturas necesarias son visibles, es mucho más fácil envolver y nudar las suturas con confianza.\n",
-                "zh-cn": "在执行体内缝合时，最大的错误初学者和从业者都是在表演的情况下毫无疑问。当靶组织内和周围的几件缝合材料缠结时，它可能变得难以适当地可视化可用的缝合线，并且它可以变形甚至打结。可视化圈子并只能保持必要的缝线材料是有帮助的。有趣的是，当推出视野时，没有缝合材料的危险变得纠结，因此无需保持所有缝合线始终可见。只有必要的缝合线可见时，套装更容易充分缠绕和结缝合。\n",
-                "ja": "体内の縫合を実行するときには、最大の間違いの初心者や実務者の1つが、ターゲットエリアを明確にしておくことは単に行われていません。ターゲット組織内およびその周囲に複数の縫合糸材料をもつれたとき、それは利用可能な縫合糸を適切に視覚化することが困難になる可能性があり、それは絡まっているか、また結び目さえもすることができる。円を視覚化し、必要な縫合糸材料のみをその内部に保つことが役立ちます。興味深いことに、視野から押し出されると、縫合糸材料が絡まってくる危険性はないので、縫合糸の全てを常に見やすく抑える必要はありません。必要な縫合糸だけが表示されている場合、それは自信を持って包みやすく縫合糸を包みやすいです。\n"
+                "es": "Uno de los mayores errores, los principiantes y los practicantes, hacen, cuando se realizan la sutura intracorpórea, simplemente no es mantener el área objetivo clara. Cuando varias piezas de material de sutura se enredan y alrededor de los tejidos diana, puede volverse difícil visualizar adecuadamente la sutura disponible y puede enredarse o incluso anudarse. Es útil visualizar un círculo y mantener solo el material de sutura necesario dentro de ella. Curiosamente, cuando se salió del campo de la vista, no hay peligro de que el material de sutura se enrede, por lo que no hay necesidad de mantener toda la sutura visible en todo momento. Cuando solo las suturas necesarias son visibles, es mucho más fácil envolver y nudar las suturas con confianza.",
+                "zh-cn": "初学者和从业者在执行体内缝合时犯的最大错误之一就是根本不保持目标区域的清晰度。当目标组织内和周围的几块缝合物材料缠结时，可能很难正确地可视化可用的缝合线，并且可能会纠结甚至打结。可视化圆并仅保留其内部必要的缝合材料是有帮助的。有趣的是，当被赶出视野时，没有缝合材料纠结的危险，因此无需始终保持所有缝合线。当只能看到必要的缝合线时，自信地包裹和打结缝线就容易得多。\n",
+                "ja": "初心者や開業医の同様に、体内の縫合を行うときに犯す最大の間違いの1つは、ターゲット領域を単に明確に保つことです。いくつかの縫合物質の材料が標的組織内とその周りにもつれを絡ませた場合、利用可能な縫合を適切に視覚化することが困難になる可能性があり、絡み合ったり結びつくことがあります。円を視覚化し、その中に必要な縫合材のみを保持することは役立ちます。興味深いことに、視野から押し出されたとき、縫合材が絡み合う危険はないため、縫合のすべてを常に見えるようにする必要はありません。必要な縫合だけが見える場合、自信を持って縫合を包み、結び付ける方がはるかに簡単です。\n",
+                "hu": "Az egyik legnagyobb hiba a kezdőknek és a gyakorlóknak egyaránt elkövetik az intrakorporális varrás végrehajtásakor az, hogy egyszerűen nem tartják a célterületet. Amikor több darab varrás anyagi összecsapás a célszövetekben és annak környékén, nehéz lehet a rendelkezésre álló varrás megfelelő megjelenítése, és összegabalyodhat vagy akár csomózhat. Hasznos egy kör megjelenítése és csak a szükséges varrás anyag tartása. Érdekes, hogy ha kiszorítják a látóterületet, akkor nincs veszélye, hogy a varrás anyag összezavarodott, így nincs szükség az összes varrat mindig láthatóvá tenni. Ha csak a szükséges varratok láthatók, akkor sokkal könnyebb a bizalommal a varratok becsomagolása és csomózása.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -43,8 +68,17 @@
                 "en": "The lack of wrist control on the instrument tips themselves is one of the most tricky aspects of laparoscopic suturing. To make and tie loops it is necessary to wrap the suture onto the instruments.",
                 "pl": "Brak kontroli nad ruchem nadgarstków przy końcówkach samych instrumentów jest jednym z największych utrudnień przy szyciu wewnątrz pola operacyjnego w laparoskopii.",
                 "es": "La falta de control de muñeca en los consejos del instrumento en sí misma es uno de los aspectos más difíciles de la sutura laparoscópica. Para hacer y atar los bucles, es necesario envolver la sutura en los instrumentos.",
-                "zh-cn": "仪器提示缺乏手腕控制是腹腔镜缝合的最棘手的方面之一。制作和缠绕环，有必要将缝合线包裹在仪器上。",
-                "ja": "機器のヒント自体の手首の管理の欠如は、腹腔鏡下縫合の最もトリッキーな側面の1つです。ループを作って結び付けるためには、縫合糸を機器に包む必要があります。"
+                "zh-cn": "缺乏对仪器尖端的手腕控制本身是腹腔镜缝合的最棘手的方面之一。为了制作和领带循环，有必要将缝合线包裹在乐器上。",
+                "ja": "機器のヒント自体に対する手首制御の欠如は、腹腔鏡下縫合の最も難しい側面の1つです。ループを作成して結び付けるには、縫合を楽器に包む必要があります。",
+                "hu": "A csuklóvezérlés hiánya maguk a műszer -tippeknél a laparoszkópos varratok egyik legbonyolultabb aspektusa. A hurkok készítéséhez és lekötéséhez a varrat be kell tekerni a hangszerekre."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -53,8 +87,17 @@
                 "en": "Loose Needle Handling",
                 "pl": "Zarządzanie luźną igłą",
                 "es": "Manejo de aguja suelta",
-                "zh-cn": "松动针处理",
-                "ja": "ゆったりとした針の取り扱い"
+                "zh-cn": "松散的针头处理",
+                "ja": "ゆるい針の取り扱い",
+                "hu": "Laza tűkezelés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -63,8 +106,17 @@
                 "en": "The single most dangerous component present in the laparoscopic operating area is the needle. Mishandling the needle can lead to serious complications and it can cause serious damage to the surrounding tissues. However, what is often surprising to laparoscopic surgery trainees is that the needle is only really dangerous when it is held by the needle holder. When held by this instrument the needle should be considered 'armed' as even the smallest movements give the sharp tip enough force to cause damage. To avoid this, the needle can simply be left loose and suturing can be performed on the suture material itself. Without the needle holder the needle is mostly harmless as it does not have enough weight or force on it's own to cause damage. It can simply be left lying on the surrounding tissues.",
                 "pl": "Jednym z najniebezpieczniejszych elementów obecnych wewnątrz pola operacyjnego jest igła. Niepoprawne zarządzanie igłą może może wyrządzić poważne szkody otaczającym tkankom. Co często może być zaskakujące dla trenujących, igła jest niebezpieczna jedynie wtedy, kiedy jest sztywno trzymana przez imadło. Nawet najmniejsze ruchy imadła dają wtedy igle wystarczającą siłę, aby przebijać się przez tkanki. Aby tego uniknąć wystarczy położyć igłę luzem i manipulować jedynie za pomocą nici. Bez sztywnej siły imadła igła jest bezpieczna, ponieważ sama w sobie nie ma wystarczającego ciężaru i siły, aby poważnie uszkodzić tkanki. Igłę można po prostu położyć na otaczających tkankach.",
                 "es": "El único componente más peligroso presente en el área de operación laparoscópica es la aguja. Mishandling La aguja puede llevar a complicaciones graves y puede causar daños graves a los tejidos circundantes. Sin embargo, lo que a menudo es sorprendente a los alumnos de la cirugía laparoscópica es que la aguja es realmente peligrosa cuando está sostenida por el soporte de la aguja. Cuando se sostiene por este instrumento, la aguja debe considerarse \"armada\", ya que incluso los movimientos más pequeños dan la fuerza suficiente para causar daño. Para evitar esto, la aguja simplemente se puede dejar suelta y la sutura se puede realizar en el propio material de sutura. Sin el soporte de la aguja, la aguja es mayormente inofensiva, ya que no tiene suficiente peso o fuerza sobre su propio problema para causar daños. Simplemente se puede dejar sobre los tejidos circundantes.",
-                "zh-cn": "腹腔镜操作区域中存在的单个最危险的组件是针。误操作针可能导致严重的并发症，它会对周围组织造成严重损害。然而，腹腔镜手术学员的往往是令人惊讶的是，当通过针架保持时，针只是真正危险。当由该仪器持有时，针应该被认为是“武装”，因为即使最小的运动也使得足够的力量造成伤害。为了避免这种情况，可以简单地松动，可以在缝合材料本身上进行缝合。没有针刺器，针大多数无害，因为它没有足够的重量或力，它自己造成损坏。它可以简单地躺在周围的组织上。",
-                "ja": "腹腔鏡手術領域に存在する単一の最も危険な成分は針です。針を誤って叫ぶことは深刻な合併症につながる可能性があり、それは周囲の組織に深刻な損傷を与える可能性があります。しかしながら、腹腔鏡下手術研修生に驚くべきことは、針が針ホルダーによって保持されているときに針が本当に危険であるということです。この楽器によって開催されるとき、針は「武装」と見なされるべきであると見なされるべきであると見なされるべきである。これを回避するために、針を単に緩めにして縫合材料自体を縫合することができる。針ホルダーなしでは、針はほとんど無害で、損傷を与えるのに十分な体重や力を持っていない限り無害です。それは簡単に周囲の組織に横たわっていることができます。"
+                "zh-cn": "腹腔镜操作区域中最危险的组件是针。对针的不当行为会导致严重的并发症，并可能对周围的组织造成严重损害。但是，腹腔镜手术学员通常令人惊讶的是，只有针头持有针头时，针头才是真正的危险。当该乐器握住时，应将针头视为“武装”，因为即使最小的动作也能赋予足够尖尖的力来造成损坏。为了避免这种情况，可以简单地将针头松动，并可以在缝合材料本身上执行缝合力。没有针固定器，针头大部分是无害的，因为它没有足够的重量或强力来造成损坏。它可以简单地放在周围的组织上。",
+                "ja": "腹腔鏡操作エリアに存在する単一の最も危険なコンポーネントは針です。針を扱うことは、深刻な合併症につながる可能性があり、周囲の組織に深刻な損傷を引き起こす可能性があります。しかし、腹腔鏡手術の研修生にとってしばしば驚くべきことは、針が針ホルダーによって保持されている場合にのみ針が本当に危険であるということです。この楽器によって保持される場合、最小の動きでさえ鋭い先端に損傷を引き起こすのに十分な力を与えるため、針は「武装」と見なされるべきです。これを避けるために、針は単にゆるいままにしておくことができ、縫合物質自体で縫合を行うことができます。針ホルダーがいなければ、針はほとんど損傷を引き起こすのに十分な重量や力がないため、ほとんど無害です。それは単に周囲の組織の上に横たわったままにすることができます。",
+                "hu": "A laparoszkópos működési területen található egyetlen legveszélyesebb alkatrész a tű. A tű helytelen kezelése súlyos szövődményekhez vezethet, és súlyos károkat okozhat a környező szövetekben. A laparoszkópos műtét gyakornokok számára azonban gyakran meglepő, hogy a tű csak akkor nagyon veszélyes, ha azt a tűtartó tartja. Ha ezt a műszert tartja, a tűt „fegyveres” -nek kell tekinteni, mivel még a legkisebb mozgások is elegendő erőt adnak az éles hegynek, hogy sérülést okozhassanak. Ennek elkerülése érdekében a tűt egyszerűen laza lehet hagyni, és a varrat végezhető maga a varrat anyagán. A tűtartó nélkül a tű többnyire ártalmatlan, mivel nincs elegendő súlya vagy ereje a saját maga számára, hogy sérülést okozjon. Egyszerűen hagyhatja a környező szöveteken fekve."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -74,7 +126,16 @@
                 "pl": "Metoda 'C'",
                 "es": "Método C",
                 "zh-cn": "C方法",
-                "ja": "Cメソッド"
+                "ja": "Cメソッド",
+                "hu": "C módszer"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -83,8 +144,17 @@
                 "en": "The lack of wrist control on the instrument tips themselves is one of the most tricky aspects of laparoscopic suturing. To make and tie loops it is necessary to wrap the suture onto the instruments. This can be difficult to do effectively because without the ability to bend the tips of the instruments, as in robotic surgery loops made on the instrument tips can easily fall off.",
                 "pl": "Brak kontroli nad ruchem nadgarstków przy końcówkach samych instrumentów jest jednym z największych utrudnień przy szyciu laparoskopowym. Aby poprawnie wiązać pętelki, konieczne jest owijanie nici wokół narzędzi. Jest to trudne, ponieważ pętelki łatwo spadają z końcówek.",
                 "es": "La falta de control de muñeca en los consejos del instrumento en sí misma es uno de los aspectos más difíciles de la sutura laparoscópica. Para hacer y atar los bucles, es necesario envolver la sutura en los instrumentos. Esto puede ser difícil de hacer efectivamente porque sin la capacidad de doblar las puntas de los instrumentos, ya que en los bucles de cirugía robótica hechos en las puntas de los instrumentos pueden caerse fácilmente.",
-                "zh-cn": "仪器提示缺乏手腕控制是腹腔镜缝合的最棘手的方面之一。制作和缠绕环，有必要将缝合线包裹在仪器上。这很难有效地确实，因为没有弯曲仪器的尖端的能力，如在仪器上制作的机器人手术回路都可以容易地脱落。",
-                "ja": "機器のヒント自体の手首の管理の欠如は、腹腔鏡下縫合の最もトリッキーな側面の1つです。ループを作って結び付けるためには、縫合糸を機器に包む必要があります。器具のヒントで作られたロボット手術ループのように、器具の先端を曲げる能力がなくなったので、これは効果的に行うことは困難であり得る。"
+                "zh-cn": "缺乏对仪器尖端的手腕控制本身是腹腔镜缝合的最棘手的方面之一。为了制作和领带循环，有必要将缝合线包裹在乐器上。这可能很难有效地做到，因为如果没有能力弯曲乐器的尖端，就像在仪器尖端上制作的机器人手术环一样，很容易掉落。",
+                "ja": "機器のヒント自体に対する手首制御の欠如は、腹腔鏡下縫合の最も難しい側面の1つです。ループを作成して結び付けるには、縫合を楽器に包む必要があります。機器の先端を曲げる能力がなければ、機器のヒントに作られたロボット手術ループが簡単に落ちる可能性があるため、これは効果的に行うのが難しい場合があります。",
+                "hu": "A csuklóvezérlés hiánya maguk a műszer -tippeknél a laparoszkópos varratok egyik legbonyolultabb aspektusa. A hurkok készítéséhez és lekötéséhez a varrat be kell tekerni a hangszerekre. Ezt nehéz lehet hatékonyan megtenni, mert anélkül, hogy meghajolnánk a műszerek tippeit, mint például a műszer tippein készített robotműtét hurkoknál, könnyen leeshetnek."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -92,9 +162,18 @@
             "text": {
                 "en": "This is where the C-Method can be helpful for beginners. In this method you should pay attention to the loops which are formed from the exit point on the edge. Keep as much of the suture outside of the field of vision as possible and form a C-shape at the exit point.\n",
                 "pl": "Metoda „C” jest tutaj bardzo pomocna dla początkujących. W tej metodzie uczący powinien zwrócić uwagę na pętle, które powstają na nici przy krawędzi. Jeśli utrzyma się zbędną nić poza polem widzenia, a tą, która wychodzi z krawędzi tkanki to będzie łatwe uzyskanie kształtu C przy wyjściu.",
-                "es": "Aquí es donde el método C puede ser útil para los principiantes. En este método, debe prestar atención a los bucles que se forman desde el punto de salida en el borde. Mantenga la mayor parte de la sutura fuera del campo de la visión como sea posible y forme una forma C en el punto de salida.\n",
-                "zh-cn": "这是C-方法对初学者有所帮助的地方。在此方法中，您应该注意从边缘上的出口点形成的循环。保持尽可能多的缝合缝，并在出口点处形成C形。\n",
-                "ja": "これは、C準法が初心者にとって役立つことができる場所です。この方法では、エッジ上の出口点から形成されるループに注意を払う必要があります。できるだけ視野の外側に縫合糸を維持し、出口点でC字型を形成します。\n"
+                "es": "Aquí es donde el método C puede ser útil para los principiantes. En este método, debe prestar atención a los bucles que se forman desde el punto de salida en el borde. Mantenga la mayor parte de la sutura fuera del campo de la visión como sea posible y forme una forma C en el punto de salida.",
+                "zh-cn": "在这里，C方法对初学者有帮助。在这种方法中，您应该注意从边缘出口点形成的循环。尽可能多地将缝合线放在视野外，并在出口点形成C形。\n",
+                "ja": "これは、C-Methodが初心者に役立つ場所です。この方法では、エッジの出口ポイントから形成されるループに注意を払う必要があります。縫合の多くを視野の外側にできるだけ保持し、出口ポイントでC形を形成します。\n",
+                "hu": "Itt lehet a C-módszer hasznos a kezdők számára. Ebben a módszerben figyelnie kell a szélén lévő kilépési pontból kialakult hurkokra. Tartsa a varrást a látómezőn kívül, és képezze a C-alakot a kilépési ponton.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -102,9 +181,18 @@
             "text": {
                 "en": "When you grab the long end of the suture and keep this C-shape and insert the left instrument into the C and up against the surface. Next hold this left instrument still and move the right instrument with the suture over the top and press up against the surface on the other side. This will pin the suture and when you lift the left instrument a loop will lift around it and you will be able to further wrap subsequent loops with the right instrument before grabbing the other side suture.\n",
                 "pl": "Kiedy złapiemy za długi kawałek nici i utrzymamy kształt C, to będziemy mogli włożyć w literę C instrument i przyłożyć go do powierzchni. Następnie jeśli utrzymamy ten przyłożony instrument nieruchomo to drugim możemy przełożyć nić ponad nim i przycisnąć ją też do powierzchni. Podnosząc pierwszy instrument samoistnie wytworzy się wokół niego pętelka i możliwe będzie owinięcie kolejnej pętli wokół niego przed złapaniem drugiej nici drugą stroną.",
-                "es": "Cuando agarras el extremo largo de la sutura y mantiene esta forma C e inserte el instrumento izquierdo en la C y se contrae la superficie. A continuación, retén este instrumento izquierdo y mueva el instrumento derecho con la sutura sobre la parte superior y presione hacia arriba contra la superficie del otro lado. Esto pinchará la sutura y cuando levante el instrumento izquierdo, un bucle se levantará alrededor y podrá envolver aún más los bucles posteriores con el instrumento correcto antes de agarrar la otra sutura lateral.\n",
-                "zh-cn": "当你抓住缝合线的长端并保持这种C形并将左仪器插入C并抵靠表面。接下来保持这种左仪器仍然并将右侧仪器用缝合线圈移动，然后按压在另一侧的表面上。这将把缝合线固定，当你抬起左乐器时，循环将抬起它，并且在抓住另一边缝合之前，您将能够在右侧仪器进一步包裹后续环。\n",
-                "ja": "縫合糸の長い端をつかみ、このC字形を保ち、左側の機器を表面に挿入してください。次に、この左側の機器を静止しているとともに右の機器を上に縫合糸と一緒に動かして、反対側の表面に押し付けます。これにより、縫合糸が固定され、左の機器を持ち上げるとループを取り上げます。\n"
+                "es": "Cuando agarras el extremo largo de la sutura y mantiene esta forma C e inserte el instrumento izquierdo en la C y se contrae la superficie. A continuación, retén este instrumento izquierdo y mueva el instrumento derecho con la sutura sobre la parte superior y presione hacia arriba contra la superficie del otro lado. Esto pinchará la sutura y cuando levante el instrumento izquierdo, un bucle se levantará alrededor y podrá envolver aún más los bucles posteriores con el instrumento correcto antes de agarrar la otra sutura lateral.",
+                "zh-cn": "当您抓住缝合线的长端并保持此C形并将左仪器插入C中并靠在表面上。接下来，将此左仪器静止不动，并将缝合线在顶部移动，然后向上向上按在另一侧的表面上。这将固定缝合线，当您抬起左仪器时，循环将在其周围举起，您将能够在抓住另一侧缝合线之前用正确的仪器进一步包裹随后的循环。\n",
+                "ja": "縫合糸の長い端をつかみ、このC形を保ち、左の機器をCに挿入し、表面に対して挿入するとき。次に、この左の楽器をまだ保持し、縫合を上に縫合した状態で右の楽器を動かし、反対側の表面に押し上げます。これにより縫合がピン留めされ、左の機器を持ち上げると、ループがその周りに持ち上げられ、反対側の縫合をつかむ前に、後続のループを右の機器でさらに包むことができます。\n",
+                "hu": "Amikor megragadja a varrás hosszú végét, tartsa ezt a C-alakú, és helyezze be a bal oldali műszert a C-be és felfelé a felületre. Ezután tartsa meg ezt a bal oldali műszert, és mozgassa a jobb műszert a varrással a tetején, és nyomja fel a másik oldalon lévő felületre. Ez rögzíti a varratot, és amikor felemeli a bal oldali műszert, egy hurok felemelkedik körülötte, és a másik oldalsó varrat megragadása előtt tovább lehet tekerni a jobb hangszerrel a jobb hangszert.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -113,25 +201,41 @@
                 "en": "If you keep the instrument tips close during this maneuver, the suture will remain loose, allowing instrument rotation and memory of the suture material itself to fit around the tips of the instruments.",
                 "pl": "Manewr ten będzie łatwy jeśli dodatkowo utrzymasz końcówki instrumentów blisko siebie. Dzięki temu nić pozostanie luźna, pozwalając na rotację instrumentów. Pamięć samej nici dodatkowo pomoże w owijaniu się jej wokół instrumentów.",
                 "es": "Si mantiene cierre los consejos del instrumento durante esta maniobra, la sutura permanecerá suelta, permitiendo que la rotación del instrumento y la memoria del material de sutura se ajusten a las puntas de los instrumentos.",
-                "zh-cn": "如果在这种机动期间保持仪器提示关闭，缝合线将保持松动，允许缝合材料本身的仪器旋转和记忆，以适应仪器的尖端。",
-                "ja": "この操作の間に機器のヒントを閉じると、縫合糸は緩んでいます。"
+                "zh-cn": "如果您在此操作期间保持仪器尖端的关闭，则缝合线将保持松动，从而使仪器旋转和缝合材料本身的记忆适合仪器尖端。",
+                "ja": "この操作中に楽器のヒントを近くに保つと、縫合糸は緩み、縫合物質自体の機器の回転と記憶が器具の先端に合うようになります。",
+                "hu": "Ha tartja a műszeres tippeket a manőver során, akkor a varrás laza marad, lehetővé téve, hogy a műszer forgása és a varrás anyag emlékezete illeszkedjen a műszerek hegyei körül."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu12_knots_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "C-Method visualization - The benefit of this technique is that pinning the suture and the instrument up against a surface will prevent the suture from falling off the instruments in mid-air.",
-                        "pl": "Metoda „C” - dzięki tej technice możesz szybko i automatycznie owiać nić wokół instrumentów i uniknąć ześlizgiwanie się nici z instrumentów.",
-                        "es": "Visualización del método C: el beneficio de esta técnica es que la fijación de la sutura y el instrumento contra una superficie evitará que la sutura se caiga de los instrumentos en el aire.",
-                        "zh-cn": "C-Method可视化 - 该技术的好处是将缝合线固定和仪器固定在表面上，将防止缝合线从中空中掉落仪器。",
-                        "ja": "C法の可視化 - この手法の利点は、縫合糸を表面に対して固定することであり、縫合糸が中途上の機器から落ちるのを防ぐことです。"
-                    }
+            "media": {
+                "url": "edu12_knots_01.png",
+                "type": "image",
+                "label": {
+                    "en": "C-Method visualization - The benefit of this technique is that pinning the suture and the instrument up against a surface will prevent the suture from falling off the instruments in mid-air.",
+                    "pl": "Metoda „C” - dzięki tej technice możesz szybko i automatycznie owiać nić wokół instrumentów i uniknąć ześlizgiwanie się nici z instrumentów.",
+                    "es": "Visualización del método C: el beneficio de esta técnica es que la fijación de la sutura y el instrumento contra una superficie evitará que la sutura se caiga de los instrumentos en el aire.",
+                    "zh-cn": "C方法可视化 - 该技术的好处是将缝合线和仪器固定在表面上将防止缝合线在空中掉落仪器。",
+                    "ja": "c-methodの視覚化 - この技術の利点は、縫合と表面に器具を固定することで、縫合が空中の機器から落ちるのを防ぐことです。",
+                    "hu": "C-módszer-megjelenítés-Ennek a technikának az az előnye, hogy a varrás és a műszer felszínre felfelé történő rögzítése megakadályozza a varrót, hogy leesjen a hangszerekről a levegőben."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -139,8 +243,17 @@
                 "en": "Using needle end to extend the wrap motion.",
                 "pl": "Używanie igły aby przedłużyć zasięg owijania",
                 "es": "Usando el extremo de la aguja para extender el movimiento de la envoltura.",
-                "zh-cn": "使用针头延伸包裹运动。",
-                "ja": "針を使ってラップの動きを延ばす。"
+                "zh-cn": "使用针端扩展包裹运动​​。",
+                "ja": "針端を使用してラップモーションを伸ばします。",
+                "hu": "A tű végével a csomagolás mozgásának meghosszabbításához."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -149,25 +262,41 @@
                 "en": "Another method which can make wrapping suture material around the instruments easier is using the needle. By holding the sharp end of the needle at certain angles it is actually possible to extend reach with the suture around the other instrument in such a way that would normally not be available otherwise.",
                 "pl": "Inną metodą ułatwiającą owijanie nici wokół instrumentów jest używanie igły. Łapiąc za ostrą końcówkę igły pod odpowiednim kątem możliwe jest sięgnięcie nicią wokół drugiego instrumentu w sposób, który byłby niemożliwy przy pomocy samego instrumentu.",
                 "es": "Otro método que puede hacer que el material de sutura de envoltura alrededor de los instrumentos sea más fácil de usar la aguja. Al contener el extremo afilado de la aguja en ciertos ángulos, en realidad, es posible extender el alcance con la sutura alrededor del otro instrumento de tal manera que normalmente no estaría disponible de lo contrario.",
-                "zh-cn": "另一种可以使仪器周围的包裹缝合材料更容易使用针。通过以某些角度保持针的尖端，实际上可以以通常通常不可用的方式与缝合线延伸到其他仪器周围的缝合线。",
-                "ja": "楽器の周囲に包装縫合糸材料をより簡単にすることができる別の方法は、針を使用している。針の鋭い端部をある角度で保持することによって、通常は他の方法で他の機器の周りの縫合糸との範囲を伸ばすことが実際には可能である。"
+                "zh-cn": "另一种可以使仪器周围包裹缝合材料更容易的方法是使用针。通过以某个角度握住针头的尖端，实际上可以以其他仪器周围的缝合线延伸到伸手，否则通常不可用。",
+                "ja": "機器の周りに縫合材料を包むことができる別の方法は、針を使用することです。針の鋭い端を特定の角度で保持することにより、通常は他の方法では利用できないような方法で、他の機器の周りに縫合糸でリーチを伸ばすことが実際に可能です。",
+                "hu": "Egy másik módszer, amely megkönnyítheti a varrás anyag csomagolását a műszerek körül, a tű használata. Ha a tű éles végét bizonyos szögekben tartja, valójában a másik műszer körüli varrással elérheti az elérést oly módon, hogy másképp általában nem álljon rendelkezésre."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu12_knots_ 02.png",
-                    "type": "image",
-                    "label": {
-                        "en": "An example of the needle being used to wrap the suture around the instrument.",
-                        "pl": "Trzymając za końcówkę igły możesz użyć jej aby owinąć nić wokół instrumentu kiedy kąt na to nie pozwala.",
-                        "es": "Un ejemplo de la aguja que se usa para envolver la sutura alrededor del instrumento.",
-                        "zh-cn": "针的一个例子用于将缝合线包裹在仪器周围。",
-                        "ja": "針の一例は、縫合糸を機器の周囲に包むために使用されています。"
-                    }
+            "media": {
+                "url": "edu12_knots_ 02.png",
+                "type": "image",
+                "label": {
+                    "en": "An example of the needle being used to wrap the suture around the instrument.",
+                    "pl": "Trzymając za końcówkę igły możesz użyć jej aby owinąć nić wokół instrumentu kiedy kąt na to nie pozwala.",
+                    "es": "Un ejemplo de la aguja que se usa para envolver la sutura alrededor del instrumento.",
+                    "zh-cn": "用来将缝合线包裹在仪器周围的例子。",
+                    "ja": "針が機器の周りに縫合を包むために使用されている例。",
+                    "hu": "Példa arra, hogy a tűt használják a varrás körül a műszer körül."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -175,8 +304,17 @@
                 "en": "Prepare the desired needle position ahead of time.",
                 "pl": "Wcześniejsze przygotowanie pożądanej pozycji igły",
                 "es": "Prepare la posición de aguja deseada antes de tiempo.",
-                "zh-cn": "提前准备所需的针位置。",
-                "ja": "希望の針位置を前もって準備してください。"
+                "zh-cn": "提前准备所需的针头位置。",
+                "ja": "希望する針の位置を事前に準備します。",
+                "hu": "Készítse elő a kívánt tűhelyzetet idő előtt."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -185,8 +323,17 @@
                 "en": "When suturing continuously or when making multiple entries and exits with a needle, it can become time-consuming to reposition the needle in the needle holder each and every single time.",
                 "pl": "Podczas szycia ciągłego wykonując kolejne przekłucia igłą, przekładanie jej i przygotowywanie pozycji pomiędzy każdym przekłuciem może stać się żmudne i czasochłonne.",
                 "es": "Cuando se suturne continuamente o cuando realice entradas múltiples y sale con una aguja, puede volverse mucho tiempo para reposicionar la aguja en el soporte de la aguja cada vez.",
-                "zh-cn": "当连续缝合或用针头出口时缝合，可以耗时地将针头重新定位在针座中，每次一段时间。",
-                "ja": "連続的にまたは複数のエントリを作成して針で出るときに、それぞれ針ホルダーの針を再配置するために時間がかかる時間がかかることがあります。"
+                "zh-cn": "当连续缝合或用针头进行多个条目并退出时，每次都会每次将针头重新定位到针中。",
+                "ja": "連続的に縫合するとき、または針で複数のエントリと出口を作るときに、毎回針ホルダーに針を再配置するのに時間がかかる可能性があります。",
+                "hu": "Ha folyamatosan varrnak, vagy ha több bejegyzés és tűvel való kijárat, időigényes lehet, hogy a tűt a tűtartóba helyezzük minden egyes alkalommal."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -195,8 +342,17 @@
                 "en": "This can be avoided when pulling the needle through the tissue, by simply not pulling it all the way immediately, but instead grabbing it at the desired point while it is still lodged in the tissue. In this way the needle will be immediately ready for the next movement and at or near the desired angle.",
                 "pl": "Dobrym sposobem na oszczędzenie czasu i energii może być nie wyciąganie igły całkowicie, wykorzystywanie istniejącej pozycji tak, aby przedwcześnie złapać ją imadłem pod odpowiednim kątem. Tym sposobem wyciągając igłę z tkanki, pozycja w imadle daje możliwość natychmiastowego wykonania kolejnego przekłucia pod pożądanym kątem.",
                 "es": "Esto se puede evitar al tirar de la aguja a través del tejido, simplemente no tirarlo de todo el camino de inmediato, sino que lo agarre en el punto deseado mientras aún está alojado en el tejido. De esta manera, la aguja estará listos inmediatamente para el siguiente movimiento y en o cerca del ángulo deseado.",
-                "zh-cn": "当通过组织拉动针时，可以避免这种情况，而是根本不会立即拉动它，而是在仍在所需点抓住它，而仍然在组织中留下。以这种方式，针将立即为下一个移动和处于期望的角度或接近所需角度。",
-                "ja": "これは、針をティッシュを通して引っ張るときに、ただちにそれを常に引っ張らないときに避けることができますが、代わりに組織内にまだ提出されている間に所望の点でそれをつかみます。このようにして、針は直ちに次の動きのために、そして所望の角度またはその近くに準備されるであろう。"
+                "zh-cn": "当将针拉到组织时，可以避免这种情况，而只是不立即将其拉动，而是在所需的点上抓住它，而它仍将其放在组织中。通过这种方式，针头将立即准备好下一个运动，并在所需角度附近或附近。",
+                "ja": "これは、針を組織に引っ張るときに避けることができます。すぐにそれを完全に引っ張らず、代わりに組織にまだ留まっている間に望ましいポイントでそれをつかむことで。このようにして、針はすぐに次のムーブメントに向けて、目的の角度またはその近くにあります。",
+                "hu": "Ez elkerülhető, ha a tűt a szöveten áthúzza, ha egyszerűen nem húzza meg azonnal, hanem a kívánt ponton megragadja, miközben még mindig a szövetben van. Ilyen módon a tű azonnal készen áll a következő mozgásra, és a kívánt szögnél vagy annak közelében."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -205,8 +361,17 @@
                 "en": "Visualisation of grabbing the needle before it leaves the punctured tissue.",
                 "pl": "Przykład techniki łapania igły przed wykłuciem jej z tkanki.",
                 "es": "Visualización de agarrar la aguja antes de que deje el tejido pinchado.",
-                "zh-cn": "在留下针刺之前抓住针的可视化。",
-                "ja": "穿刺組織を出る前に針をつかむことの可視化。"
+                "zh-cn": "可视化抓住针头离开刺穿的组织之前。",
+                "ja": "針をつかむ前に針をつかむことの視覚化。",
+                "hu": "A tű megragadásának megjelenítése, mielőtt elhagyja a lyukasztott szövetet."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -215,8 +380,17 @@
                 "en": "Planning ahead and predicting needle angles ahead of time is a great way to save the surgeon much time and unnecessary effort. Because laparoscopic technique deteriorates within hours, saving energy and prolonging effectiveness has an impact on overall performance.",
                 "pl": "Wcześniejsze planowanie i przewidywanie kątów igieł jest dobrym sposobem na oszczędzenie czasu i wysiłku. Z upływem czasu operowania bądź ćwiczenia technika pogarsza się, ręce męczą się, ruchy stają się mniej precyzyjne. Tak więc umiejętne posługiwanie się igłą wydłuża możliwy czas pracy i poprawia wydajność.",
                 "es": "Planear con anticipación y predecir ángulos de aguja con anticipación es una excelente manera de salvar al cirujano mucho tiempo y un esfuerzo innecesario. Debido a que la técnica laparoscópica se deteriora a las pocas horas, ahorrando energía y prolonga la efectividad tiene un impacto en el rendimiento general.",
-                "zh-cn": "提前规划并预测针角是拯救外科医生的好方法，这很多时间和不必要的努力。由于腹腔镜技术在小时内恶化，因此节省能源和延长的效率对整体性能产生影响。",
-                "ja": "先の計画と針の角度を予測して予測することは、外科医が多くの時間と不必要な努力を節約するのに最適な方法です。腹腔鏡手法は時間内に劣化し、エネルギーを節約し、延長された有効性は全体的な性能に影響を与えます。"
+                "zh-cn": "提前计划并提前预测针角是节省大量时间和不必要的精力的好方法。由于腹腔镜技术在数小时内恶化，因此节省能量和延长有效性会影响整体性能。",
+                "ja": "前もって計画し、事前に針角を予測することは、外科医に多くの時間と不必要な努力を節約する素晴らしい方法です。腹腔鏡技術は数時間以内に悪化するため、エネルギーを節約し、有効性を延長することは全体的なパフォーマンスに影響を及ぼします。",
+                "hu": "Az előre tervezés és a tű szögének előrejelzése idő előtt nagyszerű módja annak, hogy sok időt és felesleges erőfeszítést megmentsünk a sebész megmentésére. Mivel a laparoszkópos technika órákon belül romlik, az energia megtakarítása és a hatékonyság meghosszabbítása hatással van az általános teljesítményre."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -226,7 +400,16 @@
                 "pl": "Defekty",
                 "es": "Fallas",
                 "zh-cn": "失败",
-                "ja": "失敗"
+                "ja": "失敗",
+                "hu": "Kudarc"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -235,25 +418,64 @@
                 "en": "Failure of the knotted suture loop may result from slippage or breakage as well as the suture cutting through tissues, crushing of the suture by surgical instruments and other unforeseen circumstances. Initially, the knotted suture will fail by slippage which results in untying of the knot. This can be seen as somewhat normal as all knots slip to some degree regardless of the type of suture material. When this slippage occurs the cut ends of the knot must provide additional material to compensate for the enlarged suture loop. In general, surgeons recommend these ends be more than 3mm to accommodate for this loosening.",
                 "pl": "Węzły mogą się psuć z wielu różnych przyczyn. Czasami nić się urywa, czasami nić przecina tkankę, a czasami instrumenty zgniatają samą nić. Początkowo zawsze węzeł poluzowuje się i puszcza kilka mm. W gorszych przypadkach węzeł może się poluzować tak bardzo, że rozwiąże się całkowicie. Jest to normalne, więc ważne jest pozostawienie do 3 mm końcówek dla luzów i zakładanie możliwie największej liczby węzłów.",
                 "es": "El fracaso del bucle de sutura anudado puede resultar de deslizamiento o rotura, así como el corte de sutura a través de tejidos, trituración de la sutura por instrumentos quirúrgicos y otras circunstancias imprevistas. Inicialmente, la sutura anudada fallará por deslizamiento, lo que resulta en el desanimento del nudo. Esto se puede ver como algo normal, ya que todos los nudos se deslizan hasta cierto punto, independientemente del tipo de material de sutura. Cuando se produce este deslizamiento, los extremos de corte del nudo deben proporcionar material adicional para compensar el bucle de sutura ampliado. En general, los cirujanos recomiendan que estos extremos sean más de 3 mm para adaptarse a este aflojamiento.",
-                "zh-cn": "打结的缝线回路的失效可能是由滑动或破损以及通过组织切割的缝合线，通过外科仪器和其他无法预料的情况来破碎缝合线。最初，打结的缝合线将通过滑动而失败，这导致结的缀合。无论缝合材料的类型如何，都可以看出，随着所有结的情况，所有结的都可以看起来有点正常。当发生这种滑动时，结的切割端必须提供额外的材料以补偿扩大的缝合环。通常，外科医生建议这些端部超过3mm以适应这种松动。",
-                "ja": "結び目縫合糸ループの故障は、滑りや破損、ならびに組織を通る縫合糸切断、外科用器具およびその他の予期せぬ状況による縫合糸の破砕から生じる可能性がある。最初に、結び目が滑りに失敗すると、結び目が発生しないことが原因です。これは、縫合材料の種類に関係なく、すべての結び目がある程度の滑り止めされるにつれていくらかの正常と見なすことができます。この滑りが発生すると、結び目の切断端が拡大された縫合糸ループを補償するために追加の材料を提供しなければならない。一般に、このゆるめに対応するためにこれらの端部は3mm以上になることを推奨しています。"
+                "zh-cn": "打结的缝合环的故障可能是由于滑倒或破裂以及切割缝合线，通过手术仪器和其他不可预见的情况粉碎缝合线的缝合线引起的。最初，打结的缝合线将因打滑而失败，从而导致结不动。无论缝合材料的类型如何，这都可以看作是正常的，因为所有结都在一定程度上滑动。当这种滑动发生时，结的切割末端必须提供额外的材料以补偿扩大的缝合环。通常，外科医生建议这些末端超过3mm，以适应这种松动。",
+                "ja": "結合された縫合ループの故障は、滑りや破損、および縫合が組織を切断すること、手術器具による縫合の粉砕、その他の予期しない状況に起因する場合があります。当初、結び目のある縫合糸は滑りで故障し、結び目が解消されます。これは、すべてのノットが縫合材料の種類に関係なくある程度滑るので、やや正常と見なすことができます。この滑りが発生すると、結び目の切断端は、拡大した縫合ループを補うために追加の材料を提供する必要があります。一般に、外科医は、これらの端がこの緩みに対応するために3mmを超えることを推奨しています。",
+                "hu": "A csomózott varrathurok meghibásodása csúszás vagy törés, valamint a szövetek általi varrás vágás, a varrás műtéti műszerek és más előre nem látható körülmények általi összetörése. Kezdetben a csomózott varrás csúszás miatt kudarcot vall, ami a csomó megszüntetését eredményezi. Ez kissé normálisnak tekinthető, mivel az összes csomó bizonyos mértékben csúszik, függetlenül a varrás anyag típusától. Amikor ez a csúszás bekövetkezik, a csomó vágási végének további anyagot kell biztosítania a megnövekedett varrathurok kompenzálására. Általánosságban elmondható, hogy a sebészek azt javasolják, hogy ezek a végek több mint 3 mm -esek legyenek, hogy befogadják ezt a meglazulást."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Suture Patterns and Techniques",
-        "pl": "Rodzaje szwów i techniki",
-        "es": "Patrones de sutura y técnicas.",
-        "zh-cn": "缝合图案和技术",
-        "ja": "縫合糸パターンとテクニック"
+        "text": {
+            "en": "Suture Patterns and Techniques",
+            "pl": "Rodzaje szwów i techniki",
+            "es": "Patrones de sutura y técnicas.",
+            "zh-cn": "缝合模式和技术",
+            "ja": "縫合パターンとテクニック",
+            "hu": "Varrásminták és technikák"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "Techniques helpful in making complex laparoscopic suturing patterns easier.",
-        "pl": "Techniki pomocne w ułatwieniu skomplikowanych manewrów w szyciu laparoskopowym.",
-        "es": "Técnicas útiles para hacer más fácilmente los patrones de sutura laparoscópica complejos.",
-        "zh-cn": "技术有助于使复杂的腹腔镜缝合图案更容易。",
-        "ja": "複雑な腹腔鏡下縫合パターンをより簡単にすることに役立ちます。"
+        "text": {
+            "en": "Techniques helpful in making complex laparoscopic suturing patterns easier.",
+            "pl": "Techniki pomocne w ułatwieniu skomplikowanych manewrów w szyciu laparoskopowym.",
+            "es": "Técnicas útiles para hacer más fácilmente los patrones de sutura laparoscópica complejos.",
+            "zh-cn": "技术有助于使复杂的腹腔镜缝合模式更加容易。",
+            "ja": "複雑な腹腔鏡下縫合パターンを簡単にするのに役立つ技術。",
+            "hu": "A technikák hasznosak a komplex laparoszkópos varrási minták megkönnyítésében."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

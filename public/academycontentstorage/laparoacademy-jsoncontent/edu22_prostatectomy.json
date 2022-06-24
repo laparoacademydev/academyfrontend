@@ -1,0 +1,252 @@
+{
+    "id": "edu22_prostatectomy",
+    "content": [
+        {
+            "type": "header",
+            "text": {
+                "en": "Prostatectomy",
+                "pl": "Prostatektomia"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Prostatectomy is either the partial or total surgical removal of the prostate gland. Indications for the procedure include many benign conditions causing urinary retention problems as well as prostate cancer and other cancers of the pelvis. ",
+                "pl": "Prostatektomia jest częściowym bądź całkowitym usunięciem drogą chirurgiczną prostaty. Wskazania do zabiegu obejmują wiele łagodnych schorzeń powodujących problemy z utrzymywaniem moczu, a także raka prostaty i inne nowotwory miednicy.",
+                "es": "La prostatectomía es la eliminación quirúrgica parcial o total de la glándula próstata. Las indicaciones para el procedimiento incluyen muchas afecciones benignas que causan problemas de retención urinaria, así como cáncer de próstata y otros cánceres de la pelvis.",
+                "zh-cn": "前列腺切除术是前列腺的部分手术或总外科手术。该手术的适应症包括许多良性疾病，导致尿retention留问题以及前列腺癌和骨盆的其他癌症。",
+                "ja": "前立腺切除術は、前立腺の部分的または完全な外科的除去のいずれかです。この手順の適応には、尿維持の問題を引き起こす多くの良性状態、前立腺がんや骨盤の他の癌が含まれます。",
+                "hu": "A prosztatektómia a prosztata mirigy részleges vagy teljes műtéti eltávolítása. Az eljárás indikációi sok jóindulatú állapotot tartalmaznak, amelyek húgyúti visszatartási problémákat, valamint prosztatarákot és a medence egyéb rákját okozják."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The type of a prostatectomy depend on the scope of the procedure which in turn is dependent on the indications for the procedure. In a subtotal prostatectomy for instance, only a part of the prostate is removed and it is usually done for benign conditions. In a radical prostatectomy the entire prostate gland, along with seminal vesicles and vas deferens, is removed which is usually done in response to malignant cancers.",
+                "pl": "Rodzaj wykonywanej prostatektomii zależy od zakresu zabiegu. Na przykład przy częściowej prostatektomii usuwana jest jedynie część prostaty i zwykle jest to wykonywane w przypadku stanów łagodniejszych. W radykalnej prostatektomii usuwany jest cały gruczoł krokowy wraz z pęcherzykami nasiennymi i nasieniowodami, co jest zwykle robione w przypadku nowotworów.",
+                "es": "El tipo de prostatectomía depende del alcance del procedimiento que a su vez depende de las indicaciones para el procedimiento. En una prostatectomía subtotal, por ejemplo, solo se elimina una parte de la próstata y generalmente se realiza para condiciones benignas. En una prostatectomía radical, se elimina toda la glándula de la próstata, junto con vesículas seminales y VAS diferidas, lo que generalmente se realiza en respuesta a cánceres malignos.",
+                "zh-cn": "前列腺切除术的类型取决于手术的范围，而过程又取决于该过程的适应症。例如，在次序前列腺切除术中，仅去除前列腺的一部分，通常是针对良性条件进行的。在根治性的前列腺切除术中，整个前列腺以及精液囊泡和VAS延迟通常被去除，通常是根据恶性癌症进行的。",
+                "ja": "前立腺切除術のタイプは、手順の範囲に依存し、手順の適応に依存します。たとえば、亜属前立腺切除術では、前立腺の一部のみが除去され、通常は良性状態のために行われます。根治的前立腺切除術では、前立腺全体の前立腺腺と、精液の小胞および血管延期とともに、通常、悪性癌に応答して行われる除去されます。",
+                "hu": "A prosztatektómia típusa az eljárás hatókörétől függ, amely viszont az eljárás indikációitól függ. Például egy szubtotal prosztatektómiában a prosztata csak egy részét távolítják el, és általában jóindulatú körülmények között történik. Radikális prosztatektómiában a teljes prosztata mirigyet, a vezikulumokkal és a VAS deferensekkel együtt eltávolítják, amelyet általában rosszindulatú rákokra reagálnak."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "History of Prostatectomy",
+                "pl": "Historia Prostatektomii"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Historically, prostatectomy was approached perineally through the skin below the scrotum. This preceded the introduction of ultrasound, and it was deemed safest for both biopsies and surgeries. The perineal approach is very rarely performed today as it was not good for sparing erectile nerves. Another approach, which became dominant for over 20 years is the Radical Retropubic Prostatectomy (RPP). In this less invasive approach, the surgeon enters the pelvis using very long instruments because hands can’t fit  through the opening. Unfortunately this approach is also very bloody and very difficult for the surgeon because of the amount of blood and difficulties with visualizing all the target tissues. The RPP approach has lately been replaced with the laparoscopic approach which, even more recently, is being pushed out by the robotic laparoscopic approach. The robotic method is being implemented mostly due to the drastically improved comfort and reach when suturing.",
+                "pl": "Tradycyjnie, prostatektomia wykonywana była przez krocze, przez skórę poniżej moszny drogą otwartą. Takie podejście poprzedzało rozwój technologii takich jak USG i było uznawane za najbezpieczniejsze zarówno w przypadku biopsji, jak i operacji. Jest ono dziś bardzo rzadko wykonywane ponieważ nie sprzyjało ono oszczędzaniu nerwów erekcyjnych. Innym metodą, która była uważana za najlepszą przez ponad 20 lat, była radykalna prostatektomia załonowa (RPP). W tym mniej inwazyjnym podejściu chirurg wchodzi do miednicy za pomocą bardzo długich narzędzi, ponieważ ręce nie mogą zmieścić się przez otwór. Niestety to podejście jest również bardzo krwawe i bardzo trudne dla chirurga ze względu na ilość krwi i trudności z wizualizacją wszystkich tkanek. Metoda RPP została w ostatnich dekadach zastąpiona małoinwazyjną laparoskopową, a ta z kolei jest od niedawna zastępowana przez zrobotyzowane podejście małoinwazyjne. Metoda robotyczna jest wdrażana głównie ze względu na bardzo poprawiony komfort i zasięg instrumentów podczas szycia.",
+                "es": "Históricamente, la prostatectomía se abordó perinealmente a través de la piel debajo del escroto. Esto precedió a la introducción del ultrasonido, y se consideró más seguro tanto para biopsias como para cirugías. El enfoque perineal rara vez se realiza hoy, ya que no era bueno para ahorrar nervios eréctiles. Otro enfoque, que se volvió dominante durante más de 20 años, es la prostatectomía retropúbica radical (RPP). En este enfoque menos invasivo, el cirujano ingresa a la pelvis usando instrumentos muy largos porque las manos no pueden encajar en la abertura. Desafortunadamente, este enfoque también es muy sangriento y muy difícil para el cirujano debido a la cantidad de sangre y dificultades para visualizar todos los tejidos objetivo. El enfoque RPP ha sido reemplazado recientemente con el enfoque laparoscópico que, incluso más recientemente, está siendo expulsado por el enfoque laparoscópico robótico. El método robótico se está implementando principalmente debido a la comodidad y el alcance drásticamente mejorados al suturar.",
+                "zh-cn": "从历史上看，前列腺切除术是通过阴囊下方的皮肤接近围per的。这是在引入超声波之前的，并且在活检和手术中都被认为是最安全的。今天的会阴方法很少进行，因为它不适合保留勃起神经。另一种占主导地位已有20多年的方法是自由基腹前列腺切除术（RPP）。在这种侵入性较小的方法中，外科医生使用很长的乐器进入骨盆，因为手无法通过开口。不幸的是，由于可视化所有目标组织的血液和困难，这种方法对外科医生来说也很困难。最近，RPP方法已被腹腔镜方法取代，该方法最近被机器人腹腔镜方法推出了。机器人方法主要是由于缝合时的舒适度和触及范围的大幅度改善。",
+                "ja": "歴史的に、前立腺切除術は陰嚢の下の皮膚を通して周末性に近づいた。これは超音波の導入に先立っており、生検と手術の両方で最も安全であると見なされました。勃起神経の節約には良くないため、会陰アプローチは今日では非常にめったに実行されません。 20年以上にわたって支配的になったもう1つのアプローチは、根治的な後起前立腺切除術（RPP）です。この侵襲性の低いアプローチでは、外科医は手が開口部から収まることができないため、非常に長い楽器を使用して骨盤に入ります。残念ながら、このアプローチは非常に血まみれであり、血液の量とすべての標的組織を視覚化するのが難しいため、外科医にとって非常に困難です。 RPPアプローチは最近、腹腔鏡アプローチに置き換えられており、さらに最近ではロボット腹腔鏡アプローチによって押し出されています。ロボット法は、主に慰めの際に劇的に改善された快適性とリーチが原因で実装されています。",
+                "hu": "Történelmileg a prosztatektómiát perineálisan a herezacskó alatti bőrön keresztül közelítették meg. Ez megelőzte az ultrahang bevezetését, és mind a biopsziák, mind a műtétek esetében a legbiztonságosabbnak tartották. A perineális megközelítést ma nagyon ritkán hajtják végre, mivel nem volt jó az erekciós idegek megkímélésére. Egy másik megközelítés, amely több mint 20 éve domináns lett, a radikális retropubikus prosztatektómia (RPP). Ebben a kevésbé invazív megközelítésben a sebész nagyon hosszú hangszerekkel lép be a medencébe, mert a kezek nem tudnak beilleszkedni a nyíláson. Sajnos ez a megközelítés szintén nagyon véres és nagyon nehéz a sebész számára, mivel a vérmennyiség és az összes célszövet megjelenítésével kapcsolatos nehézségek. Az RPP megközelítést az utóbbi időben felváltották a laparoszkópos megközelítés, amelyet még az utóbbi időben a robot laparoszkópos megközelítés terjeszt. A robot módszert elsősorban a drasztikusan javított kényelem és a varrás elérése miatt valósítják meg."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Prostatectomy Anastomosis",
+                "pl": "Zespolenie w Prostatektomii",
+                "es": "Anastomosis de prostatectomía",
+                "zh-cn": "前列腺切除术吻合术",
+                "ja": "前立腺切除吻合",
+                "hu": "Prosztatektómia anastomosis"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Laparo Prostatectomy Module focuses only on the final and most difficult stage of the procedure. The remaining bladder and urethral opening must be sealed and this is only possible with the use of multiple intracorporeal knots. Before applying the first knot, the surgeon must accurately find the posterior edges on the mucosa and the needle must be driven through both of them at a very difficult angle. This can be quite challenging to accomplish because the tissues remaining after the removal of the prostate can be difficult to visualize and the urethra tends to recede up to the catheter.",
+                "pl": "Moduł Prostatektomii Laparo skupia się tylko na ostatnim i najtrudniejszym etapie zabiegu. Po usunięciu prostaty należy uszczelnić i zespolić ze sobą pozostałe otwory pęcherza moczowego oraz cewki moczowej co możliwe jest tylko przy użyciu wielu węzłów i szycia. Przed założeniem pierwszego węzła chirurg musi dokładnie znaleźć tylne krawędzie błony śluzowej i przebić igłę przez oba pod bardzo trudnym kątem. Może to być dość trudne do osiągnięcia, ponieważ tkanki pozostałe po usunięciu prostaty mogą być trudne do uwidocznienia, a cewka moczowa ma tendencję do cofania się aż do cewnika.",
+                "es": "El módulo de prostatectomía laparo se centra solo en la etapa final y más difícil del procedimiento. La vejiga restante y la abertura uretral deben estar selladas y esto solo es posible con el uso de múltiples nudos intracorpóeos. Antes de aplicar el primer nudo, el cirujano debe encontrar con precisión los bordes posteriores en la mucosa y la aguja debe ser conducida a través de ambos en un ángulo muy difícil. Esto puede ser bastante difícil de lograr porque los tejidos restantes después de la eliminación de la próstata pueden ser difíciles de visualizar y la uretra tiende a retroceder al catéter.",
+                "zh-cn": "Laparo前列腺切除术模块仅关注该手术的最终和最困难的阶段。剩余的膀胱和尿道开口必须密封，只有使用多个体内结，这才有可能。在施加第一个结之前，外科医生必须准确地找到粘膜上的后边缘，并且必须以非常困难的角度驱动针头。这可能很具有挑战性，因为在去除前列腺后剩余的组织可能很难可视化，并且尿道倾向于退到导管。",
+                "ja": "Laparo前立腺切除モジュールは、手順の最終的で最も困難な段階のみに焦点を当てています。残りの膀胱と尿道の開口部は密封する必要があり、これは複数の体内結び目を使用することでのみ可能です。最初の結び目を適用する前に、外科医は粘膜上の後縁を正確に見つけなければならず、針は非常に困難な角度で両方を駆動する必要があります。これは、前立腺の除去後に残っている組織を視覚化するのが難しく、尿道がカテーテルまで後退する傾向があるため、達成するのが非常に困難です。",
+                "hu": "A Laparo prosztatektómia modul csak az eljárás végső és legnehezebb szakaszára összpontosít. A fennmaradó hólyagot és a húgycsőnyílásot le kell zárni, és ez csak több intrakorporális csomó használatával lehetséges. Az első csomó felhordása előtt a sebésznek pontosan meg kell találnia a nyálkahártyán lévő hátsó széleket, és a tűt mindkettőn át kell vezetni nagyon nehéz szögben. Ez meglehetősen kihívást jelenthet a megvalósításhoz, mivel a prosztata eltávolítása után megmaradó szöveteket nehéz lehet megjeleníteni, és a húgycső hajlamos a katéterre."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "An important aspect of this stage of the procedure is avoiding the tension on the tissues. Tension on this connection is not only difficult during the procedure for the surgeon but it can also lead to complications and problems if the tissue does not heal well. This is why sometimes before beginning the anastomosis surgeons actually suture the Rectourethalis muscle to the Denonvilliers fascia which can be found underneath the bladder. This maneuver can reapproximate the urethra and the bladder closer to each other so that the anastomosis can then be done on tissues with no unnecessary tension.",
+                "pl": "Ważnym aspektem zabiegu jest unikanie napięcia tkanek. Naprężenie tego połączenia jest nie tylko trudne dla chirurga podczas zabiegu, ale może również prowadzić do komplikacji i problemów u pacjenta, np. jeśli tkanka nie zgoi się dobrze. Dlatego czasami przed rozpoczęciem zespolenia chirurdzy zszywają mięsień odbytniczy z powięzią Denonvillier'a, która znajduje się pod pęcherzem. Ten manewr może przybliżyć cewkę moczową i pęcherz do siebie, dzięki czemu można wykonać zespolenie na tkankach bez niepotrzebnego napięcia.",
+                "es": "Un aspecto importante de esta etapa del procedimiento es evitar la tensión en los tejidos. La tensión en esta conexión no solo es difícil durante el procedimiento para el cirujano, sino que también puede provocar complicaciones y problemas si el tejido no cura bien. Es por eso que a veces antes de comenzar los cirujanos de anastomosis en realidad suturan el músculo rectouretal a la fascia Denonvilliers que se puede encontrar debajo de la vejiga. Esta maniobra puede reaproximar la uretra y la vejiga más cerca unas de la otra para que la anastomosis se pueda hacer en los tejidos sin tensión innecesaria.",
+                "zh-cn": "该过程的这一阶段的一个重要方面是避免组织上的张力。这种联系的紧张不仅在外科医生的手术过程中很困难，而且如果组织无法恢复良好，也可能导致并发症和问题。这就是为什么有时在开始吻合外科医生在开始时实际上将肌肉肌肉缝合到膀胱下方的Denonvilliers筋膜上的原因。这种操作可以将尿道和膀胱彼此靠近，因此可以在没有不必要的张力的组织上进行吻合。",
+                "ja": "手順のこの段階の重要な側面は、組織の緊張を回避することです。この接続の緊張は、外科医の処置中に難しいだけでなく、組織がうまく治癒しない場合、合併症や問題につながる可能性もあります。これが、吻合外科医を始める前に、実際に膀胱の下にあるデノンビリア筋筋膜への直腸筋筋を実際に縫合することがある理由です。この操作は、尿道と膀胱を互いに近くに再現することができ、不必要な緊張のない組織で吻合を行うことができます。",
+                "hu": "Az eljárás ezen szakaszának egyik fontos szempontja a szövetek feszültségének elkerülése. Ennek a kapcsolatnak a feszültsége nemcsak a sebész eljárása során nehéz, hanem szövődményekhez és problémákhoz is vezethet, ha a szövet nem gyógyul jól. Ez az oka annak, hogy az anastomosis sebészek megkezdése előtt néha a rektoethalis izomot varratják a Denonvilliers fascia felé, amely a hólyag alatt található. Ez a manőver újból megismételheti a húgycső és a hólyag egymáshoz közelebb, így az anastomosis ezt követően felesleges feszültség nélkül meg lehet tenni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After connecting the posterior edges of the urethra and bladder, the surgeon must then apply a sufficient number of knots around the edges to close off the entire opening, finishing with the anterior edges on the top and applying a surgical knot. This is the most time-consuming part of the procedure as the anastomosis must be sealed shut.",
+                "pl": "Po połączeniu tylnych krawędzi cewki moczowej i pęcherza, chirurg musi zawiązać odpowiednią liczbę węzłów wokół krawędzi tkanek aby zamknąć cały otwór. Skończyć musi na krawędziach na górze zakładając ostatni węzeł chirurgiczny. Jest to najbardziej czasochłonna część procedury, ponieważ zespolenie musi być szczelnie zamknięte.",
+                "es": "Después de conectar los bordes posteriores de la uretra y la vejiga, el cirujano debe aplicar un número suficiente de nudos alrededor de los bordes para cerrar toda la abertura, terminando con los bordes anteriores en la parte superior y aplicar un nudo quirúrgico. Esta es la parte más lenta del procedimiento, ya que la anastomosis debe cerrarse.",
+                "zh-cn": "在连接尿道和膀胱的后边缘后，外科医生必须在边缘周围施加足够数量的结，以关闭整个开口，并在顶部的前边缘结束并施加外科结。这是该过程中最耗时的部分，因为必须密封吻合术。",
+                "ja": "尿道と膀胱の後縁を接続した後、外科医はエッジの周りに十分な数の結び目を適用して開口部全体を閉じ、上部の前縁で仕上げて外科的な結び目を塗布する必要があります。吻合を閉じなければならないため、これは手順の最も時間のかかる部分です。",
+                "hu": "A húgycső és a hólyag hátsó széleinek összekapcsolása után a sebésznek elegendő számú csomót kell alkalmaznia a szélek körül, hogy lezárja a teljes nyílást, a tetején lévő elülső szélekkel befejezve és műtéti csomót alkalmazva. Ez az eljárás leginkább időigényes része, mivel az anastomosist le kell zárni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "In a real procedure, not performed on a silicone module, this anastomosis can be tested at the end of the procedure by introducing 60-220 cc’s of saline into the ureter which should expand the bladder without any leaks.",
+                "pl": "W prawdziwym zabiegu, a nie na module silikonowym, zespolenie można przetestować pod koniec zabiegu, wprowadzając do moczowodu 60-220 cc soli fizjologicznej. Rozszerza to pęcherz i powinno uwidocznić przecieki.",
+                "es": "En un procedimiento real, no realizado en un módulo de silicona, esta anastomosis se puede probar al final del procedimiento introduciendo 60-220 cc de solución salina en el uréter que debería expandir la vejiga sin fugas.",
+                "zh-cn": "在实际过程中，未在硅胶模块上执行，可以通过将60-220 cc的盐水引入输尿管，在过程结束时测试这种吻合术，该吻合应在没有任何泄漏的情况下扩展膀胱。",
+                "ja": "シリコンモジュールで行われない実際の手順では、この吻合は、漏れなく膀胱を拡張する60〜220 ccの生理食塩水を尿管に導入することにより、手順の最後にテストできます。",
+                "hu": "Egy valós eljárásban, amelyet nem szilikonmodulon hajtanak végre, ezt az anastomosis az eljárás végén tesztelhető úgy, hogy 60-220 cc-es sóoldatot vezet be a húgycsőbe, amelynek szivárgás nélkül ki kell terjesztenie a hólyagot."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The Prostatectomy module created by Laparo Medical Simulators has three different ways of adjusting the angles and tension on the urethra and the bladder. The attachment of the urethra can be positioned at 3 different distances and the urethra itself can also be attached into the attachment at different levels of depth. The attachment of the bladder itself can also allow the user to shift the exact angle on the tissues. Lastly, after making an attempt, it is possible to either cut off the sutures, or to cut off the sutures along with pieces of silicone on the inserts to create another opening. This can be done for as many attempts as long as the silicone is not mechanically destroyed.",
+                "pl": "Moduł Prostatektomii zaprojektowany przez Laparo Medical Simulators posiada trzy różne sposoby regulacji kątów i napięcia cewki moczowej i pęcherza moczowego. Mocowanie cewki moczowej można umieścić w 3 różnych odległościach, a samą cewkę moczową można również przymocować do mocowania na różnych poziomach głębokości. Mocowanie pęcherza również pozwawala użytkownikowi na przesunięcie dokładnego kąta tkanki. Po kolejnych próbach symulowanego zabiegu, możliwe jest też odcięcie szwów, albo odcięcie szwów wraz z kawałkami silikonu na elementach w celu utworzenia kolejnego otworu. Tym sposobem możliwe jest wykonywanie wielu prób i podejść dopóki silikon nie zostanie całkowicie zniszczony mechanicznie.",
+                "es": "El módulo de prostatectomía creado por los simuladores médicos de laparo tiene tres formas diferentes de ajustar los ángulos y la tensión en la uretra y la vejiga. La unión de la uretra se puede colocar a 3 distancias diferentes y la uretra en sí también se puede unir a la unión a diferentes niveles de profundidad. El accesorio de la vejiga en sí también puede permitir al usuario cambiar el ángulo exacto en los tejidos. Por último, después de intentar, es posible cortar las suturas o cortar las suturas junto con piezas de silicona en los insertos para crear otra abertura. Esto se puede hacer durante tantos intentos siempre que la silicona no se destruya mecánicamente.",
+                "zh-cn": "Laparo Medical Simulators创建的前列腺切除术模块具有三种不同的方法来调整尿道和膀胱上的角度和张力。尿道的附着可以定位在3个不同的距离上，尿道本身也可以在不同级别的深度附着。膀胱本身的附着也可以使用户移动组织上的精确角度。最后，在尝试后，可以切断缝合线，或切断缝合线以及插入物上的硅胶片以创建另一个开口。只要没有机械销毁硅酮，就可以做很多尝试。",
+                "ja": "Laparo Medical Simulatorsによって作成された前立腺切除モジュールには、尿道と膀胱の角度と緊張を調整する3つの異なる方法があります。尿道のアタッチメントは3つの異なる距離に配置でき、尿道自体を異なるレベルの深さで付着に取り付けることもできます。膀胱自体の取り付けにより、ユーザーは組織の正確な角度をシフトできます。最後に、試みを行った後、縫合を切断するか、挿入物にシリコンの断片とともに縫合を切断して別の開口部を作成することが可能です。これは、シリコンが機械的に破壊されない限り、多くの試行で行うことができます。",
+                "hu": "A Laparo Medical Simulátorok által létrehozott prosztatektómia modulnak három különféle módja van a húgycső és a hólyag szögeinek és feszültségének beállításához. A húgycső rögzítését 3 különböző távolságra lehet elhelyezni, és maga a húgycső is rögzíthető a rögzítéshez a mélység különböző szintjein. Maga a hólyag rögzítése lehetővé teszi a felhasználó számára, hogy a pontos szöget eltolódja a szöveteknél. Végül, megkísérlések után meg lehet vágni a varratok levágását, vagy levágni a varratokat, valamint a betéteken lévő szilikondarabokat, hogy újabb nyílást hozzon létre. Ezt meg lehet tenni annyi kísérletnél, amíg a szilikon nem elpusztul."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "text": {
+            "en": "Prostatectomy",
+            "pl": "Prostatektomia",
+            "es": "Prostatectomía",
+            "zh-cn": "前列腺切除术",
+            "ja": "前立腺切除",
+            "hu": "Prosztatektómia"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
+    },
+    "subTitle": {
+        "text": {
+            "en": "The medical knowledge behind prostatectomy and a description of the anastomosis performed at the end.",
+            "pl": "Wiedza medyczna o prostatektomii oraz opis zespolenia wykonywanego na końcu zabiegu.",
+            "es": "El conocimiento médico detrás de la prostatectomía y una descripción de la anastomosis realizada al final.",
+            "zh-cn": "前列腺切除术背后的医学知识以及对结尾进行的吻合术的描述。",
+            "ja": "前立腺切除術の背後にある医学的知識と、最後に行われた吻合の説明。",
+            "hu": "A prosztatektómia mögött meghúzódó orvosi ismeretek és a végén végzett anastomosis leírása."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    }
+}

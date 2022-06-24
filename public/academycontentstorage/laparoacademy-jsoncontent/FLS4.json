@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,55 @@
             "proficiency": 136
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "FLS_suturing",
     "allowedInstruments": [
         "dissector",
         "needle_h"
+    ],
+    "accessories": [
+        "needle_suture_20cm:1",
+        " fls_suturing_insert:1"
     ],
     "name": {
         "en": "Suture with Extracorporeal Knot Task",
         "pl": "Zadanie z Szyciem Pozaustrojowym",
         "es": "Suture con tarea de nudo extracorpóreo.",
-        "zh-cn": "缝合与体外结任务",
-        "ja": "体外結び目による縫合糸"
+        "zh-cn": "带有体外结任务的缝合线",
+        "ja": "体外結び目タスクを備えた縫合",
+        "hu": "Varrni az extrakorporális csomó feladatával"
     },
     "skills": {
         "en": "FLS, Suturing, Extracorporeal Knot",
         "pl": "FLS, Szycie, Węzeł Pozaustrojowy",
         "es": "FLS, sutura, nudo extracorpóreo.",
         "zh-cn": "FLS，缝合，体外结",
-        "ja": "FLS、縫合、体外結び目"
+        "ja": "FLS、縫合、体外結び目",
+        "hu": "FLS, varrni, extrakorporális csomó"
     },
     "description": {
         "en": "The point of this exercise is to demonstrate the ability to draw the needle through the target structure and then pull out the suture material so that it is possible to create the knot outside of the operating area on the trocar. A properly made roeder's knot can then be brought inside through the trocar and pulled onto the target structure. This does not require any intracorporeal laparoscopic suturing skill.",
         "pl": "Celem ćwiczenia jest zademonstrowanie umiejętności przeciągania igły przez strukturę docelową, a następnie wyciągania nici tak, aby możliwe było utworzenie węzła poza obszarem operacyjnym na trokarze. Prawidłowo wykonany węzeł może być następnie wprowadzony do środka przez trokar i naciągnięty przy pomocy disektora na docelową strukturę. Nie wymaga to żadnej umiejętności szycia laparoskopowego. ",
         "es": "El punto de este ejercicio es demostrar la capacidad de dibujar la aguja a través de la estructura diana y luego sacar el material de sutura para que sea posible crear el nudo fuera del área de operación en el trocar. Se puede llevar un nudo de ROEDER correctamente hecho a través del trocar y se detuvo en la estructura objetivo. Esto no requiere ninguna habilidad de sutura laparoscópica intracorpórea.",
-        "zh-cn": "本练习的重点是展示将针通过目标结构绘制的能力，然后拉出缝合材料，使得可以在套管针上的操作区域外部形成结。然后可以通过户轨道进入适当的鸡型山的结并拉到目标结构。这不需要任何体内腹腔镜缝合技能。",
-        "ja": "この運動の点は、ターゲット構造を通して針を描き、次いで縫合糸材料を引き出すことができるように縫合材料を引き出すことである。その後、適切に作られたROEDERの結び目をトロカールを通して内側に持ち運び、目標構造に引き上げることができます。これは体内腹腔鏡下縫合スキルを必要としません。"
+        "zh-cn": "这项练习的目的是证明能够通过目标结构将针头拉出，然后拉出缝合材料，以便可以在套管卡上的操作区域外产生结。然后可以通过套管卡将正确的Roeder结进进入目标结构。这不需要任何体内腹腔镜缝合技巧。",
+        "ja": "この演習のポイントは、ターゲット構造を通して針を描き、縫合材を引き抜く能力を実証して、トロカルの動作領域の外側の結び目を作成できるようにすることです。適切に作られたRoeder's結び目をトロカールから内部に持ち込み、ターゲット構造に引っ張ることができます。これには、体内の腹腔鏡下縫合スキルは必要ありません。",
+        "hu": "Ennek a gyakorlatnak az a lényege, hogy bemutassa a tűt a célszerkezeten keresztül, majd kihúzza a varrat anyagát, hogy a csomót a Trocar működési területén kívül is létrehozhassák. Ezután egy megfelelően készített Roeder csomót be lehet vinni a trokaron keresztül, és a célszerkezetre húzhatjuk. Ehhez nincs szükség intrakorporális laparoszkópos varrási készségre."
     },
     "instructions": {
         "en": "First, insert the needle with the needle holder into the operating area through the trocar while leaving the rest of the suture material outside. Use the needle holder to perform a single throw and then pull this end along with the needle out through the trocar. As a result two loose ends of suture material should be outside of the trocar. Now the needle can be cut off and a roeder loop can be tied on the trocar itself. A dissector or knot-pusher may be used to now push this knot back through the trocar and onto the target tissue. The task should be practiced until it can be performed in 136 seconds with up to 1mm accuracy errors. This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions.",
         "pl": "Najpierw należy wprowadzić igłę przy pomocy imadła do obszaru operacyjnego przez trokar, pozostawiając resztę nici na zewnątrz. Imadło powinno być użyte aby wykonać pojedyncze przekłucie, a następnie nić wraz z igłą powinna zostać wyciągnięta przez trokar. W rezultacie dwie luźne końcówki nici powinny znajdować się poza trokarem. Teraz możliwe będzie odcięcie igły i zawiązanie pętelkę na trokar. Do przepchnięcia tego węzła z powrotem przez trokar i na tkankę docelową można teraz użyć disektora lub popychacza węzła. Zadanie należy ćwiczyć, aż będzie można je wykonać w 136 sekund z błędami dokładności do 1 mm. Ten poziom wydajności powinien zostać osiągnięty w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. ",
         "es": "Primero, inserte la aguja con el soporte de la aguja en el área de operación a través del trocar mientras sale del resto del material de sutura afuera. Use el soporte de la aguja para realizar un solo lanzamiento y luego tire de este extremo junto con la aguja a través del trocar. Como resultado, los dos extremos sueltos del material de sutura deben estar fuera del trocar. Ahora la aguja se puede cortar y un bucle Roeder puede estar atado en el propio Trocar. Se puede usar un disector o un empujador de nudos para empujar este nudo a través del trocar y en el tejido objetivo. La tarea debe practicarse hasta que se pueda realizar en 136 segundos con errores de precisión de hasta 1 mm. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.",
-        "zh-cn": "首先，通过套管针将用针支架插入手持式区域，同时留下缝合材料的其余部分。使用针头执行单次掷漏，然后通过套管针将此与针一起拉出。结果，缝合材料的两个松散端应在套管针的外部。现在，针可以切断，罗德圈可以捆绑在套管针上。分插仪或结吹气可用于现在将该结通过套管针和靶组织推回。应练习任务，直到可以在136秒内执行高达1毫米的准确误差。这种性能应在连续两次重复或最多80重复上实现。",
-        "ja": "まず、残りの縫合糸材料を外側に残しながら、針ホルダーをトロカールを通して操作領域に挿入します。ニードルホルダーを使用して単一の投げを実行してから、この端を針からトロカールから引き抜きます。結果として、縫合材料の2つの緩い端部はトロカールの外側にあるべきです。これで針を切り取ることができ、ローダーループをトロカール自体に結び付けることができます。解剖または結節プッシャを使用して、この結び目をトロカールを通って標的組織上に押し戻すために使用することができる。タスクは、最大1mmの正確さエラーで136秒で実行できるまで行われるべきです。このレベルのパフォーマンスは、2つの連続した繰り返しまたは最大80の繰り返しで達成されるべきです。"
+        "zh-cn": "首先，将针固定器与针线插入套管下的操作区域，同时将其余的缝合力材料留在外面。使用针架进行一次掷球，然后将这端与针线通过套管卡一起拉出。结果，缝合材料的两个松散的末端应在套管杠之外。现在，可以切断针头，并且可以将Roeder循环绑在套管下本身上。现在可以使用解剖器或打结器将这种结通过套管卡向后推到目标组织。该任务应练习，直到可以在136秒内执行最多1mm精度错误。应在两次连续重复或最多80个重复时达到这种绩效水平。",
+        "ja": "まず、針ホルダーで針を操作エリアに挿入し、残りの縫合材料を外に残します。針ホルダーを使用して1回のスローを実行し、トロカールを通して針を外してこの端を引き出します。その結果、縫合材料の2つのゆるい端がトロカールの外側にある必要があります。これで、針を切断し、トロカール自体にローダーループを縛ることができます。分離器または結び目プッシャーを使用して、この結び目をトロカールからターゲット組織に押し戻すことができます。タスクは、最大1mmの精度エラーで136秒で実行できるまで実践する必要があります。このレベルのパフォーマンスは、2回連続の繰り返しで、または最大80回の繰り返しで達成する必要があります。",
+        "hu": "Először helyezze be a tűt a tűtartóval a Trocar -on keresztül a működési területre, miközben a varrat anyag többi részét kívül hagyja. Használja a tűtartót egyetlen dobás végezéséhez, majd húzza ki ezt a végét a tűvel a trokaron keresztül. Ennek eredményeként a varrás anyagának két laza végének a trokaron kívül kell lennie. Most a tű levágható, és a Roeder hurok magára a trokarra köthető. A boncoló vagy a csomó-pusher felhasználható arra, hogy ezt a csomót visszahúzza a trokaron és a célszövetre. A feladatot addig kell gyakorolni, amíg 136 másodperc alatt nem hajtható végre, akár 1 mm -es pontossági hibákkal. Ezt a teljesítményszintet két egymást követő ismétlésen vagy legfeljebb 80 ismétlésnél kell elérni."
     },
     "preparation": {
         "en": "Before performing this exercise ensure that the selected needle is capable of being drawn through the trocar. If not, either select a different needle, or use the needle holder to straighten the needle available. The FLS suturing module should be placed inside the trainer with the penrose drain attached by velcro.",
         "pl": "Przed wykonaniem tego ćwiczenia upewnić się, że wybrana igła może zostać przeciągnięta przez trokar. Jeśli nie, wybierz inną igłę lub użyj uchwytu igły, aby wyprostować dostępną igłę. Moduł do szycia FLS poiwnien być umieszczony centralnie z drenem penrosa przymocowanym za pomocą rzepu.",
-        "es": "Antes de realizar este ejercicio, asegúrese de que la aguja seleccionada sea capaz de ser dibujada a través del trocar. Si no, seleccione una aguja diferente, o use el soporte de la aguja para enderezar la aguja disponible. El módulo de sutura de FLS debe colocarse dentro del entrenador con el drenaje de penrose conectado por Velcro.",
-        "zh-cn": "在进行该练习之前，请确保所选择的针能够通过套管针绘制。如果没有，请选择不同的针，或者使用针架伸直针可用的针头。缝合缝合模块应放置在培训师内，通过Velcro附加的Penrose排水管。",
-        "ja": "この演習を実行する前に、選択した針がトロカールを通して描かれていることを確認してください。そうでない場合は、別の針を選択するか、針ホルダーを使用して針をまっすぐにしてください。 FLS縫合モジュールは、Penrose Drainがベルクロで取り付けられたトレーナーの内側に配置する必要があります。"
+        "es": "Antes de realizar este ejercicio, asegúrese de que la aguja seleccionada sea capaz de ser dibujado a través del trocar. Si no, seleccione una aguja diferente, o use el soporte de la aguja para enderezar la aguja disponible. El módulo de sutura de FLS debe colocarse dentro del entrenador con el drenaje de penrose conectado por Velcro.",
+        "zh-cn": "在进行此练习之前，请确保所选针头能够通过套管卡绘制。如果不是，请选择其他针，或使用针固定器拉直可用的针头。 FLS缝合模块应放置在培训师内，并由尼龙搭扣的penrose排水管。",
+        "ja": "この演習を行う前に、選択した針がトロカルを通して描画できることを確認してください。そうでない場合は、別の針を選択するか、針ホルダーを使用して利用可能な針をまっすぐにします。 FLS縫合モジュールは、ベルクロに接続されたペンローズドレインを備えたトレーナー内に配置する必要があります。",
+        "hu": "A gyakorlat elvégzése előtt ügyeljen arra, hogy a kiválasztott tű legyen a trokaron keresztül. Ha nem, akkor válasszon egy másik tűt, vagy használja a tűtartót a rendelkezésre álló tű kiegyenesítéséhez. Az FLS varrási modult az edző belsejébe kell helyezni, a tépőzárat rögzítve a Penrose -csatornát."
     }
 }

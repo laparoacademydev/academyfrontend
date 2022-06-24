@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,54 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "rband:3"
     ],
     "name": {
         "en": "Intro to Tension",
         "pl": "Wprowadzenie do Napięcia",
         "es": "Introducción a la tensión",
-        "zh-cn": "介绍张力",
-        "ja": "緊張へのイントロ"
+        "zh-cn": "张力介绍",
+        "ja": "緊張へのイントロ",
+        "hu": "Bevezetés a feszültséghez"
     },
     "skills": {
         "en": "Elasticity, Instrument Collaboration, Ambidexterity",
         "pl": "Elastyczność, Współpraca Instrumentami, Współpraca Oburęczna",
         "es": "Elasticidad, colaboración del instrumento, ambidixteridad.",
-        "zh-cn": "弹性，仪器协作，肢体",
-        "ja": "弾力性、機器のコラボレーション、Ambidextality"
+        "zh-cn": "弹性，仪器协作，灵活性",
+        "ja": "弾力性、楽器のコラボレーション、両手利き",
+        "hu": "Rugalmasság, hangszer -együttműködés, ambidexteritás"
     },
     "description": {
         "en": "In this exercise you will learn how to manipulate elastic objects. The length of the instrument shaft on both sides of the fulcrum point at the trocar will influence how much force you have to apply to the instrument for the rubber band to stretch. The deeper you insert the instrument, the more force you must apply and vice versa.",
         "pl": "W tym ćwiczeniu nauczysz się manipulować obiektami elastycznymi. Długość instrumentu po obu stronach punktu podparcia na trokarze wpływa na to, jaką siłę należy przykładać do instrumentu, aby gumka się rozciągnęła. Im głębiej wkładasz instrument, tym większą siłę musisz przyłożyć i na odwrót. ",
         "es": "En este ejercicio aprenderás a manipular objetos elásticos. La longitud del eje del instrumento en ambos lados del punto de apoyo en el trocar influirá en la cantidad de fuerza que tiene que aplicar al instrumento para que la banda de goma se estire. Cuanto más profundo inserte el instrumento, más fuerza debe aplicar y viceversa.",
-        "zh-cn": "在这项运动中，您将学习如何操纵弹性物体。套管针在特征点的支点两侧的仪器轴的长度将影响您必须向橡皮筋施加到仪器的仪器伸展多少力。您插入仪器的更深，必须申请的力量越多，反之亦然。",
-        "ja": "この演習では、弾性オブジェクトを操作する方法を学びます。トロカールの支点ポイントの両側の機器シャフトの長さは、ゴムバンドのための機器に適用されなければならない力の量に影響を与えます。あなたが楽器を挿入するより深いほど、あなたが適用しなければならない力が増え、その逆も同様です。"
+        "zh-cn": "在本练习中，您将学习如何操纵弹性对象。套管卡支点点两侧的仪表轴的长度将影响您在仪器上施加的力量，以使橡皮筋伸展。您插入乐器越深，必须施加的力量就越多，反之亦然。",
+        "ja": "この演習では、弾性オブジェクトを操作する方法を学びます。トロカーの支点ポイントの両側にある計器シャフトの長さは、輪ゴムバンドが伸びるために、楽器にどれだけの力を適用しなければならないかに影響します。楽器を挿入するほど、より多くの力を適用する必要があり、その逆も同様です。",
+        "hu": "Ebben a gyakorlatban megtanulja, hogyan lehet manipulálni az elasztikus tárgyakat. A műszertengely hossza a fulcrum pont mindkét oldalán, a Trocar -nál befolyásolja, hogy mekkora erőt kell alkalmaznia a műszerhez, hogy a gumiszalag meghosszabbítsa. Minél mélyebben helyezi be a műszert, annál több erőt kell alkalmaznia, és fordítva."
     },
     "instructions": {
         "en": "Move three rubber bands from posts at the bottom to the top starting with the middle one, and then all three back, finishing with middle one. Hold the rubber band with both instruments from beginning until end. This exercise teaches the basic manipulation of elastic objects as well as moving instruments together as a unit.",
         "pl": "Przenieś trzy gumki ze słupków na dole na górę, zaczynając od środkowego, a następnie wszystkie trzy z powrotem, kończąc na środkowym. Trzymaj gumkę obydwoma instrumentami od początku do końca. To ćwiczenie uczy podstawowych manipulacji obiektami elastycznymi, jak i poruszania się wewnątrz pola operacyjnego instrumentami razem.",
         "es": "Mueva tres bandas de goma desde las publicaciones en la parte inferior hasta la parte superior, comenzando con el medio, y luego las tres vueltas, terminando con la media. Sostenga la banda de goma con ambos instrumentos desde el principio hasta el final. Este ejercicio enseña la manipulación básica de los objetos elásticos, así como los instrumentos en movimiento juntos como una unidad.",
-        "zh-cn": "从底部到顶部的柱子从中间的柱子移动三个橡皮筋，然后用中间的三个背部，用中间完成。用两个仪器握住橡皮筋，从头到尾。该练习教导了弹性物体的基本操纵以及作为一个单位的移动仪器。",
-        "ja": "真ん中のものから頂部の頂上までの3つのゴムバンドを真ん中に移動し、次に3つすべての後ろに、中央のもので仕上げます。両方の器具を最初から最後まで両方の機器でゴムバンドを保持してください。この運動は、弾性物体の基本的な操作、ならびに機器を単位として一緒に動かすことを教示しています。"
+        "zh-cn": "从中间的柱子开始，将三个橡皮筋从底部的柱子移到顶部，然后将所有三个后背移动，然后以中间的方式结束。从头到尾都用两种乐器握住橡皮筋。这项练习教导了对弹性物体的基本操纵以及将仪器作为一个单元一起移动。",
+        "ja": "3つのラバーバンドを下部のポストから上部に移動して、中央の路面から始めてから、3つすべてが中央の路面で終わります。両方の楽器で最初から最後まで輪ゴムを保持します。この演習では、弾性オブジェクトの基本的な操作と、ユニットとして一緒に楽器を移動することを教えています。",
+        "hu": "Mozgasson három gumiszalagot az alsó oszlopokból a tetejéből, kezdve a középső részből, majd mindhárom hátul, a középső részből. Tartsa a gumiszalagot mindkét hangszerrel az elejétől a végéig. Ez a gyakorlat megtanítja az elasztikus tárgyak alapvető manipulálását, valamint a mozgó műszereket együtt."
     },
     "preparation": {
         "en": "Place three rubber bands onto the Tension Module between the posts at the bottom. Place two rubber bands first between the posts in the corners and then one rubber band on the triangle at the bottom.",
         "pl": "Umieść trzy gumki na Module Napięcia. Najpierw umieść dwie gumki pomiędzy słupkami w rogach, a następnie jedną gumkę na trójkącie na środku. ",
         "es": "Coloque tres bandas de goma en el módulo de tensión entre las publicaciones en la parte inferior. Coloque dos bandas de goma primero entre las publicaciones en las esquinas y luego una banda de goma en el triángulo en la parte inferior.",
-        "zh-cn": "将三个橡胶带放在底部的柱之间的张力模块上。首先在拐角处的柱之间放置两个橡皮筋，然后在底部的三角形上的一个橡皮筋。",
-        "ja": "底部のポストの間に3つのゴムバンドをテンションモジュールに置きます。角のポストと下の三角形の1つのゴムバンドの間に最初に2つのゴムバンドを置きます。"
+        "zh-cn": "将三个橡皮筋放在底部的柱子之间的张力模块上。首先将两个橡皮筋放在角落的柱子之间，然后在底部的三角形上放一个橡皮筋。",
+        "ja": "下部のポスト間の3つの輪ゴムバンドを張力モジュールに置きます。最初に角のポストの間に2つのゴムバンドを置き、次に下部の三角形に1つの輪ゴムバンドを置きます。",
+        "hu": "Helyezzen három gumiszalagot a feszítőmodulra az alsó oszlopok között. Helyezzen először két gumiszalagot a sarkokban lévő oszlopok között, majd egy gumiszalagot az alján lévő háromszögre."
     }
 }

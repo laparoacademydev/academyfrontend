@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "rtriangle:3",
+        " ytriangle:3"
     ],
     "name": {
         "en": "Soft Object Manipulation Left-Right",
         "pl": "Manipulacja Miękkimi Obiektami Lewo-Prawo ",
         "es": "Manipulación de objetos blandos izquierda a derecha",
-        "zh-cn": "左右软物体操纵",
-        "ja": "柔らかいオブジェクトの操作左右"
+        "zh-cn": "软对象操纵左右",
+        "ja": "ソフトオブジェクトの操作左右",
+        "hu": "Lágy tárgy manipuláció baloldali"
     },
     "skills": {
         "en": "Instrument Collaboration, Ambidexterity",
         "pl": "Współpraca Instrumentami, Współpraca Oburęczna",
         "es": "Colaboración del instrumento, Ambidexterity.",
-        "zh-cn": "仪器协作，肢体",
-        "ja": "機器のコラボレーション、Ambidexterity"
+        "zh-cn": "仪器协作，灵活性",
+        "ja": "楽器のコラボレーション、両手利き",
+        "hu": "Eszköz együttműködés, ambidexteritás"
     },
     "description": {
         "en": "The habit of moving both instruments in the operating area together is very useful but it can be difficult to move left to right as each instrument is extended from different fulcrum points. In this exercise you will repeat the earlier exercise but move rubber triangles left-right and back. ",
         "pl": "Przyzwyczajenie do poruszania obydwoma instrumentami razem w parze w obszarze operacyjnym jest bardzo przydatne, ale może być też utrudnione przy poruszaniu się od lewej do prawej, ponieważ każdy instrument ma oddalone od siebie punkty podparcia. W tym ćwiczeniu ćwiczone jest poruszanie trójkątami w kierunku lewo-prawo.",
         "es": "El hábito de mover ambos instrumentos en el área de operación es muy útil, pero puede ser difícil moverse de izquierda a derecha, ya que cada instrumento se extiende desde diferentes puntos de fulcrum. En este ejercicio, repetirá el ejercicio anterior, pero moverá los triángulos de goma a la izquierda a la derecha y hacia atrás.",
-        "zh-cn": "将两个仪器在操作区域中移动的习惯非常有用，但由于每个仪器从不同的支点延伸，因此难以向右移动。在这项运动中，您将重复较早的锻炼，但左右移动橡胶三角形。",
-        "ja": "操作領域内の両方の機器を一緒に移動させる習慣は非常に便利ですが、各機器が異なる支点から延長されるにつれて左から右へ移動するのは難しい場合があります。この演習では、以前の演習を繰り返すが、ラバー三角形を左右に移動する。"
+        "zh-cn": "将两种乐器一起在操作区域中移动两种乐器的习惯非常有用，但是由于每个乐器从不同的支点延伸，因此很难向左移到右移动。在此练习中，您将重复早期的练习，但将橡胶三角形移动到左右和后退。",
+        "ja": "動作エリアで両方の楽器を一緒に移動する習慣は非常に便利ですが、各機器が異なる支点ポイントから伸びているため、左から右へ移動することは困難です。この演習では、以前のエクササイズを繰り返しますが、ゴムの三角形を左右に動かします。",
+        "hu": "Az a szokás, hogy mindkét műszert a működési területen együtt mozgatjuk, nagyon hasznos, de nehéz lehet balról jobbra mozogni, mivel az egyes műszereket különféle fulcrum pontokból terjesztik ki. Ebben a gyakorlatban megismétli a korábbi gyakorlatot, de a gumi háromszögeket balra és hátra mozgatja."
     },
     "instructions": {
         "en": "Move 6 rubber triangles from the slots on the left side, to the right side and then back. For the first half, lift them with the left instrument and hand over to the right instrument and in the second half do the opposite. When placing in the slot, use the free instrument to push the triangles in.",
         "pl": "Przesuń 6 gumowych trójkątów z otworów po lewej stronie, na prawą i z powrotem. W pierwszej połowie podnieś je lewym instrumentem i przekaż prawemu instrumentowi a w drugiej prawym przekazując leewemu. Podczas umieszczania w otworze użyj wolnego instrumentu, aby wepchnąć trójkąty. ",
-        "es": "Mueva 6 triángulos de goma de las ranuras del lado izquierdo, hacia el lado derecho y luego hacia atrás. Para la primera mitad, levántelos con el instrumento izquierdo y entregue el instrumento correcto y en la segunda mitad haga lo contrario. Al colocarlo en la ranura, use el instrumento gratuito para presionar los triángulos.",
-        "zh-cn": "将6个橡胶三角形从左侧的插槽移动到右侧，然后返回。上半场，用左仪器抬起它们并将其移交到右侧仪器，在下半部分做相反。放置在插槽中时，使用自由仪器推动三角形。",
-        "ja": "左側のスロットから右側に6つのゴム三角形を動かしてから戻ってください。前半のために、左の機器で持ち上げ、右側の機器に手を上げ、後半には反対側を行います。スロットに入れるときは、無料の機器を使用して三角形を押してください。"
+        "es": "Mueva 6 triángulos de goma de las ranuras del lado izquierdo, hacia el lado derecho y luego hacia atrás. Para la primera mitad, levántelos con el instrumento izquierdo y entregue el instrumento correcto y en la segunda mitad hace lo contrario. Al colocarlo en la ranura, use el instrumento gratuito para presionar los triángulos.",
+        "zh-cn": "将6个橡胶三角形从左侧的插槽移至右侧，然后向后移动。在上半场，用左仪器将它们抬起，然后将其交给右仪器，下半场相反。放入插槽时，请使用自由仪器将三角形推入。",
+        "ja": "左側のスロットから右側に6つのゴムの三角形を移動し、後ろに移動します。前半は、左の楽器で持ち上げて、適切な楽器に手渡し、後半には反対のことをします。スロットに配置するときは、無料の機器を使用して三角形を押し込みます。",
+        "hu": "Mozgassa a 6 gumi háromszöget a bal oldalon lévő résidőkről, a jobb oldalra, majd a vissza. Az első félidőben emelje fel őket a bal műszerrel, és adja át a jobb műszerhez, a második félidőben pedig az ellenkezőjét. A résbe helyezéskor használja az ingyenes műszert a háromszögek beillesztéséhez."
     },
     "preparation": {
         "en": "Press the 6 rubber triangles into the hexagonal shape on the left side of the Tension Module.",
         "pl": "Umieść 6 gumowych trójkątów w sześciokątny kształt po lewej stronie Modułu Napięcia.",
         "es": "Presione los 6 triángulos de goma en la forma hexagonal en el lado izquierdo del módulo de tensión.",
-        "zh-cn": "将6个橡胶三角形压入张力模块左侧的六角形。",
-        "ja": "6つのゴム三角形をテンションモジュールの左側にある六角形形状に押します。"
+        "zh-cn": "将6个橡胶三角形按张力模块左侧的六角形形状。",
+        "ja": "張力モジュールの左側の六角形の形状に6つのゴム三角形を押します。",
+        "hu": "Nyomja meg a 6 gumi háromszöget a hatszögletű alakba a feszítőmodul bal oldalán."
     }
 }

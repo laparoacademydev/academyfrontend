@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 150
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "TM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "gband:4",
+        " rtwine:1"
     ],
     "name": {
         "en": "Twine Manipulation with Dexterity",
         "pl": "Zręczność w Manipulacji Sznurkiem",
         "es": "Manipulación de cordeles con destreza.",
-        "zh-cn": "用灵巧的操纵",
-        "ja": "器用さによる二羽の操作"
+        "zh-cn": "敏捷的麻线操纵",
+        "ja": "器用さによるひも操作",
+        "hu": "Zsineg manipuláció ügyességgel"
     },
     "skills": {
         "en": "Suturing, Elastics",
         "pl": "Szycie, Elastyczne",
         "es": "Sutura, elásticos",
         "zh-cn": "缝合，弹性",
-        "ja": "縫合、エリスチック"
+        "ja": "縫合、エラシクス",
+        "hu": "Varrás, elasztika"
     },
     "description": {
         "en": "Nearly all target structures and tissues in laparoscopic procedures are elastic to varying degrees. This elasticity is also heightened by the ports which are also located in elastic positions. By executing exercises like this one, in which you must simply pull the twine onto the rubber bands you can see how forces inside the operating area can be difficult to estimate.",
         "pl": "Prawie wszystkie docelowe struktury i tkanki w procedurach laparoskopowych są elastyczne. Ta elastyczność jest również wzmocniona przez porty, które również znajdują się w elastycznych pozycjach. Wykonując takie ćwiczenia jak to, w którym wystarczy naciągnąć sznurek na gumki, można zobaczyć, jak działają siły wewnątrz pola operacyjnego. ",
         "es": "Casi todas las estructuras y tejidos diana en los procedimientos laparoscópicos son elásticos para diversos grados. Esta elasticidad también está aumentada por los puertos que también se encuentran en posiciones elásticas. Al ejecutar ejercicios como este, en el que debe simplemente tirar de la cordera sobre las bandas de goma, puede ver cómo las fuerzas dentro del área de operación pueden ser difíciles de estimar.",
-        "zh-cn": "几乎所有腹腔镜手术中的靶标结构和组织都是弹性到不同程度的。该弹性也通过端口加强，该端口也位于弹性位置。通过执行这样的练习，您必须简单地将麻线拉到橡皮筋上，您可以看到操作区域内的力量难以估计。",
-        "ja": "腹腔鏡手術におけるすべての標的構造および組織は様々な程度に弾力的である。この弾性も弾性位置にあるポートによっても高まります。このような演習を実行することによって、あなたは単にゴムバンドに手押しさを引っ張る必要があります。"
+        "zh-cn": "腹腔镜手术中几乎所有目标结构和组织都在不同程度上弹性。也位于弹性位置的端口也增强了这种弹性。通过执行这样的练习，您必须简单地将麻线拉到橡皮筋上，您可以看到操作区域内部的力如何难以估算。",
+        "ja": "腹腔鏡手術におけるほぼすべての標的構造と組織は、さまざまな程度から弾力性があります。この弾力性は、弾性位置にあるポートによっても高められます。このようなエクササイズを実行することで、輪を輪ゴムに引っ張るだけで、動作エリア内の力がどのように推定が困難であるかを見ることができます。",
+        "hu": "A laparoszkópos eljárásokban szinte az összes célszerkezet és szövete eltérő mértékben rugalmas. Ezt a rugalmasságot is fokozza a portok is, amelyek szintén rugalmas helyzetben vannak. Az ilyen gyakorlatok végrehajtásával, amelyben egyszerűen a zsinegre kell húznia a gumiszalagokra, láthatja, hogy a működési területen belüli erőket hogyan lehet megbecsülni."
     },
     "instructions": {
         "en": "Begin with twine at the start position in the bottom peg. Again, do not cross your instruments while removing the entire twine. Place the twine under the rubber bands in the middle. Grab opposite ends and make them touch - creating an X. After success, move the twine to end top position.",
         "pl": "Rozpocznij od sznurka w pozycji początkowej w dolnym kołku. Ponownie wyciągnij nie krzyżując instrumentów podczas wyciągania. Umieść sznurek pod 2 gumkami na środku. Chwyć przeciwległe końce i spraw, by się zetknęły - tworząc X. Na koniec włóż sznurek w położenie końcowe w górnym środkowym kołku.",
         "es": "Comience con guita en la posición de inicio en la clavija inferior. Nuevamente, no cruce sus instrumentos mientras retire toda la cordita. Coloque la cordaleta debajo de las bandas de goma en el medio. Agarre los extremos opuestos y haz que se toquen: creando un X. Después del éxito, mueva la cordel para terminar la posición superior.",
-        "zh-cn": "从底部挂钩的起始位置开始缠绕。再次，不要在删除整个缠绕时越过乐器。将麻线放在中间的橡皮筋下。抓住相反的目的并使它们触摸 - 创建X.成功后，将麻线移动到最终顶部位置。",
-        "ja": "下部ペグの開始位置でひもで始めます。繰り返しますが、手間全体を取り外しながら機器を渡りません。真ん中のゴムバンドの下にひねりを置きます。反対側の端をつかみ、それらを触れるようにします -  Xを作成します。"
+        "zh-cn": "首先从底部钉的开始位置开始。同样，在删除整个麻线的同时，请勿越过乐器。将麻线放在中间的橡皮筋下。抓住相对的末端并使它们触摸 - 创建X。成功后，将麻线移至最终位置。",
+        "ja": "下部のペグの開始位置でひもで始めます。繰り返しますが、ひも全体を取り外しながら楽器を渡らないでください。輪を輪ゴムの下に真ん中に置きます。反対側をつかんで触れさせます -  Xを作成します。成功後、ひもを動かして上部の位置を終わらせます。",
+        "hu": "Kezdje a zsineggel a kezdési helyzetben az alsó csapban. Ismét ne lépje át a műszereit, miközben eltávolítja a teljes zsineget. Helyezze a zsineget a gumiszalagok alá a közepére. Fogd meg az ellenkező végeket, és tedd fel őket - X -et hozva létre. A siker után mozgassa a zsineget a végső helyzetbe."
     },
     "preparation": {
         "en": "Apply 4 rubber bands between the top and bottom pegs. Place the single piece of twine into the hole on the bottom center peg of the Tension Module.",
         "pl": "Rozciągnij 4 gumki pomiędzy górnymi a dolnymi kołkami. Umieść pojedynczy kawałek sznurka w otworze w dolnym środkowym kołku Modułu Napięcia. ",
         "es": "Aplique 4 bandas de goma entre las clavijas superior e inferior. Coloque la única pieza de cordel en el orificio en la clavija central inferior del módulo de tensión.",
-        "zh-cn": "在顶部和底部钉之间涂抹4个橡皮筋。将单块缠绕放入张力模块的底部中心栓的孔中。",
-        "ja": "上部と下のペグの間に4つのゴムバンドを塗ります。緊張モジュールの底部中央ペグの穴に蝶番を片曲に置きます。"
+        "zh-cn": "在顶部和底部钉之间应用4个橡皮筋。将单个麻线的单块放入张力模块底部中心钉的孔中。",
+        "ja": "上部と下部のペグの間に4つの輪ゴムを塗ります。張力モジュールの下部中央ペグの穴に、ひもの単一の部分を置きます。",
+        "hu": "Vigyen fel 4 gumiszalagot a felső és az alsó csapok között. Helyezze az egy darab zsineget a feszítőmodul alsó pontján lévő lyukba."
     }
 }

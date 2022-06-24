@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 0,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": ".png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": ".png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 11
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,15 +50,7 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 11
-    },
-    "vrConfig": {
-        "scene": "Pyloromyotomy",
-        "scenario": ""
+        }
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -165,7 +139,14 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {
+        "scene": "Pyloromyotomy",
+        "scenario": "",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -175,23 +156,33 @@
         "en": "Pyloromyotomy",
         "pl": "Pyloromiotomia",
         "es": "Piloromiotomía",
-        "zh-cn": "幽门瘤细胞术",
-        "ja": "幽門"
+        "zh-cn": "幽门琴",
+        "ja": "空筋切開術",
+        "hu": "Pyloromyotomia"
     },
     "skills": {
         "en": "Procedure, Pediatrics",
         "pl": "Procedure, Pediatrics",
-        "es": "Procedimiento, Pediatría",
+        "es": "Procedimiento, pediatría",
         "zh-cn": "程序，儿科",
-        "ja": "手順、小児科"
+        "ja": "手順、小児科",
+        "hu": "Eljárás, gyermekgyógyászat"
     },
     "description": {
         "en": "Procedure, Pediatrics",
         "pl": "Procedure, Pediatrics",
-        "es": "Procedimiento, Pediatría",
+        "es": "Procedimiento, pediatría",
         "zh-cn": "程序，儿科",
-        "ja": "手順、小児科"
+        "ja": "手順、小児科",
+        "hu": "Eljárás, gyermekgyógyászat"
     },
     "instructions": {},
-    "preparation": {}
+    "preparation": {
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
+        "es": "Retire los módulos físicos del área operativa. Retire los instrumentos de los trocares y extraiga la cámara lo más lejos posible.",
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+    }
 }

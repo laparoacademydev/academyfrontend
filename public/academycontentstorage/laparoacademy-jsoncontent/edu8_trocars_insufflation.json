@@ -7,8 +7,17 @@
                 "en": "Sufficient insufflation must be created to make laparoscopy possible. This is done with a gas supply system which is part of the laparoscopy tower. The gas delivery system is composed of the gas supply, the insufflator, a filter, gas tubing and the laparoscopic port through which the gas is delivered into the patient.",
                 "pl": "Aby zabiegi mało inwazyjne były możliwe, konieczna jest insuflacja, czyli odpowiednia odma dająca chirurgowi pole operacyjne. Wieża laparoskopowa wyposażona jest w system składający się ze źródła CO2, insuflatora, filtra oraz przewodów przez które CO2 jest wprowadzany.",
                 "es": "Se debe crear suficiente insuflación para hacer posible la laparoscopia. Esto se hace con un sistema de suministro de gas que forma parte de la torre de laparoscopia. El sistema de administración de gas se compone del suministro de gas, el insuflador, un filtro, un tubo de gas y el puerto laparoscópico a través del cual se entrega el gas en el paciente.",
-                "zh-cn": "必须创建足够的吹气以使腹腔镜检查成为可能。这是用腹腔镜塔的一部分的气体供应系统完成的。气体输送系统由气体供应，腹菌器，过滤器，气体管和腹腔镜端口组成，气体被递送到患者中。",
-                "ja": "腹腔鏡検査を可能にするために十分な吹送を作成する必要があります。これは腹腔鏡塔の一部であるガス供給システムで行われます。ガス供給システムは、ガス供給源、吹出装置、フィルタ、ガス管およびガスが患者に送達される腹腔鏡ポートからなる。"
+                "zh-cn": "必须产生足够的不足来使腹腔镜检查成为可能。这是通过腹腔镜塔的一部分的气体供应系统来完成的。气体输送系统由气体供应，不利用器，过滤器，气管和腹腔镜端口组成，使气体通过该端口传递到患者中。",
+                "ja": "腹腔鏡検査を可能にするために、十分な膨張を作成する必要があります。これは、腹腔鏡検査塔の一部であるガス供給システムで行われます。ガス送達システムは、ガス供給、衝突器、フィルター、ガスチューブ、およびガスが患者に供給される腹腔鏡ポートで構成されています。",
+                "hu": "Elegendő elhelyezést kell létrehozni a laparoszkópia lehetővé tételéhez. Ez egy gázellátó rendszerrel történik, amely a laparoszkópia torony részét képezi. A gázszállítási rendszer a gázellátásból, az inflátorból, a szűrőből, a gázcsövekből és a laparoszkópos portból áll, amelyen keresztül a gázt a betegbe szállítják."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -17,8 +26,17 @@
                 "en": "The insufflator is used to regulate the flow of gas. This device is programmed to regulate pressure in the operating area and the surgeon must understand how it works. Controlled with a simple interface, the device is adjusted to the target pressure and displays the actual pressure and flow as well. Some insufflators also feature humidity control and temperature settings of the gas.",
                 "pl": "Insuflator reguluje przepływ gazu. Urządzenie zaprogramowane jest w taki sposób, żeby automatycznie monitorować ciśnienie wewnątrz pola operacyjnego. Aby jednak uniknąć komplikacji, ważne jest, żeby chirurg dobrze rozumiał jak działa. Insuflator, kontrolowany przez prosty interfejs, ustawiany jest na docelowy poziom ciśnienia i dodatkowo pokazuje aktualne ciśnienie oraz jego przepływ. Niektóre insuflatory kontrolują też wilgotność i temperaturę doprowadzanego gazu.",
                 "es": "El insuflador se utiliza para regular el flujo de gas. Este dispositivo está programado para regular la presión en el área de operación y el cirujano debe entender cómo funciona. Controlado con una interfaz simple, el dispositivo se ajusta a la presión de destino y muestra la presión y el flujo real. Algunos insuflas también cuentan con control de humedad y ajustes de temperatura del gas.",
-                "zh-cn": "灌注器用于调节气体流动。该设备被编程为调节操作区域中的压力，外科医生必须了解它的工作原理。使用简单的界面控制，该设备调整到目标压力并显示实际压力和流量。一些吹蛋器还具有湿度控制和气体温度设置。",
-                "ja": "ガスの流れを調整するために吸排気が使用されます。この装置は、操作領域内の圧力を調整するようにプログラムされ、外科医はそれがどのように機能するかを理解しなければなりません。簡単なインターフェースで制御されているため、デバイスは目標圧力に調整され、実際の圧力と流れも表示されます。いくつかの吸排口座はまた、ガスの湿度制御および温度設定を特徴としています。"
+                "zh-cn": "不利于调节气体流动。对该设备进行编程以调节操作区域的压力，外科医生必须了解其工作原理。用简单的接口控制，将设备调整为目标压力，并显示实际的压力和流动。一些不脱离器还具有气体的湿度控制和温度设置。",
+                "ja": "膨張器は、ガスの流れを調節するために使用されます。このデバイスは、動作エリアの圧力を調節するようにプログラムされており、外科医はそれがどのように機能するかを理解する必要があります。単純なインターフェイスで制御されたデバイスは、ターゲット圧力に合わせて調整され、実際の圧力と流れも表示されます。また、一部の輸送器は、ガスの湿度制御と温度設定も備えています。",
+                "hu": "Az insufflatort használják a gázáramlás szabályozására. Ezt az eszközt úgy programozzák, hogy szabályozza a nyomás szabályozását a működési területen, és a sebésznek meg kell értenie, hogyan működik. Egy egyszerű interfészmel vezérelve az eszközt a célnyomáshoz igazítják, és megjeleníti a tényleges nyomást és az áramlást is. Egyes beolvasztók páratartalom -ellenőrzési és hőmérsékleti beállításait is tartalmazzák."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -27,8 +45,17 @@
                 "en": "The trocars used in surgery, also known as ports, enable the laparoscope and instruments to be inserted into the operating area. The trocar is made up of two components - the cannula which acts as the port, and the removable inner obturator. Both of these are inserted as a unit when puncturing the tissue, and the obturator is then removed to allow instrument insertion. The cannula has a tight seal which prevents gas from leaking and a valve for insufflation tubing. Many different types of trocars of varying sizes and additional features exist to address more specific needs.",
                 "pl": "Trokary wykorzystywane w chirurgi małoinwazyjnej, nazywane też potocznie portami, pozwalają torowi wizyjnemu i instrumentom na dostęp do pola operacyjnego jednocześnie podtrzymując potrzebny dla odmy otrzewnowej poziom ciśnienia CO2. Trokar składa się z dwóch komponentów - cewki, która działa jako port, oraz z usuwalnego obturatora. Trokar umieszczony jest w wybranej lokalizacji i po wytworzeniu odmy obturator jest usuwany, aby w to miejsce mógł zostać włożony instrument. Cewka wewnątrz trokara przylega do instrumentu, co ogranicza wyciek gazu. Na boku trokara znajduje się zaworek, do którego możliwe jest podłączenie przewodu.",
                 "es": "Los tródricos utilizados en la cirugía, también conocidos como puertos, permiten insertar el laparoscopio e instrumentos en el área de operación. El trocar se compone de dos componentes: la cánula que actúa como el puerto, y el obturador interno extraíble. Ambos se insertan como una unidad cuando se perforan el tejido, y luego se elimina el obturador para permitir la inserción del instrumento. La cánula tiene un sello apretado que evita que el gas se escape y una válvula para la insuflación. Muchos tipos diferentes de tródricos de diferentes tamaños y características adicionales existen para abordar necesidades más específicas.",
-                "zh-cn": "手术中使用的轨道器，也称为端口，使探测器和仪器插入操作区域。套管针由两个部件组成 - 装有作为端口的插管，以及可拆卸的内闭塞器。当它们刺穿组织时，这两种被插入为单元，然后将闭塞器移除以允许仪器插入。套管具有紧密的密封，可防止气体泄漏和用于吹气管的阀门。许多不同类型的不同尺寸的轨道器和其他功能存在以解决更具体的需求。",
-                "ja": "手術で使用されているトロカールは、ポートとしても知られており、腹腔鏡と機器を操作地域に挿入することができます。トロカールは、ポートとして作用するカニューレ、および取り外し可能な内部閉塞具である2つの部品で構成されています。これらの両方が組織を穿刺するときに単位として挿入され、その後閉塞具が取り外されて装置の挿入が可能にされる。カニューレは、ガスが漏れるのを防ぐタイトなシールと、吸排されたチューブのためのバルブです。より具体的なニーズに対処するために、さまざまなサイズと追加の機能の多くの異なる種類のトロカールがあります。"
+                "zh-cn": "手术中使用的ter骨，也称为端口，使腹腔镜和仪器能够插入操作区域。套管卡由两个组成部分组成 - 充当端口的套管和可移动的内闭孔器。刺穿组织时，这两者都插入为单位，然后将其移除以允许仪器插入。该套管的密封密封很紧，可防止气体泄漏和阀门以进行不合适的管道。存在许多不同类型的烟卡车的不同尺寸和其他功能，以满足更具体的需求。",
+                "ja": "港とも呼ばれる手術で使用されるトロカーは、腹腔鏡と機器を手術エリアに挿入できるようにします。トロカーは、ポートとして機能するカニューレと取り外し可能な内部閉塞装置の2つのコンポーネントで構成されています。これらは両方とも、組織に穴を開けるときにユニットとして挿入され、閉鎖剤が除去されて機器の挿入が可能になります。カニューレには、ガスが漏れないようにするのを防ぐタイトなシールがあり、バルブが膨らみします。さまざまなサイズと追加機能の多くの異なるタイプのトロカーが存在し、より具体的なニーズに対応します。",
+                "hu": "A műtétben használt trokarok, más néven portok, lehetővé teszik a laparoszkóp és a műszerek behelyezését a működési területre. A trokar két elemből áll - a kanül, amely portként működik, és a kivehető belső obturator. Mindkettőt egységként helyezzük el a szövet lyukasztásakor, majd az obturatort eltávolítják, hogy lehetővé tegyék a műszer behelyezését. A kanülnek szoros tömítése van, amely megakadályozza a gáz szivárgását, és egy szelepet az insufferációs csövekhez. Számos különféle típusú, különböző méretű és kiegészítő funkcióval rendelkező trokar létezik a konkrétabb igények kielégítésére."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -37,8 +64,17 @@
                 "en": "Insufflation tubing plugs on one end into the valve on the trocar and on the other end into the insufflator. Although the insufflator provides positive gas pressure, sudden changes can create a higher pressure on the patient side than inside the insufflator. This is why a small filter is placed close to the insufflator end of the tubing. This filter prevents the flow of gas in the opposite direction and contamination of the insufflator. The filter should occasionally be replaced.",
                 "pl": "Przewód podpięty jest z jednej strony do zaworka w trokarze, a po drugiej stronie do insuflatora. Pomimo ciśnienia generowanego od strony insuflatora, nagłe zmiany w polu operacyjnym mogą chwilowo generować wyższe ciśnienie od strony pacjenta. Filtr umieszczony na przewodzie nie pozwala gazowi na przemieszczanie się w przeciwnym kierunku, co mogłoby zanieczyścić insuflator. Filtr powinien być od czasu do czasu wymieniany.",
                 "es": "Los tapones para tubos de insuflación en un extremo en la válvula en el trocar y en el otro extremo en el insuflador. Aunque el insuflador proporciona presión de gas positiva, los cambios repentinos pueden crear una presión más alta sobre el lado del paciente que dentro del insuflador. Es por esto que se coloca un filtro pequeño cerca del extremo del insuflador del tubo. Este filtro evita el flujo de gas en la dirección opuesta y la contaminación del insuflador. El filtro debe ser reemplazado ocasionalmente.",
-                "zh-cn": "将一端的吹入管塞在户轨道上的阀门上，另一端进入嵌入式空间。虽然灌注器提供正气体压力，但突然变化可以在患者侧的腰面产生比内腹板内的压力更高。这就是为什么小过滤器靠近管道的嵌入器端。该过滤器可防止气体流动在相反的方向和污染物污染。偶尔应该更换过滤器。",
-                "ja": "吹出チューブは、片端にトロカールの弁に、もう一方の端部の吸気口に差し込みます。吸排口座は正のガス圧を提供しますが、突然の変化は吸気口の内側よりも患者側により高い圧力を生み出す可能性があります。これが、小さいフィルタがチューブの吸排口座の端部の近くに配置されている理由です。このフィルタは、ガスの流れが反対方向のガスの流れを防止し、吸排口座の汚染を妨げる。フィルタを置き換える必要があります。"
+                "zh-cn": "一端的一端进入套管卡的阀门和另一端的阀门上的插头。尽管不利用的气体压力会带来正压力，但突然的变化可以在患者侧产生比不利用器内部更高的压力。这就是为什么将一个小滤波器放置在管道的不卸载端附近的原因。该过滤器可防止气体沿相反的方向和污染物的污染流动。偶尔应更换过滤器。",
+                "ja": "インクフライレーションチューブは、一方の端がトロカールのバルブに、もう一方の端が膨大な端にプラグを付けます。耐吹き子は正のガス圧を提供しますが、突然の変化は膨大な変化を患者側により高い圧力をもたらす可能性があります。これが、小さなフィルターがチューブの膨大な端端の近くに配置される理由です。このフィルターは、ガスの流れが反対方向に流れを防ぎ、衝突因子の汚染を防ぎます。フィルターを時々交換する必要があります。",
+                "hu": "A csövek beillesztése az egyik végén a trokar szelepébe, a másik végén az Insufflatorba. Noha az insufflator pozitív gáznyomást biztosít, a hirtelen változások magasabb nyomást gyakorolhatnak a beteg oldalára, mint az InsuffLator belsejében. Ez az oka annak, hogy egy kis szűrőt a cső beillesztő vége közelében helyezzenek el. Ez a szűrő megakadályozza a gázáramlás ellenkező irányba és az inflátor szennyeződését. A szűrőt időnként ki kell cserélni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -47,25 +83,41 @@
                 "en": "First Port Placement and Insufflation",
                 "pl": "Umieszczenie portu i insuflacja",
                 "es": "Primera colocación de puertos e insuflación.",
-                "zh-cn": "第一个端口放置和吹气",
-                "ja": "最初のポートの配置と吹き付け"
+                "zh-cn": "第一个端口放置和不足",
+                "ja": "最初のポート配置と膨張",
+                "hu": "Első kikötői elhelyezés és beillesztés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu8_trocars_insufflation_03.png",
-                    "type": "image",
-                    "label": {
-                        "en": "The image on the left shows the danger present when introducing the first trocar. The image on the right shows the peritoneal cavity which grows after the insufflator is activated.",
-                        "pl": "Obraz po lewej pokazuje niebezpieczeństwo które jest obecne podczas insercji pierwszego trokara. Obraz po prawej pokazuje odmę otrzewnową która powstaje po aktywacji insuflatora.",
-                        "es": "La imagen de la izquierda muestra el peligro presente al introducir el primer trocar. La imagen de la derecha muestra la cavidad peritoneal que crece después de activarse el insuflador.",
-                        "zh-cn": "左侧的图像显示引入第一套管轨道时存在的危险。右侧的图像显示了在灌注器被激活后生长的腹膜腔。",
-                        "ja": "左側の画像は、最初のトロカールを導入するときに存在する危険性を示しています。右側の画像は、吸気口が活性化された後に成長する腹膜キャビティを示しています。"
-                    }
+            "media": {
+                "url": "edu8_trocars_insufflation_03.png",
+                "type": "image",
+                "label": {
+                    "en": "The image on the left shows the danger present when introducing the first trocar. The image on the right shows the peritoneal cavity which grows after the insufflator is activated.",
+                    "pl": "Obraz po lewej pokazuje niebezpieczeństwo które jest obecne podczas insercji pierwszego trokara. Obraz po prawej pokazuje odmę otrzewnową która powstaje po aktywacji insuflatora.",
+                    "es": "La imagen de la izquierda muestra el peligro presente al introducir el primer trocar. La imagen de la derecha muestra la cavidad peritoneal que crece después de activarse el insuflador.",
+                    "zh-cn": "左侧的图像在引入第一个套管卡时显示出存在的危险。右侧的图像显示了腹膜腔，该腔腔在激活不利于的腹腔后生长。",
+                    "ja": "左側の画像は、最初のトロカーを導入するときに存在する危険を示しています。右側の画像は、衝突因子が活性化された後に成長する腹膜空洞を示しています。",
+                    "hu": "A bal oldali kép azt a veszélyt mutatja, amely az első trokar bevezetésekor jelen van. A jobb oldalon lévő kép azt a peritoneális üreget mutatja, amely az insufflator aktiválása után növekszik."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "quote",
@@ -73,8 +125,17 @@
                 "en": "The first puncture can be one of the most dangerous moments in the entire procedure because the needle must go through the fascia and linea alba but it must stop at the peritoneum.",
                 "pl": "Pierwsze początkowe wkłucie może być niebezpieczne ponieważ igła musi przebić się przez powięź i zatrzymać się przy otrzewnej.",
                 "es": "La primera punción puede ser uno de los momentos más peligrosos de todo el procedimiento porque la aguja debe pasar por la fascia y la linea alba, pero debe detenerse en el peritoneo.",
-                "zh-cn": "第一个穿刺可以是整个程序中最危险的时刻之一，因为针必须穿过筋膜和线菊属，但它必须停在腹膜上。",
-                "ja": "針が筋膜とLineaのAlbaを通過しなければならないので、最初の穿刺は全手順で最も危険な瞬間の1つになることがありますが、それは腹膜で止まっなければなりません。"
+                "zh-cn": "第一个穿刺可能是整个过程中最危险的时刻之一，因为针头必须穿过筋膜和线虫阿尔巴，但必须停在腹膜上。",
+                "ja": "最初の穿刺は、針が筋膜とlinea albaを通過する必要があるため、手順全体で最も危険な瞬間の1つですが、腹膜で止まらなければなりません。",
+                "hu": "Az első lyukasztás lehet az egyik legveszélyesebb pillanat a teljes eljárásban, mivel a tűnek át kell mennie a fascián és a linea alba -n keresztül, de a peritoneumnál meg kell állnia."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -83,8 +144,17 @@
                 "en": "After planning the procedure and defining port placement and scrubbing in, the first step in a laparoscopic procedure is to puncture through to the peritoneum and to insufflate. This can be done in several different ways. The first port is used to introduce the laparoscope and often it is located at the umbillicus due to the central location and to camouflage scarring. The other ports are then made after inducing pneumoperitoneum and with visual access from the laparoscope.",
                 "pl": "Po zaplanowaniu procedury i zdefiniowaniu lokalizacji portów, pierwszym etapem zabiegu laparoskopowego jest przekłucie się przez otrzewną, aby móc rozpocząć insuflację. Może to być wykonane na kilka sposobów. Pierwszy port służy do wprowadzenia laparoskopu. Jest często umieszczony w okolicy pępka (ze względu na centralną pozycję i na możliwość późniejszego ukrycia blizny). Inne porty umieszczane są dopiero po uzyskaniu widoku przez laparoskop i po wytworzeniu odmy otrzewnowej. Wprowadzenie ich jest już dużo bezpieczniejsze niż ten pierwszy, ponieważ możliwe jest też obserwowanie miejsca wkłucia od wewnątrz z pola operacyjnego.",
                 "es": "Después de planificar el procedimiento y definir la colocación del puerto y la restricción, el primer paso en un procedimiento laparoscópico es para pincharse hasta el peritoneo y a insufla. Esto se puede hacer de varias maneras diferentes. El primer puerto se usa para introducir el laparoscopio y, a menudo, se encuentra en el umbillicus debido a la ubicación central y de camuflarse cicatrices. Los otros puertos se realizan luego después de inducir el neumoperitoneo y con acceso visual desde el laparoscopio.",
-                "zh-cn": "在规划程序和定义端口放置和擦洗后，腹腔镜手术的第一步是穿过腹膜并吹入腹膜。这可以以几种不同的方式完成。第一端口用于引入腹腔镜，并且由于中心位置和伪装疤痕，它通常位于脐带上。然后在诱导肺膜镜和从腹腔镜进行视觉访问后进行其他端口。",
-                "ja": "手順を計画し、ポート配置およびスクラブをスクラブすることの後、腹腔鏡下の最初のステップは、腹膜に穿刺されそして吸排されることである。これはいくつかの異なる方法で行うことができます。最初のポートは腹腔鏡を導入するために使用され、しばしばそれは中心的な場所のために、そして迷彩の瘢痕化のためにムラクスにあります。その後、肺炎肺陽性を誘導し、腹腔鏡からの視覚的アクセスを伴う後に他のポートを作製します。"
+                "zh-cn": "在计划过程并定义端口放置并擦洗之后，腹腔镜程序的第一步是穿刺到腹膜并脱离腹膜。这可以通过几种不同的方式完成。第一个端口用于引入腹腔镜，通常由于中央位置和伪装疤痕而位于脐带。然后，在诱导气肺并从腹腔镜访问的视觉访问之后，将建立其他端口。",
+                "ja": "手順を計画し、ポートの配置とスクラブを定義した後、腹腔鏡手順の最初のステップは、腹膜に穴を開けて膨張することです。これはいくつかの異なる方法で実行できます。最初のポートは腹腔鏡を導入するために使用され、多くの場合、中央の位置とカモフラージュの瘢痕のために臍にあります。その後、他のポートは、肺炎球菌を誘導し、腹腔鏡から視覚的にアクセスした後に作成されます。",
+                "hu": "Az eljárás megtervezése, valamint a port elhelyezésének és a súrolás meghatározása után a laparoszkópos eljárás első lépése a peritoneumba való átjutás és a beillesztés. Ez többféle módon is megtehető. Az első portot a laparoszkóp bevezetésére használják, és gyakran az Umbillicusnál található, a központi elhelyezkedés és az álcázási hegesedés miatt. A többi portot ezután a pneumoperitoneum indukálása és a laparoszkóp vizuális hozzáférése után készítik."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -93,8 +163,17 @@
                 "en": "Classical Closed Technique - Veress Needle",
                 "pl": "Klasyczna technika zamknięta - Igła Veress'a",
                 "es": "Técnica cerrada clásica - Needle Veress",
-                "zh-cn": "古典封闭技术 - 验证针",
-                "ja": "古典的な閉じた技術 -  Veress Needle"
+                "zh-cn": "古典封闭技术-Veress针",
+                "ja": "クラシッククローズドテクニック -  Veress針",
+                "hu": "Klasszikus zárt technika - veress tű"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -102,26 +181,42 @@
             "text": {
                 "en": "The first puncture can be one of the most dangerous moments in the entire procedure because the needle must go through the fascia and linea alba but it must stop at the peritoneum. The Veress Needle is a spring-loaded device which limits the possibility of damaging the viscera upon puncturing. Before puncturing with the Veress needle, a scalpel is used to cut the surface tissue. The needle is then used to puncture the fascia and must stop at the peritoneal structure. A small amount of saline can be placed in the needle to confirm that it is where it is supposed to be - the lower pressure within the peritoneum will absorb it instantly.\n",
                 "pl": "Pierwsze początkowe wkłucie może być niebezpieczne ponieważ igła musi przebić się przez powięź i zatrzymać się przy otrzewnej. Głębsze przebicie ostrą końcówką może wyrządzić szkodę organom znajdującym się poniżej. Dlatego Igła Veressa zawiera sprężynowy mechanizm, który cofa igłę. Przed wkłuciem igły, powierzchnia skóry przecinana jest skalpelem. Igła Veressa wprowadzana jest przez powięź. W tej technice możliwe jest użycie kropli solanki w nasadce igły, aby możliwa była weryfikacja odpowiednio głębokiego wkłucia. Jeśli igła przebije się przez otrzewną, solanka zostanie od razu wchłonięta przez niższe ciśnienie wewnątrz.",
-                "es": "La primera punción puede ser uno de los momentos más peligrosos de todo el procedimiento porque la aguja debe pasar por la fascia y la linea alba, pero debe detenerse en el peritoneo. La aguja de Veress es un dispositivo cargado por resorte que limita la posibilidad de dañar las vísceras al pinchar. Antes de perforarse con la aguja de Vernes, se usa un escalpelo para cortar el tejido de la superficie. Luego, la aguja se usa para perforar la fascia y debe detenerse a la estructura peritoneal. Se puede colocar una pequeña cantidad de solución salina en la aguja para confirmar que es donde se supone que debe ser, la presión más baja dentro del peritoneo lo absorberá instantáneamente.\n",
-                "zh-cn": "第一个穿刺可以是整个程序中最危险的时刻之一，因为针必须穿过筋膜和线菊属，但它必须停在腹膜上。验证针是弹簧加载的装置，其限制在穿刺时损坏内脏的可能性。在用验证针刺刺穿之前，使用手术刀来切割表面组织。然后将针刺用于刺穿筋膜，并且必须在腹膜结构处停止。少量盐水可以放置在针中，以确认它应该是 - 腹膜内的较低压力将立即吸收。\n",
-                "ja": "針が筋膜とLineaのAlbaを通過しなければならないので、最初の穿刺は全手順で最も危険な瞬間の1つになることがありますが、それは腹膜で止まっなければなりません。ベリセス針は、穿刺時に内部を損傷する可能性を制限するスプリング装填装置である。 VERESS針で穿刺する前に、メスが表面組織を切断するために使用されます。次に針を使用して筋膜を穿刺し、腹膜構造で停止しなければならない。少量の生理食塩水を針に入れて、腹膜内のより低い圧力が即座に吸収することを確認することができる。\n"
+                "es": "La primera punción puede ser uno de los momentos más peligrosos de todo el procedimiento porque la aguja debe pasar por la fascia y la linea alba, pero debe detenerse en el peritoneo. La aguja de Veress es un dispositivo cargado por resorte que limita la posibilidad de dañar las vísceras al pinchar. Antes de perforarse con la aguja de Vernes, se usa un escalpelo para cortar el tejido de la superficie. Luego, la aguja se usa para perforar la fascia y debe detenerse a la estructura peritoneal. Se puede colocar una pequeña cantidad de solución salina en la aguja para confirmar que es donde se supone que debe ser, la presión más baja dentro del peritoneo lo absorberá instantáneamente.",
+                "zh-cn": "第一个穿刺可能是整个过程中最危险的时刻之一，因为针头必须穿过筋膜和线虫阿尔巴，但必须停在腹膜上。 Veress针是一种弹簧装置，可限制刺穿后损坏内脏的可能性。在用Veress针穿刺之前，使用手术刀切割表面组织。然后将针头刺穿筋膜，必须停在腹膜结构上。可以将少量的盐水放入针中，以确认它是应该的位置 - 腹膜内的较低压力将立即吸收。\n",
+                "ja": "最初の穿刺は、針が筋膜とlinea albaを通過する必要があるため、手順全体で最も危険な瞬間の1つですが、腹膜で止まらなければなりません。 Veress Needleは、穿刺時に内臓を損傷する可能性を制限するばね荷重デバイスです。 Veress針で穿刺する前に、メスは表面組織を切断するために使用されます。その後、針は筋膜を穿刺するために使用され、腹膜構造で停止する必要があります。少量の生理食塩水を針に入れて、それがあるはずの場所であることを確認することができます - 腹膜内の低い圧力は即座にそれを吸収します。\n",
+                "hu": "Az első lyukasztás lehet az egyik legveszélyesebb pillanat a teljes eljárásban, mivel a tűnek át kell mennie a fascián és a linea alba -n keresztül, de a peritoneumnál meg kell állnia. A Veress tű egy rugóval betöltött eszköz, amely korlátozza a zsigerek károsításának lehetőségét a lyukasztáskor. Mielőtt a veress tűvel lyukasztanánk, szikearabot használunk a felületi szövet vágására. A tűt ezután használják a fascia lyukasztására, és meg kell állnia a peritoneális szerkezetnél. Kis mennyiségű sóoldatot lehet helyezni a tűbe, hogy megerősítse, hogy ott kell lennie - az alacsonyabb nyomás a peritoneumon belül azonnal felszívja azt.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu8_trocars_insufflation_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "(A) Skin (B) Linea Alba (C) Fascia",
-                        "pl": "(A) Skóra (B) Linea Alba) (C) Powięź",
-                        "es": "(A) piel (b) linea alba (c) fascia",
-                        "zh-cn": "（a）皮肤（b）Linea alba（c）筋膜",
-                        "ja": "（A）皮膚（B）リネアアルバ（C）筋膜"
-                    }
+            "media": {
+                "url": "edu8_trocars_insufflation_01.png",
+                "type": "image",
+                "label": {
+                    "en": "(A) Skin (B) Linea Alba (C) Fascia",
+                    "pl": "(A) Skóra (B) Linea Alba) (C) Powięź",
+                    "es": "(A) piel (b) linea alba (c) fascia",
+                    "zh-cn": "（A）皮肤（B）Linea Alba（C）筋膜",
+                    "ja": "（a）皮膚（b）リネアアルバ（c）筋膜",
+                    "hu": "(A) Bőr (B) Linea Alba (C) fascia"
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
@@ -129,8 +224,17 @@
                 "en": "Insufflation through the Veress needle begins at low flow. When the surgeon is confident that the peritoneum is being insufflated properly and no damage has been done, the flow may be increased and continued until sufficient pressure can be established. The needle is then removed and a laparoscopic trocar is inserted into the remaining incision. Gas tubing is attached to this trocar and pneumoperitoneum is further sustained with the insufflator maintaining pressure automatically.",
                 "pl": "Insuflacja przy pomocy igły Veress'a powinna się zawsze rozpocząć na niskim ustawieniu przepływu gazu. Przy całkowitej pewności, że otrzewna poprawnie ulega insuflacji i że nie wyrządzona została jakakolwiek szkoda, przepływ może być podwyższony aż do pożądanego poziomu. Igła może w takim momencie być usunięta i trokar może zostać włożony przez nacięcie. Przewód na gaz jest wtedy podłączony do trokara i odma otrzewnowa może być już automatycznie utrzymywana przez insuflator, który automatycznie odczytuje i dostosowuje poziom ciśnienia.",
                 "es": "La insuflación a través de la aguja de la vereza comienza a un flujo bajo. Cuando el cirujano está seguro de que el peritoneo se está insufantil correctamente y no se ha hecho daños, el flujo se puede aumentar y continuar hasta que se pueda establecer suficiente presión. Luego se retira la aguja y se inserta un trocar laparoscópico en la incisión restante. El tubo de gas está unido a este trocar y el neumoperitoneo se mantiene adicionalmente con el insuflador manteniendo la presión automáticamente.",
-                "zh-cn": "通过蜜饯针的吹入从低流量开始。当外科医生相信腹膜腹膜被正确融入并且没有损坏并且没有损坏，可以增加并继续流动，直到可以建立足够的压力。然后移除针头，并将腹腔镜套管针插入剩余的切口中。气体管附着在该套管针上，并且气腹和气腹随着腹部容纳压力而进一步持续。",
-                "ja": "ベリセス針を通した吹き付けは低流量で始まります。外科医が腹膜が適切に吹いていると確信していると確信しており、損傷が行われていないと、十分な圧力が確立されるまで流れを増加させ続けることができる。次に針を取り除き、腹腔鏡下のトロカールを残りの切開部に挿入する。ガスチューブはこのトロカールに取り付けられ、肺炎けがみはさらに圧力を自動的に維持することでさらに持続する。"
+                "zh-cn": "通过Veress针的不足开始以低流量开始。当外科医生确信腹膜被正确地不适并且没有造成损害时，可能会增加流量并持续，直到建立足够的压力为止。然后除去针头，并将腹腔镜套管卡插入剩余的切口中。气管连接到该套管卡上，而气管促进螺旋体则可以自动保持压力，从而进一步维持气管。",
+                "ja": "Veress針を通る膨張は、低流量で始まります。外科医が腹膜が適切に潜入されており、損傷が発生していないと確信している場合、十分な圧力が確立されるまで流れが増加し、継続される可能性があります。次に、針を除去し、腹腔鏡上のトロカールを残りの切開に挿入します。ガスチューブはこのトロカールに取り付けられ、肺炎球菌はさらに耐ませんでした。",
+                "hu": "A veress tűn keresztül történő beillesztés alacsony áramlással kezdődik. Ha a sebész biztos abban, hogy a peritoneumot megfelelően beolvasztják, és nem történt károsodás, az áramlás megnövekszik, és folytatódhat, amíg elegendő nyomást nem lehet megállapítani. A tűt ezután eltávolítják, és egy laparoszkópos trokarot helyeznek be a fennmaradó bemetszésbe. A gázcsöveket ehhez a trokarhoz rögzítik, és a pneumoperitoneum tovább tartja az Intufflatátor automatikus fenntartását."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -139,8 +243,17 @@
                 "en": "Although the Veress needle is used in many laparoscopic procedures around the world, there is still a danger of the needle causing damage to the viscera because both the needle and the trocar are introduced blindly.",
                 "pl": "Pomimo powszechnego użytku igły Veressa, nadal istnieje ryzyko zbyt dalekiego przekłucia i wyrządzenia szkód organom wewnętrznym. Wadą techniki jest to, że igła wprowadzana jest na ślepo, więc istnieją też alternatywne metody.",
                 "es": "Aunque la aguja de VERESS se usa en muchos procedimientos laparoscópicos de todo el mundo, todavía hay un peligro de la aguja que causa daños a las vísceras porque tanto la aguja como la trocar se introducen a ciegas.",
-                "zh-cn": "虽然验证针在世界各地的许多腹腔镜手术中使用，但是针仍然是针对粘膜造成损坏的危险，因为针和套管针盲目地引入。",
-                "ja": "Veress針は世界中の多くの腹腔鏡手順で使用されていますが、針とトロカールの両方が盲目的に導入されているため、針が粘膜に損傷を与える危険性があります。"
+                "zh-cn": "尽管在世界各地的许多腹腔镜手术中都使用了ver虫针，但由于针和套管卡都盲目地引入了针头，导致针头造成损坏。",
+                "ja": "Veress針は世界中の多くの腹腔鏡手術で使用されていますが、針とトロカールの両方が盲目的に導入されるため、針が内臓に損傷を与える危険性があります。",
+                "hu": "Noha a veress tűt sok laparoszkópos eljárásban használják szerte a világon, továbbra is fennáll annak a veszélye, hogy a tű károsodást okoz a zsigerekben, mivel mind a tű, mind a trokar vakon vezet be."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -149,8 +262,17 @@
                 "en": "Open Classic Technique - Hasson Trocar",
                 "pl": "Klasyczna technika otwarta - trokar Hassona",
                 "es": "Abra la técnica clásica - Hasson Trocar",
-                "zh-cn": "开放经典技术 - 哈森套管针",
-                "ja": "オープンクラシックテクニック -  Hasson Trocar."
+                "zh-cn": "开放经典技术-Hasson Trocar",
+                "ja": "オープンクラシックテクニック-Hasson Trocar",
+                "hu": "Nyitott klasszikus technika - Hasson Trocar"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -159,8 +281,17 @@
                 "en": "In this method, a horizontal surface skin incision is first made with the scalpel below the umbilicus. This incision must then be widened and dissected down the umbilical cicatrix and through to the linea alba. The white tissue of the linea alba is grasped with a pair of kocher forceps vertically and the alba is then pulled up. And on two sides of this pulled up structure two sutures can be applied. These will later be used to mark the exact location of the fascia. The kocher forceps can then be removed. The assistant and surgeon hold the two sutures up, so the surgeon can excise the fascia and insert a dissector into the peritoneal cavity. By rotating this dissector we can confirm that we have punctured through the fascia and we can now insert the trocar.",
                 "pl": "W tej metodzie najpierw wykonywane jest horyzontalne nacięcie skalpelem wzdłuż pępowiny. Nacięcie to powinno być poszerzone i rozpreparowane w dół, wzdłuż blizny pępowinowej, aż do linea alba. Białe tkanki linea alba mogą być złapane pionowo przy pomocy pary forcepsów Kochera i alba może zostać podciągnięta. Po dwóch stronach tych podciągniętych tkanek powinny zostać założone dwa węzły. Będą one później przydatne w precyzyjnym oznaczeniu lokalizacji powięzi. W tym momencie forcepsy mogą zostać odłożone na bok. Asystent i chirurg mogą podtrzymywać nici do góry w taki sposób, aby możliwe było przecięcie powięzi i disektor mógł zostać wpreparowany do odmy otrzewnowej. Obracając disektor możemy potwierdzić poprawne przekłucie przez powięź i możliwa jest wtedy insercja trokara.",
                 "es": "En este método, una incisión en la piel de la superficie horizontal se realiza por primera vez con el escalpelo debajo del umbilicus. Esta incisión debe ampliarse y diseccionarse en el Umbilical Cicatrix y hasta el Linea Alba. El tejido blanco del Linea Alba está capturado con un par de fórceps Kocher verticalmente y luego se detiene el Alba. Y en dos lados de esta estructura levantada se pueden aplicar dos suturas. Estos más tarde se utilizarán para marcar la ubicación exacta de la fascia. Las fórceps Kocher se pueden quitar. El asistente y el cirujano sostienen las dos suturas, por lo que el cirujano puede hacer ejercicio de la fascia e insertar un disector en la cavidad peritoneal. Al girar este disector, podemos confirmar que hemos perforado a través de la fascia y ahora podemos insertar el trocar.",
-                "zh-cn": "在该方法中，首先用脐带下方用手术刀制成水平表面皮肤切口。然后必须将这种切口扩大并解剖到脐带玄武岩并通过Linea Alba。 Linea Alba的白色组织用一对kocher钳垂直抓住，然后拉起alba。并且在这两个侧面的两侧，可以应用两个缝合线。这些后来将用于标记筋膜的确切位置。然后可以去除kocher forceps。助理和外科医生握住两个缝合，所以外科医生可以消除筋膜并将分子插入腹膜腔中。通过旋转本分歧，我们可以确认我们已经穿过筋膜刺穿，我们现在可以插入套管针。",
-                "ja": "この方法では、まず、臍の下のメスで水平面の皮膚切開が行われる。この切開は、その後、臍の鎮痛剤とリニアアルバまでを貫通しなければならない。 Linea Albaの白い組織は、垂直方向に一対のカッカー鉗子を掴み、その後、Albaを引き上げます。そしてこのプルアップ構造の両側には、2つの縫合糸を適用することができます。これらは後に筋膜の正確な位置をマークするために使用されます。その後、カッカー鉗子を取り外すことができます。アシスタントと外科医は2つの縫合糸を保持しているので、外科医は筋膜を切り取り、腹腔内に分析器を挿入することができます。この解剖を回転させることによって、私たちは筋膜を通して穿刺したことを確認することができ、私たちは今トロカールを挿入することができます。"
+                "zh-cn": "在这种方法中，首先用手术刀在脐带下方制成水平表面皮肤切口。然后，必须将此切口拓宽并向下解剖脐带圆形，直到线alba。线虫的白色组织用垂直的Kocher镊子抓住，然后将Alba拉起。在该拉的结构的两个侧面，可以应用两个缝合线。后来，这些将用于标记筋膜的确切位置。然后可以卸下科切尔镊子。助理和外科医生将两个缝合线固定起来，因此外科医生可以对筋膜进行切除并将解剖器插入腹膜腔。通过旋转该解剖器，我们可以确认我们已经通过筋膜刺穿了，现在可以插入套管卡。",
+                "ja": "この方法では、最初に臍の下の頭皮を使用して、水平面の表面皮膚切開が行われます。その後、この切開を拡大し、臍帯ciCatrixを介して解剖する必要があります。 Linea albaの白い組織は、垂直にコチェルの鉗子でつかみ、ALBAが引き上げられます。また、このプルアップ構造の両側では、2つの縫合糸を適用できます。これらは、後で筋膜の正確な位置をマークするために使用されます。その後、コチェルの鉗子を削除できます。アシスタントと外科医は2つの縫合を持ち上げているため、外科医は筋膜を切除し、分離器を腹膜腔に挿入できます。この分離器を回転させることにより、筋膜に穴を開けたことを確認でき、トロカーを挿入できるようになりました。",
+                "hu": "Ebben a módszerben először vízszintes felszíni bőr bemetszést végeznek a köldök alatti szikével. Ezt a bemetszést ezután kibővíteni és boncolni kell a köldökbiliális cicatrixon és a Linea Alba felé. A linea alba fehér szövetét egy pár kocher csipesz függőlegesen megragadja, majd az alba fel van húzva. És ennek a húzott szerkezetnek két oldalán két varratot lehet alkalmazni. Ezeket később a fascia pontos helyének megjelölésére használják. A Kocher csipeszeket ezután el lehet távolítani. Az asszisztens és a sebész tartja a két varratot, így a sebész kivághatja a fasciát és beillesztheti a boncolót a peritoneális üregbe. Ennek a boncolónak a forgatásával megerősíthetjük, hogy a fascián keresztül lyukasztottunk, és most beilleszthetjük a trokárt."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -169,8 +300,17 @@
                 "en": "The trocar can be placed and/or twisted into this opening giving direct access to the peritoneal cavity. Introducing the trocar in this way can be safer than with the Veress Needle, albeit it can be more difficult.",
                 "pl": "Trokar Hassona może być wciśnięty w otwór dając dostęp do odmy otrzewnowej. Włożenie trokara w ten sposób jest bardziej bezpieczne  niż igłą Veressa, chociaż może być też trudniejsze.",
                 "es": "El trocar se puede colocar y / o retorcerse en esta apertura que da acceso directo a la cavidad peritoneal. La introducción del trocar de esta manera puede ser más seguro que con la aguja de Veress, aunque puede ser más difícil.",
-                "zh-cn": "套管针可以放置和/或扭转到该开口中，这直接进入腹膜腔。以这种方式引入套管轨道可以比与蜜饯针更安全，尽管它可能更困难。",
-                "ja": "この開口部にトロカールを配置および/またはねじれて腹腔腔に直接アクセスすることができる。このようにトロカールを紹介することは、それがより困難になる可能性があるが、ベリセス針とより安全にすることができる。"
+                "zh-cn": "可以将套管卡放置和/或扭曲到此开口中，可直接进入腹膜腔。以这种方式引入套管卡可以比用Veress针更安全，尽管这可能更困难。",
+                "ja": "トロカールは、この開口部に配置および/またはねじれて、腹膜腔に直接アクセスできるようにします。この方法でトロカーを導入することは、より難しいかもしれませんが、Veress針よりも安全です。",
+                "hu": "A Trocar elhelyezhető és/vagy becsavarható ebbe a nyílásba, közvetlen hozzáférést biztosítva a peritoneális üreghez. A trokar ilyen módon történő bevezetése biztonságosabb lehet, mint a veress tűvel, bár ez nehezebb lehet."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -179,8 +319,17 @@
                 "en": "The technique can also be modified with a special trocar and a 0 degree laparoscope. The laparoscope is then introduced into the port along with the trocar and provides instant visual access. The surgeon can see all the layers of the abdominal wall while puncturing through to the viscera, which gives more control.",
                 "pl": "Alternatywnie technika ta może być też zmodyfikowana przy użyciu specjalnego trokara i laparoskopu z optyką 0°. Tym sposobem laparoskop wkładany przez port wzdłuż trokara daje na bieżąco obraz w kamerze. Chirurg może zobaczyć kolejne warstwy ściany brzusznej podczas przekłuwania się do otrzewnej. Zajmuje więcej czasu, ale daje najwięcej kontroli i ogranicza ryzyko.",
                 "es": "La técnica también se puede modificar con un trocar especial y un laparoscopio de 0 grados. Luego, el laparoscopio se introduce en el puerto junto con el trocar y proporciona acceso visual instantáneo. El cirujano puede ver todas las capas de la pared abdominal mientras se perfora a las vísceras, lo que da más control.",
-                "zh-cn": "该技术也可以用特殊的套管针和0度腹腔镜进行修饰。然后将腹腔镜与套管技术一起引入端口，并提供即时视觉访问。外科医生可以看到腹壁的所有层，同时穿过内脏，这会产生更多的控制。",
-                "ja": "この技術はまた、特別なトロカールおよび0度の腹腔鏡で修正することができる。その後、腹腔鏡はトロカールと共にポートに導入され、即座の視覚的アクセスを提供します。外科医は腹壁の全ての層を見ることができ、より多くの制御を与える。"
+                "zh-cn": "该技术也可以通过特殊的套管卡和0度腹腔镜修饰。然后将腹腔镜与套管卡一起引入端口，并提供即时视觉访问。外科医生可以看到腹壁的所有层，同时穿过内脏，从而提供更多的控制。",
+                "ja": "この技術は、特別なトロカールと0度の腹腔鏡で変更することもできます。次に、腹腔鏡がトロカールとともにポートに導入され、インスタントビジュアルアクセスを提供します。外科医は、腹壁のすべての層を見ることができ、内臓に穴を開けて、より多くの制御を与えます。",
+                "hu": "A technikát speciális trokarral és 0 fokos laparoszkóppal is módosíthatjuk. A laparoszkópot ezután beviszik a portba a TrOCAR -val együtt, és azonnali vizuális hozzáférést biztosít. A sebész láthatja a hasi fal összes rétegét, miközben átszúrja a zsigereket, ami nagyobb irányítást ad."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -189,25 +338,41 @@
                 "en": "In pediatric procedures, where patient anatomy is especially fragile, alternative techniques can be used to safely introduce the first trocar and laparoscope. With no visual access and small anatomy, the sharp end of the trocar can be risky. In this case after puncturing through the fascia it is possible to thread a single dissector onto a trocar and insert just the dissector into the opening, and then push the trocar down carefully. In this way the trocar delicately spreads the fascia while the blunt end of the dissector doesn’t pose danger to the viscera. If the surgeon is still not sure that the peritoneal cavity has been successfully entered a laparoscope can be inserted into the trocar before insufflation to verify the desired location.",
                 "pl": "Przykładowo, w zabiegach pediatrycznych, kiedy anatomia pacjenta jest szczególnia delikatna, jeszcze inne alternatywne techniki mogą być wykorzystane aby początkowe przekłucie było bezpieczniejsze. Bez dostępu wizualnego i przy małej anatomii pacjenta ostra końcówka trokara może być szczególnie niebezpieczna. Po przekłuciu się przez powięź możliwe jest nałożenie trokara na disektor, oraz następnie początkowe przekłucie się samym disektorem i ostrożne zsunięcie trokara w dół. Tym sposobem trokar delikatnie może rozeprzeć powięź, a tępa końcówka instrumentu nie naraża wnętrzności małego pacjenta na uszkodzenie. Co więcej, jeśli wciąż nie ma pewności czy został uzyskany dostęp do odmy otrzewnowej, laparoskop może być wsunięty w trokar przed insuflacją.",
                 "es": "En los procedimientos pediátricos, donde la anatomía del paciente es especialmente frágil, se pueden usar técnicas alternativas para introducir de manera segura el primer trocar y laparoscopio. Sin acceso visual y anatomía pequeña, el extremo afilado del trocar puede ser arriesgado. En este caso, después de perforarse a través de la fascia, es posible pasar un solo disector en un trocar e inserte solo el disector en la abertura, y luego empuje el trocar hacia abajo con cuidado. De esta manera, el trocar se extiende delicadamente la fascia, mientras que el extremo romo del disector no plantea peligro para las vísceras. Si el cirujano todavía no está seguro de que la cavidad peritoneal se haya ingresado con éxito un laparoscopio se puede insertar en el trocar antes de la insuflación para verificar la ubicación deseada.",
-                "zh-cn": "在儿科程序中，患者解剖学特别易碎的情况下，可以使用替代技术来安全地引入第一套管镜和腹腔镜。没有视觉访问和小解剖结构，套管针的尖端可能会有风险。在这种情况下，在穿过筋膜后穿过筋膜，可以将单个分隔件拧到套管轨上并将分隔件插入开口，然后小心地向下推套轨迹。以这种方式，套管针在解剖器的钝端不会对粘膜构成危险的同时，套管针撒上筋膜。如果外科医生仍然不确定腹膜腔已经成功进入腹膜镜，可以在套管前插入套管镜，以验证所需的位置。",
-                "ja": "患者の解剖学的構造が特に脆弱である小児科手順では、代替技術を使用して、最初のトロカールと腹腔鏡を安全に導入することができます。視覚的なアクセスや小解剖学的性なしで、トロカールの鋭い端は危険になる可能性があります。この場合、筋膜を穿刺した後、単一の解剖器をトロカールにねじ込み、その解剖器具を開口部に挿入してから、トロカールを慎重に押し下げます。このようにして、トロカールは繊維を繊細に広げている間、解剖器官の平滑末端は粘膜に危険をもたらさない。外科医が依然として腹腔腔がうまく入ってきたことが確か知われていない場合、腹腔鏡を腹腔鏡に挿入することができ、望ましい位置を検証するために吸気の前にトロカールに挿入することができる。"
+                "zh-cn": "在儿科手术中，患者解剖学特别脆弱，可以使用替代技术来安全地引入第一个套管卡和腹腔镜。由于没有视觉通道和小解剖结构，套管卡的尖端末端可能会冒险。在这种情况下，穿过筋膜刺穿后，可以将单个解剖器拧到套管下，然后将解剖器插入开口，然后小心地将套管卡推下。通过这种方式，套管卡细微地散布了筋膜，而解剖器的钝端不会对内脏构成危险。如果外科医生仍然不确定已成功进入腹膜腔，可以将腹腔镜插入腹腔镜之前，然后在不反馈以验证所需的位置。",
+                "ja": "患者の解剖学的構造が特に壊れやすい小児手術では、代替技術を使用して、最初のトロカールと腹腔鏡を安全に導入できます。視覚的なアクセスと小さな解剖学がないため、トロカーの鋭い端は危険になります。この場合、筋膜に穴を開けた後、単一の分離器をトロカルに通し、分離器のみを開口部に挿入し、トロカーを注意深く押し下げることができます。このようにして、トロカールは筋膜を繊細に広げますが、解離器の鈍い端は内臓に危険をもたらしません。外科医がまだ腹膜腔が正常に入っているかどうかはまだわからない場合、腹腔鏡をトロカールに挿入して、目的の位置を検証することができます。",
+                "hu": "Gyermekgyógyászati ​​eljárásokban, ahol a beteg anatómiája különösen törékeny, alternatív technikákkal lehet használni az első trokar és laparoszkóp biztonságos bevezetését. A vizuális hozzáférés és a kis anatómia nélkül a trokar éles vége kockázatos lehet. Ebben az esetben a fascián keresztüli áthatolás után egyetlen boncolót lehet átfuttatni egy trokarra, és csak a boncolót helyezheti be a nyílásba, majd óvatosan tolja le a trokárt. Ilyen módon a trokar finoman eloszlatja a fasciát, míg a boncoló tompa vége nem jelent veszélyt a zsigerekre. Ha a sebész még mindig nem biztos abban, hogy a peritoneális üreg sikeresen bekerült -e egy laparoszkópba, behelyezhető -e a Trocarba, mielőtt a beillesztést a kívánt hely ellenőrzése céljából beilleszti."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu8_trocars_insufflation_02.png",
-                    "type": "image",
-                    "label": {
-                        "en": "After safe introduction of the trocar into the peritoneal cavity, pneumoperitoneum can be induced by attaching the gas delivery system to the valve on the trocar.",
-                        "pl": "Po bezpiecznym wsunięciu trokara przez otrzewną możliwe jest wytworzenie odmy otrzewnowej poprzez podłączenie przewodu do zaworka na trokarze.",
-                        "es": "Después de una introducción segura del trocar en la cavidad peritoneal, el neumoperitoneo se puede inducir al colocar el sistema de suministro de gas a la válvula del trocar.",
-                        "zh-cn": "在安全地将套管针引入腹膜腔后，可以通过将气体输送系统连接到套管针上的阀门来诱导肺泡。",
-                        "ja": "腹腔内へのトロカールの安全な導入後、ガス送達システムをトロカール上の弁に取り付けることによって肺炎けがみが誘発され得る。"
-                    }
+            "media": {
+                "url": "edu8_trocars_insufflation_02.png",
+                "type": "image",
+                "label": {
+                    "en": "After safe introduction of the trocar into the peritoneal cavity, pneumoperitoneum can be induced by attaching the gas delivery system to the valve on the trocar.",
+                    "pl": "Po bezpiecznym wsunięciu trokara przez otrzewną możliwe jest wytworzenie odmy otrzewnowej poprzez podłączenie przewodu do zaworka na trokarze.",
+                    "es": "Después de una introducción segura del trocar en la cavidad peritoneal, el neumoperitoneo se puede inducir al colocar el sistema de suministro de gas a la válvula del trocar.",
+                    "zh-cn": "安全地将套管卡引入腹膜腔之后，可以通过将气体输送系统连接到套管卡上的阀门来诱导气动性。",
+                    "ja": "腹膜腔にトロカールを安全に導入した後、肺炎球菌をトロカールのバルブにガス送達システムを付着させることで誘導できます。",
+                    "hu": "Miután a Trocar biztonságos bevezetése a peritoneális üregbe, a pneumoperitoneum indukálható úgy, hogy a gázszállító rendszert a trokar szelepéhez rögzítik."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "header",
@@ -215,8 +380,17 @@
                 "en": "First Port Placement: Conclusion",
                 "pl": "Umieszczenie pierwszego portu: wnioski",
                 "es": "Primera colocación del puerto: Conclusión",
-                "zh-cn": "第一个端口安置：结论",
-                "ja": "最初のポート配置：結論"
+                "zh-cn": "第一个端口位置：结论",
+                "ja": "最初のポート配置：結論",
+                "hu": "Első kikötői elhelyezés: Következtetés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -225,8 +399,17 @@
                 "en": "Surgeons around the world have developed many slightly differing techniques for introducing the first trocar safely before inducing pneumoperitoneum. Views differ on which techniques are superior and different hospitals also have varying types of equipment available to the surgical team. Furthermore, trocar placement is dependent on the type of procedure being performed and on specific patient anatomy. Nevertheless, the introduction of the first port is one of the most important steps made to perform a laparoscopic procedure correctly.",
                 "pl": "Ośrodki na całym świecie wykorzystują różne techniki włożenia pierwszego trokara przed rozpoczęciem odmy. Opinie różnią się co do tego, które techniki są najlepsze i szpitale też mają do dyspozycji dla swoich zespołów różne rodzaje sprzętu. Co więcej, umieszczenie pierwszego trokara jest zależne od wykonywanego zabiegu oraz od anatomii pacjenta. W każdym razie, umieszczenie pierwszego portu jest jednym z najważniejszych kroków w wykonaniu poprawnego zabiegu laparoskopowego.",
                 "es": "Los cirujanos de todo el mundo han desarrollado muchas técnicas ligeramente diferentes para introducir el primer trocar de forma segura antes de inducir el neumoperitoneo. Las opiniones difieren en qué técnicas son superiores y diferentes hospitales también tienen diferentes tipos de equipos disponibles para el equipo quirúrgico. Además, la colocación de trocar depende del tipo de procedimiento que se realiza y en la anatomía específica del paciente. Sin embargo, la introducción del primer puerto es uno de los pasos más importantes realizados para realizar un procedimiento laparoscópico correctamente.",
-                "zh-cn": "世界各地的外科医生已经开发出许多略微不同的技术，用于在诱导肺泡之前安全地引入第一套管。视图不同的技术是优越的，不同的医院也有不同类型的手术团队提供的设备。此外，套管针的放置取决于正在进行的过程类型和特定患者解剖学。尽管如此，第一口的引入是正确执行腹腔镜手术的最重要步骤之一。",
-                "ja": "世界中の外科医は、肺炎肺腫を誘発する前に安全に最初のトロカールを導入するための多くのわずかに異なる技術を開発しました。見解は、どの技術が優れており、異なる病院も外科チームに利用可能な種類の機器を持っています。さらに、トロカール配置は、実行されている手順の種類および特定の患者解剖学的構造に依存する。それにもかかわらず、第1のポートの導入は、腹腔鏡手順を正しく実行するための最も重要なステップの1つである。"
+                "zh-cn": "世界各地的外科医生在诱导气动性肺炎的情况下安全地引入了第一套套管球的技术略有不同的技术。观点有所不同，哪些技术是卓越的，不同的医院也具有可供外科团队使用的不同类型的设备。此外，套管卡放置取决于正在执行的手术类型和特定的患者解剖结构。然而，第一个端口的引入是正确执行腹腔镜手术的最重要步骤之一。",
+                "ja": "世界中の外科医は、肺炎球菌を誘導する前に、最初のトロカーを安全に導入するためのわずかに異なる技術を開発しています。どの技術が優れており、さまざまな病院が手術チームが利用できるさまざまな種類の機器を持っている見解は異なります。さらに、トロカーの配置は、実行される手順のタイプと特定の患者の解剖学に依存します。それにもかかわらず、最初のポートの導入は、腹腔鏡手順を正しく実行するために行われた最も重要な手順の1つです。",
+                "hu": "A sebészek szerte a világon számos kissé eltérő technikát fejlesztettek ki az első trokar biztonságos bevezetésére, mielőtt indukálnák a pneumoperitoneumot. A nézetek különböznek egymástól, hogy mely technikák jobbak, és a különböző kórházak különféle típusú felszereléssel rendelkeznek a műtéti csoport számára. Ezenkívül a trokar -elhelyezés az elvégzendő eljárás típusától és az adott beteg anatómiájától függ. Ennek ellenére az első port bevezetése az egyik legfontosabb lépés a laparoszkópos eljárás helyes végrehajtásához."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -235,8 +418,17 @@
                 "en": "Subsequent Port Placement",
                 "pl": "Umieszczenie kolejnych portów",
                 "es": "Colocación posterior del puerto",
-                "zh-cn": "后续端口安置",
-                "ja": "その後のポート配置"
+                "zh-cn": "随后的端口位置",
+                "ja": "後続のポート配置",
+                "hu": "Az azt követő kikötői elhelyezés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -245,25 +437,64 @@
                 "en": "Once the pneumoperitoneum is established, the remaining trocars are placed with laparoscopic vision now available. When directed at the abdominal wall the camera can be used to identify inferior epigastric vessels. Only a small incision must be made on the surface of the skin and the trocars can be carefully and slowly inserted perpendicularly to the abdominal wall while being aimed at the target structure. Even and sustained pressure should be applied and the surgeon must care not to make damage to the tissues inside the operating area. Smaller trocars will provide easier mobility for the instruments than large ones.",
                 "pl": "Po ustawieniu odmy otrzewnowej, kolejne trokary umieszczane są już z widokiem laparoskopowym. Skierowany na ściany otrzewnej laparoskop pomaga w dostrzeganiu naczyń nadbrzusza. Jedyne  co musi być wykonane na powierzchni skóry to małe nakłucie i trokary mogą być ostrożnie i powoli włożone pod kątem prostopadłym do ściany i powinny być wycelowane w docelowe struktury. Przy równomiernym i spokojnym nacisku, chirurg powinien być w stanie przekłuć się jednocześnie unikając uszkodzenia struktur wewnętrznych. Mniejsze trokary dają tutaj większą mobilność niż duże.",
                 "es": "Una vez que se establece el neumoperitoneo, los trocares restantes se colocan con visión laparoscópica ahora disponible. Cuando se dirige a la pared abdominal, la cámara se puede usar para identificar recipientes epigástricos inferiores. Solo se debe realizar una pequeña incisión en la superficie de la piel y los trócares se pueden insertar con cuidado y lentamente perpendicularmente a la pared abdominal mientras se dirige a la estructura objetivo. Incluso y se debe aplicar presión sostenida y el cirujano debe importarle no dañar los tejidos dentro del área de operación. Los trocares más pequeños proporcionan una movilidad más fácil para los instrumentos que los grandes.",
-                "zh-cn": "一旦建立了肺炎骨，剩余的套管可以用现在可用的腹腔镜视觉置于腹腔镜视觉。当指向腹壁时，相机可用于识别劣质的外延容器。在皮肤表面上只有一个小切口，并且在瞄准目标结构的同时可以小心地仔细地仔细地和缓慢地插入腹部。均匀和持续的压力应适用，外科医生必须注意不要损坏操作区域内的组织。较小的轨道器将为仪器提供比大型仪器更容易的移动性。",
-                "ja": "肺炎抵抗性が確立されると、残りのトロカールは腹腔鏡視で入手可能になる。腹壁に向けられたとき、カメラを使用して劣った上腹血管を特定することができます。皮膚の表面上に小さな切開しかなされなければならず、トロカールは標的構造を目的としている間に腹壁に対して慎重にゆっくりと挿入することができる。偶数と持続的な圧力を適用する必要があり、外科医は運転領域内の組織に損傷を与えないように気にしなければなりません。小さいトロカールは、大きなものよりも機器のための移動性をより簡単に提供します。"
+                "zh-cn": "一旦建立了气动性，就将其余的套管卡放在现已可用的腹腔镜视觉上。当针对腹壁时，摄像机可用于识别下腹部的血管。只需在皮肤表面上做一个小切口，并且可以在瞄准目标结构的同时，可以小心地垂直于腹壁插入。甚至应施加持续的压力，外科医生必须关心不要对操作区域内的组织造成损害。较小的套管卡将为乐器提供比大型乐器更容易的移动性。",
+                "ja": "肺炎類が確立されると、残りのトロカルは腹腔鏡視が利用できるようになりました。腹壁に向けられた場合、カメラを使用して下腹部血管を識別できます。皮膚の表面には小さな切開のみを行う必要があり、ターゲット構造を対象としている間、腹壁に垂直に慎重かつゆっくりと挿入することができます。偶数の持続的な圧力をかける必要があり、外科医は手術領域内の組織に損傷を与えないように注意しなければなりません。より小さなトロカーは、大きなトロカーよりも楽器のモビリティをより簡単に提供します。",
+                "hu": "A pneumoperitoneum létrehozása után a fennmaradó trokarokat Laparoszkópos látással helyezik el most. A hasfalra irányítva a kamera felhasználható az alacsonyabb szintű epigasztrikus erek azonosítására. A bőr felületén csak kis bemetszést kell végezni, és a trokarok gondosan és lassan beilleszthetők merőlegesen a hasfalra, miközben a célszerkezetre irányulnak. Egyenletes és tartós nyomást kell gyakorolni, és a sebésznek gondoskodnia kell arról, hogy ne sérüljön meg a működési területen belüli szövetek. A kisebb trokarok könnyebb mobilitást biztosítanak a hangszerek számára, mint a nagyok."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Trocars and Insufflation",
-        "pl": "Trokary i insuflacja",
-        "es": "Trocares e insuflación",
-        "zh-cn": "履带和吹膜",
-        "ja": "トロカールと吹き付け"
+        "text": {
+            "en": "Trocars and Insufflation",
+            "pl": "Trokary i insuflacja",
+            "es": "Trocars e insuflación",
+            "zh-cn": "套筒和不足",
+            "ja": "トロカルと膨満",
+            "hu": "Trokarok és beillesztés"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "A description of the techniques used to induce pneumoperitoneum and on safe insertion of the first trocar.",
-        "pl": "Opis technik używanych do wytworzenia odmy otrzewnowej i o bezpiecznej insercji pierwszego trokara.",
-        "es": "Una descripción de las técnicas utilizadas para inducir el neumoperitoneo y en la inserción segura del primer trocar.",
-        "zh-cn": "用于诱导肺胆碱和安全插入第一套管针的技术的描述。",
-        "ja": "肺炎肺腫瘍を誘導し、最初のトロカールの安全な挿入に使用される技術の説明。"
+        "text": {
+            "en": "A description of the techniques used to induce pneumoperitoneum and on safe insertion of the first trocar.",
+            "pl": "Opis technik używanych do wytworzenia odmy otrzewnowej i o bezpiecznej insercji pierwszego trokara.",
+            "es": "Una descripción de las técnicas utilizadas para inducir el neumoperitoneo y en la inserción segura del primer trocar.",
+            "zh-cn": "描述用于诱导肺炎的技术和安全插入第一个套管卡的描述。",
+            "ja": "肺炎球菌を誘導するために使用される技術の説明と、最初のトロカールの安全な挿入時。",
+            "hu": "A pneumoperitoneum indukálásához használt technikák leírása és az első Trocar biztonságos beillesztése."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

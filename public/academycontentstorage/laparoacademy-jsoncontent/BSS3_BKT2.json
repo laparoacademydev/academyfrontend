@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,56 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "basic_knot_tying_platform:1",
+        " rope:1",
+        " gband:1"
     ],
     "name": {
         "en": "Sliding Knot Intro",
         "pl": "Węzeł Przesuwny - Wprowadzenie",
         "es": "Introducción de nudo deslizante",
-        "zh-cn": "滑动结介绍",
-        "ja": "スライドノットイントロ"
+        "zh-cn": "滑结介绍",
+        "ja": "スライドノットイントロ",
+        "hu": "Csúszó csomó bevezető"
     },
     "skills": {
         "en": "Sliding Knot, Suturing",
         "pl": "Węzeł Przesuwny, Szycie",
         "es": "Nudo deslizante, sutura",
-        "zh-cn": "滑动结，缝合",
-        "ja": "スライド結び目、縫合"
+        "zh-cn": "滑结，缝合",
+        "ja": "スライドノット、縫合",
+        "hu": "Csúszó csomó, varrni"
     },
     "description": {
         "en": "The sliding knot is helpful when target tissues are further apart or when the available space is limited. When used correctly this knot can be applied loosely and can be gradually tightened by pulling on end.",
         "pl": "Przesuwny węzeł jest pomocny, gdy tkanki docelowe są bardziej od siebie oddalone lub gdy dostępna przestrzeń jest ograniczona. Przy prawidłowym użyciu węzeł ten można założyć luźno i można go stopniowo zaciskać, pociągając za końcówkę. ",
         "es": "El nudo deslizante es útil cuando los tejidos de destino están más separados o cuando el espacio disponible es limitado. Cuando se usa correctamente, este nudo se puede aplicar libremente y se puede apretar gradualmente tirando del extremo.",
-        "zh-cn": "当靶组织进一步或当可用空间有限时，滑动结是有用的。当正确使用时，该结可以松散地施加，并且可以通过拉动末端逐渐拧紧。",
-        "ja": "標的組織がさらに離れているとき、または利用可能な空間が限られているときには、スライド結び目が役立ちます。正しく使用されるとき、この結び目はゆるく適用することができ、終わりを引くことによって徐々に締め付けることができます。"
+        "zh-cn": "当目标组织进一步分开或可用空间有限时，滑动结会很有帮助。正确使用时，可以松散地施加此结，可以通过拉动末端逐渐拧紧。",
+        "ja": "ターゲット組織がさらに離れている場合、または利用可能なスペースが制限されている場合、スライディングノットは役立ちます。正しく使用すると、この結び目はゆるく適用でき、端を引っ張ることで徐々に締めることができます。",
+        "hu": "A csúszó csomó hasznos, ha a célszövetek távolabb vannak egymástól, vagy ha a rendelkezésre álló hely korlátozott. Helyes használat esetén ez a csomó lazán alkalmazható, és fokozatosan meghúzható a végével."
     },
     "instructions": {
         "en": "The rope should be threaded through the farthest hole in the platform first. Then wrap the left instrument forwards with the rope on the left side and grab the right side of the rope. When the left instrument is pulled this wrapped rope should slip off the instrument forming the first throw. Next, this maneuver should be repeated on the right side. Wrap the right instrument forwards and grab the left rope and pull to form the second throw. This will result in a simple 1x1 knot when pulled. Then progress down, threading the rope through the remaining holes as shown. Complete the continous pattern with a single surgical knot as shown.",
         "pl": "Sznurek powinien być przewleczony przez najdalszy otwór platformy. Lewy instrument powinien być owinięty lewą stroną sznurka i instrument powinien złapać prawą stronę sznurka. Po pociągnięciu owinięty sznurek powinien zsunąć się z instrumentu tworząc pierwszy rzut. Następnie manewr powinien być powtórzony z drugiej strony. Prawy instrument powinien być owinięty do przodu prawą stroną sznurka i chwycić lewą stronę sznurka. Po pociągniąciu sznurek powinien się zsunąc aby wykonać drugi rzut. Rezultatem będzie prosty węzeł 1x1. Następnie kolejno sznurek powinien być przewleczony przez kolejne otwory na module i ćwiczenie zakończone jest na węźle chirurgicznym pokazanym na filmie.",
         "es": "La cuerda debe estar roscada a través del orificio más lejano en la plataforma primero. Luego, envuelva el instrumento izquierdo hacia adelante con la cuerda en el lado izquierdo y tome el lado derecho de la cuerda. Cuando se extrae el instrumento izquierdo, esta cuerda envuelta debe deslizarse del instrumento formando el primer lanzamiento. A continuación, esta maniobra debe repetirse en el lado derecho. Envuelva el instrumento derecho hacia adelante y agarre la cuerda izquierda y tire para formar el segundo lanzamiento. Esto resultará en un simple 1x1 nudo cuando se haya tirado. Luego, progrese hacia abajo, enhebre la cuerda a través de los orificios restantes como se muestra. Complete el patrón continuo con un solo nudo quirúrgico como se muestra.",
-        "zh-cn": "绳子应该先穿过平台上最远的洞。然后将左仪器用左侧的绳子转发，抓住绳索的右侧。当左仪器拉动时，这种包裹的绳子应拆下形成第一掷的仪器。接下来，应该在右侧重复这种机动。将右侧仪器包裹起来并抓住左绳并拉动形成第二次。这将导致拉动时的简单1x1结。然后进展，通过所示穿过剩余的孔穿过绳索。如图所示，用单个手术结用连续图案。",
-        "ja": "ロープは最初にプラットフォームの最も遠い穴を通してねじ込まれているべきです。次に左側のロープで左側の機器を包み、ロープの右側をつかみます。左側の機器が引っ張られたとき、この巻きロープは最初の投げを形成する装置の滑り落ちるはずです。次に、この操作を右側に繰り返す必要があります。右の機器を巻き付けて左ロープをつかみ、引っ張って2番目のスローを形成します。これにより、引っ張られたときに単純な1×1ノットが生じる。次に進行中に、図のように残りの穴を通してロープをねじ込みます。示されているように、単一の外科用結節で連続的なパターンを完成させてください。"
+        "zh-cn": "绳索应首先穿过平台中最远的孔。然后用绳索在左侧的绳索上向前包裹左仪，然后抓住绳索的右侧。拉动左仪器时，这条包裹的绳索应从仪器上滑落，形成第一掷。接下来，应在右侧重复此操作。将右仪器向前缠住，抓住左绳索并拉动第二掷。拉动时，这将导致简单的1x1结。然后向下进行，如图所示，将绳索穿过剩余的孔。如图所示，用单个手术结完成连续图案。",
+        "ja": "ロープは、最初にプラットフォームで最も遠い穴に通す必要があります。次に、左の楽器を左側にロープで前方に包み、ロープの右側をつかみます。左の楽器が引っ張られると、この包まれたロープは楽器から滑り落ちて最初のスローを形成するはずです。次に、この操作を右側で繰り返す必要があります。右の楽器を前方に包み、左ロープをつかみ、2回目のスローを形成します。これにより、引っ張ると単純な1x1ノットになります。次に、示されているように、残りの穴にロープを通します。示されているように、1つの外科的結び目で連続パターンを完成させます。",
+        "hu": "A kötelet először a peron legtávolabbi lyukán kell átszólalni. Ezután tekerje előre a bal oldali műszert a bal oldali kötéllel, és ragadja meg a kötél jobb oldalát. A bal oldali műszer húzásakor ennek a csomagolt kötélnek le kell csúsznia az első dobó műszert. Ezután ezt a manővert meg kell ismételni a jobb oldalon. Tekerje be a megfelelő műszert előre, és ragadja meg a bal kötélet, és húzza meg a második dobás kialakításához. Ez egy egyszerű 1x1 -es csomót eredményez, ha húzza. Ezután haladjon lefelé, és a kötél átfutja a fennmaradó lyukakat az ábra szerint. Töltse ki a folyamatos mintát egyetlen műtéti csomóval az ábra szerint."
     },
     "preparation": {
         "en": "Place the basic knot tying platform onto the basic suturing module along with the piece of rope in the operating area.",
         "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona na podstawowy moduł do szycia wraz z kawałkiem liny w obszarze operacyjnym. ",
         "es": "Coloque la plataforma de atado de nudos básicos en el módulo de sutura básica junto con la pieza de la cuerda en el área de operación.",
-        "zh-cn": "将基本结绑在基本缝合模块上以及操作区域的绳索上。",
-        "ja": "基本的な結び目の止めプラットフォームを基本的な縫合モジュールに沿って、運転領域のロープとともに置きます。"
+        "zh-cn": "将基本的结绑平台与操作区域中的绳子一起放在基本的缝合模块上。",
+        "ja": "基本的な結び目の縛りプラットフォームを、操作エリアのロープとともに、基本的な縫合モジュールに配置します。",
+        "hu": "Helyezze az alapvető csomó kötési platformot az alapvető varráló modulra, valamint a működési területen lévő kötéldarabot."
     }
 }

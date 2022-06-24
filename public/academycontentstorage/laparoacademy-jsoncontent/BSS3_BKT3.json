@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,55 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "basic_knot_tying_platform:1",
+        " rope:1"
     ],
     "name": {
         "en": "Continuous Vertical Intro",
         "pl": "Szew Ciągły Pionowy - Wprowadzenie",
         "es": "Introducción vertical continua",
         "zh-cn": "连续垂直介绍",
-        "ja": "連続垂直イントロ"
+        "ja": "連続的な垂直イントロ",
+        "hu": "Folyamatos függőleges bevezető"
     },
     "skills": {
         "en": "Suturing",
         "pl": "Szycie",
         "es": "Sutura",
         "zh-cn": "缝合",
-        "ja": "縫合"
+        "ja": "縫合",
+        "hu": "Varrat"
     },
     "description": {
         "en": "This exercise introduces the continuous suturing pattern, which is time saving in comparison to multiple single knots. ",
         "pl": "To ćwiczenie wprowadza pojęcie szwu ciągłego, pozwalakącego zaoszczędzić czas w porównaniu z zakładaniem wielu pojedynczych szwów. ",
         "es": "Este ejercicio introduce el patrón de sutura continua, que es ahorro de tiempo en comparación con múltiples nudos individuales.",
-        "zh-cn": "该练习引入了连续缝合图案，与多个单次结相比节省了时间。",
-        "ja": "この演習により、連続縫合パターンが導入されており、これは複数のシングルノットと比較して時間を節約します。"
+        "zh-cn": "这项练习引入了连续的缝合模式，与多个单结相比，这是节省时间的。",
+        "ja": "この演習では、複数の単一ノットと比較して時間を節約する連続縫合パターンを導入します。",
+        "hu": "Ez a gyakorlat bemutatja a folyamatos varrási mintát, amely időmegtakarítás, összehasonlítva a több csomó csomóval."
     },
     "instructions": {
         "en": "Draw the rope through the hole farthest to the left and apply a simple 1x1 knot with majority of the rope on the bottom. Thread the rope, one by one, through the holes available from left to right. Apply the knot as shown in the video at the final hole of the platform.",
         "pl": "Przeciągnij sznurek przez otwór najbardziej wysunięty w lewo i zawiąż prosty węzeł 1x1 tak, aby większość liny znajdowała się na dole. Przeciągnij linę przez otwory , jeden po drugim, przez otwory dostępne od lewej do prawej. Załóż węzeł, jak pokazano na filmie, na ostatnim otworze platformy. ",
         "es": "Dibuje la cuerda a través del orificio más lejano a la izquierda y aplique un simple 1x1 nudo con la mayoría de la cuerda en la parte inferior. Hilo la cuerda, uno por uno, a través de los agujeros disponibles de izquierda a derecha. Aplique el nudo como se muestra en el video en el orificio final de la plataforma.",
-        "zh-cn": "将绳子穿过最远的洞到左侧，并在底部涂上大部分绳索的简单1x1结。通过从左到右可用的孔拧一个绳索。涂在平台最终孔中的视频中显示的结。",
-        "ja": "最も遠い穴を通してロープを左に描き、一番下のロープの大部分を持つ単純な1×1ノットを適用します。ロープを1つずつねじ込み、左から右から入手可能な穴を通して。プラットフォームの最後の穴のビデオに表示されているようにノットを適用してください。"
+        "zh-cn": "将绳索穿过左侧最远的孔，并在底部大部分绳索施加一个简单的1x1结。从左到右将绳索螺纹，一一将绳索穿过可用的孔。如视频所示，在平台的最后一个孔中应用结。",
+        "ja": "ロープを左に最も遠い穴に描き、底にロープの大部分を置いてシンプルな1x1ノットを塗ります。左から右に利用可能な穴から、ロープを1つずつ通します。プラットフォームの最終ホールにあるビデオに示されているように、結び目を適用します。",
+        "hu": "Rajzolja meg a kötélet a bal oldali legtávolabbi lyukon, és alkalmazzon egy egyszerű 1x1 -es csomót, amelynek alján a kötél többsége van. Szála a kötelet egyenként, a balról jobbra elérhető lyukakon keresztül. Vigye fel a csomót, ahogy az a videóban látható a platform utolsó lyukán."
     },
     "preparation": {
         "en": "Place the basic knot tying platform horizontally onto the basic suturing module along with the piece of rope in the operating area.",
         "pl": "Prosta platforma do węzłów podstawowych powinna zostać umieszczona w orientacji poziomej na podstawowym module do szycia wraz z kawałkiem sznurka w obszarze operacyjnym. ",
         "es": "Coloque la plataforma de atado básico de nudos horizontalmente en el módulo de sutura básica junto con la pieza de la cuerda en el área de operación.",
-        "zh-cn": "将基本结捆绑平台水平放置在基本缝合模块上以及操作区域中的绳索。",
-        "ja": "基本的な結び目のプラットフォームを基本的な縫合モジュールに水平に置くと、操作領域のロープとともに置きます。"
+        "zh-cn": "将基本的结绑平台水平放在基本的缝合模块上，以及操作区域中的绳索。",
+        "ja": "基本的な結び目プラットフォームを基本的な縫合モジュールに水平方向に配置し、操作エリアのロープを片付けます。",
+        "hu": "Helyezze az alapcsomó -kötési platformot vízszintesen az alapvető varrási modulra, valamint a működési területen lévő kötéldarabot."
     }
 }

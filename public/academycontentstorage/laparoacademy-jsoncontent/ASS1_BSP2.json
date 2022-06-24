@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,57 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "ASS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
     ],
+    "accessories": [
+        "start_position:1",
+        " short_suturing_insert:1",
+        " needle_suture_10cm:1"
+    ],
     "name": {
         "en": "Mattress Knot Horizontal",
         "pl": "Węzeł Poziomy Materacowy",
         "es": "Nudo de colchón horizontal",
-        "zh-cn": "水平床垫结",
-        "ja": "マットレスノット水平"
+        "zh-cn": "床垫结水平",
+        "ja": "マットレスノット水平",
+        "hu": "Matraccsomó vízszintes"
     },
     "skills": {
         "en": "Knot, Suturing",
         "pl": "Węzeł, Szycie",
         "es": "Nudo, sutura",
         "zh-cn": "结，缝合",
-        "ja": "結び目、縫合"
+        "ja": "結び目、縫合",
+        "hu": "Csomó, varrat"
     },
     "description": {
         "en": "The mattress suture technique is one of the most commonly used patterns for skin closure. The technique allows for skin edges to be closed under tension when the edges must be brought together over a distance. Although used less frequently in laparoscopy, the knot is useful in some situations.",
         "pl": "Technika szycia materacowego jest jedną z najczęściej stosowanych szwów do zamykania skóry. Technika pozwala na zamknięcie krawędzi skóry pod naprężeniem, gdy krawędzie muszą być zbliżone do siebie na odległość a szwy powinny być ukryte na ile to możliwe. Chociaż rzadziej używany w laparoskopii, węzeł jest przydatny w niektórych sytuacjach. ",
         "es": "La técnica de sutura del colchón es uno de los patrones más utilizados para el cierre de la piel. La técnica permite que los bordes de la piel se cierren bajo tensión cuando los bordes deben reunirse a una distancia. Aunque se usa con menos frecuencia en la laparoscopia, el nudo es útil en algunas situaciones.",
-        "zh-cn": "床垫缝合技术是皮肤封闭的最常用模式之一。当边缘必须在远处延伸时，该技术允许在张力下关闭皮肤边缘。虽然在腹腔镜检查中使用较少，但结在某些情况下有用。",
-        "ja": "マットレス縫合糸技術は、皮膚閉鎖のための最も一般的に使用されているパターンの1つです。この技術は、エッジが距離にわたって一緒に持たなければならないときに張力の下で閉鎖されることを可能にする。腹腔鏡検査で頻繁に使用されないが、結び目はある状況において有用である。"
+        "zh-cn": "床垫缝合技术是最常用的皮肤闭合图案之一。当必须将边缘放在距离上时，该技术允许在张力下关闭皮肤边缘。尽管在腹腔镜检查中使用的频率较低，但在某些情况下，结中有用。",
+        "ja": "マットレス縫合技術は、皮膚閉鎖に最も一般的に使用されるパターンの1つです。この手法により、エッジを遠くにまとめる必要がある場合、皮膚のエッジを張力下で閉じます。腹腔鏡検査ではあまり頻繁に使用されていませんが、この結び目は状況によっては役立ちます。",
+        "hu": "A matrac varrat -technika az egyik leggyakrabban használt mintázat a bőr bezárásához. A technika lehetővé teszi a bőr éleinek feszültség alatt történő bezárását, amikor a széleket távolról kell összehozni. Noha a laparoszkópiában ritkábban használják, a csomó bizonyos helyzetekben hasznos."
     },
     "instructions": {
         "en": "In this exercise take the needle and perform two punctures, one from the right side and then the next one 1-2mm below from the left side. Apply a single surgical knot between both ends of the suture protruding from the right side of the module. To complete the exercise, cut off the remaining suture material and return the needle to the start position.",
         "pl": "W tym ćwiczeniu weź igłę i wykonaj dwa przekłucia, pierwsze z prawej strony, a drugie 1-2mm poniżej od lewej strony. Załóż pojedynczy węzeł chirurgiczny między obydwoma końcami szwu wystającymi z prawej strony modułu. Aby zakończyć ćwiczenie, odetnij pozostałą nić i przywróć igłę do pozycji wyjściowej. ",
         "es": "En este ejercicio, tome la aguja y realice dos pinchazos, uno desde el lado derecho y luego el siguiente 1-2 mm a continuación desde el lado izquierdo. Aplique un solo nudo quirúrgico entre ambos extremos de la sutura que sobresale desde el lado derecho del módulo. Para completar el ejercicio, corte el material de sutura restante y devuelva la aguja a la posición de inicio.",
-        "zh-cn": "在这项运动中取针并执行两个穿孔，从右侧一个，然后从左侧下一个1-2mm。在从模块的右侧突出的缝合线的两端之间涂抹单个手术结。要完成锻炼，请切断剩余的缝合材料并将针返回起始位置。",
-        "ja": "この運動では針を取り、右側から2つの穿刺を実行し、次に左側から下の次の1~2mmを実行します。モジュールの右側から突き出ている縫合糸の両端の間に単一の外科用結び目を塗ります。運動を完了するには、残りの縫合糸材料を切り取り、針を始動位置に戻します。"
+        "zh-cn": "在此练习中，请采取针头并进行两次穿刺，一次是从右侧进行的，然后从左侧下方1-2毫米。从模块的右侧突出缝合线之间，在缝合线的两端之间进行单个手术结。要完成练习，请切断剩余的缝合材料，然后将针头返回开始位置。",
+        "ja": "このエクササイズでは、針を取り、右側から1つは1つ、次の1つは左側から1〜2mm下の2つの穴を開けます。モジュールの右側から突き出ている縫合の両端の間に1つの外科的結び目を適用します。運動を完了するには、残りの縫合材料を切り取り、針を開始位置に戻します。",
+        "hu": "Ebben a gyakorlatban vegye be a tűt, és végezzen két lyukasztást, az egyiket a jobb oldalról, majd a következő 1-2 mm-re a bal oldalról. Vigyen fel egyetlen műtéti csomót a modul jobb oldaláról kiálló varrás mindkét vége között. A gyakorlat befejezéséhez vágja le a fennmaradó varrás anyagot, és adja vissza a tűt a kezdési helyzetbe."
     },
     "preparation": {
         "en": "Place a single horizontal suturing component onto the Basic Suturing Platform and place the needle in the start position at the top of the module with 10-20cm of suture material.",
         "pl": "Umieścić pojedynczy poziomy element do szycia na podstawowej platformie do szycia i umieścić igłę w pozycji początkowej na górze modułu z 10-20 cm materiału do szycia. ",
         "es": "Coloque un único componente de sutura horizontal en la plataforma de sutura básica y coloque la aguja en la posición de inicio en la parte superior del módulo con 10-20 cm de material de sutura.",
-        "zh-cn": "将单个水平缝合部件放在基本缝合平台上，并将针放在模块顶部的起始位置，缝合材料10-20cm。",
-        "ja": "単一の水平縫合部品を基本的な縫合プラットフォームに置き、10~20cmの縫合材料でモジュールの上部の開始位置に針を配置します。"
+        "zh-cn": "将单个水平缝合组件放在基本的缝合平台上，并用10-20厘米的缝合材料将针头放在模块顶部的起始位置。",
+        "ja": "単一の水平方向の縫合成分を基本的な縫合プラットフォームに置き、10〜20cmの縫合材料でモジュールの上部の開始位置に針を置きます。",
+        "hu": "Helyezzen egyetlen vízszintes varrási alkatrészt az alapvető varrási platformra, és helyezze a tűt a modul tetejére a kezdő helyzetbe 10-20 cm-es varrási anyaggal."
     }
 }

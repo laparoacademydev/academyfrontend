@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 0,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "appendectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "appendectomy_background.png",
             "places": [
@@ -38,12 +26,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -52,15 +34,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Hysterectomy",
-        "scenario": "TLH"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -149,7 +123,14 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {
+        "scene": "Hysterectomy",
+        "scenario": "TLH",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "ligasure",
@@ -161,30 +142,41 @@
     "name": {
         "en": "Full Procedure - Total Hysterectomy",
         "pl": "Cały Zabieg - Histerektomia Całkowita VR",
-        "es": "Procedimiento completo - Histerectomía total",
-        "zh-cn": "完整程序 - 总话题切除术",
-        "ja": "完全手術 - 総子宮切除術"
+        "es": "Procedimiento completo: histerectomía total",
+        "zh-cn": "完整手术 - 总子宫切除术",
+        "ja": "完全な手順 - 全子宮摘出術",
+        "hu": "Teljes eljárás - teljes hiszterektómia"
     },
     "skills": {
         "en": "Procedure, Hysterectomy, VR, Gynecology",
         "pl": "Procedura, Histerektomia, VR, Ginekologia",
         "es": "Procedimiento, Histerectomía, VR, Ginecología",
-        "zh-cn": "程序，子宫切除术，VR，妇科",
-        "ja": "手順、子宮摘出術、VR、婦人科"
+        "zh-cn": "程序，子宫切除术，VR，妇科学",
+        "ja": "手順、子宮摘出術、VR、婦人科",
+        "hu": "Eljárás, hiszterektómia, VR, nőgyógyászat"
     },
     "description": {
         "en": "In this virtual reality exercise the objective is to perform an entire total laparoscopic hysterectomy starting with cutting the ligaments between the uterus and the ovaries, and finishing just before the removal of the uterus. ",
         "pl": "Celem tego ćwiczenia jest wykonanie całkowitej histerektomii metodą laparoskopową w wirtualnej rzeczywistości. Zabieg rozpoczyna się od przecięcia ligamentów pomiędzy macicą a jajnikami, i kończy się zaraz przed całkowitym usunięciem macicy.",
-        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una histerectomía laparoscópica total de la ladaroscópica que comienza con cortar los ligamentos entre el útero y los ovarios, y el acabado justo antes de la eliminación del útero.",
-        "zh-cn": "在这种虚拟现实运动中，目的是在切割子宫和卵巢之间切割韧带的整个腹腔镜子宫切除术，并在去除子宫之前完成。",
-        "ja": "この仮想現実感の演習では、目的は、子宮と卵巣の間の靭帯を切断して始めて全体的な腹腔鏡視神腸切除術を行い、子宮を除去する直前に仕上げることである。"
+        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una histerectomía laparoscópica total completa que comienza con cortar los ligamentos entre el útero y los ovarios, y terminar justo antes de la eliminación del útero.",
+        "zh-cn": "在这个虚拟现实练习中，目标是从切割子宫和卵巢之间的韧带开始，进行整个腹腔镜子宫切除术，然后在切除子宫之前完成。",
+        "ja": "この仮想現実の演習では、目的は、子宮と卵巣の間の靭帯を削減し、子宮の除去直前に終了することから始まる腹腔鏡下総子宮全体を実行することです。",
+        "hu": "Ebben a virtuális valóság gyakorlatában a cél az, hogy egy teljes teljes laparoszkópos hiszterektómiát végezzen, kezdve a méh és a petefészek közötti ligamentumok vágásával, és közvetlenül a méh eltávolítása előtt."
     },
     "instructions": {
         "en": "First, coagulate and then cut the left round ligament between the uterus and ovaries. Then, do the same for the other side. Remember to use the uterine manipulator to create sufficient tension on the target tissues. Next, layer by layer, coagulate and cut the peritoneal tissue on the anterior side of the uterus and follow with the posterior side of the uterus below. The exercise is complete when the blue uterine manipulator is visible on all sides of the uterus.",
         "pl": "Najpierw koaguluj oraz przetnij wiązadło obłe pomiędzy macicą a jajnikami. Następnie zrób to samo dla drugiej strony. Pamiętaj, aby używać manipulatora macicy w taki sposób aby wytworzyć wystarczające napięcie na tkankach docelowych. Po przecięciu więzadeł koaguluj i przecinaj tkanki otrzewnowe powyżej i poniżej macicy. Ćwiczenie będzie zakończone kiedy niebieski manipulator macicy zostanie uwidoczniony z każdej strony i wszystkie tkanki łączące zostaną odseparowane od macicy.",
-        "es": "Primero, coagule y luego corte el ligamento redondo izquierdo entre el útero y los ovarios. Luego, haz lo mismo por el otro lado. Recuerde usar el manipulador uterino para crear suficiente tensión en los tejidos diana. A continuación, la capa por capa, coagule y corte el tejido peritoneal en el lado anterior del útero y siga con el lado posterior del útero a continuación. El ejercicio se completa cuando el manipulador ulterino azul es visible en todos los lados del útero.",
-        "zh-cn": "首先，凝结，然后切割子宫和卵巢之间的左圆形韧带。然后，对另一边做同样的事情。记得使用子宫机械手在目标组织上产生足够的张力。接下来，通过层层，凝结和切割子宫前侧的腹膜组织，并在下面的子宫后侧遵循。当蓝耳操纵器在子宫的所有侧面可见时，运动是完整的。",
-        "ja": "まず、子宮と卵巣の間の左丸靭帯を凝固させてから切断します。その後、反対側で同じことをしてください。ターゲット組織に十分な張力を作り出すために子宮マニピュレータを使用することを忘れないでください。次に、層別層、子宮の前面上の腹膜組織を凝固させて切断し、下の子宮の後側に続く。青い子宮マニピュレータが子宮のすべての側に見えるとき、運動は完了です。"
+        "es": "Primero, coagule y luego corte el ligamento redondo izquierdo entre el útero y los ovarios. Luego, haga lo mismo para el otro lado. Recuerde usar el manipulador uterino para crear una tensión suficiente en los tejidos de destino. Luego, capa por capa, coagule y corte el tejido peritoneal en el lado anterior del útero y siga con el lado posterior del útero debajo. El ejercicio se completa cuando el manipulador uterino azul es visible en todos los lados del útero.",
+        "zh-cn": "首先，凝结，然后切开子宫和卵巢之间的左圆形韧带。然后，对另一侧做同样的事情。切记使用子宫操纵器在目标组织上产生足够的张力。接下来，逐层凝结并切割子宫前侧的腹膜组织，并随着子宫的后侧跟随。当子宫各个侧面可见蓝色子宫操纵器时，该运动就完成了。",
+        "ja": "まず、子宮と卵巣の間で左丸い靭帯を凝固させてから切ります。次に、反対側についても同じことをします。子宮マニピュレーターを使用して、標的組織に十分な張力をかけることを忘れないでください。次に、層ごとに層ごとに凝固し、子宮の前方に腹膜組織を凝固させて切断し、下の子宮の後方に続きます。青い子宮マニピュレーターが子宮のあらゆる側面に見えるとき、運動は完了します。",
+        "hu": "Először koaguláljuk, majd vágja le a bal oldali kerek szalagot a méh és a petefészek között. Ezután tegye ugyanezt a másik oldalon. Ne felejtse el használni a méh manipulátort, hogy elegendő feszültséget hozzon létre a célszöveteknél. Ezután rétegenként rétegezzük, koaguláljuk és vágja le a peritoneális szövetet a méh elülső oldalán, és kövesse az alábbi méh hátsó oldalát. A gyakorlat akkor fejeződik be, ha a kék méh manipulátor látható a méh minden oldalán."
     },
-    "preparation": {}
+    "preparation": {
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
+        "es": "Retire los módulos físicos del área operativa. Retire los instrumentos de los trocares y extraiga la cámara lo más lejos posible.",
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
+    }
 }

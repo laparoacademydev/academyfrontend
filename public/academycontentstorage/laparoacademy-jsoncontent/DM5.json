@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "dexterity_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "dexterity_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 240
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "DM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "cone:1",
+        " ball:1"
     ],
     "name": {
         "en": "Endurance and Precision",
         "pl": "Wytrzymałość i Precyzja",
         "es": "Resistencia y precisión",
-        "zh-cn": "耐力和精确度",
-        "ja": "持久力と精度"
+        "zh-cn": "耐力和精度",
+        "ja": "持久力と精度",
+        "hu": "Állóképesség és pontosság"
     },
     "skills": {
         "en": "Endurance, Precision",
         "pl": "Wytrzymałość, Precyzja, Szycie",
         "es": "Resistencia, precisión",
-        "zh-cn": "耐力，精确",
-        "ja": "耐久性、精度"
+        "zh-cn": "耐力，精度",
+        "ja": "持久力、精度",
+        "hu": "Kitartás, pontosság"
     },
     "description": {
         "en": "Laparoscopic procedures are often very simple in principle but can become very difficult when performed for prolonged periods of time. In this exercise you must execute a difficult maneuver methodically and with precision.",
         "pl": "Procedury laparoskopowe są często bardzo proste w zasadzie, ale mogą stać się bardzo trudne, gdy wykonywane są przez dłuższy czas. W tym ćwiczeniu musisz metodycznie i precyzyjnie wykonać przedstawiony manewr.",
         "es": "Los procedimientos laparoscópicos son a menudo muy simples, pero pueden ser muy difíciles cuando se realizan durante períodos prolongados de tiempo. En este ejercicio debes ejecutar una maniobra difícil metódicamente y con precisión.",
-        "zh-cn": "腹腔镜程序原则上往往非常简单，但在长时间执行时可能变得非常困难。在这项练习中，您必须有理由地执行困难的操纵和精度。",
-        "ja": "腹腔鏡下手順は、原則として非常に単純なものであり、長期間にわたって実行したときに非常に困難になる可能性があります。この演習では、困難な操縦士が身体的にそして精度で実行する必要があります。"
+        "zh-cn": "腹腔镜手术通常很简单，但是在长时间进行时间进行时可能会变得非常困难。在本练习中，您必须有条不紊地执行难以执行的操作。",
+        "ja": "腹腔鏡手術は、原則として非常に単純なことがよくありますが、長期間にわたって実行すると非常に困難になる可能性があります。この演習では、困難な操作を整然と正確に実行する必要があります。",
+        "hu": "A laparoszkópos eljárások elvileg gyakran nagyon egyszerűek, de hosszabb ideig elvégzik, ha hosszabb ideig végrehajtják. Ebben a gyakorlatban módszeresen és pontossággal kell végrehajtania a nehéz manővert."
     },
     "instructions": {
         "en": "Push the cone into the hole on the ball and then place the ball with the cone vertically on the post.",
         "pl": "Wciśnij stożek do otworu w kulce, a następnie umieść kulkę ze stożkiem pionowo na słupku. ",
         "es": "Empuje el cono hacia el orificio en la bola y luego coloque la bola con el cono verticalmente en la publicación.",
-        "zh-cn": "将锥体推入球上的孔中，然后将球与锥体垂直放在柱上。",
-        "ja": "コーンをボールの穴に押し込み、次にポスト上の垂直にボールを垂直に置きます。"
+        "zh-cn": "将锥体推入球上的孔中，然后将球垂直放在柱子上。",
+        "ja": "コーンをボールの穴に押し込み、コーンでボールをポストに垂直に置きます。",
+        "hu": "Nyomja meg a kúpot a labdán lévő lyukba, majd helyezze a labdát függőlegesen a oszlopra."
     },
     "preparation": {
         "en": "Place one cone and one ball in the center basket of the Dexterity Module.",
         "pl": "Umieść jeden stożek i jedną piłkę w środkowym koszu Modułu Zręczności. ",
         "es": "Coloque un cono y una bola en la canasta central del módulo de destreza.",
-        "zh-cn": "将一个锥形和一个球放在Dexterity模块的中心篮子里。",
-        "ja": "1つの円錐形と1つのボールを装置の中央バスケットの中央バスケットに入れます。"
+        "zh-cn": "将一个锥和一个球放在敏捷模块的中心篮子中。",
+        "ja": "Dexterityモジュールの中央バスケットに1つのコーンと1つのボールを置きます。",
+        "hu": "Helyezzen egy kúpot és egy golyót az ügyességi modul középső kosárjába."
     }
 }

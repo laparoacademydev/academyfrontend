@@ -3,20 +3,9 @@
     "cameraConfig": {
         "Apex": {},
         "Analytic": {},
-        "Advance": {},
-        "angle": 0
+        "Advance": {}
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "appendectomy_background.png",
-                "places": [
-                    7,
-                    6,
-                    1
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "appendectomy_background.png",
             "places": [
@@ -28,12 +17,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -42,15 +25,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Appendectomy",
-        "scenario": "DissectAndStapler"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -139,7 +114,14 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {
+        "scene": "Appendectomy",
+        "scenario": "DissectAndStapler",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -151,30 +133,34 @@
     "name": {
         "en": "Single Stapling Approach - Appendectomy VR",
         "pl": "Pojedyncze Staplowanie - Apendektomia VR",
-        "es": "Enfoque de grapado único - Apendectectomy VR",
-        "zh-cn": "单一装订方法 - 阑尾切除术VR",
-        "ja": "単一のステープルリングアプローチ - 虫垂切除術VR"
+        "es": "Enfoque de grapado único - Apendectomía VR",
+        "zh-cn": "单钉方法 - 阑尾切除术VR",
+        "ja": "単一のステープリングアプローチ - 虫垂切除VR",
+        "hu": "Egyetlen tűzőképesség - apendectomy vr"
     },
     "skills": {
         "en": "Procedure, Appendectomy, VR",
         "pl": "Procedura, Apendektomia, VR",
-        "es": "Procedimiento, Apendectectomía, VR",
+        "es": "Procedimiento, apendicectomía, realidad virtual",
         "zh-cn": "程序，阑尾切除术，VR",
-        "ja": "手順、付属品切除術、VR"
+        "ja": "手順、虫垂切除術、VR",
+        "hu": "Eljárás, apendectomia, VR"
     },
     "description": {
         "en": "In this virtual reality exercise the objective is to perform an entire appendectomy. Apart from finding and identifying the inflamed appendix, this procedure involves accurately dissecting it and identifying where it protrudes from the ileocecal junction. ",
         "pl": "Celem tego ćwiczenia jest wykonanie poprawnego usunięcia wyrostka robaczkowego wewnątrz wirtualnego pola operacyjnego. Oprócz znalezienia i identyfikacji wyrostka robaczkowego, zabieg obejmuje dokładne jego rozcięcie i określenie, gdzie wystaje z połączenia krętniczo-kątniczego. ",
-        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una apendicectomía completa. Además de encontrar e identificar el apéndice inflamado, este procedimiento consiste en diseccionar con precisión e identificar dónde sobresale de la unión ileocecal.",
-        "zh-cn": "在这种虚拟现实运动中，目标是进行整个阑尾切除术。除了寻找和识别发炎的附录之外，该程序涉及准确地解剖并识别其从回肠连接点突出的位置。",
-        "ja": "このバーチャルリアリティでは、目的は添足切除術全体を実行することです。炎症を起こした付録を見つけて識別することとは別に、この手順はそれを正確に解剖し、それが回盲集合から突出する場所を識別することを含む。"
+        "es": "En este ejercicio de realidad virtual, el objetivo es realizar una apendicectomía completa. Además de encontrar e identificar el apéndice inflamado, este procedimiento implica diseccionarlo con precisión e identificar dónde sobresale de la unión ileocecal.",
+        "zh-cn": "在这个虚拟现实练习中，目标是进行整个阑尾切除术。除了找到和识别发炎的附录外，此过程还涉及准确剖析它，并识别其从回肠交界处突出的位置。",
+        "ja": "この仮想現実演習では、目的は虫垂切除全体を実行することです。炎症を起こした付録を見つけて識別することとは別に、この手順では、それを正確に分析し、回腸接合部からどこに突き出ているかを識別することが含まれます。",
+        "hu": "Ebben a virtuális valóság gyakorlatában a cél egy teljes apendectomia végrehajtása. A gyulladt függelék megtalálásán és azonosításán kívül ez az eljárás magában foglalja annak pontos boncolását és annak azonosítását, hogy hol áll ki az ileocecal csomópontból."
     },
     "instructions": {
         "en": "The trainee must find the triangular mesoappendix which tethers the appendix at the base. To complete the procedure a stapler should be used at the base to clip the entire appendicular artery before removing the appendix.",
         "pl": "Ćwiczący musi znaleźć trójkątny mezoappendix, czyli podstawy przy wyrostku. Aby wykonać procedurę, należy użyć staplera u podstawy, aby przyciąć całą tętnicę wyrostka przed usunięciem. ",
-        "es": "El aprendiz debe encontrar el mesoappendix triangular que realiza el apéndice en la base. Para completar el procedimiento, se debe usar una grapadora en la base para obtener toda la arteria apendicular antes de retirar el apéndice.",
-        "zh-cn": "受训者必须找到三角形的中间人，在基础上采用阑尾。为了完成该过程，应在碱中使用订书机以在删除附录之前剪辑整个附奇动脉。",
-        "ja": "研修生は、基地の付録を撮影した三角形のメソアペンデクを見つけなければなりません。手順を完了するには、付録を取り外す前に、柔場者がベースで使用する必要があります。"
+        "es": "El aprendiz debe encontrar el mesoapéndice triangular que toca el apéndice en la base. Para completar el procedimiento, se debe usar una grapadora en la base para recortar toda la arteria apendicular antes de eliminar el apéndice.",
+        "zh-cn": "受训者必须找到三角介载管，该中appendix在基部绑定附录。为了完成该过程，在删除附录之前，应在基部使用订书机来夹紧整个阑尾动脉。",
+        "ja": "研修生は、基地の付録をテザーする三角形のメソアペンディックスを見つけなければなりません。手順を完了するには、虫垂を除去する前に、虫垂動脈全体をクリップするためにベースでステープラーを使用する必要があります。",
+        "hu": "A gyakornoknak meg kell találnia azt a háromszög alakú mezoalkotót, amely a függeléket összekapcsolja a bázison. Az eljárás befejezéséhez a függelék eltávolítása előtt az alapon meg kell használni az alapon egy tűzőt, hogy az egész mellékterét rögzítse."
     },
     "preparation": {}
 }

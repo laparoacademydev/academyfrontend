@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 0,
-        "plat2deg": 0
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 0
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,57 @@
             "proficiency": 1200
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "ASS",
     "allowedInstruments": [
         "dissector",
         "needle_h",
         "scissors"
+    ],
+    "accessories": [
+        "start_position:1",
+        " penrose_drain:2",
+        " needle_suture_10cm:1"
     ],
     "name": {
         "en": "Anastomosis End-to-End",
         "pl": "Zespolenie End-to-End",
         "es": "Anastomosis de extremo a extremo",
         "zh-cn": "吻合端到端",
-        "ja": "吻合終了"
+        "ja": "吻合エンドツーエンド",
+        "hu": "Anastomosis végpontok között"
     },
     "skills": {
         "en": "Anastomosis, Suturing, Sliding Knot",
         "pl": "Zespolenie, Szycie, Węzeł Przesuwny",
         "es": "Anastomosis, sutura, nudo deslizante.",
-        "zh-cn": "吻合，缝合，滑动结",
-        "ja": "吻合、縫合、スライディングノット"
+        "zh-cn": "吻合，缝合，滑结",
+        "ja": "吻合、縫合、スライドノット",
+        "hu": "Anastomosis, varrás, csúszó csomó"
     },
     "description": {
         "en": "Anastomosis in all of it’s combinations is the best way to develop advanced laparoscopic suturing skill. In this combination, end-to-end, two loose ends of penrose drain must be brought together with sliding knots.",
         "pl": "Zespolenia we wszystkich kombinacjach to najlepszy sposób na rozwinięcie zaawansowanych umiejętności szycia laparoskopowego. W tej kombinacji, dwa luźne końce drenu penrose muszą być połączone ze sobą na zaawansowanej platformie do szycia. ",
         "es": "La anastomosis en todas sus combinaciones es la mejor manera de desarrollar habilidades de sutura laparoscópica avanzada. En esta combinación, de extremo a extremo, dos extremos sueltos de drenaje de penrose deben reunirse con nudos deslizantes.",
-        "zh-cn": "所有内容组合中的吻合术是开发先进的腹腔镜缝合技能的最佳方式。在这种组合中，端到端，渗漏漏极的两个松散端必须与滑动结合在一起。",
-        "ja": "その組み合わせのすべての吻合症は、高度な腹腔鏡下縫合スキルを発展させるための最良の方法です。この組み合わせでは、エンドツーエンドで、ペンロースドレインの2つの緩い端をスライドノットと一緒に持ち込む必要があります。"
+        "zh-cn": "在所有组合中，吻合是发展先进的腹腔镜缝合技能的最佳方法。在这种组合中，端到端，必须将彭罗斯排水的两个松散的末端与滑动结在一起。",
+        "ja": "そのすべての組み合わせの吻合は、高度な腹腔鏡下縫合スキルを開発するための最良の方法です。この組み合わせでは、エンドツーエンドのペンローズドレインの2つのゆるい端をスライドノットと一緒に持ち込む必要があります。",
+        "hu": "Az anastomosis az összes kombinációban a legjobb módja a fejlett laparoszkópos varrási készség kialakításának. Ebben a kombinációban a végpontok közötti, a penrose lefolyó két laza végét csúszó csomókkal kell összehozni."
     },
     "instructions": {
         "en": "Begin with the areas of the penrose drain lowest on the module. Use a single sliding knot to properly bring these two edges together. Continue with approximately 6 knots until all sides of the penrose drain are properly fixed together. A proper anastomosis should allow for an opening, be sure to inspect the results of your work to verify quality.",
         "pl": "Ćwiczenie powinno być zaczęte od części drenów najniżej na module. Pojedynczy węzeł przesuwny powinien być użyty aby zbliżyć i połączyć ze sobą dwie krawędzie. Trenujący powinien kontynuować, zakładając kolejne węzły przesuwne, aż cała długość krawędzi drenu zostanie poprawnie zespolona. Prawidłowe zespolenie powinno umożliwić drożność, należy sprawdzić zespolenie, aby zweryfikować jakość.",
         "es": "Comience con las áreas del drenaje de penrose más bajo en el módulo. Use un solo nudo deslizante para llevar correctamente estos dos bordes juntos. Continúe con aproximadamente 6 nudos hasta que todos los lados del drenaje de penrose se fijen adecuadamente juntos. Una anastomosis adecuada debe permitir una apertura, asegúrese de inspeccionar los resultados de su trabajo para verificar la calidad.",
-        "zh-cn": "从模块上最低的PenRose流失区域开始。使用单个滑动结以正确地将这两个边缘带到一起。继续大约6节，直到Penrose流失的所有侧面都正确固定在一起。适当的吻合应允许开放，请务必检查您的工作结果以核实质量。",
-        "ja": "モジュールで最も低いペロース排水の領域から始めます。単一のスライド結び目を使用して、これら2つのエッジを適切に連結します。 Penrose Drainのすべての側面が正しく固定されるまで、約6ノットを続けます。適切な吻合術は開口部を考慮に入れるべきであるため、作業の結果を確認して品質を検証するようにしてください。"
+        "zh-cn": "从模块上最低的Penrose排水区域开始。使用单个滑动结，将这两个边缘正确地融合在一起。继续进行大约6节，直到将Penrose排水的所有侧面正确固定在一起。适当的吻合应允许开放，请确保检查工作结果以验证质量。",
+        "ja": "モジュールで最も低いペンローズドレインの領域から始めます。単一のスライドノットを使用して、これら2つのエッジを適切にまとめます。ペンローズドレンのすべての側面が適切に固定されるまで、約6ノットで続けます。適切な吻合は開口部を可能にする必要があります。品質を検証するために、作業の結果を必ず調べてください。",
+        "hu": "Kezdje a Penrose Drain területén a legkisebb a modulon. Használjon egyetlen csúszó csomót, hogy ezt a két élt összehozza. Folytassa kb. 6 csomóval, amíg a Penrose -lefolyó minden oldala megfelelően van rögzítve. A megfelelő anastomosisnak lehetővé kell tennie a megnyitást, ügyeljen arra, hogy ellenőrizze munkájának eredményeit a minőség ellenőrzése érdekében."
     },
     "preparation": {
         "en": "Two short ends of penrose drain should be stretched inside the suturing platform facing each other and at a distance of 1 cm. The start position for the needle should be located on the top of the Advanced Suturing Platform.",
         "pl": "Dwa krótkie elementy drenu penrose'a należy rozciągnąć wewnątrz platformy szyjącej, zwrócone do siebie w odległości 1 cm. Pozycja początkowa igły powinna znajdować się na górze zaawansowanej platformy do szycia. ",
         "es": "Dos extremos cortos de drenaje de penrose deben estirarse dentro de la plataforma de sutura frente al otro y a una distancia de 1 cm. La posición de inicio para la aguja debe estar ubicada en la parte superior de la plataforma de sutura avanzada.",
-        "zh-cn": "彭罗松排水管的两端应在彼此面对的缝合平台内拉伸，距离为1厘米。针的起始位置应位于先进的缝合平台的顶部。",
-        "ja": "ペネロース排水の2つの短い端部は、互いに対向する縫合台の内側に、そして1cmの距離で延伸する必要があります。針の開始位置は、高度な縫合プラットフォームの上部に配置する必要があります。"
+        "zh-cn": "在缝合平台内，应在彼此面向彼此的缝合平台内，距离为1厘米，应拉伸两个短端。针的起始位置应位于高级缝合平台的顶部。",
+        "ja": "ペンローズ排水の2つの短い端を、互いに向き、1 cmの距離で縫合プラットフォームの内側に伸ばす必要があります。針の開始位置は、高度な縫合プラットフォームの上部に配置する必要があります。",
+        "hu": "A Penrose Drain két rövid végét a varróplatformon belül kell kinyújtani, és 1 cm távolságra. A tű kiindulási helyzetét a fejlett varrási platform tetején kell elhelyezni."
     }
 }

@@ -6,18 +6,15 @@
         "Advance": {}
     },
     "trocarsConfig": {
-        "configurations": [],
         "Apex": {},
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {},
     "tableConfig": {
         "Apex": {},
         "Analytic": {},
         "Advance": {}
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -97,19 +94,22 @@
             ]
         }
     },
+    "vrConfig": {},
     "name": {
         "en": "Single Square Knot Vertical",
         "pl": "Węzeł Płaski - Orientacja Pionowa",
         "es": "Un solo nudo cuadrado vertical",
-        "zh-cn": "单方面结垂直",
-        "ja": "単一の正方形結び目の縦"
+        "zh-cn": "单方面垂直",
+        "ja": "単一の正方形の結び目垂直",
+        "hu": "Egy négyzet alakú csomó függőleges"
     },
     "skills": {
         "en": "1=1",
         "pl": "1=1",
         "es": "1 = 1",
         "zh-cn": "1 = 1",
-        "ja": "1 = 1"
+        "ja": "1 = 1",
+        "hu": "1 = 1"
     },
     "description": {},
     "instructions": {},

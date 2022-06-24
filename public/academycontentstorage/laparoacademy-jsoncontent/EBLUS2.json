@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,56 @@
             "proficiency": 360
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "EBLUS_suturing",
     "allowedInstruments": [
         "needle_h",
         "needle_h",
         "dissector"
+    ],
+    "accessories": [
+        "fls_suturing_insert:1",
+        " needle_suture_20cm:1"
     ],
     "name": {
         "en": "Laparoscopic Suturing",
         "pl": "Szycie Laparoskopowe",
         "es": "Sutura laparoscópica",
         "zh-cn": "腹腔镜缝合",
-        "ja": "腹腔鏡下縫合"
+        "ja": "腹腔鏡下縫合",
+        "hu": "Laparoszkópos varrás"
     },
     "skills": {
         "en": "E-BLUS, Suturing",
         "pl": "E-BLUS, Szycie",
         "es": "E-blus, sutura",
-        "zh-cn": "e-blu，缝合",
-        "ja": "E-BLUS、縫合"
+        "zh-cn": "E-Blus，缝合",
+        "ja": "e-blus、縫合",
+        "hu": "E-blus, varrás"
     },
     "description": {
         "en": "In this exercise suturing skill is tested on a single penrose drain attached to the velcro module. The trainee must demonstrate the ability to accurately perform an intracorporeal knot entirely inside the operating area. A needle and suture material are placed inside the operating area and a single surgical knot must be applied to the target structure without accidentally pulling the penrose drain off of the velcro attachment.",
         "pl": "W tym W tym ćwiczeniu testowana jest umiejętnośc szycia na drenie penrose przymocowanym do modułu z rzepem. Trenujący musi wykazać się umiejętnością dokładnego wykonania węzła wewnątrzustrojowego wewnątrz pola operacyjnego. Wewnątrz pola operacyjnego umieszcza się igłę i szew, a pojedynczy węzeł chirurgiczny musi być założony na strukturę docelową bez zerwania rzepu na którym dren jest przymocowany.",
         "es": "En este ejercicio, la habilidad de sutura se prueba en un solo drenaje de penrose unido al módulo de velcro. El aprendiz debe demostrar la capacidad de realizar con precisión un nudo intracorpóreo completamente dentro del área de operación. Se coloca un material de aguja y sutura dentro del área de operación y se debe aplicar un solo nudo quirúrgico a la estructura de destino sin extraer accidentalmente el desagüe de penrose del accesorio de velcro.",
-        "zh-cn": "在该锻炼中，在连接到Velcro模块的单个渗漏漏极上测试缝合技能。学员必须证明能够在操作区域中精确地进行体内结的能力。将针和缝合材料放置在操作区域内，并且必须将单个手术结施加到目标结构上，而不意外地拉出魔术验附件的PenRose排水。",
-        "ja": "この運動では、縫合スキルは、ベルクロモジュールに取り付けられた単一のペローズドレインでテストされています。研修生は、全体的に操作領域の内側に体内結び目を正確に実行する能力を実証しなければなりません。針状および縫合糸材料は作業領域の内側に配置され、誤ってPenrose Drainを標的構造にプラジャーアタッチメントから引き抜かずにターゲット構造に適用されなければならない。"
+        "zh-cn": "在此练习中，缝合技巧将在连接到维氏魔术贴模块的单个penrose排水管上进行测试。学员必须证明能够完全在操作区域内准确执行体内结的能力。将针头和缝合材料放置在操作区域内，必须将单个手术结施加到目标结构，而无需意外地将penrose沥干从魔术贴附件上拉出。",
+        "ja": "このエクササイズでは、縫合スキルは、ベルクロモジュールに取り付けられた単一のペンローズドレインでテストされています。研修生は、操作エリア内で完全に体内結び目を正確に実行する能力を実証する必要があります。針と縫合材が手術領域内に配置され、ターゲット構造に単一の手術ノットを適用する必要があります。ベルクロアタッチメントからペンローズドレインを誤って引き離すことはありません。",
+        "hu": "Ebben a gyakorlatban a varrási képességet egyetlen penrose -csatornán tesztelik a tépőzáras modulhoz. A gyakornoknak be kell mutatnia annak képességét, hogy pontosan elvégezze az intrakorporális csomót teljes egészében a működési területen belül. Tű- és varrási anyagot helyeznek el a működési területen, és egyetlen műtéti csomót kell felvinni a célszerkezetre anélkül, hogy véletlenül húzzák le a tépőzáras rögzítéséből a penrose leeresztést."
     },
     "instructions": {
-        "en": "The goal of the exercise is to drive the needle within 1mm through both of the black dots on the penrose drain. On the first draw through a double throw should be applied and then followed by two single opposite throws (2x1x1). The exercise should be completed within 360 seconds, the penrose drain cannot come loose from the module and it cannot be torn. According to the E-BLUS standard two needle drivers should be used with one braided suture and a 3-0 with curved needle. Alternatively if two needle holders are not available the exercise may be practiced with one needle holder and one dissector.\n ",
+        "en": "The goal of the exercise is to drive the needle within 1mm through both of the black dots on the penrose drain. On the first draw-through a double throw should be applied and then followed by two single opposite throws (2x1x1). The exercise should be completed within 360 seconds, the penrose drain cannot come loose from the module and it cannot be torn. According to the E-BLUS standard two needle drivers should be used with one braided suture and a 3-0 with curved needle. Alternatively if two needle holders are not available the exercise may be practiced with one needle holder and one dissector.\n ",
         "pl": "Celem ćwiczenia jest przeprowadzenie igły w maksymalnej odległości 1mm od obu czarne kropki na drenie penrose'a. Przy pierwszym owinięciu powinien być wykonany podwójny rzut, a następnie dwa pojedyncze rzuty przeciwne (2x1x1). Cwiczenie powinno być wykonane w ciągu 360 sekund, dren penrose nie może się odczepić od modułu i nie może sie rozerwać w trakcie ćwiczenia. Zgodnie ze standardem E-BLUS powinny być użyte dwa imadła z jednym szwem plecionymi igłą 3-0. Alternatywnie jeśli dwa imadła nie są dostępne, ćwiczenie może być wykonwyane przy pomocy jednego imadła i jednego disektora.",
-        "es": "El objetivo del ejercicio es conducir la aguja dentro de 1 mm a través de los dos puntos negros en el drenaje de penrose. En el primer extracción a través de un doble lanzamiento, se debe aplicar y luego seguido de dos tiros opuestos únicos (2x1x1). El ejercicio debe completarse dentro de los 360 segundos, el drenaje de la penrosa no puede desestimarse del módulo y no se puede rasgar. De acuerdo con el estándar E-BLUS, se deben usar dos controladores de agujas con una sutura trenzada y un 3-0 con una aguja curva. Alternativamente, si dos soportes de agujas no están disponibles, el ejercicio puede practicarse con un soporte de aguja y un disector.\n ",
-        "zh-cn": "练习的目标是通过猪流失的黑点在1毫米中驾驶针。在第一次绘制通过双抛光时应施加，然后用两个单一相反的投掷（2x1x1）。练习应在360秒内完成，猪源油不能从模块松开，不能撕裂。根据E-Blus标准，两个针驾驶员应与一个编织缝合线和带有弯曲针的3-0一起使用。或者，如果不可用两个针座，则锻炼可以用一根针架和一个分选仪实施。\n ",
-        "ja": "運動の目的は、ペンロースの排水の両方の黒い点を通して1mm以内に針を運転することです。二重投スローを通る最初の描画を適用し、次に2つの反対側のスロー（2×1×1）を加える必要があります。運動は360秒以内に完了する必要があります、ペンロース排水はモジュールから緩んでいて引き裂かれることはできません。 E-BLUS規格によると、2つの針ドライバは1つの編組縫合糸と湾曲した針を有する3-0で使用されるべきです。あるいは、2つの針保持者が利用可能でない場合、運動は1つの針ホルダーと1つの解剖器具で実施されてもよい。\n "
+        "es": "El objetivo del ejercicio es conducir la aguja dentro de 1 mm a través de los dos puntos negros en el drenaje de penrose. En el primer extracción a través de un doble lanzamiento, se debe aplicar y luego seguido de dos tiros opuestos únicos (2x1x1). El ejercicio debe completarse dentro de los 360 segundos, el drenaje de la penrosa no puede desestimarse del módulo y no se puede rasgar. De acuerdo con el estándar E-BLUS, se deben usar dos controladores de agujas con una sutura trenzada y un 3-0 con una aguja curva. Alternativamente, si dos soportes de agujas no están disponibles, el ejercicio puede practicarse con un soporte de aguja y un disector.",
+        "zh-cn": "练习的目的是将针头在1mm内穿过Penrose排水管上的两个黑点。在第一次抽奖中，应进行双掷，然后再进行两次相反的掷球（2x1x1）。练习应在360秒内完成，penrose排水管不能从模块中松动，也不能撕裂。根据E-Blus标准，应将两针驱动器与一个编织缝合线和3-0一起使用弯曲针头。另外，如果没有两个针架，则可以使用一个针架和一个解剖器进行练习。\n ",
+        "ja": "エクササイズの目標は、ペンローズドレインの両方の黒い点を1mm以内で針を駆動することです。最初のドロースルーでは、ダブルスローを適用してから、2つの単一の反対スロー（2x1x1）が続く必要があります。エクササイズは360秒以内に完了する必要があります。ペンローズドレインはモジュールから緩められず、引き裂くことはできません。 e-blus標準によると、2つの編み物ドライバーは、1つの編組縫合で、湾曲した針で3-0で使用する必要があります。あるいは、2つの針ホルダーが利用できない場合、1つの針ホルダーと1つの分離器を使用して運動を実践できます。\n ",
+        "hu": "A gyakorlat célja az, hogy a tűt 1 mm -en belül vezesse át a Penrose lefolyó mindkét fekete pontján. Az első átadáskor kettős dobást kell alkalmazni, majd két egyszemélyes ellenkező dobást (2x1x1) kell követni. A gyakorlatot 360 másodpercen belül be kell fejezni, a Penrose lefolyó nem szabad elengedni a modult, és nem szakadható meg. Az E-Blus Standard szerint két tűshajtót kell használni egy fonott varrattal és egy 3-0-os ívelt tűvel. Alternatív megoldásként, ha két tűtartó nem áll rendelkezésre, akkor a gyakorlatot egy tűtartóval és egy boncolóval lehet gyakorolni.\n "
     },
     "preparation": {
         "en": "The standard FLS and E-BLUS compatible module for suturing should be used in this exercise with two needle drivers (or one needle driver and one dissector) along with a braided suture and 3-0 curved needle. The module should be placed in the operating area and the needle placed around the module as shown.",
         "pl": "Standardowy moduł do szycia zgodny z FLS i E-BLUS powinien być użyty w tym ćwiczeniu z dwoma imadłami (lub jednym imadłem i jednym disektorem) wraz z szwem plecionym i zakrzywioną igłą 3-0. Moduł należy umieścić w obszarze operacyjnym, a igłę wokół modułu, tak jak pokazano. ",
         "es": "El módulo estándar compatible con FLS y E-BLUS para su sutura se debe usar en este ejercicio con dos controladores de aguja (o un controlador de aguja y un disector) junto con una sutura trenzada y una aguja curva 3-0. El módulo debe colocarse en el área de operación y la aguja colocada alrededor del módulo como se muestra.",
-        "zh-cn": "标准FLS和E-BLUS兼容模块用于缝合，应在本练习中使用两个针头驱动器（或一个针驱动器和一个解剖器）以及编织缝合线和3-0弯曲针。该模块应放置在操作区域和放置在模块周围的针，如图所示。",
-        "ja": "縫合用の標準的なFLSおよびE-BLUS対応モジュールは、編組縫合糸と3-0の針状針と共に2つの針ドライバ（または1つの針運転室と1つの解剖器具）を使用したこの運動で使用する必要があります。モジュールは、図示のようにモジュールの周囲に配置された操作領域と針を配置する必要があります。"
+        "zh-cn": "本练习中应使用两个针驱动器（或一个针驱动器和一个解剖器）以及编织的缝合线和3-0弯曲的针中的标准FLS和E-Blus兼容模块。如图所示，该模块应放置在操作区域，并将针放在模块周围。",
+        "ja": "縫合用の標準FLSおよびE-BLUS互換モジュールは、2つの針ドライバー（または1つの針ドライバーと1つの分離器）と編組縫合と3-0の湾曲した針を使用して、このエクササイズで使用する必要があります。図のように、モジュールは動作エリアに配置し、モジュールの周りに針を配置する必要があります。",
+        "hu": "A standard FLS-t és az E-Blus kompatibilis modult a varráshoz két tűsofőrrel (vagy egy tűsofőrrel és egy boncolóval), valamint egy fonott varrással és 3-0 ívelt tűvel kell használni. A modult a működési területre kell helyezni, és a tűt a modul körül kell helyezni."
     }
 }

@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,54 @@
             "proficiency": 151.33333333333334
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "UM",
     "allowedInstruments": [
         "dissector",
         "scissors"
+    ],
+    "accessories": [
+        "circle_pad:1"
     ],
     "name": {
         "en": "Cutting a Circle",
         "pl": "Wycinanie Kółka",
         "es": "Cortar un círculo",
-        "zh-cn": "切圈",
-        "ja": "丸を切る"
+        "zh-cn": "切一个圆",
+        "ja": "円を切る",
+        "hu": "Kör vágása"
     },
     "skills": {
         "en": "E-BLUS, Scissors",
         "pl": "E-BLUS, nożyczki",
         "es": "E-blus, tijeras",
-        "zh-cn": "e-blu，剪刀",
-        "ja": "E-BLUS、はさみ"
+        "zh-cn": "E-Blus，剪刀",
+        "ja": "e-blus、はさみ",
+        "hu": "E-blus, olló"
     },
     "description": {
         "en": "In this E-BLUS exercise skill with laparoscopic scissors and cutting ability is verified. Refer to the video for a detailed tutorial on the most effective approach. The task should be practiced until it can be performed in 151 seconds with all cuts made within the section between the two lines of the training gauze.This level of performance should be achieved on two consecutive repetitions or for a maximum of 80 repetitions. ",
         "pl": "W tym ćwiczeniu E-BLUs sprawdzana jest umiejętność posługiwania się nożyczkami laparoskopowymi i zdolność cięcia. Wideo pokazuje najskuteczniejsze podejście do ćwiczenia. Zadanie powinno być ćwiczone do momentu, gdy będzie można je wykonać w ciągu 151 sekund, ze wszystkimi cięciami wykonanymi w obrębie odcinka między dwoma liniami na materiale. Ten poziom wydajności należy osiągnąć w dwóch kolejnych powtórzeniach lub w maksymalnie 80 powtórzeniach. ",
         "es": "En esta habilidad E-Blus Ejercicio con tijeras laparoscópicas y se verifica la capacidad de corte. Consulte el video para un tutorial detallado sobre el enfoque más efectivo. La tarea debe practicarse hasta que se pueda realizar en 151 segundos con todos los recortes realizados dentro de la sección entre las dos líneas de la gasa de capacitación. Este nivel de desempeño debe lograrse en dos repeticiones consecutivas o por un máximo de 80 repeticiones.",
-        "zh-cn": "在这种E-BLUS运动技能中，验证了腹腔镜剪刀和切割能力。有关最有效的方法，请参阅视频以获取详细教程。应练习任务，直到它可以在151秒内执行，并且在培训纱布两行之间的部分内完成所有削减。这一性能水平应在两个连续重复或最多80次重复。",
-        "ja": "このE-BLUSの運動は、腹腔鏡下のハサミや切断能力のスキルを検証しています。最も効果的なアプローチに関する詳細なチュートリアルのビデオを参照してください。このタスクは、トレーニングガーゼの2行の間のセクション内で行われたすべてのカットで151秒で実行できるまで、タスクを実行する必要があります。このレベルのパフォーマンスのレベルは、2つの連続した繰り返しまたは最大80の繰り返しで達成されるべきです。"
+        "zh-cn": "在这种带有腹腔镜剪刀和切割能力的E-Blus运动技能中。有关最有效方法的详细教程，请参阅视频。该任务应进行练习，直到可以在151秒内执行，并在训练纱布的两条线之间进行所有切割。该性能水平应在两次连续重复或最多80次重复时达到。",
+        "ja": "このe-blusでは、腹腔鏡ハサミと切断能力を備えたエクササイズスキルが検証されています。最も効果的なアプローチに関する詳細なチュートリアルについては、ビデオを参照してください。タスクは、トレーニングガーゼの2行の間のセクション内ですべてのカットを行うと、151秒で実行できるまで実践する必要があります。このレベルのパフォーマンスは、2つの連続した繰り返しまたは最大80の繰り返しで達成する必要があります。",
+        "hu": "Ebben az e-blus testmozgásban a laparoszkópos ollóval és a vágási képesség ellenőrzött. Lásd a videót a leghatékonyabb megközelítésről szóló részletes bemutatóhoz. A feladatot addig kell gyakorolni, amíg 151 másodpercen belül nem hajtható végre, az összes vágással az edzési géz két vonala között. Ezt a teljesítményszintet két egymást követő ismétlésnél vagy legfeljebb 80 ismétlésnél kell elérni."
     },
     "instructions": {
         "en": "The objective of this exercise is to precisely cut out the circle within the time limit of 151 seconds as close to the center line as possible. Cutting the second layer of the gauze is not recorded as an error.",
         "pl": "Celem tego ćwiczenia jest precyzyjne wycięcie koła w czasie 151 sekund jak najbliżej linii środkowej. Przecięcie drugiej warstwy nie jest liczone jako błąd.",
         "es": "El objetivo de este ejercicio es cortar con precisión el círculo dentro del límite de tiempo de 151 segundos lo más cerca posible de la línea central. Cortar la segunda capa de la gasa no se registra como un error.",
-        "zh-cn": "本练习的目的是在尽可能靠近中心线时精确地切断151秒的时间限制。切割第二层纱布未被记录为误差。",
-        "ja": "この演習の目的は、できるだけ中心線の近くに151秒の制限時間内に円を正確に切り出すことです。ガーゼの2番目の層を切断することは誤差として記録されません。"
+        "zh-cn": "本练习的目的是在151秒内精确地切除圆圈，尽可能靠近中心线。切割纱布的第二层未记录为误差。",
+        "ja": "この演習の目的は、可能な限り中心線に近い151秒の時間以内に円を正確にカットすることです。ガーゼの2番目の層を切断することは、エラーとして記録されていません。",
+        "hu": "Ennek a gyakorlatnak az a célja, hogy pontosan kivágja a kört a lehető legközelebb a középső vonalhoz, a lehető legközelebb. A géz második rétegének vágását nem rögzítik hibaként."
     },
     "preparation": {
         "en": "In this exercise, attach the gauze pad to the Universal Holder Module on all four sides. The gauze pad is two ply and should be stretched out evenly. Scissors and a grasper should be used in this version of the exercise.",
         "pl": "W tym ćwiczeniu gaza powinna być przymocowana do modułu uniwersalnego uchwytu ze wszystkich czterech stron. Gaza jest dwuwarstwowa i powinna być równomiernie rozciągnięta. Nożyczki i grasper powinny być użyte w tej wersji ćwiczenia.",
         "es": "En este ejercicio, fije la almohadilla de gasa al módulo del soporte universal en los cuatro lados. La almohadilla de gasa es de dos capas y debe extenderse uniformemente. Las tijeras y un agarre deben usarse en esta versión del ejercicio.",
-        "zh-cn": "在本练习中，将纱布垫连接到全部四个侧面上的通用支架模块。纱布垫是两个层，应该均匀地伸展。剪刀和抓手应在此版本中使用。",
-        "ja": "この演習では、四方すべての側面のユニバーサルホルダーモジュールにガーゼパッドを取り付けます。ガーゼパッドは2匹のプライであり、均等に引き伸ばすべきです。このバージョンの運動にはさみと把握担当者を使用する必要があります。"
+        "zh-cn": "在此练习中，将纱布垫连接到所有四个侧面的通用支架模块上。纱布垫是两层，应均匀伸展。在此版本的练习中应使用剪刀和抓刀。",
+        "ja": "この演習では、ガーゼパッドを4つの側面すべてのユニバーサルホルダーモジュールに取り付けます。ガーゼパッドは2つのプライであり、均等に伸ばす必要があります。ハサミとグラスパーは、このバージョンの演習で使用する必要があります。",
+        "hu": "Ebben a gyakorlatban rögzítse a gézpadot mind a négy oldalon az Universal Holder modulhoz. A gézpad két rétegű, és egyenletesen ki kell nyújtani. Az ollót és a markolatot a gyakorlat ebben a verziójában kell használni."
     }
 }

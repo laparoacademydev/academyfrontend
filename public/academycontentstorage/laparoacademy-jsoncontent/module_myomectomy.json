@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 0,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": ".png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": ".png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -162,45 +139,55 @@
             "proficiency": 900
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "gynaecology",
     "allowedInstruments": [
         "grasper",
         "dissector",
         "scissors"
     ],
+    "accessories": [
+        "myoma:1"
+    ],
     "name": {
         "en": "Myomectomy - Module",
         "pl": "Wyłuszczenie Mięśniaka Macicy - Moduł",
-        "es": "Myomectomía - Módulo",
+        "es": "Miomectomía - Módulo",
         "zh-cn": "肌瘤切除术 - 模块",
-        "ja": "筋Omectomy - モジュール"
+        "ja": "筋膜切除 - モジュール",
+        "hu": "Myomectomia - modul"
     },
     "skills": {
         "en": "Procedure, Gynecology, Dissection",
         "pl": "Procedura, Ginekologia, Dissection",
         "es": "Procedimiento, ginecología, disección.",
         "zh-cn": "程序，妇科，解剖",
-        "ja": "手順、婦人科、解剖"
+        "ja": "手順、婦人科、解剖",
+        "hu": "Eljárás, nőgyógyászat, boncolás"
     },
     "description": {
         "en": "In this exercise the objective is to perform the removal of uterine fibroids, also called leiomyomas, which are common noncancerous growths that form in the uterus.",
         "pl": "W tym ćwiczeniu celem jest usunięcie mięśniaka gładkiego, znanego również jako włókniaka, często powstającego guza łagodnego powstającego w macicy",
         "es": "En este ejercicio, el objetivo es realizar la eliminación de los fibromas uterinos, también llamados leiomiomas, que son crecimientos no cancerosos comunes que se forman en el útero.",
-        "zh-cn": "在这项运动中，目的是去除子宫肌瘤，也称为平滑肌，这是在子宫内形成的常见非癌症生长。",
-        "ja": "この運動において、目的は、子宮内に形成される一般的な非癌性成長である平滑筋腫とも呼ばれる子宮線維性筋腫の除去を行うことである。"
+        "zh-cn": "在本练习中，目的是执行子宫肌瘤的去除，也称为平滑肌瘤，这是子宫中形成的常见非癌性生长。",
+        "ja": "この演習では、目的は、子宮内で形成される一般的な非癌性成長である平滑筋腫とも呼ばれる子宮筋腫の除去を実行することです。",
+        "hu": "Ebben a gyakorlatban a cél az, hogy a méh fibroidok, más néven leiomyomák eltávolítását végezzék, amelyek a méhben kialakuló általános nem rákos növekedések."
     },
     "instructions": {
         "en": "The fibroid is covered with a surface layer which must be cut and opened for the fibroid to be exposed. This structure must then be dissected and separated from the surrounding tissues with as little damage as possible.",
         "pl": "Mięśniak jest pokryty warstwą tkanek jajnika i te tkanki muszą zostać przecięte i otwarte aby uwidocznić mięśniaka. Structura ta musi być wypreparowana i odseparowana od otaczających ją tkanek wyrządzając najmniejszą możliwą szkodę tym tkankom.",
         "es": "El fibroma está cubierto con una capa superficial que debe cortarse y abrirse para que el FIBROIDE esté expuesto. Esta estructura debe luego diseccionarse y separarse de los tejidos circundantes con el menor daño posible.",
-        "zh-cn": "肌瘤覆盖有表面层，必须切割并打开肌瘤以进行暴露。然后必须将这种结构与周围组织分离并与围绕组织分离，随着尽可能少的损坏。",
-        "ja": "繊維状は、曝露されるべき線維性について切断され開かれなければならない表面層で覆われている。この構造は、できるだけ少ない損傷で周囲の組織から解剖されて分離されなければならない。"
+        "zh-cn": "肌瘤被表面层覆盖，必须切开并打开，以使肌瘤暴露。然后必须剖析此结构并与周围的组织分离，并尽可能少。",
+        "ja": "子宮筋腫は表面層で覆われており、子宮筋腫を露出するために切断して開く必要があります。その後、この構造は解剖され、周囲の組織から可能な限り少ない損傷で分離する必要があります。",
+        "hu": "A fibroidot egy felszíni réteg borítja, amelyet vágni kell és kinyitni kell, hogy a fibroid ki legyen téve. Ezt a szerkezetet ezután boncolni és el kell választani a környező szövetektől a lehető legkevesebb károsodás esetén."
     },
     "preparation": {
         "en": "Clip the fibroid into the two clips on the sides of the gynaecology module. Note: The fibroid should be made out of a single piece of silicone and not be mistaken for the ovarian cyst which appears identical but is filled with fluid.",
         "pl": "Mięśniak powinien zostać umocowany do dwóch klipsów po obu stronach modułu do ginekologii. Uwaga: mięśniak powinien być jednym kawałkiem silikonu, i nie powinien zostać pomylony z torbielą jajnika która wygląda identycznie ale jest wypełniona płynem.",
         "es": "Clip the FiBroide en los dos clips en los lados del módulo de ginecología. NOTA: El fibroide se debe hacer de una sola pieza de silicona y no se confunda con el quiste ovárico que parece idéntico, pero está lleno de líquido.",
-        "zh-cn": "将肌瘤夹在妇科模块两侧的两个夹子中。注意：肌瘤应由一块硅胶中制成，而不是误认为卵巢囊肿，卵巢囊肿看起来相同但充满液体。",
-        "ja": "gynecologyモジュールの側面の2つのクリップにフィブロイドをクリップします。注：繊維状は単一のシリコーンから作られており、同一のように見えるが流体で満たされる卵巣嚢胞の間違いはない。"
+        "zh-cn": "将肌瘤夹在妇科模块侧面的两个夹子中。注意：肌瘤应由一块有机硅制成，不要误认为看起来相同但充满液体的卵巢囊肿。",
+        "ja": "子宮筋腫を婦人科モジュールの側面にある2つのクリップにクリップします。注：子宮筋腫は、シリコンの単一の部分で作られ、同一に見えるが液体で満たされている卵巣嚢胞と間違えないでください。",
+        "hu": "Keverje el a fibroidot a nőgyógyászati ​​modul oldalán lévő két klipbe. MEGJEGYZÉS: A fibroidot egyetlen szilikondarabból kell készíteni, és nem téveszteni kell a petefészek cisztát, amely azonosnak tűnik, de folyadékkal tele van."
     }
 }

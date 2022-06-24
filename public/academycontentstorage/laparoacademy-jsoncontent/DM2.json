@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "dexterity_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "dexterity_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,55 @@
             "proficiency": 150
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "DM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "ball:10",
+        " lid:1"
     ],
     "name": {
         "en": "Object Hand-Off Between Instruments",
         "pl": "Przekazywanie Obiektów Pomiędzy Instrumentami",
         "es": "Entrega de objetos entre instrumentos",
-        "zh-cn": "仪器之间的对象交出",
-        "ja": "器具間のオブジェクトハンドオフ"
+        "zh-cn": "仪器之间的对象交接",
+        "ja": "楽器間のオブジェクトハンドオフ",
+        "hu": "Objektum átadása a műszerek között"
     },
     "skills": {
         "en": "Instrument Collaboration, Instrument Control, Ambidexterity",
         "pl": "Współpraca Instrumentami, Kontrola Instrumentów, Zręczność Oburęczna",
         "es": "Colaboración del instrumento, control de instrumentos, ambidexteridad.",
-        "zh-cn": "仪器协作，仪器控制，坐标",
-        "ja": "機器のコラボレーション、計測器制御、AMBIDEXTARITY"
+        "zh-cn": "仪器协作，仪器控制，灵活性",
+        "ja": "機器のコラボレーション、機器制御、両手利き",
+        "hu": "Eszközök együttműködése, hangszervezérlés, ambidexteritás"
     },
     "description": {
         "en": "To execute most laparoscopic procedures it is important to precisely and accurately collaborate between the two instruments while handing off needles, holding tissues and performing other actions. Note how difficult it can be to execute one maneuver with one instrument while holding the other still.",
         "pl": "Aby wykonać większość zabiegów laparoskopowych, ważna jest precyzyjna i dokładna współpraca obu instrumentów podczas podawania igieł, przytrzymywania tkanek i wykonywania innych czynności. Zwróć uwagę, jak trudne może być wykonanie jednego manewru jednym instrumentem, trzymając drugi nieruchomo. ",
         "es": "Para ejecutar la mayoría de los procedimientos laparoscópicos, es importante colaborar con precisión y precisión entre los dos instrumentos mientras se entrega a las agujas, sosteniendo los tejidos y realizando otras acciones. Tenga en cuenta lo difícil que puede ser ejecutar una maniobra con un instrumento mientras sostiene el otro quieto.",
-        "zh-cn": "为了执行大多数腹腔镜手术，重要的是在两种仪器之间精确准确地协作，同时递送针头，持有组织并执行其他行动。请注意，在握住另一个仪器时，可以使用一个仪器执行一个机动才能进行多么困难。",
-        "ja": "ほとんどの腹腔鏡下手順を実行するには、針を渡しながら2つの機器の間で正確かつ正確に協力し、組織を保持し、他の行動を実行することが重要です。もう1つの楽器を持っているときに1つの機器で1つの操作を実行することが困難です。"
+        "zh-cn": "为了执行大多数腹腔镜程序，重要的是要精确，准确地在两种仪器之间进行合作，同时交出针头，握住组织并执行其他动作。请注意，在持有另一个乐器的同时，用一种乐器执行一个操作是多么困难。",
+        "ja": "ほとんどの腹腔鏡手順を実行するには、針を引き渡し、組織を保持し、他のアクションを実行しながら、2つの楽器間で正確かつ正確に協力することが重要です。もう1つの機器をまだ保持しながら、1つの機器で1つの操作を実行することがどれほど難しいかに注意してください。",
+        "hu": "A legtöbb laparoszkópos eljárás végrehajtásához fontos, hogy pontosan és pontosan együttműködjünk a két eszköz között, miközben tűket adnak, szöveteket tartanak és egyéb műveleteket hajtanak végre. Vegye figyelembe, milyen nehéz lehet az egyik manőver végrehajtása az egyik eszközzel, miközben a másikot még mindig tartja."
     },
     "instructions": {
         "en": "Use the grasper to grab the plastic balls, switch them over to the dissector and then use the grasper to open the lid and place the ball inside the left or right box. Repeat until 4 balls are placed on each side of the box. If possible, keep the lid open while grabbing the next ball.",
         "pl": "Użyj graspera, aby chwytać kolejno plastikowe kulki, przekładaj do disektora, a następnie używaj graspera, aby otworzyć silikonową przykrywkę i umieścić kulkę w lewym lub prawym pudełku. Powtarzaj, aż 4 kulki zostaną umieszczone po każdej stronie pudełka. Jeśli to możliwe, trzymaj pokrywę otwartą podczas chwytania następnej kulki. ",
         "es": "Use el agarre para agarrar las bolas de plástico, enciéndalas al disector y luego use el agarre para abrir la tapa y coloque la bola dentro del cuadro izquierdo o derecho. Repita hasta que se coloquen 4 bolas en cada lado de la caja. Si es posible, mantenga la tapa abierta mientras agarra la siguiente bola.",
-        "zh-cn": "使用抓握抓住塑料球，将它们切换到解剖器，然后使用抓机打开盖子并将球放在左侧或右箱内。重复直到盒子的每一侧放在4个球。如果可能，请在抓住下一个球的同时保持盖子打开。",
-        "ja": "grasperを使用してプラスチックボールをつかみ、それらを解剖器具に切り替えてからgrasperを使用して蓋を開き、ボールを左または右のボックスに入れます。箱の両側に4つのボールが配置されるまで繰り返します。可能であれば、次のボールをつかみながらふたを開いたままにしてください。"
+        "zh-cn": "用抓球抓住塑料球，将其切换到解剖器，然后使用抓孔打开盖子，然后将球放在左右的盒子内。重复直到将4个球放在盒子的每一侧。如果可能的话，请在抓住下一个球的同时保持盖子打开。",
+        "ja": "グレーパーを使用してプラスチック製のボールをつかみ、分離器に切り替えてから、グラスパーを使用して蓋を開けて左または右のボックスにボールを置きます。ボックスの両側に4つのボールが置かれるまで繰り返します。可能であれば、次のボールをつかんでいる間、ふたを開いたままにしてください。",
+        "hu": "Használja a Grasper -t, hogy megragadja a műanyag golyókat, kapcsolja át őket a boncolóra, majd a Grasper segítségével nyissa ki a fedelet, és helyezze a labdát a bal vagy a jobb oldali dobozba. Ismételje meg, amíg 4 golyót nem helyeznek a doboz mindkét oldalára. Ha lehetséges, tartsa nyitva a fedelet, miközben megragadja a következő labdát."
     },
     "preparation": {
         "en": "Place 10 balls in the center basket of the Dexterity Module.",
         "pl": "Umieść 10 kulek w środkowym koszu Modułu Zręczności. ",
         "es": "Coloque 10 bolas en la canasta central del módulo de destreza.",
-        "zh-cn": "将10个球放在Dexterity模块的中心篮子里。",
-        "ja": "機器のセンターバスケットに10ボールを入れる。"
+        "zh-cn": "将10球放在敏捷模块的中心篮子中。",
+        "ja": "Dexterityモジュールの中央バスケットに10個のボールを置きます。",
+        "hu": "Helyezzen 10 golyót az ügyességi modul középső kosárjába."
     }
 }

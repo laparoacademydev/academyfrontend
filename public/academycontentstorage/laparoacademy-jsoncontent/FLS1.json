@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,54 @@
             "proficiency": 48
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "FLS1",
     "allowedInstruments": [
         "dissector",
         "dissector"
     ],
+    "accessories": [
+        "fls_triangle: 6"
+    ],
     "name": {
         "en": "Peg Transfer Task",
         "pl": "Przenoszenie Kołków",
-        "es": "Tarea de transferencia de PEG",
+        "es": "Tarea de transferencia de Pegs",
         "zh-cn": "PEG转移任务",
-        "ja": "PEG転送タスク"
+        "ja": "PEG転送タスク",
+        "hu": "Rögzítőtranszfer feladat"
     },
     "skills": {
         "en": "FLS, Dexterity, Manipulation",
         "pl": "FLS, Zręczność, Manipulacja",
         "es": "Fls, destreza, manipulación",
-        "zh-cn": "FLS，灵巧，操纵",
-        "ja": "FLS、器用さ、操作"
+        "zh-cn": "FLS，敏捷，操纵",
+        "ja": "FLS、器用さ、操作",
+        "hu": "FLS, ügyesség, manipuláció"
     },
     "description": {
         "en": "This is the first and simplest exercise part of the FLS standard. Six triangles must be moved back and forth, to and from the pegs available. Refer to the video for a tutorial on the best approach. A level of consistent performance should be achieved on two consecutive repetitions and then again on 10 more nonconsecutive repetitions for reinforcement.",
         "pl": "Pierwsza i najprostsza część ćwiczeniowa standardu FLS. Sześć trójkątów musi być przesuniętych tam i z powrotem, do i od dostępnych kołków. Dołączony film pozwoli zapoznać się z najlepszym podejściem. Poziom wyników powinien zostać osiągnięty w dwóch kolejnych natarciach, a następnie ponownie w 10 kolejnych powtórzeniach w celu wzmocnienia.",
         "es": "Esta es la primera y la parte de ejercicio más simple del estándar FLS. Seis triángulos deben moverse hacia adelante y hacia atrás, hacia y desde las clavijas disponibles. Consulte el video para un tutorial sobre el mejor enfoque. Se debe lograr un nivel de desempeño constante en dos repeticiones consecutivas y, de nuevo, en 10 repeticiones más inexactivas para el refuerzo.",
-        "zh-cn": "这是FLS标准的第一部分和最简单的运动部分。必须以可用的挂钩来回移动六个三角形。有关最佳方法的教程，请参阅视频。应在连续两次重复中实现一致的性能水平，然后再次达到10个不需要的加强重复。",
-        "ja": "これはFLS規格の最初の、最も単純な運動部分です。 6つの三角形は、利用可能なPEGとの間で前後に移動する必要があります。最良のアプローチに関するチュートリアルのビデオを参照してください。一貫したパフォーマンスのレベルは、2つの連続した繰り返しで達成され、次に補強のための10以上の非連続繰り返しについても達成されるべきです。"
+        "zh-cn": "这是FLS标准的第一个也是最简单的运动部分。必须来回移动六个三角形，往返可用的钉子。请参阅视频以获取有关最佳方法的教程。在两次连续重复中应达到一致的绩效水平，然后在另外10个非连续重复方面再次获得强化。",
+        "ja": "これは、FLS標準の最初で最も単純なエクササイズ部分です。 6つの三角形を、利用可能なPEGとの間で前後に移動する必要があります。最良のアプローチに関するチュートリアルについては、ビデオを参照してください。 2つの連続した繰り返しで一貫したパフォーマンスを達成し、さらに強化のためにさらに10回の非継続的な繰り返しで再び達成する必要があります。",
+        "hu": "Ez az FLS szabvány első és legegyszerűbb gyakorlati része. Hat háromszöget kell áthelyezni oda -vissza, a rendelkezésre álló csapokba és onnan. Lásd a videót a legjobb megközelítésről szóló bemutatóhoz. Két egymást követő ismétlésnél, majd ismét 10 nem konszektív ismétlést kell elérni a következetes teljesítmény szintjén."
     },
     "instructions": {
         "en": "This task is performed with 2 dissectors. Pick up 6 triangles on the left and hand them over to the right instrument and then drop them onto the pegs on the right. This must then be followed in the opposite direction and all 6 triangles should be returned to the pegs on the left. The task should be practiced until it can be performed in 48 seconds with no objects dropped outside of the field of view. ",
         "pl": "Zadanie wykonywane jest za pomocą 2 disektorów. 6 trójkątów musi być podnoszone kolejno lewym instrumentem i przekazywane prawemu instrumentowi, a następnie powinny być umieszczone na kołkach po prawej stronie. Następnie należy postępować w przeciwnym kierunku i wszystkie 6 trójkątów należy z powrotem umieścić na kołkach po lewej stronie. Zadanie należy ćwiczyć do momentu, w którym będzie można je wykonać w ciągu 48 sekund bez upuszczenia żadnych obiektów poza pole widzenia. ",
         "es": "Esta tarea se realiza con 2 disectores. Recoge 6 triángulos a la izquierda y entreguelos hacia el instrumento correcto y luego los soltó en las clavijas a la derecha. Esto debe seguirse en la dirección opuesta y los 6 triángulos deben devolverse a las clavijas a la izquierda. La tarea debe practicarse hasta que se pueda realizar en 48 segundos sin que no se dejen caer objetos fuera del campo de la vista.",
-        "zh-cn": "此任务是用2个解剖员执行的。在左侧拾取6个三角形，然后将它们交给正确的仪器，然后将它们放在右侧的钉子上。然后必须沿相反方向遵循这一切，所有6个三角形应返回到左侧的钉子。应练习该任务，直到它可以在48秒内执行，没有对象在视野之外丢弃。",
-        "ja": "このタスクは2つの解剖器具を使用して実行されます。左側に6つの三角形を拾い上げて、それらを右側の楽器に取り上げてから、右側のペグに落とします。その後、これは反対方向に続く必要があり、6つの三角形はすべて左側のPEGに戻されるべきです。タスクは、視野の外側にオブジェクトが削除されずに48秒で実行できるまで行われるべきです。"
+        "zh-cn": "此任务是由2个解剖器执行的。在左侧拿起6个三角形，然后将它们交给右侧仪器，然后将它们放在右侧的钉子上。然后必须沿相反的方向遵循，所有6个三角形应返回左侧的钉子。该任务应进行练习，直到可以在48秒内执行，而没有任何物体在视野之外掉落。",
+        "ja": "このタスクは、2つの分析者で実行されます。左側の6つの三角形を拾い、右の楽器に手渡してから、右側のペグにドロップします。次に、これを反対方向にたどり、6つの三角形すべてを左側のペグに戻す必要があります。タスクは、視野の外側にオブジェクトがドロップされることなく、48秒で実行できるまで実践する必要があります。",
+        "hu": "Ezt a feladatot 2 boncolóval hajtják végre. Vegyen fel 6 háromszöget a bal oldalon, adja át a jobb műszerre, majd ejtse le a jobb oldali csapokra. Ezt azután ellenkező irányban kell követni, és mind a 6 háromszöget vissza kell térni a bal oldali csapokhoz. A feladatot addig kell gyakorolni, amíg 48 másodperc alatt nem hajtható végre, és a látómezőn kívül esik tárgyak."
     },
     "preparation": {
         "en": "Place six triangles onto the pegs on the left side of the FLS Peg Transfer platform.",
         "pl": "Sześć trójkątów powinno być umieszczone na kołkach po lewej stronie modułu z kołkami FLS.",
         "es": "Coloque seis triángulos en las clavijas en el lado izquierdo de la plataforma FLS PEG Transfer.",
-        "zh-cn": "将六个三角形放在FLS PEG转移平台左侧的钉子上。",
-        "ja": "FLS PEG転送プラットフォームの左側のPEGに6つの三角形を置きます。"
+        "zh-cn": "将六个三角形放在FLS钉传输平台左侧的钉子上。",
+        "ja": "FLSペグ転送プラットフォームの左側のペグに6つの三角形を置きます。",
+        "hu": "Helyezzen hat háromszöget a csapokra az FLS PEG átviteli platform bal oldalán."
     }
 }

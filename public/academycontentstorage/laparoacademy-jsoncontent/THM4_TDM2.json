@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +127,54 @@
             "proficiency": 420
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "THM",
     "allowedInstruments": [
         "dissector",
         "scissors"
+    ],
+    "accessories": [
+        "tissue_dissection_pad:1"
     ],
     "name": {
         "en": "Sharp Dissection",
         "pl": "Preparowanie na Ostro",
         "es": "Disección aguda",
         "zh-cn": "尖锐的解剖",
-        "ja": "鋭い解剖"
+        "ja": "鋭い解剖",
+        "hu": "Éles boncolás"
     },
     "skills": {
         "en": "Scissors, Dissection",
         "pl": "Nożyczki, Preparowanie",
         "es": "Tijeras, disección",
         "zh-cn": "剪刀，解剖",
-        "ja": "はさみ、解剖"
+        "ja": "はさみ、解剖",
+        "hu": "Olló, boncolás"
     },
     "description": {
         "en": "Laparoscopic scissors are not only used to cut. Because their sharp ends are much more precise and thin they can also be used to dissect tissues with precision.",
         "pl": "Nożyczki laparoskopowe służą nie tylko do cięcia. Ponieważ ich ostre końcówki są znacznie dokładniejsze i cieńsze, mogą być również używane do precyzyjnego preparowania tkanek. ",
         "es": "Las tijeras laparoscópicas no solo se usan para cortar. Debido a que sus extremos afilados son mucho más precisos y delgados, también pueden usarse para diseccionar los tejidos con precisión.",
-        "zh-cn": "腹腔镜剪刀不仅用于切割。因为它们的尖端更精确而薄，因此它们也可用于将组织与精确度分开。",
-        "ja": "腹腔鏡用のはさみはカットするのに使用されるだけではありません。それらの鋭い端ははるかに正確で薄いので、それらは組織を精度で解剖するためにも使用することができる。"
+        "zh-cn": "腹腔镜剪刀不仅用于切割。由于它们的锋利末端更加精确和薄，因此也可以精确地剖析组织。",
+        "ja": "腹腔鏡ハサミは、切断に使用されるだけではありません。それらの鋭い端ははるかに正確で薄いため、組織を正確に解剖するためにも使用できます。",
+        "hu": "A laparoszkópos ollókat nemcsak vágásra használják. Mivel éles végeik sokkal pontosabbak és vékonyabbak, felhasználhatók a szövetek pontossággal történő boncolására is."
     },
     "instructions": {
         "en": "In this exercise you must use scissors to dissect the tissue as much as possible. First, cut the surface tissue, but then insert the scissors closed and open to dissect. Repeat this motion until the entire red X shape is separated from the rest of the tissue and no red tissue remains.",
         "pl": "Nożyczki powinny być użyte aby rozciąć tkankę precyzyjnie na tyle na ile to możliwe bez cięcia. Najpierw odetnij tkankę powierzchniową, a następnie włóż nożyczki zamknięte i otwieraj aby preparować na ostro. Powtarzaj ten ruch, aż cały czerwony kształt X zostanie oddzielony od reszty tkanki i żadna czerwona tkanka nie pozostanie.",
         "es": "En este ejercicio, debe usar tijeras para diseccionar el tejido lo más posible. Primero, corte el tejido de la superficie, pero luego inserte las tijeras cerradas y se abren para diseccionar. Repita este movimiento hasta que toda la forma roja X esté separada del resto del tejido y no queda un tejido rojo.",
-        "zh-cn": "在本练习中，您必须使用剪刀尽可能地将组织剖析。首先，切割表面组织，然后将剪刀闭合并打开以剖析。重复该运动，直到整个红色X形与组织的其余部分分离，并且没有红色组织。",
-        "ja": "この演習では、ティッシュをできるだけ解剖するためにはさみを使わなければなりません。まず、表面組織を切断しますが、はさみを閉じて開くように挿入します。赤いX形状全体がその他の組織から分離され、赤い組織が残るまでこの動きを繰り返します。"
+        "zh-cn": "在本练习中，您必须使用剪刀尽可能地剖析组织。首先，切开表面组织，然后将剪刀插入闭合并打开以进行剖析。重复此运动，直到整个红色的X形与其余的组织分开，并且没有红色组织。",
+        "ja": "この演習では、ハサミを使用して組織を可能な限り分析する必要があります。まず、表面組織を切断しますが、閉じて開いたハサミを挿入して解剖します。赤いx形全体が他の組織から分離され、赤い組織が残っていないまでこの動きを繰り返します。",
+        "hu": "Ebben a gyakorlatban ollóval kell használni a szövetet a lehető legnagyobb mértékben boncoláshoz. Először vágja le a felszíni szövetet, de helyezze be az olló bezárását és nyitva, hogy boncoljon. Ismételje meg ezt a mozgást, amíg a teljes piros X alak el van választva a szövet többi részétől, és nincs vörös szövet."
     },
     "preparation": {
         "en": "Insert the Tissue Dissection component into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
         "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. ",
         "es": "Inserte el componente de disección del tejido en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen.",
-        "zh-cn": "将组织解剖组件插入组织保持器模块中。使用螺钉确保组织如图所示。",
-        "ja": "組織の解剖成分を組織ホルダーモジュールに挿入します。診断されているように、組織がぴったりされていることを確認するためにネジを使用してください。"
+        "zh-cn": "将组织解剖成分插入组织支架模块中。使用螺钉确保如图所示的那样紧密地拉伸组织。",
+        "ja": "組織解剖成分を組織ホルダーモジュールに挿入します。ネジを使用して、写真のように組織がぴったりと伸びていることを確認してください。",
+        "hu": "Helyezze be a szöveti boncolási komponenst a szöveti modulba. Használja a csavarokat, hogy megbizonyosodjon arról, hogy a szövet a képen látható módon feszesen van -e nyújtva."
     }
 }

@@ -1,0 +1,412 @@
+{
+    "id": "edu23_nephrectomy",
+    "content": [
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Nephrectomy is the surgical removal of a kidney and it is done in response to a number of kidney diseases such as kidney cancer. The procedure is also sometimes performed to remove a normal healthy kidney from a donor.",
+                "pl": "Nefrektomia jest chirurgicznym usunięciem netki. Wykonuje się ją w odpowiedzi na szereg chorób nerek bądź na raka występującego w samej nerce. Procedura jest również czasami wykonywana w celu usunięcia normalnej zdrowej nerki od dawcy, wtedy ważne jest też usunięcie jej przez większy otwór.",
+                "es": "La nefrectomía es la eliminación quirúrgica de un riñón y se realiza en respuesta a una serie de enfermedades renales como el cáncer de riñón. El procedimiento también a veces se realiza para eliminar un riñón sano normal de un donante.",
+                "zh-cn": "肾切除术是肾脏的手术切除，这是针对多种肾脏疾病（例如肾癌）进行的。有时还会执行该过程以从供体中去除正常健康的肾脏。",
+                "ja": "腎摘出術は腎臓の外科的除去であり、腎臓がんなどの多くの腎臓病に応じて行われます。また、この手順は、ドナーから通常の健康な腎臓を除去するために行われることもあります。",
+                "hu": "A nephrectomia egy vese műtéti eltávolítása, és számos vesebetegségre, például vese rákra reagálva történik. Az eljárást néha elvégzik a normál egészséges vesé eltávolítására a donorból."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "History of the Procedure",
+                "pl": "Historia Zabiegu",
+                "es": "Historia del procedimiento",
+                "zh-cn": "程序的历史",
+                "ja": "手順の歴史",
+                "hu": "Az eljárás története"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Virtual Nephrectomy",
+                "pl": "Witualna Nefrektomia",
+                "es": "Nefrectomía virtual",
+                "zh-cn": "虚拟肾切除术",
+                "ja": "仮想腎摘出術",
+                "hu": "Virtuális nephrektómia"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The virtual exercise featured in Laparo Apex is a total radical nephrectomy, which is usually done in response to cancer growth. In this virtual procedure, the objective is to locate the kidney and to clip all the vessels which are connected to the organ and then sever them to be able to remove the kidney. Although simple in principle, the procedure is time consuming and difficult because before accessing the organ it is also necessary to mobilize the colon and the spleen apart from the kidney while keeping the kidney pouch intact. Also all the vessels leading into and out of the kidney must be identified and properly sealed in the right order before being cut which means applying clips with confidence and precision.",
+                "pl": "Wirtualne ćwiczenie przedstawione w poniżej to całkowita radykalna nefrektomia, którą zwykle wykonuje się w odpowiedzi na raka. Celem tej wirtualnej procedury jest zlokalizowanie nerki i zaciśnięcie wszystkich naczyń połączonych z narządem, a następnie ich odcięcie w celu usunięcia nerki. Choć w swoim założeniu procedura jest prostym zabiegiem, jest ona również czasochłonna i trudna ponieważ przed uzyskaniem dostępu do narządu konieczne jest również zmobilizowanie okrężnicy i śledziony obok nerki. Musi to zostać wykonane przy jednoczesnym utrzymaniu torebki nerkowej w stanie nienaruszonym. Wszystkie naczynia prowadzące do i wychodzące z nerki muszą zostać też zidentyfikowane i odpowiednio uszczelnione we właściwej kolejności przed wycięciem, co z kolei oznacza konieczność precyzyjnego nakładania klipsów i zrozumienia anatomii przez chirurga.",
+                "es": "El ejercicio virtual presentado en el apex de laparo es una nefrectomía radical total, que generalmente se realiza en respuesta al crecimiento del cáncer. En este procedimiento virtual, el objetivo es localizar el riñón y recortar todos los recipientes que están conectados al órgano y luego cortarlos para poder eliminar el riñón. Aunque en principio simple, el procedimiento lleva mucho tiempo y es difícil porque antes de acceder al órgano también es necesario movilizar el colon y el bazo aparte del riñón mientras mantiene intacta la bolsa renal. Además, todos los vasos que conducen dentro y fuera del riñón deben identificarse y sellar adecuadamente en el orden correcto antes de cortarse, lo que significa aplicar clips con confianza y precisión.",
+                "zh-cn": "Laparo Apex中的虚拟运动是总体肾切除术，通常是为了响应癌症的生长而进行。在此虚拟过程中，目的是定位肾脏并夹住所有连接到器官的容器，然后将其切断以消除肾脏。尽管原则上很简单，但该过程耗时且困难，因为在访问器官之前，还必须动员结肠和脾脏以外的肾脏，同时保持肾袋完整。同样，必须在切割之前以正确的顺序识别所有通向肾脏的血管并正确密封，这意味着要置信和精确地施加夹子。",
+                "ja": "Laparo Apexで紹介されている仮想演習は、総根骨切除術であり、通常は癌の成長に応じて行われます。この仮想手順では、目的は腎臓を見つけ、臓器に接続されているすべての容器を切り取り、腎臓を除去できるように切断することです。原則としては単純ですが、臓器にアクセスする前に腎臓ポーチをそのままに保ちながら腎臓とは別に結腸と脾臓を動員する必要があるため、手順は時間がかかり、困難です。また、腎臓に出入りするすべての容器を識別し、正しい順序で適切に密閉する必要があります。",
+                "hu": "A Laparo Apexben bemutatott virtuális gyakorlat egy teljes radikális nephrectomia, amelyet általában a rák növekedésére reagálnak. Ebben a virtuális eljárásban a cél az, hogy megtalálja a vesét, és rögzítse az összes edényt, amelyek a szervhez kapcsolódnak, majd megszakítják őket, hogy eltávolítsák a vesét. Noha elvileg egyszerű, az eljárás időigényes és nehéz, mivel a szervhez való hozzáférés előtt a vese és a lép mobilizálásához is szükség van a vese mellett, miközben a vese tasakot érintetlenül tartja. A vesebe és onnan kifelé vezető összes edényt szintén meg kell határozni, és megfelelő sorrendben kell lezárni, mielőtt vágnák, ami azt jelenti, hogy a klipeket magabiztosan és pontossággal kell alkalmazni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Beginning the procedure",
+                "pl": "Początek Procedury",
+                "es": "Comenzando el procedimiento",
+                "zh-cn": "开始过程",
+                "ja": "手順の開始",
+                "hu": "Az eljárás megkezdése"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "First, the patient is positioned in supine position and a catheter is placed into the ureter of the kidney selected for removal. After introducing a camera port and inducing pneumoperitoneum in the usual manner, two laparoscopy ports are placed in a standard contralateral configuration, one on the umbilicus and one along the midclavicular plane. Another port is also placed slightly below the umbilicus. The patient is then placed on one side, with the target kidney facing upwards. For more detailed information on the exact configuration consult the relevant literature.",
+                "pl": "Najpierw pacjent jest ułożony w pozycji leżącej, a cewnik wprowadzany jest do moczowodu nerki wybranej do usunięcia. Po wprowadzeniu portu kamery i wywołaniu odmy otrzewnowej w standardowy sposób, dwa porty laparoskopowe umieszcza się w konfiguracji kontralateralnej, jeden na pępku, a drugi wzdłuż płaszczyzny środkowoobojczykowej. Kolejny port znajduje się również nieco poniżej pępka. Pacjent jest następnie umieszczany na boku, z docelową nerką skierowaną do góry. Więcej szczegółowych informacji na temat dokładnego ułożenia i przygotowania do zabiegu można znaleźć w odpowiedniej literaturze.",
+                "es": "Primero, el paciente se coloca en posición supina y se coloca un catéter en el uréter del riñón seleccionado para la extracción. Después de introducir un puerto de cámara e inducir neumoperitoneo de la manera habitual, se colocan dos puertos de laparoscopia en una configuración contralateral estándar, uno en el umbilicus y otro a lo largo del plano mediano. Otro puerto también se coloca ligeramente debajo del umbilicus. Luego se coloca al paciente en un lado, con el riñón objetivo hacia arriba. Para obtener información más detallada sobre la configuración exacta, consulte la literatura relevante.",
+                "zh-cn": "首先，将患者放置在仰卧位，并将导管放入被选中的肾脏输尿管中。在以通常的方式引入相机端口并诱导肺炎肺炎后，将两个腹腔镜检查端口放置在标准的对侧配置中，一个在脐带上，另一个沿着锁骨中部平面。另一个端口也位于脐带下方。然后将患者放在一侧，目标肾面对向上。有关确切配置的更多详细信息，请咨询相关文献。",
+                "ja": "まず、患者は仰pine位に位置し、カテーテルが除去のために選択された腎臓の尿管に配置されます。カメラポートを導入し、通常の方法で肺炎類を誘導した後、2つの腹腔鏡検査ポートが標準的な対側構成に配置されます。別のポートも臍のわずかに下に配置されています。その後、患者は片側に置かれ、標的腎臓が上向きになります。正確な構成の詳細については、関連する文献を参照してください。",
+                "hu": "Először, a beteget fekvő helyzetben helyezik el, és egy katétert helyeznek el a vese húgycsőjébe, amelyet az eltávolítás céljából kiválasztottak. Miután bevezetett egy kameraport és a pneumoperitoneum szokásos módon indukálta, két laparoszkópos portot helyeznek el egy standard kontralaterális konfigurációba, az egyik a köldökön és egy a középkklavikuláris sík mentén. Egy másik port is kissé a köldökév alatt helyezkedik el. A beteget ezután az egyik oldalra helyezik, a cél vese felfelé nézzen. A pontos konfigurációval kapcsolatos részletesebb információkért olvassa el a vonatkozó irodalmat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Dissecting the Toldt Fascia",
+                "pl": "Preparowanie powięzi Toldt'a",
+                "es": "Diseccionar la fascia tellada",
+                "zh-cn": "解剖Tellt Fastia",
+                "ja": "伝えられた筋膜を分析します",
+                "hu": "A tallt fascia boncolása"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The virtual procedure begins with the camera inserted into the peritonral cavity and propped up against a layer of tissues with the bowel already partially moved out of the way and severed from the ligaments which normally hold it to the abdominal wall. The first step is to find the line of Toldt. This is a line where the bowel joins the abdominal wall and it must be dissected to be able to mobilize the colon medially. After dissecting and cutting the line of Toldt, the colon must be entirely mobilized so that it can fall away entirely.",
+                "pl": "Wirtualny zabieg rozpoczyna się od umieszczenia kamery w jamie otrzewnej i oparcia jej na warstwie tkanek z jelitem już częściowo przesuniętym i odciętym od więzadeł, które normalnie trzymają go na ścianie brzucha. Pierwszym krokiem jest znalezienie linii Toldta. Jest to linia, w której jelito łączy się ze ścianą jamy brzusznej i należy ją preparować, aby móc przyśrodkowo zmobilizować okrężnicę. Po rozcięciu bądź wypreparowaniu linii Toldta, okrężnica musi być całkowicie zmobilizowana w taki sposób mogła całkowicie odpaść.",
+                "es": "El procedimiento virtual comienza con la cámara insertada en la cavidad peritonral y apuntalada contra una capa de tejidos con el intestino ya se movió parcialmente y se cortó de los ligamentos que normalmente lo mantienen en la pared abdominal. El primer paso es encontrar la línea de Tellt. Esta es una línea en la que el intestino se une a la pared abdominal y debe diseccionarse para poder movilizar el colon medialmente. Después de diseccionar y cortar la línea de Tellt, el colon debe movilizarse por completo para que pueda caer por completo.",
+                "zh-cn": "虚拟过程始于摄像机插入腹膜腔内，并支撑在一层组织上，肠子已经部分移开，并从通常将其固定在腹壁上的韧带中切断。第一步是找到Tellt的路线。这是一条肠道连接腹壁的线，必须剖析它以便在内侧动员结肠。解剖和切割了Tellt的线后，必须完全动员结肠，以使其完全掉落。",
+                "ja": "仮想手順は、カメラが腹膜空洞に挿入され、腸が既に部分的に邪魔にならないようにして組織の層に支えられ、通常は腹壁に保持する靭帯から切断されます。最初のステップは、告知されたラインを見つけることです。これは、腸が腹壁に結合する線であり、コロンを内側に動員できるように分析する必要があります。告知されたラインを分析して切断した後、コロンは完全に動員され、完全に脱落するようにする必要があります。",
+                "hu": "A virtuális eljárás a peritonrális üregbe beillesztett kamerával kezdődik, és egy szövetrétegre támaszkodik, és a bél már részben elmozdult az útból, és levágott a ligamentumoktól, amelyek általában a hasi falhoz tartják. Az első lépés a Tallt vonalának megtalálása. Ez egy olyan vonal, ahol a bél csatlakozik a hasfalhoz, és boncolni kell, hogy a vastagbél mediálisan mozgósítson. A TOLLT vonalának boncolása és vágása után a vastagbélnek teljesen mobilizálni kell, hogy az teljesen elesjen."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Coloparietal Mobilization",
+                "pl": "Mobilizacja Okrężnicy",
+                "es": "Movilización coloparietal",
+                "zh-cn": "共核动员",
+                "ja": "コロパリエタル動員",
+                "hu": "Koloparietális mozgósítás"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "Depending on the side of the kidney, the colon will be visible on one side and it must be separated from the connecting tissues to be properly mobilized. Starting at the summit of the sigmoid loop, the surgeon must incise the paracolic gutter using electrocautery to reach the retroperitoneal space. This then allows the descending colon to be mobilized so that it can be pushed out of the way so that it will become possible later to gain access to the ureter and the kidney.",
+                "pl": "W zależności od strony nerki okrężnica jest uwidoczna z jednej strony i musi być oddzielona od tkanek łączących, w taki sposób aby mogła zostać prawidłowo zmobilizowana. Zaczynając od szczytu pętli esicy, chirurg musi naciąć rynnę parakoliczną za pomocą elektrokoagulacji, aby dotrzeć do przestrzeni zaotrzewnowej. To z kolei umożliwia mobilizację okrężnicy zstępującej w taki sposób aby można ją było odepchnąć na bok.",
+                "es": "Dependiendo del lado del riñón, el colon será visible en un lado y debe separarse de los tejidos de conexión para movilizarse correctamente. Comenzando en la cumbre del bucle sigmoide, el cirujano debe incisificar la canaleta paracólica usando electrocauteria para alcanzar el espacio retroperitoneal. Esto luego permite que el colon descendente se movilice para que pueda expulsarse del camino para que sea posible más adelante acceder al uréter y al riñón.",
+                "zh-cn": "根据肾脏的一侧，将结肠在一侧可见，必须与连接组织分开以正确动员。从Sigmoid循环的山顶开始，外科医生必须使用电孔仪切开抛物线排水沟才能到达腹膜后空间。然后，这使下降的结肠被动员起来，以便可以将其推开，以便以后可以进入输尿管和肾脏。",
+                "ja": "腎臓の側面によっては、結腸が片側に表示され、適切に動員されるために接続組織から分離する必要があります。シグモイドループの頂上から始まって、外科医は電気鏡を使用してパラコリック溝を発して、後腹膜空間に到達する必要があります。これにより、下降コロンを動員することで、邪魔にならないようにして、尿管と腎臓にアクセスできるようになります。",
+                "hu": "A vese oldalától függően a vastagbél egyik oldalán látható lesz, és azt el kell választani a megfelelő mobilizáláshoz az összekötő szövetektől. A Sigmoid hurok csúcstalálkozójától kezdve a sebésznek az elektrokauteria segítségével meg kell bemetsznie a parakolikus ereszcsatornát, hogy elérje a retroperitoneális térét. Ez lehetővé teszi a csökkenő vastagbél mozgósítását, hogy kiszabadítsák az útból, hogy később lehetséges legyen a húgycső és a veséhez való hozzáférés."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Splenic Mobilization",
+                "pl": "Mobilizacja Śledziony",
+                "es": "Movilización esplénica",
+                "zh-cn": "脾动员",
+                "ja": "脾臓の動員",
+                "hu": "Lépmobilizálás"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "The splenic flexure which holds the spleen must also be mobilized in the same way as the coloparietal mobilization. This must be done without opening the splenorenal ligament. ",
+                "pl": "Zgięcie śledzionowe, które utrzymuje śledzionę, również musi zostać zmobilizowane w ten sam sposób. Należy to zrobić bez otwierania więzadła śledzionowego.",
+                "es": "La flexión esplénica que sostiene el bazo también debe movilizarse de la misma manera que la movilización coloparietal. Esto debe hacerse sin abrir el ligamento esplenorenal.",
+                "zh-cn": "保持脾脏的脾弯曲也必须以与Coloparietal动员相同的方式进行动员。必须在不打开脾韧带的情况下完成此操作。",
+                "ja": "脾臓を保持する脾臓の屈曲も、腸間膜動員と同じ方法で動員されなければなりません。これは、脾腫靭帯を開かずに行う必要があります。",
+                "hu": "A lépt tartó lép hajlítás ugyanúgy mobilizálni kell, mint a koloparietális mozgósítás. Ezt a splenorenalis ligamentum kinyitása nélkül kell megtenni."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Following the Ureter",
+                "pl": "Podążanie za Moczowodem",
+                "es": "Siguiendo al uréter",
+                "zh-cn": "跟随输尿管",
+                "ja": "尿管に続いて",
+                "hu": "A húgycső után"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After dissection of the line of Toldt and mobilizing the colon and spleen, the surgeon must find the ureter. The ureter can then be used to find the hilum of the kidney itslef. The ureter should be secured with 5mm locking forceps. The hilum will be covered with a layer of tissue which must be dissected to be exposed.",
+                "pl": "Po wycięciu linii Toldta i uruchomieniu okrężnicy i śledziony chirurg musi znaleźć moczowód. Moczowód może być następnie użyty do znalezienia wnęki w samej nerce czyli miejsca do którego wchodzą naczynia. Moczowód należy zabezpieczyć kleszczami blokującymi 5 mm. Wnęka jest pokryta warstwą tkanki tłuszczowej i należy ją preparować w taki sposób, aby możliwe stawało się odsłonięcie naczyń.",
+                "es": "Después de la disección de la línea de Tellt y movilizar el colon y el bazo, el cirujano debe encontrar el uréter. El uréter se puede usar para encontrar el hilio del riñón itslef. El uréter debe asegurarse con pinzas de bloqueo de 5 mm. El hilio se cubrirá con una capa de tejido que debe disecarse para ser expuesto.",
+                "zh-cn": "解剖tellt并动员结肠和脾脏后，外科医生必须找到输尿管。然后，可以使用输尿管来找到肾脏islef的hilum。输尿管应用5mm的锁紧镊子固定。 Hilum将被一层必须揭开的组织覆盖。",
+                "ja": "toldのラインを解剖し、結腸と脾臓を動員した後、外科医は尿管を見つけなければなりません。その後、尿管を使用して、腎臓Itslefのhilumを見つけることができます。尿管は5mmロック鉗子で固定する必要があります。 Hilumは、露出するために解剖する必要がある組織の層で覆われます。",
+                "hu": "Miután boncolják a Tallt vonalát, és a vastagbél és a lép mozgósítása, a sebésznek meg kell találnia a húgycsontot. A húgycső ezután felhasználható a vese hilumának megtalálására. A húgycserét 5 mm -es reteszelő csipeszekkel kell rögzíteni. A hilumot egy szövetréteg borítja, amelyet boncolni kell, hogy kitéve legyen."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Applying clips and cutting vessels",
+                "pl": "Zakładanie klipsów i naczyń do cięcia",
+                "es": "Aplicar clips y recipientes de corte",
+                "zh-cn": "施加夹子和切割容器",
+                "ja": "クリップの適用と船舶の切断",
+                "hu": "Klipkek és hajóvágó edények alkalmazása"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "First, three endosurgical clips are applied on the distal portion of each artery to cut off the blood flow to the kidney. The three more clips must be applied to the proximal portion of each artery to create the space at which these vessels can be severed. Next, this must be repeated with more endosurgical clips applied to each vein exiting the kidney. Finally, two clips must be applied to the ureter so that it can be severed along with all the vessels going into the kidney. This clipping and cutting is the most time consuming stage of the procedure, and the surgeon must take special care to accurately identify and precisely cut the vessels in the right order.",
+                "pl": "Najpierw na dystalnej części każdej tętnicy zakłada się trzy klipsy endochirurgiczne, aby odciąć dopływ krwi do nerki. Trzy kolejne zaciski należy przyłożyć do proksymalnej części każdej tętnicy, aby stworzyć przestrzeń, na której te naczynia będą mogły zostać odcięte. Następnie należy to powtórzyć, przykładając więcej zacisków endochirurgicznych do każdej żyły wychodzącej z nerki. Na koniec, do moczowodu należy założyć dwa zaciski, aby można było go odciąć wraz ze wszystkimi naczyniami wchodzącymi do nerki. To przycinanie i cięcie jest najbardziej czasochłonnym etapem zabiegu, a chirurg musi zachować szczególną ostrożność, aby dokładnie zidentyfikować i precyzyjnie wyciąć naczynia we właściwej kolejności.",
+                "es": "Primero, se aplican tres clips endosuros en la porción distal de cada arteria para cortar el flujo sanguíneo al riñón. Los tres clips más deben aplicarse a la porción proximal de cada arteria para crear el espacio en el que se pueden cortar estos vasos. A continuación, esto debe repetirse con más clips endosuros aplicados a cada vena que sale del riñón. Finalmente, se deben aplicar dos clips al uréter para que pueda cortarse junto con todos los vasos que entran en el riñón. Este recorte y corte es la etapa más lenta del procedimiento, y el cirujano debe tener especial cuidado para identificar con precisión y cortar con precisión las embarcaciones en el orden correcto.",
+                "zh-cn": "首先，在每个动脉的远端都应用了三个胸腔夹，以切断流向肾脏的血液。必须将另外三个夹子应用于每个动脉的近端部分，以创建可以切断这些血管的空间。接下来，必须将其重复使用，并在肾脏出发的每个静脉上使用更多的内膜夹。最后，必须将两个夹子应用于输尿管，以便可以将其与所有进入肾脏的容器一起切断。这种剪裁和切割是手术过程中最耗时的阶段，外科医生必须特别注意以正确的顺序确定和精确削减船只。",
+                "ja": "まず、各動脈の遠位部分に3つの内術のクリップが適用され、腎臓への血流を遮断します。さらに3つのクリップを各動脈の近位部分に適用して、これらの血管を切断できる空間を作成する必要があります。次に、これは、腎臓を出る各静脈により多くの内科的クリップを適用して繰り返す必要があります。最後に、腎臓に入るすべての容器とともに切断できるように、2つのクリップを尿管に適用する必要があります。このクリッピングと切断は、手順の最も時間のかかる段階であり、外科医は正しい順序で容器を正確に特定し、正確に切断するために特別な注意を払わなければなりません。",
+                "hu": "Először három endosurgikus klipet alkalmazunk az egyes artériák disztális részére, hogy levágják a vese véráramát. A három további klipet alkalmazni kell az egyes artériák proximális részére, hogy megteremtsék azt a helyet, ahol ezeket az edényeket meg lehet vágni. Ezután ezt meg kell ismételni, ha több endosurgiai klipet alkalmaznak, amelyet az egyes vénák kilépnek a veséből. Végül két klipet kell alkalmazni a húgycsőre, hogy az elválasztható legyen, és az összes edény a vesébe megy. Ez a vágás és vágás az eljárás leginkább időigényes stádiuma, és a sebésznek különös figyelmet kell fordítania arra, hogy pontosan azonosítsa és pontosan vágja a hajókat a megfelelő sorrendben."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "header",
+            "text": {
+                "en": "Removing the Kidney and Finishing",
+                "pl": "Usunięcie Nerki i Zakończenie",
+                "es": "Eliminar el riñón y terminar",
+                "zh-cn": "去除肾脏并完成",
+                "ja": "腎臓を除去して仕上げます",
+                "hu": "A vese eltávolítása és befejezése"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "paragraph",
+            "text": {
+                "en": "After severing all the vessels and ureter of the kidney the organ is free to be removed. Only the connecting tissues have to be separated to mobilize the kidney. An endoscopic bag is introduced into the operating area through an 11mm port so that the kidney can then be pushed into the sack. After sealing the bag it is possible to then use a morcellator to fragment and aspirate the entire kidney through the opening. The empty bag can then be removed from the abdominal cavity and the procedure can be finished by closing the ports in standard procedure.",
+                "pl": "Po przecięciu wszystkich naczyń i moczowodu nerki możliwe jest swobodne usunięcie narządu. Torebka endoskopowa jest wprowadzana do obszaru operacyjnego przez port 11 mm, dzięki czemu nerkę można następnie wepchnąć do worka. Po zamknięciu worka można następnie użyć morcelatora do rozdrobnienia i odessania całej nerki przez otwór. Pusty worek można następnie wyjąć z jamy brzusznej i zakończyć zabieg zamykając porty w standardowej procedurze.",
+                "es": "Después de cortar todos los vasos y uréter del riñón, el órgano es libre de ser eliminado. Solo los tejidos de conexión deben separarse para movilizar el riñón. Se introduce una bolsa endoscópica en el área de operación a través de un puerto de 11 mm para que el riñón pueda ser empujado al saco. Después de sellar la bolsa, es posible usar un morcelador para fragmentar y aspirar todo el riñón a través de la abertura. La bolsa vacía se puede quitar de la cavidad abdominal y el procedimiento se puede terminar cerrando los puertos en el procedimiento estándar.",
+                "zh-cn": "切断肾脏的所有血管和输尿管后，可以自由去除器官。仅必须分开连接组织才能动员肾脏。内窥镜袋通过11毫米端口引入操作区域，以便可以将肾脏推入麻袋中。密封袋子后，可以使用一个碎屑器来碎片，并通过开口吸入整个肾脏。然后可以从腹腔中取出空袋，可以通过在标准过程中关闭端口来完成该过程。",
+                "ja": "腎臓のすべての血管と尿管を切断した後、臓器は自由に除去できます。腎臓を動員するために、接続組織のみを分離する必要があります。腎臓を袋に押し込むことができるように、11mmのポートを介して操作エリアに内視鏡バッグが導入されます。バッグを密封した後、モルセリタを使用して、開口部を介して腎臓全体を断片化し、吸引することができます。空のバッグは腹腔から取り外すことができ、標準手順でポートを閉じることで手順を完了できます。",
+                "hu": "Miután megszakította a vese összes edényét és húgyát, a szerv szabadon eltávolítható. A vese mozgósításához csak a összekötő szöveteket kell elválasztani. Egy endoszkópos táskát vezetnek be a működési területre egy 11 mm -es porton keresztül, így a vesét ezután be lehet nyomni a zsákba. A táska lezárása után lehetséges, hogy morcellátort használjon az egész vesének a nyíláson keresztüli törlésére és a teljes vesére. Az üres táska ezután eltávolítható a hasüregből, és az eljárás befejezhető a portok bezárásával standard eljárásban."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        },
+        {
+            "type": "disclaimer",
+            "text": {
+                "en": "The kidney is enclosed in a kidney pouch, a tissue layer which should remain intact after the procedure. ",
+                "pl": "Nerka znajduje się wewnątrz tzw. torebki nerkowej, wartwach tkanek które w miare możliwości powinny pozostać nienaruszone w trakcie zabiegu.",
+                "es": "El riñón está encerrado en una bolsa de riñón, una capa de tejido que debe permanecer intacta después del procedimiento.",
+                "zh-cn": "肾脏被封闭在肾袋中，肾袋是一个组织层，该组织层应在手术后保持完整。",
+                "ja": "腎臓は腎臓ポーチに囲まれています。腎臓は、処置後もそのままのままである組織層です。",
+                "hu": "A vese vese tasakba van zárva, egy szöveti rétegben, amelynek az eljárás után érintetlennek kell maradnia."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
+        }
+    ],
+    "source": [],
+    "summary": [],
+    "title": {
+        "text": {
+            "en": "Virtual Nephrectomy",
+            "pl": "Nefrektomia Wirtualna",
+            "es": "Nefrectomía virtual",
+            "zh-cn": "虚拟肾切除术",
+            "ja": "仮想腎摘出術",
+            "hu": "Virtuális nephrektómia"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
+    },
+    "subTitle": {
+        "text": {
+            "en": "The medical knowledge behind nephrectomy and indications for the procedure.",
+            "pl": "Wiedza medyczna o prostatektomii oraz wskazania do zabiegu.",
+            "es": "El conocimiento médico detrás de la nefrectomía y las indicaciones para el procedimiento.",
+            "zh-cn": "肾切除术背后的医学知识和该手术的适应症。",
+            "ja": "腎摘出術の背後にある医学的知識と手順の適応。",
+            "hu": "A nephrectomia mögött meghúzódó orvosi ismeretek és az eljárás indikációi."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    }
+}

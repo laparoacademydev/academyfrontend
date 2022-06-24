@@ -8,7 +8,16 @@
                 "pl": "Laparoskop\n",
                 "es": "Laparoscopio",
                 "zh-cn": "腹腔镜",
-                "ja": "腹腔鏡"
+                "ja": "腹腔鏡",
+                "hu": "Laparoszkóp"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -17,25 +26,41 @@
                 "en": "The laparoscope usually houses a Hopkins Rod-Lens system in which two channels run within a single tube. An eyepiece and a light post is located on one end and a small angled tip is on the other. Light fibers transmit light to the tip and a core channel consists of multiple lenses which capture and transmit the optical image to the camera head. Compressed into a thin rod, the laparoscope can be inserted through the trocar and doesn’t occupy too much space inside the operating area.",
                 "pl": "Laparoskop zawiera w pręcie system soczewek Hopkins'a, które prowadzą dwa kanały w jednej osi. Po jednej stronie znajduje się wejście na światłowód i okular, a po drugiej stronie jest mała, najczęściej kątowa końcówka. Światłowód wewnątrz pręta przenosi światło do końcówki a rdzeń zawiera soczewki, które przenoszą obraz z końcówki do okulara i głowicy kamery. Wszystko to zawarte w jednolitym pręcie pozwala na włożenie laparoskopu przez odpowiedni trokar i zajmuje stosunkowo niewiele miejsca wewnątrz pola operacyjnego.",
                 "es": "El laparoscopio generalmente alberga un sistema HOPKINS ROD-LENS en el que se ejecutan dos canales dentro de un solo tubo. Un ocular y una poste de luz se encuentran en un extremo y una pequeña punta en ángulo está en la otra. Las fibras de luz transmiten la luz a la punta y un canal de núcleo consta de múltiples lentes que capturan y transmiten la imagen óptica a la cabeza de la cámara. Comprimido en una varilla delgada, el laparoscopio se puede insertar a través del trocar y no ocupa demasiado espacio dentro del área de operación.",
-                "zh-cn": "腹腔镜通常容纳霍普金斯棒透镜系统，其中两个通道在单管内运行。目镜和灯柱位于一端，另一端是另一端。光纤维向尖端发光，核心通道由多个透镜组成，该镜头捕获并将光学图像传输到相机头部。压缩成薄杆，可以通过套管针插入腹腔镜，并且在操作区域内不会占用太多空间。",
-                "ja": "腹腔鏡は通常、2つのチャンネルが単一のチューブ内で走るホプキンスロッドレンズシステムを収容しています。接眼レンズと軽いポストは一端に配置され、小さな傾斜の先端がもう一方です。光ファイバは光を先端に伝達し、コアチャネルは光学画像をカメラヘッドに捕捉して伝達する複数のレンズからなる。細いロッドに圧縮され、腹腔鏡をトロカールに挿入することができ、操作領域内のスペースが多すぎることはありません。"
+                "zh-cn": "腹腔镜通常容纳霍普金斯杆透镜系统，其中两个通道在一个管中运行。目镜和一个轻柱位于一端，另一端位于另一端。光纤将光线传输到尖端，核心通道由多个镜头组成，这些镜头捕获和将光学图像传输到相机头。被压缩成薄杆，可以通过套管卡插入腹腔镜，并且在操作区域内不会占用太多空间。",
+                "ja": "腹腔鏡には通常、2つのチャネルが単一のチューブ内で実行されるホプキンスロッドレンズシステムがあります。接眼レンズと軽いポストが一方の端にあり、もう一方の端にある小さな角度の先端があります。光繊維は先端に光を送信し、コアチャネルは複数のレンズで構成され、光学画像をカメラヘッドにキャプチャして送信します。薄いロッドに圧縮された腹腔鏡は、トロカールに挿入でき、動作エリア内のあまり多くのスペースを占有しません。",
+                "hu": "A laparoszkópban általában egy Hopkins rúd-lencse rendszer található, amelyben két csatorna egyetlen csőben fut. Az egyik végén egy szemlencse és egy könnyű oszlop található, a másikon pedig egy kis szögletes hegy van. A könnyű szálak átviszik a fényt a csúcsra, és egy magcsatorna több lencséből áll, amelyek rögzítik és továbbítják az optikai képet a kamera fejére. Egy vékony rúdba tömörítve a laparoszkóp beilleszthető a trokaron keresztül, és nem foglal el túl sok helyet a működési területen."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu9_camera_systems_02.png",
-                    "type": "image",
-                    "label": {
-                        "en": "Hopkins laparoscope systems (1) use solid rod-lenses which have the geometrical form of a cylinder and a polished mantle. This advancement has greatly improved the image quality in MIS as the spherical lenses used before (2) allowed much less light through the eye-piece.",
-                        "pl": "Systemy laparoskopowe Hopkins używają szklanych prętów które mają formę geometryczną cylindra z wypolerowaną powierzchnią. Ten innowacyjny system znacznie poprawił jakość obrazu w zabiegach minimalnie inwazyjnych ponieważ sferyczne soczewki używane wcześniej (2) przepuszczały znacznie mniejsze ilości światła przez okular.",
-                        "es": "Sistemas de laparoscopio HOPKINS (1) Use lentes de barra sólida que tengan la forma geométrica de un cilindro y un manto pulido. Este avance ha mejorado enormemente la calidad de la imagen en MIS, ya que las lentes esféricas utilizadas antes (2) permitieron mucho menos luz a través de la pieza ocular.",
-                        "zh-cn": "Hopkins Laparoscope系统（1）使用具有圆筒的几何形式的固体棒状透镜和抛光的地幔。由于之前使用的球形透镜（2）之前使用的球形透镜，这种进步在MIS中大大提高了图像质量。",
-                        "ja": "Hopkins腹腔鏡システム（1）シリンダーと磨かれたマントルの幾何学的形状を持つ固体ロッドレンズを使用しています。この前進は、（2）前に使用される球面レンズが、アイピースを通してはるかに少ない光を可能にしたときにMISの画質を大幅に向上させた。"
-                    }
+            "media": {
+                "url": "edu9_camera_systems_02.png",
+                "type": "image",
+                "label": {
+                    "en": "Hopkins laparoscope systems (1) use solid rod-lenses which have the geometrical form of a cylinder and a polished mantle. This advancement has greatly improved the image quality in MIS as the spherical lenses used before (2) allowed much less light through the eye-piece.",
+                    "pl": "Systemy laparoskopowe Hopkins używają szklanych prętów które mają formę geometryczną cylindra z wypolerowaną powierzchnią. Ten innowacyjny system znacznie poprawił jakość obrazu w zabiegach minimalnie inwazyjnych ponieważ sferyczne soczewki używane wcześniej (2) przepuszczały znacznie mniejsze ilości światła przez okular.",
+                    "es": "Sistemas de laparoscopio HOPKINS (1) Use lentes de barra sólida que tengan la forma geométrica de un cilindro y un manto pulido. Este avance ha mejorado enormemente la calidad de la imagen en MIS, ya que las lentes esféricas utilizadas antes (2) permitieron mucho menos luz a través de la pieza ocular.",
+                    "zh-cn": "霍普金斯腹腔镜系统（1）使用具有圆柱体的几何形式和抛光地幔的固体棒镜。由于（2）在（2）中使用的球形镜头允许通过眼睛夹子更少的光线，因此这种进步大大提高了MIS的图像质量。",
+                    "ja": "Hopkins Laparoscope Systems（1）シリンダーと磨かれたマントルの幾何学的な形を持つ固体ロッドレンズを使用します。この進歩により、（2）以前に使用されていた球面レンズが眼鏡を通してはるかに少ない光を許したため、MISの画質が大幅に向上しました。",
+                    "hu": "A Hopkins laparoszkópos rendszerek (1) szilárd rúd-lencséket használnak, amelyek henger és csiszolt köpeny geometriai formájúak. Ez az előrelépés jelentősen javította a képminőséget a MIS-ben, mivel a (2) előtti gömbös lencsék sokkal kevesebb fényt tettek lehetővé a szemdarabon keresztül."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
@@ -43,8 +68,17 @@
                 "en": "Laparoscopes vary in diameters, angles and length. The smallest laparoscopes are merely 2mm in diameter and go up to 10mm. The tip is angled from 0 to 45 degrees, giving a specific image which can be useful for different purposes. Because the light has to be transmitted along this lens system, the length and scope diameter of a laparoscope will influence how much light has to be emitted by the tip to be captured at the eye-piece on the way back. The longer and thinner a laparoscope will be, the more light it will require, and the more fragile it will become with use. ",
                 "pl": "Laparoskopy różnią się od siebie pod względem  średnicy, kąta końcówki i długością. Najmniejsze laparoskopy mają średnicę zaledwie 2 mm i sięgają aż do 10 mm. Końcówki różnią się w kącie od 0 do 45 stopni co daje obraz o odpowiednich właściwościach w zależności od potrzeby. Ponieważ światło musi zostać przeniesione przez ten system, długość i średnica laparoskopu ma wpływ na ilość światła, która musi być emitowana wewnątrz, aby powrócić do głowicy kamery. Im dłuższy i im cieńszy laparoskop, tym mocniejsze musi być światło i tym staje się delikatniejszy.",
                 "es": "Los laparoscopios varían en diámetros, ángulos y longitud. Los laparoscopios más pequeños son simplemente de 2 mm de diámetro y suben a 10 mm. La punta está en ángulo de 0 a 45 grados, dando una imagen específica que puede ser útil para diferentes propósitos. Debido a que la luz debe transmitirse a lo largo de este sistema de lentes, la longitud y el alcance del diámetro de un laparoscopio influirán en cuánta luz debe ser emitida por la punta para ser capturada en la pieza ocular en el camino de regreso. Cuanto más largo y más delgado sea un laparoscopio, más ligero requerirá, y cuanto más frágiles se convertirá en su uso.",
-                "zh-cn": "腹腔镜直径，角度和长度不同。最小的腹腔镜直径仅为2mm，高达10毫米。尖端从0到45度成角度，给出了可以对不同目的有用的特定图像。因为必须沿着该透镜系统传输光，所以腹腔镜的长度和范围直径将影响尖端必须在背部捕获的尖端被捕获的光线被发射多少光。腹腔镜的较长且较薄，需要的光线越多，它越脆弱它将成为使用。",
-                "ja": "腹腔鏡は直径、角度、長さが異なります。最小の腹腔鏡は直径2mmだけであり、10mmまで上がります。先端は0から45度まで角度がかかり、異なる目的に役立つことができる特定の画像を与えます。光はこのレンズ系に沿って伝送されなければならないので、腹腔鏡の長さおよび範囲の直径は、逆の途中で目的で捕獲されるべきチップによってどの光を放出されなければならないかに影響を与えるであろう。腹腔鏡が長くなり、より明るいほど、それが必要となるほど脆弱になります。"
+                "zh-cn": "腹腔镜的直径，角度和长度各不相同。最小的腹腔镜仅直径2mm，至10mm。尖端的角度从0到45度，给出了特定图像，该图像可用于不同目的。由于必须沿着该镜头系统传输光，因此腹腔镜的长度和范围直径将影响尖端必须发出多少光，以便在返回的途中捕获在眼镜上。腹腔镜的时间越长，所需的光越多，并且使用越脆弱。",
+                "ja": "腹腔鏡の直径、角度、長さは異なります。最小の腹腔鏡の直径はわずか2mmで、10mmになります。先端は0〜45度の角度が付けられており、さまざまな目的に役立つ特定の画像を提供します。このレンズシステムに沿って光を伝達する必要があるため、腹腔鏡の長さと範囲の直径は、先端に眼をキャプチャするために、先端によって放出される必要があるかどうかに影響します。腹腔鏡が長くて薄くなるほど、より多くの光が必要になり、使用すると壊れやすくなります。",
+                "hu": "A laparoszkópok átmérője, szögei és hossza között változnak. A legkisebb laparoszkópok csupán 2 mm átmérőjűek, és 10 mm -ig terjednek. A hegyet 0 és 45 fok között fordítják, így egy speciális képet adva, amely különböző célokra hasznos lehet. Mivel a lencse rendszer mentén a fényt át kell terjeszteni, a laparoszkóp hossza és hatókör átmérője befolyásolja, hogy mekkora fényt kell kibocsátania a hátulján a szemet. Minél hosszabb és vékonyabb lesz a laparoszkóp, annál több fényre van szükség, és annál törékenyebb lesz a használat."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -53,8 +87,17 @@
                 "en": "The 10mm laparoscope with a 30 degree tip is most commonly used around the world.",
                 "pl": "Najczęściej używany jest laparoskop o średnicy 10 mm i kącie 30°.",
                 "es": "El laparoscopio de 10 mm con un consejo de 30 grados se usa más comúnmente en todo el mundo.",
-                "zh-cn": "具有30毫米的腹腔镜，30度尖端最常用于世界各地。",
-                "ja": "30度の先端を持つ10mmの腹腔鏡は、最も一般的に世界中で使用されています。"
+                "zh-cn": "具有30度尖端的10mm腹腔镜最常在世界各地使用。",
+                "ja": "30度の先端を持つ10mmの腹腔鏡は、世界中で最も一般的に使用されています。",
+                "hu": "A 10 mm -es laparoszkópot egy 30 fokos tippel, leggyakrabban használják az egész világon."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -63,8 +106,17 @@
                 "en": "The 10mm laparoscope with a 30 degree tip is most commonly used around the world. 0 degree laparoscopes are particularly useful in extremely tight and inaccessible areas, but the lack of angular rotation reduces their versatility. Other types of laparoscopes exist which eliminate the Hopkins Rod-Lens system for other solutions but they are still not widespread.",
                 "pl": "Najczęściej używany jest laparoskop o średnicy 10 mm i kącie 30°. Laparoskopy o kącie 0° są w szczególności użyteczne w ciasnych i trudno dostępnych miejscach, aczkolwiek brak kątowej rotacji ogranicza ich zastosowania. Istnieją także inne rodzaje laparoskopów, które nie posiadają systemu soczewek Hopkinsa, ale nie przyjęły się jeszcze w szerokim zastosowaniu.",
                 "es": "El laparoscopio de 10 mm con un consejo de 30 grados se usa más comúnmente en todo el mundo. Los laparoscopios de 0 grados son particularmente útiles en áreas extremadamente estrechas e inaccesibles, pero la falta de rotación angular reduce su versatilidad. Existen otros tipos de laparoscopios que eliminan el sistema Hopkins Rod-Lens para otras soluciones, pero aún no están generalizadas.",
-                "zh-cn": "具有30毫米的腹腔镜，30度尖端最常用于世界各地。 0度腹腔镜在极其紧密和不可访问的区域中特别有用，但缺乏角度旋转可降低它们的多功能性。存在其他类型的腹腔镜，用于消除其他解决方案的霍普金斯棒透镜系统，但它们仍然不普遍。",
-                "ja": "30度の先端を持つ10mmの腹腔鏡は、最も一般的に世界中で使用されています。 0度腹腔鏡は非常にきつくそしてアクセスできない地域において特に有用であるが、角度回転の欠如はそれらの汎用性を低下させる。他の解決策のためのホプキンスロッドレンズシステムを排除する他の種類の腹腔鏡症は存在しますが、それらはまだ広範囲にわたってはありません。"
+                "zh-cn": "具有30度尖端的10mm腹腔镜最常在世界各地使用。 0度腹腔镜在极其紧密且难以接近的区域特别有用，但是缺乏角度旋转会降低其多功能性。存在其他类型的腹腔镜，可以消除其他溶液的霍普金斯杆镜系统，但它们仍然不广泛。",
+                "ja": "30度の先端を持つ10mmの腹腔鏡は、世界中で最も一般的に使用されています。 0度の腹腔鏡は、非常にタイトでアクセスできない領域で特に役立ちますが、角の回転がないと汎用性が低下します。他の種類の腹腔鏡が存在する他のソリューションのホプキンスロッドレンズシステムを排除しますが、まだ広まっていません。",
+                "hu": "A 10 mm -es laparoszkópot egy 30 fokos tippel, leggyakrabban használják az egész világon. A 0 fokos laparoszkóp különösen hasznos rendkívül szűk és elérhetetlen területeken, de a szögforgás hiánya csökkenti azok sokoldalúságát. Más típusú laparoszkópok léteznek, amelyek kiküszöbölik a Hopkins rúd-lencse rendszert más megoldásokhoz, ám ezek még mindig nem elterjedtek."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -73,8 +125,17 @@
                 "en": "Light Cable or Light Lead",
                 "pl": "Światłowód",
                 "es": "Cable de luz o plomo ligero",
-                "zh-cn": "灯电缆或光线",
-                "ja": "ライトケーブルまたはライトリード"
+                "zh-cn": "轻型电缆或轻线",
+                "ja": "ライトケーブルまたはライトリード",
+                "hu": "Könnyű kábel- vagy könnyű vezeték"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -83,8 +144,17 @@
                 "en": "This flexible cable is attached to the side of the laparoscope and it brings light into the light post via fiber-optic bundles. The bulky attachment for the light lead is also one of the handles by which the assisting surgeon twists and rotates the entire camera system. It is noteworthy that this camera operator should always remember to hold onto the attachment firmly as the entire system will rotate and drop if it is let go.",
                 "pl": "Ten giętki przewód jest z jednej strony podpięty do laparoskopu a z drugiej do silnego źródła światła, które przenoszone jest zwojem światłowodów. Miejsce podpięcia przewodu także znajduje się w  rękojeści, którą asystujący może obracać i kierować obrazem. Warto podkreślić, że operator kamery zawsze musi trzymać miejsce podpięcia światłowodu, gdyż puszczony pociągnie za sobą cały system i obróci laparoskop.",
                 "es": "Este cable flexible se une al lado del laparoscopio y aporta luz al poste de luz a través de paquetes de fibra óptica. El apego voluminoso para el cable de luz también es uno de los asas por los cuales el cirujano asistido tuerce y gira todo el sistema de la cámara. Cabe destacar que este operador de la cámara siempre debe recordar mantener firmemente la conexión a la firmeza, ya que el sistema completo girará y caerá si se deja ir.",
-                "zh-cn": "该柔性电缆连接到探头镜的侧面，通过光纤束将光线带入灯柱。辅助外科医生扭曲和旋转整个相机系统的笨重附件也是手柄之一。值得注意的是，此摄像机操作员应始终记住，随着整个系统旋转和放弃，如果放手，则应牢固地牢牢牢固地抓住附件。",
-                "ja": "このフレキシブルケーブルは腹腔鏡側に取り付けられており、光ファイバ束を介して光ポストに光をもたらします。 Light Readのかさばったアタッチメントは、補助外科医がカメラシステム全体をねじって回転させるハンドルの一つでもある。このカメラオペレータが常にシステム全体が回転してドロップすると常に絶対に覚えておくべきであることは注目に値します。"
+                "zh-cn": "这款柔性电缆连接到腹腔镜的侧面，并通过光纤束将光线带入光柱。光线铅的笨重附件也是协助外科医生扭曲并旋转整个相机系统的手柄之一。值得注意的是，该相机操作员应始终记住要牢固地固定附件，因为整个系统将旋转并掉落，如果放开。",
+                "ja": "この柔軟なケーブルは、腹腔鏡の側面に取り付けられており、光ファイバーバンドルを介して光のポストに光をもたらします。ライトリードのかさばるアタッチメントは、外科医がカメラシステム全体をひねり、回転させるハンドルの1つでもあります。このカメラオペレーターは、システム全体が手放された場合に回転してドロップするため、常にアタッチメントをしっかりと保持することを忘れないでください。",
+                "hu": "Ez a rugalmas kábel a laparoszkóp oldalához van rögzítve, és száloptikai kötegek révén fényt hoz a fényoszlopba. A fényes ólom terjedelmes rögzítése szintén az egyik fogantyú, amellyel a segítő sebész elforgatja és elforgatja az egész kamerarendszert. Figyelemre méltó, hogy ennek a kamera -kezelőnek mindig ne felejtsen el tartani a rögzítést, mivel az egész rendszer forog és leesik, ha elengedi."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -94,7 +164,16 @@
                 "pl": "Głowica Kamery",
                 "es": "Cabeza de cámara",
                 "zh-cn": "相机头",
-                "ja": "カメラヘッド"
+                "ja": "カメラヘッド",
+                "hu": "Kamerafej"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -103,8 +182,17 @@
                 "en": "High quality imaging chips inside the camera head capture the transmitted optical image and turn it into the digital video signal which is then displayed on the external monitor.",
                 "pl": "Obraz optyczny wychodzący z okulara przyjmowany jest przez wysokiej rozdzielczości przetwornik fotoelektryczny znajdujący się w głowicy. Stąd przesyłany jest już cyfrowy sygnał wideo który trafia na monitor zewnętrzny.",
                 "es": "Fichas de imagen de alta calidad dentro del cabezal de la cámara Capture la imagen óptica transmitida y gírela en la señal de video digital que luego se muestra en el monitor externo.",
-                "zh-cn": "相机头内的高质量成像芯片捕获传输的光学图像并将其转换为数字视频信号，然后将其显示在外部显示器上。",
-                "ja": "カメラヘッドの内側の高品質のイメージングチップは、送信された光学画像をキャプチャし、それをデジタルビデオ信号に変換して外部モニタに表示されます。"
+                "zh-cn": "相机头内的高质量成像芯片捕获了传输的光学图像，并将其转换为数字视频信号，然后将其显示在外部监视器上。",
+                "ja": "カメラヘッド内の高品質のイメージングチップは、送信された光学画像をキャプチャし、それをデジタルビデオ信号に変換し、外部モニターに表示されます。",
+                "hu": "Kiváló minőségű képalkotó chipek a kamerafej belsejében rögzítik az átadott optikai képet, és alakítsák azt a digitális videójelet, amelyet azután a külső monitoron jelenítenek meg."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -113,25 +201,41 @@
                 "en": "The camera head attaches to the back of the laparoscope. It is worth noting that the camera head should stay fixed throughout the procedure, but if the laparoscope is 30 or 45 degrees it can be rotated to pivot the field of view 360. This can provide much flexibility but must be understood well by the surgeon.",
                 "pl": "Głowica kamery przymocowana jest do okulara w laparoskopie. Warto podkreślić, że głowica kamery powinna pozostawać nieruchomo podczas całej procedury, a kiedy laparoskop (przykładowo 30° bądź 45°) jest obracany, obraz pozostanie wtedy poziomy. Dobre zrozumienie tego układu daje chirurgowi dodatkową elastyczność w interpretacji obrazu.",
                 "es": "La cabeza de la cámara se adhiere a la parte posterior del laparoscopio. Vale la pena señalar que el cabezal de la cámara debe permanecer fijado durante todo el procedimiento, pero si el laparoscopio es de 30 o 45 grados, se puede girar para pivotar el campo de la vista 360. Esto puede proporcionar mucha flexibilidad, pero debe entenderse bien por el cirujano.",
-                "zh-cn": "相机头附在探伤镜的背面。值得注意的是，相机头应在整个过程中保持固定，但如果腹腔镜为30或45度，它可以旋转以枢转360.这可以提供大量的灵活性，但外科医生必须良好地理解。",
-                "ja": "カメラヘッドは腹腔鏡の背面に取り付けられています。カメラヘッドが手順全体を通して固定されるべきであることは注目に値するが、腹腔鏡が30または45度の場合それは視野360を枢動させるために回転させることができる。これは多くの柔軟性を提供することができるが、外科医によってよく理解されなければならない。"
+                "zh-cn": "相机头固定在腹腔镜背面。值得注意的是，相机头应在整个过程中保持固定，但是如果腹腔镜为30或45度，可以旋转以旋转以旋转视场360。这可以提供很大的灵活性，但必须很好地理解外科医生。",
+                "ja": "カメラヘッドは腹腔鏡の背面に取り付けられます。カメラヘッドは手順全体で固定されたままにする必要があることは注目に値しますが、腹腔鏡が30または45度の場合、視野360のフィールドをピボットするために回転できます。",
+                "hu": "A kamerafej a laparoszkóp hátuljához van rögzítve. Érdemes megjegyezni, hogy a kamerafejnek az eljárás során rögzítve kell maradnia, de ha a laparoszkóp 30 vagy 45 fokos, akkor elforgatható, hogy elfordítsa a látóteret 360. Ez sok rugalmasságot biztosíthat, de a sebésznek jól kell megértenie."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
             "type": "media",
-            "media": [
-                {
-                    "url": "edu9_camera_systems_01.png",
-                    "type": "image",
-                    "label": {
-                        "en": "The laparoscope (2) carries image from the tip to the camera head (1) where a digital sensor captures the image and sends it electronically to the screen. The light lead cable (3) connects to the side of the laparoscope (2) to deliver the light which then is emitted at the tip of the laparoscope. The light lead cable is connected (4) on the other side to the tower where the source is usually LED lighting. ",
-                        "pl": "Laparoskop (2) przenosi obraz z końcówki do głowicy kamery (1) wewnątrz której cyfrowa matryca zbiera i przetwarza obaz w sygnał elektroniczny który wyświetlany jest na dużym ekranie. Światłowód (3) podłączony jest do bocznej części laparoskopu (2) i dostarcza światło które jest emitowane w polu operacyjnym. Ten światłowód jest podłączony (4) z drugiej strony do wieży w której źródłem światła jest przeważnie dioda LED.",
-                        "es": "El laparoscopio (2) lleva la imagen de la punta a la cabeza de la cámara (1) donde un sensor digital captura la imagen y lo envía electrónicamente a la pantalla. El cable de plomo ligero (3) se conecta al lado del laparoscopio (2) para entregar la luz que luego se emite en la punta del laparoscopio. El cable de plomo ligero está conectado (4) en el otro lado a la torre donde la fuente suele ser la iluminación LED.",
-                        "zh-cn": "腹腔镜（2）将图像从尖端携带到相机头（1），其中数字传感器捕获图像并将其电子方式发送到屏幕。光引线电缆（3）连接到探头（2）的侧面，以输送在腹腔镜的尖端处发射的光。光引线电缆在另一侧连接（4）到塔的塔，其中源通常是LED照明。",
-                        "ja": "腹腔鏡（2）は先端からカメラヘッド（1）に画像を搬送し、そこでデジタルセンサが画像を撮像してスクリーンに電子的に送る。光リードケーブル（3）は腹腔鏡（2）側に接続して腹腔鏡の先端に放出される光を送達する。光源が照明されているタワーに反対側に照明リードケーブルが接続されている（4）。"
-                    }
+            "media": {
+                "url": "edu9_camera_systems_01.png",
+                "type": "image",
+                "label": {
+                    "en": "The laparoscope (2) carries image from the tip to the camera head (1) where a digital sensor captures the image and sends it electronically to the screen. The light lead cable (3) connects to the side of the laparoscope (2) to deliver the light which then is emitted at the tip of the laparoscope. The light lead cable is connected (4) on the other side to the tower where the source is usually LED lighting. ",
+                    "pl": "Laparoskop (2) przenosi obraz z końcówki do głowicy kamery (1) wewnątrz której cyfrowa matryca zbiera i przetwarza obaz w sygnał elektroniczny który wyświetlany jest na dużym ekranie. Światłowód (3) podłączony jest do bocznej części laparoskopu (2) i dostarcza światło które jest emitowane w polu operacyjnym. Ten światłowód jest podłączony (4) z drugiej strony do wieży w której źródłem światła jest przeważnie dioda LED.",
+                    "es": "El laparoscopio (2) lleva la imagen de la punta a la cabeza de la cámara (1) donde un sensor digital captura la imagen y lo envía electrónicamente a la pantalla. El cable de plomo ligero (3) se conecta al lado del laparoscopio (2) para entregar la luz que luego se emite en la punta del laparoscopio. El cable de plomo ligero está conectado (4) en el otro lado a la torre donde la fuente suele ser la iluminación LED.",
+                    "zh-cn": "腹腔镜（2）将图像从尖端转到相机头（1），数字传感器捕获图像并以电子方式发送到屏幕。光线电缆（3）连接到腹腔镜（2）的侧面，以传递然后在腹腔镜尖端发射的光。光线电缆在另一侧连接到塔的塔通常是LED照明的塔。",
+                    "ja": "Laparoscope（2）は、チップからカメラヘッド（1）に画像を運びます。ここで、デジタルセンサーが画像をキャプチャし、画面に電子的に送信します。ライトリードケーブル（3）は、腹腔鏡の側面（2）の側面に接続して、腹腔鏡の先端で放出される光を供給します。ライトリードケーブルは、反対側のタワーに接続されています（4）ソースが通常LED照明であるタワーに。",
+                    "hu": "A laparoszkóp (2) képet hordoz a csúcsról a kamerafejre (1), ahol egy digitális érzékelő rögzíti a képet, és elektronikusan elküldi a képernyőre. A fényes ólomkábel (3) a laparoszkóp oldalához kapcsolódik (2), hogy megkapja azt a fényt, amelyet azután a laparoszkóp végén bocsátanak ki. A fényes ólomkábel a (4) a másik oldalán csatlakoztatva van a toronyhoz, ahol a forrás általában LED világítás."
                 }
-            ]
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
+            }
         },
         {
             "type": "paragraph",
@@ -139,8 +243,17 @@
                 "en": "Because the RGB CCD sensor inside the camera can alter the displayed image, it must always be properly calibrated. This is called ‘white balancing’ and is done automatically by aiming the entire camera system at a white piece of gauze before every procedure. This ensures that the available image displays all of the colors inside the operating area correctly.",
                 "pl": "Przetworniki fotoelektryczne (znane w kamerach konsumenckich jako matryce CCD) mogą różnie interpretować kolory i jasność obrazu, co oznacza, że muszą zawsze być odpowiednio kalibrowane. Aby wykonać tę kalibrację, nazywaną balansem bieli, należy skierować przed zabiegiem laparoskop na biały kawałek gazy i aktywować funkcję. Poprawnie wykonana kalibracja balansu bieli zapewni poprawnie odzwierciedlone  kolory wewnątrz pola operacyjnego.",
                 "es": "Debido a que el sensor CCD RGB dentro de la cámara puede alterar la imagen mostrada, siempre debe calibrarse correctamente. Esto se llama 'balanceo blanco' y se realiza automáticamente apuntando a todo el sistema de cámara en una pieza de gasa blanca antes de cada procedimiento. Esto garantiza que la imagen disponible muestre todos los colores dentro del área de operación correctamente.",
-                "zh-cn": "由于相机内的RGB CCD传感器可以改变显示的图像，因此必须始终正确校准它。这被称为“白色平衡”，并通过针对每种过程之前的白色纱布的整个相机系统自动完成。这可确保可用的图像正确显示操作区域内的所有颜色。",
-                "ja": "カメラ内のRGB CCDセンサーは表示されている画像を変更できるため、常に正しく校正されている必要があります。これは「ホワイトバランス」と呼ばれ、すべての手順の前にカメラシステム全体を白いガーゼで狙うことによって自動的に行われます。これにより、使用可能なイメージに、操作領域内のすべての色が正しく表示されます。"
+                "zh-cn": "由于相机内部的RGB CCD传感器可以更改显示的图像，因此必须始终对其进行正确校准。这称为“白色平衡”，并通过将整个相机系统瞄准在每个过程之前自动完成。这样可以确保可用的图像正确显示操作区内的所有颜色。",
+                "ja": "カメラ内のRGB CCDセンサーは、表示された画像を変更できるため、常に適切に調整する必要があります。これは「ホワイトバランシング」と呼ばれ、すべての手順の前にカメラシステム全体を白いガーゼに照準することにより自動的に行われます。これにより、利用可能な画像が動作領域内のすべての色を正しく表示することが保証されます。",
+                "hu": "Mivel az RGB CCD érzékelő a kamerában megváltoztathatja a megjelenített képet, azt mindig megfelelően kalibrálni kell. Ezt „fehér kiegyensúlyozásnak” hívják, és automatikusan úgy történik, hogy a teljes kamerarendszert egy fehér gézdarabra célozza meg minden eljárás előtt. Ez biztosítja, hogy a rendelkezésre álló kép minden színt megfelelően jelenítsen meg a működési területen."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -150,7 +263,16 @@
                 "pl": "Inspekcja",
                 "es": "Inspección",
                 "zh-cn": "检查",
-                "ja": "検査"
+                "ja": "検査",
+                "hu": "Ellenőrzés"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -159,8 +281,17 @@
                 "en": "It is important to always thoroughly inspect equipment being used.",
                 "pl": "Bardzo ważne jest, aby za każdym razem przed użyciem laparoskopu, została wykonana inspekcja.",
                 "es": "Es importante que siempre inspeccione exhaustivamente el equipo que se está utilizando.",
-                "zh-cn": "始终彻底检查所使用的设备非常重要。",
-                "ja": "使用されている機器を常に徹底的に検査することが重要です。"
+                "zh-cn": "始终始终彻底检查所使用的设备很重要。",
+                "ja": "使用されている機器を常に徹底的に検査することが重要です。",
+                "hu": "Fontos, hogy mindig alaposan megvizsgáljuk a használt berendezéseket."
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -168,9 +299,18 @@
             "text": {
                 "en": "The laparoscope can be a delicate device. When held up vertically to a light source with the light lead cable removed, we can inspect the quality of the fiber-optic lead. Dark spots and dark areas might indicate damaged fibers. By looking through the eyepiece we can inspect whether the image is clean, moisture that gathers on the lens or eye-piece can frequently make the image blurry. \n",
                 "pl": "Aby sprawdzić poprawne funkcjonowanie światłowodu, przed podłączeniem go do głowicy należy przytrzymać go pionowo wzdłuż osi kierując w stronę źródła światła. Ciemne punkty mogą być znakiem uszkodzonych światłowodów. Przykładając oko do okulara możemy z kolei sprawdzić jakość obrazu. Wilgoć i kondensacja czasami kumulują się na soczewce co powoduje rozmywanie się obrazu. Laparoskop jest delikatnym urządzeniem.",
-                "es": "El laparoscopio puede ser un dispositivo delicado. Cuando se sostiene verticalmente a una fuente de luz con el cable de plomo ligero, podemos inspeccionar la calidad del cable de fibra óptica. Manchas oscuras y áreas oscuras pueden indicar fibras dañadas. Al mirar a través del ocular, podemos inspeccionar si la imagen está limpia, la humedad que se reúne en la lente o la pieza ocular puede hacer que la imagen sea borrosa.\n",
-                "zh-cn": "腹腔镜可以是一个精致的装置。当移除带有灯具电缆的光源垂直保持时，我们可以检查光纤引线的质量。暗点和黑暗区域可能表示损坏的纤维。通过透过目镜，我们可以检查图像是否清洁，镜片或眼件上收集的水分可能经常使图像模糊。\n",
-                "ja": "腹腔鏡は繊細な装置とすることができる。光鉛ケーブルを取り外した状態で光源に垂直に固定した場合、光ファイバリードの品質を検査することができます。ダークスポットと暗い部分は損傷を受けた繊維を示すかもしれません。接眼レンズを見ることで、画像がきれいであるかどうかを調べることができ、レンズやアイピースに収集する水分はしばしば像をぼかしにすることができます。\n"
+                "es": "El laparoscopio puede ser un dispositivo delicado. Cuando se sostiene verticalmente a una fuente de luz con el cable de plomo ligero, podemos inspeccionar la calidad del cable de fibra óptica. Manchas oscuras y áreas oscuras pueden indicar fibras dañadas. Al mirar a través del ocular, podemos inspeccionar si la imagen está limpia, la humedad que se reúne en la lente o la pieza ocular puede hacer que la imagen sea borrosa.",
+                "zh-cn": "腹腔镜可以是一种精致的装置。当垂直将光线电缆移除到光源上时，我们可以检查光纤铅的质量。黑斑和黑暗区域可能表明纤维受损。通过透过目镜，我们可以检查图像是否干净，在镜头或眼镜上收集的水分经常使图像变得模糊。\n",
+                "ja": "腹腔鏡は繊細なデバイスにすることができます。軽いリードケーブルを取り外した状態で光源に垂直に持ち上げた場合、光ファイバーリードの品質を検査できます。暗い斑点と暗い領域は、損傷した繊維を示している可能性があります。接眼レンズを見ると、画像がきれいかどうかを調べることができます。レンズやアイピースに集まる湿気は、画像を頻繁にぼやけさせることができます。\n",
+                "hu": "A laparoszkóp finom eszköz lehet. Ha függőlegesen tartják a fényforráshoz, a fénykábel eltávolításával, megvizsgálhatjuk a száloptikai ólom minőségét. A sötét foltok és a sötét területek a sérült szálakat jelezhetik. Ha átnézi a szemlencsét, megvizsgálhatjuk, hogy a kép tiszta-e, a nedvesség, amelyet a lencse vagy a szemdarab összegyűjthet, gyakran elmosódhat a kép.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         },
         {
@@ -178,26 +318,65 @@
             "text": {
                 "en": "A common issue during a procedure is the fogging of the image. The temperature inside the peritoneal cavity can actually be very low due to the C02 gas used by the insufflator. The difference in temperature and humidity between this space and the operating room often leads to a problem with fogging on the laparoscopic lens. This can be alleviated by rubbing the laparoscope on tissues but it is not recommended because the tip of the laparoscope heats up and can damage the tissues.\n",
                 "pl": "Częstym problemem podczas zabiegu może być mglenie się obrazu. Temperatura wewnątrz odmy otrzewnowej często jest tak naprawdę dosyć niska ze względu na wykorzystywany przez insuflator dwutlenek węgla. Różnica w temperaturze i wilgotności pomiędzy salą operacyjną a warunkami wewnątrz pola operacyjnego może doprowadzać do kondensacji na powierzchni laparoskopu. Problem ten jest często rozwiązywany przetarciem laparoskopu o tkanki. Aczkolwiek takie rozwiązywanie tego problemu nie jest wskazane ponieważ końcówka laparoskopu jest gorąca i może parzyć wyziębione i wysuszone tkanki.",
-                "es": "Un problema común durante un procedimiento es la nebulización de la imagen. La temperatura dentro de la cavidad peritoneal puede ser muy baja debido al gas C02 utilizado por el insuflador. La diferencia de temperatura y humedad entre este espacio y la sala de operaciones a menudo conduce a un problema con el empañamiento en la lente laparoscópica. Esto se puede aliviar frotando el laparoscopio en los tejidos, pero no se recomienda porque la punta del laparoscopio se calienta y puede dañar los tejidos.\n",
-                "zh-cn": "过程中的一个常见问题是图像的雾化。由于吹蛋器使用的CO 2气体，腹膜腔内的温度实际上非常低。这种空间与手术室之间的温度和湿度的差异通常导致腹腔镜镜片上雾化的问题。这可以通过在组织上摩擦腹腔镜来缓解，因为腹腔镜的尖端加热并可能损坏组织，因此不推荐。\n",
-                "ja": "手順中の一般的な問題は、画像の曇りです。腹腔内の温度は、吸排口座によって使用されるCO 2ガスのために実際には非常に低くなる可能性があります。この空間と手術室との間の温度および湿度の違いは、腹腔鏡レンズ上の曇りに関する問題につながる。これは組織上の腹腔鏡をこすって軽減することができますが、腹腔鏡の先端が加熱され、組織を損傷する可能性があるため、お勧めできません。\n"
+                "es": "Un problema común durante un procedimiento es la nebulización de la imagen. La temperatura dentro de la cavidad peritoneal puede ser muy baja debido al gas C02 utilizado por el insuflador. La diferencia de temperatura y humedad entre este espacio y la sala de operaciones a menudo conduce a un problema con el empañamiento en la lente laparoscópica. Esto se puede aliviar frotando el laparoscopio en los tejidos, pero no se recomienda porque la punta del laparoscopio se calienta y puede dañar los tejidos.",
+                "zh-cn": "过程中的一个常见问题是图像的雾气。由于不利用器使用的C02气体，腹膜腔内内部的温度实际上可能非常低。该空间和手术室之间的温度和湿度差异通常会导致腹腔镜镜头上雾化的问题。可以通过在组织上摩擦腹腔镜来缓解这一点，但不建议这样做，因为腹腔镜的尖端会加热并会损坏组织。\n",
+                "ja": "手順中の一般的な問題は、画像の曇りです。 infcufflatorが使用するC02ガスのため、腹膜腔内の温度は実際には非常に低くなる可能性があります。この空間と手術室の温度と湿度の違いは、多くの場合、腹腔鏡レンズの曇りに問題があります。これは、組織に腹腔鏡をこすることで軽減できますが、腹腔鏡の先端が加熱され、組織に損傷を与える可能性があるため、推奨されません。\n",
+                "hu": "Az eljárás során gyakori kérdés a kép ködössége. A peritoneális üreg belsejében lévő hőmérséklet valójában nagyon alacsony lehet az IntuffLator által használt C02 gáz miatt. A hőmérséklet és a páratartalom különbsége e tér és a műtő között gyakran problémát okoz a laparoszkópos lencse köddelésével. Ezt enyhítheti úgy, hogy a laparoszkópot a szövetekre dörzsöli, de nem ajánlott, mert a laparoszkóp csúcsa felmelegszik és károsíthatja a szöveteket.\n"
+            },
+            "simulators": {
+                "Apex": true,
+                "Analytic": true,
+                "Advance": true,
+                "Academy": true,
+                "Papex": true,
+                "MentorStation": true
             }
         }
     ],
     "source": [],
     "summary": [],
     "title": {
-        "en": "Camera Systems",
-        "pl": "Kamery",
-        "es": "Sistemas de cámaras",
-        "zh-cn": "相机系统",
-        "ja": "カメラシステム"
+        "text": {
+            "en": "Camera Systems",
+            "pl": "Kamery",
+            "es": "Sistemas de cámaras",
+            "zh-cn": "相机系统",
+            "ja": "カメラシステム",
+            "hu": "Kamerarendszer"
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
+    },
+    "simulators": {
+        "Apex": true,
+        "Analytic": true,
+        "Advance": true,
+        "Academy": true,
+        "Papex": true,
+        "MentorStation": true
     },
     "subTitle": {
-        "en": "Everything the trainee needs to know about the imaging systems used in laparoscopic procedures.",
-        "pl": "Wszystko co trenujący powinien wiedzieć o torach wizyjnych używanych w zabiegach laparoskopowych.",
-        "es": "Todo lo que el aprendiz debe conocer los sistemas de imágenes utilizados en los procedimientos laparoscópicos.",
-        "zh-cn": "实习生需要了解关于腹腔镜程序中使用的成像系统的所有内容。",
-        "ja": "研修生が腹腔鏡手術で使用されているイメージングシステムについて知る必要があることすべて。"
+        "text": {
+            "en": "Everything the trainee needs to know about the imaging systems used in laparoscopic procedures.",
+            "pl": "Wszystko co trenujący powinien wiedzieć o torach wizyjnych używanych w zabiegach laparoskopowych.",
+            "es": "Todo lo que el aprendiz debe conocer los sistemas de imágenes utilizados en los procedimientos laparoscópicos.",
+            "zh-cn": "受训者需要了解腹腔镜程序中使用的成像系统。",
+            "ja": "研修生が腹腔鏡手順で使用されるイメージングシステムについて知る必要があるすべて。",
+            "hu": "Mindent, amit a gyakornoknak tudnia kell a laparoszkópos eljárásokban alkalmazott képalkotó rendszerekről."
+        },
+        "simulators": {
+            "Apex": true,
+            "Analytic": true,
+            "Advance": true,
+            "Academy": true,
+            "Papex": true,
+            "MentorStation": true
+        }
     }
 }

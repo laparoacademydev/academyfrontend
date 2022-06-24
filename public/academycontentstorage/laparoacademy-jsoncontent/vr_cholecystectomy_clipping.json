@@ -3,20 +3,9 @@
     "cameraConfig": {
         "Apex": {},
         "Analytic": {},
-        "Advance": {},
-        "angle": 0
+        "Advance": {}
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "cholecystectomy_background.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "cholecystectomy_background.png",
             "places": [
@@ -28,12 +17,6 @@
         "Analytic": {},
         "Advance": {}
     },
-    "drawerConfig": {
-        "main1mm": 0,
-        "main2mm": 0,
-        "plat1deg": 0,
-        "plat2deg": 0
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -42,15 +25,7 @@
             "height_mm": 0
         },
         "Analytic": {},
-        "Advance": {},
-        "xPosition_mm": 0,
-        "yPosition_mm": 0,
-        "angle_deg": 0,
-        "height_mm": 0
-    },
-    "vrConfig": {
-        "scene": "Cholecystectomy",
-        "scenario": "Clipping"
+        "Advance": {}
     },
     "isFreeTraining": false,
     "evalConfig": {
@@ -139,7 +114,14 @@
             "proficiency": 180
         }
     },
+    "vrConfig": {
+        "scene": "Cholecystectomy",
+        "scenario": "Clipping",
+        "minZoomFieldOfView": 22.5,
+        "maxZoomFieldOfView": 45
+    },
     "isVR": true,
+    "moduleID": "virtual",
     "allowedInstruments": [
         "grasper",
         "dissector",
@@ -151,36 +133,41 @@
     "name": {
         "en": "Clipping Stage - Cholecystectomy VR",
         "pl": "Etap Klipsowania - Cholecystektomia VR",
-        "es": "Etapa de recorte - colecistectomy vr",
-        "zh-cn": "剪辑阶段 - 胆囊切除术VR",
-        "ja": "クリッピングステージ - 胆嚢非摘出術VR."
+        "es": "Colecistectomía vr - recorte",
+        "zh-cn": "剪切阶段 - 胆囊切除术VR",
+        "ja": "クリッピング段階 - 胆嚢摘出術VR",
+        "hu": "Kivágási szakasz - kolecisztektómia VR"
     },
     "skills": {
         "en": "Procedure, Cholecystectomy, VR",
         "pl": "Procedura, Cholecystektomia, VR",
         "es": "Procedimiento, Colecistectomía, VR",
         "zh-cn": "程序，胆囊切除术，VR",
-        "ja": "手順、胆嚢切除術、VR"
+        "ja": "手順、胆嚢摘出術、VR",
+        "hu": "Eljárás, kolecisztektómia, VR"
     },
     "description": {
         "en": "In this version of the exercise only the skill in precise clipping is tested. The Calot's triangle is already exposed and the surrounding tissues dissected and the trainee must only properly identify the target structures and apply clips. ",
         "pl": "W tej wersji ćwiczenia testowana jest jedynie umiejętność precyzyjnego clipsowania i cięcia przewodów. Trójkąt Calota jest już odsłonięty, a otaczające tkanki rozpreparowane. Ćwiczący musi jedynie prawidłowo zidentyfikować docelowe struktury i założyć klipsy. ",
         "es": "En esta versión del ejercicio, solo se prueba la habilidad en un recorte preciso. El triángulo del cálculo ya está expuesto y los tejidos circundantes se diseccionaron y el aprendiz solo debe identificar correctamente las estructuras de destino y aplicar clips.",
-        "zh-cn": "在此版本的练习中，只测试了精确剪辑中的技能。 CALOT的三角形已经暴露，并分离的周围组织和受训者必须仅适当地识别目标结构并施加剪辑。",
-        "ja": "このバージョンの演習では、正確なクリッピングのスキルのみがテストされています。カカトの三角形はすでに露出しており、周囲の組織が解剖され、研修生は目標構造を適切に識別し、クリップを適用しなければならない。"
+        "zh-cn": "在此版本的练习中，仅测试了精确剪裁的技能。 Calot的三角形已经暴露，周围的组织剖析了，受训者只能正确识别目标结构并施加夹子。",
+        "ja": "このバージョンの演習では、正確なクリッピングのスキルのみがテストされています。カロットの三角形はすでに露出しており、周囲の組織は解剖されており、研修生はターゲット構造を適切に識別し、クリップを適用する必要があります。",
+        "hu": "A gyakorlat ezen verziójában csak a pontos vágás készségét tesztelik. A Calot háromszöge már ki van téve, és a környező szöveteket boncolják, és a gyakornoknak csak a célszerkezeteket kell azonosítani és klipeket alkalmaznia."
     },
     "instructions": {
         "en": "3 clips should be used per vessel, 2 clips on the patient side of the vessel and 1 on the side of the gallbladder. In this way when these vessels are cut, there is a limited danger of the vessels rupturing or of the gallbladder itself leaking bile into the operating area. The trainee may also continue and separate the gallbladder with the monopolar hook away from the surface of the liver before removal.",
         "pl": "Należy zastosować 3 klipsy na każdy cięty przewód. 2 klipsy po stronie naczynia pacjenta i 1 klips po stronie pęcherzyka żółciowego. Tym sposobem, gdy te naczynia zostaną przecięte będzie ograniczone niebezpieczeństwo krwawienia lub wycieku żółci z samego pęcherzyka żółciowego do obszaru operacyjnego. Ćwiczący może też kontynuować standardowy przebieg procedury, precyzyjnie oddzielając sam pęcherzyk żółciowy za pomocą monopolarnego haka wzdłuż powierzchni wątroby przed usunięciem. ",
         "es": "Se deben usar 3 clips por recipiente, 2 clips en el lado del paciente del recipiente y 1 en el lado de la vesícula biliar. De esta manera, cuando se cortan estos buques, existe un peligro limitado de las rupturas de los vasos o de la bilis de fugas de la vesícula biliar en el área de operación. El aprendiz también puede continuar y separar la vesícula biliar con el gancho monopolar lejos de la superficie del hígado antes de la eliminación.",
-        "zh-cn": "每艘船应使用3个夹子，在血管的患者侧和胆囊侧的侧面上的2个夹子。以这种方式，当这些血管被切割时，血管破裂或胆囊本身泄漏到操作区域的有限危险。实习生还可以继续并将胆囊与单极钩分离，远离肝脏的表面去除前。",
-        "ja": "血管ごとに、血管の患者側の2つのクリップ、胆嚢側のクリップを使用する必要があります。このようにしてこれらの血管が切断されているとき、血管が破裂しているか胆嚢自体の漏れ胆汁が操作領域に漏れる危険性があります。研修生はまた、除去前に肝臓の表面から胆嚢を肝臓の表面から遠ざけ、胆嚢を継続して分離することができる。"
+        "zh-cn": "每个容器应使用3个夹子，在船只的患者侧的2个夹子和胆囊侧的1个夹子。这样，当这些船只被切割时，船只破裂或胆囊本身会泄漏到操作区域的危险。在移除之前，学员还可以继续将胆囊与单极钩从肝脏表面远离胆囊。",
+        "ja": "容器ごとに3つのクリップを使用し、船舶の患者側に2つのクリップを、1つは胆嚢側に使用する必要があります。このようにして、これらの容器が切断されると、船舶が破裂するか、胆嚢自体が胆汁を動作エリアに漏れているという危険が限られています。訓練生は、除去する前に肝臓の表面からモノ極フックで胆嚢を継続し、分離することもできます。",
+        "hu": "3 klipet kell használni edényenként, 2 klipet az edény beteg oldalán és 1 az epehólyag oldalán. Ilyen módon, amikor ezeket a hajókat vágják, korlátozott veszély áll fenn, ha a hajók szakadnak, vagy maga az epehólyag szivárog az epe -hez a működési területre. A gyakornok folytathatja és elválaszthatja az epehólyagot a monopoláris horoggal a máj felületétől az eltávolítás előtt."
     },
     "preparation": {
-        "en": "Remove any physical modules from the base of the positioning platform of the Apex. Place the ports with trocars in the indicated locations and remove instruments from the device.",
-        "pl": "Wszelkie fizyczne moduły z podstawy platformy pozycjonującej Apex powinny zostać usunięte. Porty wraz z trokarami powinny być ustawione we wskazanych miejscach i instrumenty powinny być wyjęte z urządzenia. ",
+        "en": "Remove any physical modules from the operating area. Remove instruments from trocars and pull out camera as far as possible.",
+        "pl": "Fizyczne moduły powinny być wyjęte z pola operacyjnego. Instrumenty powinny zostać wyjęte z trokarów a kamera wyciągnięta tak daleko jak to możliwe.",
         "es": "Retire cualquier módulo físico de la base de la plataforma de posicionamiento del ápice. Coloque los puertos con trocares en las ubicaciones indicadas y elimine los instrumentos del dispositivo.",
-        "zh-cn": "从顶点的定位平台的基础上删除任何物理模块。将端口用指示位置中的轨道放置在指示的位置，并从设备中删除仪器。",
-        "ja": "Apexの位置決めプラットフォームのベースから物理モジュールを削除します。ポートを表示された場所にトロカールを置き、デバイスから楽器を取り除きます。"
+        "zh-cn": "从操作区域删除任何物理模块。从套管器上卸下仪器，并尽可能拔出摄像头。",
+        "ja": "動作領域から物理モジュールを削除します。トロカーから楽器を取り外し、カメラをできるだけ引き出します。",
+        "hu": "Távolítsa el a fizikai modulokat a működési területről. Távolítsa el a műszereket a trokarokból, és húzza ki a kamerát, amennyire csak lehetséges."
     }
 }

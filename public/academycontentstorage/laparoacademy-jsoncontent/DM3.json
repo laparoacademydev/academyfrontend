@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "dexterity_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "dexterity_module.png",
             "places": [
@@ -50,12 +38,6 @@
             ]
         }
     },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
-    },
     "tableConfig": {
         "Apex": {
             "xPosition_mm": 0,
@@ -68,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -158,44 +135,54 @@
             "proficiency": 150
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "DM",
     "allowedInstruments": [
         "grasper",
         "dissector"
+    ],
+    "accessories": [
+        "cone:10"
     ],
     "name": {
         "en": "Object Rotation and Direction",
         "pl": "Obrót i Kierunek Obiektu",
         "es": "Rotación y dirección del objeto.",
-        "zh-cn": "对象旋转和方向",
-        "ja": "オブジェクトの回転と方向"
+        "zh-cn": "物体旋转和方向",
+        "ja": "オブジェクトの回転と方向",
+        "hu": "Objektum forgása és iránya"
     },
     "skills": {
         "en": "Manipulation of Long Objects, Instrument Collaboration, Rotation, Suturing",
         "pl": "Manipulacja Podłużnych Obiektów, Współpraca Instrumentami, Obracanie, Szycie",
         "es": "Manipulación de objetos largos, colaboración del instrumento, rotación, sutura.",
         "zh-cn": "操纵长物体，仪器协作，旋转，缝合",
-        "ja": "長いものの操作、機器のコラボレーション、回転、縫合"
+        "ja": "長いオブジェクトの操作、楽器のコラボレーション、回転、縫合",
+        "hu": "Hosszú tárgyak manipulálása, hangszer -együttműködés, forgás, varrás"
     },
     "description": {
         "en": "When suturing in laparoscopy we must use the instruments to rotate and position the needle into various positions. In this exercise you will manipulate long cones into target locations. By doing so you will develop an understanding of rotation and positioning of such long objects accurately without depth perception and with limited tactile feedback.",
         "pl": "Podczas szycia w laparoskopii musimy używać narzędzi do precyzyjnego obracania i ustawiania igły w różnych pozycjach. W tym ćwiczeniu długie stożki muszą być umieszczane w lokalizacjach docelowych. W ten sposób ćwiczący rozwinie zrozumienie rotacji i pozycjonowania tak długich obiektów dokładnie, bez dostępnej percepcji głębi.",
         "es": "Cuando se suturba en laparoscopia, debemos usar los instrumentos para girar y colocar la aguja en varias posiciones. En este ejercicio, manipularás conos largos en lugares de destino. Al hacerlo, desarrollará una comprensión de la rotación y el posicionamiento de objetos tan largos con precisión sin la percepción de la profundidad y con una retroalimentación táctil limitada.",
-        "zh-cn": "在腹腔镜检查时，我们必须使用仪器旋转并将针定位成各种位置。在本练习中，您将长期操纵到目标位置。通过这样做，您将在没有深度感知和有限的触觉反馈的情况下准确地了解对这种长物体的旋转和定位的理解。",
-        "ja": "腹腔鏡検査で縫合するとき、我々は針を様々な位置に回転させ位置決めするために器具を使わなければならない。この演習では、長円錐を目標の場所に操作します。そうすることによって、あなたは深さの知覚なしそして限られた触覚フィードバックなしに、そのような長い物体の回転と位置決めを正確に理解することを策定するでしょう。"
+        "zh-cn": "在腹腔镜检查中缝合时，我们必须使用仪器将针头旋转并定位到各种位置。在本练习中，您将操纵长锥进入目标位置。通过这样做，您将准确地对如此长的物体的旋转和定位进行理解，而无需深度感知和有限的触觉反馈。",
+        "ja": "腹腔鏡検査で縫合するときは、機器を使用して針をさまざまな位置に回転させ、配置する必要があります。この演習では、長いコーンをターゲットの場所に操作します。そうすることで、深さの知覚と限られた触覚フィードバックを使用して、そのような長いオブジェクトの回転と位置付けの理解を正確に開発します。",
+        "hu": "A laparoszkópiában varrva a műszereket el kell forgatnunk, és a tűt különböző helyzetekbe helyezzük. Ebben a gyakorlatban a hosszú kúpokat a célhelyekre manipulálja. Ezzel kidolgozza az ilyen hosszú tárgyak rotációjának és elhelyezésének megértését, mélységérzékelés nélkül és korlátozott tapintható visszajelzés nélkül."
     },
     "instructions": {
         "en": "Grab cones from the center basket one by one. Rotate them inside the grasper/dissector until they can be fit into the 8 holes in top corner holes. Repeat until all 8 cones are in holes.",
         "pl": "Chwytaj stożki kolejno ze środkowego kosza. Obracaj je wewnątrz chwytaka/dysektora, aż zmieszczą się w 8 otworach w górnych otworach narożnych. Powtarzaj, aż wszystkie 8 stożków znajdzie się w otworach. ",
         "es": "Agarre los conos de la cesta del centro uno por uno. Gírelos dentro del agarre / disector hasta que puedan estar en forma en los 8 orificios en los agujeros de esquina superior. Repita hasta que los 8 conos estén en agujeros.",
-        "zh-cn": "一个接一个地抓住中心篮子的锥体。将它们旋转在抓握器/插入体内，直到它们可以适合顶角孔的8个孔。重复直到所有8个锥体都在孔中。",
-        "ja": "センターバスケットからコーンを1つずつつかみます。上隅穴の8つの穴に収まるまで、それらをgrasper / dissectorの内側に回転させます。すべてのコーンが穴に入るまで繰り返します。"
+        "zh-cn": "一一从中央篮子上抓住锥。将它们旋转在grasper/istector中，直到可以将它们放入顶角孔中的8个孔中。重复直到所有8个锥体都在孔中。",
+        "ja": "中央のバスケットからコーンを1つずつつかみます。グレーパー/分離器内でそれらを回転させ、上部穴の8つの穴に収まるようになります。 8つのコーンすべてが穴になるまで繰り返します。",
+        "hu": "Fogd meg a kúpokat a középső kosárból egyenként. Forgassa el őket a maró/boncoló belsejében, amíg be nem illeszkedhetnek a felső saroklyukak 8 lyukába. Ismételje meg, amíg mind a 8 kúp lyukakba nem kerül."
     },
     "preparation": {
         "en": "Place 10 cones in the center basket of the Dexterity Module.",
         "pl": "Umieść 10 stożków w środkowym koszu Modułu Zręczności. ",
         "es": "Coloque 10 conos en la canasta central del módulo de destreza.",
-        "zh-cn": "将10个锥体放在Dexterity模块的中心篮子里。",
-        "ja": "機器モジュールのセンターバスケットに10コーンを置きます。"
+        "zh-cn": "将10个锥体放在敏捷模块的中心篮中。",
+        "ja": "Dexterityモジュールの中央バスケットに10個のコーンを置きます。",
+        "hu": "Helyezzen 10 kúpot az ügyességi modul középső kosárjába."
     }
 }

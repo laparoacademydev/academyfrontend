@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -37,12 +25,6 @@
         },
         "Analytic": {},
         "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +38,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,45 +127,55 @@
             "proficiency": 420
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "THM",
     "allowedInstruments": [
         "dissector",
         "scissors",
         "grasper"
     ],
+    "accessories": [
+        "tissue_dissection_pad:1"
+    ],
     "name": {
         "en": "Incision and Blunt Dissection",
         "pl": "Cięcie i Preparowanie na Tępo",
         "es": "Incisión y disección romas.",
-        "zh-cn": "切口和钝性解剖",
-        "ja": "切開と鈍い解剖"
+        "zh-cn": "切口和钝解剖",
+        "ja": "切開と鈍い解剖",
+        "hu": "Bemetszés és tompa boncolás"
     },
     "skills": {
         "en": "Dissection, Dissector\n",
         "pl": "Preparowanie, Disektor",
-        "es": "Disección, disector\n",
-        "zh-cn": "解剖分歧\n",
-        "ja": "解剖\n"
+        "es": "Disección, disector",
+        "zh-cn": "解剖，解剖器\n",
+        "ja": "解剖、解剖\n",
+        "hu": "Boncolás, boncoló\n"
     },
     "description": {
         "en": "When finding and extracting tissues it can often be dangerous to use scissors and sharp instruments due to proximity of sensitive tissues. In those cases the dissector can be used to dissect delicate tissues to expose target structures or to separate them.",
         "pl": "Podczas szukania i preparowania tkanek, używanie nożyczek i ostrych narzędzi może być niebezpieczne ze względu na bliskość innych wrażliwych tkanek. W takich przypadkach disektor może posłużyć do preparowania w celu odsłonięcia docelowych struktur lub ich rozdzielenia bez zbędnego ryzyka. ",
         "es": "Al encontrar y extraer tejidos, a menudo puede ser peligroso usar tijeras y instrumentos afilados debido a la proximidad de los tejidos sensibles. En aquellos casos, el disector se puede usar para diseccionar tejidos delicados para exponer las estructuras de destino o separarlas.",
-        "zh-cn": "当发现和提取组织时，由于敏感组织的邻近，使用剪刀和尖锐的仪器通常可能是危险的。在那些情况下，解剖仪可用于将精细组织分解以暴露靶结构或分离它们。",
-        "ja": "組織を見つけて抽出するとき、それは敏感な組織の近くのためにはさみや鋭利な楽器を使用することがしばしば危険です。そのような場合には、解剖器具を使用して、微妙な組織を解剖して標的構造を露出させるか、またはそれらを分離することができる。"
+        "zh-cn": "在发现和提取组织时，由于敏感组织的邻近性，使用剪刀和锋利的仪器通常可能是危险的。在这种情况下，解剖器可用于剖析细腻的组织以暴露目标结构或分离它们。",
+        "ja": "組織を見つけて抽出する場合、感受性組織の近接によりハサミや鋭利な機器を使用することは危険な場合があります。そのような場合、分離器を使用して、繊細な組織を分析して標的構造を露出させるか、それらを分離することができます。",
+        "hu": "A szövetek megtalálásakor és extrahálásakor az érzékeny szövetek közelsége miatt gyakran veszélyes lehet olló és éles műszer használata. Ezekben az esetekben a boncoló felhasználható a finom szövetek boncolására a célszerkezetek feltárására vagy azok elválasztására."
     },
     "instructions": {
         "en": "In this exercise first use scissors to perforate and cut the surface of the module. Then use the dissector to accurately dissect the target element from the rest of the module without cutting through the bottom of the module.",
         "pl": "W tym ćwiczeniu użyte powinny być nożyczki, aby przebić i przeciąć powierzchnię. Następnie disektorem tkanki powinny być wypreparowane od reszty modułu bez przecinania dolnej części. ",
         "es": "En este ejercicio, primero use tijeras para perforar y cortar la superficie del módulo. Luego, use el disectador para diseccionar con precisión el elemento de destino del resto del módulo sin cortar la parte inferior del módulo.",
-        "zh-cn": "在本演练中，首先使用剪刀穿孔并切割模块的表面。然后使用分选仪从模块的其余部分准确地解剖目标元件而不通过模块的底部切割。",
-        "ja": "この演習では、まずハサミを使用してモジュールの表面を穿孔した。次に、アレイトを使用して、モジュールの下部を切り抜かずに、モジュールの残りの部分から正確にターゲット要素を正確に解剖します。"
+        "zh-cn": "在本练习中，首先使用剪刀穿孔并切割模块的表面。然后使用解剖器从模块的其余部分准确剖析目标元件，而无需切入模块的底部。",
+        "ja": "この演習では、最初にハサミを使用して、モジュールの表面を穿孔して切断します。次に、分離器を使用して、モジュールの底部を切り抜けることなく、モジュールの残りの部分からターゲット要素を正確に分析します。",
+        "hu": "Ebben a gyakorlatban először használja az ollókat a modul felületének perforálására és vágására. Ezután a boncolóval pontosan bontsa be a cél elemet a modul többi részéből anélkül, hogy a modul alját át lehet vágni."
     },
     "preparation": {
         "en": "Insert the Tissue Dissection Insert into the Tissue Holder Module. Use the screws to make sure the tissue is stretched snugly as pictured.",
         "pl": "Włóż element do preparowania tkanki w module uchwytu tkanki. Użyj śrub, aby przymocować tkankę w taki sposób aby była naciągnięta, jak na zdjęciu. ",
         "es": "Inserte la inserción de disección del tejido en el módulo del soporte de tejido. Use los tornillos para asegurarse de que el tejido se estire cómodamente como se muestra en la imagen.",
-        "zh-cn": "将组织分析插入刀片插入组织保持器模块中。使用螺钉确保组织如图所示。",
-        "ja": "組織の解剖インサートを組織ホルダーモジュールに挿入します。診断されているように、組織がぴったりされていることを確認するためにネジを使用してください。"
+        "zh-cn": "将组织解剖插入插入组织固定器模块中。使用螺钉确保如图所示的那样紧密地拉伸组织。",
+        "ja": "組織ホルダーモジュールに組織解剖挿入を挿入します。ネジを使用して、写真のように組織がぴったりと伸びていることを確認してください。",
+        "hu": "Helyezze be a szöveti boncolási betétet a szöveti tartó modulba. Használja a csavarokat, hogy megbizonyosodjon arról, hogy a szövet a képen látható módon feszesen van -e nyújtva."
     }
 }

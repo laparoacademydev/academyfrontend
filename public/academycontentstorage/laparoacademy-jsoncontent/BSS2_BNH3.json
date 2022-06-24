@@ -12,21 +12,9 @@
         "Advance": {
             "angle": 30,
             "brigthness": 1
-        },
-        "angle": 30,
-        "brigthness": 1
+        }
     },
     "trocarsConfig": {
-        "configurations": [
-            {
-                "backgroundUrl": "tension_module.png",
-                "places": [
-                    1,
-                    3,
-                    7
-                ]
-            }
-        ],
         "Apex": {
             "backgroundUrl": "tension_module.png",
             "places": [
@@ -35,14 +23,20 @@
                 7
             ]
         },
-        "Analytic": {},
-        "Advance": {}
-    },
-    "drawerConfig": {
-        "main1mm": 120,
-        "main2mm": 120,
-        "plat1deg": 10,
-        "plat2deg": 10
+        "Analytic": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                7
+            ]
+        },
+        "Advance": {
+            "backgroundUrl": "tension_module.png",
+            "places": [
+                2,
+                9
+            ]
+        }
     },
     "tableConfig": {
         "Apex": {
@@ -56,13 +50,8 @@
         },
         "Advance": {
             "position": 2
-        },
-        "xPosition_mm": 0,
-        "yPosition_mm": 120,
-        "angle_deg": 0,
-        "height_mm": 10
+        }
     },
-    "vrConfig": {},
     "isFreeTraining": false,
     "evalConfig": {
         "manual": {
@@ -150,44 +139,56 @@
             "proficiency": 300
         }
     },
+    "vrConfig": {},
     "isVR": false,
+    "moduleID": "BSS",
     "allowedInstruments": [
         "dissector",
         "needle_h"
+    ],
+    "accessories": [
+        "needle_threading_platform_2:1",
+        " needle:1",
+        " start_position:1"
     ],
     "name": {
         "en": "Needle Threading at Different Angles",
         "pl": "Przekłuwanie pod Różnymi Kątami",
         "es": "Roscado de la aguja en diferentes ángulos.",
-        "zh-cn": "针螺纹以不同的角度",
-        "ja": "異なる角度での針スレッド"
+        "zh-cn": "针线螺纹以不同的角度",
+        "ja": "さまざまな角度での針スレッド",
+        "hu": "Tűszálak különböző szögekben"
     },
     "skills": {
         "en": "Needle Holder, Needle Threading, Needle Manipulation, Suturing",
         "pl": "Imadło, Przewlekanie, Manipulacja Igłą, Szycie",
         "es": "Soporte de la aguja, roscado de la aguja, manipulación de la aguja, sutura",
-        "zh-cn": "针脚，针穿针，针操作，缝合",
-        "ja": "ニードルホルダー、針ねじ切り、針操作、縫合"
+        "zh-cn": "针固定器，针线，针头操纵，缝合",
+        "ja": "針ホルダー、針のねじ、針操作、縫合",
+        "hu": "Tűtartót, tűszálak, tű manipuláció, varrás"
     },
     "description": {
         "en": "Often the surgeon won’t have the best angle at their disposal, and the needle holder won’t be able to drive the needle smoothly along the curvature of the needle. In these cases it is important for the trainee to plan ahead and learn how foresee these circumstances. By practicing with this exercise the trainee develops an understanding of how easily or how hard the needle can be driven through target tissue at various angles.",
         "pl": "Często chirurg nie ma do dyspozycji najlepszego kąta, a imadło nie poprowadzi płynnie igły wraz z krzywizną i obrotem instrumentu. W takich przypadkach ważne jest, aby trenujący nauczył się planować i przewidywać takie okoliczności. Wykonując przekłucia w tym ćwiczeniu trenujący rozwinie wyobraźnię i doświadczy to jak łatwo lub jak trudno igła może być przebijana przez tkankę docelową pod różnymi kątami. Warto zwrócić uwagę w szczególności na najtrudniejsze kąty natarcia.",
         "es": "A menudo, el cirujano no tendrá el mejor ángulo a su disposición, y el soporte de la aguja no podrá conducir la aguja suavemente a lo largo de la curvatura de la aguja. En estos casos, es importante que el aprendiz planifique con anticipación y aprendiera lo previsto en estas circunstancias. Al practicar con este ejercicio, el aprendiz desarrolla una comprensión de lo fácil o tan difícil que la aguja puede ser conducida a través del tejido objetivo en varios ángulos.",
-        "zh-cn": "通常，外科医生在他们处置时不会具有最佳角度，并且针座将无法沿着针的曲率平滑地驱动针。在这些情况下，对受训人员来说很重要，并了解如何预见这些情况。通过练习这种练习，受训者在各种角度地通过目标组织驱动针可以容易或多重的理解。",
-        "ja": "多くの場合、外科医は彼らの処分で最高の角度を持たず、針ホルダーは針の曲率に沿って針を滑らかに運転することができないでしょう。このような場合、研修生が今後も計画し、これらの状況がどのように予測されるかを学ぶことが重要です。この演習で練習することで、研修生は様々な角度で標的組織を通して針がどの程度簡単にかく可能性があるかについての理解を深めることができます。"
+        "zh-cn": "通常，外科医生不会拥有最好的角度，并且针固定器将无法沿着针的曲率平滑驾驶针头。在这些情况下，学员必须提前计划并了解如何预见这些情况很重要。通过练习此练习，学员可以理解以各个角度通过目标组织驱动针头的方式或用力。",
+        "ja": "多くの場合、外科医は自由に最適な角度を持たず、針ホルダーは針の曲率に沿って針を滑らかに駆動することができません。これらの場合、研修生が事前に計画し、これらの状況を予測することを学ぶことが重要です。このエクササイズを練習することにより、研修生は、さまざまな角度で標的組織を通して針をどれだけ簡単に、またはどれだけ硬く駆動できるかを理解することを開発します。",
+        "hu": "A sebésznek gyakran nem lesz a legjobb szöge a rendelkezésére, és a tűtartó nem lesz képes simán vezesse a tűt a tű görbülete mentén. Ezekben az esetekben fontos, hogy a gyakornok előre tervezzen és megtanulja, hogyan látja ezeket a körülményeket. Ha ezt a gyakorlatot gyakorolják, a gyakornok megérti, mennyire könnyen vagy mennyire keményen lehet a tűt a célszövetben különböző szögekben vezetni."
     },
     "instructions": {
         "en": "Drive the needle 6 times through the silicone module. For the first three throws go from the center dot to the left three dots with the needle holder on the right side. Next place the needle in the start position and switch sides. Now drive the needle from the center to the right three dots with the needle holder held on the left side. Return the needle to the start position to finish.",
         "pl": "Przekłuj silikonowy moduł igłą 6 razy. Przy pierwszych trzech przekłuciach zaczynaj od punktu środkowego do punktów po lewej stronie z imadłem w prawej ręce. Następnie umieść igłę w pozycji startowej i zamień instrumenty. Teraz przekłuwaj igłą od środka do prawych trzech kropkek imadłem trzymanym po lewej stronie. Aby zakończyć, umieść igłę w pozycji początkowej. ",
         "es": "Conduce la aguja 6 veces a través del módulo de silicona. Para los primeros tres tiros, pase desde el punto central a los tres puntos de la izquierda con el soporte de la aguja en el lado derecho. Siguiente Coloque la aguja en la posición de inicio y cambie de lados. Ahora conduzca la aguja del centro a los tres puntos a la derecha con el soporte de la aguja que se mantiene en el lado izquierdo. Devuelva la aguja a la posición de inicio para terminar.",
-        "zh-cn": "通过硅胶模块驱动针6次。对于前三次，从中心点到左侧的左侧三点，右侧。接下来将针放在起始位置和开关侧。现在将针从中心驱动到右侧三点，用针座保持在左侧。将针返回到开始位置完成。",
-        "ja": "シリコーンモジュールを通して針を6回駆動します。最初の3つのスローは、右側のニードルホルダーを持つ中央ドットから左3ドットに移動します。次に、開始位置とスイッチ側の針を配置します。針ホルダーが左側に保持された状態で、中央から右3ドットまで針を駆動します。終了する開始位置に針を戻します。"
+        "zh-cn": "将针头6次穿过硅胶模块。在前三个罚球中，从中心点到左三点，右侧的针固定器。接下来，将针放在起始位置和开关侧面。现在，将针头从中央到右三个点，将针固定器固定在左侧。将针头返回开始位置。",
+        "ja": "シリコンモジュールを6回針を駆動します。最初の3つのスローは、右側に針ホルダーを置いて、中央のドットから左の3つのドットに進みます。次に、針を開始位置とスイッチ側に置きます。針を左側に保持して、中央から右の3つのドットに針を運転します。針を開始位置に戻して終了します。",
+        "hu": "Vezesse a tűt 6 -szor a szilikon modulon keresztül. Az első három dobáshoz a középpontból balra menjen három pont, a jobb oldalon lévő tűtartóval. Ezután helyezze a tűt a kezdő helyzetbe, és kapcsolja be az oldalakat. Most vezesse a tűt a középpontból a jobb oldalra, a bal oldalon tartva a tűtartót. Tegye vissza a tűt a kezdő helyzetbe, hogy befejezze."
     },
     "preparation": {
         "en": "Place the needle start position and the dome shaped hexagonal silicone module in the center of the Basic Suturing Platform.",
         "pl": "Umieść pozycję początkową dla igły moduł silikonowy w kształcie kopuły na środku podstawowej platformy do szycia. ",
         "es": "Coloque la posición de inicio de la aguja y el módulo de silicona hexagonal en forma de domo en el centro de la plataforma de sutura básica.",
-        "zh-cn": "将针头开始位置和圆顶形六边形硅胶模块放在基本缝合平台的中心。",
-        "ja": "針の開始位置とドーム形の六角形のシリコーンモジュールを基本的な縫合プラットフォームの中央に置きます。"
+        "zh-cn": "将针启动位置和圆顶形的六角硅模块放在基本缝合平台的中心。",
+        "ja": "針の開始位置と、基本的な縫合プラットフォームの中心にドーム型の六角形のシリコンモジュールを置きます。",
+        "hu": "Helyezze a tű kiindulási helyzetét és a kupola alakú hatszögletű szilikon modult az alapvető varrási platform közepére."
     }
 }
