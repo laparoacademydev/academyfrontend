@@ -17,7 +17,7 @@ function EducationSection(props) {
       />
       <div className={classes.edutopfade}></div>
       <div className={classes.edutitle}>
-        {props.selectedItemContent.title[props.selectedLanguage]}
+        {props.selectedItemContent.title.text[props.selectedLanguage]}
       </div>
       <div>
         {props.selectedItemContent.content.map((object) => {
@@ -34,15 +34,16 @@ function EducationSection(props) {
               </div>
             );
           } else if (object.type === "media") {
+            console.log(object.media);
             return (
               <div key={key++}>
                 <img
-                  src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${object.media[0].url}`}
+                  src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${object.media.url}`}
                   alt={"error"}
                   className={classes.scenarioprepimg}
                 ></img>
                 <div className={classes.mediadescription}>
-                  {object.media[0].label[props.selectedLanguage]}
+                  {object.media.label[props.selectedLanguage]}
                 </div>
               </div>
             );
