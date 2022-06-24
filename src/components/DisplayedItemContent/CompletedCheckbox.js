@@ -8,8 +8,6 @@ function CompletedCheckbox(props) {
   const [checkboxComplete, setCheckboxComplete] = useState(null);
 
   React.useEffect(() => {
-    console.log(props.userTrainingHistory);
-
     if (props.userTrainingHistory.includes(props.selectedItemContent.id)) {
       setCheckboxComplete(true);
     } else {
