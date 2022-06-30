@@ -6,6 +6,7 @@ import WebcamExit from "./WebcamExit";
 import TrainerSelectBox from "./TrainerSelectBox";
 
 import { useRef } from "react";
+import WebcamSelect from "./WebcamSelect";
 
 const aspireVideoConstraints = {
   width: 1280,
@@ -114,32 +115,74 @@ function WebcamTraining(props) {
     }
   }, [recordedChunks]);
 
-  // old code which handled uploading and downloading existing trainings before:
-  // const handleUpload = React.useCallback(() => {
-  //   if (recordedChunks.length) {
-  //     const blob = new Blob(recordedChunks, {
-  //       type: "video/webm",
-  //     });
-  //     setUploading(true);
+  const [deviceId, setDeviceId] = React.useState(0);
+  const [devices, setDevices] = React.useState([]);
 
-  //     axios
-  //       .post(`${props.url}SendFile`, blob, {
-  //         params: {
-  //           name: props.name,
-  //         },
-  //         headers: {
-  //           "Content-Type": "video/webm",
-  //           Authorization: window.localStorage.getItem("jwt"),
-  //         },
-  //         timeout: 30000,
-  //       })
-  //       .catch(AppHelper.onRequestError)
-  //       .then((response) => {
-  //         setUploaded(true);
-  //         setUploading(false);
-  //       });
-  //   }
-  // }, [recordedChunks, props.url, props.name]);
+  const handleDevices = React.useCallback(
+    (mediaDevices) =>
+      setDevices(mediaDevices.filter(({ kind }) => kind === "videoinput")),
+    [setDevices]
+  );
+
+  React.useEffect(() => {
+    navigator.mediaDevices
+      .getUserMedia({ audio: false, video: true })
+      .then((s) => {
+        navigator.mediaDevices.enumerateDevices().then((handleDevices) => {
+          setDevices(handleDevices);
+        });
+      })
+      .catch((error) => {
+        console.log("Error :", error);
+      });
+  }, [handleDevices]);
+
+  React.useEffect(() => {
+    console.log(currentTrainer);
+    if (deviceId === 0 && devices.length !== 0 && currentTrainer !== null) {
+      if (currentTrainer === "aspire") {
+        for (let a = 0; a < devices.length; a++) {
+          if (devices[a].label === "USB2.0 Camera") {
+            setDeviceId(devices[a].deviceId);
+            setVideoConstraints((prevState) => ({
+              ...prevState,
+              deviceId: devices[a].deviceId,
+            }));
+          } else if (deviceId === 0) {
+            setDeviceId(devices[0].deviceId);
+            setVideoConstraints((prevState) => ({
+              ...prevState,
+              deviceId: devices[0].deviceId,
+            }));
+          }
+        }
+      } else {
+        for (let a = 0; a < devices.length; a++) {
+          if (devices[a].label === "HD USB Camera") {
+            setDeviceId(devices[a].deviceId);
+            setVideoConstraints((prevState) => ({
+              ...prevState,
+              deviceId: devices[a].deviceId,
+            }));
+          } else if (deviceId === 0) {
+            setDeviceId(devices[0].deviceId);
+            setVideoConstraints((prevState) => ({
+              ...prevState,
+              deviceId: devices[0].deviceId,
+            }));
+          }
+        }
+      }
+    }
+  }, [devices, currentTrainer]);
+
+  function switchDeviceId(device) {
+    setDeviceId(device.deviceId);
+    setVideoConstraints((prevState) => ({
+      ...prevState,
+      deviceId: device.deviceId,
+    }));
+  }
 
   return (
     <div>
@@ -192,6 +235,11 @@ function WebcamTraining(props) {
           localizationData={props.localizationData}
           selectedLanguage={props.selectedLanguage}
         />
+        {currentTrainer ? (
+          <WebcamSelect devices={devices} switchDeviceId={switchDeviceId} />
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
