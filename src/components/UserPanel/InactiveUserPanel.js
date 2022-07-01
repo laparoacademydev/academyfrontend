@@ -15,12 +15,14 @@ function InactiveUserPanel(props) {
           }
         }}
       >
-        <div className={classes.inactiveuserpaneltext}>{props.userEmail}</div>
-        <img
-          src={burgericon}
-          className={classes.inactiveuserpanel_burger}
-          alt="."
-        />
+        {/* <div className={classes.inactiveuserpaneltext}>{props.userEmail}</div> */}
+        <div>
+          <img
+            src={burgericon}
+            className={classes.inactiveuserpanel_burger}
+            alt="."
+          />
+        </div>
       </div>
     </Fragment>
   );

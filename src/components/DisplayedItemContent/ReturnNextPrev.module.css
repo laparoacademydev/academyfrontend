@@ -11,6 +11,10 @@
   z-index: 12;
 }
 
+.returnbutton:hover {
+  background-color: #94949417;
+}
+
 .returnbuttontext {
   position: relative;
   user-select: none;
@@ -41,6 +45,10 @@
   z-index: 12;
 }
 
+.nextbutton:hover {
+  background-color: #94949417;
+}
+
 .nextbuttontext {
   position: relative;
   user-select: none;
@@ -62,6 +70,10 @@
   height: 30px;
   width: 120px;
   z-index: 12;
+}
+
+.prevbutton:hover {
+  background-color: #94949417;
 }
 
 .prevbuttontext {

@@ -8,12 +8,10 @@ function CourseItem(props) {
           ? classes.courseitemselected
           : classes.courseitem
       }
+      onClick={() => props.setCourseIdAndScenarioList(props.course)}
     >
-      <div
-        className={classes.courseitemdescription}
-        onClick={() => props.setCourseIdAndScenarioList(props.course)}
-      >
-        <div>{props.course.name[props.selectedLanguage]}</div>
+      <div className={classes.courseitemdescription}>
+        {props.course.name[props.selectedLanguage]}
       </div>
     </div>
   );

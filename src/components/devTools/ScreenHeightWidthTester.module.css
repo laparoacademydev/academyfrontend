@@ -1,11 +1,12 @@
 .box {
   position: fixed;
-  left: 303px;
+  left: 20%;
+  margin-left: 4px;
   top: 2px;
   z-index: 40;
   width: 400px;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.336);
+  background-color: rgba(0, 0, 0, 0.089);
   border-radius: 3px;
 }
 

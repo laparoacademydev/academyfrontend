@@ -1,6 +1,6 @@
 .itemcontentcomponent {
   position: fixed;
-  left: 300px;
+  left: 20%;
   top: 65px;
   background-color: #ffffff;
   width: 900px;
@@ -9,15 +9,23 @@
   margin-left: 1px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .itemcontentcomponent {
+    left: 200px;
+  }
+}
+
 /* BUTTON */
 
 .buttonstarttraining {
-  position: fixed;
+  position: relative;
+  float: right;
+  right: 40px;
+  bottom: -75%;
+
   background-color: #00619d;
   width: 100px;
   height: 100px;
-  bottom: 20px;
-  left: 1050px;
   border-radius: 3px;
   box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;

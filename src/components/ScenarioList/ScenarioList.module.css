@@ -1,7 +1,9 @@
 .scenariolist {
   position: fixed;
-  width: 900px;
-  left: 300px;
+  right: 1px;
+  max-width: 900px;
+
+  left: 20%;
   top: 64px;
   height: 100%;
   margin-left: 1px;
@@ -9,9 +11,22 @@
   overflow-y: auto;
 }
 
+@media only screen and (max-width: 1000px) {
+  .scenariolist {
+    position: fixed;
+    right: 1px;
+    margin-right: 1px;
+    left: 200px;
+    top: 64px;
+    height: 100%;
+    margin-left: 1px;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+  }
+}
+
 .scenariolistitem {
   position: relative;
-  width: 900px;
   left: 0%;
   right: 5%;
   height: 105px;
