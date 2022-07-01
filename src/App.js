@@ -150,6 +150,7 @@ function App() {
                   setLoadingScreenMsg("");
                   setLoaded(true);
                   LogUserEvent("login");
+                  CheckLanguage();
                 }
               }
             }
@@ -531,9 +532,9 @@ function App() {
   function LogUserEvent(event, component) {
     // logs a user event to the eventlogcontainer of the eventlog DB in azure - pairs this with user email. This function is found anywhere where we log events.
 
-    // types of events: login, logout, activateduser
+    // types of events: login, logout, activateduser, languageselected
     // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,
-    // special event with component (this gets added, but also removed if user unclicks): scenariocompleted,
+    // special event with component (this gets added, but also removed if user unclicks): scenariocompleted, languageselected
 
     var thisUserEmail = getUserEmail();
 
@@ -553,6 +554,33 @@ function App() {
         component: component,
       },
     });
+  }
+
+  function CheckLanguage() {
+    // array of all languageselected objects in the entire activity history:
+    let alllangevents = [];
+    for (var i = 0; i < userActivityHistory.length; i++) {
+      if (userActivityHistory[i].event == "languageselected") {
+        alllangevents.push(userActivityHistory[i]);
+      }
+    }
+    // calculation of which language selected object has the latest date:
+    var mostRecentDate = new Date(
+      Math.max.apply(
+        null,
+        alllangevents.map((e) => {
+          return new Date(e.date);
+        })
+      )
+    );
+    // recall of the entire most recent date object:
+    var mostRecentObject = alllangevents.filter((e) => {
+      var d = new Date(e.date);
+      return d.getTime() == mostRecentDate.getTime();
+    })[0];
+
+    //assign the exact language which was the latest to be applied:
+    setSelectedLanguage(mostRecentObject.component);
   }
 
   if (isMobile === true) {

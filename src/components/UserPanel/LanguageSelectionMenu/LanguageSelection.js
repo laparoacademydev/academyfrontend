@@ -13,6 +13,7 @@ function LanguageSelection(props) {
             setSelectedLanguage={props.setSelectedLanguage}
             setUserPanelActive={props.setUserPanelActive}
             getLocalization={props.getLocalization}
+            LogUserEvent={props.LogUserEvent}
           />
         );
       })}

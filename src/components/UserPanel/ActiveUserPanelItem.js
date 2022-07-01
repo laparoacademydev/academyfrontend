@@ -12,6 +12,7 @@ function ActiveUserPanelItem(props) {
           setSelectedLanguage={props.setSelectedLanguage}
           setUserPanelActive={props.setUserPanelActive}
           getLocalization={props.getLocalization}
+          LogUserEvent={props.LogUserEvent}
         />
       ) : (
         <div />

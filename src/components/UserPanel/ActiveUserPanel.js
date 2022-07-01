@@ -142,6 +142,7 @@ function ActiveUserPanel(props) {
                 setSelectedLanguage={props.setSelectedLanguage}
                 localizationData={props.localizationData}
                 getLocalization={props.getLocalization}
+                LogUserEvent={props.LogUserEvent}
               />
             );
           })}

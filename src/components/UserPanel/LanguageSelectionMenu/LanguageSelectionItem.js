@@ -9,6 +9,8 @@ function LanguageSelectionItem(props) {
         props.setUserPanelActive(0);
         props.setSelectedLanguage(props.lang.toString());
         props.getLocalization();
+        let selectedlanguage = props.lang.toString();
+        props.LogUserEvent("languageselected", selectedlanguage);
       }}
     >
       <div className={classes.languageflag}>
