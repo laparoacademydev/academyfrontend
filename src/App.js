@@ -150,7 +150,9 @@ function App() {
                   setLoadingScreenMsg("");
                   setLoaded(true);
                   LogUserEvent("login");
-                  CheckLanguage();
+                  if (loaded === true) {
+                    CheckLanguage();
+                  }
                 }
               }
             }
@@ -580,7 +582,10 @@ function App() {
     })[0];
 
     //assign the exact language which was the latest to be applied:
-    setSelectedLanguage(mostRecentObject.component);
+
+    if (mostRecentObject.component !== undefined) {
+      setSelectedLanguage(mostRecentObject.component);
+    }
   }
 
   if (isMobile === true) {
