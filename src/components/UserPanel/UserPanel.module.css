@@ -41,13 +41,13 @@
   right: 400px;
   height: 100%;
   background-color: #6d6d6d60;
-  z-index: 10;
+  z-index: 50;
 }
 
 .userpanel {
   position: fixed;
   display: flex;
-  z-index: 12;
+  z-index: 50;
   right: 0px;
   width: 40%;
   min-width: 400px;

@@ -8,6 +8,8 @@ import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+import Topbar from "./components/Topbar/Topbar";
+
 import MobileView from "./components/MobileView/MobileView";
 
 import decodeJWT from "jwt-decode";
@@ -642,6 +644,23 @@ function App() {
   } else {
     return (
       <Fragment>
+        <Topbar
+          items={courses}
+          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+          selectedCourseID={selectedCourseID}
+          userEmail={getUserEmail()}
+          userIsActive={userIsActive}
+          userPanelActive={userPanelActive}
+          setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+          localizationData={localizationData}
+          getLocalization={getLocalization}
+          developerMode={developerMode}
+          featureTestingMode={featureTestingMode}
+          LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
+        ></Topbar>
         <WebcamTraining
           name={selectedItem.name.en}
           setPlayingScenario={setPlayingScenario}

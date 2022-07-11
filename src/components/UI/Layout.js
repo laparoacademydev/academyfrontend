@@ -1,29 +1,11 @@
 import { Fragment } from "react";
-import LogoHome from "../LogoHome/LogoHome";
 import Courses from "../Sidebar/Courses";
-import UserPanel from "../UserPanel/UserPanel";
 import Topbar from "../Topbar/Topbar";
-import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
 
 function Layout(props) {
   return (
     <Fragment>
-      <LogoHome />
-      {props.featureTestingMode ? (
-        <ScreenHeightWidthTester
-          selectedItem={props.selectedItem}
-        ></ScreenHeightWidthTester>
-      ) : (
-        <div></div>
-      )}
-
-      <Courses
-        items={props.items}
-        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
-        selectedCourseID={props.selectedCourseID}
-        selectedLanguage={props.selectedLanguage}
-      />
-      <UserPanel
+      <Topbar
         userEmail={props.userEmail}
         setTrainingList={props.setTrainingList}
         userIsActive={props.userIsActive}
@@ -36,7 +18,12 @@ function Layout(props) {
         getLocalization={props.getLocalization}
         LogUserEvent={props.LogUserEvent}
       />
-      <Topbar />
+      <Courses
+        items={props.items}
+        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
+        selectedCourseID={props.selectedCourseID}
+        selectedLanguage={props.selectedLanguage}
+      />
     </Fragment>
   );
 }
