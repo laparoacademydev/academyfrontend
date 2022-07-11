@@ -17,6 +17,8 @@ function Layout(props) {
         localizationData={props.localizationData}
         getLocalization={props.getLocalization}
         LogUserEvent={props.LogUserEvent}
+        featureTestingMode={props.featureTestingMode}
+        selectedItem={props.selectedItem}
       />
       <Courses
         items={props.items}

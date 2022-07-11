@@ -1,6 +1,7 @@
 import classes from "./DisplayedItemContent.module.css";
 import EducationSection from "./EducationSection/EducationSection.js";
 import ScenarioDescription from "./ScenarioDescription/ScenarioDescription.js";
+import { Fragment } from "react";
 
 function DisplayedItemContent(props) {
   if (
@@ -13,39 +14,45 @@ function DisplayedItemContent(props) {
     !props.selectedItemContent.instructions
   ) {
     return (
-      <EducationSection
-        selectedItemContent={props.selectedItemContent}
-        selectedLanguage={props.selectedLanguage}
-        setSelectedItem={props.setSelectedItem}
-        localizationData={props.localizationData}
-        selectedNextItem={props.selectedNextItem}
-        selectedPrevItem={props.selectedPrevItem}
-        LogUserEvent={props.LogUserEvent}
-        setUserTrainingHistory={props.setUserTrainingHistory}
-        userTrainingHistory={props.userTrainingHistory}
-        featureTestingMode={props.featureTestingMode}
-        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
-      />
+      <Fragment>
+        <EducationSection
+          selectedItemContent={props.selectedItemContent}
+          selectedLanguage={props.selectedLanguage}
+          setSelectedItem={props.setSelectedItem}
+          localizationData={props.localizationData}
+          selectedNextItem={props.selectedNextItem}
+          selectedPrevItem={props.selectedPrevItem}
+          LogUserEvent={props.LogUserEvent}
+          setUserTrainingHistory={props.setUserTrainingHistory}
+          userTrainingHistory={props.userTrainingHistory}
+          featureTestingMode={props.featureTestingMode}
+          RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
+        />
+        <div className={classes.scenariolistrightsidefiller}></div>
+      </Fragment>
     );
   } else if (
     !props.selectedItemContent.content &&
     props.selectedItemContent.instructions
   ) {
     return (
-      <ScenarioDescription
-        selectedItemContent={props.selectedItemContent}
-        setPlayingScenario={props.setPlayingScenario}
-        selectedLanguage={props.selectedLanguage}
-        localizationData={props.localizationData}
-        setSelectedItem={props.setSelectedItem}
-        selectedNextItem={props.selectedNextItem}
-        selectedPrevItem={props.selectedPrevItem}
-        LogUserEvent={props.LogUserEvent}
-        setUserTrainingHistory={props.setUserTrainingHistory}
-        userTrainingHistory={props.userTrainingHistory}
-        featureTestingMode={props.featureTestingMode}
-        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
-      />
+      <Fragment>
+        <ScenarioDescription
+          selectedItemContent={props.selectedItemContent}
+          setPlayingScenario={props.setPlayingScenario}
+          selectedLanguage={props.selectedLanguage}
+          localizationData={props.localizationData}
+          setSelectedItem={props.setSelectedItem}
+          selectedNextItem={props.selectedNextItem}
+          selectedPrevItem={props.selectedPrevItem}
+          LogUserEvent={props.LogUserEvent}
+          setUserTrainingHistory={props.setUserTrainingHistory}
+          userTrainingHistory={props.userTrainingHistory}
+          featureTestingMode={props.featureTestingMode}
+          RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
+        />
+        <div className={classes.scenariolistrightsidefiller}></div>
+      </Fragment>
     );
   } else {
     return <div className={classes.itemcontentcomponent}>error?</div>;
