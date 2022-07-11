@@ -4,9 +4,12 @@ import Webcam from "react-webcam";
 import WebcamControlPanelBox from "./WebcamControlPanelBox";
 import WebcamExit from "./WebcamExit";
 import TrainerSelectBox from "./TrainerSelectBox";
+import { Fragment } from "react";
 
 import { useRef } from "react";
 import WebcamSelect from "./WebcamSelect";
+
+import Topbar from "../Topbar/Topbar";
 
 const aspireVideoConstraints = {
   width: 1280,
@@ -185,7 +188,29 @@ function WebcamTraining(props) {
   }
 
   return (
-    <div>
+    <Fragment>
+      <Topbar
+        items={props.courses}
+        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
+        selectedCourseID={props.selectedCourseID}
+        userEmail={props.userEmail}
+        userIsActive={props.userIsActive}
+        userPanelActive={props.userPanelActive}
+        setUserPanelActive={props.setUserPanelActive}
+        selectedLanguage={props.selectedLanguage}
+        setSelectedLanguage={props.setSelectedLanguage}
+        localizationData={props.localizationData}
+        getLocalization={props.getLocalization}
+        developerMode={props.developerMode}
+        featureTestingMode={props.featureTestingMode}
+        LogUserEvent={props.LogUserEvent}
+        selectedItem={props.selectedItem}
+        playingScenario={props.playingScenario}
+        //cameraselect:
+        devices={devices}
+        switchDeviceId={switchDeviceId}
+        deviceId={deviceId}
+      ></Topbar>
       <div className={classes.webcamscreen}>
         <div
           className={
@@ -241,7 +266,7 @@ function WebcamTraining(props) {
           <></>
         )}
       </div>
-    </div>
+    </Fragment>
   );
 }
 

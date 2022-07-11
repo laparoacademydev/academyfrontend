@@ -615,6 +615,7 @@ function App() {
           featureTestingMode={featureTestingMode}
           LogUserEvent={LogUserEvent}
           selectedItem={selectedItem}
+          playingScenario={playingScenario}
         />
         {selectedItem === null ? (
           <ScenarioList
@@ -644,7 +645,14 @@ function App() {
   } else {
     return (
       <Fragment>
-        <Topbar
+        <WebcamTraining
+          name={selectedItem.name.en}
+          setPlayingScenario={setPlayingScenario}
+          localizationData={localizationData}
+          selectedLanguage={selectedLanguage}
+          LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
+          // topbar
           items={courses}
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
           selectedCourseID={selectedCourseID}
@@ -660,14 +668,7 @@ function App() {
           featureTestingMode={featureTestingMode}
           LogUserEvent={LogUserEvent}
           selectedItem={selectedItem}
-        ></Topbar>
-        <WebcamTraining
-          name={selectedItem.name.en}
-          setPlayingScenario={setPlayingScenario}
-          localizationData={localizationData}
-          selectedLanguage={selectedLanguage}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
+          playingScenario={playingScenario}
         />
       </Fragment>
     );

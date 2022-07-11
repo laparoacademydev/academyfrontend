@@ -19,6 +19,7 @@ function Layout(props) {
         LogUserEvent={props.LogUserEvent}
         featureTestingMode={props.featureTestingMode}
         selectedItem={props.selectedItem}
+        playingScenario={props.playingScenario}
       />
       <Courses
         items={props.items}

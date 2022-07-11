@@ -8,6 +8,7 @@ import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
 import langicon from "../../graphicassets/icons/langico_white.svg";
 import survicon from "../../graphicassets/icons/surveyico_white.svg";
+import CameraSelect from "./CameraSelect";
 
 function ActiveUserPanel(props) {
   const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
@@ -51,10 +52,12 @@ function ActiveUserPanel(props) {
     icon: langicon,
   };
 
-  userpanelitems.push(surveyuserpanelitem);
-  userpanelitems.push(languageselection);
-  userpanelitems.push(laparoshoplink);
-  userpanelitems.push(logoutuserpanelitem);
+  if (props.playingScenario === false) {
+    userpanelitems.push(surveyuserpanelitem);
+    userpanelitems.push(languageselection);
+    userpanelitems.push(laparoshoplink);
+    userpanelitems.push(logoutuserpanelitem);
+  }
 
   return (
     <Fragment>
@@ -87,6 +90,15 @@ function ActiveUserPanel(props) {
         </div>
 
         <div className={classes.userpanelselection}>
+          {props.playingScenario ? (
+            <CameraSelect
+              devices={props.devices}
+              switchDeviceId={props.switchDeviceId}
+              deviceId={props.deviceId}
+            ></CameraSelect>
+          ) : (
+            <div></div>
+          )}
           {userpanelitems.map((item) => {
             return (
               <ActiveUserPanelItem

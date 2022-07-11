@@ -31,6 +31,10 @@ function Topbar(props) {
         localizationData={props.localizationData}
         getLocalization={props.getLocalization}
         LogUserEvent={props.LogUserEvent}
+        playingScenario={props.playingScenario}
+        devices={props.devices}
+        switchDeviceId={props.switchDeviceId}
+        deviceId={props.deviceId}
       />
     </Fragment>
   );
