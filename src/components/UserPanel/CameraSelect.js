@@ -22,7 +22,7 @@ function CameraSelect(props) {
 
   return (
     <div className={classes.cameraselectoritem}>
-      <div className={classes.cameraselectoritemheader}>Camera</div>
+      <div className={classes.cameraselectoritemheader}>Select Camera</div>
       <div className={`${classes.cameraselectordropdown}`}>
         <div className={classes.cameraselectordropdowntxt}>
           {currentDevice.label}

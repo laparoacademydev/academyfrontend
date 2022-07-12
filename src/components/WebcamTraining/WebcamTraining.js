@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
-import WebcamControlPanelBox from "./WebcamControlPanelBox";
+import WebcamControlPanel from "./WebcamControlPanel";
 import WebcamExit from "./WebcamExit";
 import TrainerSelectBox from "./TrainerSelectBox";
 import { Fragment } from "react";
@@ -140,7 +140,6 @@ function WebcamTraining(props) {
   }, [handleDevices]);
 
   React.useEffect(() => {
-    console.log(currentTrainer);
     if (deviceId === 0 && devices.length !== 0 && currentTrainer !== null) {
       if (currentTrainer === "aspire") {
         for (let a = 0; a < devices.length; a++) {
@@ -242,7 +241,7 @@ function WebcamTraining(props) {
         {currentTrainer === null ? (
           <div></div>
         ) : (
-          <WebcamControlPanelBox
+          <WebcamControlPanel
             handleStopCaptureClick={handleStopCaptureClick}
             handleStartCaptureClick={handleStartCaptureClick}
             handleDownload={handleDownload}
