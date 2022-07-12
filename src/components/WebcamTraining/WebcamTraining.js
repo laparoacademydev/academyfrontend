@@ -7,7 +7,6 @@ import TrainerSelectBox from "./TrainerSelectBox";
 import { Fragment } from "react";
 
 import { useRef } from "react";
-import WebcamSelect from "./WebcamSelect";
 
 import Topbar from "../Topbar/Topbar";
 
@@ -211,7 +210,7 @@ function WebcamTraining(props) {
         switchDeviceId={switchDeviceId}
         deviceId={deviceId}
       ></Topbar>
-      <div className={classes.webcamscreen}>
+      <div>
         <div
           className={
             currentTrainer === "aspire"
@@ -237,22 +236,27 @@ function WebcamTraining(props) {
                 forceScreenshotSourceSize={false}
                 videoConstraints={videoConstraints}
               />
-              <WebcamControlPanelBox
-                handleStopCaptureClick={handleStopCaptureClick}
-                handleStartCaptureClick={handleStartCaptureClick}
-                handleDownload={handleDownload}
-                uploading={uploading}
-                uploaded={uploaded}
-                capturing={capturing}
-                recordedChunks={recordedChunks}
-                switchFullScreen={switchFullScreen}
-                fullScreen={fullScreen}
-                localizationData={props.localizationData}
-                selectedLanguage={props.selectedLanguage}
-              />
             </div>
           )}
         </div>
+        {currentTrainer === null ? (
+          <div></div>
+        ) : (
+          <WebcamControlPanelBox
+            handleStopCaptureClick={handleStopCaptureClick}
+            handleStartCaptureClick={handleStartCaptureClick}
+            handleDownload={handleDownload}
+            uploading={uploading}
+            uploaded={uploaded}
+            capturing={capturing}
+            recordedChunks={recordedChunks}
+            switchFullScreen={switchFullScreen}
+            fullScreen={fullScreen}
+            localizationData={props.localizationData}
+            selectedLanguage={props.selectedLanguage}
+          />
+        )}
+
         <WebcamExit
           setPlayingScenario={props.setPlayingScenario}
           switchFullScreen={switchFullScreen}
@@ -260,11 +264,11 @@ function WebcamTraining(props) {
           localizationData={props.localizationData}
           selectedLanguage={props.selectedLanguage}
         />
-        {currentTrainer ? (
+        {/* {currentTrainer ? (
           <WebcamSelect devices={devices} switchDeviceId={switchDeviceId} />
         ) : (
           <></>
-        )}
+        )} */}
       </div>
     </Fragment>
   );

@@ -1,5 +1,4 @@
 import classes from "./UserPanel.module.css";
-import WebcamSelect from "../WebcamTraining/WebcamSelect";
 import WebcamTraining from "../WebcamTraining/WebcamTraining";
 import React from "react";
 
@@ -20,12 +19,6 @@ function CameraSelect(props) {
       }
     }
   }, [props.deviceId]);
-
-  //   console.log(currentDevice);
-
-  //   console.log(props.deviceId);
-
-  //   console.log(props.devices);
 
   return (
     <div className={classes.cameraselectoritem}>
