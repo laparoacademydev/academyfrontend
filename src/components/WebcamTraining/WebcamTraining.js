@@ -1,12 +1,14 @@
 import React from "react";
 import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
-import WebcamControlPanelBox from "./WebcamControlPanelBox";
+import WebcamControlPanel from "./WebcamControlPanel";
 import WebcamExit from "./WebcamExit";
 import TrainerSelectBox from "./TrainerSelectBox";
+import { Fragment } from "react";
 
 import { useRef } from "react";
-import WebcamSelect from "./WebcamSelect";
+
+import Topbar from "../Topbar/Topbar";
 
 const aspireVideoConstraints = {
   width: 1280,
@@ -138,7 +140,6 @@ function WebcamTraining(props) {
   }, [handleDevices]);
 
   React.useEffect(() => {
-    console.log(currentTrainer);
     if (deviceId === 0 && devices.length !== 0 && currentTrainer !== null) {
       if (currentTrainer === "aspire") {
         for (let a = 0; a < devices.length; a++) {
@@ -185,8 +186,30 @@ function WebcamTraining(props) {
   }
 
   return (
-    <div>
-      <div className={classes.webcamscreen}>
+    <Fragment>
+      <Topbar
+        items={props.courses}
+        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
+        selectedCourseID={props.selectedCourseID}
+        userEmail={props.userEmail}
+        userIsActive={props.userIsActive}
+        userPanelActive={props.userPanelActive}
+        setUserPanelActive={props.setUserPanelActive}
+        selectedLanguage={props.selectedLanguage}
+        setSelectedLanguage={props.setSelectedLanguage}
+        localizationData={props.localizationData}
+        getLocalization={props.getLocalization}
+        developerMode={props.developerMode}
+        featureTestingMode={props.featureTestingMode}
+        LogUserEvent={props.LogUserEvent}
+        selectedItem={props.selectedItem}
+        playingScenario={props.playingScenario}
+        //cameraselect:
+        devices={devices}
+        switchDeviceId={switchDeviceId}
+        deviceId={deviceId}
+      ></Topbar>
+      <div>
         <div
           className={
             currentTrainer === "aspire"
@@ -212,22 +235,27 @@ function WebcamTraining(props) {
                 forceScreenshotSourceSize={false}
                 videoConstraints={videoConstraints}
               />
-              <WebcamControlPanelBox
-                handleStopCaptureClick={handleStopCaptureClick}
-                handleStartCaptureClick={handleStartCaptureClick}
-                handleDownload={handleDownload}
-                uploading={uploading}
-                uploaded={uploaded}
-                capturing={capturing}
-                recordedChunks={recordedChunks}
-                switchFullScreen={switchFullScreen}
-                fullScreen={fullScreen}
-                localizationData={props.localizationData}
-                selectedLanguage={props.selectedLanguage}
-              />
             </div>
           )}
         </div>
+        {currentTrainer === null ? (
+          <div></div>
+        ) : (
+          <WebcamControlPanel
+            handleStopCaptureClick={handleStopCaptureClick}
+            handleStartCaptureClick={handleStartCaptureClick}
+            handleDownload={handleDownload}
+            uploading={uploading}
+            uploaded={uploaded}
+            capturing={capturing}
+            recordedChunks={recordedChunks}
+            switchFullScreen={switchFullScreen}
+            fullScreen={fullScreen}
+            localizationData={props.localizationData}
+            selectedLanguage={props.selectedLanguage}
+          />
+        )}
+
         <WebcamExit
           setPlayingScenario={props.setPlayingScenario}
           switchFullScreen={switchFullScreen}
@@ -235,13 +263,13 @@ function WebcamTraining(props) {
           localizationData={props.localizationData}
           selectedLanguage={props.selectedLanguage}
         />
-        {currentTrainer ? (
+        {/* {currentTrainer ? (
           <WebcamSelect devices={devices} switchDeviceId={switchDeviceId} />
         ) : (
           <></>
-        )}
+        )} */}
       </div>
-    </div>
+    </Fragment>
   );
 }
 

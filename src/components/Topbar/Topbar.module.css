@@ -12,6 +12,12 @@
   margin-left: 1px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .topbar {
+    left: 200px;
+  }
+}
+
 .topbaritem {
   top: 50px;
 }

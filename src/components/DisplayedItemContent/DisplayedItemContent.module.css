@@ -45,3 +45,13 @@
   font-size: 14px;
   line-height: 28px;
 }
+
+.scenariolistrightsidefiller {
+  position: fixed;
+  left: calc(20% + 902px);
+  top: 65px;
+  right: 0px;
+  z-index: 1;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}

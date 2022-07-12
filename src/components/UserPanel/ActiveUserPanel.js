@@ -1,19 +1,16 @@
 import React, { useState, Fragment } from "react";
 import classes from "./UserPanel.module.css";
-import axios from "axios";
 import { AppHelper } from "./../../App.js";
 import xicon from "../../graphicassets/icons/X_icon_white.svg";
 import usericon from "../../graphicassets/icons/userico_white.svg";
 import exitusericon from "../../graphicassets/icons/exituserico_white.svg";
-import addusericon from "../../graphicassets/icons/addusercode_ico.svg";
-import listicon from "../../graphicassets/icons/listico_white.svg";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
 import langicon from "../../graphicassets/icons/langico_white.svg";
 import survicon from "../../graphicassets/icons/surveyico_white.svg";
+import CameraSelect from "./CameraSelect";
 
 function ActiveUserPanel(props) {
-  const [code, setCode] = useState("Generate Access code");
   const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
 
   var userpanelitems = [];
@@ -24,33 +21,6 @@ function ActiveUserPanel(props) {
       window.open("https://forms.gle/kVVPMKuYSm23ZLDm6");
     },
     icon: survicon,
-  };
-
-  const addsavedtraininglist = {
-    text: "Saved Training List",
-    onclick: function () {
-      props.setTrainingList();
-      props.setUserPanelActive(0);
-    },
-    icon: listicon,
-  };
-
-  const adduseruserpanelitem = {
-    text: "Add User",
-    onclick: function () {
-      axios
-        .get(
-          `${props.url}GenerateAccessCode?email=${props.userEmail}`,
-          AppHelper.getHeaders()
-        )
-        .catch(AppHelper.onRequestError)
-        .then((response) => {
-          // navigator.clipboard.writeText(response.data);
-          setCode(response.data);
-          alert("copy this text: " + response.data);
-        });
-    },
-    icon: addusericon,
   };
 
   const laparoshoplink = {
@@ -82,14 +52,12 @@ function ActiveUserPanel(props) {
     icon: langicon,
   };
 
-  // userpanelitems.push(addsavedtraininglist);
-  if (props.userIsActive === 2) {
-    userpanelitems.push(adduseruserpanelitem);
+  if (props.playingScenario === false) {
+    userpanelitems.push(surveyuserpanelitem);
+    userpanelitems.push(languageselection);
+    userpanelitems.push(laparoshoplink);
+    userpanelitems.push(logoutuserpanelitem);
   }
-  userpanelitems.push(surveyuserpanelitem);
-  userpanelitems.push(languageselection);
-  userpanelitems.push(laparoshoplink);
-  userpanelitems.push(logoutuserpanelitem);
 
   return (
     <Fragment>
@@ -122,6 +90,15 @@ function ActiveUserPanel(props) {
         </div>
 
         <div className={classes.userpanelselection}>
+          {props.playingScenario ? (
+            <CameraSelect
+              devices={props.devices}
+              switchDeviceId={props.switchDeviceId}
+              deviceId={props.deviceId}
+            ></CameraSelect>
+          ) : (
+            <div></div>
+          )}
           {userpanelitems.map((item) => {
             return (
               <ActiveUserPanelItem
@@ -135,7 +112,6 @@ function ActiveUserPanel(props) {
                 url={props.url}
                 userPanelActive={props.userPanelActive}
                 setUserPanelActive={props.setUserPanelActive}
-                code={code}
                 activeLanguageMenu={activeLanguageMenu}
                 setActiveLanguageMenu={setActiveLanguageMenu}
                 selectedLanguage={props.selectedLanguage}
