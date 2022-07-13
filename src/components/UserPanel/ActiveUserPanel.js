@@ -8,7 +8,8 @@ import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
 import langicon from "../../graphicassets/icons/langico_white.svg";
 import survicon from "../../graphicassets/icons/surveyico_white.svg";
-import CameraSelect from "./CameraSelect";
+import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
+import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
 
 function ActiveUserPanel(props) {
   const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
@@ -91,11 +92,17 @@ function ActiveUserPanel(props) {
 
         <div className={classes.userpanelselection}>
           {props.playingScenario ? (
-            <CameraSelect
-              devices={props.devices}
-              switchDeviceId={props.switchDeviceId}
-              deviceId={props.deviceId}
-            ></CameraSelect>
+            <Fragment>
+              <CameraSelect
+                devices={props.devices}
+                switchDeviceId={props.switchDeviceId}
+                deviceId={props.deviceId}
+              ></CameraSelect>
+              <CurrentScenarioDescription
+                selectedItem={props.selectedItem}
+                selectedLanguage={props.selectedLanguage}
+              ></CurrentScenarioDescription>
+            </Fragment>
           ) : (
             <div></div>
           )}
@@ -119,6 +126,7 @@ function ActiveUserPanel(props) {
                 localizationData={props.localizationData}
                 getLocalization={props.getLocalization}
                 LogUserEvent={props.LogUserEvent}
+                // selectedItem={props.selectedItem}
               />
             );
           })}

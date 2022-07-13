@@ -1,5 +1,4 @@
-import classes from "./UserPanel.module.css";
-import WebcamTraining from "../WebcamTraining/WebcamTraining";
+import classes from "./../UserPanel.module.css";
 import React from "react";
 
 const defaultcamera = {
