@@ -665,14 +665,10 @@ function App() {
           userIsActive={userIsActive}
           userPanelActive={userPanelActive}
           setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
           setSelectedLanguage={setSelectedLanguage}
-          localizationData={localizationData}
           getLocalization={getLocalization}
           developerMode={developerMode}
           featureTestingMode={featureTestingMode}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
           playingScenario={playingScenario}
         />
       </Fragment>

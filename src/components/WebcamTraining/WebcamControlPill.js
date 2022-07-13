@@ -126,11 +126,10 @@ function WebcamControlPill(props) {
     <div className={classes.webcamplayer}>
       <div className={classes.webcambuttonrecord} onClick={handleRecording()}>
         <div className={classes.webcamrecordico}>
-          {props.capturing ? (
-            <img src={stoprecordico} alt="." />
-          ) : (
-            <img src={startrecordico} alt="." />
-          )}
+          <img
+            src={props.capturing ? stoprecordico : startrecordico}
+            alt="."
+          ></img>
         </div>
       </div>
       <div

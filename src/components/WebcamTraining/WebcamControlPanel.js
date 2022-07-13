@@ -27,7 +27,11 @@ function WebcamControlPanel(props) {
         capturing={props.capturing}
         selectedLanguage={props.selectedLanguage}
       />
-      {props.capturing ? <WebcamTimerPill /> : <></>}
+      {props.capturing ? (
+        <WebcamTimerPill trainingStartTime={props.trainingStartTime} />
+      ) : (
+        <></>
+      )}
     </Fragment>
   );
 }

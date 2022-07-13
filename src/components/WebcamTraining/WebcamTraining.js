@@ -78,6 +78,7 @@ function WebcamTraining(props) {
   );
 
   const handleStartCaptureClick = React.useCallback(() => {
+    setTrainingStartTime(Date.now());
     let starttrainingrecording = "starttrainingrecording";
     props.LogUserEvent(starttrainingrecording, props.selectedItem.id);
     setCapturing(true);
@@ -185,6 +186,8 @@ function WebcamTraining(props) {
     }));
   }
 
+  const [trainingStartTime, setTrainingStartTime] = React.useState(null);
+
   return (
     <Fragment>
       <Topbar
@@ -253,6 +256,7 @@ function WebcamTraining(props) {
             fullScreen={fullScreen}
             localizationData={props.localizationData}
             selectedLanguage={props.selectedLanguage}
+            trainingStartTime={trainingStartTime}
           />
         )}
 
@@ -263,11 +267,6 @@ function WebcamTraining(props) {
           localizationData={props.localizationData}
           selectedLanguage={props.selectedLanguage}
         />
-        {/* {currentTrainer ? (
-          <WebcamSelect devices={devices} switchDeviceId={switchDeviceId} />
-        ) : (
-          <></>
-        )} */}
       </div>
     </Fragment>
   );
