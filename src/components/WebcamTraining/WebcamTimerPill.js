@@ -3,23 +3,12 @@ import React, { useState, useEffect } from "react";
 import classes from "./WebcamTraining.module.css";
 
 import recordico from "../../graphicassets/icons/record_ico.svg";
+import downloadico from "../../graphicassets/icons/downloadico.svg";
 
 function WebcamTimerPill(props) {
-  const [timeInSeconds, setTimeInSeconds] = useState(0);
-  const [isActive, setIsActive] = useState(true);
-
   const [seconds, setSeconds] = useState("00");
   const [minutes, setMinutes] = useState("00");
   const [hours, setHours] = useState("00");
-
-  //  function toggle() {
-  //    setIsActive(!isActive);
-  //  }
-
-  // function reset() {
-  //   setTimeInSeconds(0);
-  //   setIsActive(false);
-  // }
 
   function secondsToTime(timeInSeconds) {
     let hours = Math.floor(timeInSeconds / (60 * 60));
@@ -49,24 +38,52 @@ function WebcamTimerPill(props) {
     }
   }
 
+  function AskStopCounter() {
+    if (props.capturing !== true) {
+      props.setIsActive(!props.isActive);
+    }
+  }
+
   useEffect(() => {
     let interval = null;
-    if (isActive) {
+    if (props.isActive) {
       interval = setInterval(() => {
-        secondsToTime(timeInSeconds);
-        setTimeInSeconds((timeInSeconds) => timeInSeconds + 1);
+        secondsToTime(props.timeInSeconds);
+        AskStopCounter();
+        props.setTimeInSeconds((timeInSeconds) => timeInSeconds + 1);
       }, 1000);
-    } else if (!isActive && timeInSeconds !== 0) {
+    } else if (!props.isActive && props.timeInSeconds !== 0) {
       clearInterval(interval);
     }
     return () => clearInterval(interval);
-  }, [isActive, timeInSeconds]);
+  }, [props.isActive, props.timeInSeconds]);
+
+  function handleDownload() {
+    props.handleDownload();
+    props.setTimeInSeconds(0);
+    secondsToTime(0);
+  }
 
   return (
     <div className={classes.webcamtimer}>
-      <div className={classes.webcamtimerrecordico}>
-        <img src={recordico} alt="." />
-      </div>
+      {props.capturing ? (
+        <></>
+      ) : (
+        <div
+          className={classes.webcamhandledownload}
+          onClick={handleDownload}
+        ></div>
+      )}
+      {props.capturing ? (
+        <div className={classes.webcamtimerrecordico}>
+          <img src={recordico} alt="." />
+        </div>
+      ) : (
+        <div>
+          <img src={downloadico} alt="." />
+        </div>
+      )}
+
       <div className={classes.webcamtimertimer}>
         {hours}:{minutes}:{seconds}
       </div>

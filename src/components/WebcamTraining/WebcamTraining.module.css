@@ -259,3 +259,11 @@
   font-size: 12px;
   line-height: 18px;
 }
+
+.webcamhandledownload {
+  position: fixed;
+  width: 75px;
+  height: 25px;
+  background-color: #00426b00;
+  cursor: pointer;
+}
