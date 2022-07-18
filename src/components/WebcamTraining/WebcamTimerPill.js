@@ -75,12 +75,21 @@ function WebcamTimerPill(props) {
         ></div>
       )}
       {props.capturing ? (
-        <div className={classes.webcamtimerrecordico}>
-          <img src={recordico} alt="." />
+        <div className={classes.downloadbut}>recording</div>
+      ) : (
+        <div className={classes.downloadbut}>download</div>
+      )}
+      {props.capturing ? (
+        <div>
+          <div className={classes.webcamtimerrecordico}>
+            <img src={recordico} alt="." />
+          </div>
         </div>
       ) : (
         <div>
-          <img src={downloadico} alt="." />
+          <div>
+            <img src={downloadico} alt="." />
+          </div>
         </div>
       )}
 
