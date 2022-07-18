@@ -17,6 +17,7 @@ import decodeJWT from "jwt-decode";
 import { isMobile } from "react-device-detect";
 
 export class AppHelper {
+  static developerMode = false;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
@@ -38,8 +39,6 @@ export class AppHelper {
 }
 
 function App() {
-  //DEV Mode - for using localhost:3000 previews, keep false for all production builds:
-  const [developerMode, setDeveloperMode] = useState(false);
   //TEST Mode - activated when logged in with an account that has "tester:true" in the Azure All Users DB.
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
 
@@ -72,7 +71,7 @@ function App() {
   const [trainingList, setTrainingList] = useState(null);
 
   React.useEffect(() => {
-    if (developerMode === true) {
+    if (AppHelper.developerMode === true) {
       setTokenConfirmed(true);
       setUserIsActive(1);
       if (featureTestingMode === null) {
@@ -111,7 +110,7 @@ function App() {
   // Loading Initializing Functions:
   function loadAcademy() {
     //this is the flow orchestrating all the other loading functions:
-    if (tokenConfirmed === false && developerMode === false) {
+    if (tokenConfirmed === false && AppHelper.developerMode === false) {
       checkToken();
     }
     if (userIsActive === 0 && tokenConfirmed === true) {
@@ -232,7 +231,7 @@ function App() {
 
   function getUserEmail() {
     // this simply checks for the user email and returns it - if in devmode sets up a local email address
-    if (developerMode === false) {
+    if (AppHelper.developerMode === false) {
       return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
     } else {
       return "devmode@laparosimulators.com";
@@ -616,7 +615,7 @@ function App() {
           setSelectedLanguage={setSelectedLanguage}
           localizationData={localizationData}
           getLocalization={getLocalization}
-          developerMode={developerMode}
+          developerMode={AppHelper.developerMode}
           featureTestingMode={featureTestingMode}
           LogUserEvent={LogUserEvent}
           selectedItem={selectedItem}
@@ -667,7 +666,7 @@ function App() {
           setUserPanelActive={setUserPanelActive}
           setSelectedLanguage={setSelectedLanguage}
           getLocalization={getLocalization}
-          developerMode={developerMode}
+          developerMode={AppHelper.developerMode}
           featureTestingMode={featureTestingMode}
           playingScenario={playingScenario}
         />
