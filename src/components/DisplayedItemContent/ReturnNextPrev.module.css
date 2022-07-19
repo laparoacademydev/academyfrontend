@@ -1,5 +1,18 @@
 /* return next prev nav */
 
+.nextprevbackroundgrad {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 12;
+}
+
 .returnbutton {
   position: fixed;
   cursor: pointer;

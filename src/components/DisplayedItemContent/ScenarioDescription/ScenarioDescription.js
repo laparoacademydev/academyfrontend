@@ -62,13 +62,14 @@ function ScenarioDescription(props) {
             {props.selectedItemContent.instructions[props.selectedLanguage]}
           </div>
         </div>
+        <ScenarioPreparationBox
+          localizationData={props.localizationData}
+          selectedItemContent={props.selectedItemContent}
+          setPlayingScenario={props.setPlayingScenario}
+          selectedLanguage={props.selectedLanguage}
+        ></ScenarioPreparationBox>
       </div>
-      <ScenarioPreparationBox
-        localizationData={props.localizationData}
-        selectedItemContent={props.selectedItemContent}
-        setPlayingScenario={props.setPlayingScenario}
-        selectedLanguage={props.selectedLanguage}
-      ></ScenarioPreparationBox>
+
       <ScenarioButton
         setPlayingScenario={props.setPlayingScenario}
         localizationData={props.localizationData}

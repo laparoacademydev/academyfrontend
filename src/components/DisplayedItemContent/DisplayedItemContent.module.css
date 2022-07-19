@@ -18,10 +18,11 @@
 /* BUTTON */
 
 .buttonstarttraining {
-  position: relative;
+  position: fixed;
+  bottom: 75px;
   float: right;
-  right: 40px;
-  bottom: -75%;
+  left: calc(20% + 750px);
+  z-index: 100;
 
   background-color: #00619d;
   width: 100px;
