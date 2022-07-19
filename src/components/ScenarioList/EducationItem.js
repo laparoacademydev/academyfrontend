@@ -6,7 +6,7 @@ import eduicon from "../../graphicassets/icons/edu_blue.svg";
 function EducationItem(props) {
   return (
     <div
-      className={classes.sleducationitem}
+      className={classes.scenariolistitem}
       onClick={() => {
         props.setSelectedItem(props.selectedScenario);
         let eduselected = "eduselected";

@@ -29,9 +29,9 @@
   left: 0%;
   right: 5%;
   height: 105px;
-  justify-content: space-between;
-  padding: 17px;
+  justify-content: start;
   margin-bottom: 1px;
+  padding: 17px;
   background-color: #ffffff;
   scroll-snap-align: start;
 }
@@ -87,24 +87,6 @@
 }
 
 /* EDUCATION ITEM */
-
-.sleducationitem {
-  position: relative;
-  width: 900px;
-  left: 0%;
-  right: 5%;
-  height: 105px;
-  justify-content: start;
-  margin-bottom: 1px;
-  padding: 17px;
-  background-color: #ffffff;
-  scroll-snap-align: start;
-}
-
-.sleducationitem:hover {
-  background: #e6f0f6;
-  cursor: pointer;
-}
 
 .sleducationtitle {
   display: flex;
