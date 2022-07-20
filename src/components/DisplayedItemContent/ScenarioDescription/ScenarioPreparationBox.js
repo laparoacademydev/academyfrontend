@@ -16,12 +16,6 @@ function ScenarioPreparationBox(props) {
         alt={"error"}
         className={classes.scenarioprepimg}
       ></img>
-
-      {/* <ScenarioButton
-        setPlayingScenario={props.setPlayingScenario}
-        localizationData={props.localizationData}
-        selectedLanguage={props.selectedLanguage}
-      ></ScenarioButton> */}
     </div>
   );
 }

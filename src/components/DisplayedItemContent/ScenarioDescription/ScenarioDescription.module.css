@@ -2,7 +2,7 @@
   position: relative;
   top: 25px;
   width: 900px;
-  margin-bottom: 310px;
+  /* margin-bottom: 310px; */
   overflow-y: auto;
   overflow-x: hidden;
 }
