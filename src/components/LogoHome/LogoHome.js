@@ -1,11 +1,12 @@
 import classes from "./LogoHome.module.css";
+import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
 function LogoHome() {
   return (
     <div className={classes.logohome}>
       <img
         className={classes.logohomeimage}
-        src={`https://storageaccountacadea4e1.blob.core.windows.net/laparoacademy-images/LaparoAcademyLogo.png`}
+        src={laparologo}
         alt={"error"}
       ></img>
     </div>
