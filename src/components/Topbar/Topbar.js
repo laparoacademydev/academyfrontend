@@ -36,6 +36,8 @@ function Topbar(props) {
         switchDeviceId={props.switchDeviceId}
         deviceId={props.deviceId}
         selectedItem={props.selectedItem}
+        setPlayingScenario={props.setPlayingScenario}
+        setSelectedItem={props.setSelectedItem}
       />
     </Fragment>
   );

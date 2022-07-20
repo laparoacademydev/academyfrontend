@@ -30,6 +30,8 @@ function UserPanel(props) {
         switchDeviceId={props.switchDeviceId}
         deviceId={props.deviceId}
         selectedItem={props.selectedItem}
+        setSelectedItem={props.setSelectedItem}
+        setPlayingScenario={props.setPlayingScenario}
       />
     );
   }

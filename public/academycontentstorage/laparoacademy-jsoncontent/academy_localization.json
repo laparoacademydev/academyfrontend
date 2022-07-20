@@ -27,6 +27,13 @@
         "en": "Fill Out Survey",
         "pl": "Wypełnij Ankietę"
       }
+    },
+    "startscenariofree": {
+      "description": "Starts a Scenario-Free Training Mode",
+      "text": {
+        "en": "Scenario-Free Training",
+        "pl": "Trening bez scenariusza"
+      }
     }
   },
   "scenariodescription": {

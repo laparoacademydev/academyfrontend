@@ -36,6 +36,117 @@ export class AppHelper {
       window.location.href = AppHelper.LoginUrl;
     }
   }
+  static DefaultFreeTraining = {
+    id: "FreeTraining",
+    cameraConfig: {
+      Apex: {},
+      Analytic: {},
+      Advance: {},
+    },
+    trocarsConfig: {
+      Apex: {},
+      Analytic: {},
+      Advance: {},
+    },
+    tableConfig: {
+      Apex: {},
+      Analytic: {},
+      Advance: {},
+    },
+    isFreeTraining: true,
+    evalConfig: {
+      manual: {
+        categories: [
+          {
+            params: [
+              {
+                name: "time",
+              },
+            ],
+            name: "time",
+          },
+          {
+            params: [
+              {
+                name: "clamps",
+              },
+              {
+                name: "distance",
+              },
+            ],
+            name: "economy",
+          },
+          {
+            params: [
+              {
+                name: "symmetryDistance",
+              },
+              {
+                name: "symmetryClamps",
+              },
+            ],
+            name: "bimanual",
+          },
+          {
+            params: [
+              {
+                name: "acceleration",
+              },
+              {
+                name: "jolt",
+              },
+              {
+                name: "clampSpeed",
+              },
+              {
+                name: "handOscillation",
+              },
+            ],
+            name: "smoothness",
+          },
+          {
+            params: [
+              {
+                name: "velocityHigh",
+              },
+              {
+                name: "velocityLowOneHand",
+              },
+              {
+                name: "velocityLowTwoHand",
+              },
+            ],
+            name: "activity",
+          },
+          {
+            params: [
+              {
+                name: "distanceOutOfVis",
+              },
+              {
+                name: "clampsOutOfVis",
+              },
+            ],
+            name: "visibility",
+          },
+        ],
+      },
+    },
+    vrConfig: {},
+    isVR: false,
+    name: {
+      en: "Free Training",
+      pl: "Dowolny Trening",
+      es: "Capacitación gratuita",
+      "zh-cn": "免费培训",
+      ja: "無料トレーニング",
+      hu: "Ingyenes képzés",
+    },
+    skills: {},
+    description: {},
+    instructions: {},
+    preparation: {},
+  };
 }
 
 function App() {
@@ -58,7 +169,9 @@ function App() {
   const [courses, setCourses] = useState(null);
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(
+    AppHelper.DefaultFreeTraining
+  );
 
   const [selectedNextItem, setSelectedNextItem] = useState(null);
   const [selectedPrevItem, setSelectedPrevItem] = useState(null);
@@ -357,7 +470,7 @@ function App() {
     // takes in the selected course and then fetches each json file for each actual scenario or edu section. remixes response json files into array so that entire list of scenarios can be viewed.
     setSelectedTraining(null);
     setTrainingList(null);
-    setSelectedItem(null);
+    setSelectedItem(AppHelper.DefaultFreeTraining);
     setPlayingScenario(false);
     setSelectedCourseID(selectedCourse.id);
     var courseselected = "courseselected";
@@ -620,8 +733,11 @@ function App() {
           LogUserEvent={LogUserEvent}
           selectedItem={selectedItem}
           playingScenario={playingScenario}
+          setPlayingScenario={setPlayingScenario}
+          setSelectedItem={setSelectedItem}
         />
-        {selectedItem === null ? (
+        {selectedItem === null ||
+        selectedItem === AppHelper.DefaultFreeTraining ? (
           <ScenarioList
             selectedScenarioList={selectedScenarioList}
             setSelectedItem={setSelectedItem}

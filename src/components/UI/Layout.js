@@ -20,6 +20,8 @@ function Layout(props) {
         featureTestingMode={props.featureTestingMode}
         selectedItem={props.selectedItem}
         playingScenario={props.playingScenario}
+        setPlayingScenario={props.setPlayingScenario}
+        setSelectedItem={props.setSelectedItem}
       />
       <Courses
         items={props.items}
