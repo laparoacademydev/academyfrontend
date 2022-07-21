@@ -1,12 +1,9 @@
 import classes from "./LogoHome.module.css";
 import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
-function LogoHome(props) {
+function LogoHome() {
   return (
-    <div
-      className={classes.logohome}
-      onClick={() => props.setCourseIdAndScenarioList(props.items.courses[0])}
-    >
+    <div className={classes.logohome}>
       <img
         className={classes.logohomeimage}
         src={laparologo}

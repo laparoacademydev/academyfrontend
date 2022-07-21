@@ -8,10 +8,7 @@ import { Fragment } from "react";
 function Topbar(props) {
   return (
     <Fragment>
-      <LogoHome
-        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
-        items={props.items}
-      />
+      <LogoHome />
       {props.featureTestingMode ? (
         <ScreenHeightWidthTester
           selectedItem={props.selectedItem}
