@@ -22,6 +22,8 @@ function Layout(props) {
         playingScenario={props.playingScenario}
         setPlayingScenario={props.setPlayingScenario}
         setSelectedItem={props.setSelectedItem}
+        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
+        items={props.items}
       />
       <Courses
         items={props.items}

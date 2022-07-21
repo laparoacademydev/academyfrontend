@@ -6,6 +6,7 @@
   width: 20%;
   min-width: 200px;
   height: 64px;
+  cursor: pointer;
 }
 
 .logohomeimage {
