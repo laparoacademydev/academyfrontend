@@ -28,10 +28,10 @@
   position: relative;
   left: 0%;
   right: 5%;
-  height: 105px;
+  height: 146px;
   justify-content: start;
   margin-bottom: 1px;
-  padding: 17px;
+  padding: 15px;
   background-color: #ffffff;
   scroll-snap-align: start;
 }
@@ -42,7 +42,7 @@
 }
 
 .scenariolistthumbimg {
-  width: 128px;
+  width: 206px;
   float: left;
   border-radius: 4px;
 }
