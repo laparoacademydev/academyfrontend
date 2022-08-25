@@ -24,7 +24,7 @@
 .courseitem {
   display: flex;
   height: 60px;
-  margin-bottom: 1px;
+  /* margin-bottom: 1px; */
   background-color: #ffffff;
 }
 
