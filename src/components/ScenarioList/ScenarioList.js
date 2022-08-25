@@ -23,6 +23,7 @@ function ScenarioList(props) {
                   setSelectedItem={props.setSelectedItem}
                   selectedLanguage={props.selectedLanguage}
                   LogUserEvent={props.LogUserEvent}
+                  userTrainingHistory={props.userTrainingHistory}
                 />
               );
             } else {
@@ -33,6 +34,7 @@ function ScenarioList(props) {
                   setSelectedItem={props.setSelectedItem}
                   selectedLanguage={props.selectedLanguage}
                   LogUserEvent={props.LogUserEvent}
+                  userTrainingHistory={props.userTrainingHistory}
                 />
               );
             }

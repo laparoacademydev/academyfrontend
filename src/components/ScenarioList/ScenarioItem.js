@@ -1,8 +1,19 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
 import { AppHelper } from "./../../App.js";
+import { useState } from "react";
+import passedico from "../../graphicassets/icons/passed_ico.svg";
+import todoico from "../../graphicassets/icons/todo_ico.svg";
 
 function ScenarioItem(props) {
+  const [scenarioInHistory, setScenarioInHistory] = useState(null);
+
+  if (scenarioInHistory === null) {
+    setScenarioInHistory(
+      props.userTrainingHistory.includes(props.selectedScenario.id)
+    );
+  }
+
   return (
     <div
       className={classes.scenariolistitem}
@@ -23,6 +34,11 @@ function ScenarioItem(props) {
       <div className={classes.slscenarioskill}>
         {props.selectedScenario.skills[props.selectedLanguage]}
       </div>
+      <img
+        src={scenarioInHistory ? passedico : todoico}
+        alt={"."}
+        className={classes.passedico}
+      ></img>
     </div>
   );
 }
