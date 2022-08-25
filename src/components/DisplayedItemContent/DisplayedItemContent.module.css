@@ -24,7 +24,7 @@
   left: calc(20% + 750px);
   z-index: 100;
 
-  background-color: #00619d;
+  background-color: #2cc25f;
   width: 100px;
   height: 100px;
   border-radius: 3px;
@@ -33,7 +33,7 @@
 }
 
 .buttonstarttraining:hover {
-  background-color: #2cc25f;
+  background-color: #26a350;
 }
 
 .buttontext {
