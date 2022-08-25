@@ -17,7 +17,7 @@ import decodeJWT from "jwt-decode";
 import { isMobile } from "react-device-detect";
 
 export class AppHelper {
-  static developerMode = false;
+  static developerMode = true;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";

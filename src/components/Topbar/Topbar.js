@@ -1,6 +1,5 @@
 import classes from "./Topbar.module.css";
-import TopbarItem from "./TopbarItem.js";
-import LogoHome from "../LogoHome/LogoHome";
+import TopBarLogo from "./TopBarLogo";
 import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
 import UserPanel from "../UserPanel/UserPanel";
 import { Fragment } from "react";
@@ -8,7 +7,7 @@ import { Fragment } from "react";
 function Topbar(props) {
   return (
     <Fragment>
-      <LogoHome />
+      {/* <LogoHome /> */}
       {props.featureTestingMode ? (
         <ScreenHeightWidthTester
           selectedItem={props.selectedItem}
@@ -17,7 +16,7 @@ function Topbar(props) {
         <div></div>
       )}
       <div className={classes.topbar}>
-        <TopbarItem />
+        <TopBarLogo></TopBarLogo>
       </div>
       <UserPanel
         userEmail={props.userEmail}
