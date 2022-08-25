@@ -23,11 +23,15 @@ function ScenarioItem(props) {
         props.LogUserEvent(scenarioselected, props.selectedScenario.id);
       }}
     >
-      <img
-        src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}
-        alt={"thumb error"}
-        className={classes.scenariolistthumbimg}
-      ></img>
+      <div className={classes.listthumbimg}>
+        {" "}
+        <img
+          src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}
+          alt={"thumb error"}
+          className={classes.listthumbimg}
+        ></img>
+      </div>
+
       <div className={classes.slscenariotitle}>
         {props.selectedScenario.name[props.selectedLanguage]}
       </div>

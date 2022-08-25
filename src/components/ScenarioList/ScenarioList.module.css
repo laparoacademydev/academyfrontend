@@ -41,12 +41,6 @@
   cursor: pointer;
 }
 
-.scenariolistthumbimg {
-  width: 206px;
-  float: left;
-  border-radius: 4px;
-}
-
 .scenariolistfiller {
   position: absolute;
   z-index: 7;
@@ -143,4 +137,19 @@
   position: absolute;
   bottom: 14px;
   right: 16px;
+}
+
+.listthumbimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 205px;
+  height: 115px;
+  float: left;
+  border-radius: 4px;
+  background-color: #cccccc;
+}
+
+.eduico {
+  position: absolute;
 }
