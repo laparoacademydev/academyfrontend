@@ -163,7 +163,7 @@
 .cameraselectordropdown {
   position: fixed;
 
-  width: 440px;
+  width: 441px;
   margin-top: 40px;
   margin-left: 30px;
   z-index: 50;
@@ -193,7 +193,7 @@
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.198);
   position: relative;
   top: 9px;
-  width: 200px;
+  width: 437px;
   height: 30px;
   z-index: 55;
   background-color: #ffffff;
@@ -201,7 +201,7 @@
 }
 
 .webcamselectdropdown a {
-  width: 200px;
+  width: 437px;
   height: 30px;
 
   padding-left: 7px;
