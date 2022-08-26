@@ -24,8 +24,22 @@
 .courseitem {
   display: flex;
   height: 60px;
-  /* margin-bottom: 1px; */
+
   background-color: #ffffff;
+}
+
+.courseitemgreenline {
+  position: absolute;
+  display: flex;
+  height: 60px;
+
+  width: 4px;
+  background-color: #2cc25f;
+  z-index: 100;
+}
+
+.courseitemnoline {
+  display: none;
 }
 
 .courseitem:hover {
@@ -36,7 +50,7 @@
 .courseitemselected {
   display: flex;
   height: 60px;
-  margin-bottom: 1px;
+
   background-color: #ececec;
 }
 
