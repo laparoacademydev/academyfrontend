@@ -10,7 +10,7 @@ import langicon from "../../graphicassets/icons/langico_white.svg";
 import survicon from "../../graphicassets/icons/surveyico_white.svg";
 import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
 import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
-import lapico from "../../graphicassets/icons/lapico.svg";
+import lapico from "../../graphicassets/icons/freestart_ico.svg";
 
 function ActiveUserPanel(props) {
   const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);

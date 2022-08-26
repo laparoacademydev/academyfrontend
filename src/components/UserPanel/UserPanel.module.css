@@ -68,7 +68,7 @@
   font-size: 14px;
   font-style: normal;
   margin-left: 75px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 /* ACTIVE USER PANEL ITEMS */
@@ -92,7 +92,7 @@
 .activeuserpanelitemtext {
   position: relative;
   margin-left: 18px;
-  top: 19px;
+  top: 21px;
   display: flex;
   z-index: 12;
   right: 0px;
