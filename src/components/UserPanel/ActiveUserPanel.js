@@ -88,7 +88,7 @@ function ActiveUserPanel(props) {
       ></div>
       <div className={classes.userpanelfiller}></div>
       <div className={classes.userpanel}>
-        <div>
+        <div className={classes.userpaneltop}>
           <img src={usericon} className={classes.usericon} alt="." />
           <div className={classes.userpaneltext}>{props.userEmail}</div>
           <img

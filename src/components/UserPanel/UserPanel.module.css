@@ -71,11 +71,18 @@
   background-color: #00619d;
 }
 
+.userpaneltop {
+  position: fixed;
+
+  background-color: #005082;
+  height: 64px;
+}
+
 .userpanelfiller {
   position: fixed;
   z-index: 50;
   height: 100%;
-  background-color: #00619d;
+  background-color: #004875;
   right: 0px;
   top: 0px;
 }
@@ -88,6 +95,11 @@
   .userpanelfiller {
     display: none;
   }
+
+  .userpaneltop {
+    right: 0px;
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
@@ -97,6 +109,13 @@
 
   .userpanelfiller {
     width: calc((100% - 1350px) / 2);
+  }
+
+  .userpaneltop {
+    right: calc((100% - 1350px) / 2);
+    width: 500px;
+    /* right: 0px; */
+    /* width: calc(500px + ((100% - 1350px) / 2)); */
   }
 }
 
