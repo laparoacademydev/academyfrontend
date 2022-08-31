@@ -15,7 +15,7 @@ function InactiveUserPanel(props) {
           }
         }}
       >
-        {/* <div className={classes.inactiveuserpaneltext}>{props.userEmail}</div> */}
+        <div className={classes.inactiveuserpaneltext}>{props.userEmail}</div>
         <div>
           <img
             src={burgericon}
