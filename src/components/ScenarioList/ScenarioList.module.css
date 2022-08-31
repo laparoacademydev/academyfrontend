@@ -1,20 +1,32 @@
 .scenariolist {
   position: fixed;
-  right: 1px;
-  max-width: 900px;
+  /* right: 1px; */
+  /* max-width: 1000px; */
   left: 20%;
   top: 64px;
   height: 100%;
   margin-left: 1px;
   scroll-snap-type: y mandatory;
   overflow-y: auto;
+  right: 1px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .scenariolist {
+    margin-left: calc((100% - 1350px) / 2);
+    left: 271px;
+    /* margin-right: 100px; */
+    /* width: 100%; */
+    /* background-color: #00619d; */
+    right: calc((100% - 1350px) / 2);
+  }
 }
 
 @media only screen and (max-width: 1000px) {
   .scenariolist {
     position: fixed;
     right: 1px;
-    margin-right: 1px;
+    margin-right: 10px;
     left: 200px;
     top: 64px;
     height: 100%;
@@ -27,7 +39,7 @@
 .scenariolistitem {
   position: relative;
   left: 0%;
-  right: 5%;
+  /* right: 20%; */
   height: 146px;
   justify-content: start;
   margin-bottom: 1px;
@@ -56,7 +68,7 @@
   right: 0px;
   z-index: 1;
   height: 100%;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 /* SCENARIO ITEM */

@@ -3,7 +3,7 @@
 .nextprevbackroundgrad {
   position: fixed;
   height: 60px;
-  width: 100%;
+  width: calc(1350px - 270px);
 
   background-image: linear-gradient(
     rgb(255, 255, 255),

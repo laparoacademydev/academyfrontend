@@ -3,7 +3,7 @@ import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
 import WebcamControlPanel from "./WebcamControlPanel";
 import WebcamExit from "./WebcamExit";
-import TrainerSelectBox from "./TrainerSelectBox";
+
 import { Fragment } from "react";
 
 import { useRef } from "react";

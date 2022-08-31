@@ -3,13 +3,25 @@
 .inactiveuserpanel {
   position: fixed;
   z-index: 12;
-  right: 0px;
+
   width: 75px;
   min-width: 50px;
   height: 64px;
   color: #6d6d6d;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  /* background-color: #a72222; */
+  /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+@media only screen and (max-width: 1350px) {
+  .inactiveuserpanel {
+    right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .inactiveuserpanel {
+    right: calc((100% - 1350px) / 2);
+  }
 }
 
 .inactiveuserpanel:hover {
@@ -55,11 +67,34 @@
   background-color: #00619d;
 }
 
-/* @media only screen and (max-width: 1000px) {
+.userpanelfiller {
+  position: fixed;
+  z-index: 50;
+  height: 100%;
+  background-color: #00619d;
+  right: 0px;
+  top: 0px;
+}
+
+@media only screen and (max-width: 1350px) {
   .userpanel {
-    width: 400px;
+    right: 0px;
   }
-} */
+
+  .userpanelfiller {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .userpanel {
+    right: calc((100% - 1350px) / 2);
+  }
+
+  .userpanelfiller {
+    width: calc((100% - 1350px) / 2);
+  }
+}
 
 .userpaneltext {
   position: fixed;
@@ -77,6 +112,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  width: 500px;
 }
 .activeuserpanelitem:hover {
   background-color: #005990;

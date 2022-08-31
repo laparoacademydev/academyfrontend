@@ -16,7 +16,6 @@ function EducationSection(props) {
         selectedPrevItem={props.selectedPrevItem}
         LogUserEvent={props.LogUserEvent}
       />
-      <div className={educlasses.edutopfade}></div>
       <div className={educlasses.edutitle}>
         {props.selectedItemContent.title.text[props.selectedLanguage]}
       </div>

@@ -9,6 +9,15 @@
   width: 20%;
   min-width: 200px;
   height: 100%;
+  max-width: 270px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .courses {
+    margin-left: calc((100% - 1350px) / 2);
+
+    /* left: 200px; */
+  }
 }
 
 .sidebarfiller {
