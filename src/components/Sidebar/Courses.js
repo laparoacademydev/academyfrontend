@@ -1,5 +1,6 @@
 import classes from "./Sidebar.module.css";
 import CourseItem from "./CourseItem";
+import FreeTrainingItem from "./FreeTrainingItem";
 
 function Courses(props) {
   return (
@@ -16,6 +17,10 @@ function Courses(props) {
             />
           );
         })}
+        <FreeTrainingItem
+          localizationData={props.localizationData}
+          StartScenarioFreeTraining={props.StartScenarioFreeTraining}
+        ></FreeTrainingItem>
         <div className={classes.sidebarfiller}></div>
       </div>
     </div>

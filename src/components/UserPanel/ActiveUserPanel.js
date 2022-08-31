@@ -54,20 +54,20 @@ function ActiveUserPanel(props) {
     icon: langicon,
   };
 
-  const scenariofree = {
-    text: props.localizationData.userpanel.startscenariofree,
-    onclick: function () {
-      props.setUserPanelActive(0);
-      props.setPlayingScenario(true);
-      var scenariostart = "scenariostart";
-      props.LogUserEvent(scenariostart, "scenariofree");
-      props.setSelectedItem(AppHelper.DefaultFreeTraining);
-    },
-    icon: lapico,
-  };
+  // const scenariofree = {
+  //   text: props.localizationData.userpanel.startscenariofree,
+  //   onclick: function () {
+  //     props.setUserPanelActive(0);
+  //     props.setPlayingScenario(true);
+  //     var scenariostart = "scenariostart";
+  //     props.LogUserEvent(scenariostart, "scenariofree");
+  //     props.setSelectedItem(AppHelper.DefaultFreeTraining);
+  //   },
+  //   icon: lapico,
+  // };
 
   if (props.playingScenario === false) {
-    userpanelitems.push(scenariofree);
+    // userpanelitems.push(scenariofree);
     userpanelitems.push(surveyuserpanelitem);
     userpanelitems.push(languageselection);
     userpanelitems.push(laparoshoplink);

@@ -88,3 +88,25 @@
     flex: 1;
   }
 } */
+
+.freetrainingitem {
+  display: flex;
+  height: 60px;
+
+  background-color: #ffffff;
+}
+
+.freetrainingitem:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.fthorizontalline {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  background-color: #dadada;
+
+  z-index: 9;
+}

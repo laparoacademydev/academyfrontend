@@ -123,5 +123,14 @@
         "pl": "Laparo Aspire i Laparo Advance zawierają różniące się kamery. Wybierz posiadany trenażer poniżej. Przeglądarka internetowa poprosi o dostęp do kamery. Kiedy twój trenażer jest podłączony, komputer rozpozna go jako zewnętrzną kamerkę. Powinna nazywać się \"USB2.0 Camera\" bądź \"HD USB Camera\" w zależności od modelu trenażera. Różne przeglądarki mają różne ustawienia podłączania do zewnętrznych kamer. Jeśli pojawią się problemy techniczne, skontaktuj się z nami pod adresem academy@laparosimulators.com"
       }
     }
+  },
+  "courses": {
+    "startscenariofree": {
+      "description": "Starts a Scenario-Free Training Mode",
+      "text": {
+        "en": "Scenario-Free Training",
+        "pl": "Trening bez scenariusza"
+      }
+    }
   }
 }

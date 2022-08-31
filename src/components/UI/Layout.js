@@ -29,6 +29,8 @@ function Layout(props) {
         setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
         selectedCourseID={props.selectedCourseID}
         selectedLanguage={props.selectedLanguage}
+        localizationData={props.localizationData}
+        StartScenarioFreeTraining={props.StartScenarioFreeTraining}
       />
     </Fragment>
   );

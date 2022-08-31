@@ -708,6 +708,14 @@ function App() {
     setCourseIdAndScenarioList(courses.courses[0]);
   }
 
+  function StartScenarioFreeTraining() {
+    setUserPanelActive(0);
+    setPlayingScenario(true);
+    var scenariostart = "scenariostart";
+    LogUserEvent(scenariostart, "scenariofree");
+    setSelectedItem(AppHelper.DefaultFreeTraining);
+  }
+
   if (isMobile === true) {
     return <MobileView />;
   } else if (accessCodeCheck === true) {
@@ -742,6 +750,7 @@ function App() {
           setPlayingScenario={setPlayingScenario}
           setSelectedItem={setSelectedItem}
           ReturnToBasic={ReturnToBasic}
+          StartScenarioFreeTraining={StartScenarioFreeTraining}
         />
         {selectedItem === null ||
         selectedItem === AppHelper.DefaultFreeTraining ? (
