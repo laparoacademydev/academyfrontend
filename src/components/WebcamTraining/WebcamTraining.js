@@ -210,6 +210,7 @@ function WebcamTraining(props) {
         devices={devices}
         switchDeviceId={switchDeviceId}
         deviceId={deviceId}
+        ReturnToBasic={props.ReturnToBasic}
       ></Topbar>
       <div>
         <div className={classes.advancewebcamview}>

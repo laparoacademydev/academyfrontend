@@ -1,9 +1,9 @@
 import classes from "./Topbar.module.css";
 import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
-function TopBarLogo() {
+function TopBarLogo(props) {
   return (
-    <div className={classes.topbarlogo}>
+    <div onClick={props.ReturnToBasic} className={classes.topbarlogo}>
       <img
         className={classes.topbarlogoimage}
         src={laparologo}

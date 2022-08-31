@@ -702,6 +702,12 @@ function App() {
     }
   }
 
+  function ReturnToBasic() {
+    // returns the user to the start - first basic skills course (on click of main logo in app)
+
+    setCourseIdAndScenarioList(courses.courses[0]);
+  }
+
   if (isMobile === true) {
     return <MobileView />;
   } else if (accessCodeCheck === true) {
@@ -735,6 +741,7 @@ function App() {
           playingScenario={playingScenario}
           setPlayingScenario={setPlayingScenario}
           setSelectedItem={setSelectedItem}
+          ReturnToBasic={ReturnToBasic}
         />
         {selectedItem === null ||
         selectedItem === AppHelper.DefaultFreeTraining ? (
@@ -786,6 +793,7 @@ function App() {
           developerMode={AppHelper.developerMode}
           featureTestingMode={featureTestingMode}
           playingScenario={playingScenario}
+          ReturnToBasic={ReturnToBasic}
         />
       </Fragment>
     );

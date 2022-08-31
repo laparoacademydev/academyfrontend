@@ -16,7 +16,7 @@ function Topbar(props) {
         <div></div>
       )}
       <div className={classes.topbar}>
-        <TopBarLogo></TopBarLogo>
+        <TopBarLogo ReturnToBasic={props.ReturnToBasic}></TopBarLogo>
       </div>
       <UserPanel
         userEmail={props.userEmail}
