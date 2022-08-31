@@ -1,10 +1,10 @@
 .languageselectoritem {
   width: 500px;
-  height: 118px;
+  height: 108px;
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: #005990;
+  background-color: #00619d;
 }
 
 .languageselectorheader {
