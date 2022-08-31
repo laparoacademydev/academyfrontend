@@ -8,7 +8,6 @@ import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
-import Topbar from "./components/Topbar/Topbar";
 
 import MobileView from "./components/MobileView/MobileView";
 
@@ -676,7 +675,7 @@ function App() {
     // array of all languageselected objects in the entire activity history:
     let alllangevents = [];
     for (var i = 0; i < userActivityHistory.length; i++) {
-      if (userActivityHistory[i].event == "languageselected") {
+      if (userActivityHistory[i].event === "languageselected") {
         alllangevents.push(userActivityHistory[i]);
       }
     }
@@ -692,7 +691,7 @@ function App() {
     // recall of the entire most recent date object:
     var mostRecentObject = alllangevents.filter((e) => {
       var d = new Date(e.date);
-      return d.getTime() == mostRecentDate.getTime();
+      return d.getTime() === mostRecentDate.getTime();
     })[0];
 
     //assign the exact language which was the latest to be applied:
@@ -714,6 +713,14 @@ function App() {
     var scenariostart = "scenariostart";
     LogUserEvent(scenariostart, "scenariofree");
     setSelectedItem(AppHelper.DefaultFreeTraining);
+  }
+
+  function ChangeLanguage(lang) {
+    setUserPanelActive(0);
+    setSelectedLanguage(lang.toString());
+    getLocalization();
+    let selectedlanguage = lang.toString();
+    LogUserEvent("languageselected", selectedlanguage);
   }
 
   if (isMobile === true) {
@@ -751,6 +758,7 @@ function App() {
           setSelectedItem={setSelectedItem}
           ReturnToBasic={ReturnToBasic}
           StartScenarioFreeTraining={StartScenarioFreeTraining}
+          ChangeLanguage={ChangeLanguage}
         />
         {selectedItem === null ||
         selectedItem === AppHelper.DefaultFreeTraining ? (
@@ -803,6 +811,7 @@ function App() {
           featureTestingMode={featureTestingMode}
           playingScenario={playingScenario}
           ReturnToBasic={ReturnToBasic}
+          ChangeLanguage={ChangeLanguage}
         />
       </Fragment>
     );

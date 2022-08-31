@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import { Fragment } from "react";
 import classes from "./UserPanel.module.css";
 import { AppHelper } from "./../../App.js";
 import xicon from "../../graphicassets/icons/X_icon_white.svg";
@@ -6,15 +6,12 @@ import usericon from "../../graphicassets/icons/userico_white.svg";
 import exitusericon from "../../graphicassets/icons/exituserico_white.svg";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 import shopicon from "../../graphicassets/icons/shopico_white.svg";
-import langicon from "../../graphicassets/icons/langico_white.svg";
 import survicon from "../../graphicassets/icons/surveyico_white.svg";
 import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
 import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
-import lapico from "../../graphicassets/icons/freestart_ico.svg";
+import LanguageSelector from "./LanguageSelector.js";
 
 function ActiveUserPanel(props) {
-  const [activeLanguageMenu, setActiveLanguageMenu] = useState(false);
-
   var userpanelitems = [];
 
   const surveyuserpanelitem = {
@@ -44,32 +41,9 @@ function ActiveUserPanel(props) {
     icon: exitusericon,
   };
 
-  const languageselection = {
-    text: props.localizationData.userpanel.languageselect,
-    onclick: function () {
-      activeLanguageMenu
-        ? setActiveLanguageMenu(false)
-        : setActiveLanguageMenu(true);
-    },
-    icon: langicon,
-  };
-
-  // const scenariofree = {
-  //   text: props.localizationData.userpanel.startscenariofree,
-  //   onclick: function () {
-  //     props.setUserPanelActive(0);
-  //     props.setPlayingScenario(true);
-  //     var scenariostart = "scenariostart";
-  //     props.LogUserEvent(scenariostart, "scenariofree");
-  //     props.setSelectedItem(AppHelper.DefaultFreeTraining);
-  //   },
-  //   icon: lapico,
-  // };
-
   if (props.playingScenario === false) {
     // userpanelitems.push(scenariofree);
     userpanelitems.push(surveyuserpanelitem);
-    userpanelitems.push(languageselection);
     userpanelitems.push(laparoshoplink);
     userpanelitems.push(logoutuserpanelitem);
   }
@@ -119,8 +93,14 @@ function ActiveUserPanel(props) {
               ></CurrentScenarioDescription>
             </Fragment>
           ) : (
-            <div></div>
+            <LanguageSelector
+              localizationData={props.localizationData}
+              selectedLanguage={props.selectedLanguage}
+              LogUserEvent={props.LogUserEvent}
+              ChangeLanguage={props.ChangeLanguage}
+            ></LanguageSelector>
           )}
+
           {userpanelitems.map((item) => {
             return (
               <ActiveUserPanelItem
@@ -134,8 +114,6 @@ function ActiveUserPanel(props) {
                 url={props.url}
                 userPanelActive={props.userPanelActive}
                 setUserPanelActive={props.setUserPanelActive}
-                activeLanguageMenu={activeLanguageMenu}
-                setActiveLanguageMenu={setActiveLanguageMenu}
                 selectedLanguage={props.selectedLanguage}
                 setSelectedLanguage={props.setSelectedLanguage}
                 localizationData={props.localizationData}

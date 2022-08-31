@@ -9,7 +9,7 @@ function FreeTrainingItem(props) {
     >
       <div className={classes.fthorizontalline}></div>
       <div className={classes.courseitemdescription}>
-        <img src={lapico}></img>
+        <img src={lapico} alt="."></img>
         <div>{props.localizationData.courses.startscenariofree}</div>
       </div>
     </div>

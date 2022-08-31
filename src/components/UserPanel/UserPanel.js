@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import ActiveUserPanel from "./ActiveUserPanel";
 import InactiveUserPanel from "./InactiveUserPanel";
 
@@ -32,6 +31,7 @@ function UserPanel(props) {
         selectedItem={props.selectedItem}
         setSelectedItem={props.setSelectedItem}
         setPlayingScenario={props.setPlayingScenario}
+        ChangeLanguage={props.ChangeLanguage}
       />
     );
   }

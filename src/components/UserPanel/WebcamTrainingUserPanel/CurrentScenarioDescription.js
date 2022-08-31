@@ -2,7 +2,6 @@ import classes from "./../UserPanel.module.css";
 import { AppHelper } from "../../../App.js";
 
 function CurrentScenarioDescription(props) {
-  console.log(props.selectedItem.isFreeTraining);
   if (props.selectedItem.isFreeTraining) {
     return <div></div>;
   } else {

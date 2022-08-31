@@ -17,8 +17,8 @@
     "languageselect": {
       "description": "Change the language",
       "text": {
-        "en": "Language",
-        "pl": "Język"
+        "en": "Select Language",
+        "pl": "Wybierz Język"
       }
     },
     "survey": {
@@ -33,6 +33,20 @@
       "text": {
         "en": "Scenario-Free Training",
         "pl": "Trening bez scenariusza"
+      }
+    },
+    "pl": {
+      "description": "Label on language select menu",
+      "text": {
+        "en": "Polski",
+        "pl": "Polski"
+      }
+    },
+    "en": {
+      "description": "Label on language select menu",
+      "text": {
+        "en": "English",
+        "pl": "English"
       }
     }
   },
@@ -112,15 +126,15 @@
     "devselectheader": {
       "description": "The header of the trainer select box",
       "text": {
-        "en": "Please select your device",
+        "en": "\nPlease select your device",
         "pl": "Wybierz swój trenażer"
       }
     },
-    "devselecttext": {
-      "description": "The text of the trainer select box",
+    "camselect": {
+      "description": "header for cam select",
       "text": {
-        "en": "Laparo Aspire and Laparo Advance feature different types of cameras with different resolutions. Please select your trainer model below. The internet browser will then ask for camera access. When your Laparo trainer is plugged in, it will appear to the computer as a standard webcam. It should be called \"USB2.0 Camera\" or \"HD USB Camera\". Different browsers have slightly different webcam camera settings. If technical problems persist, please contact us at academy@laparosimulators.com",
-        "pl": "Laparo Aspire i Laparo Advance zawierają różniące się kamery. Wybierz posiadany trenażer poniżej. Przeglądarka internetowa poprosi o dostęp do kamery. Kiedy twój trenażer jest podłączony, komputer rozpozna go jako zewnętrzną kamerkę. Powinna nazywać się \"USB2.0 Camera\" bądź \"HD USB Camera\" w zależności od modelu trenażera. Różne przeglądarki mają różne ustawienia podłączania do zewnętrznych kamer. Jeśli pojawią się problemy techniczne, skontaktuj się z nami pod adresem academy@laparosimulators.com"
+        "en": "Select Camera",
+        "pl": "Wybierz kamerę"
       }
     }
   },

@@ -37,6 +37,7 @@ function Topbar(props) {
         selectedItem={props.selectedItem}
         setPlayingScenario={props.setPlayingScenario}
         setSelectedItem={props.setSelectedItem}
+        ChangeLanguage={props.ChangeLanguage}
       />
     </Fragment>
   );

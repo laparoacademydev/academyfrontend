@@ -23,6 +23,7 @@ function Layout(props) {
         setPlayingScenario={props.setPlayingScenario}
         setSelectedItem={props.setSelectedItem}
         ReturnToBasic={props.ReturnToBasic}
+        ChangeLanguage={props.ChangeLanguage}
       />
       <Courses
         items={props.items}
