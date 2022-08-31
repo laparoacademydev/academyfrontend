@@ -33,6 +33,7 @@
     margin-left: 1px;
     scroll-snap-type: y mandatory;
     overflow-y: auto;
+    min-width: 700px;
   }
 }
 
