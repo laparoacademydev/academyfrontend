@@ -63,6 +63,7 @@
 
 .scenariolistrightsidefiller {
   position: fixed;
+  display: none;
   left: calc(20% + 902px);
   top: 64px;
   right: 0px;
