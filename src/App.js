@@ -24,6 +24,8 @@ export class AppHelper {
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademy.laparosimulators.com&scope=openid&response_type=id_token&prompt=login";
   static AllowAccessCodeOrigin = "https://academy.laparosimulators.com";
+  static LocalizationVersion = 1;
+  static ContentVersion = 1;
   static onRequestError(error) {
     if (error.response === undefined) {
       console.log("error?");
@@ -378,13 +380,16 @@ function App() {
   function getCourses() {
     // fetches all courses from json. upon success sets the course data and displays the first course:
     if (courses === null) {
-      fetch(`${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json`, {
-        headers: {
-          "Content-Type": "application/json",
+      fetch(
+        `${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json?v=${AppHelper.ContentVersion}`,
+        {
+          headers: {
+            "Content-Type": "application/json",
 
-          Accept: "application/json",
-        },
-      })
+            Accept: "application/json",
+          },
+        }
+      )
         .then(function (response) {
           return response.json();
         })
@@ -398,7 +403,7 @@ function App() {
   function getLocalization() {
     //this fetches the localization data and then sends it over to be parsed out for selected language:
     fetch(
-      `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json`,
+      `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json?v=${AppHelper.LocalizationVersion}`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -488,7 +493,8 @@ function App() {
       fetch(
         "./academycontentstorage/laparoacademy-jsoncontent/" +
           filenamejson +
-          ".json",
+          ".json" +
+          AppHelper.ContentVersion,
         {
           headers: {
             "Content-Type": "application/json",
