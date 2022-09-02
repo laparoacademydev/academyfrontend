@@ -10,6 +10,7 @@ import survicon from "../../graphicassets/icons/surveyico_white.svg";
 import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
 import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
 import LanguageSelector from "./LanguageSelector.js";
+import HelpPrompt from "./HelpPrompt";
 
 function ActiveUserPanel(props) {
   var userpanelitems = [];
@@ -100,6 +101,7 @@ function ActiveUserPanel(props) {
               ChangeLanguage={props.ChangeLanguage}
             ></LanguageSelector>
           )}
+          <HelpPrompt localizationData={props.localizationData}></HelpPrompt>
 
           {userpanelitems.map((item) => {
             return (
