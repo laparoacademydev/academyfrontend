@@ -48,20 +48,6 @@
         "en": "English",
         "pl": "English"
       }
-    },
-    "needhelp": {
-      "description": "prompt asking if you need help",
-      "text": {
-        "en": "Need Help?",
-        "pl": "Potrzebujesz Pomocy?"
-      }
-    },
-    "contactus": {
-      "description": "prompt telling you to contact us at  ",
-      "text": {
-        "en": "Contact us: academy@laparosimulators.com",
-        "pl": "Skontaktuj się: academy@laparosimulators.com"
-      }
     }
   },
   "scenariodescription": {
