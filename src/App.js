@@ -493,7 +493,7 @@ function App() {
       fetch(
         "./academycontentstorage/laparoacademy-jsoncontent/" +
           filenamejson +
-          ".json" +
+          ".json?v=" +
           AppHelper.ContentVersion,
         {
           headers: {
