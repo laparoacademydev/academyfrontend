@@ -24,7 +24,7 @@ export class AppHelper {
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademy.laparosimulators.com&scope=openid&response_type=id_token&prompt=login";
   static AllowAccessCodeOrigin = "https://academy.laparosimulators.com";
-  static LocalizationVersion = 1;
+  static LocalizationVersion = 2;
   static ContentVersion = 1;
   static onRequestError(error) {
     if (error.response === undefined) {
