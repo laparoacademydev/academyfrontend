@@ -133,8 +133,8 @@
     "exit": {
       "description": "Button for return",
       "text": {
-        "en": "Exit",
-        "pl": "Wróć"
+        "en": "Back to list",
+        "pl": "Wróć do listy"
       }
     },
     "devselectheader": {

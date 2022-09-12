@@ -104,7 +104,7 @@
 .webcamexitbtn {
   position: fixed;
   z-index: 22;
-  width: 120px;
+  width: 180px;
 
   /* background-color: #7a5757; */
   left: 20%;
@@ -134,7 +134,7 @@
   text-align: right;
   margin-right: 25px;
   text-transform: uppercase;
-  margin-top: 8px;
+  margin-top: 10px;
   color: #00619d;
   font-style: normal;
   font-weight: 600;
