@@ -18,7 +18,8 @@
     /* margin-right: 100px; */
     /* width: 100%; */
     /* background-color: #00619d; */
-    right: calc((100% - 1350px) / 2);
+    right: 0px;
+    /* right: calc((100% - 1350px) / 2); */
   }
 }
 
@@ -47,6 +48,8 @@
   padding: 15px;
   background-color: #ffffff;
   scroll-snap-align: start;
+  /* right: 500px; */
+  max-width: 1080px;
 }
 
 .scenariolistitem:hover {
