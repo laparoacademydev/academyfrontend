@@ -33,8 +33,8 @@
 .courseitem {
   display: flex;
   height: 60px;
-
   background-color: #ffffff;
+  transition: background-color 0.2s;
 }
 
 .courseitemgreenline {

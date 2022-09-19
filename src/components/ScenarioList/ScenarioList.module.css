@@ -50,6 +50,7 @@
   scroll-snap-align: start;
   /* right: 500px; */
   max-width: 1080px;
+  transition: background 0.2s;
 }
 
 .scenariolistitem:hover {
@@ -165,6 +166,12 @@
   float: left;
   border-radius: 4px;
   background-color: #cccccc;
+  transition: width 0.2s, height 0.2s;
+}
+
+.listthumbimg:hover {
+  width: 225px;
+  height: 126px;
 }
 
 .eduico {
