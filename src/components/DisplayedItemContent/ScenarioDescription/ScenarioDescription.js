@@ -9,6 +9,13 @@ import CompletedCheckbox from "../CompletedCheckbox";
 function ScenarioDescription(props) {
   return (
     <div className={classes.itemcontentcomponent}>
+      <ScenarioButton
+        setPlayingScenario={props.setPlayingScenario}
+        localizationData={props.localizationData}
+        selectedLanguage={props.selectedLanguage}
+        LogUserEvent={props.LogUserEvent}
+        selectedItemContent={props.selectedItemContent}
+      ></ScenarioButton>
       <ReturnNextPrevNav
         setSelectedItem={props.setSelectedItem}
         localizationData={props.localizationData}
@@ -69,14 +76,6 @@ function ScenarioDescription(props) {
           selectedLanguage={props.selectedLanguage}
         ></ScenarioPreparationBox>
       </div>
-
-      <ScenarioButton
-        setPlayingScenario={props.setPlayingScenario}
-        localizationData={props.localizationData}
-        selectedLanguage={props.selectedLanguage}
-        LogUserEvent={props.LogUserEvent}
-        selectedItemContent={props.selectedItemContent}
-      ></ScenarioButton>
     </div>
   );
 }

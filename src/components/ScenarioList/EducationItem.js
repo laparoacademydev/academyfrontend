@@ -24,7 +24,7 @@ function EducationItem(props) {
         props.LogUserEvent(eduselected, props.selectedScenario.id);
       }}
     >
-      <div className={classes.listthumbimg}>
+      <div className={classes.listthumb}>
         <img src={eduico} className={classes.eduico} alt={"."}></img>
         <img
           src={`${AppHelper.storageUrl}laparoacademy-mediacontent/edu_placeholder.png`}

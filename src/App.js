@@ -743,29 +743,6 @@ function App() {
   } else if (playingScenario === false) {
     return (
       <Fragment>
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
-          setSelectedLanguage={setSelectedLanguage}
-          localizationData={localizationData}
-          getLocalization={getLocalization}
-          developerMode={AppHelper.developerMode}
-          featureTestingMode={featureTestingMode}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
-          playingScenario={playingScenario}
-          setPlayingScenario={setPlayingScenario}
-          setSelectedItem={setSelectedItem}
-          ReturnToBasic={ReturnToBasic}
-          StartScenarioFreeTraining={StartScenarioFreeTraining}
-          ChangeLanguage={ChangeLanguage}
-        />
         {selectedItem === null ||
         selectedItem === AppHelper.DefaultFreeTraining ? (
           <ScenarioList
@@ -791,6 +768,29 @@ function App() {
             RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
           ></DisplayedItemContent>
         )}
+        <Layout
+          items={courses}
+          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+          selectedCourseID={selectedCourseID}
+          userEmail={getUserEmail()}
+          userIsActive={userIsActive}
+          userPanelActive={userPanelActive}
+          setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+          localizationData={localizationData}
+          getLocalization={getLocalization}
+          developerMode={AppHelper.developerMode}
+          featureTestingMode={featureTestingMode}
+          LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
+          playingScenario={playingScenario}
+          setPlayingScenario={setPlayingScenario}
+          setSelectedItem={setSelectedItem}
+          ReturnToBasic={ReturnToBasic}
+          StartScenarioFreeTraining={StartScenarioFreeTraining}
+          ChangeLanguage={ChangeLanguage}
+        />
       </Fragment>
     );
   } else {

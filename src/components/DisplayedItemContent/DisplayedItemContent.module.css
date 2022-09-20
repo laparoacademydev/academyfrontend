@@ -26,20 +26,20 @@
 
 .buttonstarttraining {
   position: fixed;
-  bottom: 20px;
   /* float: right; */
   /* left: calc(20% + 950px); */
-  z-index: 100;
-
+  z-index: 1;
+  margin-left: 770px;
+  bottom: 20px;
   background-color: #2cc25f;
-  width: 100px;
-  height: 100px;
+  width: 148px;
+  height: 46px;
   border-radius: 3px;
-  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .buttonstarttraining {
     right: 20px;
   }
@@ -49,7 +49,7 @@
   .buttonstarttraining {
     left: 1080px;
   }
-}
+} */
 
 .buttonstarttraining:hover {
   background-color: #26a350;
@@ -57,13 +57,12 @@
 
 .buttontext {
   text-align: center;
-  margin-top: 35px;
   color: #ffffff;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 46px;
 }
 
 .scenariolistrightsidefiller {
