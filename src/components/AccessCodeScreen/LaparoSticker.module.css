@@ -1,0 +1,10 @@
+.laparosticker {
+  position: fixed;
+  transform: scale(0.75, 0.75);
+  bottom: 10px;
+  right: 0px;
+  z-index: 21;
+  border-radius: 21px;
+  box-shadow: 4px 9px 21px -4px rgba(0, 0, 0, 0.28);
+  background-color: rgb(255, 255, 255);
+}
