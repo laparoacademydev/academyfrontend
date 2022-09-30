@@ -2,8 +2,6 @@ import classes from "./HelpPrompt.module.css";
 import questico from "../../graphicassets/icons/question_ico.svg";
 
 function HelpPrompt(props) {
-  console.log(props.localizationData.userpanel.needhelp);
-  console.log(props.localizationData.userpanel.contactus);
   return (
     <div className={classes.helpprompt}>
       <div className={classes.needhelptext}>

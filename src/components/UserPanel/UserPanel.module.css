@@ -279,14 +279,17 @@
 
 .usrpnltopfillerinactive {
   background-color: #ffffff00;
+  z-index: 50;
 }
 
 .usrpnlfilleractive {
   background-color: #004875;
+  z-index: 53;
 }
 
 .usrpnlfillerinactive {
   background-color: #f0f0f0;
+  /* z-index: 49; */
 }
 
 @media only screen and (max-width: 1350px) {
@@ -336,10 +339,12 @@
 
 .usrpnldraweractive {
   transform: translate(-500px, 0px);
+  z-index: 52;
 }
 
 .usrpnldrawerinactive {
   transform: translate(0px, 0px);
+  /* z-index: 49; */
   /* display: none; */
 }
 

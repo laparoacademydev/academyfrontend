@@ -33,7 +33,7 @@ function WebcamTraining(props) {
   const [videoConstraints, setVideoConstraints] = React.useState(
     aspireVideoConstraints
   );
-  const [currentTrainer, setCurrentTrainer] = React.useState(null);
+  // const [currentTrainer, setCurrentTrainer] = React.useState(null);
 
   const [deviceId, setDeviceId] = React.useState(0);
   const [devices, setDevices] = React.useState([]);
@@ -141,50 +141,19 @@ function WebcamTraining(props) {
       });
   }, [handleDevices]);
 
-  React.useEffect(() => {
-    if (deviceId === 0 && devices.length !== 0 && currentTrainer !== null) {
-      if (currentTrainer === "aspire") {
-        for (let a = 0; a < devices.length; a++) {
-          if (devices[a].label === "USB2.0 Camera") {
-            setDeviceId(devices[a].deviceId);
-            setVideoConstraints((prevState) => ({
-              ...prevState,
-              deviceId: devices[a].deviceId,
-            }));
-          } else if (deviceId === 0) {
-            setDeviceId(devices[0].deviceId);
-            setVideoConstraints((prevState) => ({
-              ...prevState,
-              deviceId: devices[0].deviceId,
-            }));
-          }
-        }
-      } else {
-        for (let a = 0; a < devices.length; a++) {
-          if (devices[a].label === "HD USB Camera") {
-            setDeviceId(devices[a].deviceId);
-            setVideoConstraints((prevState) => ({
-              ...prevState,
-              deviceId: devices[a].deviceId,
-            }));
-          } else if (deviceId === 0) {
-            setDeviceId(devices[0].deviceId);
-            setVideoConstraints((prevState) => ({
-              ...prevState,
-              deviceId: devices[0].deviceId,
-            }));
-          }
-        }
-      }
-    }
-  }, [devices, currentTrainer]);
-
   function switchDeviceId(device) {
     setDeviceId(device.deviceId);
+
     setVideoConstraints((prevState) => ({
       ...prevState,
       deviceId: device.deviceId,
     }));
+    if (device.label.includes("USB2.0 Camera")) {
+      setVideoConstraints(aspireVideoConstraints);
+    }
+    if (device.label.includes("HD USB Camera")) {
+      setVideoConstraints(advanceVideoConstraints);
+    }
   }
 
   return (
@@ -206,14 +175,14 @@ function WebcamTraining(props) {
         LogUserEvent={props.LogUserEvent}
         selectedItem={props.selectedItem}
         playingScenario={props.playingScenario}
+        ReturnToBasic={props.ReturnToBasic}
         //cameraselect:
         devices={devices}
         switchDeviceId={switchDeviceId}
         deviceId={deviceId}
-        ReturnToBasic={props.ReturnToBasic}
       ></Topbar>
       <div>
-        <div className={classes.advancewebcamview}>
+        <div className={classes.webcamview}>
           <Webcam
             audio={false}
             ref={webcamRef}
