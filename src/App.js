@@ -184,14 +184,11 @@ function App() {
   const [selectedTraining, setSelectedTraining] = useState(null);
   const [trainingList, setTrainingList] = useState(null);
 
+  // confirm user
+  const [userConfirmed, setUserConfirmed] = useState(null);
+
   React.useEffect(() => {
-    if (AppHelper.developerMode === true) {
-      setTokenConfirmed(true);
-      setUserIsActive(1);
-      if (featureTestingMode === null) {
-        setFeatureTestingMode(true);
-      }
-    }
+    confirmUser();
 
     if (loaded === false) {
       loadAcademy();
@@ -203,7 +200,7 @@ function App() {
       }
     }
 
-    initializeAcademy();
+    initializeAcademyMsg();
 
     if (selectedItem !== null) {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
@@ -221,25 +218,61 @@ function App() {
     userActivityHistory,
   ]);
 
+  const checkDevMode = new Promise((resolve, reject) => {
+    if (AppHelper.developerMode === true) {
+      resolve(true);
+    } else {
+      resolve(false);
+    }
+  });
+
+  function confirmUser() {
+    checkDevMode
+      .then((value) => {
+        if (value === true) {
+          setDevMode();
+        }
+      })
+      .then(() => {
+        if (tokenConfirmed === false && AppHelper.developerMode === false) {
+          checkToken();
+        }
+      })
+      .then(() => {
+        if (userIsActive === 0 && AppHelper.developerMode === false) {
+          checkUserActive();
+        }
+      })
+      .then(() => {
+        if (featureTestingMode === null && AppHelper.developerMode === false) {
+          checkTesterUser();
+        }
+      })
+      .then(() => {
+        if (featureTestingMode !== null && AppHelper.developerMode === false) {
+          setUserConfirmed(true);
+        }
+      });
+  }
+
+  function setDevMode() {
+    setTokenConfirmed(true);
+    setUserIsActive(1);
+    if (featureTestingMode === null) {
+      setFeatureTestingMode(true);
+    }
+    setUserConfirmed(true);
+  }
+
   // Loading Initializing Functions:
   function loadAcademy() {
-    //this is the flow orchestrating all the other loading functions:
-    if (tokenConfirmed === false && AppHelper.developerMode === false) {
-      checkToken();
-    }
-    if (userIsActive === 0 && tokenConfirmed === true) {
-      checkUserActive();
-    }
     if (localizationData === null && userIsActive === 1) {
       getLocalization();
     }
     if (courses === null && localizationData !== null) {
       getCourses();
     }
-    if (courses !== null && featureTestingMode === null) {
-      checkTesterUser();
-    }
-    if (featureTestingMode !== null && userActivityHistory === null) {
+    if (courses !== null && userActivityHistory === null) {
       AcquireUserHistory();
     }
     if (userActivityHistory !== null) {
@@ -247,7 +280,7 @@ function App() {
     }
   }
 
-  function initializeAcademy() {
+  function initializeAcademyMsg() {
     // initialize goes through all the conditions while adjusting loading screen message. If everything is confirmed sets loaded to true.
     if (tokenConfirmed === true) {
       setLoadingScreenMsg("user token confirmed...");
