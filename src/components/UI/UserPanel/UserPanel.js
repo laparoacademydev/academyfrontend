@@ -1,13 +1,13 @@
 import { useState } from "react";
 import React from "react";
-import { AppHelper } from "./../../App.js";
+import { AppHelper } from "./../../../App.js";
 import { Fragment } from "react";
 
-import survicon from "../../graphicassets/icons/surveyico_white.svg";
-import shopicon from "../../graphicassets/icons/shopico_white.svg";
-import exitusericon from "../../graphicassets/icons/exituserico_white.svg";
-import xicon from "../../graphicassets/icons/X_icon_white.svg";
-import usericon from "../../graphicassets/icons/userico_white.svg";
+import survicon from "../../../graphicassets/icons/surveyico_white.svg";
+import shopicon from "../../../graphicassets/icons/shopico_white.svg";
+import exitusericon from "../../../graphicassets/icons/exituserico_white.svg";
+import xicon from "../../../graphicassets/icons/X_icon_white.svg";
+import usericon from "../../../graphicassets/icons/userico_white.svg";
 
 import LanguageSelector from "./LanguageSelector.js";
 import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
@@ -17,7 +17,7 @@ import HelpPrompt from "./HelpPrompt";
 import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
 
 import classes from "./UserPanel.module.css";
-import burgericon from "../../graphicassets/icons/burgico_blue.svg";
+import burgericon from "../../../graphicassets/icons/burgico_blue.svg";
 
 function UserPanel(props) {
   const [userPanelItems, setUserPanelItems] = useState([]);

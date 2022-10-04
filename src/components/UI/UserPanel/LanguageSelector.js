@@ -1,5 +1,5 @@
 import classes from "./LanguageSelector.module.css";
-import { AppHelper } from "../../App";
+import { AppHelper } from "../../../App";
 
 function LanguageSelector(props) {
   function CurrentLanguageLabel(x) {

@@ -6,17 +6,19 @@ import ScenarioList from "./components/ScenarioList/ScenarioList";
 import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
-import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
-import AccessCodeScreen from "./components/AccessCodeScreen/AccessCodeScreen";
+import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
 
-import MobileView from "./components/MobileView/MobileView";
+import AccessCodeScreen from "./components/MiscScreens/AccessCodeScreen/AccessCodeScreen";
+import MobileView from "./components/MiscScreens/MobileView/MobileView";
 
 import decodeJWT from "jwt-decode";
 
 import { isMobile } from "react-device-detect";
 
+import TrainingSelection from "./components/TrainingSelection/TrainingSelection";
+
 export class AppHelper {
-  static developerMode = false;
+  static developerMode = true;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
@@ -186,6 +188,9 @@ function App() {
 
   // confirm user
   const [userConfirmed, setUserConfirmed] = useState(null);
+  // webcam stuff
+  const [devices, setDevices] = React.useState([]);
+  const [deviceId, setDeviceId] = React.useState(0);
 
   React.useEffect(() => {
     confirmUser();
@@ -782,31 +787,26 @@ function App() {
   } else if (playingScenario === false) {
     return (
       <Fragment>
-        {selectedItem === null ||
-        selectedItem === AppHelper.DefaultFreeTraining ? (
-          <ScenarioList
-            selectedScenarioList={selectedScenarioList}
-            setSelectedItem={setSelectedItem}
-            selectedLanguage={selectedLanguage}
-            LogUserEvent={LogUserEvent}
-            userTrainingHistory={userTrainingHistory}
-          ></ScenarioList>
-        ) : (
-          <DisplayedItemContent
-            selectedItemContent={selectedItem}
-            setPlayingScenario={setPlayingScenario}
-            selectedLanguage={selectedLanguage}
-            localizationData={localizationData}
-            setSelectedItem={setSelectedItem}
-            selectedNextItem={selectedNextItem}
-            selectedPrevItem={selectedPrevItem}
-            LogUserEvent={LogUserEvent}
-            setUserTrainingHistory={setUserTrainingHistory}
-            userTrainingHistory={userTrainingHistory}
-            featureTestingMode={featureTestingMode}
-            RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
-          ></DisplayedItemContent>
-        )}
+        <TrainingSelection
+          selectedScenarioList={selectedScenarioList}
+          setSelectedItem={setSelectedItem}
+          selectedLanguage={selectedLanguage}
+          LogUserEvent={LogUserEvent}
+          userTrainingHistory={userTrainingHistory}
+          selectedItemContent={selectedItem}
+          setPlayingScenario={setPlayingScenario}
+          localizationData={localizationData}
+          selectedNextItem={selectedNextItem}
+          selectedPrevItem={selectedPrevItem}
+          setUserTrainingHistory={setUserTrainingHistory}
+          featureTestingMode={featureTestingMode}
+          RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
+          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+          selectedCourseID={selectedCourseID}
+          StartScenarioFreeTraining={StartScenarioFreeTraining}
+          selectedItem={selectedItem}
+          items={courses}
+        ></TrainingSelection>
         <Layout
           items={courses}
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
@@ -857,6 +857,37 @@ function App() {
           playingScenario={playingScenario}
           ReturnToBasic={ReturnToBasic}
           ChangeLanguage={ChangeLanguage}
+          devices={devices}
+          setDevices={setDevices}
+          deviceId={deviceId}
+          setDeviceId={setDeviceId}
+        />
+        <Layout
+          items={courses}
+          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+          selectedCourseID={selectedCourseID}
+          userEmail={getUserEmail()}
+          userIsActive={userIsActive}
+          userPanelActive={userPanelActive}
+          setUserPanelActive={setUserPanelActive}
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+          localizationData={localizationData}
+          getLocalization={getLocalization}
+          developerMode={AppHelper.developerMode}
+          featureTestingMode={featureTestingMode}
+          LogUserEvent={LogUserEvent}
+          selectedItem={selectedItem}
+          playingScenario={playingScenario}
+          setPlayingScenario={setPlayingScenario}
+          setSelectedItem={setSelectedItem}
+          ReturnToBasic={ReturnToBasic}
+          StartScenarioFreeTraining={StartScenarioFreeTraining}
+          ChangeLanguage={ChangeLanguage}
+          //cameraselect:
+          devices={devices}
+          switchDeviceId={switchDeviceId}
+          deviceId={deviceId}
         />
       </Fragment>
     );

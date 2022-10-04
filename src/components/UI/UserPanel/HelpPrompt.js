@@ -1,5 +1,5 @@
 import classes from "./HelpPrompt.module.css";
-import questico from "../../graphicassets/icons/question_ico.svg";
+import questico from "../../../graphicassets/icons/question_ico.svg";
 
 function HelpPrompt(props) {
   return (

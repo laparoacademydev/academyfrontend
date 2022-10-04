@@ -1,5 +1,5 @@
 import classes from "./../UserPanel.module.css";
-import { AppHelper } from "../../../App.js";
+import { AppHelper } from "../../../../App.js";
 
 function CurrentScenarioDescription(props) {
   if (props.selectedItem.isFreeTraining) {

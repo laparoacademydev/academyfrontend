@@ -1,4 +1,4 @@
-import classes from "./Sidebar.module.css";
+import classes from "./Courses.module.css";
 
 function CourseItem(props) {
   function CheckIfSelected() {

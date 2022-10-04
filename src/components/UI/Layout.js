@@ -1,6 +1,5 @@
 import { Fragment } from "react";
-import Courses from "../Sidebar/Courses";
-import Topbar from "../Topbar/Topbar";
+import Topbar from "./Topbar/Topbar";
 
 function Layout(props) {
   return (
@@ -24,14 +23,6 @@ function Layout(props) {
         setSelectedItem={props.setSelectedItem}
         ReturnToBasic={props.ReturnToBasic}
         ChangeLanguage={props.ChangeLanguage}
-      />
-      <Courses
-        items={props.items}
-        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
-        selectedCourseID={props.selectedCourseID}
-        selectedLanguage={props.selectedLanguage}
-        localizationData={props.localizationData}
-        StartScenarioFreeTraining={props.StartScenarioFreeTraining}
       />
     </Fragment>
   );

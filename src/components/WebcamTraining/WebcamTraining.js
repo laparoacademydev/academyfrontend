@@ -8,7 +8,7 @@ import { Fragment } from "react";
 
 import { useRef } from "react";
 
-import Topbar from "../Topbar/Topbar";
+import Topbar from "../UI/Topbar/Topbar";
 
 const aspireVideoConstraints = {
   width: 1280,
@@ -35,8 +35,8 @@ function WebcamTraining(props) {
   );
   // const [currentTrainer, setCurrentTrainer] = React.useState(null);
 
-  const [deviceId, setDeviceId] = React.useState(0);
-  const [devices, setDevices] = React.useState([]);
+  // const [deviceId, setDeviceId] = React.useState(0);
+  // const [devices, setDevices] = React.useState([]);
   const [trainingStartTime, setTrainingStartTime] = React.useState(null);
 
   function switchFullScreen() {
@@ -124,8 +124,10 @@ function WebcamTraining(props) {
 
   const handleDevices = React.useCallback(
     (mediaDevices) =>
-      setDevices(mediaDevices.filter(({ kind }) => kind === "videoinput")),
-    [setDevices]
+      props.setDevices(
+        mediaDevices.filter(({ kind }) => kind === "videoinput")
+      ),
+    [props.setDevices]
   );
 
   React.useEffect(() => {
@@ -133,7 +135,7 @@ function WebcamTraining(props) {
       .getUserMedia({ audio: false, video: true })
       .then((s) => {
         navigator.mediaDevices.enumerateDevices().then((handleDevices) => {
-          setDevices(handleDevices);
+          props.setDevices(handleDevices);
         });
       })
       .catch((error) => {
@@ -142,7 +144,7 @@ function WebcamTraining(props) {
   }, [handleDevices]);
 
   function switchDeviceId(device) {
-    setDeviceId(device.deviceId);
+    props.setDeviceId(device.deviceId);
 
     setVideoConstraints((prevState) => ({
       ...prevState,
@@ -158,7 +160,7 @@ function WebcamTraining(props) {
 
   return (
     <Fragment>
-      <Topbar
+      {/* <Topbar
         items={props.courses}
         setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
         selectedCourseID={props.selectedCourseID}
@@ -180,7 +182,7 @@ function WebcamTraining(props) {
         devices={devices}
         switchDeviceId={switchDeviceId}
         deviceId={deviceId}
-      ></Topbar>
+      ></Topbar> */}
       <div>
         <div className={classes.webcamview}>
           <Webcam

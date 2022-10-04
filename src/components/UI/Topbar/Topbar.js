@@ -1,6 +1,6 @@
 import classes from "./Topbar.module.css";
 import TopBarLogo from "./TopBarLogo";
-import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
+import ScreenHeightWidthTester from "../../devTools/ScreenHeightWidthTester";
 import UserPanel from "../UserPanel/UserPanel";
 import { Fragment } from "react";
 

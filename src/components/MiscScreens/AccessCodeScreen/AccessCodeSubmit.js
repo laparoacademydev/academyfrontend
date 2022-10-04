@@ -1,7 +1,7 @@
 import classes from "./AccessCodeScreen.module.css";
-import { AppHelper } from "../../App";
+import { AppHelper } from "../../../App";
 import React, { useState } from "react";
-import buttonclasses from "../UI/Button.module.css";
+import buttonclasses from "../../UI/Button.module.css";
 
 function AccessCodeSubmit(props) {
   return (
