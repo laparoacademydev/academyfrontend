@@ -265,6 +265,7 @@ function App() {
   }
 
   // Loading Initializing Functions:
+
   function loadAcademy() {
     if (localizationData === null && userIsActive === 1) {
       getLocalization();
@@ -272,11 +273,13 @@ function App() {
     if (courses === null && localizationData !== null) {
       getCourses();
     }
-    if (courses !== null && userActivityHistory === null) {
-      AcquireUserHistory();
-    }
-    if (userActivityHistory !== null) {
-      extractUserTrainingHistory(userActivityHistory);
+    if (featureTestingMode === true) {
+      if (courses !== null && userActivityHistory === null) {
+        AcquireUserHistory();
+      }
+      if (userActivityHistory !== null) {
+        extractUserTrainingHistory(userActivityHistory);
+      }
     }
   }
 
@@ -286,20 +289,23 @@ function App() {
       setLoadingScreenMsg("user token confirmed...");
       if (userIsActive === 1) {
         setLoadingScreenMsg("user verified...");
-        if (localizationData !== null) {
-          setLoadingScreenMsg("localization data downloaded...");
-          if (courses !== null) {
-            setLoadingScreenMsg("courses loaded...");
-            if (userActivityHistory !== null) {
-              setLoadingScreenMsg("user activity history loaded...");
-              if (featureTestingMode !== null) {
-                setLoadingScreenMsg("checked if user is tester...");
-                if (loaded === false) {
-                  setLoadingScreenMsg("");
-                  setLoaded(true);
-                  LogUserEvent("login");
-                  if (loaded === true) {
-                    CheckLanguage();
+        if (featureTestingMode !== null) {
+          setLoadingScreenMsg("checked if user is tester...");
+          if (userConfirmed === true) {
+            setLoadingScreenMsg("user confirmed");
+            if (localizationData !== null) {
+              setLoadingScreenMsg("localization data downloaded...");
+              if (courses !== null) {
+                setLoadingScreenMsg("courses loaded...");
+                if (userActivityHistory !== null) {
+                  setLoadingScreenMsg("user activity history loaded...");
+                  if (loaded === false) {
+                    setLoadingScreenMsg("");
+                    setLoaded(true);
+                    LogUserEvent("login");
+                    if (loaded === true) {
+                      CheckLanguage();
+                    }
                   }
                 }
               }
