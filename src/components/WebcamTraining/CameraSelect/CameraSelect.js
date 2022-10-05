@@ -1,5 +1,6 @@
-import classes from "./../UserPanel.module.css";
+import classes from "./CameraSelect.module.css";
 import React from "react";
+import { useState } from "react";
 
 const defaultcamera = {
   deviceId: "none",
@@ -20,7 +21,7 @@ function CameraSelect(props) {
   }, [props.deviceId]);
 
   return (
-    <div className={classes.cameraselectoritem}>
+    <div className={classes.cameraselector}>
       <div className={classes.cameraselectoritemheader}>Select Camera</div>
       <div className={`${classes.cameraselectordropdown}`}>
         <div className={classes.cameraselectordropdowntxt}>

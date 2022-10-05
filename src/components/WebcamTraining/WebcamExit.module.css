@@ -1,0 +1,48 @@
+.webcamexitbtn {
+  position: fixed;
+  z-index: 22;
+  width: 170px;
+
+  /* background-color: #7a5757; */
+  /* left: 20%; */
+  top: 10px;
+  height: 46px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1350px) {
+  .webcamexitbtn {
+    right: calc(((100% - 1350px) / 2) + 800px);
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .webcamexitbtn {
+    right: 800px;
+  }
+}
+
+.webcamexitbtn:hover {
+  background-color: #eeeeee;
+}
+
+.webcamexit {
+  position: absolute;
+  z-index: 22;
+  top: 12px;
+  left: 10px;
+}
+
+.buttontxt {
+  text-align: right;
+  margin-right: 25px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #00619d;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}

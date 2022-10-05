@@ -1,0 +1,58 @@
+.currentscenarioitem {
+  position: relative;
+  z-index: 20;
+  right: 0px;
+  background-color: #ffffff;
+}
+
+.currentscenarioheader {
+  position: relative;
+  margin-left: 32px;
+  margin-top: 32px;
+  z-index: 20;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.currentscenarioskills {
+  position: relative;
+  margin-left: 32px;
+  margin-top: 6px;
+  z-index: 20;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6d6d6d;
+}
+
+.currentscenarioinstructions {
+  position: relative;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 18px;
+  z-index: 20;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
+}
+
+.currentscenariovideo {
+  position: relative;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 16px;
+  margin-bottom: 30px;
+  width: 85%;
+  border-radius: 4px;
+}

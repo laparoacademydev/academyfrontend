@@ -1,4 +1,4 @@
-import classes from "./../UserPanel.module.css";
+import classes from "./CurrentScenarioDescription.module.css";
 import { AppHelper } from "../../../../App.js";
 
 function CurrentScenarioDescription(props) {

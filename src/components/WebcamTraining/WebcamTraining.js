@@ -3,24 +3,10 @@ import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
 import WebcamControlPanel from "./WebcamControlPanel";
 import WebcamExit from "./WebcamExit";
+import { AppHelper } from "../../App";
+import CameraSelect from "./CameraSelect/CameraSelect";
 
 import { Fragment } from "react";
-
-import { useRef } from "react";
-
-import Topbar from "../UI/Topbar/Topbar";
-
-const aspireVideoConstraints = {
-  width: 1280,
-  height: 720,
-  facingMode: "user",
-};
-
-const advanceVideoConstraints = {
-  width: 1920,
-  height: 1080,
-  facingMode: "user",
-};
 
 function WebcamTraining(props) {
   const webcamRef = React.useRef(null);
@@ -31,12 +17,11 @@ function WebcamTraining(props) {
   const [uploaded, setUploaded] = React.useState(false);
   const [fullScreen, setFullScreen] = React.useState(false);
   const [videoConstraints, setVideoConstraints] = React.useState(
-    aspireVideoConstraints
+    AppHelper.aspireVideoConstraints
   );
-  // const [currentTrainer, setCurrentTrainer] = React.useState(null);
 
-  // const [deviceId, setDeviceId] = React.useState(0);
-  // const [devices, setDevices] = React.useState([]);
+  const [deviceId, setDeviceId] = React.useState(0);
+  const [devices, setDevices] = React.useState([]);
   const [trainingStartTime, setTrainingStartTime] = React.useState(null);
 
   function switchFullScreen() {
@@ -124,10 +109,8 @@ function WebcamTraining(props) {
 
   const handleDevices = React.useCallback(
     (mediaDevices) =>
-      props.setDevices(
-        mediaDevices.filter(({ kind }) => kind === "videoinput")
-      ),
-    [props.setDevices]
+      setDevices(mediaDevices.filter(({ kind }) => kind === "videoinput")),
+    [setDevices]
   );
 
   React.useEffect(() => {
@@ -135,7 +118,7 @@ function WebcamTraining(props) {
       .getUserMedia({ audio: false, video: true })
       .then((s) => {
         navigator.mediaDevices.enumerateDevices().then((handleDevices) => {
-          props.setDevices(handleDevices);
+          setDevices(handleDevices);
         });
       })
       .catch((error) => {
@@ -144,76 +127,56 @@ function WebcamTraining(props) {
   }, [handleDevices]);
 
   function switchDeviceId(device) {
-    props.setDeviceId(device.deviceId);
+    setDeviceId(device.deviceId);
 
     setVideoConstraints((prevState) => ({
       ...prevState,
       deviceId: device.deviceId,
     }));
     if (device.label.includes("USB2.0 Camera")) {
-      setVideoConstraints(aspireVideoConstraints);
+      setVideoConstraints(AppHelper.aspireVideoConstraints);
     }
     if (device.label.includes("HD USB Camera")) {
-      setVideoConstraints(advanceVideoConstraints);
+      setVideoConstraints(AppHelper.advanceVideoConstraints);
     }
   }
 
   return (
     <Fragment>
-      {/* <Topbar
-        items={props.courses}
-        setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
-        selectedCourseID={props.selectedCourseID}
-        userEmail={props.userEmail}
-        userIsActive={props.userIsActive}
-        userPanelActive={props.userPanelActive}
-        setUserPanelActive={props.setUserPanelActive}
-        selectedLanguage={props.selectedLanguage}
-        setSelectedLanguage={props.setSelectedLanguage}
+      <div className={classes.webcamview}>
+        <Webcam
+          audio={false}
+          ref={webcamRef}
+          forceScreenshotSourceSize={false}
+          videoConstraints={videoConstraints}
+        />
+      </div>
+      <WebcamControlPanel
+        handleStopCaptureClick={handleStopCaptureClick}
+        handleStartCaptureClick={handleStartCaptureClick}
+        handleDownload={handleDownload}
+        uploading={uploading}
+        uploaded={uploaded}
+        capturing={capturing}
+        recordedChunks={recordedChunks}
+        switchFullScreen={switchFullScreen}
+        fullScreen={fullScreen}
         localizationData={props.localizationData}
-        getLocalization={props.getLocalization}
-        developerMode={props.developerMode}
-        featureTestingMode={props.featureTestingMode}
-        LogUserEvent={props.LogUserEvent}
-        selectedItem={props.selectedItem}
-        playingScenario={props.playingScenario}
-        ReturnToBasic={props.ReturnToBasic}
-        //cameraselect:
+        selectedLanguage={props.selectedLanguage}
+        trainingStartTime={trainingStartTime}
+      />
+      <WebcamExit
+        setPlayingScenario={props.setPlayingScenario}
+        switchFullScreen={switchFullScreen}
+        fullScreen={fullScreen}
+        localizationData={props.localizationData}
+        selectedLanguage={props.selectedLanguage}
+      />
+      <CameraSelect
         devices={devices}
         switchDeviceId={switchDeviceId}
         deviceId={deviceId}
-      ></Topbar> */}
-      <div>
-        <div className={classes.webcamview}>
-          <Webcam
-            audio={false}
-            ref={webcamRef}
-            forceScreenshotSourceSize={false}
-            videoConstraints={videoConstraints}
-          />
-        </div>
-        <WebcamControlPanel
-          handleStopCaptureClick={handleStopCaptureClick}
-          handleStartCaptureClick={handleStartCaptureClick}
-          handleDownload={handleDownload}
-          uploading={uploading}
-          uploaded={uploaded}
-          capturing={capturing}
-          recordedChunks={recordedChunks}
-          switchFullScreen={switchFullScreen}
-          fullScreen={fullScreen}
-          localizationData={props.localizationData}
-          selectedLanguage={props.selectedLanguage}
-          trainingStartTime={trainingStartTime}
-        />
-        <WebcamExit
-          setPlayingScenario={props.setPlayingScenario}
-          switchFullScreen={switchFullScreen}
-          fullScreen={fullScreen}
-          localizationData={props.localizationData}
-          selectedLanguage={props.selectedLanguage}
-        />
-      </div>
+      />
     </Fragment>
   );
 }

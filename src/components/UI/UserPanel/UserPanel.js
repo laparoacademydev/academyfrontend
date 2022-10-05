@@ -10,7 +10,6 @@ import xicon from "../../../graphicassets/icons/X_icon_white.svg";
 import usericon from "../../../graphicassets/icons/userico_white.svg";
 
 import LanguageSelector from "./LanguageSelector.js";
-import CameraSelect from "./WebcamTrainingUserPanel/CameraSelect";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 
 import HelpPrompt from "./HelpPrompt";
@@ -125,11 +124,6 @@ function UserPanel(props) {
         <div className={classes.usrpnldrawerselection}>
           {props.playingScenario ? (
             <Fragment>
-              <CameraSelect
-                devices={props.devices}
-                switchDeviceId={props.switchDeviceId}
-                deviceId={props.deviceId}
-              ></CameraSelect>
               <CurrentScenarioDescription
                 selectedItem={props.selectedItem}
                 selectedLanguage={props.selectedLanguage}
