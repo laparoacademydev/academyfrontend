@@ -1,24 +1,17 @@
 import classes from "./Topbar.module.css";
 import TopBarLogo from "./TopBarLogo";
-import ScreenHeightWidthTester from "../../devTools/ScreenHeightWidthTester";
 import UserPanel from "../UserPanel/UserPanel";
 import { Fragment } from "react";
+import TopBarSelection from "./TopBarSelection";
 
 function Topbar(props) {
   return (
     <Fragment>
-      {/* <LogoHome /> */}
-      {props.featureTestingMode ? (
-        <ScreenHeightWidthTester
-          selectedItem={props.selectedItem}
-        ></ScreenHeightWidthTester>
-      ) : (
-        <div></div>
-      )}
       <div className={classes.topbar}>
-        <TopBarLogo ReturnToBasic={props.ReturnToBasic}></TopBarLogo>
+        <TopBarLogo ReturnToBasic={props.ReturnToBasic} />
+        <TopBarSelection />
       </div>
-      <UserPanel
+      {/* <UserPanel
         userEmail={props.userEmail}
         setTrainingList={props.setTrainingList}
         userIsActive={props.userIsActive}
@@ -38,7 +31,7 @@ function Topbar(props) {
         setPlayingScenario={props.setPlayingScenario}
         setSelectedItem={props.setSelectedItem}
         ChangeLanguage={props.ChangeLanguage}
-      />
+      /> */}
     </Fragment>
   );
 }

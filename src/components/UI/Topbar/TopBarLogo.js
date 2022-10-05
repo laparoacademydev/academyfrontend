@@ -1,4 +1,4 @@
-import classes from "./Topbar.module.css";
+import classes from "./TopBarLogo.module.css";
 import laparologo from "../../../graphicassets/LaparoAcademyLogo.svg";
 
 function TopBarLogo(props) {

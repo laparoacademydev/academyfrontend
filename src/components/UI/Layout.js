@@ -1,9 +1,17 @@
 import { Fragment } from "react";
 import Topbar from "./Topbar/Topbar";
+import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
 
 function Layout(props) {
   return (
     <Fragment>
+      {props.featureTestingMode ? (
+        <ScreenHeightWidthTester
+          selectedItem={props.selectedItem}
+        ></ScreenHeightWidthTester>
+      ) : (
+        <div></div>
+      )}
       <Topbar
         userEmail={props.userEmail}
         setTrainingList={props.setTrainingList}
