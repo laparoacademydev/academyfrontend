@@ -11,7 +11,7 @@ function Topbar(props) {
         <TopBarLogo ReturnToBasic={props.ReturnToBasic} />
         <TopBarSelection />
       </div>
-      {/* <UserPanel
+      <UserPanel
         userEmail={props.userEmail}
         setTrainingList={props.setTrainingList}
         userIsActive={props.userIsActive}
@@ -31,7 +31,7 @@ function Topbar(props) {
         setPlayingScenario={props.setPlayingScenario}
         setSelectedItem={props.setSelectedItem}
         ChangeLanguage={props.ChangeLanguage}
-      /> */}
+      />
     </Fragment>
   );
 }
