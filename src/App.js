@@ -198,12 +198,18 @@ function App() {
   const [trainingList, setTrainingList] = useState(null);
 
   // confirm user
-  const [userConfirmed, setUserConfirmed] = useState(null);
+  const [userConfirmed, setUserConfirmed] = useState(false);
 
   React.useEffect(() => {
-    confirmUser();
+    if (AppHelper.developerMode === true && userConfirmed === false) {
+      setDevMode();
+    }
 
-    if (loaded === false) {
+    if (AppHelper.developerMode === false && userConfirmed === false) {
+      confirmUser();
+    }
+
+    if (userConfirmed === true && loaded === false) {
       loadAcademy();
     }
 
@@ -231,41 +237,57 @@ function App() {
     userActivityHistory,
   ]);
 
-  const checkDevMode = new Promise((resolve, reject) => {
-    if (AppHelper.developerMode === true) {
-      resolve(true);
-    } else {
-      resolve(false);
-    }
-  });
+  // const checkDevMode = new Promise((resolve, reject) => {
+  //   if (AppHelper.developerMode === true) {
+  //     resolve(true);
+  //   } else {
+  //     resolve(false);
+  //   }
+  // });
 
   function confirmUser() {
-    checkDevMode
-      .then((value) => {
-        if (value === true) {
-          setDevMode();
-        }
-      })
-      .then(() => {
-        if (tokenConfirmed === false && AppHelper.developerMode === false) {
-          checkToken();
-        }
-      })
-      .then(() => {
-        if (userIsActive === 0 && AppHelper.developerMode === false) {
-          checkUserActive();
-        }
-      })
-      .then(() => {
-        if (featureTestingMode === null && AppHelper.developerMode === false) {
-          checkTesterUser();
-        }
-      })
-      .then(() => {
-        if (featureTestingMode !== null && AppHelper.developerMode === false) {
-          setUserConfirmed(true);
-        }
-      });
+    if (tokenConfirmed === false) {
+      checkToken();
+    }
+
+    if (tokenConfirmed === true && userIsActive === 0) {
+      checkUserActive();
+    }
+
+    if (userIsActive === 1 && featureTestingMode === null) {
+      checkTesterUser();
+    }
+
+    if (tokenConfirmed === true && userIsActive === 1) {
+      setUserConfirmed(true);
+    }
+
+    // checkDevMode
+    //   .then((value) => {
+    //     if (value === true) {
+    //       setDevMode();
+    //     }
+    //   })
+    //   .then(() => {
+    //     if (tokenConfirmed === false && AppHelper.developerMode === false) {
+    //       checkToken();
+    //     }
+    //   })
+    //   .then(() => {
+    //     if (userIsActive === 0 && AppHelper.developerMode === false) {
+    //       checkUserActive();
+    //     }
+    //   })
+    //   .then(() => {
+    //     if (featureTestingMode === null && AppHelper.developerMode === false) {
+    //       checkTesterUser();
+    //     }
+    //   })
+    //   .then(() => {
+    //     if (featureTestingMode !== null && AppHelper.developerMode === false) {
+    //       setUserConfirmed(true);
+    //     }
+    //   });
   }
 
   function setDevMode() {
@@ -286,14 +308,14 @@ function App() {
     if (courses === null && localizationData !== null) {
       getCourses();
     }
-    if (featureTestingMode === true) {
-      if (courses !== null && userActivityHistory === null) {
-        AcquireUserHistory();
-      }
-      if (userActivityHistory !== null) {
-        extractUserTrainingHistory(userActivityHistory);
-      }
+    // if (featureTestingMode === true) {
+    if (courses !== null && userActivityHistory === null) {
+      AcquireUserHistory();
     }
+    if (userActivityHistory !== null) {
+      extractUserTrainingHistory(userActivityHistory);
+    }
+    // }
   }
 
   function initializeAcademyMsg() {
