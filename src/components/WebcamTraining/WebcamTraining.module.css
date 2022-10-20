@@ -3,8 +3,7 @@
   margin-right: auto;
   margin-top: 64px;
   object-fit: fill;
-  z-index: 46;
-
+  z-index: 51;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%);
