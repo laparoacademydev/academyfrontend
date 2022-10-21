@@ -153,13 +153,11 @@ export class AppHelper {
   static aspireVideoConstraints = {
     width: 1280,
     height: 720,
-    facingMode: "user",
   };
 
   static advanceVideoConstraints = {
     width: 1920,
     height: 1080,
-    facingMode: "user",
   };
 }
 

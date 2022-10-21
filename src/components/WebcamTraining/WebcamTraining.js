@@ -19,6 +19,7 @@ function WebcamTraining(props) {
   const [videoConstraints, setVideoConstraints] = React.useState(
     AppHelper.aspireVideoConstraints
   );
+  const [cameraLoaded, setCameraLoaded] = React.useState(false);
 
   const [deviceId, setDeviceId] = React.useState(0);
   const [devices, setDevices] = React.useState([]);
@@ -107,41 +108,93 @@ function WebcamTraining(props) {
     }
   }, [recordedChunks]);
 
+  /*const handleDevices = React.useCallback(
+    (mediaDevices) => {
+      var filteredDevices = mediaDevices
+        .filter(({ kind }) => kind === "videoinput")
+        .filter(
+          ({ label }) =>
+            label.includes("USB2.0 Camera") || label.includes("HD USB Camera")
+        );
+      // if (filteredDevices.length == 0) {
+      //   filteredDevices = mediaDevices;
+      // }
+      //setDevices(filteredDevices);
+      console.log(`filtered :", ${filteredDevices}`);
+      switchDeviceId(filteredDevices[0]);
+    },
+    [setDevices]
+  );*/
+
   const handleDevices = React.useCallback(
-    (mediaDevices) =>
-      setDevices(mediaDevices.filter(({ kind }) => kind === "videoinput")),
+    (mediaDevices) => {
+      var newDevices = mediaDevices.filter(({ kind }) => kind === "videoinput");
+
+      setDevices(newDevices);
+
+      var filteredDevices = newDevices.filter(
+        ({ label }) =>
+          label.includes("USB2.0 Camera") || label.includes("HD USB Camera")
+      );
+      if (filteredDevices.length == 0) {
+        filteredDevices = newDevices;
+      }
+      switchDeviceId(filteredDevices[0]);
+    },
     [setDevices]
   );
 
+  React.useEffect(() => {
+    navigator.mediaDevices.enumerateDevices().then(handleDevices);
+  }, [handleDevices]);
+  /*
   React.useEffect(() => {
     navigator.mediaDevices
       .getUserMedia({ audio: false, video: true })
       .then((s) => {
         navigator.mediaDevices.enumerateDevices().then((handleDevices) => {
           setDevices(handleDevices);
+
+          var filteredDevices = handleDevices
+            .filter(({ kind }) => kind === "videoinput")
+            .filter(
+              ({ label }) =>
+                label.includes("USB2.0 Camera") ||
+                label.includes("HD USB Camera")
+            );
+
+          console.log("filtered: " + JSON.stringify(filteredDevices));
+          switchDeviceId(filteredDevices[0]);
         });
       })
       .catch((error) => {
         console.log("Error :", error);
       });
   }, [handleDevices]);
-
+*/
   function switchDeviceId(device) {
+    console.log(device);
+    console.log(device.deviceId);
     setDeviceId(device.deviceId);
 
-    setVideoConstraints((prevState) => ({
-      ...prevState,
-      deviceId: device.deviceId,
-    }));
+    var newConstraints = {};
     if (device.label.includes("USB2.0 Camera")) {
-      setVideoConstraints(AppHelper.aspireVideoConstraints);
+      //setVideoConstraints(AppHelper.aspireVideoConstraints);
+      newConstraints = AppHelper.aspireVideoConstraints;
     }
     if (device.label.includes("HD USB Camera")) {
-      setVideoConstraints(AppHelper.advanceVideoConstraints);
+      //setVideoConstraints(AppHelper.advanceVideoConstraints);
+      newConstraints = AppHelper.advanceVideoConstraints;
     }
+    newConstraints.deviceId = device.deviceId;
+
+    setVideoConstraints(newConstraints);
+    setCameraLoaded(true);
   }
 
-  return (
+  return !cameraLoaded ? (
+    <></>
+  ) : (
     <Fragment>
       <div className={classes.webcamview}>
         <Webcam
@@ -149,6 +202,8 @@ function WebcamTraining(props) {
           ref={webcamRef}
           forceScreenshotSourceSize={false}
           videoConstraints={videoConstraints}
+          width="100%"
+          height="100%"
         />
       </div>
       <WebcamControlPanel
