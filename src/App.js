@@ -810,79 +810,55 @@ function App() {
     );
   } else if (loaded === false) {
     return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
-  } else if (playingScenario === false) {
-    return (
-      <Fragment>
-        <TrainingSelection
-          selectedScenarioList={selectedScenarioList}
-          setSelectedItem={setSelectedItem}
-          selectedLanguage={selectedLanguage}
-          LogUserEvent={LogUserEvent}
-          userTrainingHistory={userTrainingHistory}
-          selectedItemContent={selectedItem}
-          setPlayingScenario={setPlayingScenario}
-          localizationData={localizationData}
-          selectedNextItem={selectedNextItem}
-          selectedPrevItem={selectedPrevItem}
-          setUserTrainingHistory={setUserTrainingHistory}
-          featureTestingMode={featureTestingMode}
-          RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          StartScenarioFreeTraining={StartScenarioFreeTraining}
-          selectedItem={selectedItem}
-          items={courses}
-        ></TrainingSelection>
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
-          setSelectedLanguage={setSelectedLanguage}
-          localizationData={localizationData}
-          getLocalization={getLocalization}
-          developerMode={AppHelper.developerMode}
-          featureTestingMode={featureTestingMode}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
-          playingScenario={playingScenario}
-          setPlayingScenario={setPlayingScenario}
-          setSelectedItem={setSelectedItem}
-          ReturnToBasic={ReturnToBasic}
-          StartScenarioFreeTraining={StartScenarioFreeTraining}
-          ChangeLanguage={ChangeLanguage}
-        />
-      </Fragment>
-    );
   } else {
     return (
       <Fragment>
-        <WebcamTraining
-          name={selectedItem.name.en}
-          setPlayingScenario={setPlayingScenario}
-          localizationData={localizationData}
-          selectedLanguage={selectedLanguage}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          setSelectedLanguage={setSelectedLanguage}
-          getLocalization={getLocalization}
-          developerMode={AppHelper.developerMode}
-          featureTestingMode={featureTestingMode}
-          playingScenario={playingScenario}
-          ReturnToBasic={ReturnToBasic}
-          ChangeLanguage={ChangeLanguage}
-        />
+        {playingScenario ? (
+          <WebcamTraining
+            name={selectedItem.name.en}
+            setPlayingScenario={setPlayingScenario}
+            localizationData={localizationData}
+            selectedLanguage={selectedLanguage}
+            LogUserEvent={LogUserEvent}
+            selectedItem={selectedItem}
+            items={courses}
+            setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+            selectedCourseID={selectedCourseID}
+            userEmail={getUserEmail()}
+            userIsActive={userIsActive}
+            userPanelActive={userPanelActive}
+            setUserPanelActive={setUserPanelActive}
+            setSelectedLanguage={setSelectedLanguage}
+            getLocalization={getLocalization}
+            developerMode={AppHelper.developerMode}
+            featureTestingMode={featureTestingMode}
+            playingScenario={playingScenario}
+            ReturnToBasic={ReturnToBasic}
+            ChangeLanguage={ChangeLanguage}
+          />
+        ) : (
+          <TrainingSelection
+            selectedScenarioList={selectedScenarioList}
+            setSelectedItem={setSelectedItem}
+            selectedLanguage={selectedLanguage}
+            LogUserEvent={LogUserEvent}
+            userTrainingHistory={userTrainingHistory}
+            selectedItemContent={selectedItem}
+            setPlayingScenario={setPlayingScenario}
+            localizationData={localizationData}
+            selectedNextItem={selectedNextItem}
+            selectedPrevItem={selectedPrevItem}
+            setUserTrainingHistory={setUserTrainingHistory}
+            featureTestingMode={featureTestingMode}
+            RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
+            setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+            selectedCourseID={selectedCourseID}
+            StartScenarioFreeTraining={StartScenarioFreeTraining}
+            selectedItem={selectedItem}
+            items={courses}
+          ></TrainingSelection>
+        )}
+
         <Layout
           items={courses}
           setCourseIdAndScenarioList={setCourseIdAndScenarioList}
