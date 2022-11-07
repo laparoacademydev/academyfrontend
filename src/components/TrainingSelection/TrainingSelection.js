@@ -1,10 +1,9 @@
 import classes from "./TrainingSelection.module.css";
-
 import Courses from "./Courses/Courses";
 import { Fragment } from "react";
 import { AppHelper } from "../../App";
-import ScenarioList from "../ScenarioList/ScenarioList";
-import DisplayedItemContent from "../DisplayedItemContent/DisplayedItemContent";
+import ScenarioList from "./ScenarioList/ScenarioList";
+import DisplayedItemContent from "./DisplayedItemContent/DisplayedItemContent";
 
 function TrainingSelection(props) {
   return (

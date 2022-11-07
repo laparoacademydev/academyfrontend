@@ -1,10 +1,10 @@
 import classes from "./ScenarioList.module.css";
 import React from "react";
-import { AppHelper } from "./../../App.js";
+import { AppHelper } from "./../../../App.js";
 import { useState } from "react";
-import passedico from "../../graphicassets/icons/passed_ico.svg";
-import todoico from "../../graphicassets/icons/todo_ico.svg";
-import eduico from "../../graphicassets/icons/eduico_white.svg";
+import passedico from "../../../graphicassets/icons/passed_ico.svg";
+import todoico from "../../../graphicassets/icons/todo_ico.svg";
+import eduico from "../../../graphicassets/icons/eduico_white.svg";
 
 function EducationItem(props) {
   const [scenarioInHistory, setScenarioInHistory] = useState(null);

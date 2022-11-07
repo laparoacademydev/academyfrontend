@@ -1,6 +1,6 @@
-import exiticon from "../../graphicassets/icons/backarrow_blue.svg";
-import leftarrico from "../../graphicassets/icons/leftarrico.svg";
-import rightarrico from "../../graphicassets/icons/rightarrico.svg";
+import exiticon from "../../../graphicassets/icons/backarrow_blue.svg";
+import leftarrico from "../../../graphicassets/icons/leftarrico.svg";
+import rightarrico from "../../../graphicassets/icons/rightarrico.svg";
 import classes from "./ReturnNextPrev.module.css";
 import { Fragment } from "react";
 

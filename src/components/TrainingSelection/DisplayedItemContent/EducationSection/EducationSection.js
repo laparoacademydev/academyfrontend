@@ -1,6 +1,6 @@
 import educlasses from "./EducationSection.module.css";
 import classes from "../DisplayedItemContent.module.css";
-import { AppHelper } from "../../../App.js";
+import { AppHelper } from "../../../../App.js";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import CompletedCheckbox from "../CompletedCheckbox";
 

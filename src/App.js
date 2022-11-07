@@ -2,8 +2,6 @@ import React from "react";
 import { useState, Fragment } from "react";
 import axios from "axios";
 
-import ScenarioList from "./components/ScenarioList/ScenarioList";
-import DisplayedItemContent from "./components/DisplayedItemContent/DisplayedItemContent";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";

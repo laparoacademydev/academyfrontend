@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./DisplayedItemContent.module.css";
-import checkboxno from "../../graphicassets/icons/chckboxno_gray.svg";
-import checkboxyes from "../../graphicassets/icons/chckboxyes_green.svg";
+import checkboxno from "../../../graphicassets/icons/chckboxno_gray.svg";
+import checkboxyes from "../../../graphicassets/icons/chckboxyes_green.svg";
 import { useState } from "react";
 
 function CompletedCheckbox(props) {

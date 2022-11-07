@@ -2,7 +2,7 @@ import classes from "../DisplayedItemContent.module.css";
 import scenarioclasses from "./ScenarioDescription.module.css";
 import ScenarioButton from "./ScenarioButton";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
-import { AppHelper } from "../../../App.js";
+import { AppHelper } from "../../../../App.js";
 import ScenarioPreparationBox from "./ScenarioPreparationBox";
 import CompletedCheckbox from "../CompletedCheckbox";
 
