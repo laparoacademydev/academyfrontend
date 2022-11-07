@@ -1,5 +1,6 @@
 import classes from "./TrainingSelection.module.css";
-import Courses from "../Courses/Courses";
+
+import Courses from "./Courses/Courses";
 import { Fragment } from "react";
 import { AppHelper } from "../../App";
 import ScenarioList from "../ScenarioList/ScenarioList";
