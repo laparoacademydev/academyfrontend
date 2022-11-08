@@ -182,6 +182,8 @@ function WebcamTraining(props) {
         fullScreen={fullScreen}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
+        LogUserEvent={props.LogUserEvent}
+        selectedItem={props.selectedItem}
       />
       <CameraSelect
         devices={devices}

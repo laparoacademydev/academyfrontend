@@ -688,7 +688,7 @@ function App() {
     // logs a user event to the eventlogcontainer of the eventlog DB in azure - pairs this with user email. This function is found anywhere where we log events.
 
     // types of events: login, logout, activateduser, languageselected
-    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload,
+    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, endtraining
     // special event with component (this gets added, but also removed if user unclicks): scenariocompleted, languageselected
 
     var thisUserEmail = getUserEmail();
