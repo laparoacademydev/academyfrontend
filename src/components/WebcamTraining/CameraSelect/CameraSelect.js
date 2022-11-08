@@ -20,12 +20,24 @@ function CameraSelect(props) {
     }
   }, [props.deviceId]);
 
+  function convertDeviceLabel(label) {
+    if (label.includes("HD USB Camera")) {
+      let a = "Advance Camera";
+      return a;
+    } else if (label.includes("USB2.0 Camera")) {
+      let b = "Aspire Camera";
+      return b;
+    } else {
+      return label;
+    }
+  }
+
   return (
     <div className={classes.cameraselector}>
       <div className={classes.cameraselectoritemheader}>Select Camera</div>
       <div className={`${classes.cameraselectordropdown}`}>
         <div className={classes.cameraselectordropdowntxt}>
-          {currentDevice.label}
+          {convertDeviceLabel(currentDevice.label)}
         </div>
         {props.devices.map((device) => {
           if (device.kind === "videoinput") {
@@ -36,7 +48,7 @@ function CameraSelect(props) {
                     props.switchDeviceId(device);
                   }}
                 >
-                  {device.label}
+                  {convertDeviceLabel(device.label)}
                 </a>
               </div>
             );

@@ -16,7 +16,7 @@ import { isMobile } from "react-device-detect";
 import TrainingSelection from "./components/TrainingSelection/TrainingSelection";
 
 export class AppHelper {
-  static developerMode = true;
+  static developerMode = false;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
