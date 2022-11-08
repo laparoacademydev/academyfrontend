@@ -42,7 +42,7 @@ function CameraSelect(props) {
         {props.devices.map((device) => {
           if (device.kind === "videoinput") {
             return (
-              <div className={classes.webcamselectdropdown}>
+              <div className={classes.webcamselectdropdown} key={device.label}>
                 <a
                   onClick={() => {
                     props.switchDeviceId(device);

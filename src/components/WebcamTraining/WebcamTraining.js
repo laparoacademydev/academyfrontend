@@ -108,24 +108,6 @@ function WebcamTraining(props) {
     }
   }, [recordedChunks]);
 
-  /*const handleDevices = React.useCallback(
-    (mediaDevices) => {
-      var filteredDevices = mediaDevices
-        .filter(({ kind }) => kind === "videoinput")
-        .filter(
-          ({ label }) =>
-            label.includes("USB2.0 Camera") || label.includes("HD USB Camera")
-        );
-      // if (filteredDevices.length == 0) {
-      //   filteredDevices = mediaDevices;
-      // }
-      //setDevices(filteredDevices);
-      console.log(`filtered :", ${filteredDevices}`);
-      switchDeviceId(filteredDevices[0]);
-    },
-    [setDevices]
-  );*/
-
   const handleDevices = React.useCallback(
     (mediaDevices) => {
       var newDevices = mediaDevices.filter(({ kind }) => kind === "videoinput");
@@ -147,34 +129,8 @@ function WebcamTraining(props) {
   React.useEffect(() => {
     navigator.mediaDevices.enumerateDevices().then(handleDevices);
   }, [handleDevices]);
-  /*
-  React.useEffect(() => {
-    navigator.mediaDevices
-      .getUserMedia({ audio: false, video: true })
-      .then((s) => {
-        navigator.mediaDevices.enumerateDevices().then((handleDevices) => {
-          setDevices(handleDevices);
 
-          var filteredDevices = handleDevices
-            .filter(({ kind }) => kind === "videoinput")
-            .filter(
-              ({ label }) =>
-                label.includes("USB2.0 Camera") ||
-                label.includes("HD USB Camera")
-            );
-
-          console.log("filtered: " + JSON.stringify(filteredDevices));
-          switchDeviceId(filteredDevices[0]);
-        });
-      })
-      .catch((error) => {
-        console.log("Error :", error);
-      });
-  }, [handleDevices]);
-*/
   function switchDeviceId(device) {
-    console.log(device);
-    console.log(device.deviceId);
     setDeviceId(device.deviceId);
 
     var newConstraints = {};

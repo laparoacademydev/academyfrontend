@@ -175,7 +175,6 @@ function App() {
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
 
   const [localizationData, setLocalizationData] = useState(null);
-
   const [courses, setCourses] = useState(null);
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
@@ -233,14 +232,6 @@ function App() {
     userActivityHistory,
   ]);
 
-  // const checkDevMode = new Promise((resolve, reject) => {
-  //   if (AppHelper.developerMode === true) {
-  //     resolve(true);
-  //   } else {
-  //     resolve(false);
-  //   }
-  // });
-
   function confirmUser() {
     if (tokenConfirmed === false) {
       checkToken();
@@ -257,33 +248,6 @@ function App() {
     if (tokenConfirmed === true && userIsActive === 1) {
       setUserConfirmed(true);
     }
-
-    // checkDevMode
-    //   .then((value) => {
-    //     if (value === true) {
-    //       setDevMode();
-    //     }
-    //   })
-    //   .then(() => {
-    //     if (tokenConfirmed === false && AppHelper.developerMode === false) {
-    //       checkToken();
-    //     }
-    //   })
-    //   .then(() => {
-    //     if (userIsActive === 0 && AppHelper.developerMode === false) {
-    //       checkUserActive();
-    //     }
-    //   })
-    //   .then(() => {
-    //     if (featureTestingMode === null && AppHelper.developerMode === false) {
-    //       checkTesterUser();
-    //     }
-    //   })
-    //   .then(() => {
-    //     if (featureTestingMode !== null && AppHelper.developerMode === false) {
-    //       setUserConfirmed(true);
-    //     }
-    //   });
   }
 
   function setDevMode() {
