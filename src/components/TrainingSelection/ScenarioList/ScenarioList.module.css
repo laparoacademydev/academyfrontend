@@ -9,13 +9,13 @@
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   right: 1px;
+  z-index: 49;
 }
 
 @media only screen and (min-width: 1350px) {
   .scenariolist {
     margin-left: calc((100% - 1350px) / 2);
     left: 271px;
-
     right: calc((100% - 1350px) / 2);
   }
 }

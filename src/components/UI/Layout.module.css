@@ -1,0 +1,74 @@
+.topbar {
+  position: fixed;
+  z-index: 51;
+  box-shadow: 0px 2px 8px rgba(173, 173, 173, 0.3);
+  right: 0px;
+  left: 0px;
+  padding: 0.5rem;
+  padding-top: 15px;
+  background-color: #fdfdfd;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  position: fixed;
+  background-color: antiquewhite;
+}
+
+.topbarselection {
+  position: absolute;
+  z-index: 50;
+  left: 20%;
+  /* right: 500px; */
+  width: calc(80% - 500px);
+  background-color: rgb(255, 255, 255);
+  max-width: 580px;
+  height: 64px;
+  top: 0px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .topbarselection {
+    left: 200px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .topbarselection {
+    left: calc((((100% - 1350px) / 2)) + 270px);
+  }
+}
+
+.topbarlogo {
+  position: absolute;
+  z-index: 10;
+  width: 20%;
+  min-width: 200px;
+  max-width: 270px;
+  height: 64px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.topbarlogoimage {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1350px) {
+  .topbarlogo {
+    left: 0px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .topbarlogo {
+    left: calc((100% - 1350px) / 2);
+    /* left: 200px; */
+  }
+}

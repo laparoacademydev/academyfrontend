@@ -1,6 +1,6 @@
 .cameraselector {
   position: fixed;
-  z-index: 52;
+  z-index: 51;
   width: 300px;
   height: 64px;
   display: flex;

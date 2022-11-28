@@ -2,6 +2,9 @@ import React from "react";
 import { useState, Fragment } from "react";
 import axios from "axios";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./components/About";
+
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
 import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
@@ -763,18 +766,7 @@ function App() {
     LogUserEvent("languageselected", selectedlanguage);
   }
 
-  if (isMobile === true) {
-    return <MobileView />;
-  } else if (accessCodeCheck === true) {
-    return (
-      <AccessCodeScreen
-        sendAccessCode={sendAccessCode}
-        accessCodeError={accessCodeError}
-      />
-    );
-  } else if (loaded === false) {
-    return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
-  } else {
+  function ShowMainTrainingSelection() {
     return (
       <Fragment>
         {playingScenario ? (
@@ -822,30 +814,60 @@ function App() {
             items={courses}
           ></TrainingSelection>
         )}
+      </Fragment>
+    );
+  }
 
-        <Layout
-          items={courses}
-          setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-          selectedCourseID={selectedCourseID}
-          userEmail={getUserEmail()}
-          userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
-          selectedLanguage={selectedLanguage}
-          setSelectedLanguage={setSelectedLanguage}
-          localizationData={localizationData}
-          getLocalization={getLocalization}
-          developerMode={AppHelper.developerMode}
-          featureTestingMode={featureTestingMode}
-          LogUserEvent={LogUserEvent}
-          selectedItem={selectedItem}
-          playingScenario={playingScenario}
-          setPlayingScenario={setPlayingScenario}
-          setSelectedItem={setSelectedItem}
-          ReturnToBasic={ReturnToBasic}
-          StartScenarioFreeTraining={StartScenarioFreeTraining}
-          ChangeLanguage={ChangeLanguage}
-        />
+  if (isMobile === true) {
+    return <MobileView />;
+  } else if (accessCodeCheck === true) {
+    return (
+      <AccessCodeScreen
+        sendAccessCode={sendAccessCode}
+        accessCodeError={accessCodeError}
+      />
+    );
+  } else if (loaded === false) {
+    return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
+  } else {
+    return (
+      <Fragment>
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Layout
+                  items={courses}
+                  setCourseIdAndScenarioList={setCourseIdAndScenarioList}
+                  selectedCourseID={selectedCourseID}
+                  userEmail={getUserEmail()}
+                  userIsActive={userIsActive}
+                  userPanelActive={userPanelActive}
+                  setUserPanelActive={setUserPanelActive}
+                  selectedLanguage={selectedLanguage}
+                  setSelectedLanguage={setSelectedLanguage}
+                  localizationData={localizationData}
+                  getLocalization={getLocalization}
+                  developerMode={AppHelper.developerMode}
+                  featureTestingMode={featureTestingMode}
+                  LogUserEvent={LogUserEvent}
+                  selectedItem={selectedItem}
+                  playingScenario={playingScenario}
+                  setPlayingScenario={setPlayingScenario}
+                  setSelectedItem={setSelectedItem}
+                  ReturnToBasic={ReturnToBasic}
+                  StartScenarioFreeTraining={StartScenarioFreeTraining}
+                  ChangeLanguage={ChangeLanguage}
+                />
+              }
+            >
+              <Route index element={<ShowMainTrainingSelection />} />
+              <Route path="about" element={<About />} />
+              {/* <Route path="*" element={<NoPage />} /> */}
+            </Route>
+          </Routes>
+        </BrowserRouter>
       </Fragment>
     );
   }
