@@ -6,7 +6,6 @@ import UserPanel from "./UserPanel/UserPanel";
 
 //
 import { Outlet, Link } from "react-router-dom";
-// import classes from "./NavBar.module.css";
 
 import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
@@ -37,17 +36,50 @@ function Layout(props) {
     );
   }
 
+  function changeSelectionOption(a) {
+    props.setTopBarSelectionOption(a);
+  }
+
+  function CheckIfSelected(b) {
+    if (props.topBarSelectionOption === b) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   function ShowTopBarSelection() {
     return (
       <Fragment>
-        {/* <div className={classes.topbarselection}>
-          <div>
-            <Link to="/">Train</Link>
-          </div>
-          <div>
-            <Link to="/about">About</Link>
-          </div>
-        </div> */}
+        <div className={classes.topbarselection}>
+          <Link
+            onClick={() => changeSelectionOption(0)}
+            className={classes.topbarselectionoption}
+            to="/"
+          >
+            <div className={classes.topbarselectionlink}>Train</div>
+            <div
+              className={
+                CheckIfSelected(0) ? classes.greenline : classes.nogreenline
+              }
+            ></div>
+          </Link>
+
+          <Link
+            onClick={() => changeSelectionOption(1)}
+            className={classes.topbarselectionoption}
+            to="/about"
+          >
+            <div className={classes.topbarselectionlink} to="/about">
+              About
+            </div>
+            <div
+              className={
+                CheckIfSelected(1) ? classes.greenline : classes.nogreenline
+              }
+            ></div>
+          </Link>
+        </div>
       </Fragment>
     );
   }
@@ -57,7 +89,7 @@ function Layout(props) {
       <ShowScreenHeightWidthTester />
       <div className={classes.topbar}>
         <ShowLogo />
-        <ShowTopBarSelection />
+        {/* <ShowTopBarSelection /> */}
       </div>
 
       <UserPanel

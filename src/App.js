@@ -3,7 +3,7 @@ import { useState, Fragment } from "react";
 import axios from "axios";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./components/About";
+import AboutPage from "./components/AboutPage/AboutPage";
 
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import Layout from "./components/UI/Layout";
@@ -194,6 +194,8 @@ function App() {
 
   const [selectedTraining, setSelectedTraining] = useState(null);
   const [trainingList, setTrainingList] = useState(null);
+
+  const [topBarSelectionOption, setTopBarSelectionOption] = useState(0);
 
   // confirm user
   const [userConfirmed, setUserConfirmed] = useState(false);
@@ -859,11 +861,13 @@ function App() {
                   ReturnToBasic={ReturnToBasic}
                   StartScenarioFreeTraining={StartScenarioFreeTraining}
                   ChangeLanguage={ChangeLanguage}
+                  topBarSelectionOption={topBarSelectionOption}
+                  setTopBarSelectionOption={setTopBarSelectionOption}
                 />
               }
             >
               <Route index element={<ShowMainTrainingSelection />} />
-              <Route path="about" element={<About />} />
+              <Route path="about" element={<AboutPage />} />
               {/* <Route path="*" element={<NoPage />} /> */}
             </Route>
           </Routes>
