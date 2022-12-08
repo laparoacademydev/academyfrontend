@@ -1,14 +1,14 @@
-import classes from "./Courses.module.css";
-import CourseItem from "./CourseItem";
+import classes from "./LeftSidePanel.module.css";
+import LeftSidePanelItem from "./LeftSidePanelItem";
 import FreeTrainingItem from "./FreeTrainingItem";
 
-function Courses(props) {
+function LeftSidePanel(props) {
   return (
     <div className={classes.courses}>
       <div>
         {props.items.courses.map((course) => {
           return (
-            <CourseItem
+            <LeftSidePanelItem
               key={course.id}
               course={course}
               setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
@@ -27,4 +27,4 @@ function Courses(props) {
   );
 }
 
-export default Courses;
+export default LeftSidePanel;

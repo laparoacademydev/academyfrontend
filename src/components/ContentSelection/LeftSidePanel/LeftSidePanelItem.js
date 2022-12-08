@@ -1,6 +1,6 @@
-import classes from "./Courses.module.css";
+import classes from "./LeftSidePanel.module.css";
 
-function CourseItem(props) {
+function LeftSidePanelItem(props) {
   function CheckIfSelected() {
     if (props.course.id === props.selectedCourseID) {
       return true;
@@ -33,4 +33,4 @@ function CourseItem(props) {
   );
 }
 
-export default CourseItem;
+export default LeftSidePanelItem;

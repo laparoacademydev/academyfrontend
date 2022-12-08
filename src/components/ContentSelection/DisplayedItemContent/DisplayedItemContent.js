@@ -1,5 +1,5 @@
 import classes from "./DisplayedItemContent.module.css";
-import EducationSection from "./EducationSection/EducationSection.js";
+import ContentSection from "./ContentSection/ContentSection.js";
 import ScenarioDescription from "./ScenarioDescription/ScenarioDescription.js";
 import { Fragment } from "react";
 
@@ -15,7 +15,7 @@ function DisplayedItemContent(props) {
   ) {
     return (
       <Fragment>
-        <EducationSection
+        <ContentSection
           selectedItemContent={props.selectedItemContent}
           selectedLanguage={props.selectedLanguage}
           setSelectedItem={props.setSelectedItem}

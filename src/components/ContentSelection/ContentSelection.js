@@ -1,8 +1,7 @@
-import classes from "./TrainingSelection.module.css";
-import Courses from "./Courses/Courses";
+import LeftSidePanel from "./LeftSidePanel/LeftSidePanel";
 import { Fragment } from "react";
 import { AppHelper } from "../../App";
-import ScenarioList from "./ScenarioList/ScenarioList";
+import MainList from "./MainList/MainList";
 import DisplayedItemContent from "./DisplayedItemContent/DisplayedItemContent";
 
 function TrainingSelection(props) {
@@ -10,13 +9,13 @@ function TrainingSelection(props) {
     <Fragment>
       {props.selectedItem === null ||
       props.selectedItem === AppHelper.DefaultFreeTraining ? (
-        <ScenarioList
+        <MainList
           selectedScenarioList={props.selectedScenarioList}
           setSelectedItem={props.setSelectedItem}
           selectedLanguage={props.selectedLanguage}
           LogUserEvent={props.LogUserEvent}
           userTrainingHistory={props.userTrainingHistory}
-        ></ScenarioList>
+        ></MainList>
       ) : (
         <DisplayedItemContent
           selectedItemContent={props.selectedItem}
@@ -33,14 +32,14 @@ function TrainingSelection(props) {
           RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
         ></DisplayedItemContent>
       )}
-      <Courses
+      <LeftSidePanel
         items={props.items}
         setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
         selectedCourseID={props.selectedCourseID}
         selectedLanguage={props.selectedLanguage}
         localizationData={props.localizationData}
         StartScenarioFreeTraining={props.StartScenarioFreeTraining}
-      ></Courses>
+      ></LeftSidePanel>
     </Fragment>
   );
 }

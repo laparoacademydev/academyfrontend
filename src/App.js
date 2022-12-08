@@ -16,7 +16,7 @@ import decodeJWT from "jwt-decode";
 
 import { isMobile } from "react-device-detect";
 
-import TrainingSelection from "./components/TrainingSelection/TrainingSelection";
+import ContentSelection from "./components/ContentSelection/ContentSelection";
 
 export class AppHelper {
   static developerMode = false;
@@ -768,6 +768,7 @@ function App() {
     LogUserEvent("languageselected", selectedlanguage);
   }
 
+  // components:
   function ShowMainTrainingSelection() {
     return (
       <Fragment>
@@ -795,7 +796,8 @@ function App() {
             ChangeLanguage={ChangeLanguage}
           />
         ) : (
-          <TrainingSelection
+          <ContentSelection
+            featureTestingMode={featureTestingMode}
             selectedScenarioList={selectedScenarioList}
             setSelectedItem={setSelectedItem}
             selectedLanguage={selectedLanguage}
@@ -807,14 +809,13 @@ function App() {
             selectedNextItem={selectedNextItem}
             selectedPrevItem={selectedPrevItem}
             setUserTrainingHistory={setUserTrainingHistory}
-            featureTestingMode={featureTestingMode}
             RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
             setCourseIdAndScenarioList={setCourseIdAndScenarioList}
             selectedCourseID={selectedCourseID}
             StartScenarioFreeTraining={StartScenarioFreeTraining}
             selectedItem={selectedItem}
             items={courses}
-          ></TrainingSelection>
+          ></ContentSelection>
         )}
       </Fragment>
     );

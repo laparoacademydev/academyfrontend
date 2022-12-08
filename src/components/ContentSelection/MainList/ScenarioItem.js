@@ -1,12 +1,11 @@
-import classes from "./ScenarioList.module.css";
+import classes from "./MainList.module.css";
 import React from "react";
-import { AppHelper } from "./../../../App.js";
+import { AppHelper } from "../../../App.js";
 import { useState } from "react";
 import passedico from "../../../graphicassets/icons/passed_ico.svg";
 import todoico from "../../../graphicassets/icons/todo_ico.svg";
-import eduico from "../../../graphicassets/icons/eduico_white.svg";
 
-function EducationItem(props) {
+function ScenarioItem(props) {
   const [scenarioInHistory, setScenarioInHistory] = useState(null);
 
   if (scenarioInHistory === null) {
@@ -20,24 +19,23 @@ function EducationItem(props) {
       className={classes.scenariolistitem}
       onClick={() => {
         props.setSelectedItem(props.selectedScenario);
-        let eduselected = "eduselected";
-        props.LogUserEvent(eduselected, props.selectedScenario.id);
+        let scenarioselected = "scenarioselected";
+        props.LogUserEvent(scenarioselected, props.selectedScenario.id);
       }}
     >
       <div className={classes.listthumb}>
-        <img src={eduico} className={classes.eduico} alt={"."}></img>
         <img
-          src={`${AppHelper.storageUrl}laparoacademy-mediacontent/edu_placeholder.png`}
+          src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}
           alt={"thumb error"}
           className={classes.listthumbimg}
         ></img>
       </div>
 
-      <div className={classes.sleducationtitle}>
-        {props.selectedScenario.title.text[props.selectedLanguage]}
+      <div className={classes.slscenariotitle}>
+        {props.selectedScenario.name[props.selectedLanguage]}
       </div>
-      <div className={classes.sleducationitemskills}>
-        {props.selectedScenario.subTitle.text[props.selectedLanguage]}
+      <div className={classes.slscenarioskill}>
+        {props.selectedScenario.skills[props.selectedLanguage]}
       </div>
       <img
         src={scenarioInHistory ? passedico : todoico}
@@ -48,4 +46,4 @@ function EducationItem(props) {
   );
 }
 
-export default EducationItem;
+export default ScenarioItem;

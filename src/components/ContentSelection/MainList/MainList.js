@@ -1,10 +1,10 @@
-import classes from "./ScenarioList.module.css";
+import classes from "./MainList.module.css";
 import ScenarioItem from "./ScenarioItem";
 import React from "react";
-import EducationItem from "./EducationItem";
+import ContentItem from "./ContentItem";
 import { Fragment } from "react";
 
-function ScenarioList(props) {
+function MainList(props) {
   if (
     props.selectedScenarioList === null ||
     props.selectedScenarioList === "undefined"
@@ -28,7 +28,7 @@ function ScenarioList(props) {
               );
             } else {
               return (
-                <EducationItem
+                <ContentItem
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
                   setSelectedItem={props.setSelectedItem}
@@ -46,4 +46,4 @@ function ScenarioList(props) {
     );
   }
 }
-export default ScenarioList;
+export default MainList;

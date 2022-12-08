@@ -1,10 +1,10 @@
-import classes from "./EducationSection.module.css";
+import classes from "./ContentSection.module.css";
 
 import { AppHelper } from "../../../../App.js";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import CompletedCheckbox from "../CompletedCheckbox";
 
-function EducationSection(props) {
+function ContentSection(props) {
   let key = 0;
 
   return (
@@ -70,4 +70,4 @@ function EducationSection(props) {
   );
 }
 
-export default EducationSection;
+export default ContentSection;

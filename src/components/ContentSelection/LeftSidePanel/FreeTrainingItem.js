@@ -1,4 +1,4 @@
-import classes from "./Courses.module.css";
+import classes from "./LeftSidePanel.module.css";
 import lapico from "../../../graphicassets/icons/freestart_ico.svg";
 
 function FreeTrainingItem(props) {
