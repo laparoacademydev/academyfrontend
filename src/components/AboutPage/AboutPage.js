@@ -1,6 +1,8 @@
-const About = () => {
+import classes from "./AboutPage.module.css";
+
+function AboutPage() {
   return (
-    <div>
+    <div className={classes.itemcontentcomponent}>
       Hic qui consequatur quae ea illo. Eum ex et ut exercitationem voluptates
       vero sed voluptatem. Ducimus debitis ex rem earum. Sunt consequatur velit
       nobis exercitationem. Laborum praesentium vero deserunt id qui accusantium
@@ -17,6 +19,6 @@ const About = () => {
       provident nemo et exercitationem ut sed. Alias a natus nihil dicta sed.
     </div>
   );
-};
+}
 
-export default About;
+export default AboutPage;

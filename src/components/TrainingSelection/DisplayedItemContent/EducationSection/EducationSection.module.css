@@ -1,3 +1,27 @@
+.itemcontentcomponent {
+  position: fixed;
+  left: 20%;
+  top: 65px;
+  background-color: #ffffff;
+  width: calc(1350px - 270px);
+  /* width: 900px; */
+  height: 100%;
+  overflow: auto;
+  margin-left: 1px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .itemcontentcomponent {
+    left: calc(((100% - 1350px) / 2) + 270px);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .itemcontentcomponent {
+    left: 200px;
+  }
+}
+
 /* EDUCATION SECTION */
 
 .edutopfade {

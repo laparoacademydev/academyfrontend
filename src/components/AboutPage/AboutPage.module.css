@@ -1,0 +1,26 @@
+.itemcontentcomponent {
+  position: fixed;
+  left: 0px;
+  top: 65px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1350px;
+  /* width: calc(1350px); */
+  /* width: 900px; */
+  height: 100%;
+  overflow: auto;
+  margin-left: 1px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .itemcontentcomponent {
+    left: calc(((100% - 1350px) / 2));
+    /* width: 100%; */
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .itemcontentcomponent {
+    /* left: 0px; */
+  }
+}

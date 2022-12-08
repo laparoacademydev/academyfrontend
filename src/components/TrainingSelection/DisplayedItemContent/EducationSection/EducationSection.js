@@ -1,5 +1,5 @@
-import educlasses from "./EducationSection.module.css";
-import classes from "../DisplayedItemContent.module.css";
+import classes from "./EducationSection.module.css";
+
 import { AppHelper } from "../../../../App.js";
 import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import CompletedCheckbox from "../CompletedCheckbox";
@@ -16,20 +16,20 @@ function EducationSection(props) {
         selectedPrevItem={props.selectedPrevItem}
         LogUserEvent={props.LogUserEvent}
       />
-      <div className={educlasses.edutitle}>
+      <div className={classes.edutitle}>
         {props.selectedItemContent.title.text[props.selectedLanguage]}
       </div>
       <div>
         {props.selectedItemContent.content.map((object) => {
           if (object.type === "paragraph") {
             return (
-              <div key={key++} className={educlasses.eduparagraph}>
+              <div key={key++} className={classes.eduparagraph}>
                 {object.text[props.selectedLanguage]}
               </div>
             );
           } else if (object.type === "header") {
             return (
-              <div key={key++} className={educlasses.eduheader}>
+              <div key={key++} className={classes.eduheader}>
                 {object.text[props.selectedLanguage]}
               </div>
             );
@@ -39,9 +39,9 @@ function EducationSection(props) {
                 <img
                   src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${object.media.url}`}
                   alt={"error"}
-                  className={educlasses.scenarioprepimg}
+                  className={classes.scenarioprepimg}
                 ></img>
-                <div className={educlasses.mediadescription}>
+                <div className={classes.mediadescription}>
                   {object.media.label[props.selectedLanguage]}
                 </div>
               </div>
@@ -52,8 +52,8 @@ function EducationSection(props) {
         })}
       </div>
 
-      <div className={educlasses.completedbox}>
-        <div className={educlasses.checkbox}>
+      <div className={classes.completedbox}>
+        <div className={classes.checkbox}>
           <CompletedCheckbox
             setUserTrainingHistory={props.setUserTrainingHistory}
             userTrainingHistory={props.userTrainingHistory}
@@ -62,10 +62,10 @@ function EducationSection(props) {
             RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
           />
         </div>
-        <div className={educlasses.completedboxtext}>complete</div>
+        <div className={classes.completedboxtext}>complete</div>
       </div>
 
-      <div className={educlasses.edufinaldiv}></div>
+      <div className={classes.edufinaldiv}></div>
     </div>
   );
 }
