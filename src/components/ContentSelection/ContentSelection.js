@@ -4,7 +4,7 @@ import { AppHelper } from "../../App";
 import MainList from "./MainList/MainList";
 import DisplayedItemContent from "./DisplayedItemContent/DisplayedItemContent";
 
-function TrainingSelection(props) {
+function ContentSelection(props) {
   return (
     <Fragment>
       {props.selectedItem === null ||
@@ -44,4 +44,4 @@ function TrainingSelection(props) {
   );
 }
 
-export default TrainingSelection;
+export default ContentSelection;
