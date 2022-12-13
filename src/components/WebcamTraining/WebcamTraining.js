@@ -177,7 +177,7 @@ function WebcamTraining(props) {
         trainingStartTime={trainingStartTime}
       />
       <WebcamExit
-        setPlayingScenario={props.setPlayingScenario}
+        setwebCamTrainingActive={props.setwebCamTrainingActive}
         switchFullScreen={switchFullScreen}
         fullScreen={fullScreen}
         localizationData={props.localizationData}

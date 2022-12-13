@@ -4,7 +4,7 @@ import classes from "./WebcamExit.module.css";
 
 function WebcamExit(props) {
   function WebcamExitButtonClick() {
-    props.setPlayingScenario(false);
+    props.setwebCamTrainingActive(false);
     if (props.fullScreen === true) {
       props.switchFullScreen();
     }

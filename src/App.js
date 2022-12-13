@@ -163,32 +163,35 @@ export class AppHelper {
 }
 
 function App() {
-  //TEST Mode - activated when logged in with an account that has "tester:true" in the Azure All Users DB.
-  const [featureTestingMode, setFeatureTestingMode] = useState(null);
-
-  const [loaded, setLoaded] = useState(false);
-  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
-
+  // load user:
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
   const [userIsActive, setUserIsActive] = useState(0);
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
-  const [accessCodeError, setAccessCodeError] = useState(false);
-
+  const [featureTestingMode, setFeatureTestingMode] = useState(null);
+  const [userConfirmed, setUserConfirmed] = useState(false);
   const [userActivityHistory, setUserActivityHistory] = useState(null);
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
-
+  const [userLoaded, setUserLoaded] = useState(false);
+  // loadContent
   const [localizationData, setLocalizationData] = useState(null);
   const [courses, setCourses] = useState(null);
+  const [contentLoaded, setContentLoaded] = useState(false);
+  // after content is loaded and user is loaded - loaded renders App:
+  const [loaded, setLoaded] = useState(false);
+
+  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
+  const [accessCodeError, setAccessCodeError] = useState(false);
+
   const [selectedCourseID, setSelectedCourseID] = useState(null);
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
   const [selectedItem, setSelectedItem] = useState(
     AppHelper.DefaultFreeTraining
   );
-
   const [selectedNextItem, setSelectedNextItem] = useState(null);
   const [selectedPrevItem, setSelectedPrevItem] = useState(null);
 
-  const [playingScenario, setPlayingScenario] = useState(false);
+  // const [playingScenario, setPlayingScenario] = useState(false);
+  const [webCamTrainingActive, setwebCamTrainingActive] = useState(false);
   const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
 
@@ -197,20 +200,19 @@ function App() {
 
   const [topBarSelectionOption, setTopBarSelectionOption] = useState(0);
 
-  // confirm user
-  const [userConfirmed, setUserConfirmed] = useState(false);
+  //
 
   React.useEffect(() => {
-    if (AppHelper.developerMode === true && userConfirmed === false) {
-      setDevMode();
+    if (userLoaded === false) {
+      loadUser();
     }
 
-    if (AppHelper.developerMode === false && userConfirmed === false) {
-      confirmUser();
+    if (userLoaded === true && contentLoaded === false) {
+      loadContent();
     }
 
-    if (userConfirmed === true && loaded === false) {
-      loadAcademy();
+    if (userLoaded === true && contentLoaded === true) {
+      setLoaded(true);
     }
 
     if (loaded === true) {
@@ -219,8 +221,7 @@ function App() {
       }
     }
 
-    initializeAcademyMsg();
-
+    // initializeAcademyMsg();
     if (selectedItem !== null) {
       selectedNextPrev(selectedItem.id, selectedScenarioList);
     }
@@ -235,88 +236,62 @@ function App() {
     selectedLanguage,
     featureTestingMode,
     userActivityHistory,
+    userTrainingHistory,
+    userLoaded,
+    contentLoaded,
   ]);
 
-  function confirmUser() {
-    if (tokenConfirmed === false) {
-      checkToken();
-    }
-
-    if (tokenConfirmed === true && userIsActive === 0) {
-      checkUserActive();
-    }
-
-    if (userIsActive === 1 && featureTestingMode === null) {
-      checkTesterUser();
-    }
-
-    if (tokenConfirmed === true && userIsActive === 1) {
+  // loadUser Functions:
+  function loadUser() {
+    if (AppHelper.developerMode === true && userConfirmed === false) {
+      // check if devMode
+      //setDevMode:
+      setTokenConfirmed(true);
+      setUserIsActive(1);
+      if (featureTestingMode === null) {
+        setFeatureTestingMode(true);
+      }
       setUserConfirmed(true);
     }
-  }
 
-  function setDevMode() {
-    setTokenConfirmed(true);
-    setUserIsActive(1);
-    if (featureTestingMode === null) {
-      setFeatureTestingMode(true);
-    }
-    setUserConfirmed(true);
-  }
+    if (AppHelper.developerMode === false && userConfirmed === false) {
+      //confirm User if not devmode
+      if (tokenConfirmed === false) {
+        checkToken();
+      }
 
-  // Loading Initializing Functions:
+      if (tokenConfirmed === true && userIsActive === 0) {
+        checkUserActive();
+      }
 
-  function loadAcademy() {
-    if (localizationData === null && userIsActive === 1) {
-      getLocalization();
-    }
-    if (courses === null && localizationData !== null) {
-      getCourses();
-    }
-    // if (featureTestingMode === true) {
-    if (courses !== null && userActivityHistory === null) {
-      AcquireUserHistory();
-    }
-    if (userActivityHistory !== null) {
-      extractUserTrainingHistory(userActivityHistory);
-    }
-    // }
-  }
+      if (userIsActive === 1 && featureTestingMode === null) {
+        checkTesterUser();
+      }
 
-  function initializeAcademyMsg() {
-    // initialize goes through all the conditions while adjusting loading screen message. If everything is confirmed sets loaded to true.
-    if (tokenConfirmed === true) {
-      setLoadingScreenMsg("user token confirmed...");
-      if (userIsActive === 1) {
-        setLoadingScreenMsg("user verified...");
-        if (featureTestingMode !== null) {
-          setLoadingScreenMsg("checked if user is tester...");
-          if (userConfirmed === true) {
-            setLoadingScreenMsg("user confirmed");
-            if (localizationData !== null) {
-              setLoadingScreenMsg("localization data downloaded...");
-              if (courses !== null) {
-                setLoadingScreenMsg("courses loaded...");
-                if (userActivityHistory !== null) {
-                  setLoadingScreenMsg("user activity history loaded...");
-                  if (loaded === false) {
-                    setLoadingScreenMsg("");
-                    setLoaded(true);
-                    LogUserEvent("login");
-                    if (loaded === true) {
-                      CheckLanguage();
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
+      if (tokenConfirmed === true && userIsActive === 1) {
+        setUserConfirmed(true);
       }
     }
+
+    //if user confirmed - acquire and extract individual training history
+    if (userConfirmed === true && userActivityHistory === null) {
+      AcquireUserHistory();
+    }
+
+    if (userActivityHistory !== null && userTrainingHistory.length === 0) {
+      extractUserTrainingHistory(userActivityHistory);
+    }
+
+    // if training history acquired and user confirmed - setUserLoaded(true)
+    if (
+      userTrainingHistory.length !== 0 &&
+      userConfirmed === true &&
+      contentLoaded === false
+    ) {
+      setUserLoaded(true);
+    }
   }
 
-  // User Loading Functions:
   function checkToken() {
     // this takes the token present in the browser and bounces user back to login screen if anything is wrong
     var fullIp = window.location.href.split("#id_token=");
@@ -382,6 +357,41 @@ function App() {
     }
   };
 
+  function sendAccessCode(code) {
+    // sends accesscode and then activates user while removing access code from table DB (destroys it)
+    axios
+      .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: { accesscode: code },
+      })
+      .then((response) => {
+        if (response.data === "True") {
+          activateUser(code);
+          removeAccessCode(code);
+        } else if (response.data === "False") {
+          setAccessCodeError(true);
+          console.log("access code did not work");
+        } else {
+          setAccessCodeError(true);
+          console.log("access code request did not work at all");
+        }
+      });
+  }
+
+  function removeAccessCode(code) {
+    // removes the access code from the list in DB:
+    axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: { accesscode: code },
+    });
+  }
+
   function getUserEmail() {
     // this simply checks for the user email and returns it - if in devmode sets up a local email address
     if (AppHelper.developerMode === false) {
@@ -407,7 +417,7 @@ function App() {
         },
       })
       .then(() => {
-        setLoaded(true);
+        // setLoaded(true);
         setAccessCodeCheck(false);
         checkUserActive();
         var activateduser = "activateduser";
@@ -415,27 +425,53 @@ function App() {
       });
   }
 
-  // Content Related Functions:
-  function getCourses() {
-    // fetches all courses from json. upon success sets the course data and displays the first course:
-    if (courses === null) {
-      fetch(
-        `${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json?v=${AppHelper.ContentVersion}`,
-        {
-          headers: {
-            "Content-Type": "application/json",
+  const AcquireUserHistory = async () => {
+    // Acquire all existing User activity (done once at every login)
+    var thisUserEmail = getUserEmail();
 
-            Accept: "application/json",
-          },
-        }
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (myJson) {
-          setCourses(extractCourseData(myJson));
-          setCourseIdAndScenarioList(extractCourseData(myJson).courses[0]);
-        });
+    try {
+      let response = await axios.get(`${AppHelper.ApiUrl}UserActivityHistory`, {
+        headers: {
+          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+          "Access-Control-Allow-Headers": "*",
+        },
+        params: {
+          email: thisUserEmail,
+        },
+      });
+      setUserActivityHistory(response.data);
+    } catch (error) {
+      AppHelper.onRequestError(error);
+    }
+  };
+
+  function extractUserTrainingHistory(userActivityHistory) {
+    //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
+    let activityhistory = [];
+    for (let i = 0; i < userActivityHistory.length; i++) {
+      if (userActivityHistory[i].event === "scenariocompleted") {
+        activityhistory.push(userActivityHistory[i].component);
+      }
+    }
+    setUserTrainingHistory(activityhistory);
+  }
+
+  // loadContent Functions:
+  function loadContent() {
+    if (localizationData === null) {
+      getLocalization();
+    }
+
+    if (MostRecentLanguage() !== selectedLanguage && courses === null) {
+      // check if previous language setting was different
+      ChangeLanguage(MostRecentLanguage());
+    }
+
+    if (courses === null && localizationData !== null) {
+      getCourses();
+    }
+    if (courses !== null && localizationData !== null) {
+      setContentLoaded(true);
     }
   }
 
@@ -457,31 +493,6 @@ function App() {
       .then(function (myJson) {
         extractLocalizationData(myJson, selectedLanguage);
       });
-  }
-
-  function extractCourseData(myJson) {
-    // takes in our json course data and creates an array which containes courses, id's and names:
-    var extractedCourses = { courses };
-    extractedCourses.courses = [];
-
-    for (let i = 0; i < myJson.courses.length; i++) {
-      var courseArray = [];
-      for (let x = 0; x < myJson.courses[i].content.length; x++) {
-        if (myJson.courses[i].content[x].simulators.Academy === true) {
-          courseArray.push(myJson.courses[i].content[x]);
-        }
-      }
-      if (courseArray.length !== 0) {
-        var currentCourse = {
-          content: courseArray,
-          id: myJson.courses[i].id,
-          name: myJson.courses[i].name,
-        };
-
-        extractedCourses.courses.push(currentCourse);
-      }
-    }
-    return extractedCourses;
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {
@@ -509,12 +520,99 @@ function App() {
     setLocalizationData(extractedLocalization);
   }
 
+  function ChangeLanguage(lang) {
+    // setUserPanelActive(0);
+    setSelectedLanguage(lang.toString());
+    getLocalization();
+    let selectedlanguage = lang.toString();
+    LogUserEvent("languageselected", selectedlanguage);
+  }
+
+  function MostRecentLanguage() {
+    // array of all languageselected objects in the entire activity history:
+    let alllangevents = [];
+    for (var i = 0; i < userActivityHistory.length; i++) {
+      if (userActivityHistory[i].event === "languageselected") {
+        alllangevents.push(userActivityHistory[i]);
+      }
+    }
+    // calculation of which language selected object has the latest date:
+    var mostRecentDate = new Date(
+      Math.max.apply(
+        null,
+        alllangevents.map((e) => {
+          return new Date(e.date);
+        })
+      )
+    );
+    // recall of the entire most recent date object:
+    var mostRecentObject = alllangevents.filter((e) => {
+      var d = new Date(e.date);
+      return d.getTime() === mostRecentDate.getTime();
+    })[0];
+
+    //assign the exact language which was the latest to be applied:
+    // console.log(mostRecentObject.component);
+    // console.log(selectedLanguage);
+    return mostRecentObject.component;
+  }
+
+  function getCourses() {
+    // fetches all courses from json. upon success sets the course data and displays the first course:
+    if (courses === null) {
+      fetch(
+        `${AppHelper.storageUrl}laparoacademy-jsoncontent/courses.json?v=${AppHelper.ContentVersion}`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+
+            Accept: "application/json",
+          },
+        }
+      )
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (myJson) {
+          setCourses(extractCourseData(myJson));
+          setCourseIdAndScenarioList(extractCourseData(myJson).courses[0]);
+        });
+    }
+  }
+
+  // Content Related Functions:
+
+  function extractCourseData(myJson) {
+    // takes in our json course data and creates an array which containes courses, id's and names:
+    var extractedCourses = { courses };
+    extractedCourses.courses = [];
+
+    for (let i = 0; i < myJson.courses.length; i++) {
+      var courseArray = [];
+      for (let x = 0; x < myJson.courses[i].content.length; x++) {
+        if (myJson.courses[i].content[x].simulators.Academy === true) {
+          courseArray.push(myJson.courses[i].content[x]);
+        }
+      }
+      if (courseArray.length !== 0) {
+        var currentCourse = {
+          content: courseArray,
+          id: myJson.courses[i].id,
+          name: myJson.courses[i].name,
+        };
+
+        extractedCourses.courses.push(currentCourse);
+      }
+    }
+    return extractedCourses;
+  }
+
   function setCourseIdAndScenarioList(selectedCourse) {
     // takes in the selected course and then fetches each json file for each actual scenario or edu section. remixes response json files into array so that entire list of scenarios can be viewed.
     setSelectedTraining(null);
     setTrainingList(null);
     setSelectedItem(AppHelper.DefaultFreeTraining);
-    setPlayingScenario(false);
+    setwebCamTrainingActive(false);
     setSelectedCourseID(selectedCourse.id);
     var courseselected = "courseselected";
     LogUserEvent(courseselected, selectedCourse.id);
@@ -606,18 +704,6 @@ function App() {
     }
   }
 
-  // User Progress Tracking:
-  function extractUserTrainingHistory(userActivityHistory) {
-    //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
-    let activityhistory = [];
-    for (let i = 0; i < userActivityHistory.length; i++) {
-      if (userActivityHistory[i].event === "scenariocompleted") {
-        activityhistory.push(userActivityHistory[i].component);
-      }
-    }
-    setUserTrainingHistory(activityhistory);
-  }
-
   function RemoveLogScenarioCompleted(component) {
     //Remove the 'scenariocompleted' event from the user history:
     var thisUserEmail = getUserEmail();
@@ -629,62 +715,6 @@ function App() {
         "Access-Control-Allow-Headers": "*",
       },
       params: { email: thisUserEmail, event: event, component: component },
-    });
-  }
-
-  const AcquireUserHistory = async () => {
-    // Acquire all existing User activity (done once at every login)
-    var thisUserEmail = getUserEmail();
-
-    try {
-      let response = await axios.get(`${AppHelper.ApiUrl}UserActivityHistory`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: {
-          email: thisUserEmail,
-        },
-      });
-      setUserActivityHistory(response.data);
-    } catch (error) {
-      AppHelper.onRequestError(error);
-    }
-  };
-
-  //Access Code Related Functions:
-  function sendAccessCode(code) {
-    // sends accesscode and then activates user while removing access code from table DB (destroys it)
-    axios
-      .get(`${AppHelper.ApiUrl}CheckAccessCode`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { accesscode: code },
-      })
-      .then((response) => {
-        if (response.data === "True") {
-          activateUser(code);
-          removeAccessCode(code);
-        } else if (response.data === "False") {
-          setAccessCodeError(true);
-          console.log("access code did not work");
-        } else {
-          setAccessCodeError(true);
-          console.log("access code request did not work at all");
-        }
-      });
-  }
-
-  function removeAccessCode(code) {
-    // removes the access code from the list in DB:
-    axios.delete(`${AppHelper.ApiUrl}RemoveAccessCode`, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: { accesscode: code },
     });
   }
 
@@ -716,66 +746,27 @@ function App() {
     });
   }
 
-  function CheckLanguage() {
-    // array of all languageselected objects in the entire activity history:
-    let alllangevents = [];
-    for (var i = 0; i < userActivityHistory.length; i++) {
-      if (userActivityHistory[i].event === "languageselected") {
-        alllangevents.push(userActivityHistory[i]);
-      }
-    }
-    // calculation of which language selected object has the latest date:
-    var mostRecentDate = new Date(
-      Math.max.apply(
-        null,
-        alllangevents.map((e) => {
-          return new Date(e.date);
-        })
-      )
-    );
-    // recall of the entire most recent date object:
-    var mostRecentObject = alllangevents.filter((e) => {
-      var d = new Date(e.date);
-      return d.getTime() === mostRecentDate.getTime();
-    })[0];
-
-    //assign the exact language which was the latest to be applied:
-
-    if (mostRecentObject.component !== undefined) {
-      setSelectedLanguage(mostRecentObject.component);
-    }
-  }
-
   function ReturnToBasic() {
     // returns the user to the start - first basic skills course (on click of main logo in app)
-
     setCourseIdAndScenarioList(courses.courses[0]);
   }
 
   function StartScenarioFreeTraining() {
     setUserPanelActive(0);
-    setPlayingScenario(true);
+    setwebCamTrainingActive(true);
     var scenariostart = "scenariostart";
     LogUserEvent(scenariostart, "scenariofree");
     setSelectedItem(AppHelper.DefaultFreeTraining);
   }
 
-  function ChangeLanguage(lang) {
-    setUserPanelActive(0);
-    setSelectedLanguage(lang.toString());
-    getLocalization();
-    let selectedlanguage = lang.toString();
-    LogUserEvent("languageselected", selectedlanguage);
-  }
-
-  // components:
+  // JSX components:
   function ShowMainTrainingSelection() {
     return (
       <Fragment>
-        {playingScenario ? (
+        {webCamTrainingActive ? (
           <WebcamTraining
             name={selectedItem.name.en}
-            setPlayingScenario={setPlayingScenario}
+            setwebCamTrainingActive={setwebCamTrainingActive}
             localizationData={localizationData}
             selectedLanguage={selectedLanguage}
             LogUserEvent={LogUserEvent}
@@ -791,7 +782,7 @@ function App() {
             getLocalization={getLocalization}
             developerMode={AppHelper.developerMode}
             featureTestingMode={featureTestingMode}
-            playingScenario={playingScenario}
+            webCamTrainingActive={webCamTrainingActive}
             ReturnToBasic={ReturnToBasic}
             ChangeLanguage={ChangeLanguage}
           />
@@ -804,7 +795,7 @@ function App() {
             LogUserEvent={LogUserEvent}
             userTrainingHistory={userTrainingHistory}
             selectedItemContent={selectedItem}
-            setPlayingScenario={setPlayingScenario}
+            setwebCamTrainingActive={setwebCamTrainingActive}
             localizationData={localizationData}
             selectedNextItem={selectedNextItem}
             selectedPrevItem={selectedPrevItem}
@@ -856,8 +847,8 @@ function App() {
                   featureTestingMode={featureTestingMode}
                   LogUserEvent={LogUserEvent}
                   selectedItem={selectedItem}
-                  playingScenario={playingScenario}
-                  setPlayingScenario={setPlayingScenario}
+                  webCamTrainingActive={webCamTrainingActive}
+                  setwebCamTrainingActive={setwebCamTrainingActive}
                   setSelectedItem={setSelectedItem}
                   ReturnToBasic={ReturnToBasic}
                   StartScenarioFreeTraining={StartScenarioFreeTraining}

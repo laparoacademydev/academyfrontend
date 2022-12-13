@@ -10,7 +10,7 @@ function ScenarioDescription(props) {
   return (
     <div className={classes.itemcontentcomponent}>
       <ScenarioButton
-        setPlayingScenario={props.setPlayingScenario}
+        setwebCamTrainingActive={props.setwebCamTrainingActive}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
         LogUserEvent={props.LogUserEvent}
@@ -72,7 +72,6 @@ function ScenarioDescription(props) {
         <ScenarioPreparationBox
           localizationData={props.localizationData}
           selectedItemContent={props.selectedItemContent}
-          setPlayingScenario={props.setPlayingScenario}
           selectedLanguage={props.selectedLanguage}
         ></ScenarioPreparationBox>
       </div>

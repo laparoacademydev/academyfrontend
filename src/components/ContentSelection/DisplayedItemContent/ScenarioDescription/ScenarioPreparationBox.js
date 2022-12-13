@@ -1,6 +1,5 @@
 import classes from "./ScenarioPreparationBox.module.css";
 import { AppHelper } from "../../../../App.js";
-import ScenarioButton from "./ScenarioButton";
 
 function ScenarioPreparationBox(props) {
   return (

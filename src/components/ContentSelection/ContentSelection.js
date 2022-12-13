@@ -19,7 +19,7 @@ function ContentSelection(props) {
       ) : (
         <DisplayedItemContent
           selectedItemContent={props.selectedItem}
-          setPlayingScenario={props.setPlayingScenario}
+          setwebCamTrainingActive={props.setwebCamTrainingActive}
           selectedLanguage={props.selectedLanguage}
           localizationData={props.localizationData}
           setSelectedItem={props.setSelectedItem}

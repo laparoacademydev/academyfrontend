@@ -50,14 +50,14 @@ function UserPanel(props) {
 
   React.useEffect(() => {
     var userpanelitems = [];
-    if (props.playingScenario === false) {
+    if (props.webCamTrainingActive === false) {
       userpanelitems.push(surveyuserpanelitem);
       userpanelitems.push(laparoshoplink);
       userpanelitems.push(logoutuserpanelitem);
     }
 
     setUserPanelItems(userpanelitems);
-  }, [props.playingScenario]);
+  }, [props.webCamTrainingActive]);
 
   return (
     <Fragment>
@@ -122,7 +122,7 @@ function UserPanel(props) {
         }`}
       >
         <div className={classes.usrpnldrawerselection}>
-          {props.playingScenario ? (
+          {props.webCamTrainingActive ? (
             <Fragment>
               <CurrentScenarioDescription
                 selectedItem={props.selectedItem}
@@ -157,8 +157,6 @@ function UserPanel(props) {
                 localizationData={props.localizationData}
                 getLocalization={props.getLocalization}
                 LogUserEvent={props.LogUserEvent}
-                setPlayingScenario={props.setPlayingScenario}
-                // selectedItem={props.selectedItem}
               />
             );
           })}

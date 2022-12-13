@@ -39,7 +39,7 @@ function DisplayedItemContent(props) {
       <Fragment>
         <ScenarioDescription
           selectedItemContent={props.selectedItemContent}
-          setPlayingScenario={props.setPlayingScenario}
+          setwebCamTrainingActive={props.setwebCamTrainingActive}
           selectedLanguage={props.selectedLanguage}
           localizationData={props.localizationData}
           setSelectedItem={props.setSelectedItem}

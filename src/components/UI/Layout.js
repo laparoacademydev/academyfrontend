@@ -104,12 +104,12 @@ function Layout(props) {
         localizationData={props.localizationData}
         getLocalization={props.getLocalization}
         LogUserEvent={props.LogUserEvent}
-        playingScenario={props.playingScenario}
+        webCamTrainingActive={props.webCamTrainingActive}
         devices={props.devices}
         switchDeviceId={props.switchDeviceId}
         deviceId={props.deviceId}
         selectedItem={props.selectedItem}
-        setPlayingScenario={props.setPlayingScenario}
+        setwebCamTrainingActive={props.setwebCamTrainingActive}
         setSelectedItem={props.setSelectedItem}
         ChangeLanguage={props.ChangeLanguage}
       />
