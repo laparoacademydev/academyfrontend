@@ -51,7 +51,6 @@ function ContentSection(props) {
             userTrainingHistory={props.userTrainingHistory}
             selectedItemContent={props.selectedItemContent}
             LogUserEvent={props.LogUserEvent}
-            RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
           />
         </div>
         <div className={classes.completedboxtext}>complete</div>

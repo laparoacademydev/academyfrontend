@@ -30,7 +30,7 @@ function CompletedCheckbox(props) {
       });
       props.setUserTrainingHistory(array);
       setCheckboxComplete(false);
-      props.RemoveLogScenarioCompleted(props.selectedItemContent.id);
+      AppHelper.RemoveLogScenarioCompleted(props.selectedItemContent.id);
     } else if (checkboxComplete === false) {
       let array = props.userTrainingHistory;
       array.push(props.selectedItemContent.id);

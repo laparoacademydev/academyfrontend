@@ -137,7 +137,6 @@ function ContentSelection(props) {
         localizationData={props.localizationData}
         setUserTrainingHistory={props.setUserTrainingHistory}
         userTrainingHistory={props.userTrainingHistory}
-        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
         setDisplayContentItem={setDisplayContentItem}
         selectedScenarioList={selectedScenarioList}
       ></DisplayedItemContent>

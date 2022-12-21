@@ -25,7 +25,6 @@ function DisplayedItemContent(props) {
         localizationData={props.localizationData}
         setUserTrainingHistory={props.setUserTrainingHistory}
         userTrainingHistory={props.userTrainingHistory}
-        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
         setDisplayContentItem={props.setDisplayContentItem}
       />
     );
@@ -41,7 +40,6 @@ function DisplayedItemContent(props) {
         setSelectedItemContent={props.setSelectedItemContent}
         setUserTrainingHistory={props.setUserTrainingHistory}
         userTrainingHistory={props.userTrainingHistory}
-        RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
         setDisplayContentItem={props.setDisplayContentItem}
       />
     );

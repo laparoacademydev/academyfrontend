@@ -22,7 +22,6 @@ function ScenarioDescription(props) {
               setUserTrainingHistory={props.setUserTrainingHistory}
               userTrainingHistory={props.userTrainingHistory}
               selectedItemContent={props.selectedItemContent}
-              RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
             ></CompletedCheckbox>
           </div>
 

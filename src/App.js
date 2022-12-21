@@ -14,7 +14,7 @@ import MobileView from "./components/MiscScreens/MobileView/MobileView";
 import ContentSelection from "./components/ContentSelection/ContentSelection";
 
 export class AppHelper {
-  static developerMode = true;
+  static developerMode = false;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
@@ -187,6 +187,18 @@ export class AppHelper {
     } else {
       return "devmode@laparosimulators.com";
     }
+  }
+  static RemoveLogScenarioCompleted(component) {
+    var thisUserEmail = AppHelper.GetUserEmail();
+    var event = "scenariocompleted";
+
+    axios.delete(`${AppHelper.ApiUrl}RemoveLogScenarioCompleted`, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: { email: thisUserEmail, event: event, component: component },
+    });
   }
 }
 
@@ -583,7 +595,6 @@ function App() {
   }
 
   // Content Related Functions:
-
   function extractCourseData(myJson) {
     // takes in our json course data and creates an array which containes courses, id's and names:
     var extractedCourses = { courses };
@@ -607,20 +618,6 @@ function App() {
       }
     }
     return extractedCourses;
-  }
-
-  function RemoveLogScenarioCompleted(component) {
-    //Remove the 'scenariocompleted' event from the user history:
-    var thisUserEmail = AppHelper.GetUserEmail();
-    var event = "scenariocompleted";
-
-    axios.delete(`${AppHelper.ApiUrl}RemoveLogScenarioCompleted`, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: { email: thisUserEmail, event: event, component: component },
-    });
   }
 
   function ReturnToBasic() {
@@ -663,7 +660,6 @@ function App() {
             setwebCamTrainingActive={setwebCamTrainingActive}
             localizationData={localizationData}
             setUserTrainingHistory={setUserTrainingHistory}
-            RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
             StartScenarioFreeTraining={StartScenarioFreeTraining}
             courses={courses}
           ></ContentSelection>
