@@ -70,7 +70,7 @@ function WebcamTraining(props) {
   const handleStartCaptureClick = React.useCallback(() => {
     setTrainingStartTime(Date.now());
     let starttrainingrecording = "starttrainingrecording";
-    props.LogUserEvent(starttrainingrecording, props.selectedItem.id);
+    AppHelper.LogEvent(starttrainingrecording, props.selectedItem.id);
     setCapturing(true);
     mediaRecorderRef.current = new MediaRecorder(webcamRef.current.stream, {
       mimeType: "video/webm",
@@ -84,14 +84,14 @@ function WebcamTraining(props) {
 
   const handleStopCaptureClick = React.useCallback(() => {
     let stoptrainingrecording = "stoptrainingrecording";
-    props.LogUserEvent(stoptrainingrecording, props.selectedItem.id);
+    AppHelper.LogEvent(stoptrainingrecording, props.selectedItem.id);
     mediaRecorderRef.current.stop();
     setCapturing(false);
   }, [mediaRecorderRef, setCapturing]);
 
   const handleDownload = React.useCallback(() => {
     let videodownload = "videodownload";
-    props.LogUserEvent(videodownload, props.selectedItem.id);
+    AppHelper.LogEvent(videodownload, props.selectedItem.id);
     if (recordedChunks.length) {
       let fileName = props.name + " " + Date().toString();
       const blob = new Blob(recordedChunks, {
@@ -182,8 +182,8 @@ function WebcamTraining(props) {
         fullScreen={fullScreen}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
-        LogUserEvent={props.LogUserEvent}
-        selectedItem={props.selectedItem}
+
+        // selectedItem={props.selectedItem}
       />
       <CameraSelect
         devices={devices}

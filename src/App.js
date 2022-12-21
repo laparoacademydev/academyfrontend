@@ -1,25 +1,20 @@
 import React from "react";
 import { useState, Fragment } from "react";
 import axios from "axios";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutPage from "./components/AboutPage/AboutPage";
-
-import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
-import Layout from "./components/UI/Layout";
-import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
-
-import AccessCodeScreen from "./components/MiscScreens/AccessCodeScreen/AccessCodeScreen";
-import MobileView from "./components/MiscScreens/MobileView/MobileView";
-
+import { isMobile } from "react-device-detect";
 import decodeJWT from "jwt-decode";
 
-import { isMobile } from "react-device-detect";
-
+import AboutPage from "./components/AboutPage/AboutPage";
+import Layout from "./components/UI/Layout";
+import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
+import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
+import AccessCodeScreen from "./components/MiscScreens/AccessCodeScreen/AccessCodeScreen";
+import MobileView from "./components/MiscScreens/MobileView/MobileView";
 import ContentSelection from "./components/ContentSelection/ContentSelection";
 
 export class AppHelper {
-  static developerMode = false;
+  static developerMode = true;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
@@ -160,47 +155,71 @@ export class AppHelper {
     width: 1920,
     height: 1080,
   };
+  static LogEvent(event, component) {
+    // logs a user event to the eventlogcontainer of the eventlog DB in azure - pairs this with user email. This function is found anywhere where we log events.
+    // types of events: login, logout, activateduser, languageselected
+    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, endtraining
+    // special event with component (this gets added, but also removed if user unclicks): scenariocompleted, languageselected
+
+    var thisUserEmail = AppHelper.GetUserEmail();
+
+    if (component === null || component === undefined) {
+      component = "none";
+    }
+
+    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
+      headers: {
+        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+        "Access-Control-Allow-Headers": "*",
+      },
+      params: {
+        email: thisUserEmail,
+        date: Date(),
+        event: event,
+        component: component,
+      },
+    });
+  }
+  static GetUserEmail() {
+    // this simply checks for the user email and returns it - if in devmode sets up a local email address
+    if (AppHelper.developerMode === false) {
+      return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
+    } else {
+      return "devmode@laparosimulators.com";
+    }
+  }
 }
 
 function App() {
+  // test
+
   // load user:
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
   const [userIsActive, setUserIsActive] = useState(0);
   const [accessCodeCheck, setAccessCodeCheck] = useState(false);
+  const [accessCodeError, setAccessCodeError] = useState(false);
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
   const [userConfirmed, setUserConfirmed] = useState(false);
   const [userActivityHistory, setUserActivityHistory] = useState(null);
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
-  const [userLoaded, setUserLoaded] = useState(false);
+  const [userLoaded, setUserLoaded] = useState(false); //concludes loading user
   // loadContent
   const [localizationData, setLocalizationData] = useState(null);
   const [courses, setCourses] = useState(null);
-  const [contentLoaded, setContentLoaded] = useState(false);
+  const [contentLoaded, setContentLoaded] = useState(false); //concludes loading content
+
   // after content is loaded and user is loaded - loaded renders App:
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(false); //concludes loading
 
-  const [loadingScreenMsg, setLoadingScreenMsg] = useState("");
-  const [accessCodeError, setAccessCodeError] = useState(false);
-
-  const [selectedCourseID, setSelectedCourseID] = useState(null);
-  const [selectedScenarioList, setSelectedScenarioList] = useState([]);
-  const [selectedItem, setSelectedItem] = useState(
-    AppHelper.DefaultFreeTraining
-  );
-  const [selectedNextItem, setSelectedNextItem] = useState(null);
-  const [selectedPrevItem, setSelectedPrevItem] = useState(null);
-
-  // const [playingScenario, setPlayingScenario] = useState(false);
-  const [webCamTrainingActive, setwebCamTrainingActive] = useState(false);
+  // user panel
   const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
 
-  const [selectedTraining, setSelectedTraining] = useState(null);
-  const [trainingList, setTrainingList] = useState(null);
-
+  // other
   const [topBarSelectionOption, setTopBarSelectionOption] = useState(0);
 
-  //
+  //Keeping these here because they're important?
+  const [webCamTrainingActive, setwebCamTrainingActive] = useState(false); // use this to activate/deactivate WebcamTraining
 
   React.useEffect(() => {
     if (userLoaded === false) {
@@ -220,11 +239,6 @@ function App() {
         getLocalization();
       }
     }
-
-    // initializeAcademyMsg();
-    if (selectedItem !== null) {
-      selectedNextPrev(selectedItem.id, selectedScenarioList);
-    }
   }, [
     loaded,
     tokenConfirmed,
@@ -232,7 +246,6 @@ function App() {
     accessCodeCheck,
     courses,
     localizationData,
-    selectedItem,
     selectedLanguage,
     featureTestingMode,
     userActivityHistory,
@@ -245,7 +258,6 @@ function App() {
   function loadUser() {
     if (AppHelper.developerMode === true && userConfirmed === false) {
       // check if devMode
-      //setDevMode:
       setTokenConfirmed(true);
       setUserIsActive(1);
       if (featureTestingMode === null) {
@@ -255,7 +267,7 @@ function App() {
     }
 
     if (AppHelper.developerMode === false && userConfirmed === false) {
-      //confirm User if not devmode
+      //confirm User (if not devmode)
       if (tokenConfirmed === false) {
         checkToken();
       }
@@ -314,7 +326,7 @@ function App() {
   const checkUserActive = async () => {
     //this checks if our user is 'active' in our database - the user is active only after providing the serial number on device.
     //If user is not active, bounces to access code check screen.
-    var thisUserEmail = getUserEmail();
+    var thisUserEmail = AppHelper.GetUserEmail();
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}CheckUserActive`, {
         headers: {
@@ -336,7 +348,7 @@ function App() {
 
   const checkTesterUser = async () => {
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
-    var thisUserEmail = getUserEmail();
+    var thisUserEmail = AppHelper.GetUserEmail();
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
         headers: {
@@ -392,18 +404,9 @@ function App() {
     });
   }
 
-  function getUserEmail() {
-    // this simply checks for the user email and returns it - if in devmode sets up a local email address
-    if (AppHelper.developerMode === false) {
-      return decodeJWT(window.localStorage.getItem("jwt")).emails[0];
-    } else {
-      return "devmode@laparosimulators.com";
-    }
-  }
-
   function activateUser(thisaccesscode) {
     // this is used to activate the user - adds the user to the table containing 'active users'
-    var thisUserEmail = getUserEmail();
+    var thisUserEmail = AppHelper.GetUserEmail();
     axios
       .post(`${AppHelper.ApiUrl}ActivateCreatedUser`, null, {
         headers: {
@@ -421,13 +424,13 @@ function App() {
         setAccessCodeCheck(false);
         checkUserActive();
         var activateduser = "activateduser";
-        LogUserEvent(activateduser);
+        AppHelper.LogEvent(activateduser);
       });
   }
 
   const AcquireUserHistory = async () => {
     // Acquire all existing User activity (done once at every login)
-    var thisUserEmail = getUserEmail();
+    var thisUserEmail = AppHelper.GetUserEmail();
 
     try {
       let response = await axios.get(`${AppHelper.ApiUrl}UserActivityHistory`, {
@@ -525,7 +528,7 @@ function App() {
     setSelectedLanguage(lang.toString());
     getLocalization();
     let selectedlanguage = lang.toString();
-    LogUserEvent("languageselected", selectedlanguage);
+    AppHelper.LogEvent("languageselected", selectedlanguage);
   }
 
   function MostRecentLanguage() {
@@ -575,7 +578,6 @@ function App() {
         })
         .then(function (myJson) {
           setCourses(extractCourseData(myJson));
-          setCourseIdAndScenarioList(extractCourseData(myJson).courses[0]);
         });
     }
   }
@@ -607,106 +609,9 @@ function App() {
     return extractedCourses;
   }
 
-  function setCourseIdAndScenarioList(selectedCourse) {
-    // takes in the selected course and then fetches each json file for each actual scenario or edu section. remixes response json files into array so that entire list of scenarios can be viewed.
-    setSelectedTraining(null);
-    setTrainingList(null);
-    setSelectedItem(AppHelper.DefaultFreeTraining);
-    setwebCamTrainingActive(false);
-    setSelectedCourseID(selectedCourse.id);
-    var courseselected = "courseselected";
-    LogUserEvent(courseselected, selectedCourse.id);
-
-    let scenarioFileNames = [];
-    let scenarioTypes = [];
-    selectedCourse.content.forEach((x) => {
-      scenarioTypes.push(x.type);
-
-      scenarioFileNames.push(x.id);
-    });
-    var responseJsonData = [];
-
-    scenarioFileNames.forEach((filenamejson) => {
-      fetch(
-        "./academycontentstorage/laparoacademy-jsoncontent/" +
-          filenamejson +
-          ".json?v=" +
-          AppHelper.ContentVersion,
-        {
-          headers: {
-            "Content-Type": "application/json",
-
-            Accept: "application/json",
-          },
-        }
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (myJson) {
-          responseJsonData.push(myJson);
-          if (responseJsonData.length === scenarioFileNames.length) {
-            let responseSelectedData = [];
-            for (let i = 0; i < responseJsonData.length; i++) {
-              for (let z = 0; z < responseJsonData.length; z++) {
-                if (selectedCourse.content[i].id === responseJsonData[z].id) {
-                  responseSelectedData.push({
-                    type: scenarioTypes[i],
-                    scenario: responseJsonData[z],
-                  });
-                  z = 100;
-                  responseJsonData.splice(z, 1);
-                }
-              }
-            }
-
-            for (let i = 0; i < responseSelectedData.length; i++) {
-              if (responseSelectedData[i].scenario.isVR === true) {
-                responseSelectedData.splice(i, 1);
-                i--;
-              }
-            }
-            setSelectedScenarioList(responseSelectedData);
-          }
-        })
-        .catch((err) => {
-          console.log("error recorded " + err);
-        });
-    });
-  }
-
-  function selectedNextPrev(id, selectedScenarioList) {
-    // used to track the next and prev scenario for next-prev component buttons to work as intended:
-    var scenarioListArrayNextPosition;
-    var scenarioListArrayPrevPosition;
-
-    for (let i = 0; i < selectedScenarioList.length; i++) {
-      if (id === selectedScenarioList[i].scenario.id) {
-        scenarioListArrayNextPosition = i + 1;
-        scenarioListArrayPrevPosition = i - 1;
-
-        if (i - 1 >= 0) {
-          setSelectedPrevItem(
-            selectedScenarioList[scenarioListArrayPrevPosition].scenario
-          );
-        } else {
-          setSelectedPrevItem(null);
-        }
-
-        if (i + 1 <= selectedScenarioList.length - 1) {
-          setSelectedNextItem(
-            selectedScenarioList[scenarioListArrayNextPosition].scenario
-          );
-        } else {
-          setSelectedNextItem(null);
-        }
-      }
-    }
-  }
-
   function RemoveLogScenarioCompleted(component) {
     //Remove the 'scenariocompleted' event from the user history:
-    var thisUserEmail = getUserEmail();
+    var thisUserEmail = AppHelper.GetUserEmail();
     var event = "scenariocompleted";
 
     axios.delete(`${AppHelper.ApiUrl}RemoveLogScenarioCompleted`, {
@@ -718,63 +623,28 @@ function App() {
     });
   }
 
-  // API log call:
-  function LogUserEvent(event, component) {
-    // logs a user event to the eventlogcontainer of the eventlog DB in azure - pairs this with user email. This function is found anywhere where we log events.
-
-    // types of events: login, logout, activateduser, languageselected
-    // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, endtraining
-    // special event with component (this gets added, but also removed if user unclicks): scenariocompleted, languageselected
-
-    var thisUserEmail = getUserEmail();
-
-    if (component === null || component === undefined) {
-      component = "none";
-    }
-
-    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: {
-        email: thisUserEmail,
-        date: Date(),
-        event: event,
-        component: component,
-      },
-    });
-  }
-
   function ReturnToBasic() {
     // returns the user to the start - first basic skills course (on click of main logo in app)
-    setCourseIdAndScenarioList(courses.courses[0]);
+    // setCourseIdAndScenarioList(courses.courses[0]);
+    // place function here for activating/deactivating
   }
 
   function StartScenarioFreeTraining() {
     setUserPanelActive(0);
     setwebCamTrainingActive(true);
     var scenariostart = "scenariostart";
-    LogUserEvent(scenariostart, "scenariofree");
-    setSelectedItem(AppHelper.DefaultFreeTraining);
+    AppHelper.LogEvent(scenariostart, "scenariofree");
   }
 
   // JSX components:
-  function ShowMainTrainingSelection() {
+  function RenderMainTrainingSelection() {
     return (
       <Fragment>
         {webCamTrainingActive ? (
           <WebcamTraining
-            name={selectedItem.name.en}
             setwebCamTrainingActive={setwebCamTrainingActive}
             localizationData={localizationData}
             selectedLanguage={selectedLanguage}
-            LogUserEvent={LogUserEvent}
-            selectedItem={selectedItem}
-            items={courses}
-            setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-            selectedCourseID={selectedCourseID}
-            userEmail={getUserEmail()}
             userIsActive={userIsActive}
             userPanelActive={userPanelActive}
             setUserPanelActive={setUserPanelActive}
@@ -788,24 +658,14 @@ function App() {
           />
         ) : (
           <ContentSelection
-            featureTestingMode={featureTestingMode}
-            selectedScenarioList={selectedScenarioList}
-            setSelectedItem={setSelectedItem}
             selectedLanguage={selectedLanguage}
-            LogUserEvent={LogUserEvent}
             userTrainingHistory={userTrainingHistory}
-            selectedItemContent={selectedItem}
             setwebCamTrainingActive={setwebCamTrainingActive}
             localizationData={localizationData}
-            selectedNextItem={selectedNextItem}
-            selectedPrevItem={selectedPrevItem}
             setUserTrainingHistory={setUserTrainingHistory}
             RemoveLogScenarioCompleted={RemoveLogScenarioCompleted}
-            setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-            selectedCourseID={selectedCourseID}
             StartScenarioFreeTraining={StartScenarioFreeTraining}
-            selectedItem={selectedItem}
-            items={courses}
+            courses={courses}
           ></ContentSelection>
         )}
       </Fragment>
@@ -822,7 +682,7 @@ function App() {
       />
     );
   } else if (loaded === false) {
-    return <LoadingScreen loadingScreenMsg={loadingScreenMsg} />;
+    return <LoadingScreen />;
   } else {
     return (
       <Fragment>
@@ -832,10 +692,7 @@ function App() {
               path="/"
               element={
                 <Layout
-                  items={courses}
-                  setCourseIdAndScenarioList={setCourseIdAndScenarioList}
-                  selectedCourseID={selectedCourseID}
-                  userEmail={getUserEmail()}
+                  userEmail={AppHelper.GetUserEmail()}
                   userIsActive={userIsActive}
                   userPanelActive={userPanelActive}
                   setUserPanelActive={setUserPanelActive}
@@ -845,11 +702,8 @@ function App() {
                   getLocalization={getLocalization}
                   developerMode={AppHelper.developerMode}
                   featureTestingMode={featureTestingMode}
-                  LogUserEvent={LogUserEvent}
-                  selectedItem={selectedItem}
                   webCamTrainingActive={webCamTrainingActive}
                   setwebCamTrainingActive={setwebCamTrainingActive}
-                  setSelectedItem={setSelectedItem}
                   ReturnToBasic={ReturnToBasic}
                   StartScenarioFreeTraining={StartScenarioFreeTraining}
                   ChangeLanguage={ChangeLanguage}
@@ -858,7 +712,7 @@ function App() {
                 />
               }
             >
-              <Route index element={<ShowMainTrainingSelection />} />
+              <Route index element={<RenderMainTrainingSelection />} />
               <Route path="about" element={<AboutPage />} />
               {/* <Route path="*" element={<NoPage />} /> */}
             </Route>

@@ -4,21 +4,21 @@ import { useState, useEffect } from "react";
 
 function ScreenHeightWidthTester(props) {
   // current scenario selected:
-  const [currentscenarioid, setCurrentscenarioid] = useState(checkScenarioId());
+  // const [currentscenarioid, setCurrentscenarioid] = useState(checkScenarioId());
 
-  useEffect(() => {
-    setCurrentscenarioid(checkScenarioId());
-  }, [props.selectedItem]);
+  // useEffect(() => {
+  //   setCurrentscenarioid(checkScenarioId());
+  // }, [props.selectedItem]);
 
-  function checkScenarioId() {
-    let a = "main";
-    if (props.selectedItem === null) {
-      return a;
-    } else {
-      a = props.selectedItem.id;
-      return a;
-    }
-  }
+  // function checkScenarioId() {
+  //   let a = "main";
+  //   if (props.selectedItem === null) {
+  //     return a;
+  //   } else {
+  //     a = props.selectedItem.id;
+  //     return a;
+  //   }
+  // }
   // window dimensions:
   const { height, width } = useWindowDimensions();
 
@@ -52,7 +52,7 @@ function ScreenHeightWidthTester(props) {
       <div className={classes.text}>
         h:{height}px w:{width}px
       </div>
-      <div className={classes.textscenario}>{currentscenarioid}</div>
+      {/* <div className={classes.textscenario}>{currentscenarioid}</div> */}
     </div>
   );
 }

@@ -9,6 +9,11 @@ function LeftSidePanelItem(props) {
     }
   }
 
+  function SelectPanelItem() {
+    props.setDisplayContentItem(false);
+    props.RenderScenarioList(props.course);
+  }
+
   return (
     <div>
       <div
@@ -23,7 +28,7 @@ function LeftSidePanelItem(props) {
         className={
           CheckIfSelected() ? classes.courseitemselected : classes.courseitem
         }
-        onClick={() => props.setCourseIdAndScenarioList(props.course)}
+        onClick={SelectPanelItem}
       >
         <div className={classes.courseitemdescription}>
           {props.course.name[props.selectedLanguage]}

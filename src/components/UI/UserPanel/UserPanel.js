@@ -43,7 +43,7 @@ function UserPanel(props) {
       window.localStorage.removeItem("jwt");
       window.location.href = `${AppHelper.LoginUrl}`;
       var logout = "logout";
-      props.LogUserEvent(logout);
+      AppHelper.LogEvent(logout);
     },
     icon: exitusericon,
   };
@@ -125,7 +125,7 @@ function UserPanel(props) {
           {props.webCamTrainingActive ? (
             <Fragment>
               <CurrentScenarioDescription
-                selectedItem={props.selectedItem}
+                // selectedItem={props.selectedItem}
                 selectedLanguage={props.selectedLanguage}
               ></CurrentScenarioDescription>
             </Fragment>
@@ -133,7 +133,6 @@ function UserPanel(props) {
             <LanguageSelector
               localizationData={props.localizationData}
               selectedLanguage={props.selectedLanguage}
-              LogUserEvent={props.LogUserEvent}
               ChangeLanguage={props.ChangeLanguage}
             ></LanguageSelector>
           )}
@@ -156,7 +155,6 @@ function UserPanel(props) {
                 setSelectedLanguage={props.setSelectedLanguage}
                 localizationData={props.localizationData}
                 getLocalization={props.getLocalization}
-                LogUserEvent={props.LogUserEvent}
               />
             );
           })}

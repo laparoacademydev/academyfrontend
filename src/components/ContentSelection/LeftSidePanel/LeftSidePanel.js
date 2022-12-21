@@ -6,14 +6,15 @@ function LeftSidePanel(props) {
   return (
     <div className={classes.courses}>
       <div>
-        {props.items.courses.map((course) => {
+        {props.courses.courses.map((course) => {
           return (
             <LeftSidePanelItem
               key={course.id}
               course={course}
-              setCourseIdAndScenarioList={props.setCourseIdAndScenarioList}
+              RenderScenarioList={props.RenderScenarioList}
               selectedCourseID={props.selectedCourseID}
               selectedLanguage={props.selectedLanguage}
+              setDisplayContentItem={props.setDisplayContentItem}
             />
           );
         })}

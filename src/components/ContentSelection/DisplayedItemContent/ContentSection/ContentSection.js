@@ -1,7 +1,6 @@
 import classes from "./ContentSection.module.css";
 
 import { AppHelper } from "../../../../App.js";
-import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import CompletedCheckbox from "../CompletedCheckbox";
 
 function ContentSection(props) {
@@ -9,13 +8,6 @@ function ContentSection(props) {
 
   return (
     <div className={classes.itemcontentcomponent}>
-      <ReturnNextPrevNav
-        setSelectedItem={props.setSelectedItem}
-        localizationData={props.localizationData}
-        selectedNextItem={props.selectedNextItem}
-        selectedPrevItem={props.selectedPrevItem}
-        LogUserEvent={props.LogUserEvent}
-      />
       <div className={classes.edutitle}>
         {props.selectedItemContent.title.text[props.selectedLanguage]}
       </div>

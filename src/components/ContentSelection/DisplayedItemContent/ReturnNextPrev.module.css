@@ -2,6 +2,7 @@
 
 .nextprevbackroundgrad {
   position: fixed;
+
   height: 60px;
   width: calc(1350px - 270px);
 

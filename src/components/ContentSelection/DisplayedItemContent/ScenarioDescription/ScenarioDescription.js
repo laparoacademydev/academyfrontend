@@ -1,7 +1,6 @@
 import classes from "../DisplayedItemContent.module.css";
 import scenarioclasses from "./ScenarioDescription.module.css";
 import ScenarioButton from "./ScenarioButton";
-import ReturnNextPrevNav from "../ReturnNextPrevNav";
 import { AppHelper } from "../../../../App.js";
 import ScenarioPreparationBox from "./ScenarioPreparationBox";
 import CompletedCheckbox from "../CompletedCheckbox";
@@ -13,16 +12,9 @@ function ScenarioDescription(props) {
         setwebCamTrainingActive={props.setwebCamTrainingActive}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
-        LogUserEvent={props.LogUserEvent}
         selectedItemContent={props.selectedItemContent}
       ></ScenarioButton>
-      <ReturnNextPrevNav
-        setSelectedItem={props.setSelectedItem}
-        localizationData={props.localizationData}
-        selectedNextItem={props.selectedNextItem}
-        selectedPrevItem={props.selectedPrevItem}
-        LogUserEvent={props.LogUserEvent}
-      />
+
       <div className={scenarioclasses.itemcontenttophalf}>
         <div>
           <div className={scenarioclasses.checkbox}>
@@ -30,7 +22,6 @@ function ScenarioDescription(props) {
               setUserTrainingHistory={props.setUserTrainingHistory}
               userTrainingHistory={props.userTrainingHistory}
               selectedItemContent={props.selectedItemContent}
-              LogUserEvent={props.LogUserEvent}
               RemoveLogScenarioCompleted={props.RemoveLogScenarioCompleted}
             ></CompletedCheckbox>
           </div>

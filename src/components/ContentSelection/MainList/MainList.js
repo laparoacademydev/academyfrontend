@@ -5,9 +5,12 @@ import ContentItem from "./ContentItem";
 import { Fragment } from "react";
 
 function MainList(props) {
+  // console.log(props);
+
   if (
     props.selectedScenarioList === null ||
-    props.selectedScenarioList === "undefined"
+    props.selectedScenarioList === "undefined" ||
+    props.selectedScenarioList.length === 0
   ) {
     return <div className={classes.spinner}></div>;
   } else {
@@ -20,10 +23,10 @@ function MainList(props) {
                 <ScenarioItem
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
-                  setSelectedItem={props.setSelectedItem}
+                  setSelectedItemContent={props.setSelectedItemContent}
                   selectedLanguage={props.selectedLanguage}
-                  LogUserEvent={props.LogUserEvent}
                   userTrainingHistory={props.userTrainingHistory}
+                  setDisplayContentItem={props.setDisplayContentItem}
                 />
               );
             } else {
@@ -31,10 +34,10 @@ function MainList(props) {
                 <ContentItem
                   key={object.scenario.id}
                   selectedScenario={object.scenario}
-                  setSelectedItem={props.setSelectedItem}
+                  setSelectedItemContent={props.setSelectedItemContent}
                   selectedLanguage={props.selectedLanguage}
-                  LogUserEvent={props.LogUserEvent}
                   userTrainingHistory={props.userTrainingHistory}
+                  setDisplayContentItem={props.setDisplayContentItem}
                 />
               );
             }

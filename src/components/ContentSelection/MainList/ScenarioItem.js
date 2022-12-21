@@ -14,15 +14,17 @@ function ScenarioItem(props) {
     );
   }
 
+  function SelectItem() {
+    // console.log("SelectItem clicked");
+    // console.log(props.selectedScenario);
+    props.setSelectedItemContent(props.selectedScenario);
+    props.setDisplayContentItem(true);
+    let scenarioselected = "scenarioselected";
+    AppHelper.LogEvent(scenarioselected, props.selectedScenario.id);
+  }
+
   return (
-    <div
-      className={classes.scenariolistitem}
-      onClick={() => {
-        props.setSelectedItem(props.selectedScenario);
-        let scenarioselected = "scenarioselected";
-        props.LogUserEvent(scenarioselected, props.selectedScenario.id);
-      }}
-    >
+    <div className={classes.scenariolistitem} onClick={SelectItem}>
       <div className={classes.listthumb}>
         <img
           src={`${AppHelper.storageUrl}laparoacademy-mediacontent/${props.selectedScenario.id}_thumb.jpg`}

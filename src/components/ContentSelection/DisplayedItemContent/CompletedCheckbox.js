@@ -3,6 +3,7 @@ import classes from "./DisplayedItemContent.module.css";
 import checkboxno from "../../../graphicassets/icons/chckboxno_gray.svg";
 import checkboxyes from "../../../graphicassets/icons/chckboxyes_green.svg";
 import { useState } from "react";
+import { AppHelper } from "../../../App";
 
 function CompletedCheckbox(props) {
   const [checkboxComplete, setCheckboxComplete] = useState(null);
@@ -35,7 +36,7 @@ function CompletedCheckbox(props) {
       array.push(props.selectedItemContent.id);
       props.setUserTrainingHistory(array);
       setCheckboxComplete(true);
-      props.LogUserEvent("scenariocompleted", props.selectedItemContent.id);
+      AppHelper.LogEvent("scenariocompleted", props.selectedItemContent.id);
     }
   }
 

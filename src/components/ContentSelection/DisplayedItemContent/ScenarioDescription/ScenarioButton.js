@@ -1,14 +1,15 @@
 import React from "react";
 import classes from "../DisplayedItemContent.module.css";
+import { AppHelper } from "../../../../App";
 
 function ScenarioButton(props) {
   return (
     <div
       className={`${classes.buttonstarttraining}`}
       onClick={() => {
-        props.setPlayingScenario(true);
+        props.setwebCamTrainingActive(true);
         var scenariostart = "scenariostart";
-        props.LogUserEvent(scenariostart, props.selectedItemContent.id);
+        AppHelper.LogEvent(scenariostart, props.selectedItemContent.id);
       }}
     >
       <div className={classes.buttontext}>

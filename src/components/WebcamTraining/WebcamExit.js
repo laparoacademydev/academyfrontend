@@ -1,6 +1,7 @@
 import React from "react";
 import exiticon from "../../graphicassets/icons/backarrow_blue.svg";
 import classes from "./WebcamExit.module.css";
+import { AppHelper } from "../../App";
 
 function WebcamExit(props) {
   function WebcamExitButtonClick() {
@@ -8,7 +9,7 @@ function WebcamExit(props) {
     if (props.fullScreen === true) {
       props.switchFullScreen();
     }
-    props.LogUserEvent("endtraining", props.selectedItem.id);
+    AppHelper.LogEvent("endtraining", props.selectedItem.id);
   }
 
   return (

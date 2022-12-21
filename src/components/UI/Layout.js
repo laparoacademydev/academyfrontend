@@ -15,7 +15,7 @@ function Layout(props) {
       <Fragment>
         {props.featureTestingMode ? (
           <ScreenHeightWidthTester
-            selectedItem={props.selectedItem}
+          // selectedItem={props.selectedItem}
           ></ScreenHeightWidthTester>
         ) : (
           <div></div>
@@ -103,14 +103,13 @@ function Layout(props) {
         setSelectedLanguage={props.setSelectedLanguage}
         localizationData={props.localizationData}
         getLocalization={props.getLocalization}
-        LogUserEvent={props.LogUserEvent}
         webCamTrainingActive={props.webCamTrainingActive}
         devices={props.devices}
         switchDeviceId={props.switchDeviceId}
         deviceId={props.deviceId}
-        selectedItem={props.selectedItem}
+        // selectedItem={props.selectedItem}
         setwebCamTrainingActive={props.setwebCamTrainingActive}
-        setSelectedItem={props.setSelectedItem}
+        // setSelectedItem={props.setSelectedItem}
         ChangeLanguage={props.ChangeLanguage}
       />
       <Outlet />

@@ -15,15 +15,17 @@ function EducationItem(props) {
     );
   }
 
+  function SelectItem() {
+    // console.log("SelectItem clicked");
+    // console.log(props.selectedScenario);
+    props.setSelectedItemContent(props.selectedScenario);
+    props.setDisplayContentItem(true);
+    let eduselected = "eduselected";
+    AppHelper.LogEvent(eduselected, props.selectedScenario.id);
+  }
+
   return (
-    <div
-      className={classes.scenariolistitem}
-      onClick={() => {
-        props.setSelectedItem(props.selectedScenario);
-        let eduselected = "eduselected";
-        props.LogUserEvent(eduselected, props.selectedScenario.id);
-      }}
-    >
+    <div className={classes.scenariolistitem} onClick={SelectItem}>
       <div className={classes.listthumb}>
         <img src={eduico} className={classes.eduico} alt={"."}></img>
         <img
