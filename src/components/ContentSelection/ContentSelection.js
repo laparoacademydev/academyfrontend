@@ -10,14 +10,10 @@ function ContentSelection(props) {
   // tells component to render after all is done
   const [contentSelectionListLoaded, setContentSelectionListLoaded] =
     useState(false);
-
   const [displayContentItem, setDisplayContentItem] = useState(false);
-
   // displays a particular ScenarioList that was selected in the LeftSidePanel:
   const [selectedScenarioList, setSelectedScenarioList] = useState([]);
-
   const [selectedCourseID, setSelectedCourseID] = useState(null);
-
   const [selectedItemContent, setSelectedItemContent] = useState(
     AppHelper.DefaultFreeTraining
   );
@@ -29,8 +25,6 @@ function ContentSelection(props) {
     if (selectedCourseID === null && displayContentItem === false) {
       RenderScenarioList(props.courses.courses[0]);
     }
-
-    //
     //when all above are done - contentSelectionListLoaded to display this component
     if (selectedCourseID !== null && selectedScenarioList.length !== 0) {
       setContentSelectionListLoaded(true);
@@ -43,7 +37,6 @@ function ContentSelection(props) {
   ]);
 
   //functions:
-
   function RenderScenarioList(selectedCourse) {
     // console.log("RenderScenarioList in contentselection fired");
 

@@ -622,13 +622,12 @@ function App() {
   }
 
   function StartScenarioFreeTraining() {
-    setUserPanelActive(0);
     setwebCamTrainingActive(true);
     var scenariostart = "scenariostart";
     AppHelper.LogEvent(scenariostart, "scenariofree");
   }
 
-  // JSX components:
+  // Render JSX components:
   function RenderMainTrainingSelection() {
     return (
       <Fragment>
