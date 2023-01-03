@@ -1,9 +1,11 @@
 import classes from "./LeftSidePanel.module.css";
 import lapico from "../../../graphicassets/icons/freestart_ico.svg";
+import { Link } from "react-router-dom";
 
 function FreeTrainingItem(props) {
   return (
-    <div
+    <Link
+      to="/webcamtraining"
       onClick={props.StartScenarioFreeTraining}
       className={classes.freetrainingitem}
     >
@@ -12,7 +14,7 @@ function FreeTrainingItem(props) {
         <img src={lapico} alt="."></img>
         <div>{props.localizationData.courses.startscenariofree}</div>
       </div>
-    </div>
+    </Link>
   );
 }
 

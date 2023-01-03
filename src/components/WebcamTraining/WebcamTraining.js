@@ -176,15 +176,15 @@ function WebcamTraining(props) {
         selectedLanguage={props.selectedLanguage}
         trainingStartTime={trainingStartTime}
       />
-      <WebcamExit
-        setwebCamTrainingActive={props.setwebCamTrainingActive}
+      {/* <WebcamExit
+        
         switchFullScreen={switchFullScreen}
         fullScreen={fullScreen}
         localizationData={props.localizationData}
         selectedLanguage={props.selectedLanguage}
 
         // selectedItem={props.selectedItem}
-      />
+      /> */}
       <CameraSelect
         devices={devices}
         switchDeviceId={switchDeviceId}

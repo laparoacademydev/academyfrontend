@@ -6,17 +6,19 @@ import UserPanel from "./UserPanel/UserPanel";
 
 //
 import { Outlet, Link } from "react-router-dom";
-
+import React from "react";
+import { useState } from "react";
 import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
 function Layout(props) {
+  //this useState variable is only here so that when options are clicked, the useState refreshes and checkifSelected moves greenline to relevant part. Without this the state for the entire component doesn't refresh.
+  const [emptyVar, setEmptyVar] = useState(true);
+
   function ShowScreenHeightWidthTester() {
     return (
       <Fragment>
         {props.featureTestingMode ? (
-          <ScreenHeightWidthTester
-          // selectedItem={props.selectedItem}
-          ></ScreenHeightWidthTester>
+          <ScreenHeightWidthTester></ScreenHeightWidthTester>
         ) : (
           <div></div>
         )}
@@ -36,12 +38,12 @@ function Layout(props) {
     );
   }
 
-  function changeSelectionOption(a) {
-    props.setTopBarSelectionOption(a);
+  function changeEmptyVar(emptyVar) {
+    setEmptyVar(!emptyVar);
   }
 
   function CheckIfSelected(b) {
-    if (props.topBarSelectionOption === b) {
+    if (window.location.pathname === b) {
       return true;
     } else {
       return false;
@@ -53,32 +55,32 @@ function Layout(props) {
       <Fragment>
         <div className={classes.topbarselection}>
           <Link
-            onClick={() => changeSelectionOption(0)}
-            className={classes.topbarselectionoption}
             to="/"
+            onClick={() => changeEmptyVar(emptyVar)}
+            className={classes.topbarselectionoption}
           >
-            <div className={classes.topbarselectionlink}>Train</div>
+            <div className={classes.topbarselectionlink}>Courses</div>
             <div
               className={
-                CheckIfSelected(0) ? classes.greenline : classes.nogreenline
+                CheckIfSelected("/") ? classes.greenline : classes.nogreenline
               }
             ></div>
           </Link>
 
-          <Link
-            onClick={() => changeSelectionOption(1)}
-            className={classes.topbarselectionoption}
+          {/* <Link
             to="/about"
+            onClick={() => changeEmptyVar(emptyVar)}
+            className={classes.topbarselectionoption}
           >
-            <div className={classes.topbarselectionlink} to="/about">
-              About
-            </div>
+            <div className={classes.topbarselectionlink}>About</div>
             <div
               className={
-                CheckIfSelected(1) ? classes.greenline : classes.nogreenline
+                CheckIfSelected("/about")
+                  ? classes.greenline
+                  : classes.nogreenline
               }
             ></div>
-          </Link>
+          </Link> */}
         </div>
       </Fragment>
     );
@@ -89,7 +91,7 @@ function Layout(props) {
       <ShowScreenHeightWidthTester />
       <div className={classes.topbar}>
         <ShowLogo />
-        {/* <ShowTopBarSelection /> */}
+        <ShowTopBarSelection />
       </div>
 
       <UserPanel

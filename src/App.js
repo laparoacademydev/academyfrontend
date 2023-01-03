@@ -227,9 +227,6 @@ function App() {
   const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
 
-  // other
-  const [topBarSelectionOption, setTopBarSelectionOption] = useState(0);
-
   //Keeping these here because they're important?
   const [webCamTrainingActive, setwebCamTrainingActive] = useState(false); // use this to activate/deactivate WebcamTraining
 
@@ -567,8 +564,6 @@ function App() {
     })[0];
 
     //assign the exact language which was the latest to be applied:
-    // console.log(mostRecentObject.component);
-    // console.log(selectedLanguage);
     return mostRecentObject.component;
   }
 
@@ -637,33 +632,35 @@ function App() {
   function RenderMainTrainingSelection() {
     return (
       <Fragment>
-        {webCamTrainingActive ? (
-          <WebcamTraining
-            setwebCamTrainingActive={setwebCamTrainingActive}
-            localizationData={localizationData}
-            selectedLanguage={selectedLanguage}
-            userIsActive={userIsActive}
-            userPanelActive={userPanelActive}
-            setUserPanelActive={setUserPanelActive}
-            setSelectedLanguage={setSelectedLanguage}
-            getLocalization={getLocalization}
-            developerMode={AppHelper.developerMode}
-            featureTestingMode={featureTestingMode}
-            webCamTrainingActive={webCamTrainingActive}
-            ReturnToBasic={ReturnToBasic}
-            ChangeLanguage={ChangeLanguage}
-          />
-        ) : (
-          <ContentSelection
-            selectedLanguage={selectedLanguage}
-            userTrainingHistory={userTrainingHistory}
-            setwebCamTrainingActive={setwebCamTrainingActive}
-            localizationData={localizationData}
-            setUserTrainingHistory={setUserTrainingHistory}
-            StartScenarioFreeTraining={StartScenarioFreeTraining}
-            courses={courses}
-          ></ContentSelection>
-        )}
+        <ContentSelection
+          selectedLanguage={selectedLanguage}
+          userTrainingHistory={userTrainingHistory}
+          setwebCamTrainingActive={setwebCamTrainingActive}
+          localizationData={localizationData}
+          setUserTrainingHistory={setUserTrainingHistory}
+          StartScenarioFreeTraining={StartScenarioFreeTraining}
+          courses={courses}
+        ></ContentSelection>
+      </Fragment>
+    );
+  }
+
+  function RenderWebcamTraining() {
+    return (
+      <Fragment>
+        <WebcamTraining
+          localizationData={localizationData}
+          selectedLanguage={selectedLanguage}
+          userIsActive={userIsActive}
+          userPanelActive={userPanelActive}
+          setUserPanelActive={setUserPanelActive}
+          setSelectedLanguage={setSelectedLanguage}
+          getLocalization={getLocalization}
+          developerMode={AppHelper.developerMode}
+          featureTestingMode={featureTestingMode}
+          ReturnToBasic={ReturnToBasic}
+          ChangeLanguage={ChangeLanguage}
+        />
       </Fragment>
     );
   }
@@ -703,13 +700,12 @@ function App() {
                   ReturnToBasic={ReturnToBasic}
                   StartScenarioFreeTraining={StartScenarioFreeTraining}
                   ChangeLanguage={ChangeLanguage}
-                  topBarSelectionOption={topBarSelectionOption}
-                  setTopBarSelectionOption={setTopBarSelectionOption}
                 />
               }
             >
               <Route index element={<RenderMainTrainingSelection />} />
               <Route path="about" element={<AboutPage />} />
+              <Route path="webcamtraining" element={<RenderWebcamTraining />} />
               {/* <Route path="*" element={<NoPage />} /> */}
             </Route>
           </Routes>

@@ -1,21 +1,24 @@
 import React from "react";
 import classes from "../DisplayedItemContent.module.css";
 import { AppHelper } from "../../../../App";
+import { Link } from "react-router-dom";
 
 function ScenarioButton(props) {
+  function ScenarioButtonClick() {
+    props.setwebCamTrainingActive(true);
+    AppHelper.LogEvent("scenariostart", props.selectedItemContent.id);
+  }
+
   return (
-    <div
+    <Link
+      to="/webcamtraining"
       className={`${classes.buttonstarttraining}`}
-      onClick={() => {
-        props.setwebCamTrainingActive(true);
-        var scenariostart = "scenariostart";
-        AppHelper.LogEvent(scenariostart, props.selectedItemContent.id);
-      }}
+      onClick={ScenarioButtonClick}
     >
       <div className={classes.buttontext}>
         {props.localizationData.scenariodescription.startbtn}
       </div>
-    </div>
+    </Link>
   );
 }
 
