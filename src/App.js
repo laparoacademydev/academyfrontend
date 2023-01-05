@@ -223,8 +223,6 @@ function App() {
   // after content is loaded and user is loaded - loaded renders App:
   const [loaded, setLoaded] = useState(false); //concludes loading
 
-  // user panel
-  const [userPanelActive, setUserPanelActive] = useState(0);
   const [selectedLanguage, setSelectedLanguage] = useState("en");
 
   //Keeping these here because they're important?
@@ -533,7 +531,6 @@ function App() {
   }
 
   function ChangeLanguage(lang) {
-    // setUserPanelActive(0);
     setSelectedLanguage(lang.toString());
     getLocalization();
     let selectedlanguage = lang.toString();
@@ -612,6 +609,7 @@ function App() {
         extractedCourses.courses.push(currentCourse);
       }
     }
+
     return extractedCourses;
   }
 
@@ -651,8 +649,6 @@ function App() {
           localizationData={localizationData}
           selectedLanguage={selectedLanguage}
           userIsActive={userIsActive}
-          userPanelActive={userPanelActive}
-          setUserPanelActive={setUserPanelActive}
           setSelectedLanguage={setSelectedLanguage}
           getLocalization={getLocalization}
           developerMode={AppHelper.developerMode}
@@ -686,8 +682,6 @@ function App() {
                 <Layout
                   userEmail={AppHelper.GetUserEmail()}
                   userIsActive={userIsActive}
-                  userPanelActive={userPanelActive}
-                  setUserPanelActive={setUserPanelActive}
                   selectedLanguage={selectedLanguage}
                   setSelectedLanguage={setSelectedLanguage}
                   localizationData={localizationData}

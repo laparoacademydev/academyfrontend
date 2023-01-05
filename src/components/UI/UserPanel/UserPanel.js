@@ -19,7 +19,35 @@ import classes from "./UserPanel.module.css";
 import burgericon from "../../../graphicassets/icons/burgico_blue.svg";
 
 function UserPanel(props) {
+  const [userPanelActive, setUserPanelActive] = useState(0);
   const [userPanelItems, setUserPanelItems] = useState([]);
+
+  const [scenario, setScenario] = useState(null);
+
+  function FetchScenario(id) {
+    fetch(
+      "./academycontentstorage/laparoacademy-jsoncontent/" +
+        id +
+        ".json?v=" +
+        AppHelper.ContentVersion,
+      {
+        headers: {
+          "Content-Type": "application/json",
+
+          Accept: "application/json",
+        },
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setScenario(myJson);
+      })
+      .catch((err) => {
+        console.log("error recorded " + err);
+      });
+  }
 
   const surveyuserpanelitem = {
     text: props.localizationData.userpanel.survey,
@@ -48,58 +76,80 @@ function UserPanel(props) {
     icon: exitusericon,
   };
 
+  function CheckCurrentScenarioDescription() {
+    //this updates the CurrentScenarioDescription component with the selected scenario
+    var url = window.location.href.split("?id=");
+    if (url.length > 1) {
+      // whenever we are not in webcamtraining this will reset the scenario to null
+      if (userPanelActive) {
+        // this checks if the panel is active so that we don't refetch on deactivatoin
+        if (scenario === null) {
+          // simply checks once again if that scenario is null - and then fetches the content
+          FetchScenario(url[1]);
+        }
+      }
+    } else {
+      setScenario(null);
+    }
+  }
+
   React.useEffect(() => {
     var userpanelitems = [];
-    if (props.webCamTrainingActive === false) {
+
+    CheckCurrentScenarioDescription();
+
+    if (window.location.pathname === "/") {
       userpanelitems.push(surveyuserpanelitem);
       userpanelitems.push(laparoshoplink);
-      userpanelitems.push(logoutuserpanelitem);
     }
 
+    // always add this one:
+    userpanelitems.push(logoutuserpanelitem);
+
     setUserPanelItems(userpanelitems);
-  }, [props.webCamTrainingActive]);
+  }, [userPanelActive, window.location.href]);
 
   return (
     <Fragment>
       <div
         className={`${classes.usrpnloverlay} ${
-          props.userPanelActive === 0
+          userPanelActive === 0
             ? classes.usrpnloverlayinactive
             : classes.usrpnloverlayactive
         }`}
         onClick={() => {
-          if (props.userPanelActive === 0) {
-            props.setUserPanelActive(1);
-          } else if (props.userPanelActive === 1) {
-            props.setUserPanelActive(0);
+          if (userPanelActive === 0) {
+            setUserPanelActive(1);
+          } else if (userPanelActive === 1) {
+            setUserPanelActive(0);
           }
         }}
       ></div>
       <div
         className={`${classes.usrpnlfiller} ${
-          props.userPanelActive === 0
+          userPanelActive === 0
             ? classes.usrpnlfillerinactive
             : classes.usrpnlfilleractive
         }`}
       ></div>
       <div
         className={`${classes.usrpnltopfiller} ${
-          props.userPanelActive === 0
+          userPanelActive === 0
             ? classes.usrpnltopfillerinactive
             : classes.usrpnlfilleractive
         }`}
       ></div>
       <div
         className={`${classes.usrpnlheader} ${
-          props.userPanelActive === 0
+          userPanelActive === 0
             ? classes.usrpnlheaderinactive
             : classes.usrpnlheaderactive
         }`}
         onClick={() => {
-          if (props.userPanelActive === 0) {
-            props.setUserPanelActive(1);
-          } else if (props.userPanelActive === 1) {
-            props.setUserPanelActive(0);
+          if (userPanelActive === 0) {
+            setUserPanelActive(1);
+          } else if (userPanelActive === 1) {
+            setUserPanelActive(0);
           }
         }}
       >
@@ -107,7 +157,7 @@ function UserPanel(props) {
         <div className={classes.usrpnltextinactive}>{props.userEmail}</div>
         <div>
           <img
-            src={props.userPanelActive === 0 ? burgericon : xicon}
+            src={userPanelActive === 0 ? burgericon : xicon}
             className={classes.usrpnlburgerinactive}
             alt="."
           />
@@ -116,26 +166,28 @@ function UserPanel(props) {
 
       <div
         className={`${classes.usrpnldrawer} ${
-          props.userPanelActive === 0
+          userPanelActive === 0
             ? classes.usrpnldrawerinactive
             : classes.usrpnldraweractive
         }`}
       >
         <div className={classes.usrpnldrawerselection}>
-          {props.webCamTrainingActive ? (
-            <Fragment>
-              <CurrentScenarioDescription
-                // selectedItem={props.selectedItem}
-                selectedLanguage={props.selectedLanguage}
-              ></CurrentScenarioDescription>
-            </Fragment>
-          ) : (
+          {scenario === null ? (
             <LanguageSelector
               localizationData={props.localizationData}
               selectedLanguage={props.selectedLanguage}
               ChangeLanguage={props.ChangeLanguage}
             ></LanguageSelector>
+          ) : (
+            <Fragment>
+              <CurrentScenarioDescription
+                selectedItem={scenario}
+                // selectedItem={props.selectedItem}
+                selectedLanguage={props.selectedLanguage}
+              ></CurrentScenarioDescription>
+            </Fragment>
           )}
+
           <HelpPrompt localizationData={props.localizationData}></HelpPrompt>
 
           {userPanelItems.map((item) => {
@@ -149,8 +201,8 @@ function UserPanel(props) {
                 setTrainingList={props.setTrainingList}
                 userIsActive={props.userIsActive}
                 url={props.url}
-                userPanelActive={props.userPanelActive}
-                setUserPanelActive={props.setUserPanelActive}
+                userPanelActive={userPanelActive}
+                setUserPanelActive={setUserPanelActive}
                 selectedLanguage={props.selectedLanguage}
                 setSelectedLanguage={props.setSelectedLanguage}
                 localizationData={props.localizationData}

@@ -25,6 +25,8 @@ function ContentSelection(props) {
     if (selectedCourseID === null && displayContentItem === false) {
       RenderScenarioList(props.courses.courses[0]);
     }
+
+    //
     //when all above are done - contentSelectionListLoaded to display this component
     if (selectedCourseID !== null && selectedScenarioList.length !== 0) {
       setContentSelectionListLoaded(true);
@@ -37,6 +39,7 @@ function ContentSelection(props) {
   ]);
 
   //functions:
+
   function RenderScenarioList(selectedCourse) {
     // console.log("RenderScenarioList in contentselection fired");
 

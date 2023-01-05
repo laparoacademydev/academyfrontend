@@ -11,7 +11,7 @@ function ScenarioButton(props) {
 
   return (
     <Link
-      to="/webcamtraining"
+      to={`/webcamtraining?id=${props.selectedItemContent.id}`}
       className={`${classes.buttonstarttraining}`}
       onClick={ScenarioButtonClick}
     >

@@ -99,8 +99,6 @@ function Layout(props) {
         setTrainingList={props.setTrainingList}
         userIsActive={props.userIsActive}
         url={props.url}
-        userPanelActive={props.userPanelActive}
-        setUserPanelActive={props.setUserPanelActive}
         selectedLanguage={props.selectedLanguage}
         setSelectedLanguage={props.setSelectedLanguage}
         localizationData={props.localizationData}

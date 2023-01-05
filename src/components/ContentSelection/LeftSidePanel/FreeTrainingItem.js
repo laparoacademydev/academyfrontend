@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function FreeTrainingItem(props) {
   return (
     <Link
-      to="/webcamtraining"
+      to="/webcamtraining?id=freetraining"
       onClick={props.StartScenarioFreeTraining}
       className={classes.freetrainingitem}
     >
