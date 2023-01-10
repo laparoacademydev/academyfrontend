@@ -160,5 +160,14 @@
         "pl": "Trening bez scenariusza"
       }
     }
+  },
+  "topbar": {
+    "courseslabel": {
+      "description": "Topbar Layout Selection",
+      "text": {
+        "en": "Courses",
+        "pl": "Kursy"
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function WebcamExit(props) {
   function WebcamExitButtonClick() {
-    props.setwebCamTrainingActive(false);
+    // props.setwebCamTrainingActive(false);
     if (props.fullScreen === true) {
       props.switchFullScreen();
     }

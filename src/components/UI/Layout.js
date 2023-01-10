@@ -13,6 +13,19 @@ import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 function Layout(props) {
   //this useState variable is only here so that when options are clicked, the useState refreshes and checkifSelected moves greenline to relevant part. Without this the state for the entire component doesn't refresh.
   const [emptyVar, setEmptyVar] = useState(true);
+  const [displayTopBarSelection, setDisplayTopBarSelection] = useState(true);
+
+  if (
+    window.location.pathname === "/webcamtraining" &&
+    displayTopBarSelection === true
+  ) {
+    setDisplayTopBarSelection(false);
+  } else if (
+    window.location.pathname === "/" &&
+    displayTopBarSelection === false
+  ) {
+    setDisplayTopBarSelection(true);
+  }
 
   function ShowScreenHeightWidthTester() {
     return (
@@ -59,7 +72,9 @@ function Layout(props) {
             onClick={() => changeEmptyVar(emptyVar)}
             className={classes.topbarselectionoption}
           >
-            <div className={classes.topbarselectionlink}>Courses</div>
+            <div className={classes.topbarselectionlink}>
+              {props.localizationData.topbar.courseslabel}
+            </div>
             <div
               className={
                 CheckIfSelected("/") ? classes.greenline : classes.nogreenline
@@ -91,7 +106,7 @@ function Layout(props) {
       <ShowScreenHeightWidthTester />
       <div className={classes.topbar}>
         <ShowLogo />
-        <ShowTopBarSelection />
+        {displayTopBarSelection ? <ShowTopBarSelection /> : <></>}
       </div>
 
       <UserPanel
