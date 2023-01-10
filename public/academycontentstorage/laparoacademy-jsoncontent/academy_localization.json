@@ -106,6 +106,13 @@
         "en": "Previous",
         "pl": "Poprzedni"
       }
+    },
+    "edusec": {
+      "description": "Label on top of Title Panel",
+      "text": {
+        "en": "Educational Section",
+        "pl": "Sekcja Edukacyjna"
+      }
     }
   },
   "webcamtraining": {
