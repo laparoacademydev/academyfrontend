@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./LeftSidePanel.module.css";
 import lapico from "../../../graphicassets/icons/freestart_ico.svg";
 import { Link } from "react-router-dom";

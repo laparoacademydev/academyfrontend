@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "../DisplayedItemContent.module.css";
 import scenarioclasses from "./ScenarioDescription.module.css";
 import ScenarioButton from "./ScenarioButton";

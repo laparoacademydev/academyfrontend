@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./LeftSidePanel.module.css";
 import LeftSidePanelItem from "./LeftSidePanelItem";
 import FreeTrainingItem from "./FreeTrainingItem";

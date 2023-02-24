@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./LanguageSelector.module.css";
 import { AppHelper } from "../../../App";
 

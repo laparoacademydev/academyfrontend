@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./HelpPrompt.module.css";
 import questico from "../../../graphicassets/icons/question_ico.svg";
 

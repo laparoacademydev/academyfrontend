@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./MobileView.module.css";
 
 function MobileView() {

@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./ScenarioPreparationBox.module.css";
 import { AppHelper } from "../../../../App.js";
 

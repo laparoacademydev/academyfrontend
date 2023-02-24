@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./AccessCodeScreen.module.css";
 import { AppHelper } from "../../../App";
 import buttonclasses from "../../UI/Button.module.css";

@@ -1,5 +1,5 @@
 import classes from "./ContentSection.module.css";
-
+import React from "react";
 import { AppHelper } from "../../../../App.js";
 import CompletedCheckbox from "../CompletedCheckbox";
 
@@ -28,10 +28,8 @@ function ContentSection(props) {
       <div
         className={classes.edutitlebox}
         style={{
-          backgroundImage: `url(${
-            AppHelper.storageUrl +
-            `laparoacademy-mediacontent/edu_placeholder.png`
-          })`,
+          backgroundImage: `url(${AppHelper.storageUrl +
+            `laparoacademy-mediacontent/edu_placeholder.png`})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",

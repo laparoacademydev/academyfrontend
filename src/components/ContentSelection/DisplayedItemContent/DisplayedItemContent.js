@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./DisplayedItemContent.module.css";
 import ContentSection from "./ContentSection/ContentSection.js";
 import ScenarioDescription from "./ScenarioDescription/ScenarioDescription.js";

@@ -1,5 +1,4 @@
 import classes from "./WebcamTraining.module.css";
-
 import buttonclasses from "../UI/Button.module.css";
 import fullscrico from "../../graphicassets/icons/fullscreen_ico.svg";
 import startrecordico from "../../graphicassets/icons/startrecord_ico.svg";

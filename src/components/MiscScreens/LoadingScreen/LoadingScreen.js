@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./LoadingScreen.module.css";
 
 function LoadingScreen(props) {

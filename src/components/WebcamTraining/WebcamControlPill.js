@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./WebcamControlPill.module.css";
 import fullscrico from "../../graphicassets/icons/fullscreen_ico.svg";
 import startrecordico from "../../graphicassets/icons/startrecord_ico.svg";
