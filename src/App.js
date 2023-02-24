@@ -14,7 +14,7 @@ import MobileView from "./components/MiscScreens/MobileView/MobileView";
 import ContentSelection from "./components/ContentSelection/ContentSelection";
 
 export class AppHelper {
-  static developerMode = true;
+  static developerMode = false;
   static ApiUrl =
     "https://academylaparomanagementservice.azure-api.net/laparoacademyfunctionapp/";
   static storageUrl = "./academycontentstorage/";
