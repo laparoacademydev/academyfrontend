@@ -30,9 +30,14 @@
   }
 }
 
-.spinner::before {
-  animation: 1.5s linear infinite spinner;
-  animation-play-state: inherit;
+.spin::before {
+  /* animation: 1.5s linear infinite spinner; */
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: spinner;
+
+  animation-play-state: running;
   border: solid 4px #cfd0d1;
   border-bottom-color: #00619d;
   border-radius: 50%;
