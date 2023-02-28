@@ -22,8 +22,8 @@ export class AppHelper {
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademy.laparosimulators.com&scope=openid&response_type=id_token&prompt=login";
   static AllowAccessCodeOrigin = "https://academy.laparosimulators.com";
-  static LocalizationVersion = 6;
-  static ContentVersion = 2;
+  static LocalizationVersion = 7;
+  static ContentVersion = 3;
   static onRequestError(error) {
     if (error.response === undefined) {
       console.log("error?");
@@ -263,6 +263,8 @@ function App() {
 
   // loadUser Functions:
   function loadUser() {
+    // console.log("loadUser");
+   
     if (AppHelper.developerMode === true && userConfirmed === false) {
       // check if devMode
       setTokenConfirmed(true);
@@ -277,17 +279,21 @@ function App() {
       //confirm User (if not devmode)
       if (tokenConfirmed === false) {
         checkToken();
+        
       }
 
       if (tokenConfirmed === true && userIsActive === 0) {
         checkUserActive();
+        
       }
 
       if (userIsActive === 1 && featureTestingMode === null) {
         checkTesterUser();
+       
       }
 
       if (tokenConfirmed === true && userIsActive === 1) {
+        // console.log("setUserConfirmed");
         setUserConfirmed(true);
       }
     }
@@ -301,9 +307,11 @@ function App() {
       extractUserTrainingHistory(userActivityHistory);
     }
 
+
+
     // if training history acquired and user confirmed - setUserLoaded(true)
     if (
-      userTrainingHistory.length !== 0 &&
+      userActivityHistory !== null &&
       userConfirmed === true &&
       contentLoaded === false
     ) {
@@ -312,6 +320,7 @@ function App() {
   }
 
   function checkToken() {
+    // console.log("checkToken");
     // this takes the token present in the browser and bounces user back to login screen if anything is wrong
     var fullIp = window.location.href.split("#id_token=");
     var webToken = fullIp[1];
@@ -331,6 +340,7 @@ function App() {
   }
 
   const checkUserActive = async () => {
+    // console.log('checking if user is active');
     //this checks if our user is 'active' in our database - the user is active only after providing the serial number on device.
     //If user is not active, bounces to access code check screen.
     var thisUserEmail = AppHelper.GetUserEmail();
@@ -345,15 +355,19 @@ function App() {
 
       if (response.data === true) {
         setUserIsActive(1);
+      //   console.log("checkUserActive;setUserIsActive(1);")
       } else {
         setAccessCodeCheck(true);
+     //    console.log("checkUserActive;setAccessCodeCheck(true);");
       }
     } catch (error) {
       AppHelper.onRequestError(error);
+     //  console.log("checkUserActive;AppHelper.onRequestError(error);");
     }
   };
 
   const checkTesterUser = async () => {
+    // console.log('checkTesterUser');
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
     var thisUserEmail = AppHelper.GetUserEmail();
     try {
@@ -437,6 +451,8 @@ function App() {
 
   const AcquireUserHistory = async () => {
     // Acquire all existing User activity (done once at every login)
+    // console.log("AcquireUserHistory");
+   
     var thisUserEmail = AppHelper.GetUserEmail();
 
     try {
@@ -449,6 +465,8 @@ function App() {
           email: thisUserEmail,
         },
       });
+      // console.log("setUserActivityHistory");
+      
       setUserActivityHistory(response.data);
     } catch (error) {
       AppHelper.onRequestError(error);
@@ -456,6 +474,8 @@ function App() {
   };
 
   function extractUserTrainingHistory(userActivityHistory) {
+    // console.log("extractUserTrainingHistory");
+    
     //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
     let activityhistory = [];
     for (let i = 0; i < userActivityHistory.length; i++) {
@@ -468,6 +488,8 @@ function App() {
 
   // loadContent Functions:
   function loadContent() {
+    // console.log("loadContent();");
+    
     if (localizationData === null) {
       getLocalization();
     }
@@ -486,6 +508,8 @@ function App() {
   }
 
   function getLocalization() {
+    // console.log("getLocalization");
+    
     //this fetches the localization data and then sends it over to be parsed out for selected language:
     fetch(
       `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json?v=${AppHelper.LocalizationVersion}`,
@@ -506,6 +530,8 @@ function App() {
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {
+    // console.log("extractLocalizationData");
+    
     // this parses out all localization for selected language:
     var extractedLocalization = {};
     var localizationPages = Object.entries(myJson);
@@ -545,6 +571,10 @@ function App() {
         alllangevents.push(userActivityHistory[i]);
       }
     }
+
+    if (alllangevents.length === 0) {
+      return "en";
+    }
     // calculation of which language selected object has the latest date:
     var mostRecentDate = new Date(
       Math.max.apply(
@@ -565,6 +595,8 @@ function App() {
   }
 
   function getCourses() {
+  //   console.log("getCourses");
+   
     // fetches all courses from json. upon success sets the course data and displays the first course:
     if (courses === null) {
       fetch(
