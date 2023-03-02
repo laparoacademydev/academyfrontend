@@ -9,6 +9,7 @@ import CameraSelect from "./CameraSelect/CameraSelect";
 import { Fragment } from "react";
 
 function WebcamTraining(props) {
+  
   const webcamRef = React.useRef(null);
   const mediaRecorderRef = React.useRef(null);
   const [capturing, setCapturing] = React.useState(false);
@@ -70,7 +71,7 @@ function WebcamTraining(props) {
   const handleStartCaptureClick = React.useCallback(() => {
     setTrainingStartTime(Date.now());
     let starttrainingrecording = "starttrainingrecording";
-    AppHelper.LogEvent(starttrainingrecording, props.selectedItem.id);
+    AppHelper.LogEvent(starttrainingrecording, window.location.href.split("?id=")[1]);
     setCapturing(true);
     mediaRecorderRef.current = new MediaRecorder(webcamRef.current.stream, {
       mimeType: "video/webm",
@@ -84,16 +85,16 @@ function WebcamTraining(props) {
 
   const handleStopCaptureClick = React.useCallback(() => {
     let stoptrainingrecording = "stoptrainingrecording";
-    AppHelper.LogEvent(stoptrainingrecording, props.selectedItem.id);
+    AppHelper.LogEvent(stoptrainingrecording, window.location.href.split("?id=")[1]);
     mediaRecorderRef.current.stop();
     setCapturing(false);
   }, [mediaRecorderRef, setCapturing]);
 
   const handleDownload = React.useCallback(() => {
     let videodownload = "videodownload";
-    AppHelper.LogEvent(videodownload, props.selectedItem.id);
+    AppHelper.LogEvent(videodownload, window.location.href.split("?id=")[1]);
     if (recordedChunks.length) {
-      let fileName = props.name + " " + Date().toString();
+      let fileName = window.location.href.split("?id=")[1] + " " + Date().toString();
       const blob = new Blob(recordedChunks, {
         type: "video/webm",
       });
