@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { isMobile } from "react-device-detect";
@@ -9,9 +8,9 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import Layout from "./components/UI/Layout";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
-import AccessCodeScreen from "./components/MiscScreens/AccessCodeScreen/AccessCodeScreen";
 import MobileView from "./components/MiscScreens/MobileView/MobileView";
 import ContentSelection from "./components/ContentSelection/ContentSelection";
+import AccessCodePrompt from "./components/MiscScreens/AccessCodePrompt/AccessCodePrompt";
 
 export class AppHelper {
   static developerMode = false;
@@ -22,7 +21,7 @@ export class AppHelper {
   static LoginUrl =
     "https://b2ctenantlaparoacademy.b2clogin.com/b2ctenantlaparoacademy.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_academysignupsignin&client_id=5543e448-b26a-4ec3-955c-3c7e70b24d88&nonce=defaultNonce&redirect_uri=https%3A%2F%2Facademy.laparosimulators.com&scope=openid&response_type=id_token&prompt=login";
   static AllowAccessCodeOrigin = "https://academy.laparosimulators.com";
-  static LocalizationVersion = 7;
+  static LocalizationVersion = 9;
   static ContentVersion = 3;
   static onRequestError(error) {
     if (error.response === undefined) {
@@ -180,6 +179,11 @@ export class AppHelper {
       },
     });
   }
+  static TesterConsoleLog(output) {
+    if (featureTestingMode === true) {
+      console.log(output);
+    }
+  }
   static GetUserEmail() {
     // this simply checks for the user email and returns it - if in devmode sets up a local email address
     if (AppHelper.developerMode === false) {
@@ -203,13 +207,8 @@ export class AppHelper {
 }
 
 function App() {
-  // test
-
   // load user:
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
-  const [userIsActive, setUserIsActive] = useState(0);
-  const [accessCodeCheck, setAccessCodeCheck] = useState(false);
-  const [accessCodeError, setAccessCodeError] = useState(false);
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
   const [userConfirmed, setUserConfirmed] = useState(false);
   const [userActivityHistory, setUserActivityHistory] = useState(null);
@@ -228,6 +227,14 @@ function App() {
   //Keeping these here because they're important?
   const [webCamTrainingActive, setwebCamTrainingActive] = useState(false); // use this to activate/deactivate WebcamTraining
 
+  // AccessCodeCHeck:
+  // const [accessCodeCheck, setAccessCodeCheck] = useState(false);
+  const [accessCodeError, setAccessCodeError] = useState(false);
+
+  // AccessCodePrompt:
+  const [accessCodePrompt, setAccessCodePrompt] = useState(null);
+  const [firstLoginDate, setFirstLoginDate] = useState(null);
+
   React.useEffect(() => {
     if (userLoaded === false) {
       loadUser();
@@ -243,14 +250,16 @@ function App() {
 
     if (loaded === true) {
       if (localizationData.language !== selectedLanguage) {
+        AppHelper.TesterConsoleLog("getLocalization");
         getLocalization();
       }
     }
   }, [
     loaded,
     tokenConfirmed,
-    userIsActive,
-    accessCodeCheck,
+    // accessCodeCheck,
+    accessCodePrompt,
+    accessCodeError,
     courses,
     localizationData,
     selectedLanguage,
@@ -259,55 +268,57 @@ function App() {
     userTrainingHistory,
     userLoaded,
     contentLoaded,
+    userConfirmed,
   ]);
 
   // loadUser Functions:
   function loadUser() {
-    // console.log("loadUser");
-   
     if (AppHelper.developerMode === true && userConfirmed === false) {
       // check if devMode
+      setAccessCodePrompt(true);
       setTokenConfirmed(true);
-      setUserIsActive(1);
       if (featureTestingMode === null) {
         setFeatureTestingMode(true);
       }
       setUserConfirmed(true);
+      // setAccessCodePrompt(false);
     }
 
     if (AppHelper.developerMode === false && userConfirmed === false) {
       //confirm User (if not devmode)
       if (tokenConfirmed === false) {
+        AppHelper.TesterConsoleLog("checkToken");
         checkToken();
-        
       }
 
-      if (tokenConfirmed === true && userIsActive === 0) {
+      if (tokenConfirmed === true && accessCodePrompt === null) {
+        AppHelper.TesterConsoleLog("checkUserActive");
         checkUserActive();
-        
       }
 
-      if (userIsActive === 1 && featureTestingMode === null) {
+      if (featureTestingMode === null && accessCodePrompt !== null) {
+        AppHelper.TesterConsoleLog("checkTesterUser");
         checkTesterUser();
-       
       }
 
-      if (tokenConfirmed === true && userIsActive === 1) {
-        // console.log("setUserConfirmed");
+      if (tokenConfirmed === true && featureTestingMode !== null) {
+        AppHelper.TesterConsoleLog("setUserConfirmed");
+
         setUserConfirmed(true);
       }
     }
 
     //if user confirmed - acquire and extract individual training history
     if (userConfirmed === true && userActivityHistory === null) {
+      AppHelper.TesterConsoleLog("AcquireUserHistory");
       AcquireUserHistory();
     }
 
     if (userActivityHistory !== null && userTrainingHistory.length === 0) {
+      AppHelper.TesterConsoleLog("extractUserTrainingHistory");
+
       extractUserTrainingHistory(userActivityHistory);
     }
-
-
 
     // if training history acquired and user confirmed - setUserLoaded(true)
     if (
@@ -315,12 +326,15 @@ function App() {
       userConfirmed === true &&
       contentLoaded === false
     ) {
+      AppHelper.TesterConsoleLog("setUserLoaded(true)");
+
       setUserLoaded(true);
     }
   }
 
   function checkToken() {
-    // console.log("checkToken");
+    AppHelper.TesterConsoleLog("checkToken");
+
     // this takes the token present in the browser and bounces user back to login screen if anything is wrong
     var fullIp = window.location.href.split("#id_token=");
     var webToken = fullIp[1];
@@ -340,7 +354,8 @@ function App() {
   }
 
   const checkUserActive = async () => {
-    // console.log('checking if user is active');
+    AppHelper.TesterConsoleLog("checking if user is active");
+
     //this checks if our user is 'active' in our database - the user is active only after providing the serial number on device.
     //If user is not active, bounces to access code check screen.
     var thisUserEmail = AppHelper.GetUserEmail();
@@ -354,20 +369,21 @@ function App() {
       });
 
       if (response.data === true) {
-        setUserIsActive(1);
-      //   console.log("checkUserActive;setUserIsActive(1);")
+        setAccessCodePrompt(false);
+      } else if (response.data === false) {
+        // setAccessCodeCheck(true);
+        setAccessCodePrompt(true);
       } else {
-        setAccessCodeCheck(true);
-     //    console.log("checkUserActive;setAccessCodeCheck(true);");
+        setAccessCodePrompt(true);
       }
     } catch (error) {
       AppHelper.onRequestError(error);
-     //  console.log("checkUserActive;AppHelper.onRequestError(error);");
     }
   };
 
   const checkTesterUser = async () => {
-    // console.log('checkTesterUser');
+    AppHelper.TesterConsoleLog("checkTesterUser");
+
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
     var thisUserEmail = AppHelper.GetUserEmail();
     try {
@@ -381,7 +397,9 @@ function App() {
 
       if (response.data === true) {
         setFeatureTestingMode(true);
-        console.log("tester mode active - logged in as tester user");
+        AppHelper.TesterConsoleLog(
+          "tester mode active - logged in as tester user"
+        );
       } else {
         setFeatureTestingMode(false);
       }
@@ -426,6 +444,8 @@ function App() {
   }
 
   function activateUser(thisaccesscode) {
+    AppHelper.TesterConsoleLog("activateUser");
+
     // this is used to activate the user - adds the user to the table containing 'active users'
     var thisUserEmail = AppHelper.GetUserEmail();
     axios
@@ -442,7 +462,8 @@ function App() {
       })
       .then(() => {
         // setLoaded(true);
-        setAccessCodeCheck(false);
+        // setAccessCodeCheck(false);
+        setAccessCodePrompt(false);
         checkUserActive();
         var activateduser = "activateduser";
         AppHelper.LogEvent(activateduser);
@@ -451,8 +472,8 @@ function App() {
 
   const AcquireUserHistory = async () => {
     // Acquire all existing User activity (done once at every login)
-    // console.log("AcquireUserHistory");
-   
+    AppHelper.TesterConsoleLog("AcquireUserHistory");
+
     var thisUserEmail = AppHelper.GetUserEmail();
 
     try {
@@ -465,8 +486,8 @@ function App() {
           email: thisUserEmail,
         },
       });
-      // console.log("setUserActivityHistory");
-      
+      AppHelper.TesterConsoleLog("setUserActivityHistory");
+
       setUserActivityHistory(response.data);
     } catch (error) {
       AppHelper.onRequestError(error);
@@ -474,8 +495,8 @@ function App() {
   };
 
   function extractUserTrainingHistory(userActivityHistory) {
-    // console.log("extractUserTrainingHistory");
-    
+    AppHelper.TesterConsoleLog("extractUserTrainingHistory");
+
     //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
     let activityhistory = [];
     for (let i = 0; i < userActivityHistory.length; i++) {
@@ -483,13 +504,21 @@ function App() {
         activityhistory.push(userActivityHistory[i].component);
       }
     }
+
+    // this finds the first occurence of a 'login' event and notes it down.
+    const firstloginevent = userActivityHistory.find(
+      ({ event }) => event === "login"
+    );
+    setFirstLoginDate(firstloginevent.date);
+    AppHelper.TesterConsoleLog(firstloginevent);
+    AppHelper.TesterConsoleLog("setUserTrainingHistory");
     setUserTrainingHistory(activityhistory);
   }
 
   // loadContent Functions:
   function loadContent() {
-    // console.log("loadContent();");
-    
+    AppHelper.TesterConsoleLog("loadContent");
+
     if (localizationData === null) {
       getLocalization();
     }
@@ -508,8 +537,8 @@ function App() {
   }
 
   function getLocalization() {
-    // console.log("getLocalization");
-    
+    AppHelper.TesterConsoleLog("getLocalization");
+
     //this fetches the localization data and then sends it over to be parsed out for selected language:
     fetch(
       `${AppHelper.storageUrl}laparoacademy-jsoncontent/academy_localization.json?v=${AppHelper.LocalizationVersion}`,
@@ -530,8 +559,8 @@ function App() {
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {
-    // console.log("extractLocalizationData");
-    
+    AppHelper.TesterConsoleLog("extractLocalizationData");
+
     // this parses out all localization for selected language:
     var extractedLocalization = {};
     var localizationPages = Object.entries(myJson);
@@ -559,8 +588,7 @@ function App() {
   function ChangeLanguage(lang) {
     setSelectedLanguage(lang.toString());
     getLocalization();
-    let selectedlanguage = lang.toString();
-    AppHelper.LogEvent("languageselected", selectedlanguage);
+    AppHelper.LogEvent("languageselected", lang.toString());
   }
 
   function MostRecentLanguage() {
@@ -595,8 +623,8 @@ function App() {
   }
 
   function getCourses() {
-  //   console.log("getCourses");
-   
+    AppHelper.TesterConsoleLog("getCourses");
+
     // fetches all courses from json. upon success sets the course data and displays the first course:
     if (courses === null) {
       fetch(
@@ -653,8 +681,7 @@ function App() {
 
   function StartScenarioFreeTraining() {
     setwebCamTrainingActive(true);
-    var scenariostart = "scenariostart";
-    AppHelper.LogEvent(scenariostart, "scenariofree");
+    AppHelper.LogEvent("scenariostart", "scenariofree");
   }
 
   // Render JSX components:
@@ -680,7 +707,6 @@ function App() {
         <WebcamTraining
           localizationData={localizationData}
           selectedLanguage={selectedLanguage}
-          userIsActive={userIsActive}
           setSelectedLanguage={setSelectedLanguage}
           getLocalization={getLocalization}
           developerMode={AppHelper.developerMode}
@@ -694,18 +720,23 @@ function App() {
 
   if (isMobile === true) {
     return <MobileView />;
-  } else if (accessCodeCheck === true) {
-    return (
-      <AccessCodeScreen
-        sendAccessCode={sendAccessCode}
-        accessCodeError={accessCodeError}
-      />
-    );
   } else if (loaded === false) {
     return <LoadingScreen />;
   } else {
     return (
       <Fragment>
+        {accessCodePrompt ? (
+          <AccessCodePrompt
+            sendAccessCode={sendAccessCode}
+            accessCodeError={accessCodeError}
+            setAccessCodePrompt={setAccessCodePrompt}
+            accessCodePrompt={accessCodePrompt}
+            firstLoginDate={firstLoginDate}
+            localizationData={localizationData}
+          ></AccessCodePrompt>
+        ) : (
+          ""
+        )}
         <BrowserRouter>
           <Routes>
             <Route
@@ -713,7 +744,6 @@ function App() {
               element={
                 <Layout
                   userEmail={AppHelper.GetUserEmail()}
-                  userIsActive={userIsActive}
                   selectedLanguage={selectedLanguage}
                   setSelectedLanguage={setSelectedLanguage}
                   localizationData={localizationData}
@@ -731,7 +761,6 @@ function App() {
               <Route index element={<RenderMainTrainingSelection />} />
               <Route path="about" element={<AboutPage />} />
               <Route path="webcamtraining" element={<RenderWebcamTraining />} />
-              {/* <Route path="*" element={<NoPage />} /> */}
             </Route>
           </Routes>
         </BrowserRouter>

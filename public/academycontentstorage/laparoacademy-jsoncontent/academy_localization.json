@@ -176,5 +176,56 @@
         "pl": "Kursy"
       }
     }
+  },
+  "accesscodeprompt": {
+    "header": {
+      "description": "Header of AccessCode Prompt",
+      "text": {
+        "en": "Warning",
+        "pl": "Uwaga"
+      }
+    },
+    "information": {
+      "description": "Explanation of AccessCode Prompt",
+      "text": {
+        "en": "To activate your account, please submit the product number of your Laparo device. You will find it on the sticker of your device. If you can't find it, please contact us at academy@laparosimulators.com",
+        "pl": "Aby aktywować konto, wprowadź numer seryjny urządzenia Laparo. Znajduje się on na naklejce pokazanej poniżej. W razie problemów, prosimy o kontakt academy@laparosimulators.com"
+      }
+    },
+    "trialmodeactive": {
+      "description": "Explanation that you are still in trial mode.",
+      "text": {
+        "en": "You are currently in trial mode. Your trial expires:",
+        "pl": "Jesteś obecnie w trybie próbnym. Twój okres próbny kończy się:"
+      }
+    },
+    "expiredtrialmode": {
+      "description": "Explanation that your trial mode is expired",
+      "text": {
+        "en": "Sorry, but your free 14 day trial is over! It expired on:",
+        "pl": "Niestety, twój 14 dniowy okres próbny minął! Upłynął:"
+      }
+    },
+    "dismissbutton": {
+      "description": "Button to dismiss",
+      "text": {
+        "en": "Dismiss",
+        "pl": "Pomiń"
+      }
+    },
+    "codebutton": {
+      "description": "Button to send code",
+      "text": {
+        "en": "Send",
+        "pl": "Wyślij"
+      }
+    },
+    "notvalid": {
+      "description": "Text informing that code was invalid",
+      "text": {
+        "en": "Sorry, your access code is not valid.",
+        "pl": "Przepraszamy, podany kod jest nieprawidłowy."
+      }
+    }
   }
 }

@@ -1,13 +1,13 @@
 import React from "react";
-import classes from "./LaparoSticker.module.css";
+import classes from "./LaparoPromptSticker.module.css";
 
-function LaparoSticker() {
+function LaparoPromptSticker() {
   function Icon() {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="399"
-        height="269"
+        width="245"
+        height="171"
         version="1.1"
         viewBox="0 0 399 269"
         xmlSpace="preserve"
@@ -346,4 +346,4 @@ function LaparoSticker() {
   );
 }
 
-export default LaparoSticker;
+export default LaparoPromptSticker;

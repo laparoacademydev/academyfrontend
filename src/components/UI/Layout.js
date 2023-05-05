@@ -112,7 +112,6 @@ function Layout(props) {
       <UserPanel
         userEmail={props.userEmail}
         setTrainingList={props.setTrainingList}
-        userIsActive={props.userIsActive}
         url={props.url}
         selectedLanguage={props.selectedLanguage}
         setSelectedLanguage={props.setSelectedLanguage}
@@ -122,9 +121,7 @@ function Layout(props) {
         devices={props.devices}
         switchDeviceId={props.switchDeviceId}
         deviceId={props.deviceId}
-        // selectedItem={props.selectedItem}
         setwebCamTrainingActive={props.setwebCamTrainingActive}
-        // setSelectedItem={props.setSelectedItem}
         ChangeLanguage={props.ChangeLanguage}
       />
       <Outlet />

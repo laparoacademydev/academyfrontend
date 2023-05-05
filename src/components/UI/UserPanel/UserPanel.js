@@ -7,8 +7,6 @@ import survicon from "../../../graphicassets/icons/surveyico_white.svg";
 import shopicon from "../../../graphicassets/icons/shopico_white.svg";
 import exitusericon from "../../../graphicassets/icons/exituserico_white.svg";
 import xicon from "../../../graphicassets/icons/X_icon_white.svg";
-import usericon from "../../../graphicassets/icons/userico_white.svg";
-
 import LanguageSelector from "./LanguageSelector.js";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
 
@@ -199,7 +197,6 @@ function UserPanel(props) {
                 onclick={item.onclick}
                 icon={item.icon}
                 setTrainingList={props.setTrainingList}
-                userIsActive={props.userIsActive}
                 url={props.url}
                 userPanelActive={userPanelActive}
                 setUserPanelActive={setUserPanelActive}

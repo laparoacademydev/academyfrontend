@@ -1,0 +1,29 @@
+.buttonstarttraining {
+  position: fixed;
+  /* float: right; */
+  /* left: calc(20% + 950px); */
+  z-index: 1;
+  margin-left: 770px;
+  bottom: 20px;
+  background-color: #2cc25f;
+  width: 148px;
+  height: 46px;
+  border-radius: 3px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonstarttraining:hover {
+  background-color: #26a350;
+}
+
+.buttontext {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 46px;
+}

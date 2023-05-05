@@ -9,7 +9,6 @@ import CameraSelect from "./CameraSelect/CameraSelect";
 import { Fragment } from "react";
 
 function WebcamTraining(props) {
-  
   const webcamRef = React.useRef(null);
   const mediaRecorderRef = React.useRef(null);
   const [capturing, setCapturing] = React.useState(false);
@@ -71,7 +70,10 @@ function WebcamTraining(props) {
   const handleStartCaptureClick = React.useCallback(() => {
     setTrainingStartTime(Date.now());
     let starttrainingrecording = "starttrainingrecording";
-    AppHelper.LogEvent(starttrainingrecording, window.location.href.split("?id=")[1]);
+    AppHelper.LogEvent(
+      starttrainingrecording,
+      window.location.href.split("?id=")[1]
+    );
     setCapturing(true);
     mediaRecorderRef.current = new MediaRecorder(webcamRef.current.stream, {
       mimeType: "video/webm",
@@ -85,7 +87,10 @@ function WebcamTraining(props) {
 
   const handleStopCaptureClick = React.useCallback(() => {
     let stoptrainingrecording = "stoptrainingrecording";
-    AppHelper.LogEvent(stoptrainingrecording, window.location.href.split("?id=")[1]);
+    AppHelper.LogEvent(
+      stoptrainingrecording,
+      window.location.href.split("?id=")[1]
+    );
     mediaRecorderRef.current.stop();
     setCapturing(false);
   }, [mediaRecorderRef, setCapturing]);
@@ -94,7 +99,8 @@ function WebcamTraining(props) {
     let videodownload = "videodownload";
     AppHelper.LogEvent(videodownload, window.location.href.split("?id=")[1]);
     if (recordedChunks.length) {
-      let fileName = window.location.href.split("?id=")[1] + " " + Date().toString();
+      let fileName =
+        window.location.href.split("?id=")[1] + " " + Date().toString();
       const blob = new Blob(recordedChunks, {
         type: "video/webm",
       });
@@ -119,7 +125,7 @@ function WebcamTraining(props) {
         ({ label }) =>
           label.includes("USB2.0 Camera") || label.includes("HD USB Camera")
       );
-      if (filteredDevices.length == 0) {
+      if (filteredDevices.length === 0) {
         filteredDevices = newDevices;
       }
       switchDeviceId(filteredDevices[0]);

@@ -1,9 +1,8 @@
-import classes from "./AccessCodeScreen.module.css";
-import { AppHelper } from "../../../App";
-import React, { useState } from "react";
+import classes from "./AccessCodePromptSubmit.module.css";
+import React from "react";
 import buttonclasses from "../../UI/Button.module.css";
 
-function AccessCodeSubmit(props) {
+function AccessCodePromptSubmit(props) {
   return (
     <div
       className={classes.accesscode}
@@ -28,11 +27,13 @@ function AccessCodeSubmit(props) {
             );
           }}
         >
-          <div className={`${classes.accesscodesubmitbtntext}`}>submit</div>
+          <div className={`${classes.accesscodesubmitbtntext}`}>
+            {props.localizationData.accesscodeprompt.codebutton}
+          </div>
         </div>
       </form>
     </div>
   );
 }
 
-export default AccessCodeSubmit;
+export default AccessCodePromptSubmit;

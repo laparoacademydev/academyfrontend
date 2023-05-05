@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../DisplayedItemContent.module.css";
+import classes from "./ScenarioButton.module.css";
 import { AppHelper } from "../../../../App";
 import { Link } from "react-router-dom";
 

@@ -1,0 +1,56 @@
+.accesscode {
+  position: relative;
+  z-index: 20;
+  /* width: 100%; */
+  color: white;
+  margin: 5% 5%;
+}
+
+.accesscodeform {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 0px;
+}
+
+.textinput {
+  position: relative;
+  float: left;
+  height: 46px;
+  font-size: 24px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  width: 295px;
+}
+
+.accesscodesubmitbtn {
+  /* position: relative; */
+  float: right;
+  width: 150px;
+  /* margin-top: 30px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.accesscodesubmitbtninactive {
+  background-color: #7e7e7e;
+}
+
+.accesscodesubmitbtnactive {
+  background-color: #2cc25f;
+}
+
+.accesscodesubmitbtnactive:hover {
+  background-color: #26a350;
+}
+
+.accesscodesubmitbtntext {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 7px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
