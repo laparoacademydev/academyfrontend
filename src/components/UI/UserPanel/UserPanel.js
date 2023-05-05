@@ -1,18 +1,13 @@
-import { useState } from "react";
-import React from "react";
-import { AppHelper } from "./../../../App.js";
-import { Fragment } from "react";
-
+import React, { Fragment, useState } from "react";
+import AppHelper from "./../../../App.js";
 import survicon from "../../../graphicassets/icons/surveyico_white.svg";
 import shopicon from "../../../graphicassets/icons/shopico_white.svg";
 import exitusericon from "../../../graphicassets/icons/exituserico_white.svg";
 import xicon from "../../../graphicassets/icons/X_icon_white.svg";
 import LanguageSelector from "./LanguageSelector.js";
 import ActiveUserPanelItem from "./ActiveUserPanelItem";
-
 import HelpPrompt from "./HelpPrompt";
 import CurrentScenarioDescription from "./WebcamTrainingUserPanel/CurrentScenarioDescription";
-
 import classes from "./UserPanel.module.css";
 import burgericon from "../../../graphicassets/icons/burgico_blue.svg";
 

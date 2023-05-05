@@ -1,12 +1,10 @@
+import React, { Fragment, useState } from "react";
+import AppHelper from "../../App";
 import LeftSidePanel from "./LeftSidePanel/LeftSidePanel";
-import { Fragment } from "react";
-import { AppHelper } from "../../App";
 import MainList from "./MainList/MainList";
 import DisplayedItemContent from "./DisplayedItemContent/DisplayedItemContent";
-import { useState } from "react";
-import React from "react";
 
-function ContentSelection(props) {
+function DisplayedContentSelection(props) {
   // tells component to render after all is done
   const [contentSelectionListLoaded, setContentSelectionListLoaded] =
     useState(false);
@@ -19,9 +17,6 @@ function ContentSelection(props) {
   );
 
   React.useEffect(() => {
-    // console.log("ContentSelection useEffect");
-    // console.log(props);
-
     if (selectedCourseID === null && displayContentItem === false) {
       RenderScenarioList(props.courses.courses[0]);
     }
@@ -41,8 +36,6 @@ function ContentSelection(props) {
   //functions:
 
   function RenderScenarioList(selectedCourse) {
-    // console.log("RenderScenarioList in contentselection fired");
-
     // props.setSelectedItemContent(AppHelper.DefaultFreeTraining);
     props.setwebCamTrainingActive(false);
     setSelectedCourseID(selectedCourse.id);
@@ -169,4 +162,4 @@ function ContentSelection(props) {
   }
 }
 
-export default ContentSelection;
+export default DisplayedContentSelection;

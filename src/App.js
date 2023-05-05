@@ -9,7 +9,7 @@ import Layout from "./components/UI/Layout";
 import WebcamTraining from "./components/WebcamTraining/WebcamTraining";
 import LoadingScreen from "./components/MiscScreens/LoadingScreen/LoadingScreen";
 import MobileView from "./components/MiscScreens/MobileView/MobileView";
-import ContentSelection from "./components/ContentSelection/ContentSelection";
+import DisplayedContentSelection from "./components/ContentSelection/DisplayedContentSelection";
 import AccessCodePrompt from "./components/MiscScreens/AccessCodePrompt/AccessCodePrompt";
 
 export class AppHelper {
@@ -210,12 +210,17 @@ function App() {
   // load user:
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
   const [featureTestingMode, setFeatureTestingMode] = useState(null);
+  const [accessCodePrompt, setAccessCodePrompt] = useState(null);
+  const [accessCodeError, setAccessCodeError] = useState(false);
   const [userConfirmed, setUserConfirmed] = useState(false);
+
+  const [firstLoginDate, setFirstLoginDate] = useState(null);
   const [userActivityHistory, setUserActivityHistory] = useState(null);
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
   const [userLoaded, setUserLoaded] = useState(false); //concludes loading user
   // loadContent
   const [localizationData, setLocalizationData] = useState(null);
+
   const [courses, setCourses] = useState(null);
   const [contentLoaded, setContentLoaded] = useState(false); //concludes loading content
 
@@ -226,14 +231,6 @@ function App() {
 
   //Keeping these here because they're important?
   const [webCamTrainingActive, setwebCamTrainingActive] = useState(false); // use this to activate/deactivate WebcamTraining
-
-  // AccessCodeCHeck:
-  // const [accessCodeCheck, setAccessCodeCheck] = useState(false);
-  const [accessCodeError, setAccessCodeError] = useState(false);
-
-  // AccessCodePrompt:
-  const [accessCodePrompt, setAccessCodePrompt] = useState(null);
-  const [firstLoginDate, setFirstLoginDate] = useState(null);
 
   React.useEffect(() => {
     if (userLoaded === false) {
@@ -257,7 +254,6 @@ function App() {
   }, [
     loaded,
     tokenConfirmed,
-    // accessCodeCheck,
     accessCodePrompt,
     accessCodeError,
     courses,
@@ -371,7 +367,6 @@ function App() {
       if (response.data === true) {
         setAccessCodePrompt(false);
       } else if (response.data === false) {
-        // setAccessCodeCheck(true);
         setAccessCodePrompt(true);
       } else {
         setAccessCodePrompt(true);
@@ -462,7 +457,6 @@ function App() {
       })
       .then(() => {
         // setLoaded(true);
-        // setAccessCodeCheck(false);
         setAccessCodePrompt(false);
         checkUserActive();
         var activateduser = "activateduser";
@@ -688,7 +682,7 @@ function App() {
   function RenderMainTrainingSelection() {
     return (
       <Fragment>
-        <ContentSelection
+        <DisplayedContentSelection
           selectedLanguage={selectedLanguage}
           userTrainingHistory={userTrainingHistory}
           setwebCamTrainingActive={setwebCamTrainingActive}
@@ -696,7 +690,7 @@ function App() {
           setUserTrainingHistory={setUserTrainingHistory}
           StartScenarioFreeTraining={StartScenarioFreeTraining}
           courses={courses}
-        ></ContentSelection>
+        ></DisplayedContentSelection>
       </Fragment>
     );
   }

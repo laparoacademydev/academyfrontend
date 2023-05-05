@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-
 import classes from "./WebcamTimerPill.module.css";
-
 import recordico from "../../graphicassets/icons/record_ico.svg";
 import downloadico from "../../graphicassets/icons/downloadico.svg";
 

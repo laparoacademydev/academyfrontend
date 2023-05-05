@@ -1,13 +1,8 @@
-import { Fragment } from "react";
-import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
-//
-import classes from "./Layout.module.css";
-import UserPanel from "./UserPanel/UserPanel";
-
-//
+import React, { Fragment, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import React from "react";
-import { useState } from "react";
+import ScreenHeightWidthTester from "../devTools/ScreenHeightWidthTester";
+import UserPanel from "./UserPanel/UserPanel";
+import classes from "./Layout.module.css";
 import laparologo from "../../graphicassets/LaparoAcademyLogo.svg";
 
 function Layout(props) {

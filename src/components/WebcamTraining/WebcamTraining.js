@@ -1,12 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
+import AppHelper from "../../App";
 import classes from "./WebcamTraining.module.css";
 import Webcam from "react-webcam";
 import WebcamControlPanel from "./WebcamControlPanel";
 import WebcamExit from "./WebcamExit";
-import { AppHelper } from "../../App";
 import CameraSelect from "./CameraSelect/CameraSelect";
-
-import { Fragment } from "react";
 
 function WebcamTraining(props) {
   const webcamRef = React.useRef(null);
