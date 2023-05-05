@@ -38,21 +38,17 @@ function ReturnNextPrevNav(props) {
         scenarioListArrayNextPosition = i + 1;
         scenarioListArrayPrevPosition = i - 1;
 
-        if (i - 1 >= 0) {
-          setSelectedPrevItem(
-            selectedScenarioList[scenarioListArrayPrevPosition].scenario
-          );
-        } else {
-          setSelectedPrevItem(null);
-        }
+        setSelectedPrevItem(
+          scenarioListArrayPrevPosition >= 0
+            ? selectedScenarioList[scenarioListArrayPrevPosition].scenario
+            : null
+        );
 
-        if (i + 1 <= selectedScenarioList.length - 1) {
-          setSelectedNextItem(
-            selectedScenarioList[scenarioListArrayNextPosition].scenario
-          );
-        } else {
-          setSelectedNextItem(null);
-        }
+        setSelectedNextItem(
+          scenarioListArrayNextPosition <= selectedScenarioList.length - 1
+            ? selectedScenarioList[scenarioListArrayNextPosition].scenario
+            : null
+        );
       }
     }
   }

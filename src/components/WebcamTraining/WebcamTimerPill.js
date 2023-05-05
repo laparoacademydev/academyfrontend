@@ -8,33 +8,19 @@ function WebcamTimerPill(props) {
   const [minutes, setMinutes] = useState("00");
   const [hours, setHours] = useState("00");
 
-  function secondsToTime(timeInSeconds) {
-    let hours = Math.floor(timeInSeconds / (60 * 60));
+  const secondsToTime = (timeInSeconds) => {
+    const hours = Math.floor(timeInSeconds / (60 * 60));
 
-    let divisor_for_minutes = timeInSeconds % (60 * 60);
-    let minutes = Math.floor(divisor_for_minutes / 60);
+    const divisorForMinutes = timeInSeconds % (60 * 60);
+    const minutes = Math.floor(divisorForMinutes / 60);
 
-    let divisor_for_seconds = divisor_for_minutes % 60;
-    let seconds = Math.ceil(divisor_for_seconds);
+    const divisorForSeconds = divisorForMinutes % 60;
+    const seconds = Math.ceil(divisorForSeconds);
 
-    if (seconds < 10) {
-      setSeconds(`0${seconds}`);
-    } else {
-      setSeconds(seconds);
-    }
-
-    if (minutes < 10) {
-      setMinutes(`0${minutes}`);
-    } else {
-      setMinutes(minutes);
-    }
-
-    if (hours < 10) {
-      setHours(`0${hours}`);
-    } else {
-      setHours(hours);
-    }
-  }
+    setSeconds(seconds < 10 ? `0${seconds}` : seconds);
+    setMinutes(minutes < 10 ? `0${minutes}` : minutes);
+    setHours(hours < 10 ? `0${hours}` : hours);
+  };
 
   function AskStopCounter() {
     if (props.capturing !== true) {

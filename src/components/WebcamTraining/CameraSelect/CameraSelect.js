@@ -20,17 +20,15 @@ function CameraSelect(props) {
     }
   }, [props.deviceId]);
 
-  function convertDeviceLabel(label) {
+  const convertDeviceLabel = (label) => {
     if (label.includes("HD USB Camera")) {
-      let a = "Advance Camera";
-      return a;
+      return "Advance Camera";
     } else if (label.includes("USB2.0 Camera")) {
-      let b = "Aspire Camera";
-      return b;
+      return "Aspire Camera";
     } else {
       return label;
     }
-  }
+  };
 
   return (
     <div className={classes.cameraselector}>

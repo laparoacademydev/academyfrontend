@@ -2,13 +2,7 @@ import React from "react";
 import classes from "./LeftSidePanel.module.css";
 
 function LeftSidePanelItem(props) {
-  function CheckIfSelected() {
-    if (props.course.id === props.selectedCourseID) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  const CheckIfSelected = () => props.course.id === props.selectedCourseID;
 
   function SelectPanelItem() {
     props.setDisplayContentItem(false);

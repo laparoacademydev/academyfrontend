@@ -16,12 +16,9 @@ function EducationItem(props) {
   }
 
   function SelectItem() {
-    // console.log("SelectItem clicked");
-    // console.log(props.selectedScenario);
     props.setSelectedItemContent(props.selectedScenario);
     props.setDisplayContentItem(true);
-    let eduselected = "eduselected";
-    AppHelper.LogEvent(eduselected, props.selectedScenario.id);
+    AppHelper.LogEvent("eduselected", props.selectedScenario.id);
   }
 
   return (
