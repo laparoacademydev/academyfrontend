@@ -160,24 +160,19 @@ export class AppHelper {
     // events with components: courseselected, scenarioselected, eduselected, scenariostart, advanceselect, aspireselect, starttrainingrecording, stoptrainingrecording, videodownload, endtraining
     // special event with component (this gets added, but also removed if user unclicks): scenariocompleted, languageselected
 
-    var thisUserEmail = AppHelper.GetUserEmail();
+    const thisUserEmail = AppHelper.GetUserEmail();
+    const headers = {
+      "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+      "Access-Control-Allow-Headers": "*",
+    };
+    const params = {
+      email: thisUserEmail,
+      date: Date(),
+      event: event,
+      component: component || "none",
+    };
 
-    if (component === null || component === undefined) {
-      component = "none";
-    }
-
-    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, {
-      headers: {
-        "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-        "Access-Control-Allow-Headers": "*",
-      },
-      params: {
-        email: thisUserEmail,
-        date: Date(),
-        event: event,
-        component: component,
-      },
-    });
+    axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, { headers, params });
   }
   static TesterConsoleLog(output) {
     if (featureTestingMode === true) {
@@ -213,23 +208,17 @@ function App() {
   const [accessCodePrompt, setAccessCodePrompt] = useState(null);
   const [accessCodeError, setAccessCodeError] = useState(false);
   const [userConfirmed, setUserConfirmed] = useState(false);
-
   const [firstLoginDate, setFirstLoginDate] = useState(null);
   const [userActivityHistory, setUserActivityHistory] = useState(null);
   const [userTrainingHistory, setUserTrainingHistory] = useState([]);
   const [userLoaded, setUserLoaded] = useState(false); //concludes loading user
   // loadContent
   const [localizationData, setLocalizationData] = useState(null);
-
   const [courses, setCourses] = useState(null);
   const [contentLoaded, setContentLoaded] = useState(false); //concludes loading content
-
-  // after content is loaded and user is loaded - loaded renders App:
+  // after content is loaded and user is loaded - loaded true tells render App:
   const [loaded, setLoaded] = useState(false); //concludes loading
-
   const [selectedLanguage, setSelectedLanguage] = useState("en");
-
-  //Keeping these here because they're important?
   const [webCamTrainingActive, setwebCamTrainingActive] = useState(false); // use this to activate/deactivate WebcamTraining
 
   React.useEffect(() => {
@@ -280,14 +269,14 @@ function App() {
       // setAccessCodePrompt(false);
     }
 
-    if (AppHelper.developerMode === false && userConfirmed === false) {
+    if (!AppHelper.developerMode && !userConfirmed) {
       //confirm User (if not devmode)
-      if (tokenConfirmed === false) {
+      if (!tokenConfirmed) {
         AppHelper.TesterConsoleLog("checkToken");
         checkToken();
       }
 
-      if (tokenConfirmed === true && accessCodePrompt === null) {
+      if (tokenConfirmed && accessCodePrompt === null) {
         AppHelper.TesterConsoleLog("checkUserActive");
         checkUserActive();
       }
@@ -297,33 +286,26 @@ function App() {
         checkTesterUser();
       }
 
-      if (tokenConfirmed === true && featureTestingMode !== null) {
+      if (tokenConfirmed && featureTestingMode !== null) {
         AppHelper.TesterConsoleLog("setUserConfirmed");
-
         setUserConfirmed(true);
       }
     }
 
     //if user confirmed - acquire and extract individual training history
-    if (userConfirmed === true && userActivityHistory === null) {
+    if (userConfirmed && userActivityHistory === null) {
       AppHelper.TesterConsoleLog("AcquireUserHistory");
       AcquireUserHistory();
     }
 
     if (userActivityHistory !== null && userTrainingHistory.length === 0) {
       AppHelper.TesterConsoleLog("extractUserTrainingHistory");
-
       extractUserTrainingHistory(userActivityHistory);
     }
 
     // if training history acquired and user confirmed - setUserLoaded(true)
-    if (
-      userActivityHistory !== null &&
-      userConfirmed === true &&
-      contentLoaded === false
-    ) {
+    if (userActivityHistory !== null && userConfirmed && !contentLoaded) {
       AppHelper.TesterConsoleLog("setUserLoaded(true)");
-
       setUserLoaded(true);
     }
   }
@@ -332,10 +314,11 @@ function App() {
     AppHelper.TesterConsoleLog("checkToken");
 
     // this takes the token present in the browser and bounces user back to login screen if anything is wrong
-    var fullIp = window.location.href.split("#id_token=");
-    var webToken = fullIp[1];
+    const fullIp = window.location.href.split("#id_token=");
+    const webToken = fullIp[1];
+    const localToken = window.localStorage.getItem("jwt");
+
     if (webToken === null || webToken === undefined) {
-      var localToken = window.localStorage.getItem("jwt");
       if (localToken === null || localToken === undefined) {
         window.location.href = `${AppHelper.LoginUrl}`;
         return false;
@@ -380,24 +363,23 @@ function App() {
     AppHelper.TesterConsoleLog("checkTesterUser");
 
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
-    var thisUserEmail = AppHelper.GetUserEmail();
+    const thisUserEmail = AppHelper.GetUserEmail();
+    const headers = {
+      "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
+      "Access-Control-Allow-Headers": "*",
+    };
+    const params = { email: thisUserEmail };
+
     try {
-      let response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
-        headers: {
-          "Access-Control-Allow-Origin": AppHelper.AllowAccessCodeOrigin,
-          "Access-Control-Allow-Headers": "*",
-        },
-        params: { email: thisUserEmail },
+      const response = await axios.get(`${AppHelper.ApiUrl}CheckTesterUser`, {
+        headers,
+        params,
       });
 
-      if (response.data === true) {
-        setFeatureTestingMode(true);
-        AppHelper.TesterConsoleLog(
-          "tester mode active - logged in as tester user"
-        );
-      } else {
-        setFeatureTestingMode(false);
-      }
+      setFeatureTestingMode(response.data === true);
+      AppHelper.TesterConsoleLog(
+        response.data ? "tester mode active - logged in as tester user" : ""
+      );
     } catch (error) {
       AppHelper.onRequestError(error);
     }
@@ -559,22 +541,21 @@ function App() {
     var extractedLocalization = {};
     var localizationPages = Object.entries(myJson);
 
-    for (let i = 0; i < localizationPages.length; i++) {
-      var localizationPageName = localizationPages[i][0];
-      var localizationPageObject = Object.entries(localizationPages[i][1]);
+    localizationPages.forEach((localizationPage) => {
+      const localizationPageName = localizationPage[0];
+      const localizationPageObject = Object.entries(localizationPage[1]);
 
-      var extractedLocalizationPage = {};
-      for (let a = 0; a < localizationPageObject.length; a++) {
-        var localizationPageObjectName = localizationPageObject[a][0];
-        var localizationPageObjectText = localizationPageObject[a][1].text;
-        var localizationPageObjectTextLanguage =
+      const extractedLocalizationPage = {};
+      localizationPageObject.forEach((localizationPageObjectName) => {
+        const localizationPageObjectText = localizationPageObjectName[1].text;
+        const localizationPageObjectTextLanguage =
           localizationPageObjectText[selectedLanguage];
 
         extractedLocalizationPage[localizationPageObjectName] =
           localizationPageObjectTextLanguage;
-      }
+      });
       extractedLocalization[localizationPageName] = extractedLocalizationPage;
-    }
+    });
     extractedLocalization["language"] = selectedLanguage;
     setLocalizationData(extractedLocalization);
   }
@@ -643,26 +624,22 @@ function App() {
   // Content Related Functions:
   function extractCourseData(myJson) {
     // takes in our json course data and creates an array which containes courses, id's and names:
-    var extractedCourses = { courses };
-    extractedCourses.courses = [];
+    const extractedCourses = { courses: [] };
 
-    for (let i = 0; i < myJson.courses.length; i++) {
-      var courseArray = [];
-      for (let x = 0; x < myJson.courses[i].content.length; x++) {
-        if (myJson.courses[i].content[x].simulators.Academy === true) {
-          courseArray.push(myJson.courses[i].content[x]);
-        }
-      }
+    myJson.courses.forEach((course) => {
+      const courseArray = course.content.filter(
+        (content) => content.simulators.Academy === true
+      );
       if (courseArray.length !== 0) {
-        var currentCourse = {
+        const currentCourse = {
           content: courseArray,
-          id: myJson.courses[i].id,
-          name: myJson.courses[i].name,
+          id: course.id,
+          name: course.name,
         };
 
         extractedCourses.courses.push(currentCourse);
       }
-    }
+    });
 
     return extractedCourses;
   }
