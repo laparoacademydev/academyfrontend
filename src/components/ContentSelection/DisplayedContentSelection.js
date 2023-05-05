@@ -40,7 +40,7 @@ function DisplayedContentSelection(props) {
     props.setwebCamTrainingActive(false);
     setSelectedCourseID(selectedCourse.id);
     var courseselected = "courseselected";
-    AppHelper.LogEvent(courseselected, selectedCourse.id);
+    // AppHelper.LogEvent(courseselected, selectedCourse.id);
 
     let scenarioFileNames = [];
     let scenarioTypes = [];

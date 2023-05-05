@@ -174,7 +174,7 @@ export class AppHelper {
 
     axios.post(`${AppHelper.ApiUrl}LogUserEvent`, null, { headers, params });
   }
-  static TesterConsoleLog(output) {
+  static TesterConsoleLog(featureTestingMode, output) {
     if (featureTestingMode === true) {
       console.log(output);
     }
@@ -204,7 +204,7 @@ export class AppHelper {
 function App() {
   // load user:
   const [tokenConfirmed, setTokenConfirmed] = useState(false);
-  const [featureTestingMode, setFeatureTestingMode] = useState(null);
+  const [featureTestingMode, setFeatureTestingMode] = useState(false);
   const [accessCodePrompt, setAccessCodePrompt] = useState(null);
   const [accessCodeError, setAccessCodeError] = useState(false);
   const [userConfirmed, setUserConfirmed] = useState(false);
@@ -236,7 +236,7 @@ function App() {
 
     if (loaded === true) {
       if (localizationData.language !== selectedLanguage) {
-        AppHelper.TesterConsoleLog("getLocalization");
+        AppHelper.TesterConsoleLog(featureTestingMode, "getLocalization");
         getLocalization();
       }
     }
@@ -272,46 +272,49 @@ function App() {
     if (!AppHelper.developerMode && !userConfirmed) {
       //confirm User (if not devmode)
       if (!tokenConfirmed) {
-        AppHelper.TesterConsoleLog("checkToken");
+        AppHelper.TesterConsoleLog(featureTestingMode, "checkToken");
         checkToken();
       }
 
       if (tokenConfirmed && accessCodePrompt === null) {
-        AppHelper.TesterConsoleLog("checkUserActive");
+        AppHelper.TesterConsoleLog(featureTestingMode, "checkUserActive");
         checkUserActive();
       }
 
       if (featureTestingMode === null && accessCodePrompt !== null) {
-        AppHelper.TesterConsoleLog("checkTesterUser");
+        AppHelper.TesterConsoleLog(featureTestingMode, "checkTesterUser");
         checkTesterUser();
       }
 
       if (tokenConfirmed && featureTestingMode !== null) {
-        AppHelper.TesterConsoleLog("setUserConfirmed");
+        AppHelper.TesterConsoleLog(featureTestingMode, "setUserConfirmed");
         setUserConfirmed(true);
       }
     }
 
     //if user confirmed - acquire and extract individual training history
     if (userConfirmed && userActivityHistory === null) {
-      AppHelper.TesterConsoleLog("AcquireUserHistory");
+      AppHelper.TesterConsoleLog(featureTestingMode, "AcquireUserHistory");
       AcquireUserHistory();
     }
 
     if (userActivityHistory !== null && userTrainingHistory.length === 0) {
-      AppHelper.TesterConsoleLog("extractUserTrainingHistory");
+      AppHelper.TesterConsoleLog(
+        featureTestingMode,
+        "extractUserTrainingHistory"
+      );
       extractUserTrainingHistory(userActivityHistory);
     }
 
     // if training history acquired and user confirmed - setUserLoaded(true)
     if (userActivityHistory !== null && userConfirmed && !contentLoaded) {
-      AppHelper.TesterConsoleLog("setUserLoaded(true)");
+      AppHelper.TesterConsoleLog(featureTestingMode, "setUserLoaded(true)");
       setUserLoaded(true);
     }
   }
 
   function checkToken() {
-    AppHelper.TesterConsoleLog("checkToken");
+    AppHelper.TesterConsoleLog(featureTestingMode, "checkToken");
 
     // this takes the token present in the browser and bounces user back to login screen if anything is wrong
     const fullIp = window.location.href.split("#id_token=");
@@ -333,7 +336,10 @@ function App() {
   }
 
   const checkUserActive = async () => {
-    AppHelper.TesterConsoleLog("checking if user is active");
+    AppHelper.TesterConsoleLog(
+      featureTestingMode,
+      "checking if user is active"
+    );
 
     //this checks if our user is 'active' in our database - the user is active only after providing the serial number on device.
     //If user is not active, bounces to access code check screen.
@@ -360,7 +366,7 @@ function App() {
   };
 
   const checkTesterUser = async () => {
-    AppHelper.TesterConsoleLog("checkTesterUser");
+    AppHelper.TesterConsoleLog(featureTestingMode, "checkTesterUser");
 
     // this checks if our user is 'tester:true' in our database - should we be showing newest, untested features?
     const thisUserEmail = AppHelper.GetUserEmail();
@@ -378,6 +384,7 @@ function App() {
 
       setFeatureTestingMode(response.data === true);
       AppHelper.TesterConsoleLog(
+        featureTestingMode,
         response.data ? "tester mode active - logged in as tester user" : ""
       );
     } catch (error) {
@@ -421,7 +428,7 @@ function App() {
   }
 
   function activateUser(thisaccesscode) {
-    AppHelper.TesterConsoleLog("activateUser");
+    AppHelper.TesterConsoleLog(featureTestingMode, "activateUser");
 
     // this is used to activate the user - adds the user to the table containing 'active users'
     var thisUserEmail = AppHelper.GetUserEmail();
@@ -448,7 +455,7 @@ function App() {
 
   const AcquireUserHistory = async () => {
     // Acquire all existing User activity (done once at every login)
-    AppHelper.TesterConsoleLog("AcquireUserHistory");
+    AppHelper.TesterConsoleLog(featureTestingMode, "AcquireUserHistory");
 
     var thisUserEmail = AppHelper.GetUserEmail();
 
@@ -462,7 +469,7 @@ function App() {
           email: thisUserEmail,
         },
       });
-      AppHelper.TesterConsoleLog("setUserActivityHistory");
+      AppHelper.TesterConsoleLog(featureTestingMode, "setUserActivityHistory");
 
       setUserActivityHistory(response.data);
     } catch (error) {
@@ -471,7 +478,10 @@ function App() {
   };
 
   function extractUserTrainingHistory(userActivityHistory) {
-    AppHelper.TesterConsoleLog("extractUserTrainingHistory");
+    AppHelper.TesterConsoleLog(
+      featureTestingMode,
+      "extractUserTrainingHistory"
+    );
 
     //takes all activity history for user and parses out only the 'scenariocompleted' logs - creates a local history of completed scenarios.
     let activityhistory = [];
@@ -486,14 +496,14 @@ function App() {
       ({ event }) => event === "login"
     );
     setFirstLoginDate(firstloginevent.date);
-    AppHelper.TesterConsoleLog(firstloginevent);
-    AppHelper.TesterConsoleLog("setUserTrainingHistory");
+    AppHelper.TesterConsoleLog(featureTestingMode, firstloginevent);
+    AppHelper.TesterConsoleLog(featureTestingMode, "setUserTrainingHistory");
     setUserTrainingHistory(activityhistory);
   }
 
   // loadContent Functions:
   function loadContent() {
-    AppHelper.TesterConsoleLog("loadContent");
+    AppHelper.TesterConsoleLog(featureTestingMode, "loadContent");
 
     if (localizationData === null) {
       getLocalization();
@@ -513,7 +523,7 @@ function App() {
   }
 
   function getLocalization() {
-    AppHelper.TesterConsoleLog("getLocalization");
+    AppHelper.TesterConsoleLog(featureTestingMode, "getLocalization");
 
     //this fetches the localization data and then sends it over to be parsed out for selected language:
     fetch(
@@ -535,27 +545,26 @@ function App() {
   }
 
   function extractLocalizationData(myJson, selectedLanguage) {
-    AppHelper.TesterConsoleLog("extractLocalizationData");
+    AppHelper.TesterConsoleLog(featureTestingMode, "extractLocalizationData");
 
     // this parses out all localization for selected language:
     var extractedLocalization = {};
     var localizationPages = Object.entries(myJson);
 
-    localizationPages.forEach((localizationPage) => {
-      const localizationPageName = localizationPage[0];
-      const localizationPageObject = Object.entries(localizationPage[1]);
-
-      const extractedLocalizationPage = {};
-      localizationPageObject.forEach((localizationPageObjectName) => {
-        const localizationPageObjectText = localizationPageObjectName[1].text;
-        const localizationPageObjectTextLanguage =
+    for (let i = 0; i < localizationPages.length; i++) {
+      var localizationPageName = localizationPages[i][0];
+      var localizationPageObject = Object.entries(localizationPages[i][1]);
+      var extractedLocalizationPage = {};
+      for (let a = 0; a < localizationPageObject.length; a++) {
+        var localizationPageObjectName = localizationPageObject[a][0];
+        var localizationPageObjectText = localizationPageObject[a][1].text;
+        var localizationPageObjectTextLanguage =
           localizationPageObjectText[selectedLanguage];
-
         extractedLocalizationPage[localizationPageObjectName] =
           localizationPageObjectTextLanguage;
-      });
+      }
       extractedLocalization[localizationPageName] = extractedLocalizationPage;
-    });
+    }
     extractedLocalization["language"] = selectedLanguage;
     setLocalizationData(extractedLocalization);
   }
@@ -598,7 +607,7 @@ function App() {
   }
 
   function getCourses() {
-    AppHelper.TesterConsoleLog("getCourses");
+    AppHelper.TesterConsoleLog(featureTestingMode, "getCourses");
 
     // fetches all courses from json. upon success sets the course data and displays the first course:
     if (courses === null) {
