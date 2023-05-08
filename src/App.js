@@ -277,6 +277,7 @@ function App() {
       }
 
       if (tokenConfirmed && accessCodePrompt === null) {
+        AppHelper.LogEvent("login");
         AppHelper.TesterConsoleLog(featureTestingMode, "checkUserActive");
         checkUserActive();
       }
@@ -492,11 +493,22 @@ function App() {
     }
 
     // this finds the first occurence of a 'login' event and notes it down.
+    // sometimes new users don't have a 'login' event, we had a bug in which they couldn't move on because firstloginevent.date was messed up.
+    // So now it assigns a firstlogin event, if it is undefined it bounces user back to login screen. Better fix later.
     const firstloginevent = userActivityHistory.find(
       ({ event }) => event === "login"
     );
-    setFirstLoginDate(firstloginevent.date);
-    AppHelper.TesterConsoleLog(featureTestingMode, firstloginevent);
+
+    if (firstloginevent === undefined) {
+      console.log("persisting problems with setting that login event");
+      setFirstLoginDate(new Date().toString());
+    } else {
+      setFirstLoginDate(firstloginevent.date);
+      AppHelper.TesterConsoleLog(featureTestingMode, firstloginevent);
+    }
+
+    // after success with assigning firstLoginDate we return to setUserTrainingHistory
+
     AppHelper.TesterConsoleLog(featureTestingMode, "setUserTrainingHistory");
     setUserTrainingHistory(activityhistory);
   }
